@@ -1,0 +1,32 @@
+baseURL = 'https://pirate.baby/'
+languageCode = 'en-us'
+title = 'the Pirate Baby'
+theme = 'PaperMod'
+paginate = 5
+enableInlineShortcodes = true
+enableRobotsTXT = true
+enableEmoji = true
+pygmentsUseClasses = true
+#googleAnalytics = 'G-QYLKP2XXPB'
+
+[outputs]
+  home = ['HTML','RSS', 'JSON']
+
+[params]
+  env = 'production'
+  hideSummary = true
+  description = 'Thoughts from Ethan Knox'
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  displayFullLangName = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowAllPagesInArchive = true
+  ShowPageNums = true
+  ShowToc = false
+
+[params.label]
+  icon = "/piratebaby.png"
+  iconHeight = 40
