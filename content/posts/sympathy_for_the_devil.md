@@ -1,8 +1,9 @@
 ---
-title: "Sympathy For The Devil: Ebenezer Scrooge"
+title: "Sympathy For The Devil: The Wisdom Of Ebenezer Scrooge"
 date: 2023-12-25
 draft: true
 ---
+Every year around this time we are 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MzE3MzE0MV19
+eyJoaXN0b3J5IjpbNzIyMDExNF19
 -->
