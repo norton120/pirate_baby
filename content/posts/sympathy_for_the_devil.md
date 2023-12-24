@@ -3,7 +3,7 @@ title: "Sympathy For The Devil: The Wisdom Of Ebenezer Scrooge"
 date: 2023-12-25
 draft: true
 ---
-About this time every year it is obligatory for most to consume at least a few adaptions of Charles Dickens' classic "A Christmas Carol" 
+Every year around this time, it is obligatory for most of us to consume at least a few adaptions of Charles Dickens' 1843 classic "A Christmas Carol." Weather it is a  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NjcxMDU2M119
+eyJoaXN0b3J5IjpbLTExMTczNzczMzZdfQ==
 -->
