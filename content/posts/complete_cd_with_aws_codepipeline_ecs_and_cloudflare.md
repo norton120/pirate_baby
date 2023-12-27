@@ -58,10 +58,10 @@ curl https://gist.githubusercontent.com/norton120/61e9a94f035da8202ab74e41e17050
 This is a whole other topic in itself, so I'll stick to the assumptions made with this current set of files and let you sort out what changes you may want to make:
 
 - One dockerfile, named `Dockerfile`, contains all the image definitions for your deployment. 
-- Each image to be deployed is targeted
+- Each image to be deployed is targeted with the same name as the service you are deploying, i.e. the `api` image definition in your `Dockerfile` is defined as `FROM some-image:tag as api`. If 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5Mjc3NTM3MiwtMTM3MTYxNzU1NCwtMT
-U1NTc1MzA5MiwtMTE0NTY3NjgzLDE1OTcyODc3ODMsMjAwNzYw
-ODg0MywtODUwMTkxMDE5XX0=
+eyJoaXN0b3J5IjpbLTEyNTA4NTA2ODEsLTEzNzE2MTc1NTQsLT
+E1NTU3NTMwOTIsLTExNDU2NzY4MywxNTk3Mjg3NzgzLDIwMDc2
+MDg4NDMsLTg1MDE5MTAxOV19
 -->
