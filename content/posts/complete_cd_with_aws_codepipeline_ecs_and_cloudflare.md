@@ -103,7 +103,8 @@ Rinse and repeat for each of the services you are deploying. Remember that `bash
 We are going to keep all the envars in AWS SecretsManager. This removes secrets from our pipeline and repo code, and makes it less painful to update envars down the line. 
 - Start by navigating to SecretsManager and clicking "Store a new Secret"
 - select `other type of secret`
-- for each envar you need, set the 
+- set the key/value pairs. This should be in the format of `ENVAR_NAME` `value`. For example, if I want an envar `BASH_DOG_ENVIRONMENT` with a value of `production` it would look like this:
+
 
 6. #### Code Pipeline
 I find it is much easier not to get twisted into a dependency pretzel if we start our pipeline at the very end, with the CodePipeline itself. 
@@ -116,8 +117,8 @@ I find it is much easier not to get twisted into a dependency pretzel if we star
 - Leave all the other defaults alone and click _Next_.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjczNDAxMDUsLTkxNjQ4NjA3MSwxNz
-A0NDM3MjI3LDI4MDAzNzk1NSwtMTM3MTYxNzU1NCwtMTU1NTc1
-MzA5MiwtMTE0NTY3NjgzLDE1OTcyODc3ODMsMjAwNzYwODg0My
-wtODUwMTkxMDE5XX0=
+eyJoaXN0b3J5IjpbMzM0NTE0MjI2LC05MTY0ODYwNzEsMTcwND
+QzNzIyNywyODAwMzc5NTUsLTEzNzE2MTc1NTQsLTE1NTU3NTMw
+OTIsLTExNDU2NzY4MywxNTk3Mjg3NzgzLDIwMDc2MDg4NDMsLT
+g1MDE5MTAxOV19
 -->
