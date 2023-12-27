@@ -108,7 +108,7 @@ We are going to keep all the envars in AWS SecretsManager. This removes secrets 
 - name the secret something logical like `bash-dog/ecs-envars` and create it.
 - Once created, refresh the index page and click into the new secret so you can get the _whole_ new arn (complete with the random suffix). 
 - Head back to your `taskdef.json` file. See the `secrets` section in the api and sidecar containers? Update as follows:
-	- for each envar you defined (and want for the given container), repl
+	- for each envar you defined (and want for the given container), set a `name` key to match that envar (case sensitive). Then update the arn with the whole new arn you just copied, paying special attention to the suffix on the arn.
 
 6. #### Code Pipeline
 I find it is much easier not to get twisted into a dependency pretzel if we start our pipeline at the very end, with the CodePipeline itself. 
@@ -121,7 +121,7 @@ I find it is much easier not to get twisted into a dependency pretzel if we star
 - Leave all the other defaults alone and click _Next_.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODgyOTkzOCwtOTE2NDg2MDcxLDE3MD
+eyJoaXN0b3J5IjpbLTI2ODE1NzAzMSwtOTE2NDg2MDcxLDE3MD
 Q0MzcyMjcsMjgwMDM3OTU1LC0xMzcxNjE3NTU0LC0xNTU1NzUz
 MDkyLC0xMTQ1Njc2ODMsMTU5NzI4Nzc4MywyMDA3NjA4ODQzLC
 04NTAxOTEwMTldfQ==
