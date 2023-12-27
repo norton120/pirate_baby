@@ -10,7 +10,7 @@ To my surprise, nothing worked. Deploying CD for a very standard stack (details 
 Maybe I have gotten too comfortable with infra as code, or maybe ECS and CodePipeline have gotten significantly more brittle in the last year. Maybe this is the multiverse where AWS services are much, much worse and I am a lost traveler. Whatever the reason, I decided that once this project was successfully deployed I would codify the process, in detail, as a guide for others (and my future self). This is that guide.
 
 ## How To Guide: 
-We are setting up a blue/green deployment of a containerized application. The appliauses docker-compose locally 
+We are setting up a blue/green deployment of a containerized application. The application uses docker-compose locally with one application container, one db container, a sidecar container (in our case logging, but can be anything) and an nginx container to serve web content. In  
 
 
 {{< box warning >}} 
@@ -30,6 +30,6 @@ Our pipeline needs 3 files placed in the root directory of your project.
 The `taskdef.json` which should look 
 2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MjU5Mjc2MCwxNTk3Mjg3NzgzLDIwMD
-c2MDg4NDMsLTg1MDE5MTAxOV19
+eyJoaXN0b3J5IjpbNDQyNzI3NDgsMTU5NzI4Nzc4MywyMDA3Nj
+A4ODQzLC04NTAxOTEwMTldfQ==
 -->
