@@ -63,7 +63,7 @@ This is a whole other topic in itself, so I'll stick to the assumptions made wit
 - Each service (i.e. container) runs on a different port. The `awsvpc` network addresses each of your containers via localhost (not the assigned container name!) so your containers cannot have port collisions.
 - Only nginx will be exposed to the load balancer. Your nginx image needs to have an `nginx.conf` that routes traffic to all the other containers in your stack.
 - Kinda goes without saying, but your nginx container should get port 80. We will be encrypting traffic from the load balancer to CloudFlare via origin cert (CloudFlare will handle client encryption), and restricting direct access to the container. 
-Once you are satisfied that your repo is ready to be deployed, push
+Once you are satisfied that your repo is ready to be deployed, push all this code your main branch (we'll say `main` from here on but it could be `master` or `edge` or whatever you use).
 
 3. #### ECR Images
 This whole build process centers around container images stored in Elastic Container Registry (ECR). Navigate to ECR in the AWS GUI and click "Get Started" under "Create a Repository." 
@@ -101,8 +101,8 @@ Rinse and repeat for each of the services you are deploying. Remember that `bash
 I find it is much easier not to get twisted into a dependency pretzel if we start our pipeline at the very end, with the CodePipeline itself. 
 Navigate to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NDY5NzY3NiwxNzA0NDM3MjI3LDI4MD
-AzNzk1NSwtMTM3MTYxNzU1NCwtMTU1NTc1MzA5MiwtMTE0NTY3
-NjgzLDE1OTcyODc3ODMsMjAwNzYwODg0MywtODUwMTkxMDE5XX
-0=
+eyJoaXN0b3J5IjpbLTE3MzYyNzg0NzgsMTcwNDQzNzIyNywyOD
+AwMzc5NTUsLTEzNzE2MTc1NTQsLTE1NTU3NTMwOTIsLTExNDU2
+NzY4MywxNTk3Mjg3NzgzLDIwMDc2MDg4NDMsLTg1MDE5MTAxOV
+19
 -->
