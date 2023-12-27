@@ -10,6 +10,8 @@ To my surprise, nothing worked. Deploying CD for a very standard stack (details 
 Maybe I have gotten too comfortable with infra as code, or maybe ECS and CodePipeline have gotten significantly more brittle in the last year. Maybe this is the multiverse where AWS services are much, much worse and I am a lost traveler. Whatever the reason, I decided that once this project was successfully deployed I would codify the process, in detail, as a guide for others (and my future self). This is that guide.
 
 ## How To Guide: 
+We are setting up a blue/green deployment of a containerized application. The appliauses docker-compose locally 
+
 
 {{< box warning >}} 
 **Do not skim this guide!** If you are like me, you normally skim over these things, copy the code examples, and refer back when you hit errors. **Don't do that.** The ClickOps process here is like a ritual dance, missing one tiny step will anger the AWS gods and _you will have to start over from the beginning._ Suck it up and read the whole thing, and follow exactly step by step, or pain will follow.
@@ -28,6 +30,6 @@ Our pipeline needs 3 files placed in the root directory of your project.
 The `taskdef.json` which should look 
 2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NzI4Nzc4MywyMDA3NjA4ODQzLC04NT
-AxOTEwMTldfQ==
+eyJoaXN0b3J5IjpbMTY5MjU5Mjc2MCwxNTk3Mjg3NzgzLDIwMD
+c2MDg4NDMsLTg1MDE5MTAxOV19
 -->
