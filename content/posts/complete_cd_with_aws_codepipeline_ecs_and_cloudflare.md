@@ -83,10 +83,14 @@ $(docker run \
 --rm amazon/aws-cli ecr get-login-password) \
 123456789012.dkr.ecr.us-east-2.amazonaws.com/bash-dog-api
 ```
-_note_: this is using identity manager temporary creds, you use whatever strategy you like for authenticating the aws-cli container
+_note_: this is using identity manager temporary creds. Use whatever strategy you prefer for authenticating the aws-cli container. 
+Now build and tag your image:
+```
+docker build . -t  123456789012.dkr.ecr.us-east-2.amazonaws.com/bash-dog-api --target api
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNDUxNzgsMTcwNDQzNzIyNywyODAwMz
-c5NTUsLTEzNzE2MTc1NTQsLTE1NTU3NTMwOTIsLTExNDU2NzY4
-MywxNTk3Mjg3NzgzLDIwMDc2MDg4NDMsLTg1MDE5MTAxOV19
+eyJoaXN0b3J5IjpbMjcyOTUyNDYwLDE3MDQ0MzcyMjcsMjgwMD
+M3OTU1LC0xMzcxNjE3NTU0LC0xNTU1NzUzMDkyLC0xMTQ1Njc2
+ODMsMTU5NzI4Nzc4MywyMDA3NjA4ODQzLC04NTAxOTEwMTldfQ
+==
 -->
