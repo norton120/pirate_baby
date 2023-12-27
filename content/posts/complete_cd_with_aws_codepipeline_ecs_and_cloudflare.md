@@ -105,10 +105,12 @@ I find it is much easier not to get twisted into a dependency pretzel if we star
 - Name your new pipeline something sensible like `bash-dog-pipeline`.  
 - Create a new service role, name it something sensible like `bash-dog-pipeline-role`.   :monocle_face: Leave "_Allow AWS CodePipeline to create a service role so it can be used with this new pipeline_" checked. (don't try to re-use an existing service role, or hand-roll your own... role. You will hate yourself if you do either of these things, and it just won't work). 
 - Leave all the other defaults alone and click _Next_.
-- 
+- In the next screen select `Github (Version 2)`. Follow the prompts to create a new Github Connection, and select your repository.
+- For _
+- Leave all the other defaults alone and click _Next_.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzcwNDUyMzQsMTcwNDQzNzIyNywyOD
+eyJoaXN0b3J5IjpbLTE1NDk4MzU0MTcsMTcwNDQzNzIyNywyOD
 AwMzc5NTUsLTEzNzE2MTc1NTQsLTE1NTU3NTMwOTIsLTExNDU2
 NzY4MywxNTk3Mjg3NzgzLDIwMDc2MDg4NDMsLTg1MDE5MTAxOV
 19
