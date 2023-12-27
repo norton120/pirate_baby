@@ -55,9 +55,13 @@ curl https://gist.githubusercontent.com/norton120/61e9a94f035da8202ab74e41e17050
 curl https://gist.githubusercontent.com/norton120/61e9a94f035da8202ab74e41e1705087/raw/7ee3330bbbc33f3376cdc996a186cd0e90152e9a/buildspec.yml > buildspec.yml
 ```
 2. #### Making your project deploy-able
-This is a whole other topic in itself
+This is a whole other topic in itself, so I'll stick to the assumptions made with this current set of files and let you sort out what changes you may want to make:
+
+- One dockerfile, named `Dockerfile`, contains all the image definitions for your deployment. 
+- Each image to be deployed is targeted
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwNjA3NDcxLC0xMzcxNjE3NTU0LC0xNT
-U1NzUzMDkyLC0xMTQ1Njc2ODMsMTU5NzI4Nzc4MywyMDA3NjA4
-ODQzLC04NTAxOTEwMTldfQ==
+eyJoaXN0b3J5IjpbMTI5Mjc3NTM3MiwtMTM3MTYxNzU1NCwtMT
+U1NTc1MzA5MiwtMTE0NTY3NjgzLDE1OTcyODc3ODMsMjAwNzYw
+ODg0MywtODUwMTkxMDE5XX0=
 -->
