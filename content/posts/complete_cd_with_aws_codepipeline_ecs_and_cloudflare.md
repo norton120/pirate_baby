@@ -1,7 +1,7 @@
 ---
 title: "A Complete Containerized CD Pipeline With AWS and Cloudflare for 2024"
 date: 2023-12-27
-draft: true
+draft: false
 ---
 Recently I went about standing up a fresh Continuous Delivery pipeline for a new project. The project is a relatively standard containerized stack with nothing exceptional to speak of, and as our exploratory work was already in AWS I decided to launch this CD in AWS CodePipeline. Furthermore, we wanted to dogfood our long-term infra management (this project is infra abstraction/automation software) and so opted _not_ to use to or CloudFormation templates - that way we could have a fully "Clickops'd" infrastructure for our tools to reclaim and manage. Besides, Clickops is easy right?
 
@@ -55,6 +55,6 @@ curl https://gist.githubusercontent.com/norton120/61e9a94f035da8202ab74e41e17050
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MTg3NTQxOSwtMTE0NTY3NjgzLDE1OT
-cyODc3ODMsMjAwNzYwODg0MywtODUwMTkxMDE5XX0=
+eyJoaXN0b3J5IjpbLTE1NTU3NTMwOTIsLTExNDU2NzY4MywxNT
+k3Mjg3NzgzLDIwMDc2MDg4NDMsLTg1MDE5MTAxOV19
 -->
