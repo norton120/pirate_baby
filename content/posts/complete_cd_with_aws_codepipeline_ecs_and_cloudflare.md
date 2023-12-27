@@ -14,6 +14,8 @@ Maybe I have gotten too comfortable with infra as code, or maybe ECS and CodePip
 {{< box warning >}} 
 **Do not skim this guide!** If you are like me, you normally skim over these things, copy the code examples, and refer back when you hit errors. **Don't do that.** The ClickOps process here is like a ritual dance, missing one tiny step will anger the AWS gods and _you will have to start over from the beginning._ Suck it up and read the whole thing, and follow exactly step by step, or pain will follow.
 {{< /box >}}
+
+1. Set up your repos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzUxNjQ1MjddfQ==
+eyJoaXN0b3J5IjpbLTg1MDE5MTAxOV19
 -->
