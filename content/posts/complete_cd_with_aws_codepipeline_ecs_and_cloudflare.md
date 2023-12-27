@@ -99,7 +99,10 @@ docker push 123456789012.dkr.ecr.us-east-2.amazonaws.com/bash-dog-api:latest
 ```
 Rinse and repeat for each of the services you are deploying. Remember that `bash-dog-nginx` is our image of nginx with a custom `nginx.conf` mounted that will serve the sibling containers.
 
-4. #### Code Pipeline
+4. #### Secrets
+5. 
+
+6. #### Code Pipeline
 I find it is much easier not to get twisted into a dependency pretzel if we start our pipeline at the very end, with the CodePipeline itself. 
 - Navigate to _CodePipeline -> CreatePipeline_. 
 - Name your new pipeline something sensible like `bash-dog-pipeline`.  
@@ -110,8 +113,8 @@ I find it is much easier not to get twisted into a dependency pretzel if we star
 - Leave all the other defaults alone and click _Next_.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNjQ4NjA3MSwxNzA0NDM3MjI3LDI4MD
-AzNzk1NSwtMTM3MTYxNzU1NCwtMTU1NTc1MzA5MiwtMTE0NTY3
-NjgzLDE1OTcyODc3ODMsMjAwNzYwODg0MywtODUwMTkxMDE5XX
-0=
+eyJoaXN0b3J5IjpbLTExODk3Mjc0OTcsLTkxNjQ4NjA3MSwxNz
+A0NDM3MjI3LDI4MDAzNzk1NSwtMTM3MTYxNzU1NCwtMTU1NTc1
+MzA5MiwtMTE0NTY3NjgzLDE1OTcyODc3ODMsMjAwNzYwODg0My
+wtODUwMTkxMDE5XX0=
 -->
