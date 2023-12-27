@@ -101,10 +101,12 @@ Rinse and repeat for each of the services you are deploying. Remember that `bash
 
 4. #### Code Pipeline
 I find it is much easier not to get twisted into a dependency pretzel if we start our pipeline at the very end, with the CodePipeline itself. 
-Navigate to CodePipeline -> Create 
+- Navigate to _CodePipeline -> CreatePipeline_. 
+- Name your new pipeline something sensible like `bash-dog-pipeline`.  
+- Create a new service role, name it something sensible li
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzAwNjg1MSwxNzA0NDM3MjI3LDI4MD
-AzNzk1NSwtMTM3MTYxNzU1NCwtMTU1NTc1MzA5MiwtMTE0NTY3
-NjgzLDE1OTcyODc3ODMsMjAwNzYwODg0MywtODUwMTkxMDE5XX
-0=
+eyJoaXN0b3J5IjpbNTU1NzUyMzgyLDE3MDQ0MzcyMjcsMjgwMD
+M3OTU1LC0xMzcxNjE3NTU0LC0xNTU1NzUzMDkyLC0xMTQ1Njc2
+ODMsMTU5NzI4Nzc4MywyMDA3NjA4ODQzLC04NTAxOTEwMTldfQ
+==
 -->
