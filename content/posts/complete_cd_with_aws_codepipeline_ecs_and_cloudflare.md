@@ -65,7 +65,7 @@ This is a whole other topic in itself, so I'll stick to the assumptions made wit
 - Each service (i.e. container) runs on a different port. The `awsvpc` network addresses each of your containers via localhost (not the assigned container name!) so your containers cannot have port collisions.
 - Only nginx will be exposed to the load balancer. Your nginx image needs to have an `nginx.conf` that routes traffic to all the other containers in your stack.
 - Kinda goes without saying, but your nginx container should get port 80. We will be encrypting traffic from the load balancer to CloudFlare via origin cert (CloudFlare will handle client encryption), and restricting direct access to the container. 
-Commit whatever changes you've made. For the duration of this deploy process it may save your sanity to turn off branch protection and deploy directly to main :scream: you are 
+Commit whatever changes you've made. For the duration of this deploy process it may save your sanity to turn off branch protection and deploy directly to main :scream:. Otherwise you will need to PR each tiny file tweak, and the PR process is basically valueless rubber-stamping in this case. 
 
 3. #### ECR Images
 This whole build process centers around container images stored in Elastic Container Registry (ECR). Navigate to ECR in the AWS GUI and click "Get Started" under "Create a Repository." 
@@ -101,10 +101,10 @@ Rinse and repeat for each of the services you are deploying. Remember that `bash
 
 4. #### Code Pipeline
 I find it is much easier not to get twisted into a dependency pretzel if we start our pipeline at the very end, with the CodePipeline itself. 
-Navigate to 
+Navigate to CodePipeline -> Create 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwMzY5Mzg1LDE3MDQ0MzcyMjcsMjgwMD
-M3OTU1LC0xMzcxNjE3NTU0LC0xNTU1NzUzMDkyLC0xMTQ1Njc2
-ODMsMTU5NzI4Nzc4MywyMDA3NjA4ODQzLC04NTAxOTEwMTldfQ
-==
+eyJoaXN0b3J5IjpbLTE1MzAwNjg1MSwxNzA0NDM3MjI3LDI4MD
+AzNzk1NSwtMTM3MTYxNzU1NCwtMTU1NTc1MzA5MiwtMTE0NTY3
+NjgzLDE1OTcyODc3ODMsMjAwNzYwODg0MywtODUwMTkxMDE5XX
+0=
 -->
