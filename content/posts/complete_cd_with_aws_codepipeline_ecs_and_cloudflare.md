@@ -75,10 +75,11 @@ You _shouldn't_ need to worry about docker hub rate limits, because our `buildsp
 {{< /box >}}
 Time to prime the pump: locally, log into your ECR registry with 
 ```
-docker login --username AWS --password $(docker run --rm amazon/aws-cli ecr get-login-password ) $REPO_URL
-
+docker login --username AWS --password \
+$(docker run -e AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY} -e AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID} -e AWS_SESSION_TOKEN=${AWS_SESSION_TOKEN} --rm amazon/aws-cli ecr get-login-password) $REPO_URL
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM5ODQ2ODAxLDE3MDQ0MzcyMjcsMjgwMD
+eyJoaXN0b3J5IjpbOTM1NTk5MDUwLDE3MDQ0MzcyMjcsMjgwMD
 M3OTU1LC0xMzcxNjE3NTU0LC0xNTU1NzUzMDkyLC0xMTQ1Njc2
 ODMsMTU5NzI4Nzc4MywyMDA3NjA4ODQzLC04NTAxOTEwMTldfQ
 ==
