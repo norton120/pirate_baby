@@ -65,10 +65,10 @@ This is a whole other topic in itself, so I'll stick to the assumptions made wit
 - Kinda goes without saying, but your nginx container should get port 80. We will be encrypting traffic from the load balancer to CloudFlare via origin cert (CloudFlare will handle client encryption), and restricting direct access to the container. 
 
 3. #### ECR Images
-This whole build process centers around container images stored in Elastic Container Registry (ECR). Navigate to ECR in the AWS GUI and click "Get Started" under "Create a Repository" or 
+This whole build process centers around container images stored in Elastic Container Registry (ECR). Navigate to ECR in the AWS GUI and click "Get Started" under "Create a Repository." Name the repository with your project and service, i.e.`bash-dog-api` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwOTM5OTI0NiwxNzA0NDM3MjI3LDI4MD
+eyJoaXN0b3J5IjpbLTk0Njg3MTU4OSwxNzA0NDM3MjI3LDI4MD
 AzNzk1NSwtMTM3MTYxNzU1NCwtMTU1NTc1MzA5MiwtMTE0NTY3
 NjgzLDE1OTcyODc3ODMsMjAwNzYwODg0MywtODUwMTkxMDE5XX
 0=
