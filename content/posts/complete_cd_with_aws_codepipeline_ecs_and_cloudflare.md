@@ -44,10 +44,12 @@ Our pipeline needs 3 files placed in the root directory of your project.
 
 Here are the files you should start with. I strongly suggest cloning them as-is and updating only the elements you need, like so: 
 ```
+cd bash-dog/ # your project root
 curl https://gist.githubusercontent.com/norton120/61e9a94f035da8202ab74e41e1705087/raw/9b253c5ba06b05cbe1f6038d65b8690ffe088bd5/appspec.yaml > appspec.yaml
-curl 
+curl https://gist.githubusercontent.com/norton120/61e9a94f035da8202ab74e41e1705087/raw/9b253c5ba06b05cbe1f6038d65b8690ffe088bd5/taskdef.json > taskdef.json
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk5MTc4NzkxLC0xMTQ1Njc2ODMsMTU5Nz
-I4Nzc4MywyMDA3NjA4ODQzLC04NTAxOTEwMTldfQ==
+eyJoaXN0b3J5IjpbLTE2MTQ4MzM3NzUsLTExNDU2NzY4MywxNT
+k3Mjg3NzgzLDIwMDc2MDg4NDMsLTg1MDE5MTAxOV19
 -->
