@@ -25,8 +25,9 @@ To minimize repetition I am going to use some shorthands:
 ### Steps
 1. #### Start your magic files.
 Our pipeline needs 3 files placed in the root directory of your project. 
+The `taskdef.json` which should look 
 2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDAzMjU1NzksMjAwNzYwODg0MywtOD
-UwMTkxMDE5XX0=
+eyJoaXN0b3J5IjpbMTU5NzI4Nzc4MywyMDA3NjA4ODQzLC04NT
+AxOTEwMTldfQ==
 -->
