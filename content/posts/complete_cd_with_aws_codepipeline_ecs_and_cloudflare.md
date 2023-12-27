@@ -3,7 +3,7 @@ title: "A Complete Containerized CD Pipeline With AWS and Cloudflare for 2024"
 date: 2023-12-27
 draft: true
 ---
-Recently I went about standing up a fresh Continuous Delivery pipeline for a new project. The project is a pretty standard containerized stack with nothing exceptional to speak of, and as most of our exploratory work was already in AWS I figured that would be our 
+Recently I went about standing up a fresh Continuous Delivery pipeline for a new project. The project is a pretty standard containerized stack with nothing exceptional to speak of, and as most of our exploratory work was already in AWS I figured that would be where I'd put our first CD pipeline (we are planning full multi-cloud in Q1). I have rolled out more than a few CodePipeline + ECS blue/green deploys in my time, and I
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTc4Mjk2OTJdfQ==
+eyJoaXN0b3J5IjpbMjAyOTcxMzk3XX0=
 -->
