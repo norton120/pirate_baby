@@ -17,10 +17,13 @@ Maybe I have gotten too comfortable with infra as code, or maybe ECS and CodePip
 
 ### Legend
 To minimize repetition I am going to use the following icons as shorthand:
-- :monocle_face: **Copy exactly.** I know, AWS docs or a tutorial might claim you can change the filename or specify the path somewhere; my experience has been that not all the configs are respected, and often the 
+- :monocle_face: **Copy exactly.** I know, AWS docs or a tutorial might claim you can change the filename or specify the path somewhere; my experience has been that not all the configs are respected, and often only the default paths/names actually work. If you choose to deviate, best of luck to you.
 
-1. Set up your repos
+### Steps
+1. #### Configure your magic files.
+The
+2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDU0NjMwNTYsMjAwNzYwODg0MywtOD
-UwMTkxMDE5XX0=
+eyJoaXN0b3J5IjpbOTQyMDg0MDQ3LDIwMDc2MDg4NDMsLTg1MD
+E5MTAxOV19
 -->
