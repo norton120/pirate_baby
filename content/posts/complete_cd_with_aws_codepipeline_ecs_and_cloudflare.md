@@ -81,12 +81,12 @@ $(docker run \
 -e AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID} \
 -e AWS_SESSION_TOKEN=${AWS_SESSION_TOKEN} \
 --rm amazon/aws-cli ecr get-login-password) \
-123456789012.dk
+123456789012.dkr.ecr.us-east-2.amazonaws.com/bash-dog-api
 ```
+_note_: this is using identity manager temporary creds, you use whatever strategy you like for authenticating the aws-cli container
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2ODAwOTk5OSwxNzA0NDM3MjI3LDI4MD
-AzNzk1NSwtMTM3MTYxNzU1NCwtMTU1NTc1MzA5MiwtMTE0NTY3
-NjgzLDE1OTcyODc3ODMsMjAwNzYwODg0MywtODUwMTkxMDE5XX
-0=
+eyJoaXN0b3J5IjpbMTYxNDUxNzgsMTcwNDQzNzIyNywyODAwMz
+c5NTUsLTEzNzE2MTc1NTQsLTE1NTU3NTMwOTIsLTExNDU2NzY4
+MywxNTk3Mjg3NzgzLDIwMDc2MDg4NDMsLTg1MDE5MTAxOV19
 -->
