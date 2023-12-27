@@ -60,9 +60,9 @@ This is a whole other topic in itself, so I'll stick to the assumptions made wit
 - One dockerfile, named `Dockerfile`, contains all the image definitions for your deployment. 
 - Each image to be deployed is targeted with the same name as the service you are deploying, i.e. the `api` image definition in your `Dockerfile` is defined as `FROM some-image:tag as api`. If this is foreign to you check out [Naming your Builds](https://docs.docker.com/build/building/multi-stage/#name-your-build-stages).
 - Your code builds environment-agnostic, that is, the same build runs locally as in production. Things like requirements files and entrypoints are managed via an environment variable and not a different set of build steps. 
-
+- Each service (i.e. container) runs on a different port. The `awsvpc` network addresses each of your containers via localhost (not the assigned container name!) so you can't have more than  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NzAwMzAwNiwtMTM3MTYxNzU1NCwtMT
+eyJoaXN0b3J5IjpbMTY3NTg2NjYyMCwtMTM3MTYxNzU1NCwtMT
 U1NTc1MzA5MiwtMTE0NTY3NjgzLDE1OTcyODc3ODMsMjAwNzYw
 ODg0MywtODUwMTkxMDE5XX0=
 -->
