@@ -86,10 +86,17 @@ $(docker run \
 _note_: this is using identity manager temporary creds. Use whatever strategy you prefer for authenticating the aws-cli container. 
 Now build and tag your image:
 ```
-docker build . -t  123456789012.dkr.ecr.us-east-2.amazonaws.com/bash-dog-api --target api
-
+docker build -f Dockerfile \
+-t  123456789012.dkr.ecr.us-east-2.amazonaws.com/bash-dog-api \
+--target api .
+```
+note the `--target` needs to match the target we are building. Once the build is successful, push it up
+```
+docker push 123456789012.dkr.ecr.us-east-2.amazonaws.com/bash-dog-api:latest
+```
+Rinse and repeat for each of the services you 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcyOTUyNDYwLDE3MDQ0MzcyMjcsMjgwMD
+eyJoaXN0b3J5IjpbMzk5OTI1MjE2LDE3MDQ0MzcyMjcsMjgwMD
 M3OTU1LC0xMzcxNjE3NTU0LC0xNTU1NzUzMDkyLC0xMTQ1Njc2
 ODMsMTU5NzI4Nzc4MywyMDA3NjA4ODQzLC04NTAxOTEwMTldfQ
 ==
