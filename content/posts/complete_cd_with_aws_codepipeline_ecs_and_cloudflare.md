@@ -22,7 +22,7 @@ We are setting up a blue/green deployment of a containerized application. The ap
 
 There are numerous security groups, IAM roles etc needed in combination to make this all work, along with support elements like ACM to store the CloudFlare origin cert that I won't directly call out here, but will be noted in the process.
 
-This deploy will only blue/green the core applia
+This deploy will only blue/green the core application container - this means if your sidecar(s) or nginx need to roll back 
   
 {{< box warning >}} 
 **Do not skim this guide!** If you are like me, you normally skim over these things, copy the code examples, and refer back when you hit errors. **Don't do that.** The ClickOps process here is like a ritual dance, missing one tiny step will anger the AWS gods and _you will have to start over from the beginning._ Suck it up and read the whole thing, and follow exactly step by step, or pain will follow.
@@ -41,6 +41,6 @@ Our pipeline needs 3 files placed in the root directory of your project.
 The `taskdef.json` which should look 
 2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwNzUwMTExLDE1OTcyODc3ODMsMjAwNz
-YwODg0MywtODUwMTkxMDE5XX0=
+eyJoaXN0b3J5IjpbLTExNDU2NzY4MywxNTk3Mjg3NzgzLDIwMD
+c2MDg4NDMsLTg1MDE5MTAxOV19
 -->
