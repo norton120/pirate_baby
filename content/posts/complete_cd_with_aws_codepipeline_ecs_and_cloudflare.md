@@ -16,14 +16,15 @@ Maybe I have gotten too comfortable with infra as code, or maybe ECS and CodePip
 {{< /box >}}
 
 ### Legend
-To minimize repetition I am going to use the following icons as shorthand:
-- :monocle_face: **Copy exactly.** I know, AWS docs or a tutorial might claim you can change the filename or specify the path somewhere; my experience has been that not all the configs are respected, and often only the default paths/names actually work. If you choose to deviate, best of luck to you.
-
+To minimize repetition I am going to use some shorthands:
+- The :monocle_face: icon means **Copy exactly.** I know, AWS docs or a tutorial might claim you can change the filename or specify the path somewhere; my experience has been that not all the configs are respected, and often only the default paths/names actually work. If you choose to deviate, best of luck to you.
+- The aws account number for the examples will be 
+- 
 ### Steps
 1. #### Start your magic files.
 Our pipeline needs 3 files placed in the root directory of your project. 
 2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1MzU5MjY2LDIwMDc2MDg4NDMsLTg1MD
-E5MTAxOV19
+eyJoaXN0b3J5IjpbLTg4ODA3Mzg0OSwyMDA3NjA4ODQzLC04NT
+AxOTEwMTldfQ==
 -->
