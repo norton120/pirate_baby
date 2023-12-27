@@ -38,9 +38,10 @@ To minimize repetition I am going to use some shorthands:
 ### Steps
 1. #### Start your magic files.
 Our pipeline needs 3 files placed in the root directory of your project. 
-The `taskdef.json` which should look 
-2. 
+- The `taskdef.json` behaves similar to a docker-compose.yml in ECS 
+- The `appspec.yaml` file which pulls together the CodeDeploy deploy 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjY1OTcyOTksLTExNDU2NzY4MywxNT
-k3Mjg3NzgzLDIwMDc2MDg4NDMsLTg1MDE5MTAxOV19
+eyJoaXN0b3J5IjpbLTM2MzM0OTIzNywtMTE0NTY3NjgzLDE1OT
+cyODc3ODMsMjAwNzYwODg0MywtODUwMTkxMDE5XX0=
 -->
