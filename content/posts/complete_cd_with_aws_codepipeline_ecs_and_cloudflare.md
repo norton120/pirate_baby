@@ -121,7 +121,8 @@ so setting our `BASH_DOG_ENVIRONMENT` envar in the api container would look like
     },
 ...
 ```
-remember that this arn will be the one you just created! 
+remember that this arn will be the one you just created, not the example arn above! 
+- Be sure to delete any example envars you _aren't_ using, they will cause the pipeline to error if the secret or key does not exist.  
 
 6. #### Code Pipeline
 I find it is much easier not to get twisted into a dependency pretzel if we start our pipeline at the very end, with the CodePipeline itself. 
@@ -134,7 +135,7 @@ I find it is much easier not to get twisted into a dependency pretzel if we star
 - Leave all the other defaults alone and click _Next_.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTkwOTYwMTIsLTkxNjQ4NjA3MSwxNz
+eyJoaXN0b3J5IjpbLTE4NjExNzE5NDQsLTkxNjQ4NjA3MSwxNz
 A0NDM3MjI3LDI4MDAzNzk1NSwtMTM3MTYxNzU1NCwtMTU1NTc1
 MzA5MiwtMTE0NTY3NjgzLDE1OTcyODc3ODMsMjAwNzYwODg0My
 wtODUwMTkxMDE5XX0=
