@@ -39,7 +39,7 @@ To minimize repetition I am going to use some shorthands:
 1. #### Start your magic files.
 Our pipeline needs 3 files placed in the root directory of your project. 
 - The `taskdef.json` behaves similar to a docker-compose.yml in ECS 
-- The `appspec.yaml` file which pulls together the CodeDeploy deployment (_Note_: `appspec.yaml` is the correct, and AFAIK only working naming convention for this file). 
+- :monocle_face: The `appspec.yaml` file which pulls together the CodeDeploy deployment (_Note_: `appspec.yaml` is the correct, and AFAIK only working naming convention for this file). 
 - The `buildspec.yml`file which is similar to any CI actions file you may have used, it is basically a list of bash commands run in a "builder" context.
 also note that `buildspec.yml` and `appspec.yaml` have different filetype suffixes. Yay. 
 
@@ -47,7 +47,7 @@ Here are the files you should start with.
 
 {{< gist norton120 61e9a94f035da8202ab74e41e1705087 >}}
 
-I strongly suggest cloning them as-is and updating only the elements you need, like so: 
+I strongly suggest cloning them as-is and updating only the elements as you follow along. To quick copy them to your project root (where they must live): 
 ```
 cd bash-dog/ # your project root
 curl https://gist.githubusercontent.com/norton120/61e9a94f035da8202ab74e41e1705087/raw/9b253c5ba06b05cbe1f6038d65b8690ffe088bd5/appspec.yaml > appspec.yaml
@@ -56,7 +56,7 @@ curl https://gist.githubusercontent.com/norton120/61e9a94f035da8202ab74e41e17050
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzE2MTc1NTQsLTE1NTU3NTMwOTIsLT
-ExNDU2NzY4MywxNTk3Mjg3NzgzLDIwMDc2MDg4NDMsLTg1MDE5
-MTAxOV19
+eyJoaXN0b3J5IjpbLTg0OTM1MDQ3NywtMTM3MTYxNzU1NCwtMT
+U1NTc1MzA5MiwtMTE0NTY3NjgzLDE1OTcyODc3ODMsMjAwNzYw
+ODg0MywtODUwMTkxMDE5XX0=
 -->
