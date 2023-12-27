@@ -13,6 +13,11 @@ Maybe I have gotten too comfortable with infra as code, or maybe ECS and CodePip
 We are setting up a blue/green deployment of a containerized application. The application uses docker-compose locally with one application container, one db container, a sidecar container (in our case logging, but can be anything) and an nginx container to serve web content. In AWS our stack will be:
 
 - CodePipeline to manage our blue/green deployment via CodeBuild and CodeDeploy
+- A single ECS service running on Fargate
+- A single Elastic Load Balencer
+- ECR for storing our container images
+- SecretsManager for managing our environment variables
+- Github as our source code provider
   
 
 
@@ -33,6 +38,6 @@ Our pipeline needs 3 files placed in the root directory of your project.
 The `taskdef.json` which should look 
 2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3OTE3NDAwNywxNTk3Mjg3NzgzLDIwMD
+eyJoaXN0b3J5IjpbLTg1NDY1NTU0OCwxNTk3Mjg3NzgzLDIwMD
 c2MDg4NDMsLTg1MDE5MTAxOV19
 -->
