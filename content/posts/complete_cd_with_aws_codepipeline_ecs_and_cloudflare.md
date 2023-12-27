@@ -9,10 +9,11 @@ To my surprise, nothing worked. Deploying CD for a very standard stack (details 
 
 Maybe I have gotten too comfortable with infra as code, or maybe ECS and CodePipeline have gotten significantly more brittle in the last year. Maybe this is the multiverse where AWS services are much, much worse and I am a lost traveler. Whatever the reason, I decided that once this project was successfully deployed I would codify the process, in detail, as a guide for others (and my future self). This is that guide.
 
-## The 
+## How To Guide: 
+
 {{< box warning >}} 
-**Don't skim this guide!** If you are like me, you'll 
+**Do n't skim this guide!** If you are like me, you normally skim over these things, copy the code examples, and refer back when you hit errors. **Don't do that.** 
 {{< /box >}}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjI0ODA4ODJdfQ==
+eyJoaXN0b3J5IjpbMjA3MTI1MTEwMl19
 -->
