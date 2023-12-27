@@ -104,6 +104,7 @@ We are going to keep all the envars in AWS SecretsManager. This removes secrets 
 - Start by navigating to SecretsManager and clicking "Store a new Secret"
 - select `other type of secret`
 - set the key/value pairs. This should be in the format of `ENVAR_NAME` `value`. For example, if I want an envar `BASH_DOG_ENVIRONMENT` with a value of `production` it would look like this:
+![secrets manager](/secretsmanager.png)
 
 
 6. #### Code Pipeline
@@ -117,7 +118,7 @@ I find it is much easier not to get twisted into a dependency pretzel if we star
 - Leave all the other defaults alone and click _Next_.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM0NTE0MjI2LC05MTY0ODYwNzEsMTcwND
+eyJoaXN0b3J5IjpbMjAxMTU2OTk2LC05MTY0ODYwNzEsMTcwND
 QzNzIyNywyODAwMzc5NTUsLTEzNzE2MTc1NTQsLTE1NTU3NTMw
 OTIsLTExNDU2NzY4MywxNTk3Mjg3NzgzLDIwMDc2MDg4NDMsLT
 g1MDE5MTAxOV19
