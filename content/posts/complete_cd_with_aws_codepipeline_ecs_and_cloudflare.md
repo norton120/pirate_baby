@@ -16,9 +16,10 @@ Maybe I have gotten too comfortable with infra as code, or maybe ECS and CodePip
 {{< /box >}}
 
 ### Legend
-To dry up this already massive guide, I will use a few 
+To minimize repetition I am going to use the following icons as shorthand:
+:
 
 1. Set up your repos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNjQ5MjMsLTg1MDE5MTAxOV19
+eyJoaXN0b3J5IjpbMjAwNzYwODg0MywtODUwMTkxMDE5XX0=
 -->
