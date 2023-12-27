@@ -71,11 +71,11 @@ Name the repository with your project and service, i.e.`bash-dog-api`
 ![name your repo](/repo_name.png)
 :monocle_face: leave the defaults as they are. You need mutability to retag `latest`. Repeat for each of your services.
 {{< box info >}} 
-You _shouldn't_ need to worry about docker hub rate limits, because our `buildspec.yml` preloads your existing image 
+You _shouldn't_ need to worry about docker hub rate limits, because our `buildspec.yml` preloads your existing image as part of the pre-build, so CodeBuild will only pull from docker hub the first time you build. If this does become an issue for some reason (you start getting failed builds because of dockerhub limits for images like `niginx` and `python`
 {{< /box >}}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MjE5MTgxMywxNzA0NDM3MjI3LDI4MD
+eyJoaXN0b3J5IjpbLTE0NDA1MjM5MSwxNzA0NDM3MjI3LDI4MD
 AzNzk1NSwtMTM3MTYxNzU1NCwtMTU1NTc1MzA5MiwtMTE0NTY3
 NjgzLDE1OTcyODc3ODMsMjAwNzYwODg0MywtODUwMTkxMDE5XX
 0=
