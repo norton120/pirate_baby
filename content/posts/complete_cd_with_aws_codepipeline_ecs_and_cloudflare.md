@@ -18,13 +18,15 @@ Maybe I have gotten too comfortable with infra as code, or maybe ECS and CodePip
 ### Legend
 To minimize repetition I am going to use some shorthands:
 - The :monocle_face: icon means **Copy exactly.** I know, AWS docs or a tutorial might claim you can change the filename or specify the path somewhere; my experience has been that not all the configs are respected, and often only the default paths/names actually work. If you choose to deviate, best of luck to you.
-- The aws account number for the examples will be `123456789012`. 
-- The project name will be 
+- The aws account number for the examples will be `123456789012`. You can find-replace with your account. 
+- The project name will be `bash-dog`.  You can find-replace with your project name.
+- The AWS region will be `us-east-2`. You can find-replace with your default region. 
+
 ### Steps
 1. #### Start your magic files.
 Our pipeline needs 3 files placed in the root directory of your project. 
 2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNTQ4NDA1NSwyMDA3NjA4ODQzLC04NT
-AxOTEwMTldfQ==
+eyJoaXN0b3J5IjpbLTIwNDAzMjU1NzksMjAwNzYwODg0MywtOD
+UwMTkxMDE5XX0=
 -->
