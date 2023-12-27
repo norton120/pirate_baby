@@ -63,8 +63,12 @@ This is a whole other topic in itself, so I'll stick to the assumptions made wit
 - Each service (i.e. container) runs on a different port. The `awsvpc` network addresses each of your containers via localhost (not the assigned container name!) so your containers cannot have port collisions.
 - Only nginx will be exposed to the load balancer. Your nginx image needs to have an `nginx.conf` that routes traffic to all the other containers in your stack.
 - Kinda goes without saying, but your nginx container should get port 80. We will be encrypting traffic from the load balancer to CloudFlare via origin cert (CloudFlare will handle client encryption), and restricting direct access to the container. 
+
+3. #### ECR Images
+This whole build process centers around container images stored in Elastic Container Registry (ECR). 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgwMDM3OTU1LC0xMzcxNjE3NTU0LC0xNT
-U1NzUzMDkyLC0xMTQ1Njc2ODMsMTU5NzI4Nzc4MywyMDA3NjA4
-ODQzLC04NTAxOTEwMTldfQ==
+eyJoaXN0b3J5IjpbLTE4NzU0NzIwMzgsMjgwMDM3OTU1LC0xMz
+cxNjE3NTU0LC0xNTU1NzUzMDkyLC0xMTQ1Njc2ODMsMTU5NzI4
+Nzc4MywyMDA3NjA4ODQzLC04NTAxOTEwMTldfQ==
 -->
