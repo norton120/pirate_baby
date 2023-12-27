@@ -44,7 +44,7 @@ Our pipeline needs 3 files placed in the root directory of your project.
 
 Here are the files you should start with. 
 
-{{< gist norton120 50a7482715eac222e230d1e64dd9a89b >}}
+{{< gist norton120 61e9a94f035da8202ab74e41e1705087 >}}
 
 I strongly suggest cloning them as-is and updating only the elements you need, like so: 
 ```
@@ -55,6 +55,6 @@ curl https://gist.githubusercontent.com/norton120/61e9a94f035da8202ab74e41e17050
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MDMyMDUxMiwtMTE0NTY3NjgzLDE1OT
+eyJoaXN0b3J5IjpbMTc4MTg3NTQxOSwtMTE0NTY3NjgzLDE1OT
 cyODc3ODMsMjAwNzYwODg0MywtODUwMTkxMDE5XX0=
 -->
