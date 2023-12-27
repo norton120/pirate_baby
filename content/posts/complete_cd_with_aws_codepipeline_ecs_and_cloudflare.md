@@ -106,7 +106,9 @@ We are going to keep all the envars in AWS SecretsManager. This removes secrets 
 - set the key/value pairs. This should be in the format of `ENVAR_NAME` `value`. For example, if I want an envar `BASH_DOG_ENVIRONMENT` with a value of `production` it would look like this:
 ![secrets manager](/secretsmanager.png)
 - name the secret something logical like `bash-dog/ecs-envars` and create it.
-- Once created, refresh the index page and click into the new secret soso you can get the _whole_ new secret name (complete with the random suffix). 
+- Once created, refresh the index page and click into the new secret so you can get the _whole_ new arn (complete with the random suffix). 
+- Head back to your `taskdef.json` file. See the `secrets` section in the api and sidecar containers? Update as follows:
+	- 
 
 6. #### Code Pipeline
 I find it is much easier not to get twisted into a dependency pretzel if we start our pipeline at the very end, with the CodePipeline itself. 
@@ -119,7 +121,7 @@ I find it is much easier not to get twisted into a dependency pretzel if we star
 - Leave all the other defaults alone and click _Next_.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDQyMzY2OTIsLTkxNjQ4NjA3MSwxNz
+eyJoaXN0b3J5IjpbLTEyNjcwNzA2MDMsLTkxNjQ4NjA3MSwxNz
 A0NDM3MjI3LDI4MDAzNzk1NSwtMTM3MTYxNzU1NCwtMTU1NTc1
 MzA5MiwtMTE0NTY3NjgzLDE1OTcyODc3ODMsMjAwNzYwODg0My
 wtODUwMTkxMDE5XX0=
