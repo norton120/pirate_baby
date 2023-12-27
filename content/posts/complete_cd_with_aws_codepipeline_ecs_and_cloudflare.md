@@ -115,7 +115,13 @@ so setting our `BASH_DOG_ENVIRONMENT` envar in the api container would look like
 ...
 "name": "bash-dog-api",
 "secrets": [
-	
+	{
+     "name":"BASH_DOG_ENVIRONMENT",
+     "valueFrom":"arn:aws:secretsmanager:us-east-2:123456789012:secret:bash-dog/ecs-envars-PlIIOb:BASH_DOG_URL::"
+    },
+...
+```
+remember that this arn will be the one you just created! 
 
 6. #### Code Pipeline
 I find it is much easier not to get twisted into a dependency pretzel if we start our pipeline at the very end, with the CodePipeline itself. 
@@ -128,7 +134,7 @@ I find it is much easier not to get twisted into a dependency pretzel if we star
 - Leave all the other defaults alone and click _Next_.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzg1MDI0NTUsLTkxNjQ4NjA3MSwxNz
+eyJoaXN0b3J5IjpbLTE1NTkwOTYwMTIsLTkxNjQ4NjA3MSwxNz
 A0NDM3MjI3LDI4MDAzNzk1NSwtMTM3MTYxNzU1NCwtMTU1NTc1
 MzA5MiwtMTE0NTY3NjgzLDE1OTcyODc3ODMsMjAwNzYwODg0My
 wtODUwMTkxMDE5XX0=
