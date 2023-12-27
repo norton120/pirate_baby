@@ -17,9 +17,10 @@ Maybe I have gotten too comfortable with infra as code, or maybe ECS and CodePip
 
 ### Legend
 To minimize repetition I am going to use the following icons as shorthand:
-:
+- :monocle_face: **Copy exactly.** I know, AWS docs might say you can change the filename or specify the path somewhere
 
 1. Set up your repos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNzYwODg0MywtODUwMTkxMDE5XX0=
+eyJoaXN0b3J5IjpbMTQ4MTczMDYxMiwyMDA3NjA4ODQzLC04NT
+AxOTEwMTldfQ==
 -->
