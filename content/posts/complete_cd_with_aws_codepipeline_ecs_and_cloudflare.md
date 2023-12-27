@@ -54,6 +54,8 @@ curl https://gist.githubusercontent.com/norton120/61e9a94f035da8202ab74e41e17050
 curl https://gist.githubusercontent.com/norton120/61e9a94f035da8202ab74e41e1705087/raw/9b253c5ba06b05cbe1f6038d65b8690ffe088bd5/taskdef.json > taskdef.json
 curl https://gist.githubusercontent.com/norton120/61e9a94f035da8202ab74e41e1705087/raw/7ee3330bbbc33f3376cdc996a186cd0e90152e9a/buildspec.yml > buildspec.yml
 ```
+Commit these files to your codebase. 
+
 2. #### Making your project deploy-able
 This is a whole other topic in itself, so I'll stick to the assumptions made with this current set of files and let you sort out what changes you may want to make:
 
@@ -63,8 +65,7 @@ This is a whole other topic in itself, so I'll stick to the assumptions made wit
 - Each service (i.e. container) runs on a different port. The `awsvpc` network addresses each of your containers via localhost (not the assigned container name!) so your containers cannot have port collisions.
 - Only nginx will be exposed to the load balancer. Your nginx image needs to have an `nginx.conf` that routes traffic to all the other containers in your stack.
 - Kinda goes without saying, but your nginx container should get port 80. We will be encrypting traffic from the load balancer to CloudFlare via origin cert (CloudFlare will handle client encryption), and restricting direct access to the container. 
-Once you are satisfied that your repo is ready to be deployed, push all this code your main branch (we'll say `main` from here on but it could be `master` or `edge` or whatever you use).
-
+Commit whatever changes you've made, trying to k
 3. #### ECR Images
 This whole build process centers around container images stored in Elastic Container Registry (ECR). Navigate to ECR in the AWS GUI and click "Get Started" under "Create a Repository." 
 ![get started](/create_repository.png)
@@ -101,7 +102,7 @@ Rinse and repeat for each of the services you are deploying. Remember that `bash
 I find it is much easier not to get twisted into a dependency pretzel if we start our pipeline at the very end, with the CodePipeline itself. 
 Navigate to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzYyNzg0NzgsMTcwNDQzNzIyNywyOD
+eyJoaXN0b3J5IjpbLTEyNDkyMzU2NzcsMTcwNDQzNzIyNywyOD
 AwMzc5NTUsLTEzNzE2MTc1NTQsLTE1NTU3NTMwOTIsLTExNDU2
 NzY4MywxNTk3Mjg3NzgzLDIwMDc2MDg4NDMsLTg1MDE5MTAxOV
 19
