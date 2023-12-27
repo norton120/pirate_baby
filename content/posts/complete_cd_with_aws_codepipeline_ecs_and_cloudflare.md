@@ -103,10 +103,12 @@ Rinse and repeat for each of the services you are deploying. Remember that `bash
 I find it is much easier not to get twisted into a dependency pretzel if we start our pipeline at the very end, with the CodePipeline itself. 
 - Navigate to _CodePipeline -> CreatePipeline_. 
 - Name your new pipeline something sensible like `bash-dog-pipeline`.  
-- Create a new service role, name it something sensible like `bash-dog-pipeline-role`.   :monocle_face: Leave "_Allow AWS CodePipeline to create a service role so it can be used with this new pipeline_" checked. (don't try to re-use an existing service role, or hand-rol
+- Create a new service role, name it something sensible like `bash-dog-pipeline-role`.   :monocle_face: Leave "_Allow AWS CodePipeline to create a service role so it can be used with this new pipeline_" checked. (don't try to re-use an existing service role, or hand-roll your own... role. You will hate yourself if you do either of these things, and it just won't work). 
+- Leave all the other defaults alone and click _Next_.
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjIxNDM2NjksMTcwNDQzNzIyNywyOD
+eyJoaXN0b3J5IjpbLTE1MzcwNDUyMzQsMTcwNDQzNzIyNywyOD
 AwMzc5NTUsLTEzNzE2MTc1NTQsLTE1NTU3NTMwOTIsLTExNDU2
 NzY4MywxNTk3Mjg3NzgzLDIwMDc2MDg4NDMsLTg1MDE5MTAxOV
 19
