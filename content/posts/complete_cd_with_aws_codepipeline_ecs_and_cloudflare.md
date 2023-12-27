@@ -7,7 +7,7 @@ Recently I went about standing up a fresh Continuous Delivery pipeline for a new
 
 To my surprise, nothing worked. Deploying CD for a very standard stack (details to follow) via GUI clicks is a bizarre dance filled with broken states and never-resolvable circular dependencies, magic file/variable names that are either not documented or documented incorrectly (like the variety of spellings for `appspec.yaml / AppSpec.yml / appsec.yml` across AWS CodeDeploy docs), cryptic error codes, and incompatible default settings. Some of this is nothing new - all the clouds have quirks. But I was taken off guard by just how bad, how completely _non-functional_ I was suddenly finding these services which I had used happily for years. 
 
-Maybe I have gotten too comfortable with infra as code, or maybe ECS and CodePipeline have gotten more brittle in the last year. Maybe this is the multiverse where AWS services are much, much worse. 
+Maybe I have gotten too comfortable with infra as code, or maybe ECS and CodePipeline have gotten significantly more brittle in the last year. Maybe this is the multiverse where AWS services are much, much worse and I am a lost traveler. Whatever the reason, I decided that once this project was successfully deployed I would codify the process as a definiitve 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NjA5MzQ4XX0=
+eyJoaXN0b3J5IjpbLTQ1OTQ3NjUyMV19
 -->
