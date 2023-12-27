@@ -61,10 +61,10 @@ This is a whole other topic in itself, so I'll stick to the assumptions made wit
 - Each image to be deployed is targeted with the same name as the service you are deploying, i.e. the `api` image definition in your `Dockerfile` is defined as `FROM some-image:tag as api`. If this is foreign to you check out [Naming your Builds](https://docs.docker.com/build/building/multi-stage/#name-your-build-stages).
 - Your code builds environment-agnostic, that is, the same build runs locally as in production. Things like requirements files and entrypoints are managed via an environment variable and not a different set of build steps. 
 - Each service (i.e. container) runs on a different port. The `awsvpc` network addresses each of your containers via localhost (not the assigned container name!) so your containers cannot have port collisions.
-- Only nginx will be exposed to the load balancer. Your nginx image needs to have an 
+- Only nginx will be exposed to the load balancer. Your nginx image needs to have an `nginx.conf` that routes traffic to all the other containers in your stack.
 - Kinda goes without saying, but your nginx container should get port 80. We will be encrypting traffic from the load balancer to CloudFlare via origin cert (CloudFlare will handle client encryption), and restricting direct access to the container. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTkzMzU1NjIsLTEzNzE2MTc1NTQsLT
-E1NTU3NTMwOTIsLTExNDU2NzY4MywxNTk3Mjg3NzgzLDIwMDc2
-MDg4NDMsLTg1MDE5MTAxOV19
+eyJoaXN0b3J5IjpbMjgwMDM3OTU1LC0xMzcxNjE3NTU0LC0xNT
+U1NzUzMDkyLC0xMTQ1Njc2ODMsMTU5NzI4Nzc4MywyMDA3NjA4
+ODQzLC04NTAxOTEwMTldfQ==
 -->
