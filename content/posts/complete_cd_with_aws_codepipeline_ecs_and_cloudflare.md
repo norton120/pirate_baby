@@ -38,9 +38,9 @@ To minimize repetition I am going to use some shorthands:
 ### Steps
 1. #### Start your magic files.
 Our pipeline needs 3 files placed in the root directory of your project. 
-- The `taskdef.json` behaves similar to a docker-compose.yml in ECS 
+- :monocle_face: The `taskdef.json` behaves similar to a docker-compose.yml in ECS 
 - :monocle_face: The `appspec.yaml` file which pulls together the CodeDeploy deployment (_Note_: `appspec.yaml` is the correct, and AFAIK only working naming convention for this file). 
-- The `buildspec.yml`file which is similar to any CI actions file you may have used, it is basically a list of bash commands run in a "builder" context.
+- :monocle_face: The `buildspec.yml`file which is similar to any CI actions file you may have used, it is basically a list of bash commands run in a "builder" context.
 also note that `buildspec.yml` and `appspec.yaml` have different filetype suffixes. Yay. 
 
 Here are the files you should start with. 
@@ -54,9 +54,10 @@ curl https://gist.githubusercontent.com/norton120/61e9a94f035da8202ab74e41e17050
 curl https://gist.githubusercontent.com/norton120/61e9a94f035da8202ab74e41e1705087/raw/9b253c5ba06b05cbe1f6038d65b8690ffe088bd5/taskdef.json > taskdef.json
 curl https://gist.githubusercontent.com/norton120/61e9a94f035da8202ab74e41e1705087/raw/7ee3330bbbc33f3376cdc996a186cd0e90152e9a/buildspec.yml > buildspec.yml
 ```
-
+2. #### Making your project deploy-able
+This is a whole other topic in itself
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0OTM1MDQ3NywtMTM3MTYxNzU1NCwtMT
-U1NTc1MzA5MiwtMTE0NTY3NjgzLDE1OTcyODc3ODMsMjAwNzYw
-ODg0MywtODUwMTkxMDE5XX0=
+eyJoaXN0b3J5IjpbNzQwNjA3NDcxLC0xMzcxNjE3NTU0LC0xNT
+U1NzUzMDkyLC0xMTQ1Njc2ODMsMTU5NzI4Nzc4MywyMDA3NjA4
+ODQzLC04NTAxOTEwMTldfQ==
 -->
