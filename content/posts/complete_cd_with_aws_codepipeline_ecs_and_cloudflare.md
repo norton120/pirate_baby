@@ -18,6 +18,8 @@ We are setting up a blue/green deployment of a containerized application. The ap
 - ECR for storing our container images
 - SecretsManager for managing our environment variables
 - Github as our source code provider
+- CloudFlare for our DNS and proxy provider
+There are numerous security groups, IAM roles etc needed in combination to make this all work, along with support elements like 
   
 
 
@@ -38,6 +40,6 @@ Our pipeline needs 3 files placed in the root directory of your project.
 The `taskdef.json` which should look 
 2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NDY1NTU0OCwxNTk3Mjg3NzgzLDIwMD
-c2MDg4NDMsLTg1MDE5MTAxOV19
+eyJoaXN0b3J5IjpbODY5OTMwMDYyLDE1OTcyODc3ODMsMjAwNz
+YwODg0MywtODUwMTkxMDE5XX0=
 -->
