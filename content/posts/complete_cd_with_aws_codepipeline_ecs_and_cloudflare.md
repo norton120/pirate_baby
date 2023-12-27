@@ -42,8 +42,12 @@ Our pipeline needs 3 files placed in the root directory of your project.
 - The `appspec.yaml` file which pulls together the CodeDeploy deployment (_Note_: `appspec.yalml` is the correct, and AFAIK only working naming convention for this file). 
 - The `buildspec.yml`file which is similar to any CI actions file you may have used, it is basically a list of bash commands run in a "builder" context.
 
+Here are the files you should start with. I strongly suggest cloning them as-is and updating only the elements you need, like so: 
+```
+curl https://gist.githubusercontent.com/norton120/61e9a94f035da8202ab74e41e1705087/raw/9b253c5ba06b05cbe1f6038d65b8690ffe088bd5/appspec.yaml > appspec.yaml
+curl 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MTg3MDkzNiwtMTE0NTY3NjgzLDE1OT
-cyODc3ODMsMjAwNzYwODg0MywtODUwMTkxMDE5XX0=
+eyJoaXN0b3J5IjpbMjk5MTc4NzkxLC0xMTQ1Njc2ODMsMTU5Nz
+I4Nzc4MywyMDA3NjA4ODQzLC04NTAxOTEwMTldfQ==
 -->
