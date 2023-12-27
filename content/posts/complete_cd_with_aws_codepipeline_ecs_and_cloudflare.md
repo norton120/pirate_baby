@@ -94,10 +94,10 @@ note the `--target` needs to match the target we are building. Once the build is
 ```
 docker push 123456789012.dkr.ecr.us-east-2.amazonaws.com/bash-dog-api:latest
 ```
-Rinse and repeat for each of the services you 
+Rinse and repeat for each of the services you are deploying. Remember that `bash-dog-nginx` is our image of nginx with a custom `nginx.conf` that 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk5OTI1MjE2LDE3MDQ0MzcyMjcsMjgwMD
-M3OTU1LC0xMzcxNjE3NTU0LC0xNTU1NzUzMDkyLC0xMTQ1Njc2
-ODMsMTU5NzI4Nzc4MywyMDA3NjA4ODQzLC04NTAxOTEwMTldfQ
-==
+eyJoaXN0b3J5IjpbLTEzNzIxNDU2OTYsMTcwNDQzNzIyNywyOD
+AwMzc5NTUsLTEzNzE2MTc1NTQsLTE1NTU3NTMwOTIsLTExNDU2
+NzY4MywxNTk3Mjg3NzgzLDIwMDc2MDg4NDMsLTg1MDE5MTAxOV
+19
 -->
