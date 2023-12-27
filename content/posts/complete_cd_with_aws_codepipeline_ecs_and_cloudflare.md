@@ -101,6 +101,8 @@ Rinse and repeat for each of the services you are deploying. Remember that `bash
 
 4. #### Secrets
 We are going to keep all the envars in AWS SecretsManager. This removes secrets from our pipeline and repo code, and makes it less painful to update envars down the line. 
+- Start by navigating to SecretsManager and clicking "Store a new Secret"
+- select `other type of se
 
 6. #### Code Pipeline
 I find it is much easier not to get twisted into a dependency pretzel if we start our pipeline at the very end, with the CodePipeline itself. 
@@ -113,7 +115,7 @@ I find it is much easier not to get twisted into a dependency pretzel if we star
 - Leave all the other defaults alone and click _Next_.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NjU4Njk5NCwtOTE2NDg2MDcxLDE3MD
+eyJoaXN0b3J5IjpbMTE2MjgyMTk4MCwtOTE2NDg2MDcxLDE3MD
 Q0MzcyMjcsMjgwMDM3OTU1LC0xMzcxNjE3NTU0LC0xNTU1NzUz
 MDkyLC0xMTQ1Njc2ODMsMTU5NzI4Nzc4MywyMDA3NjA4ODQzLC
 04NTAxOTEwMTldfQ==
