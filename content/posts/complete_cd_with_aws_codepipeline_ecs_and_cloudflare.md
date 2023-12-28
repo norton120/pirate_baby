@@ -83,6 +83,7 @@ $(docker run \
 -e AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY} \
 -e AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID} \
 -e AWS_SESSION_TOKEN=${AWS_SESSION_TOKEN} \
+-e AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION} \
 --rm amazon/aws-cli ecr get-login-password) \
 123456789012.dkr.ecr.us-east-2.amazonaws.com/bash-dog-api
 ```
@@ -169,9 +170,10 @@ Now we need to update the build service role, allowing it to:
 Push all the changes made so far to `main` in your application repo. If your main is already up to date, you will need to 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODYyOTgyOCwtMTYyNzU4MTY2LDYxNT
-g4OTY3MCwtMzY1Mzg1ODI3LC0xNjUyNzk2Njg3LC05MDkwMTQy
-NjMsLTkxNjQ4NjA3MSwxNzA0NDM3MjI3LDI4MDAzNzk1NSwtMT
-M3MTYxNzU1NCwtMTU1NTc1MzA5MiwtMTE0NTY3NjgzLDE1OTcy
-ODc3ODMsMjAwNzYwODg0MywtODUwMTkxMDE5XX0=
+eyJoaXN0b3J5IjpbLTQ2MDQzOTk3MSwtMzA4NjI5ODI4LC0xNj
+I3NTgxNjYsNjE1ODg5NjcwLC0zNjUzODU4MjcsLTE2NTI3OTY2
+ODcsLTkwOTAxNDI2MywtOTE2NDg2MDcxLDE3MDQ0MzcyMjcsMj
+gwMDM3OTU1LC0xMzcxNjE3NTU0LC0xNTU1NzUzMDkyLC0xMTQ1
+Njc2ODMsMTU5NzI4Nzc4MywyMDA3NjA4ODQzLC04NTAxOTEwMT
+ldfQ==
 -->
