@@ -178,7 +178,7 @@ This seems random at the moment, but you will need this to create your load bala
 - Log in to Cloudflare for your respective domain.
 	- Under _SSL_ -> _Origin Certificate_ click _Create Certificate_. 
 	- Leave the defaults. **Note:** the free certs will only work for bare domains (_example.com_) and **single level subdomains** (_www.example.com_).
--  
+- In a different tab, navigate to [AWS Certificate Manager](https://us-east-2.console.aws.amazon.com/acm/home?region=us-east-2#/certificates/list) and click on  _Impor
 	- :monocle_face: click the copy buttons. Don't try to scroll copy, you can grab/miss needed whitespace and break the cert. 
 11. #### Create a ServiceRole for ECS
 ECS needs to be able to access the secret(s) created earlier, along with normal ECS things. So we create a new  role named `bash-dog-ecs-service-role` in IAM. This role needs: 
@@ -205,11 +205,11 @@ Back to the `bash-dog` cluster page, time to create a service.
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk3MDU0MTQ2LC04Njk3ODQ2MywxMjk0NT
-QxMiwtMTAwMjY4NTI0MSwtMjYwMTUyMjkwLC0xNjQzNjI2MjU1
-LDEyOTMyNjYxMzMsLTE4MTk1MDQ5MzUsLTQ2MDQzOTk3MSwtMz
-A4NjI5ODI4LC0xNjI3NTgxNjYsNjE1ODg5NjcwLC0zNjUzODU4
-MjcsLTE2NTI3OTY2ODcsLTkwOTAxNDI2MywtOTE2NDg2MDcxLD
-E3MDQ0MzcyMjcsMjgwMDM3OTU1LC0xMzcxNjE3NTU0LC0xNTU1
-NzUzMDkyXX0=
+eyJoaXN0b3J5IjpbLTg4NTI2NTMwNywtODY5Nzg0NjMsMTI5ND
+U0MTIsLTEwMDI2ODUyNDEsLTI2MDE1MjI5MCwtMTY0MzYyNjI1
+NSwxMjkzMjY2MTMzLC0xODE5NTA0OTM1LC00NjA0Mzk5NzEsLT
+MwODYyOTgyOCwtMTYyNzU4MTY2LDYxNTg4OTY3MCwtMzY1Mzg1
+ODI3LC0xNjUyNzk2Njg3LC05MDkwMTQyNjMsLTkxNjQ4NjA3MS
+wxNzA0NDM3MjI3LDI4MDAzNzk1NSwtMTM3MTYxNzU1NCwtMTU1
+NTc1MzA5Ml19
 -->
