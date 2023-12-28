@@ -175,7 +175,7 @@ You can also check ECR and see that the same image tag was created.
 
 9. #### Adding your Cloudflare Origin Cert and Enabling Full Strict
 This seems random at the moment, but you will need this to create your load balancer, which you will do while creating an ECS service. 
-- Log in to Cloudflare  
+- Log in to Cloudflare, and 
 
 11. #### Create a ServiceRole for ECS
 ECS needs to be able to access the secret(s) created earlier, along with normal ECS things. So we create a new  role named `bash-dog-ecs-service-role` in IAM. This role needs: 
@@ -202,11 +202,11 @@ Back to the `bash-dog` cluster page, time to create a service.
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NDU0MTIsLTEwMDI2ODUyNDEsLTI2MD
-E1MjI5MCwtMTY0MzYyNjI1NSwxMjkzMjY2MTMzLC0xODE5NTA0
-OTM1LC00NjA0Mzk5NzEsLTMwODYyOTgyOCwtMTYyNzU4MTY2LD
-YxNTg4OTY3MCwtMzY1Mzg1ODI3LC0xNjUyNzk2Njg3LC05MDkw
-MTQyNjMsLTkxNjQ4NjA3MSwxNzA0NDM3MjI3LDI4MDAzNzk1NS
-wtMTM3MTYxNzU1NCwtMTU1NTc1MzA5MiwtMTE0NTY3NjgzLDE1
-OTcyODc3ODNdfQ==
+eyJoaXN0b3J5IjpbLTg2OTc4NDYzLDEyOTQ1NDEyLC0xMDAyNj
+g1MjQxLC0yNjAxNTIyOTAsLTE2NDM2MjYyNTUsMTI5MzI2NjEz
+MywtMTgxOTUwNDkzNSwtNDYwNDM5OTcxLC0zMDg2Mjk4MjgsLT
+E2Mjc1ODE2Niw2MTU4ODk2NzAsLTM2NTM4NTgyNywtMTY1Mjc5
+NjY4NywtOTA5MDE0MjYzLC05MTY0ODYwNzEsMTcwNDQzNzIyNy
+wyODAwMzc5NTUsLTEzNzE2MTc1NTQsLTE1NTU3NTMwOTIsLTEx
+NDU2NzY4M119
 -->
