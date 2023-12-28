@@ -157,12 +157,15 @@ I find it is much easier not to get twisted into a dependency pretzel if we star
 - Save and create your new pipeline.
 _Note:_ The pipeline will immediately build and fail. That's OK, we're far from done.
 
-
+7. #### Update Build Role Access
+Now we need to update the build service role, allowing it to:
+- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkzMTkwNDcwLC0xNjUyNzk2Njg3LC05MD
-kwMTQyNjMsLTkxNjQ4NjA3MSwxNzA0NDM3MjI3LDI4MDAzNzk1
-NSwtMTM3MTYxNzU1NCwtMTU1NTc1MzA5MiwtMTE0NTY3NjgzLD
-E1OTcyODc3ODMsMjAwNzYwODg0MywtODUwMTkxMDE5XX0=
+eyJoaXN0b3J5IjpbLTExNjMzNTgzOTIsLTE2NTI3OTY2ODcsLT
+kwOTAxNDI2MywtOTE2NDg2MDcxLDE3MDQ0MzcyMjcsMjgwMDM3
+OTU1LC0xMzcxNjE3NTU0LC0xNTU1NzUzMDkyLC0xMTQ1Njc2OD
+MsMTU5NzI4Nzc4MywyMDA3NjA4ODQzLC04NTAxOTEwMTldfQ==
+
 -->
