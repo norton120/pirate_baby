@@ -132,7 +132,9 @@ API_HOST=http://api-container-name:8080
 API_HOST=http://localhost:8080 
 ``` 
 5. #### Artifact S3 Bucket
-Your CodePipeline will
+Your CodePipeline will manage state via _artifacts_; created by CodeBuild, consumed by CodeDeploy. You need a bucket for this. 
+- Go to create a logically named bucket, like `bash-dog-cd-artifacts`
+
 6. #### Code Pipeline
 I find it is much easier not to get twisted into a dependency pretzel if we start our pipeline at the very end, with the CodePipeline itself. 
 - Navigate to _CodePipeline -> CreatePipeline_. 
@@ -144,8 +146,8 @@ I find it is much easier not to get twisted into a dependency pretzel if we star
 - Leave all the other defaults alone and click _Next_.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI5MTg5MTY4LC05MDkwMTQyNjMsLTkxNj
-Q4NjA3MSwxNzA0NDM3MjI3LDI4MDAzNzk1NSwtMTM3MTYxNzU1
-NCwtMTU1NTc1MzA5MiwtMTE0NTY3NjgzLDE1OTcyODc3ODMsMj
-AwNzYwODg0MywtODUwMTkxMDE5XX0=
+eyJoaXN0b3J5IjpbMTA4NDg5ODM3MiwtOTA5MDE0MjYzLC05MT
+Y0ODYwNzEsMTcwNDQzNzIyNywyODAwMzc5NTUsLTEzNzE2MTc1
+NTQsLTE1NTU3NTMwOTIsLTExNDU2NzY4MywxNTk3Mjg3NzgzLD
+IwMDc2MDg4NDMsLTg1MDE5MTAxOV19
 -->
