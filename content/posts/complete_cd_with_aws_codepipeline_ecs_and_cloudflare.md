@@ -167,13 +167,16 @@ Now we need to update the build service role, allowing it to:
 {{< gist norton120 d622626cb4ce4cace838ce1ec35f96ef >}}
 
 8. #### Run a successful build
-Push all the changes made so far to `main` in your application repo. If your main is already up to date, you will need to trigger it manually via the CodePipeline with the _Release Change_ button. Let it build, check the logs tab for errors, and with fate on your side you should see 
+Push all the changes made so far to `main` in your application repo. If your main is already up to date, you will need to trigger it manually via the CodePipeline with the _Release Change_ button. Let it build, check the logs tab for errors, and with fate on your side you should see this:
+![build success](/build_success.png)
+
+Now for the fun part - navigate to the s3 bucket and find the path `bash-dog-pipeline/buildArtf` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTk1MDQ5MzUsLTQ2MDQzOTk3MSwtMz
-A4NjI5ODI4LC0xNjI3NTgxNjYsNjE1ODg5NjcwLC0zNjUzODU4
-MjcsLTE2NTI3OTY2ODcsLTkwOTAxNDI2MywtOTE2NDg2MDcxLD
-E3MDQ0MzcyMjcsMjgwMDM3OTU1LC0xMzcxNjE3NTU0LC0xNTU1
-NzUzMDkyLC0xMTQ1Njc2ODMsMTU5NzI4Nzc4MywyMDA3NjA4OD
-QzLC04NTAxOTEwMTldfQ==
+eyJoaXN0b3J5IjpbMTUyMDM3NzM1OCwtMTgxOTUwNDkzNSwtND
+YwNDM5OTcxLC0zMDg2Mjk4MjgsLTE2Mjc1ODE2Niw2MTU4ODk2
+NzAsLTM2NTM4NTgyNywtMTY1Mjc5NjY4NywtOTA5MDE0MjYzLC
+05MTY0ODYwNzEsMTcwNDQzNzIyNywyODAwMzc5NTUsLTEzNzE2
+MTc1NTQsLTE1NTU3NTMwOTIsLTExNDU2NzY4MywxNTk3Mjg3Nz
+gzLDIwMDc2MDg4NDMsLTg1MDE5MTAxOV19
 -->
