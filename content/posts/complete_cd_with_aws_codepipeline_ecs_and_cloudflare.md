@@ -144,10 +144,12 @@ I find it is much easier not to get twisted into a dependency pretzel if we star
 - In the next screen select `Github (Version 2)`. Follow the prompts to create a new Github Connection, and select your repository.
 - :monocle_face: For _Branch name_ use your main branch `main` or equivalent. 
 - Leave all the other defaults alone and click _Next_.
+- Next, Create a build project inline by selecting AWS CodeBuild as the provider and then clicking _Create Project_. In the new window:
+	-  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTI3OTY2ODcsLTkwOTAxNDI2MywtOT
-E2NDg2MDcxLDE3MDQ0MzcyMjcsMjgwMDM3OTU1LC0xMzcxNjE3
-NTU0LC0xNTU1NzUzMDkyLC0xMTQ1Njc2ODMsMTU5NzI4Nzc4My
-wyMDA3NjA4ODQzLC04NTAxOTEwMTldfQ==
+eyJoaXN0b3J5IjpbLTE5Mjc5MzAwMSwtMTY1Mjc5NjY4NywtOT
+A5MDE0MjYzLC05MTY0ODYwNzEsMTcwNDQzNzIyNywyODAwMzc5
+NTUsLTEzNzE2MTc1NTQsLTE1NTU3NTMwOTIsLTExNDU2NzY4My
+wxNTk3Mjg3NzgzLDIwMDc2MDg4NDMsLTg1MDE5MTAxOV19
 -->
