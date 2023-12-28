@@ -165,11 +165,13 @@ Now we need to update the build service role, allowing it to:
 -  Edit the policy and add these statements, updating the image and s3 bucket arns to match the images and s3 bucket you created earlier.
 {{< gist norton120 d622626cb4ce4cace838ce1ec35f96ef >}}
 
+8. #### Run a successful build
+Push all the changes made so far to `main` in your application repo. If you alrea
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjc1ODE2Niw2MTU4ODk2NzAsLTM2NT
-M4NTgyNywtMTY1Mjc5NjY4NywtOTA5MDE0MjYzLC05MTY0ODYw
-NzEsMTcwNDQzNzIyNywyODAwMzc5NTUsLTEzNzE2MTc1NTQsLT
-E1NTU3NTMwOTIsLTExNDU2NzY4MywxNTk3Mjg3NzgzLDIwMDc2
-MDg4NDMsLTg1MDE5MTAxOV19
+eyJoaXN0b3J5IjpbODM3NzMzNjgwLC0xNjI3NTgxNjYsNjE1OD
+g5NjcwLC0zNjUzODU4MjcsLTE2NTI3OTY2ODcsLTkwOTAxNDI2
+MywtOTE2NDg2MDcxLDE3MDQ0MzcyMjcsMjgwMDM3OTU1LC0xMz
+cxNjE3NTU0LC0xNTU1NzUzMDkyLC0xMTQ1Njc2ODMsMTU5NzI4
+Nzc4MywyMDA3NjA4ODQzLC04NTAxOTEwMTldfQ==
 -->
