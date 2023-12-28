@@ -153,10 +153,11 @@ I find it is much easier not to get twisted into a dependency pretzel if we star
 	- Optionally, reduce the timeouts. Generally my builds are running < 3 min, so if they are not done in 10 they are probably never going to be done. 
 	- Leave _Use a buildspec file_ and :monocle_face: do not specify a file name. My experience has been that builds with a non-standard buildspec path fail periodically with issues finding the file.
 	- Set up logging using logical names like `bash-dog` and `codebuild`.
+- Skip the deploy stage for now, that needs to be set up backward 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNDc2Mzg0MSwtMTY1Mjc5NjY4NywtOT
+eyJoaXN0b3J5IjpbLTQ0MDAxNjkzNCwtMTY1Mjc5NjY4NywtOT
 A5MDE0MjYzLC05MTY0ODYwNzEsMTcwNDQzNzIyNywyODAwMzc5
 NTUsLTEzNzE2MTc1NTQsLTE1NTU3NTMwOTIsLTExNDU2NzY4My
 wxNTk3Mjg3NzgzLDIwMDc2MDg4NDMsLTg1MDE5MTAxOV19
