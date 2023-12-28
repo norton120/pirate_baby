@@ -163,13 +163,13 @@ Now we need to update the build service role, allowing it to:
 	- write to our s3 artifact bucket
 - Find that role you just created by searching IAM roles for `bash-dog` (well, your equivalent). It should look like `codebuild-bash-dog-pipeline-service-role` unless you changed it. It should also have a policy named something like `CodeBuildBasePolicy-bash-dog-pipeline-us-east-2`. Click into that.
 -  Edit the policy and add these statements, updating the image and s3 bucket arns to match the images and s3 bucket you created earlier.
-
+{{< gist norton120 61e9a94f035da8202ab74e41e1705087 >}}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNDI2ODI2NywtMzY1Mzg1ODI3LC0xNj
-UyNzk2Njg3LC05MDkwMTQyNjMsLTkxNjQ4NjA3MSwxNzA0NDM3
-MjI3LDI4MDAzNzk1NSwtMTM3MTYxNzU1NCwtMTU1NTc1MzA5Mi
-wtMTE0NTY3NjgzLDE1OTcyODc3ODMsMjAwNzYwODg0MywtODUw
-MTkxMDE5XX0=
+eyJoaXN0b3J5IjpbNjE1ODg5NjcwLC0zNjUzODU4MjcsLTE2NT
+I3OTY2ODcsLTkwOTAxNDI2MywtOTE2NDg2MDcxLDE3MDQ0Mzcy
+MjcsMjgwMDM3OTU1LC0xMzcxNjE3NTU0LC0xNTU1NzUzMDkyLC
+0xMTQ1Njc2ODMsMTU5NzI4Nzc4MywyMDA3NjA4ODQzLC04NTAx
+OTEwMTldfQ==
 -->
