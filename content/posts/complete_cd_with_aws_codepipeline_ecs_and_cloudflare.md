@@ -182,7 +182,8 @@ This seems random at the moment, but you will need this to create your load bala
 - In a different tab, navigate to [AWS Certificate Manager](https://us-east-2.console.aws.amazon.com/acm/home?region=us-east-2#/certificates/list) and click on  _Import_.
 - Back in Cloudflare, time to copy the cert you just created, and paste the values into the respective boxes in ACR. 
 	- :monocle_face: click the copy buttons. Don't try to scroll copy, you can grab/miss needed whitespace and break the cert. 
-	- Leave Certificate chain blank. Clich
+	- Leave Certificate chain blank. Click through to import the cert. 
+
 11. #### Create a ServiceRole for ECS
 ECS needs to be able to access the secret(s) created earlier, along with normal ECS things. So we create a new  role named `bash-dog-ecs-service-role` in IAM. This role needs: 
 	- [`AWSCodeDeployRoleForECS`](https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAWSCodeDeployRoleForECS) 
@@ -190,8 +191,6 @@ ECS needs to be able to access the secret(s) created earlier, along with normal 
 Creating this policy is surprisingly unintuitive. Specify _Elastic Container Service_ (no alias for ECS) and Elastic Container Service Task. 
 ![service role](/ecs_service_role.png)
 After you create the service role, navigate to that role and select _add permissions_ -> _create inline policy_. Create a simple policy that has read access to your secret. 
-
-
 
 12. #### Create an empty CodeDeploy Application
 We will need a CodeDeploy app for our ECS service to set up blue/green deploys in. So navigate to CodePipeline -> Applications -> and create a new application named something sensible like `bash-dog-deploy-application`. Leave this open.
@@ -208,11 +207,11 @@ Back to the `bash-dog` cluster page, time to create a service.
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDIwMjc4MjksLTg2OTc4NDYzLDEyOT
-Q1NDEyLC0xMDAyNjg1MjQxLC0yNjAxNTIyOTAsLTE2NDM2MjYy
-NTUsMTI5MzI2NjEzMywtMTgxOTUwNDkzNSwtNDYwNDM5OTcxLC
-0zMDg2Mjk4MjgsLTE2Mjc1ODE2Niw2MTU4ODk2NzAsLTM2NTM4
-NTgyNywtMTY1Mjc5NjY4NywtOTA5MDE0MjYzLC05MTY0ODYwNz
-EsMTcwNDQzNzIyNywyODAwMzc5NTUsLTEzNzE2MTc1NTQsLTE1
-NTU3NTMwOTJdfQ==
+eyJoaXN0b3J5IjpbNzkzMTI3NDA2LC04Njk3ODQ2MywxMjk0NT
+QxMiwtMTAwMjY4NTI0MSwtMjYwMTUyMjkwLC0xNjQzNjI2MjU1
+LDEyOTMyNjYxMzMsLTE4MTk1MDQ5MzUsLTQ2MDQzOTk3MSwtMz
+A4NjI5ODI4LC0xNjI3NTgxNjYsNjE1ODg5NjcwLC0zNjUzODU4
+MjcsLTE2NTI3OTY2ODcsLTkwOTAxNDI2MywtOTE2NDg2MDcxLD
+E3MDQ0MzcyMjcsMjgwMDM3OTU1LC0xMzcxNjE3NTU0LC0xNTU1
+NzUzMDkyXX0=
 -->
