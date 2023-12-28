@@ -173,7 +173,11 @@ Push all the changes made so far to `main` in your application repo. If your mai
 Now for the fun part - navigate to the s3 bucket and find the path `bash-dog-pipeline/buildArtf/`. Look for an artifact with the newest timestamp. Download it. Now check out the `taskdef.json` file within the artifact. You'll see the images have been updated to reflect the image sha for the release you just built! 
 You can also check ECR and see that the same image tag was created. 
 
-9. #### Create a ServiceRole for ECS
+9. #### Adding your Cloudflare Origin Cert and Enabling Full Stric
+This seems random at the moment, but you will need this to create your load balancer, which you will do while creating an ECS service. 
+- Log in to Cloudflare  
+
+11. #### Create a ServiceRole for ECS
 ECS needs to be able to access the secret(s) created earlier, along with normal ECS things. So we create a new  role named `bash-dog-ecs-service-role` in IAM. This role needs: 
 	- [`AWSCodeDeployRoleForECS`](https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAWSCodeDeployRoleForECS) 
 	- An inline policy for accessing our secretsmanager envars
@@ -183,10 +187,10 @@ After you create the service role, navigate to that role and select _add permiss
 
 
 
-10. #### Create an empty CodeDeploy Application
+12. #### Create an empty CodeDeploy Application
 We will need a CodeDeploy app for our ECS service to set up blue/green deploys in. So navigate to CodePipeline -> Applications -> and create a new application named something sensible like `bash-dog-deploy-application`. Leave this open.
  
-12. #### Launching ECS with a CodeDeploy Application
+13. #### Launching ECS with a CodeDeploy Application
 Now we can set up our runtime. Create a new cluster with defaults, named something logical like `bash-dog`. Let this chug, don't touch anything until the cluster is up and running. 
 Once up, we need a base task definition for the service we are about to create.
 - Click on _Task definitions_, _Create a new task definition (with JSON)_. Paste the guts of your `taskdef.json` file and save.
@@ -198,11 +202,11 @@ Back to the `bash-dog` cluster page, time to create a service.
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDI2ODUyNDEsLTI2MDE1MjI5MCwtMT
-Y0MzYyNjI1NSwxMjkzMjY2MTMzLC0xODE5NTA0OTM1LC00NjA0
-Mzk5NzEsLTMwODYyOTgyOCwtMTYyNzU4MTY2LDYxNTg4OTY3MC
-wtMzY1Mzg1ODI3LC0xNjUyNzk2Njg3LC05MDkwMTQyNjMsLTkx
-NjQ4NjA3MSwxNzA0NDM3MjI3LDI4MDAzNzk1NSwtMTM3MTYxNz
-U1NCwtMTU1NTc1MzA5MiwtMTE0NTY3NjgzLDE1OTcyODc3ODMs
-MjAwNzYwODg0M119
+eyJoaXN0b3J5IjpbLTE0Mzg2OTU5MjQsLTEwMDI2ODUyNDEsLT
+I2MDE1MjI5MCwtMTY0MzYyNjI1NSwxMjkzMjY2MTMzLC0xODE5
+NTA0OTM1LC00NjA0Mzk5NzEsLTMwODYyOTgyOCwtMTYyNzU4MT
+Y2LDYxNTg4OTY3MCwtMzY1Mzg1ODI3LC0xNjUyNzk2Njg3LC05
+MDkwMTQyNjMsLTkxNjQ4NjA3MSwxNzA0NDM3MjI3LDI4MDAzNz
+k1NSwtMTM3MTYxNzU1NCwtMTU1NTc1MzA5MiwtMTE0NTY3Njgz
+LDE1OTcyODc3ODNdfQ==
 -->
