@@ -182,14 +182,16 @@ We will need a CodeDeploy app for our ECS service to set up blue/green deploys i
 Now we can set up our runtime. Create a new cluster with defaults, named something logical like `bash-dog`. Let this chug, don't touch anything until the cluster is up and running. 
 Once up, we need a base task definition for the service we are about to create.
 - Click on _Task definitions_, _Create a new task definition (with JSON)_. Paste the guts of your `taskdef.json` file and save.
-Back to the `bash-dog` cluster page, clic
+Back to the `bash-dog` cluster page, time to create a service. 
+- Click _Create_ under Services. Leave the defaults for Environment.
+- Under _Deployment Configuration_ select 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTI2NzUzMzQsMTI5MzI2NjEzMywtMT
-gxOTUwNDkzNSwtNDYwNDM5OTcxLC0zMDg2Mjk4MjgsLTE2Mjc1
-ODE2Niw2MTU4ODk2NzAsLTM2NTM4NTgyNywtMTY1Mjc5NjY4Ny
-wtOTA5MDE0MjYzLC05MTY0ODYwNzEsMTcwNDQzNzIyNywyODAw
-Mzc5NTUsLTEzNzE2MTc1NTQsLTE1NTU3NTMwOTIsLTExNDU2Nz
-Y4MywxNTk3Mjg3NzgzLDIwMDc2MDg4NDMsLTg1MDE5MTAxOV19
+eyJoaXN0b3J5IjpbMjExODczNjYwOCwxMjkzMjY2MTMzLC0xOD
+E5NTA0OTM1LC00NjA0Mzk5NzEsLTMwODYyOTgyOCwtMTYyNzU4
+MTY2LDYxNTg4OTY3MCwtMzY1Mzg1ODI3LC0xNjUyNzk2Njg3LC
+05MDkwMTQyNjMsLTkxNjQ4NjA3MSwxNzA0NDM3MjI3LDI4MDAz
+Nzk1NSwtMTM3MTYxNzU1NCwtMTU1NTc1MzA5MiwtMTE0NTY3Nj
+gzLDE1OTcyODc3ODMsMjAwNzYwODg0MywtODUwMTkxMDE5XX0=
 
 -->
