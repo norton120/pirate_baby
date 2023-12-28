@@ -189,7 +189,7 @@ Now you need to tell CloudFlare to use the cert you just created. **This is impo
 	- :monocle_face: Set the hostname filter to match exactly the (sub)domain fully qualified host (i.e. `example.com` or `banana.example.com`).
 	- :monocle_face: Under _then settings are..._ find SSL, and  select "Full (strict)"
 	- Save your rule
-OK now your CloudFlare is prim
+OK now your CloudFlare is primed, though we have not set up the CNAME yet (that comes later). Onward with our pipeline.
 
 11. #### Create a ServiceRole for ECS
 ECS needs to be able to access the secret(s) created earlier, along with normal ECS things. So we create a new  role named `bash-dog-ecs-service-role` in IAM. This role needs: 
@@ -214,11 +214,11 @@ Back to the `bash-dog` cluster page, time to create a service.
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzg0OTI2ODQsLTg2OTc4NDYzLDEyOT
-Q1NDEyLC0xMDAyNjg1MjQxLC0yNjAxNTIyOTAsLTE2NDM2MjYy
-NTUsMTI5MzI2NjEzMywtMTgxOTUwNDkzNSwtNDYwNDM5OTcxLC
-0zMDg2Mjk4MjgsLTE2Mjc1ODE2Niw2MTU4ODk2NzAsLTM2NTM4
-NTgyNywtMTY1Mjc5NjY4NywtOTA5MDE0MjYzLC05MTY0ODYwNz
-EsMTcwNDQzNzIyNywyODAwMzc5NTUsLTEzNzE2MTc1NTQsLTE1
-NTU3NTMwOTJdfQ==
+eyJoaXN0b3J5IjpbNDE2ODgyOTExLC04Njk3ODQ2MywxMjk0NT
+QxMiwtMTAwMjY4NTI0MSwtMjYwMTUyMjkwLC0xNjQzNjI2MjU1
+LDEyOTMyNjYxMzMsLTE4MTk1MDQ5MzUsLTQ2MDQzOTk3MSwtMz
+A4NjI5ODI4LC0xNjI3NTgxNjYsNjE1ODg5NjcwLC0zNjUzODU4
+MjcsLTE2NTI3OTY2ODcsLTkwOTAxNDI2MywtOTE2NDg2MDcxLD
+E3MDQ0MzcyMjcsMjgwMDM3OTU1LC0xMzcxNjE3NTU0LC0xNTU1
+NzUzMDkyXX0=
 -->
