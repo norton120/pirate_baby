@@ -177,8 +177,9 @@ You can also check ECR and see that the same image tag was created.
 This seems random at the moment, but you will need this to create your load balancer, which you will do while creating an ECS service. 
 - Log in to Cloudflare for your respective domain.
 	- Under _SSL_ -> _Origin Certificate_ click _Create Certificate_. 
-	- Leave the defaults. **Note:** this will only work for bare domains (_example.com_) and **single level subdomains** (_ 
-
+	- Leave the defaults. **Note:** the free certs will only work for bare domains (_example.com_) and **single level subdomains** (_www.example.com_).
+-  
+	- :monocle_face: click the copy buttons. Don't try to scroll copy, you can grab/miss needed whitespace and break the cert. 
 11. #### Create a ServiceRole for ECS
 ECS needs to be able to access the secret(s) created earlier, along with normal ECS things. So we create a new  role named `bash-dog-ecs-service-role` in IAM. This role needs: 
 	- [`AWSCodeDeployRoleForECS`](https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAWSCodeDeployRoleForECS) 
@@ -204,7 +205,7 @@ Back to the `bash-dog` cluster page, time to create a service.
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5Mjg0OTQzLC04Njk3ODQ2MywxMjk0NT
+eyJoaXN0b3J5IjpbNDk3MDU0MTQ2LC04Njk3ODQ2MywxMjk0NT
 QxMiwtMTAwMjY4NTI0MSwtMjYwMTUyMjkwLC0xNjQzNjI2MjU1
 LDEyOTMyNjYxMzMsLTE4MTk1MDQ5MzUsLTQ2MDQzOTk3MSwtMz
 A4NjI5ODI4LC0xNjI3NTgxNjYsNjE1ODg5NjcwLC0zNjUzODU4
