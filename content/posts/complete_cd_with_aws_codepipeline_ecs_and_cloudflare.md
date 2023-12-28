@@ -171,10 +171,13 @@ Push all the changes made so far to `main` in your application repo. If your mai
 ![build success](/build_success.png)
 
 Now for the fun part - navigate to the s3 bucket and find the path `bash-dog-pipeline/buildArtf/`. Look for an artifact with the newest timestamp. Download it. Now check out the `taskdef.json` file within the artifact. You'll see the images have been updated to reflect the image sha for the release you just built! 
-You can also check ECR and see that the same image tag was created.  
+You can also check ECR and see that the same image tag was created. 
+
+9. Launching ECS
+Now we can set up our runtime.   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1ODE1NTc0NSwtMTgxOTUwNDkzNSwtND
+eyJoaXN0b3J5IjpbLTQwNDIzMTg5NywtMTgxOTUwNDkzNSwtND
 YwNDM5OTcxLC0zMDg2Mjk4MjgsLTE2Mjc1ODE2Niw2MTU4ODk2
 NzAsLTM2NTM4NTgyNywtMTY1Mjc5NjY4NywtOTA5MDE0MjYzLC
 05MTY0ODYwNzEsMTcwNDQzNzIyNywyODAwMzc5NTUsLTEzNzE2
