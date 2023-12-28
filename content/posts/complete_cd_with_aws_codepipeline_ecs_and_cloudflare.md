@@ -149,12 +149,13 @@ I find it is much easier not to get twisted into a dependency pretzel if we star
 	- :monocle_face: under _Additional configuration_ check 'restrict number of concurrent builds this project can start' and set the limit to 1.
 	- For Environment select `Managed Image`, `EC2` `Amazon Linux` Operating system, `Standard` Runtime, and the :monocle_face:  `amazonlinux2-x86_64-standard:4.0` image (not the default!)
 	- :monocle_face: Check '_Enable this flag..._' under _Privileged_. 
-	- Leave the default _New service role
+	- Leave the default _New service role_ and unless the provided role name is awful, leave it.
+	- Optionally, reduce the timeouts. Generally my builds are running < 3 min, so if they are not done in 10 they are probably never going to be done. 
+	- Leave _Use a buildspec file_ and do not specify a file name.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTcwMjU2MTYsLTE2NTI3OTY2ODcsLT
-kwOTAxNDI2MywtOTE2NDg2MDcxLDE3MDQ0MzcyMjcsMjgwMDM3
-OTU1LC0xMzcxNjE3NTU0LC0xNTU1NzUzMDkyLC0xMTQ1Njc2OD
-MsMTU5NzI4Nzc4MywyMDA3NjA4ODQzLC04NTAxOTEwMTldfQ==
-
+eyJoaXN0b3J5IjpbNjk3ODQ0NTk5LC0xNjUyNzk2Njg3LC05MD
+kwMTQyNjMsLTkxNjQ4NjA3MSwxNzA0NDM3MjI3LDI4MDAzNzk1
+NSwtMTM3MTYxNzU1NCwtMTU1NTc1MzA5MiwtMTE0NTY3NjgzLD
+E1OTcyODc3ODMsMjAwNzYwODg0MywtODUwMTkxMDE5XX0=
 -->
