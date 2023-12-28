@@ -193,7 +193,9 @@ OK now your CloudFlare is primed, though we have not set up the CNAME yet (that 
 
 11. #### Create Service and Execution Roles for ECS
 ECS Execution needs to be able to access the secret(s) created earlier, and ECS Service needs to be able to do normal ECS task things. So we create 2 new roles named `bash-dog-ecs-service-role`  and `bash-dog-ecs-execution-role` in IAM. 
-The execution role (role that deploys: 
+The execution role (think host role in a docker deployment) needs: 
+	- [AmazonECSTaskExecutionRolePolicy](https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2Fservice-role%2FAmazonECSTaskExecutionRolePolicy)
+	- An inline policy for accessin
 	- [`AWSCodeDeployRoleForECS`](https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAWSCodeDeployRoleForECS) 
 	- An inline policy for accessing our secretsmanager envars
 Creating this policy is surprisingly unintuitive. Specify _Elastic Container Service_ (no alias for ECS) and Elastic Container Service Task. 
@@ -215,11 +217,11 @@ Back to the `bash-dog` cluster page, time to create a service.
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMzI0NTg3MSw0MTY4ODI5MTEsLTg2OT
-c4NDYzLDEyOTQ1NDEyLC0xMDAyNjg1MjQxLC0yNjAxNTIyOTAs
-LTE2NDM2MjYyNTUsMTI5MzI2NjEzMywtMTgxOTUwNDkzNSwtND
-YwNDM5OTcxLC0zMDg2Mjk4MjgsLTE2Mjc1ODE2Niw2MTU4ODk2
-NzAsLTM2NTM4NTgyNywtMTY1Mjc5NjY4NywtOTA5MDE0MjYzLC
-05MTY0ODYwNzEsMTcwNDQzNzIyNywyODAwMzc5NTUsLTEzNzE2
-MTc1NTRdfQ==
+eyJoaXN0b3J5IjpbLTE2MDY1NzA3MDQsNDE2ODgyOTExLC04Nj
+k3ODQ2MywxMjk0NTQxMiwtMTAwMjY4NTI0MSwtMjYwMTUyMjkw
+LC0xNjQzNjI2MjU1LDEyOTMyNjYxMzMsLTE4MTk1MDQ5MzUsLT
+Q2MDQzOTk3MSwtMzA4NjI5ODI4LC0xNjI3NTgxNjYsNjE1ODg5
+NjcwLC0zNjUzODU4MjcsLTE2NTI3OTY2ODcsLTkwOTAxNDI2My
+wtOTE2NDg2MDcxLDE3MDQ0MzcyMjcsMjgwMDM3OTU1LC0xMzcx
+NjE3NTU0XX0=
 -->
