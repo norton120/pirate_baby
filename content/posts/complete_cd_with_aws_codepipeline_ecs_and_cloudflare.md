@@ -145,10 +145,12 @@ I find it is much easier not to get twisted into a dependency pretzel if we star
 - :monocle_face: For _Branch name_ use your main branch `main` or equivalent. 
 - Leave all the other defaults alone and click _Next_.
 - Next, Create a build project inline by selecting AWS CodeBuild as the provider and then clicking _Create Project_. In the new window:
-	-  
+	-  name your build project something sensible like `bash-dog-build-project`.
+	- :monocle_face: under _Additional configuration_ check 'restrict number of concurrent builds this project can start' and set the limit to 1.
+	- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjc5MzAwMSwtMTY1Mjc5NjY4NywtOT
+eyJoaXN0b3J5IjpbLTE5MTY4MTQ4NiwtMTY1Mjc5NjY4NywtOT
 A5MDE0MjYzLC05MTY0ODYwNzEsMTcwNDQzNzIyNywyODAwMzc5
 NTUsLTEzNzE2MTc1NTQsLTE1NTU3NTMwOTIsLTExNDU2NzY4My
 wxNTk3Mjg3NzgzLDIwMDc2MDg4NDMsLTg1MDE5MTAxOV19
