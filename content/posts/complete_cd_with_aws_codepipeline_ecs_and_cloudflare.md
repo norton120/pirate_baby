@@ -191,8 +191,8 @@ Now you need to tell CloudFlare to use the cert you just created. **This is impo
 	- Save your rule
 OK now your CloudFlare is primed, though we have not set up the CNAME yet (that comes later). Onward with our pipeline.
 
-11. #### Create Service and Execution Roles for ECS
-ECS Execution needs to be able to access the secret(s) created earlier, and ECS Service needs to be able to do normal ECS task things. So we create 2 new roles named `bash-dog-ecs-service-role`  and `bash-dog-ecs-execution-role` in IAM. 
+11. #### Create a bunch of IAM Roles
+ECS Execution needs to be able to access the secret(s) created earlier, and ECS Service needs to be able to do normal ECS task things. CodeDeploy also needs a role. So, we create 3 new roles named `bash-dog-ecs-service-role` , `bash-dog-ecs-execution-role` , and `bash-dog-code-deploy` in IAM. 
 The execution role (think host role in a docker deployment) needs: 
 	- [AmazonECSTaskExecutionRolePolicy](https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2Fservice-role%2FAmazonECSTaskExecutionRolePolicy)
 	- An inline policy for accessing our secret envars
@@ -216,7 +216,22 @@ Make sure your trust relationships looks like this:
 }
 ```
 Next, create the Service role (think role assumed within the container). This is pretty straightforward, and is useful because you can add specific services to this role later as needed. This role needs [AWSCodeDeployRoleForECS](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAWSCodeDeployRoleForECS). Make sure the trust relationship of the created role looks like this: 
-
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "ecs-tasks.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+        }
+    ]
+}
+```
+Last create the code deploy role. This role
 
 12. #### Create an empty CodeDeploy Application
 We will need a CodeDeploy app for our ECS service to set up blue/green deploys in. So navigate to CodePipeline -> Applications -> and create a new application named something sensible like `bash-dog-deploy-application`. Leave this open.
@@ -233,11 +248,11 @@ Back to the `bash-dog` cluster page, time to create a service.
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk1NDM3MjAyLDIzODIzNjIyMSw0MTY4OD
-I5MTEsLTg2OTc4NDYzLDEyOTQ1NDEyLC0xMDAyNjg1MjQxLC0y
-NjAxNTIyOTAsLTE2NDM2MjYyNTUsMTI5MzI2NjEzMywtMTgxOT
-UwNDkzNSwtNDYwNDM5OTcxLC0zMDg2Mjk4MjgsLTE2Mjc1ODE2
-Niw2MTU4ODk2NzAsLTM2NTM4NTgyNywtMTY1Mjc5NjY4NywtOT
-A5MDE0MjYzLC05MTY0ODYwNzEsMTcwNDQzNzIyNywyODAwMzc5
-NTVdfQ==
+eyJoaXN0b3J5IjpbLTIwNzEwMDU1MzksMjM4MjM2MjIxLDQxNj
+g4MjkxMSwtODY5Nzg0NjMsMTI5NDU0MTIsLTEwMDI2ODUyNDEs
+LTI2MDE1MjI5MCwtMTY0MzYyNjI1NSwxMjkzMjY2MTMzLC0xOD
+E5NTA0OTM1LC00NjA0Mzk5NzEsLTMwODYyOTgyOCwtMTYyNzU4
+MTY2LDYxNTg4OTY3MCwtMzY1Mzg1ODI3LC0xNjUyNzk2Njg3LC
+05MDkwMTQyNjMsLTkxNjQ4NjA3MSwxNzA0NDM3MjI3LDI4MDAz
+Nzk1NV19
 -->
