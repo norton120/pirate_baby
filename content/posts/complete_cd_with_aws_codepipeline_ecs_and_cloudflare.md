@@ -231,7 +231,22 @@ Next, create the Service role (think role assumed within the container). This is
     ]
 }
 ```
-Last create the code deploy role. This role
+Last create the code deploy role. This role needs the [AWSCodeDeployRoleForECS](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAWSCodeDeployRoleForECS) policy, and trust relationship should look like this:
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "codedeploy.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+        }
+    ]
+}
+```
 
 12. #### Create an empty CodeDeploy Application
 We will need a CodeDeploy app for our ECS service to set up blue/green deploys in. So navigate to CodePipeline -> Applications -> and create a new application named something sensible like `bash-dog-deploy-application`. Leave this open.
@@ -248,11 +263,11 @@ Back to the `bash-dog` cluster page, time to create a service.
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzEwMDU1MzksMjM4MjM2MjIxLDQxNj
-g4MjkxMSwtODY5Nzg0NjMsMTI5NDU0MTIsLTEwMDI2ODUyNDEs
-LTI2MDE1MjI5MCwtMTY0MzYyNjI1NSwxMjkzMjY2MTMzLC0xOD
-E5NTA0OTM1LC00NjA0Mzk5NzEsLTMwODYyOTgyOCwtMTYyNzU4
-MTY2LDYxNTg4OTY3MCwtMzY1Mzg1ODI3LC0xNjUyNzk2Njg3LC
-05MDkwMTQyNjMsLTkxNjQ4NjA3MSwxNzA0NDM3MjI3LDI4MDAz
-Nzk1NV19
+eyJoaXN0b3J5IjpbMTYwNTEzNTMwMywyMzgyMzYyMjEsNDE2OD
+gyOTExLC04Njk3ODQ2MywxMjk0NTQxMiwtMTAwMjY4NTI0MSwt
+MjYwMTUyMjkwLC0xNjQzNjI2MjU1LDEyOTMyNjYxMzMsLTE4MT
+k1MDQ5MzUsLTQ2MDQzOTk3MSwtMzA4NjI5ODI4LC0xNjI3NTgx
+NjYsNjE1ODg5NjcwLC0zNjUzODU4MjcsLTE2NTI3OTY2ODcsLT
+kwOTAxNDI2MywtOTE2NDg2MDcxLDE3MDQ0MzcyMjcsMjgwMDM3
+OTU1XX0=
 -->
