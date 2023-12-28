@@ -173,7 +173,7 @@ Push all the changes made so far to `main` in your application repo. If your mai
 Now for the fun part - navigate to the s3 bucket and find the path `bash-dog-pipeline/buildArtf/`. Look for an artifact with the newest timestamp. Download it. Now check out the `taskdef.json` file within the artifact. You'll see the images have been updated to reflect the image sha for the release you just built! 
 You can also check ECR and see that the same image tag was created. 
 
-9. #### Adding your Cloudflare Origin Cert and Enabling Full Stric
+9. #### Adding your Cloudflare Origin Cert and Enabling Full Strict
 This seems random at the moment, but you will need this to create your load balancer, which you will do while creating an ECS service. 
 - Log in to Cloudflare  
 
@@ -202,11 +202,11 @@ Back to the `bash-dog` cluster page, time to create a service.
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzg2OTU5MjQsLTEwMDI2ODUyNDEsLT
-I2MDE1MjI5MCwtMTY0MzYyNjI1NSwxMjkzMjY2MTMzLC0xODE5
-NTA0OTM1LC00NjA0Mzk5NzEsLTMwODYyOTgyOCwtMTYyNzU4MT
-Y2LDYxNTg4OTY3MCwtMzY1Mzg1ODI3LC0xNjUyNzk2Njg3LC05
-MDkwMTQyNjMsLTkxNjQ4NjA3MSwxNzA0NDM3MjI3LDI4MDAzNz
-k1NSwtMTM3MTYxNzU1NCwtMTU1NTc1MzA5MiwtMTE0NTY3Njgz
-LDE1OTcyODc3ODNdfQ==
+eyJoaXN0b3J5IjpbMTI5NDU0MTIsLTEwMDI2ODUyNDEsLTI2MD
+E1MjI5MCwtMTY0MzYyNjI1NSwxMjkzMjY2MTMzLC0xODE5NTA0
+OTM1LC00NjA0Mzk5NzEsLTMwODYyOTgyOCwtMTYyNzU4MTY2LD
+YxNTg4OTY3MCwtMzY1Mzg1ODI3LC0xNjUyNzk2Njg3LC05MDkw
+MTQyNjMsLTkxNjQ4NjA3MSwxNzA0NDM3MjI3LDI4MDAzNzk1NS
+wtMTM3MTYxNzU1NCwtMTU1NTc1MzA5MiwtMTE0NTY3NjgzLDE1
+OTcyODc3ODNdfQ==
 -->
