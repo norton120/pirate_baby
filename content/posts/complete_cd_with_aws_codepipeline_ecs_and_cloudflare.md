@@ -174,7 +174,9 @@ Now for the fun part - navigate to the s3 bucket and find the path `bash-dog-pip
 You can also check ECR and see that the same image tag was created. 
 
 9. #### Create a ServiceRole for ECS
-ECS needs to be able to access the secret(s) created earlier, along with normal ECS things. So we create a new  
+ECS needs to be able to access the secret(s) created earlier, along with normal ECS things. So we create a new  role named `bash-dog-ecs-service-role` in IAM. This role needs: 
+	- `[AWSCodeDeployRoleForECS](https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAWSCodeDeployRoleForECS)
+
 10. #### Create an empty CodeDeploy Application
 We will need a CodeDeploy app for our ECS service to set up blue/green deploys in. So navigate to CodePipeline -> Applications -> and create a new application named something sensible like `bash-dog-deploy-application`. Leave this open.
  
@@ -190,11 +192,11 @@ Back to the `bash-dog` cluster page, time to create a service.
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDM2MjYyNTUsMTI5MzI2NjEzMywtMT
-gxOTUwNDkzNSwtNDYwNDM5OTcxLC0zMDg2Mjk4MjgsLTE2Mjc1
-ODE2Niw2MTU4ODk2NzAsLTM2NTM4NTgyNywtMTY1Mjc5NjY4Ny
-wtOTA5MDE0MjYzLC05MTY0ODYwNzEsMTcwNDQzNzIyNywyODAw
-Mzc5NTUsLTEzNzE2MTc1NTQsLTE1NTU3NTMwOTIsLTExNDU2Nz
-Y4MywxNTk3Mjg3NzgzLDIwMDc2MDg4NDMsLTg1MDE5MTAxOV19
-
+eyJoaXN0b3J5IjpbMjk4ODM5ODQ0LC0xNjQzNjI2MjU1LDEyOT
+MyNjYxMzMsLTE4MTk1MDQ5MzUsLTQ2MDQzOTk3MSwtMzA4NjI5
+ODI4LC0xNjI3NTgxNjYsNjE1ODg5NjcwLC0zNjUzODU4MjcsLT
+E2NTI3OTY2ODcsLTkwOTAxNDI2MywtOTE2NDg2MDcxLDE3MDQ0
+MzcyMjcsMjgwMDM3OTU1LC0xMzcxNjE3NTU0LC0xNTU1NzUzMD
+kyLC0xMTQ1Njc2ODMsMTU5NzI4Nzc4MywyMDA3NjA4ODQzLC04
+NTAxOTEwMTldfQ==
 -->
