@@ -179,6 +179,7 @@ ECS needs to be able to access the secret(s) created earlier, along with normal 
 	- An inline policy for accessing our secretsmanager envars
 Creating this policy is surprisingly unintuitive. Specify _Elastic Container Service_ (no alias for ECS) and Elastic Container Service Task. 
 ![service role](/ecs_service_role.png)
+After you create the service role, navigate to that role and select _add permissions_ -> _create inline policy_. (*note:* if you
 
 
 10. #### Create an empty CodeDeploy Application
@@ -196,11 +197,11 @@ Back to the `bash-dog` cluster page, time to create a service.
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTE5NTAzNywtMTY0MzYyNjI1NSwxMj
-kzMjY2MTMzLC0xODE5NTA0OTM1LC00NjA0Mzk5NzEsLTMwODYy
-OTgyOCwtMTYyNzU4MTY2LDYxNTg4OTY3MCwtMzY1Mzg1ODI3LC
-0xNjUyNzk2Njg3LC05MDkwMTQyNjMsLTkxNjQ4NjA3MSwxNzA0
-NDM3MjI3LDI4MDAzNzk1NSwtMTM3MTYxNzU1NCwtMTU1NTc1Mz
-A5MiwtMTE0NTY3NjgzLDE1OTcyODc3ODMsMjAwNzYwODg0Mywt
-ODUwMTkxMDE5XX0=
+eyJoaXN0b3J5IjpbLTE5MzU4MTk1NzcsLTE2NDM2MjYyNTUsMT
+I5MzI2NjEzMywtMTgxOTUwNDkzNSwtNDYwNDM5OTcxLC0zMDg2
+Mjk4MjgsLTE2Mjc1ODE2Niw2MTU4ODk2NzAsLTM2NTM4NTgyNy
+wtMTY1Mjc5NjY4NywtOTA5MDE0MjYzLC05MTY0ODYwNzEsMTcw
+NDQzNzIyNywyODAwMzc5NTUsLTEzNzE2MTc1NTQsLTE1NTU3NT
+MwOTIsLTExNDU2NzY4MywxNTk3Mjg3NzgzLDIwMDc2MDg4NDMs
+LTg1MDE5MTAxOV19
 -->
