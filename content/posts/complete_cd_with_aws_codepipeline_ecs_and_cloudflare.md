@@ -159,13 +159,14 @@ _Note:_ The pipeline will immediately build and fail. That's OK, we're far from 
 
 7. #### Update Build Role Access
 Now we need to update the build service role, allowing it to:
-- 
+	- login, pull and push our ECR images
+	- write to our s3 artifact bucket
+- Find that role you just created by searching IAM roles for  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjMzNTgzOTIsLTE2NTI3OTY2ODcsLT
-kwOTAxNDI2MywtOTE2NDg2MDcxLDE3MDQ0MzcyMjcsMjgwMDM3
-OTU1LC0xMzcxNjE3NTU0LC0xNTU1NzUzMDkyLC0xMTQ1Njc2OD
-MsMTU5NzI4Nzc4MywyMDA3NjA4ODQzLC04NTAxOTEwMTldfQ==
-
+eyJoaXN0b3J5IjpbLTI0NTAwMzIsLTE2NTI3OTY2ODcsLTkwOT
+AxNDI2MywtOTE2NDg2MDcxLDE3MDQ0MzcyMjcsMjgwMDM3OTU1
+LC0xMzcxNjE3NTU0LC0xNTU1NzUzMDkyLC0xMTQ1Njc2ODMsMT
+U5NzI4Nzc4MywyMDA3NjA4ODQzLC04NTAxOTEwMTldfQ==
 -->
