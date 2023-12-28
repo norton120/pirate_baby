@@ -173,15 +173,18 @@ Push all the changes made so far to `main` in your application repo. If your mai
 Now for the fun part - navigate to the s3 bucket and find the path `bash-dog-pipeline/buildArtf/`. Look for an artifact with the newest timestamp. Download it. Now check out the `taskdef.json` file within the artifact. You'll see the images have been updated to reflect the image sha for the release you just built! 
 You can also check ECR and see that the same image tag was created. 
 
-9. Launching ECS
+9. #### Create a ServiceRole for ECS
+ECS needs to be able to access the secret(s) created earlier, along with normal ECS things. So we create a new  
+11. #### Launching ECS
 Now we can set up our runtime.   Create a new cluster with defaults, named something logical like `bash-dog`. Let this chug, don't touch anything until the cluster is up and running. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MzI2NjEzMywtMTgxOTUwNDkzNSwtND
-YwNDM5OTcxLC0zMDg2Mjk4MjgsLTE2Mjc1ODE2Niw2MTU4ODk2
-NzAsLTM2NTM4NTgyNywtMTY1Mjc5NjY4NywtOTA5MDE0MjYzLC
-05MTY0ODYwNzEsMTcwNDQzNzIyNywyODAwMzc5NTUsLTEzNzE2
-MTc1NTQsLTE1NTU3NTMwOTIsLTExNDU2NzY4MywxNTk3Mjg3Nz
-gzLDIwMDc2MDg4NDMsLTg1MDE5MTAxOV19
+eyJoaXN0b3J5IjpbMjc1MDc2ODA0LDEyOTMyNjYxMzMsLTE4MT
+k1MDQ5MzUsLTQ2MDQzOTk3MSwtMzA4NjI5ODI4LC0xNjI3NTgx
+NjYsNjE1ODg5NjcwLC0zNjUzODU4MjcsLTE2NTI3OTY2ODcsLT
+kwOTAxNDI2MywtOTE2NDg2MDcxLDE3MDQ0MzcyMjcsMjgwMDM3
+OTU1LC0xMzcxNjE3NTU0LC0xNTU1NzUzMDkyLC0xMTQ1Njc2OD
+MsMTU5NzI4Nzc4MywyMDA3NjA4ODQzLC04NTAxOTEwMTldfQ==
+
 -->
