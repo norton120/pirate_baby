@@ -175,7 +175,9 @@ You can also check ECR and see that the same image tag was created.
 
 9. #### Create a ServiceRole for ECS
 ECS needs to be able to access the secret(s) created earlier, along with normal ECS things. So we create a new  role named `bash-dog-ecs-service-role` in IAM. This role needs: 
-	- `[AWSCodeDeployRoleForECS](https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAWSCodeDeployRoleForECS)
+	- [`AWSCodeDeployRoleForECS`](https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAWSCodeDeployRoleForECS) 
+	- An inline policy for accessing our secretsmanager envars
+
 
 10. #### Create an empty CodeDeploy Application
 We will need a CodeDeploy app for our ECS service to set up blue/green deploys in. So navigate to CodePipeline -> Applications -> and create a new application named something sensible like `bash-dog-deploy-application`. Leave this open.
@@ -192,7 +194,7 @@ Back to the `bash-dog` cluster page, time to create a service.
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk4ODM5ODQ0LC0xNjQzNjI2MjU1LDEyOT
+eyJoaXN0b3J5IjpbMzIyOTcyODIzLC0xNjQzNjI2MjU1LDEyOT
 MyNjYxMzMsLTE4MTk1MDQ5MzUsLTQ2MDQzOTk3MSwtMzA4NjI5
 ODI4LC0xNjI3NTgxNjYsNjE1ODg5NjcwLC0zNjUzODU4MjcsLT
 E2NTI3OTY2ODcsLTkwOTAxNDI2MywtOTE2NDg2MDcxLDE3MDQ0
