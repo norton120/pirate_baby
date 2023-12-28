@@ -215,8 +215,7 @@ Make sure your trust relationships looks like this:
     ]
 }
 ```
-Next, create the Service role (think role assumed within the container). This is pretty straightforward, and is useful because you can add specific services to this role later as needed. 
-
+Next, create the Service role (think role assumed within the container). This is pretty straightforward, and is useful because you can add specific services to this role later as needed. This role needs [AWSCodeDeployRoleForECS](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAWSCodeDeployRoleForECS). Make sure the trust relationship of the created role looks like this: 
 
 
 12. #### Create an empty CodeDeploy Application
@@ -234,11 +233,11 @@ Back to the `bash-dog` cluster page, time to create a service.
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTcyNTcwMCwyMzgyMzYyMjEsNDE2OD
-gyOTExLC04Njk3ODQ2MywxMjk0NTQxMiwtMTAwMjY4NTI0MSwt
-MjYwMTUyMjkwLC0xNjQzNjI2MjU1LDEyOTMyNjYxMzMsLTE4MT
-k1MDQ5MzUsLTQ2MDQzOTk3MSwtMzA4NjI5ODI4LC0xNjI3NTgx
-NjYsNjE1ODg5NjcwLC0zNjUzODU4MjcsLTE2NTI3OTY2ODcsLT
-kwOTAxNDI2MywtOTE2NDg2MDcxLDE3MDQ0MzcyMjcsMjgwMDM3
-OTU1XX0=
+eyJoaXN0b3J5IjpbOTk1NDM3MjAyLDIzODIzNjIyMSw0MTY4OD
+I5MTEsLTg2OTc4NDYzLDEyOTQ1NDEyLC0xMDAyNjg1MjQxLC0y
+NjAxNTIyOTAsLTE2NDM2MjYyNTUsMTI5MzI2NjEzMywtMTgxOT
+UwNDkzNSwtNDYwNDM5OTcxLC0zMDg2Mjk4MjgsLTE2Mjc1ODE2
+Niw2MTU4ODk2NzAsLTM2NTM4NTgyNywtMTY1Mjc5NjY4NywtOT
+A5MDE0MjYzLC05MTY0ODYwNzEsMTcwNDQzNzIyNywyODAwMzc5
+NTVdfQ==
 -->
