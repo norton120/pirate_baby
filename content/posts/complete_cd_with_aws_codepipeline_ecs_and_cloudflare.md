@@ -166,12 +166,12 @@ Now we need to update the build service role, allowing it to:
 {{< gist norton120 d622626cb4ce4cace838ce1ec35f96ef >}}
 
 8. #### Run a successful build
-Push all the changes made so far to `main` in your application repo. If you alrea
+Push all the changes made so far to `main` in your application repo. If your main is already up to date, you will need to 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM3NzMzNjgwLC0xNjI3NTgxNjYsNjE1OD
-g5NjcwLC0zNjUzODU4MjcsLTE2NTI3OTY2ODcsLTkwOTAxNDI2
-MywtOTE2NDg2MDcxLDE3MDQ0MzcyMjcsMjgwMDM3OTU1LC0xMz
-cxNjE3NTU0LC0xNTU1NzUzMDkyLC0xMTQ1Njc2ODMsMTU5NzI4
-Nzc4MywyMDA3NjA4ODQzLC04NTAxOTEwMTldfQ==
+eyJoaXN0b3J5IjpbLTMwODYyOTgyOCwtMTYyNzU4MTY2LDYxNT
+g4OTY3MCwtMzY1Mzg1ODI3LC0xNjUyNzk2Njg3LC05MDkwMTQy
+NjMsLTkxNjQ4NjA3MSwxNzA0NDM3MjI3LDI4MDAzNzk1NSwtMT
+M3MTYxNzU1NCwtMTU1NTc1MzA5MiwtMTE0NTY3NjgzLDE1OTcy
+ODc3ODMsMjAwNzYwODg0MywtODUwMTkxMDE5XX0=
 -->
