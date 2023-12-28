@@ -176,7 +176,7 @@ You can also check ECR and see that the same image tag was created.
 9. #### Create a ServiceRole for ECS
 ECS needs to be able to access the secret(s) created earlier, along with normal ECS things. So we create a new  
 10. #### Create an empty CodeDeploy Application
-You will need a CodeDeploy app for ECS service to set up blue/green deploys with
+We will need a CodeDeploy app for our ECS service to set up blue/green deploys in. So navigate to CodePipeline -> Applications -> , 
 12. #### Launching ECS with a CodeDeploy Application
 Now we can set up our runtime. Create a new cluster with defaults, named something logical like `bash-dog`. Let this chug, don't touch anything until the cluster is up and running. 
 Once up, we need a base task definition for the service we are about to create.
@@ -184,11 +184,11 @@ Once up, we need a base task definition for the service we are about to create.
 Now time to create
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTg0NDEzMDAsMTI5MzI2NjEzMywtMT
-gxOTUwNDkzNSwtNDYwNDM5OTcxLC0zMDg2Mjk4MjgsLTE2Mjc1
-ODE2Niw2MTU4ODk2NzAsLTM2NTM4NTgyNywtMTY1Mjc5NjY4Ny
-wtOTA5MDE0MjYzLC05MTY0ODYwNzEsMTcwNDQzNzIyNywyODAw
-Mzc5NTUsLTEzNzE2MTc1NTQsLTE1NTU3NTMwOTIsLTExNDU2Nz
-Y4MywxNTk3Mjg3NzgzLDIwMDc2MDg4NDMsLTg1MDE5MTAxOV19
+eyJoaXN0b3J5IjpbNTY1MTE2NjA4LDEyOTMyNjYxMzMsLTE4MT
+k1MDQ5MzUsLTQ2MDQzOTk3MSwtMzA4NjI5ODI4LC0xNjI3NTgx
+NjYsNjE1ODg5NjcwLC0zNjUzODU4MjcsLTE2NTI3OTY2ODcsLT
+kwOTAxNDI2MywtOTE2NDg2MDcxLDE3MDQ0MzcyMjcsMjgwMDM3
+OTU1LC0xMzcxNjE3NTU0LC0xNTU1NzUzMDkyLC0xMTQ1Njc2OD
+MsMTU5NzI4Nzc4MywyMDA3NjA4ODQzLC04NTAxOTEwMTldfQ==
 
 -->
