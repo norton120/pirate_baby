@@ -174,13 +174,14 @@ Now for the fun part - navigate to the s3 bucket and find the path `bash-dog-pip
 You can also check ECR and see that the same image tag was created. 
 
 9. Launching ECS
-Now we can set up our runtime.   Create a new cluster with defaults, named something logical like `bash-dog`. Let this do its thing
+Now we can set up our runtime.   Create a new cluster with defaults, named something logical like `bash-dog`. Let this chug, don't touch anything until the cluster is up and running. 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDY4MjcwOTgsLTE4MTk1MDQ5MzUsLT
-Q2MDQzOTk3MSwtMzA4NjI5ODI4LC0xNjI3NTgxNjYsNjE1ODg5
-NjcwLC0zNjUzODU4MjcsLTE2NTI3OTY2ODcsLTkwOTAxNDI2My
-wtOTE2NDg2MDcxLDE3MDQ0MzcyMjcsMjgwMDM3OTU1LC0xMzcx
-NjE3NTU0LC0xNTU1NzUzMDkyLC0xMTQ1Njc2ODMsMTU5NzI4Nz
-c4MywyMDA3NjA4ODQzLC04NTAxOTEwMTldfQ==
+eyJoaXN0b3J5IjpbMTI5MzI2NjEzMywtMTgxOTUwNDkzNSwtND
+YwNDM5OTcxLC0zMDg2Mjk4MjgsLTE2Mjc1ODE2Niw2MTU4ODk2
+NzAsLTM2NTM4NTgyNywtMTY1Mjc5NjY4NywtOTA5MDE0MjYzLC
+05MTY0ODYwNzEsMTcwNDQzNzIyNywyODAwMzc5NTUsLTEzNzE2
+MTc1NTQsLTE1NTU3NTMwOTIsLTExNDU2NzY4MywxNTk3Mjg3Nz
+gzLDIwMDc2MDg4NDMsLTg1MDE5MTAxOV19
 -->
