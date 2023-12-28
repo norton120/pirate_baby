@@ -196,9 +196,10 @@ ECS Execution needs to be able to access the secret(s) created earlier, and ECS 
 The execution role (think host role in a docker deployment) needs: 
 	- [AmazonECSTaskExecutionRolePolicy](https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2Fservice-role%2FAmazonECSTaskExecutionRolePolicy)
 	- An inline policy for accessing our secret envars
-Creating this policy is surprisingly unintuitive. Specify _Elastic Container Service_ (no alias for ECS) and Elastic Container Service Task. 
+Creating this policy is surprisingly unintuitive. Specify _Elastic Container Service_ (no alias for ECS) and Elastic Container Service. 
 The policy should look like this:
 {{< gist norton120 d07535142a3cf363679a7aacbca94196 >}}
+Make sure your trust policy looks li
 Next, create the Service role (think role assumed within the container). This is pretty straightforward, but is good because you can add specific services to this role later as needed. 
 
 
@@ -217,11 +218,11 @@ Back to the `bash-dog` cluster page, time to create a service.
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM4MjM2MjIxLDQxNjg4MjkxMSwtODY5Nz
-g0NjMsMTI5NDU0MTIsLTEwMDI2ODUyNDEsLTI2MDE1MjI5MCwt
-MTY0MzYyNjI1NSwxMjkzMjY2MTMzLC0xODE5NTA0OTM1LC00Nj
-A0Mzk5NzEsLTMwODYyOTgyOCwtMTYyNzU4MTY2LDYxNTg4OTY3
-MCwtMzY1Mzg1ODI3LC0xNjUyNzk2Njg3LC05MDkwMTQyNjMsLT
-kxNjQ4NjA3MSwxNzA0NDM3MjI3LDI4MDAzNzk1NSwtMTM3MTYx
-NzU1NF19
+eyJoaXN0b3J5IjpbLTUzMTY4MjE3MywyMzgyMzYyMjEsNDE2OD
+gyOTExLC04Njk3ODQ2MywxMjk0NTQxMiwtMTAwMjY4NTI0MSwt
+MjYwMTUyMjkwLC0xNjQzNjI2MjU1LDEyOTMyNjYxMzMsLTE4MT
+k1MDQ5MzUsLTQ2MDQzOTk3MSwtMzA4NjI5ODI4LC0xNjI3NTgx
+NjYsNjE1ODg5NjcwLC0zNjUzODU4MjcsLTE2NTI3OTY2ODcsLT
+kwOTAxNDI2MywtOTE2NDg2MDcxLDE3MDQ0MzcyMjcsMjgwMDM3
+OTU1XX0=
 -->
