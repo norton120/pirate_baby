@@ -199,8 +199,24 @@ The execution role (think host role in a docker deployment) needs:
 Creating this policy is surprisingly unintuitive. Specify _Elastic Container Service_ (no alias for ECS) and Elastic Container Service. 
 The policy should look like this:
 {{< gist norton120 d07535142a3cf363679a7aacbca94196 >}}
-Make sure your trust policy looks li
-Next, create the Service role (think role assumed within the container). This is pretty straightforward, but is good because you can add specific services to this role later as needed. 
+Make sure your trust relationships looks like this: 
+```json
+{
+    "Version": "2008-10-17",
+    "Statement": [
+        {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "ecs-tasks.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+        }
+    ]
+}
+```
+Next, create the Service role (think role assumed within the container). This is pretty straightforward, and is useful because you can add specific services to this role later as needed. 
+
 
 
 12. #### Create an empty CodeDeploy Application
@@ -218,7 +234,7 @@ Back to the `bash-dog` cluster page, time to create a service.
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTY4MjE3MywyMzgyMzYyMjEsNDE2OD
+eyJoaXN0b3J5IjpbLTIwMTcyNTcwMCwyMzgyMzYyMjEsNDE2OD
 gyOTExLC04Njk3ODQ2MywxMjk0NTQxMiwtMTAwMjY4NTI0MSwt
 MjYwMTUyMjkwLC0xNjQzNjI2MjU1LDEyOTMyNjYxMzMsLTE4MT
 k1MDQ5MzUsLTQ2MDQzOTk3MSwtMzA4NjI5ODI4LC0xNjI3NTgx
