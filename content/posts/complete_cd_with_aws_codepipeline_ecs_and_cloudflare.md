@@ -161,13 +161,15 @@ _Note:_ The pipeline will immediately build and fail. That's OK, we're far from 
 Now we need to update the build service role, allowing it to:
 	- login, pull and push our ECR images
 	- write to our s3 artifact bucket
-- Find that role you just created by searching IAM roles for `bash-dog` (well, your equivalent). It should look like `codebuild-bash-dog-pipeline-service-role` unless you changed it. 
--  
+- Find that role you just created by searching IAM roles for `bash-dog` (well, your equivalent). It should look like `codebuild-bash-dog-pipeline-service-role` unless you changed it. It should also have a policy named something like `CodeBuildBasePolicy-bash-dog-pipeline-us-east-2`. Click into that.
+-  Edit the policy and add these statements, updating the image and s3 bucket arns to match the images and s3 bucket you created earlier.
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NTM4NTgyNywtMTY1Mjc5NjY4NywtOT
-A5MDE0MjYzLC05MTY0ODYwNzEsMTcwNDQzNzIyNywyODAwMzc5
-NTUsLTEzNzE2MTc1NTQsLTE1NTU3NTMwOTIsLTExNDU2NzY4My
-wxNTk3Mjg3NzgzLDIwMDc2MDg4NDMsLTg1MDE5MTAxOV19
+eyJoaXN0b3J5IjpbMTgwNDI2ODI2NywtMzY1Mzg1ODI3LC0xNj
+UyNzk2Njg3LC05MDkwMTQyNjMsLTkxNjQ4NjA3MSwxNzA0NDM3
+MjI3LDI4MDAzNzk1NSwtMTM3MTYxNzU1NCwtMTU1NTc1MzA5Mi
+wtMTE0NTY3NjgzLDE1OTcyODc3ODMsMjAwNzYwODg0MywtODUw
+MTkxMDE5XX0=
 -->
