@@ -124,8 +124,15 @@ so setting our `BASH_DOG_ENVIRONMENT` envar in the api container would look like
 remember that this arn will be the one you just created, not the example arn above! 
 - Be sure to delete any example envars you _aren't_ using, they will cause the pipeline to error if the secret or key does not exist.  
 - If you have envars that conflict between containers (for example, if each container needs a different `HOSTNAME` envar) you will need to set up individual secrets for each container. Then reference them with the same pattern, just using the container-specific secret arns for each set of secrets. 
-- Make sure references across containers use `localhost` and not the container names; this is one place I've found ECS `awsvpc` networking functions differently than a bridge docker network.  
-
+- Make sure references across containers use `localhost` and not the container names; this is one place I've found ECS `awsvpc` networking functions differently than a bridge docker network. so 
+```
+# bad
+API_HOST=http://api-container-name:8080
+# good
+API_HOST=http://localhost:8080 
+``` 
+5. #### Artifact S3 Bucket
+Your CodePipeline will
 6. #### Code Pipeline
 I find it is much easier not to get twisted into a dependency pretzel if we start our pipeline at the very end, with the CodePipeline itself. 
 - Navigate to _CodePipeline -> CreatePipeline_. 
@@ -137,7 +144,7 @@ I find it is much easier not to get twisted into a dependency pretzel if we star
 - Leave all the other defaults alone and click _Next_.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI0NDY5MTQ0LC05MDkwMTQyNjMsLTkxNj
+eyJoaXN0b3J5IjpbNjI5MTg5MTY4LC05MDkwMTQyNjMsLTkxNj
 Q4NjA3MSwxNzA0NDM3MjI3LDI4MDAzNzk1NSwtMTM3MTYxNzU1
 NCwtMTU1NTc1MzA5MiwtMTE0NTY3NjgzLDE1OTcyODc3ODMsMj
 AwNzYwODg0MywtODUwMTkxMDE5XX0=
