@@ -170,10 +170,11 @@ Now we need to update the build service role, allowing it to:
 Push all the changes made so far to `main` in your application repo. If your main is already up to date, you will need to trigger it manually via the CodePipeline with the _Release Change_ button. Let it build, check the logs tab for errors, and with fate on your side you should see this:
 ![build success](/build_success.png)
 
-Now for the fun part - navigate to the s3 bucket and find the path `bash-dog-pipeline/buildArtf` 
+Now for the fun part - navigate to the s3 bucket and find the path `bash-dog-pipeline/buildArtf/`. Look for an artifact with the newest timestamp. Download it. Now check out the `taskdef.json` file within the artifact. You'll see the images have been updated to reflect the image sha for the release you just built! 
+You can also check ECR and see that the same image tag was created.  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMDM3NzM1OCwtMTgxOTUwNDkzNSwtND
+eyJoaXN0b3J5IjpbLTI1ODE1NTc0NSwtMTgxOTUwNDkzNSwtND
 YwNDM5OTcxLC0zMDg2Mjk4MjgsLTE2Mjc1ODE2Niw2MTU4ODk2
 NzAsLTM2NTM4NTgyNywtMTY1Mjc5NjY4NywtOTA5MDE0MjYzLC
 05MTY0ODYwNzEsMTcwNDQzNzIyNywyODAwMzc5NTUsLTEzNzE2
