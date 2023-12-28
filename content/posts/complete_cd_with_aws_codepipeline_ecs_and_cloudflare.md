@@ -175,19 +175,20 @@ You can also check ECR and see that the same image tag was created.
 
 9. #### Create a ServiceRole for ECS
 ECS needs to be able to access the secret(s) created earlier, along with normal ECS things. So we create a new  
-
-10. #### Launching ECS
-Now we can set up our runtime.   Create a new cluster with defaults, named something logical like `bash-dog`. Let this chug, don't touch anything until the cluster is up and running. 
+10. #### Create an empty CodeDeploy Application
+You will need a CodeDeploy app for ECS service to set up blue/green deploys with
+12. #### Launching ECS with a CodeDeploy Application
+Now we can set up our runtime. Create a new cluster with defaults, named something logical like `bash-dog`. Let this chug, don't touch anything until the cluster is up and running. 
 Once up, we need a base task definition for the service we are about to create.
 - Click on _Task definitions_, _Create a new task definition (with JSON)_. Paste the guts of your `taskdef.json` file and save.
-- 
+Now time to create
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MTE4NTc1MSwxMjkzMjY2MTMzLC0xOD
-E5NTA0OTM1LC00NjA0Mzk5NzEsLTMwODYyOTgyOCwtMTYyNzU4
-MTY2LDYxNTg4OTY3MCwtMzY1Mzg1ODI3LC0xNjUyNzk2Njg3LC
-05MDkwMTQyNjMsLTkxNjQ4NjA3MSwxNzA0NDM3MjI3LDI4MDAz
-Nzk1NSwtMTM3MTYxNzU1NCwtMTU1NTc1MzA5MiwtMTE0NTY3Nj
-gzLDE1OTcyODc3ODMsMjAwNzYwODg0MywtODUwMTkxMDE5XX0=
+eyJoaXN0b3J5IjpbLTIwNTg0NDEzMDAsMTI5MzI2NjEzMywtMT
+gxOTUwNDkzNSwtNDYwNDM5OTcxLC0zMDg2Mjk4MjgsLTE2Mjc1
+ODE2Niw2MTU4ODk2NzAsLTM2NTM4NTgyNywtMTY1Mjc5NjY4Ny
+wtOTA5MDE0MjYzLC05MTY0ODYwNzEsMTcwNDQzNzIyNywyODAw
+Mzc5NTUsLTEzNzE2MTc1NTQsLTE1NTU3NTMwOTIsLTExNDU2Nz
+Y4MywxNTk3Mjg3NzgzLDIwMDc2MDg4NDMsLTg1MDE5MTAxOV19
 
 -->
