@@ -179,14 +179,15 @@ ECS needs to be able to access the secret(s) created earlier, along with normal 
 10. #### Launching ECS
 Now we can set up our runtime.   Create a new cluster with defaults, named something logical like `bash-dog`. Let this chug, don't touch anything until the cluster is up and running. 
 Once up, we need a base task definition for the service we are about to create.
-- Click on _Task definitions_, _Create a new task definition (with JSON)_. Paste the guts of your `taskdef.json` file, 
+- Click on _Task definitions_, _Create a new task definition (with JSON)_. Paste the guts of your `taskdef.json` file and save.
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4OTk1OTIwLDEyOTMyNjYxMzMsLTE4MT
-k1MDQ5MzUsLTQ2MDQzOTk3MSwtMzA4NjI5ODI4LC0xNjI3NTgx
-NjYsNjE1ODg5NjcwLC0zNjUzODU4MjcsLTE2NTI3OTY2ODcsLT
-kwOTAxNDI2MywtOTE2NDg2MDcxLDE3MDQ0MzcyMjcsMjgwMDM3
-OTU1LC0xMzcxNjE3NTU0LC0xNTU1NzUzMDkyLC0xMTQ1Njc2OD
-MsMTU5NzI4Nzc4MywyMDA3NjA4ODQzLC04NTAxOTEwMTldfQ==
+eyJoaXN0b3J5IjpbMTY0MTE4NTc1MSwxMjkzMjY2MTMzLC0xOD
+E5NTA0OTM1LC00NjA0Mzk5NzEsLTMwODYyOTgyOCwtMTYyNzU4
+MTY2LDYxNTg4OTY3MCwtMzY1Mzg1ODI3LC0xNjUyNzk2Njg3LC
+05MDkwMTQyNjMsLTkxNjQ4NjA3MSwxNzA0NDM3MjI3LDI4MDAz
+Nzk1NSwtMTM3MTYxNzU1NCwtMTU1NTc1MzA5MiwtMTE0NTY3Nj
+gzLDE1OTcyODc3ODMsMjAwNzYwODg0MywtODUwMTkxMDE5XX0=
 
 -->
