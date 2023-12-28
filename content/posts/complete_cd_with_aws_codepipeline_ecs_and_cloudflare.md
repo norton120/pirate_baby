@@ -178,8 +178,11 @@ This seems random at the moment, but you will need this to create your load bala
 - Log in to Cloudflare for your respective domain.
 	- Under _SSL_ -> _Origin Certificate_ click _Create Certificate_. 
 	- Leave the defaults. **Note:** the free certs will only work for bare domains (_example.com_) and **single level subdomains** (_www.example.com_).
-- In a different tab, navigate to [AWS Certificate Manager](https://us-east-2.console.aws.amazon.com/acm/home?region=us-east-2#/certificates/list) and click on  _Impor
+	- Click _Create_. 
+- In a different tab, navigate to [AWS Certificate Manager](https://us-east-2.console.aws.amazon.com/acm/home?region=us-east-2#/certificates/list) and click on  _Import_.
+- Back in Cloudflare, time to copy the cert you just created, and paste the values into the respective boxes in ACR. 
 	- :monocle_face: click the copy buttons. Don't try to scroll copy, you can grab/miss needed whitespace and break the cert. 
+	- Leave Certificate chain blank. Clich
 11. #### Create a ServiceRole for ECS
 ECS needs to be able to access the secret(s) created earlier, along with normal ECS things. So we create a new  role named `bash-dog-ecs-service-role` in IAM. This role needs: 
 	- [`AWSCodeDeployRoleForECS`](https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAWSCodeDeployRoleForECS) 
@@ -205,11 +208,11 @@ Back to the `bash-dog` cluster page, time to create a service.
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTI2NTMwNywtODY5Nzg0NjMsMTI5ND
-U0MTIsLTEwMDI2ODUyNDEsLTI2MDE1MjI5MCwtMTY0MzYyNjI1
-NSwxMjkzMjY2MTMzLC0xODE5NTA0OTM1LC00NjA0Mzk5NzEsLT
-MwODYyOTgyOCwtMTYyNzU4MTY2LDYxNTg4OTY3MCwtMzY1Mzg1
-ODI3LC0xNjUyNzk2Njg3LC05MDkwMTQyNjMsLTkxNjQ4NjA3MS
-wxNzA0NDM3MjI3LDI4MDAzNzk1NSwtMTM3MTYxNzU1NCwtMTU1
-NTc1MzA5Ml19
+eyJoaXN0b3J5IjpbLTE0MDIwMjc4MjksLTg2OTc4NDYzLDEyOT
+Q1NDEyLC0xMDAyNjg1MjQxLC0yNjAxNTIyOTAsLTE2NDM2MjYy
+NTUsMTI5MzI2NjEzMywtMTgxOTUwNDkzNSwtNDYwNDM5OTcxLC
+0zMDg2Mjk4MjgsLTE2Mjc1ODE2Niw2MTU4ODk2NzAsLTM2NTM4
+NTgyNywtMTY1Mjc5NjY4NywtOTA5MDE0MjYzLC05MTY0ODYwNz
+EsMTcwNDQzNzIyNywyODAwMzc5NTUsLTEzNzE2MTc1NTQsLTE1
+NTU3NTMwOTJdfQ==
 -->
