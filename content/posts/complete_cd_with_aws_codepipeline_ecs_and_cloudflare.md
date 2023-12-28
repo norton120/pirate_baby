@@ -198,6 +198,8 @@ The execution role (think host role in a docker deployment) needs:
 	- An inline policy for accessing our secret envars
 Creating this policy is surprisingly unintuitive. Specify _Elastic Container Service_ (no alias for ECS) and Elastic Container Service Task. 
 The policy should look like this:
+{{< gist norton120 d07535142a3cf363679a7aacbca94196 >}}
+Next, create the Service role (think role assumed within the container). This is pretty straightforward, but is good because you can add specific services to this role later as needed. 
 
 
 12. #### Create an empty CodeDeploy Application
@@ -215,11 +217,11 @@ Back to the `bash-dog` cluster page, time to create a service.
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNTM1NDUzNyw0MTY4ODI5MTEsLTg2OT
-c4NDYzLDEyOTQ1NDEyLC0xMDAyNjg1MjQxLC0yNjAxNTIyOTAs
-LTE2NDM2MjYyNTUsMTI5MzI2NjEzMywtMTgxOTUwNDkzNSwtND
-YwNDM5OTcxLC0zMDg2Mjk4MjgsLTE2Mjc1ODE2Niw2MTU4ODk2
-NzAsLTM2NTM4NTgyNywtMTY1Mjc5NjY4NywtOTA5MDE0MjYzLC
-05MTY0ODYwNzEsMTcwNDQzNzIyNywyODAwMzc5NTUsLTEzNzE2
-MTc1NTRdfQ==
+eyJoaXN0b3J5IjpbMjM4MjM2MjIxLDQxNjg4MjkxMSwtODY5Nz
+g0NjMsMTI5NDU0MTIsLTEwMDI2ODUyNDEsLTI2MDE1MjI5MCwt
+MTY0MzYyNjI1NSwxMjkzMjY2MTMzLC0xODE5NTA0OTM1LC00Nj
+A0Mzk5NzEsLTMwODYyOTgyOCwtMTYyNzU4MTY2LDYxNTg4OTY3
+MCwtMzY1Mzg1ODI3LC0xNjUyNzk2Njg3LC05MDkwMTQyNjMsLT
+kxNjQ4NjA3MSwxNzA0NDM3MjI3LDI4MDAzNzk1NSwtMTM3MTYx
+NzU1NF19
 -->
