@@ -252,7 +252,8 @@ Last create the code deploy role. This role needs the [AWSCodeDeployRoleForECS](
 We will need a CodeDeploy app for our ECS service to set up blue/green deploys in. So navigate to CodePipeline -> Applications -> and create a new application named something sensible like `bash-dog-deploy-application`. Leave this open.
  
 13. #### Create the ECS Cluster and initial Task Definition
-Setting up the initial runtime is a little bit of a juggling act; You first create your ECS Cluster, Task Definition, and ECS Service, with the Service _linked_ to the Code Deploy, but not managed by it (yet). Create a new cluster with defaults, named something logical like `bash-dog`. Let this chug, don't touch anything until the cluster is up and running. 
+Setting up the initial runtime is a little bit of a juggling act; You first create your ECS Cluster, Task Definition, and ECS Service with the Service _linked_ to the Code Deploy (but not exactly managed by it yet). The idea is to manually stand up the service and get it to a "healthy" state, and _then_ have CodeDeploy take over. 
+	1. **Create a new cluster* with defaults, named something logical like `bash-dog`. Let this chug, don't touch anything until the cluster is up and running. 
 Once up, we need a base task definition for the service we are about to create.
 - Click on _Task definitions_, _Create a new task definition (with JSON)_. Paste the guts of your `taskdef.json` file and save.
 Back to the `bash-dog` cluster page, time to create a service. 
@@ -263,11 +264,11 @@ Back to the `bash-dog` cluster page, time to create a service.
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODQ4MzY3NzMsODE5MDUxODA5LDE2MD
-UxMzUzMDMsMjM4MjM2MjIxLDQxNjg4MjkxMSwtODY5Nzg0NjMs
-MTI5NDU0MTIsLTEwMDI2ODUyNDEsLTI2MDE1MjI5MCwtMTY0Mz
-YyNjI1NSwxMjkzMjY2MTMzLC0xODE5NTA0OTM1LC00NjA0Mzk5
-NzEsLTMwODYyOTgyOCwtMTYyNzU4MTY2LDYxNTg4OTY3MCwtMz
-Y1Mzg1ODI3LC0xNjUyNzk2Njg3LC05MDkwMTQyNjMsLTkxNjQ4
-NjA3MV19
+eyJoaXN0b3J5IjpbLTUzODYxMjQwOCw4MTkwNTE4MDksMTYwNT
+EzNTMwMywyMzgyMzYyMjEsNDE2ODgyOTExLC04Njk3ODQ2Mywx
+Mjk0NTQxMiwtMTAwMjY4NTI0MSwtMjYwMTUyMjkwLC0xNjQzNj
+I2MjU1LDEyOTMyNjYxMzMsLTE4MTk1MDQ5MzUsLTQ2MDQzOTk3
+MSwtMzA4NjI5ODI4LC0xNjI3NTgxNjYsNjE1ODg5NjcwLC0zNj
+UzODU4MjcsLTE2NTI3OTY2ODcsLTkwOTAxNDI2MywtOTE2NDg2
+MDcxXX0=
 -->
