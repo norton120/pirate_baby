@@ -191,7 +191,7 @@ Now you need to tell CloudFlare to use the cert you just created. **This is impo
 	- Save your rule
 OK now your CloudFlare is primed, though we have not set up the CNAME yet (that comes later). Onward with our pipeline.
 
-11. #### Create all the IAM Roles
+10. #### Create all the IAM Roles
 ECS Execution needs to be able to access the secret(s) created earlier, and ECS Service needs to be able to do normal ECS task things. CodeDeploy also needs a role. So, we create 3 new roles named `bash-dog-ecs-service-role` , `bash-dog-ecs-execution-role` , and `bash-dog-code-deploy` in IAM. 
 The execution role (think host role in a docker deployment) needs: 
 	- [AmazonECSTaskExecutionRolePolicy](https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2Fservice-role%2FAmazonECSTaskExecutionRolePolicy)
@@ -248,16 +248,14 @@ Last create the code deploy role. This role needs the [AWSCodeDeployRoleForECS](
 }
 ```
 
-12. #### Create an empty CodeDeploy Application
+11. #### Create an empty CodeDeploy Application
 We will need a CodeDeploy app for our ECS service to set up blue/green deploys in. So navigate to CodePipeline -> Applications -> and create a new application named something sensible like `bash-dog-deploy-application`. Leave this open.
  
-13. #### Create the ECS Cluster and initial Task Definition
+12. #### Create the ECS Cluster and initial Task Definition
 Setting up the initial runtime is a little bit of a juggling act; You first create your ECS Cluster, Task Definition, and ECS Service with the Service _linked_ to the Code Deploy (but not exactly managed by it yet). The idea is to manually stand up the service and get it to a "healthy" state, and _then_ have CodeDeploy take over. 
 	1. We **create a new cluster** from the ECS home page. Name the cluster something logical like `bash-dog`, leave all the defaults. This will take a minute, just leave it and wait until it is ready (clicking ahead will break things). 
-	2. Next we  
-Once up, we need a base task definition for the service we are about to create.
-- Click on _Task definitions_, _Create a new task definition (with JSON)_. Paste the guts of your `taskdef.json` file and save.
-Back to the `bash-dog` cluster page, time to create a service. 
+	2. Next we **create a task definition** that will be used by our service. From the ECS home page click on _Task definitions_, _Create a new task definition (with JSON)_. Paste the guts of your `taskdef.json` file (the one in your application repo) and save.
+	3. Finally we will create our ECS Service. Navigate to the `bash-dog` cluster and click
 - Click _Create_ under Services. Leave the defaults for Environment.
 - Under _Deployment Configuration_ select the task family name you just created.
 - Name the service something logical like `bash-dog`.
@@ -265,11 +263,11 @@ Back to the `bash-dog` cluster page, time to create a service.
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwMTI1NTkwLDgxOTA1MTgwOSwxNjA1MT
-M1MzAzLDIzODIzNjIyMSw0MTY4ODI5MTEsLTg2OTc4NDYzLDEy
-OTQ1NDEyLC0xMDAyNjg1MjQxLC0yNjAxNTIyOTAsLTE2NDM2Mj
-YyNTUsMTI5MzI2NjEzMywtMTgxOTUwNDkzNSwtNDYwNDM5OTcx
-LC0zMDg2Mjk4MjgsLTE2Mjc1ODE2Niw2MTU4ODk2NzAsLTM2NT
-M4NTgyNywtMTY1Mjc5NjY4NywtOTA5MDE0MjYzLC05MTY0ODYw
-NzFdfQ==
+eyJoaXN0b3J5IjpbMjA5MjA3MzQwNSw4MTkwNTE4MDksMTYwNT
+EzNTMwMywyMzgyMzYyMjEsNDE2ODgyOTExLC04Njk3ODQ2Mywx
+Mjk0NTQxMiwtMTAwMjY4NTI0MSwtMjYwMTUyMjkwLC0xNjQzNj
+I2MjU1LDEyOTMyNjYxMzMsLTE4MTk1MDQ5MzUsLTQ2MDQzOTk3
+MSwtMzA4NjI5ODI4LC0xNjI3NTgxNjYsNjE1ODg5NjcwLC0zNj
+UzODU4MjcsLTE2NTI3OTY2ODcsLTkwOTAxNDI2MywtOTE2NDg2
+MDcxXX0=
 -->
