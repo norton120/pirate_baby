@@ -253,9 +253,9 @@ Last create the code deploy role. This role needs the [AWSCodeDeployRoleForECS](
 10. #### Create an empty CodeDeploy Application
 We will need a CodeDeploy app for our ECS service to set up blue/green deploys in. So navigate to CodePipeline -> Applications -> and create a new application named something sensible like `bash-dog-deploy-application`. Leave this open. Don't create a deployment yet, or you will get a weird loop where CloudFormation rips down your ECS Service for having too many deployments associated. 
  
- 11. #### Configure Security Group Rules
- One of the most tricky elements of launching your ECS Service is that it really needs to succeed the first time you manually deploy it. If the initial task set for the service is unable to get to a "healthy" state, CloudFormation will stubbornly retry the same broken code until it finally tears down the service - and you have to start all over :sad_cat:. 
- 
+ 11. #### Configure Security Group and IAM Role Rules
+ One of the most tricky elements of launching your ECS Service is that it really needs to succeed the first time you manually deploy it. If the initial task set for the service is unable to get to a "healthy" state, CloudFormation will stubbornly retry the same broken code until it finally tears down the service - and you have to start all over :sad_cat:. Before you attempt to launch the ECS cluster, go through all the dependent services and make sure you have set up security group ingress rules, access policies etc. ahead of time. Things like:
+ - does your app need database acc
  
 12. #### Create the ECS Cluster and initial Task Definition
 Setting up the initial runtime is a little bit of a juggling act; You first create your ECS Cluster, Task Definition, and ECS Service with the Service _linked_ to the Code Deploy (but not exactly managed by it yet). The idea is to manually stand up the service and get it to a "healthy" state, and _then_ have CodeDeploy take over. 
@@ -294,11 +294,11 @@ Head over to the load balancer we created - you can find it by navigating to the
 You can throw this in a browser and get an unsafe warning (which is fine, the cert it is using is made for CloudFlare not for visitors). If you bypass that warning, **you should see your application!.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwODc2NTI2LDE1NTg5MjA0NjMsLTE3NT
-AyMDU1ODYsMTQxOTU4MjQ4MywtMTgxNzg4ODY4MCwtMjA1Nzk4
-MTYzNiwxNzA3NjYyNTkwLC02NTEwNDk1NjMsMTI5NDU1Njc5LD
-UzNDkzOTU3NywtMTc0NDY4NTg5NSw4MTkwNTE4MDksMTYwNTEz
-NTMwMywyMzgyMzYyMjEsNDE2ODgyOTExLC04Njk3ODQ2MywxMj
-k0NTQxMiwtMTAwMjY4NTI0MSwtMjYwMTUyMjkwLC0xNjQzNjI2
-MjU1XX0=
+eyJoaXN0b3J5IjpbLTExOTQ2OTI2ODUsMTU1ODkyMDQ2MywtMT
+c1MDIwNTU4NiwxNDE5NTgyNDgzLC0xODE3ODg4NjgwLC0yMDU3
+OTgxNjM2LDE3MDc2NjI1OTAsLTY1MTA0OTU2MywxMjk0NTU2Nz
+ksNTM0OTM5NTc3LC0xNzQ0Njg1ODk1LDgxOTA1MTgwOSwxNjA1
+MTM1MzAzLDIzODIzNjIyMSw0MTY4ODI5MTEsLTg2OTc4NDYzLD
+EyOTQ1NDEyLC0xMDAyNjg1MjQxLC0yNjAxNTIyOTAsLTE2NDM2
+MjYyNTVdfQ==
 -->
