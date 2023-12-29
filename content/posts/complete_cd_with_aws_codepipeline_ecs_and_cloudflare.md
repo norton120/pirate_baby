@@ -133,11 +133,8 @@ API_HOST=http://api-container-name:8080
 # good
 API_HOST=http://localhost:8080 
 ``` 
-5. #### Artifact S3 Bucket
-Your CodePipeline will manage state via _artifacts_; created by CodeBuild, consumed by CodeDeploy. You need a bucket for this. 
-- Go to S3, create a logically named bucket, like `bash-dog-cd-artifacts`. Leave all the defaults.
 
-6. #### Code Pipeline
+5. #### Code Pipeline
 I find it is much easier not to get twisted into a dependency pretzel if we start our pipeline at the very end, with the CodePipeline itself. 
 - Navigate to _CodePipeline -> CreatePipeline_. 
 - Name your new pipeline something sensible like `bash-dog-pipeline`.  
@@ -164,7 +161,7 @@ Now we need to update the build service role, allowing it to:
 	- login, pull and push our ECR images
 	- write to our s3 artifact bucket
 - Find that role you just created by searching IAM roles for `bash-dog` (well, your equivalent). It should look like `codebuild-bash-dog-pipeline-service-role` unless you changed it. It should also have a policy named something like `CodeBuildBasePolicy-bash-dog-pipeline-us-east-2`. Click into that.
--  Edit the policy and add these statements, updating the image and s3 bucket arns to match the images and s3 bucket you created earlier.
+-  Edit the policy and add these statements, updating the image and s3 bucket arns to match the default code.
 {{< gist norton120 d622626cb4ce4cace838ce1ec35f96ef >}}
 
 8. #### Run a successful build
@@ -290,11 +287,11 @@ Head over to the load balancer we created - you can find it by navigating to the
 You can throw this in a browser and get an unsafe warning (which is fine, the cert it is using is made for CloudFlare not for visitors). If you bypass that warning, **you should see your application!.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTAyMDU1ODYsMTQxOTU4MjQ4MywtMT
-gxNzg4ODY4MCwtMjA1Nzk4MTYzNiwxNzA3NjYyNTkwLC02NTEw
-NDk1NjMsMTI5NDU1Njc5LDUzNDkzOTU3NywtMTc0NDY4NTg5NS
-w4MTkwNTE4MDksMTYwNTEzNTMwMywyMzgyMzYyMjEsNDE2ODgy
-OTExLC04Njk3ODQ2MywxMjk0NTQxMiwtMTAwMjY4NTI0MSwtMj
-YwMTUyMjkwLC0xNjQzNjI2MjU1LDEyOTMyNjYxMzMsLTE4MTk1
-MDQ5MzVdfQ==
+eyJoaXN0b3J5IjpbMTU1ODkyMDQ2MywtMTc1MDIwNTU4NiwxND
+E5NTgyNDgzLC0xODE3ODg4NjgwLC0yMDU3OTgxNjM2LDE3MDc2
+NjI1OTAsLTY1MTA0OTU2MywxMjk0NTU2NzksNTM0OTM5NTc3LC
+0xNzQ0Njg1ODk1LDgxOTA1MTgwOSwxNjA1MTM1MzAzLDIzODIz
+NjIyMSw0MTY4ODI5MTEsLTg2OTc4NDYzLDEyOTQ1NDEyLC0xMD
+AyNjg1MjQxLC0yNjAxNTIyOTAsLTE2NDM2MjYyNTUsMTI5MzI2
+NjEzM119
 -->
