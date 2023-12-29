@@ -161,7 +161,7 @@ Now we need to update the build service role, allowing it to:
 	- login, pull and push our ECR images
 	- write to our s3 artifact bucket
 - Find that role you just created by searching IAM roles for `bash-dog` (well, your equivalent). It should look like `codebuild-bash-dog-pipeline-service-role` unless you changed it. It should also have a policy named something like `CodeBuildBasePolicy-bash-dog-pipeline-us-east-2`. Click into that.
--  Edit the policy and add these statements, updating the image and s3 bucket arns to match the default code.
+-  Edit the policy and add these statements, updating the image and checking that the s3 bucket arns for the artifacts are present and mac
 {{< gist norton120 d622626cb4ce4cace838ce1ec35f96ef >}}
 
 8. #### Run a successful build
@@ -287,11 +287,11 @@ Head over to the load balancer we created - you can find it by navigating to the
 You can throw this in a browser and get an unsafe warning (which is fine, the cert it is using is made for CloudFlare not for visitors). If you bypass that warning, **you should see your application!.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1ODkyMDQ2MywtMTc1MDIwNTU4NiwxND
-E5NTgyNDgzLC0xODE3ODg4NjgwLC0yMDU3OTgxNjM2LDE3MDc2
-NjI1OTAsLTY1MTA0OTU2MywxMjk0NTU2NzksNTM0OTM5NTc3LC
-0xNzQ0Njg1ODk1LDgxOTA1MTgwOSwxNjA1MTM1MzAzLDIzODIz
-NjIyMSw0MTY4ODI5MTEsLTg2OTc4NDYzLDEyOTQ1NDEyLC0xMD
-AyNjg1MjQxLC0yNjAxNTIyOTAsLTE2NDM2MjYyNTUsMTI5MzI2
-NjEzM119
+eyJoaXN0b3J5IjpbLTU2MjUzNzU5MCwxNTU4OTIwNDYzLC0xNz
+UwMjA1NTg2LDE0MTk1ODI0ODMsLTE4MTc4ODg2ODAsLTIwNTc5
+ODE2MzYsMTcwNzY2MjU5MCwtNjUxMDQ5NTYzLDEyOTQ1NTY3OS
+w1MzQ5Mzk1NzcsLTE3NDQ2ODU4OTUsODE5MDUxODA5LDE2MDUx
+MzUzMDMsMjM4MjM2MjIxLDQxNjg4MjkxMSwtODY5Nzg0NjMsMT
+I5NDU0MTIsLTEwMDI2ODUyNDEsLTI2MDE1MjI5MCwtMTY0MzYy
+NjI1NV19
 -->
