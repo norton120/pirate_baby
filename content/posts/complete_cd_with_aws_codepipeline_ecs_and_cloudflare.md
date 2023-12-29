@@ -260,17 +260,18 @@ Setting up the initial runtime is a little bit of a juggling act; You first crea
 		- Under _Deployment Configuration_ select the task family name you just created.
 		- Name the service something logical like `bash-dog`.
 		- :monocle_face: Under _Deployment Options_ change Deployment Type to _Blue/green deployment (powered by AWS CodeDeploy)_. 
-
+		- Leave the default deployment configuration of `CodeDeployDefault.ECSAllAtOnce`. 
+		- Search and select the arn for the Code Deploy role we created (`bash-dog-code-deploy`), you may have to go 
 {{< box info >}} 
 **Service Cleanup**: 
 {{< /box >}}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTgyMzg2MTYsNTM0OTM5NTc3LC0xNz
-Q0Njg1ODk1LDgxOTA1MTgwOSwxNjA1MTM1MzAzLDIzODIzNjIy
-MSw0MTY4ODI5MTEsLTg2OTc4NDYzLDEyOTQ1NDEyLC0xMDAyNj
-g1MjQxLC0yNjAxNTIyOTAsLTE2NDM2MjYyNTUsMTI5MzI2NjEz
-MywtMTgxOTUwNDkzNSwtNDYwNDM5OTcxLC0zMDg2Mjk4MjgsLT
-E2Mjc1ODE2Niw2MTU4ODk2NzAsLTM2NTM4NTgyNywtMTY1Mjc5
-NjY4N119
+eyJoaXN0b3J5IjpbLTY5NDk3MzI0MCw1MzQ5Mzk1NzcsLTE3ND
+Q2ODU4OTUsODE5MDUxODA5LDE2MDUxMzUzMDMsMjM4MjM2MjIx
+LDQxNjg4MjkxMSwtODY5Nzg0NjMsMTI5NDU0MTIsLTEwMDI2OD
+UyNDEsLTI2MDE1MjI5MCwtMTY0MzYyNjI1NSwxMjkzMjY2MTMz
+LC0xODE5NTA0OTM1LC00NjA0Mzk5NzEsLTMwODYyOTgyOCwtMT
+YyNzU4MTY2LDYxNTg4OTY3MCwtMzY1Mzg1ODI3LC0xNjUyNzk2
+Njg3XX0=
 -->
