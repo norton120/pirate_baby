@@ -255,7 +255,7 @@ We will need a CodeDeploy app for our ECS service to set up blue/green deploys i
 Setting up the initial runtime is a little bit of a juggling act; You first create your ECS Cluster, Task Definition, and ECS Service with the Service _linked_ to the Code Deploy (but not exactly managed by it yet). The idea is to manually stand up the service and get it to a "healthy" state, and _then_ have CodeDeploy take over. 
 	1. We **create a new cluster** from the ECS home page. Name the cluster something logical like `bash-dog`, leave all the defaults. This will take a minute, just leave it and wait until it is ready (clicking ahead will break things). 
 	2. Next we **create a task definition** that will be used by our service. From the ECS home page click on _Task definitions_, _Create a new task definition (with JSON)_. Paste the guts of your `taskdef.json` file (the one in your application repo) and save.
-	3. Finally we will create our ECS Service. Navigate to the `bash-dog` cluster and click _Create_ under Services. 
+	3. Finally we will **create our ECS Service**. Navigate to the `bash-dog` cluster and click _Create_ under Services. 
 		- Leave the defaults for Environment.
 		- Under _Deployment Configuration_ select the task family name you just created.
 		- Name the service something logical like `bash-dog`.
@@ -263,11 +263,11 @@ Setting up the initial runtime is a little bit of a juggling act; You first crea
 		- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDQ2ODU4OTUsODE5MDUxODA5LDE2MD
-UxMzUzMDMsMjM4MjM2MjIxLDQxNjg4MjkxMSwtODY5Nzg0NjMs
-MTI5NDU0MTIsLTEwMDI2ODUyNDEsLTI2MDE1MjI5MCwtMTY0Mz
-YyNjI1NSwxMjkzMjY2MTMzLC0xODE5NTA0OTM1LC00NjA0Mzk5
-NzEsLTMwODYyOTgyOCwtMTYyNzU4MTY2LDYxNTg4OTY3MCwtMz
-Y1Mzg1ODI3LC0xNjUyNzk2Njg3LC05MDkwMTQyNjMsLTkxNjQ4
-NjA3MV19
+eyJoaXN0b3J5IjpbNTM0OTM5NTc3LC0xNzQ0Njg1ODk1LDgxOT
+A1MTgwOSwxNjA1MTM1MzAzLDIzODIzNjIyMSw0MTY4ODI5MTEs
+LTg2OTc4NDYzLDEyOTQ1NDEyLC0xMDAyNjg1MjQxLC0yNjAxNT
+IyOTAsLTE2NDM2MjYyNTUsMTI5MzI2NjEzMywtMTgxOTUwNDkz
+NSwtNDYwNDM5OTcxLC0zMDg2Mjk4MjgsLTE2Mjc1ODE2Niw2MT
+U4ODk2NzAsLTM2NTM4NTgyNywtMTY1Mjc5NjY4NywtOTA5MDE0
+MjYzXX0=
 -->
