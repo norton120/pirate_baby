@@ -275,15 +275,17 @@ Setting up the initial runtime is a little bit of a juggling act; You first crea
 	- Save and wait for the new Service to spin up. 
 
 {{< box info >}} 
-**Service Cleanup**:  <s>if</s> when things go wrong with  your service, you may have to either delete it and start over or it may decide to delete itself after several failed deployments. Be sure to completely remove all artifacts once the service is gone, by deleting the corresponding stack for the service in CloudFormation. Lingering artifacts (especially if you use the same sensible service name again when you retry) can cause all kinds of strange and sad behavior.  
+**Service Cleanup**:  <s>if</s> when things go wrong with  your service, you may have to either delete it and start over or it may decide to delete itself after several failed deployments. Be sure to completely remove all artifacts once the service is gone, by deleting the corresponding stack for the service in CloudFormation. Lingering artifacts (especially if you use the same sensible service name again when you retry) can result in all kinds of strange and sad behavior.  This can take a while; be patient. Jumping ahead and re-building the new service while the old one is still deleting **will** cause you pain. 
 {{< /box >}}
 
+At this point, if all goes well your service should be up and running
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NDU1Njc5LDUzNDkzOTU3NywtMTc0ND
-Y4NTg5NSw4MTkwNTE4MDksMTYwNTEzNTMwMywyMzgyMzYyMjEs
-NDE2ODgyOTExLC04Njk3ODQ2MywxMjk0NTQxMiwtMTAwMjY4NT
-I0MSwtMjYwMTUyMjkwLC0xNjQzNjI2MjU1LDEyOTMyNjYxMzMs
-LTE4MTk1MDQ5MzUsLTQ2MDQzOTk3MSwtMzA4NjI5ODI4LC0xNj
-I3NTgxNjYsNjE1ODg5NjcwLC0zNjUzODU4MjcsLTE2NTI3OTY2
-ODddfQ==
+eyJoaXN0b3J5IjpbLTIxMzg4NzY4OTUsMTI5NDU1Njc5LDUzND
+kzOTU3NywtMTc0NDY4NTg5NSw4MTkwNTE4MDksMTYwNTEzNTMw
+MywyMzgyMzYyMjEsNDE2ODgyOTExLC04Njk3ODQ2MywxMjk0NT
+QxMiwtMTAwMjY4NTI0MSwtMjYwMTUyMjkwLC0xNjQzNjI2MjU1
+LDEyOTMyNjYxMzMsLTE4MTk1MDQ5MzUsLTQ2MDQzOTk3MSwtMz
+A4NjI5ODI4LC0xNjI3NTgxNjYsNjE1ODg5NjcwLC0zNjUzODU4
+MjddfQ==
 -->
