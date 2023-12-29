@@ -300,15 +300,16 @@ You can throw this in a browser and get an unsafe warning (which is fine, the ce
 Time to automate your now working-but-manual pipeline. 
 - Head back to CodePipeline, and in your `bash-dog-pipeline` and edit the pipeline. 
 - add a `deploy` stage.
-- :monocle_face: Select `Amazon ECS (Blue/Green)` as provider.
-- For artifacts select BuildArtifact
-- For _AWS CodeDeploy application name_ and _AWS CodeDeploy deployment group_ you want to select the app and group created by your ECS Service; these should have a random prefix, like   `AsFbaw-bash-dog-bash-dog`.
-- For the _Amazon ECS task definition_ put :monocle_face: _exactly_ `taskdef.json`.
-- For the _AWS CodeDeploy AppSpec file_ put :monocle_face: _exactly_ `appspec.yaml`
-- Leave _Dynamically update task definition image -  optional_ alone, do not add or change anything.
-- Save your new stage, confirming the 
+	- :monocle_face: Select `Amazon ECS (Blue/Green)` as provider.
+	- For artifacts select BuildArtifact
+	- For _AWS CodeDeploy application name_ and _AWS CodeDeploy deployment group_ you want to select the app and group created by your ECS Service; these should have a random prefix, like   `AsFbaw-bash-dog-bash-dog`.
+	- For the _Amazon ECS task definition_ put :monocle_face: _exactly_ `taskdef.json`.
+	- For the _AWS CodeDeploy AppSpec file_ put :monocle_face: _exactly_ `appspec.yaml`
+	- Leave _Dynamically update task definition image -  optional_ alone, do not add or change anything.
+	- Save your new stage (3 saves to get all the way out), confirming the changes to the pipeline.
+- Under 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA0NDkxNTQ3LDE1NTg5MjA0NjMsLTE3NT
+eyJoaXN0b3J5IjpbLTI4MzcwNTM3LDE1NTg5MjA0NjMsLTE3NT
 AyMDU1ODYsMTQxOTU4MjQ4MywtMTgxNzg4ODY4MCwtMjA1Nzk4
 MTYzNiwxNzA3NjYyNTkwLC02NTEwNDk1NjMsMTI5NDU1Njc5LD
 UzNDkzOTU3NywtMTc0NDY4NTg5NSw4MTkwNTE4MDksMTYwNTEz
