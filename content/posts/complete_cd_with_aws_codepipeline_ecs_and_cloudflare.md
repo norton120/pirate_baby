@@ -171,7 +171,7 @@ Push all the changes made so far to `main` in your application repo. If your mai
 Now for the fun part - navigate to the s3 bucket and find the path `bash-dog-pipeline/buildArtf/`. Look for an artifact with the newest timestamp. Download it. Now check out the `taskdef.json` file within the artifact. You'll see the images have been updated to reflect the image sha for the release you just built! 
 You can also check ECR and see that the same image tag was created. 
 
-9. #### Adding your Cloudflare Origin Cert and Enabling Full Strict
+8. #### Adding your Cloudflare Origin Cert and Enabling Full Strict
 This seems random at the moment, but you will need this to create your load balancer, which you will do while creating an ECS service. 
 - Log in to Cloudflare for your respective domain.
 	- Under _SSL_ -> _Origin Certificate_ click _Create Certificate_. 
@@ -189,8 +189,9 @@ Now you need to tell CloudFlare to use the cert you just created. **This is impo
 	- Save your rule
 OK now your CloudFlare is primed, though we have not set up the CNAME yet (that comes later). Onward with our pipeline.
 
-10. #### Create all the IAM Roles
+9. #### Create all the IAM Roles
 ECS Execution needs to be able to access the secret(s) created earlier, and ECS Service needs to be able to do normal ECS task things. CodeDeploy also needs a role. So, we create 3 new roles named `bashDogServiceRoleForECS` , `bashDogExectuionRoleForECS` , and `bashDogCodeDeployRole` in IAM.
+**Note:** you may want/need to modify the AWS default `ecsTaskExecutionRole` instead of creating `bashDogExecutionRoleForECS` if you find your Fargate tasks are unable to 
  
 The execution role (the role assumed by the host) needs: 
 	- [AmazonECSTaskExecutionRolePolicy](https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2Fservice-role%2FAmazonECSTaskExecutionRolePolicy)
@@ -287,11 +288,11 @@ Head over to the load balancer we created - you can find it by navigating to the
 You can throw this in a browser and get an unsafe warning (which is fine, the cert it is using is made for CloudFlare not for visitors). If you bypass that warning, **you should see your application!.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMDkxMzc2MCwxNTU4OTIwNDYzLC0xNz
-UwMjA1NTg2LDE0MTk1ODI0ODMsLTE4MTc4ODg2ODAsLTIwNTc5
-ODE2MzYsMTcwNzY2MjU5MCwtNjUxMDQ5NTYzLDEyOTQ1NTY3OS
-w1MzQ5Mzk1NzcsLTE3NDQ2ODU4OTUsODE5MDUxODA5LDE2MDUx
-MzUzMDMsMjM4MjM2MjIxLDQxNjg4MjkxMSwtODY5Nzg0NjMsMT
-I5NDU0MTIsLTEwMDI2ODUyNDEsLTI2MDE1MjI5MCwtMTY0MzYy
-NjI1NV19
+eyJoaXN0b3J5IjpbNzM5ODkyMTMyLDE1NTg5MjA0NjMsLTE3NT
+AyMDU1ODYsMTQxOTU4MjQ4MywtMTgxNzg4ODY4MCwtMjA1Nzk4
+MTYzNiwxNzA3NjYyNTkwLC02NTEwNDk1NjMsMTI5NDU1Njc5LD
+UzNDkzOTU3NywtMTc0NDY4NTg5NSw4MTkwNTE4MDksMTYwNTEz
+NTMwMywyMzgyMzYyMjEsNDE2ODgyOTExLC04Njk3ODQ2MywxMj
+k0NTQxMiwtMTAwMjY4NTI0MSwtMjYwMTUyMjkwLC0xNjQzNjI2
+MjU1XX0=
 -->
