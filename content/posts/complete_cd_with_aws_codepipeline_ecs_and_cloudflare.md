@@ -296,14 +296,15 @@ Head over to the load balancer we created - you can find it by navigating to the
 
 You can throw this in a browser and get an unsafe warning (which is fine, the cert it is using is made for CloudFlare not for visitors). If you bypass that warning, **you should see your application!.**
 
-14. Completing the pipeline 
-
+14 .#### Completing the pipeline 
+Time to automate your now working-but-manual pipeline. 
+- Head back to CodePipeline, and in your `bash-dog-pipeline` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTI5Njg1NzksMTU1ODkyMDQ2MywtMT
-c1MDIwNTU4NiwxNDE5NTgyNDgzLC0xODE3ODg4NjgwLC0yMDU3
-OTgxNjM2LDE3MDc2NjI1OTAsLTY1MTA0OTU2MywxMjk0NTU2Nz
-ksNTM0OTM5NTc3LC0xNzQ0Njg1ODk1LDgxOTA1MTgwOSwxNjA1
-MTM1MzAzLDIzODIzNjIyMSw0MTY4ODI5MTEsLTg2OTc4NDYzLD
-EyOTQ1NDEyLC0xMDAyNjg1MjQxLC0yNjAxNTIyOTAsLTE2NDM2
-MjYyNTVdfQ==
+eyJoaXN0b3J5IjpbMjA1MTIwNDYwNSwxNTU4OTIwNDYzLC0xNz
+UwMjA1NTg2LDE0MTk1ODI0ODMsLTE4MTc4ODg2ODAsLTIwNTc5
+ODE2MzYsMTcwNzY2MjU5MCwtNjUxMDQ5NTYzLDEyOTQ1NTY3OS
+w1MzQ5Mzk1NzcsLTE3NDQ2ODU4OTUsODE5MDUxODA5LDE2MDUx
+MzUzMDMsMjM4MjM2MjIxLDQxNjg4MjkxMSwtODY5Nzg0NjMsMT
+I5NDU0MTIsLTEwMDI2ODUyNDEsLTI2MDE1MjI5MCwtMTY0MzYy
+NjI1NV19
 -->
