@@ -262,17 +262,20 @@ Setting up the initial runtime is a little bit of a juggling act; You first crea
 		- :monocle_face: Under _Deployment Options_ change Deployment Type to _Blue/green deployment (powered by AWS CodeDeploy)_. 
 		- Leave the default deployment configuration of `CodeDeployDefault.ECSAllAtOnce`. 
 		- Search and select the arn for the Code Deploy role we created (`bash-dog-code-deploy`), you may have to go get the arn from IAM and paste it in the first time. 
-		- Under _Networking_ select the default VPC, and de-select all the duplicate subnets (where there are more than one for a given 
+		- Under _Networking_ select the default VPC, and de-select all the duplicate subnets (where there are more than one for a given zone). Use the primary subnets if you can. 
+		- Use your default security group (add this to the TODO list of things to harden later)
+		- Turn off _public IP_
+		- Under _Load Baa
 {{< box info >}} 
 **Service Cleanup**: 
 {{< /box >}}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5NDE0MjczLDUzNDkzOTU3NywtMTc0ND
-Y4NTg5NSw4MTkwNTE4MDksMTYwNTEzNTMwMywyMzgyMzYyMjEs
-NDE2ODgyOTExLC04Njk3ODQ2MywxMjk0NTQxMiwtMTAwMjY4NT
-I0MSwtMjYwMTUyMjkwLC0xNjQzNjI2MjU1LDEyOTMyNjYxMzMs
-LTE4MTk1MDQ5MzUsLTQ2MDQzOTk3MSwtMzA4NjI5ODI4LC0xNj
-I3NTgxNjYsNjE1ODg5NjcwLC0zNjUzODU4MjcsLTE2NTI3OTY2
-ODddfQ==
+eyJoaXN0b3J5IjpbLTExMjc5MDgwMTEsNTM0OTM5NTc3LC0xNz
+Q0Njg1ODk1LDgxOTA1MTgwOSwxNjA1MTM1MzAzLDIzODIzNjIy
+MSw0MTY4ODI5MTEsLTg2OTc4NDYzLDEyOTQ1NDEyLC0xMDAyNj
+g1MjQxLC0yNjAxNTIyOTAsLTE2NDM2MjYyNTUsMTI5MzI2NjEz
+MywtMTgxOTUwNDkzNSwtNDYwNDM5OTcxLC0zMDg2Mjk4MjgsLT
+E2Mjc1ODE2Niw2MTU4ODk2NzAsLTM2NTM4NTgyNywtMTY1Mjc5
+NjY4N119
 -->
