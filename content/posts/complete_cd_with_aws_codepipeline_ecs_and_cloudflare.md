@@ -278,14 +278,14 @@ Setting up the initial runtime is a little bit of a juggling act; You first crea
 **Service Cleanup**:  <s>if</s> when things go wrong with  your service, you may have to either delete it and start over or it may decide to delete itself after several failed deployments. Be sure to completely remove all artifacts once the service is gone, by deleting the corresponding stack for the service in CloudFormation. Lingering artifacts (especially if you use the same sensible service name again when you retry) can result in all kinds of strange and sad behavior.  This can take a while; be patient. Jumping ahead and re-building the new service while the old one is still deleting **will** cause you pain. 
 {{< /box >}}
 
-At this point, if all goes well your service should be up and running
+At this point, if all goes well your service should be up and running. You can check in on the container logs via 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzg4NzY4OTUsMTI5NDU1Njc5LDUzND
-kzOTU3NywtMTc0NDY4NTg5NSw4MTkwNTE4MDksMTYwNTEzNTMw
-MywyMzgyMzYyMjEsNDE2ODgyOTExLC04Njk3ODQ2MywxMjk0NT
-QxMiwtMTAwMjY4NTI0MSwtMjYwMTUyMjkwLC0xNjQzNjI2MjU1
-LDEyOTMyNjYxMzMsLTE4MTk1MDQ5MzUsLTQ2MDQzOTk3MSwtMz
-A4NjI5ODI4LC0xNjI3NTgxNjYsNjE1ODg5NjcwLC0zNjUzODU4
-MjddfQ==
+eyJoaXN0b3J5IjpbMzE0NzE5NTQ3LDEyOTQ1NTY3OSw1MzQ5Mz
+k1NzcsLTE3NDQ2ODU4OTUsODE5MDUxODA5LDE2MDUxMzUzMDMs
+MjM4MjM2MjIxLDQxNjg4MjkxMSwtODY5Nzg0NjMsMTI5NDU0MT
+IsLTEwMDI2ODUyNDEsLTI2MDE1MjI5MCwtMTY0MzYyNjI1NSwx
+MjkzMjY2MTMzLC0xODE5NTA0OTM1LC00NjA0Mzk5NzEsLTMwOD
+YyOTgyOCwtMTYyNzU4MTY2LDYxNTg4OTY3MCwtMzY1Mzg1ODI3
+XX0=
 -->
