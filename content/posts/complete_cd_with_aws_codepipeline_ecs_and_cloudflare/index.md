@@ -146,14 +146,20 @@ I find it is much easier not to get twisted into a dependency pretzel if we star
 - :monocle_face: For _Branch name_ use your main branch `main` or equivalent.
 - Leave all the other defaults alone and click _Next_.
 - Next, Create a build project inline by selecting AWS CodeBuild as the provider and then clicking _Create Project_. In the new window:
+	![stage](/images/build_stage.png)
 	-  name your build project something sensible like `bash-dog-build-project`.
+	![name build project](/images/build_project_a.png)
 	- :monocle_face: under _Additional configuration_ check 'restrict number of concurrent builds this project can start' and set the limit to 1.
 	- For Environment select `Managed Image`, `EC2` `Amazon Linux` Operating system, `Standard` Runtime, and the :monocle_face:  `amazonlinux2-x86_64-standard:4.0` image (not the default!)
+	![environment](/images/build_project_b.png)
 	- :monocle_face: Check '_Enable this flag..._' under _Privileged_.
 	- Leave the default _New service role_ and unless the provided role name is awful, leave it.
+	![service role](/images/build_project_c.png)
 	- Optionally, reduce the timeouts. Generally my builds are running < 3 min, so if they are not done in 10 they are probably never going to be done.
 	- Leave _Use a buildspec file_ and :monocle_face: do not specify a file name. My experience has been that non-standard filenames for the buildspec/appspec/taskdef files have caused mysterious pipeline failures, but YMMV.
+	![file](/images/build_project_d.png)
 	- Set up logging using logical names like `bash-dog` and `codebuild`.
+	![logs](/images/build_project_e.png)
 - Skip the deploy stage for now, that needs to be backed-in from a running ECS Service.
 - Save and create your new pipeline.
 _Note:_ The pipeline will immediately build and fail. That's OK, we're far from done.
@@ -287,6 +293,7 @@ Setting up the initial runtime is a little bit of a juggling act; You first crea
 
 {{< box info >}}
 **Service Cleanup**:  <s>if</s> when things go wrong with  your service, you may have to either delete it and start over or it may decide to delete itself after several failed deployments. Be sure to completely remove all artifacts once the service is gone, by deleting the corresponding stack for the service in CloudFormation. Lingering artifacts (especially if you use the same sensible service name again when you retry) can result in all kinds of strange and sad behavior.  This can take a while; be patient. Jumping ahead and re-building the new service while the old one is still deleting **will** cause you pain.
+![fail](/images/cloudformation_fail.png)
 {{< /box >}}
 
 At this point, if all goes well our service should be up and running. You can check in on the container logs via _ECS Homepage_ -> _Clusters_ -> _bash-dog_ -> _services_ -> _bash-dog_ -> _logs_.
