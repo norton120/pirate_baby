@@ -191,7 +191,7 @@ OK now your CloudFlare is primed, though we have not set up the CNAME yet (that 
 
 9. #### Create all the IAM Roles
 ECS Execution needs to be able to access the secret(s) created earlier, and ECS Service needs to be able to do normal ECS task things. CodeDeploy also needs a role. So, we create 3 new roles named `bashDogServiceRoleForECS` , `bashDogExectuionRoleForECS` , and `bashDogCodeDeployRole` in IAM.
-**Note:** you may want/need to modify the AWS default `ecsTaskExecutionRole` instead of creating `bashDogExecutionRoleForECS` if you find your Fargate tasks do not reflect the permissions you've assigned to your execution role. 
+**Note:** you may want/need to modify the AWS default `ecsTaskExecutionRole` instead of creating `bashDogExecutionRoleForECS` if you find your Fargate tasks do not reflect the permissions you've assigned to your execution role. The docs [cryptically imply](https://repost.aws/knowledge-center/ecs-unable-to-pull-secrets#:~:text=The%20Amazon%20ECS%20container%20agent%20uses%20the%20task%20execution%20AWS%20Identity%20and%20Access%20Management%20(IAM)%20role%20to%20get%20information%20from%20the%20following%20services%3A) that Fargate does not respect your execution role - I have experienced it both working and not working with an alternate role, and truth be told haven't had time to determine if this is a root cause
  
 The execution role (the role assumed by the host) needs: 
 	- [AmazonECSTaskExecutionRolePolicy](https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2Fservice-role%2FAmazonECSTaskExecutionRolePolicy)
@@ -288,11 +288,11 @@ Head over to the load balancer we created - you can find it by navigating to the
 You can throw this in a browser and get an unsafe warning (which is fine, the cert it is using is made for CloudFlare not for visitors). If you bypass that warning, **you should see your application!.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjc2Nzc3OTcsMTU1ODkyMDQ2MywtMT
-c1MDIwNTU4NiwxNDE5NTgyNDgzLC0xODE3ODg4NjgwLC0yMDU3
-OTgxNjM2LDE3MDc2NjI1OTAsLTY1MTA0OTU2MywxMjk0NTU2Nz
-ksNTM0OTM5NTc3LC0xNzQ0Njg1ODk1LDgxOTA1MTgwOSwxNjA1
-MTM1MzAzLDIzODIzNjIyMSw0MTY4ODI5MTEsLTg2OTc4NDYzLD
-EyOTQ1NDEyLC0xMDAyNjg1MjQxLC0yNjAxNTIyOTAsLTE2NDM2
-MjYyNTVdfQ==
+eyJoaXN0b3J5IjpbMTQzNzQ4NjEyNCwxNTU4OTIwNDYzLC0xNz
+UwMjA1NTg2LDE0MTk1ODI0ODMsLTE4MTc4ODg2ODAsLTIwNTc5
+ODE2MzYsMTcwNzY2MjU5MCwtNjUxMDQ5NTYzLDEyOTQ1NTY3OS
+w1MzQ5Mzk1NzcsLTE3NDQ2ODU4OTUsODE5MDUxODA5LDE2MDUx
+MzUzMDMsMjM4MjM2MjIxLDQxNjg4MjkxMSwtODY5Nzg0NjMsMT
+I5NDU0MTIsLTEwMDI2ODUyNDEsLTI2MDE1MjI5MCwtMTY0MzYy
+NjI1NV19
 -->
