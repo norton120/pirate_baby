@@ -309,9 +309,12 @@ Time to automate your now working-but-manual pipeline.
 	- Save your new stage (3 saves to get all the way out), confirming the changes to the pipeline.
 - Under _CodeDeploy_ -> _Applications_ -> name_of_generated_application -> _Deployments_, click into the active deployment.
 	- scroll down to _Deployment Settings_ at the bottom and set the original revision termination to something rational, like 5 minutes. Otherwise every deploy will take over an hour to be "complete."
-	- Save and e
+	- Save and exit.
+
+OK. Now the big moment. Push some code to a branch, create a pull request, merge that into main and....
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjExMzU0NCwxNTU4OTIwNDYzLC0xNz
+eyJoaXN0b3J5IjpbLTc1MTQ2ODM3OSwxNTU4OTIwNDYzLC0xNz
 UwMjA1NTg2LDE0MTk1ODI0ODMsLTE4MTc4ODg2ODAsLTIwNTc5
 ODE2MzYsMTcwNzY2MjU5MCwtNjUxMDQ5NTYzLDEyOTQ1NTY3OS
 w1MzQ5Mzk1NzcsLTE3NDQ2ODU4OTUsODE5MDUxODA5LDE2MDUx
