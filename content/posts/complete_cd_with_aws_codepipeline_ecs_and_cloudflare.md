@@ -305,9 +305,10 @@ Time to automate your now working-but-manual pipeline.
 - For _AWS CodeDeploy application name_ and _AWS CodeDeploy deployment group_ you want to select the app and group created by your ECS Service; these should have a random prefix, like   `AsFbaw-bash-dog-bash-dog`.
 - For the _Amazon ECS task definition_ put :monocle_face: _exactly_ `taskdef.json`.
 - For the _AWS CodeDeploy AppSpec file_ put :monocle_face: _exactly_ `appspec.yaml`
-- Leave _Dynamically update task definition image -  optional_ alone, do not add anything at
+- Leave _Dynamically update task definition image -  optional_ alone, do not add or change anything.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MDE3NDE4OSwxNTU4OTIwNDYzLC0xNz
+eyJoaXN0b3J5IjpbMTUwMTk5MzE3MSwxNTU4OTIwNDYzLC0xNz
 UwMjA1NTg2LDE0MTk1ODI0ODMsLTE4MTc4ODg2ODAsLTIwNTc5
 ODE2MzYsMTcwNzY2MjU5MCwtNjUxMDQ5NTYzLDEyOTQ1NTY3OS
 w1MzQ5Mzk1NzcsLTE3NDQ2ODU4OTUsODE5MDUxODA5LDE2MDUx
