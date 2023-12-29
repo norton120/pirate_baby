@@ -71,9 +71,7 @@ Commit whatever changes you've made. For the duration of this deploy process it 
 3. #### ECR Images
 This whole build process centers around container images stored in Elastic Container Registry (ECR). Navigate to ECR in the AWS GUI and click "Get Started" under "Create a Repository."
 
-{{ with .Resources.GetMatch "create_repository.png" }}
-  <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
-{{ end }}
+![getting started](/images/create_repository.png)
 
 Name the repository with your project and service, i.e.`bash-dog-api`
 ![name your repo](/images/repo_name.png)
