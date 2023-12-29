@@ -307,9 +307,11 @@ Time to automate your now working-but-manual pipeline.
 	- For the _AWS CodeDeploy AppSpec file_ put :monocle_face: _exactly_ `appspec.yaml`
 	- Leave _Dynamically update task definition image -  optional_ alone, do not add or change anything.
 	- Save your new stage (3 saves to get all the way out), confirming the changes to the pipeline.
-- Under _CodeDeploy_ -> _Applications_ -> name_of_generated_application -> _Deployments_, click into the active deployment
+- Under _CodeDeploy_ -> _Applications_ -> name_of_generated_application -> _Deployments_, click into the active deployment.
+	- scroll down to _Deployment Settings_ at the bottom and set the original revision termination to something rational, like 5 minutes. Otherwise every deploy will take over an hour to be "complete."
+	- Save and e
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1ODc5MjAzMSwxNTU4OTIwNDYzLC0xNz
+eyJoaXN0b3J5IjpbMTA4MjExMzU0NCwxNTU4OTIwNDYzLC0xNz
 UwMjA1NTg2LDE0MTk1ODI0ODMsLTE4MTc4ODg2ODAsLTIwNTc5
 ODE2MzYsMTcwNzY2MjU5MCwtNjUxMDQ5NTYzLDEyOTQ1NTY3OS
 w1MzQ5Mzk1NzcsLTE3NDQ2ODU4OTUsODE5MDUxODA5LDE2MDUx
