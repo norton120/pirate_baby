@@ -69,8 +69,10 @@ This is a whole other topic in itself, so I'll stick to the assumptions made wit
 Commit whatever changes you've made. For the duration of this deploy process it may save your sanity to turn off branch protection and deploy directly to main :scream:. Otherwise you will need to PR each tiny file tweak, and the PR process is basically valueless rubber-stamping in this case. 
 
 3. #### ECR Images
-This whole build process centers around container images stored in Elastic Container Registry (ECR). Navigate to ECR in the AWS GUI and click "Get Started" under "Create a Repository." 
-![get started](/images/create_repository.png)
+This whole build process centers around container images stored in Elastic Container Registry (ECR). Navigate to ECR in the AWS GUI and click "Get Started" under "Create a Repository."
+
+{{ $image := .Resources.Get "create_repository.png" }}
+
 Name the repository with your project and service, i.e.`bash-dog-api` 
 ![name your repo](/images/repo_name.png)
 :monocle_face: leave the defaults as they are. You need mutability to retag `latest`. Repeat for each of your services.
@@ -316,11 +318,11 @@ OK. Now the big moment. Push some code to a branch, create a pull request, merge
 
 You have a working, automated blue/green deployment for all 3 of your service containers. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNDUxODgyMSwtMTM4MzUzMjI5MSwtNz
-UxNDY4Mzc5LDE1NTg5MjA0NjMsLTE3NTAyMDU1ODYsMTQxOTU4
-MjQ4MywtMTgxNzg4ODY4MCwtMjA1Nzk4MTYzNiwxNzA3NjYyNT
-kwLC02NTEwNDk1NjMsMTI5NDU1Njc5LDUzNDkzOTU3NywtMTc0
-NDY4NTg5NSw4MTkwNTE4MDksMTYwNTEzNTMwMywyMzgyMzYyMj
-EsNDE2ODgyOTExLC04Njk3ODQ2MywxMjk0NTQxMiwtMTAwMjY4
-NTI0MV19
+eyJoaXN0b3J5IjpbMTUzNDI5OTUyMSwxOTM0NTE4ODIxLC0xMz
+gzNTMyMjkxLC03NTE0NjgzNzksMTU1ODkyMDQ2MywtMTc1MDIw
+NTU4NiwxNDE5NTgyNDgzLC0xODE3ODg4NjgwLC0yMDU3OTgxNj
+M2LDE3MDc2NjI1OTAsLTY1MTA0OTU2MywxMjk0NTU2NzksNTM0
+OTM5NTc3LC0xNzQ0Njg1ODk1LDgxOTA1MTgwOSwxNjA1MTM1Mz
+AzLDIzODIzNjIyMSw0MTY4ODI5MTEsLTg2OTc4NDYzLDEyOTQ1
+NDEyXX0=
 -->
