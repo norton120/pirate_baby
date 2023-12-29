@@ -31,7 +31,7 @@ This deploy will blue/green the whole of your container stack - this means if yo
 ### Legend
 To minimize repetition I am going to use some shorthands:
 - The :monocle_face: icon means **Follow directions exactly.** I know, AWS docs or a tutorial might claim you can change the filename or specify the path somewhere; my experience has been that not all the configs are respected, and often only the default paths/names actually work. If you choose to deviate, best of luck to you.
-- The :
+- The :radioactive: icon means **Thing for future us to improve on.** This may mean tightening permission scopes, moving elements to dedicated VPCs etc. This guide i 
 - The aws account number for the examples will be `123456789012`. You can find-replace with your account. 
 - The project name will be `bash-dog`.  You can find-replace with your project name.
 - The AWS region will be `us-east-2`. You can find-replace with your default region. 
@@ -289,11 +289,11 @@ Head over to the load balancer we created - you can find it by navigating to the
 You can throw this in a browser and get an unsafe warning (which is fine, the cert it is using is made for CloudFlare not for visitors). If you bypass that warning, **you should see your application!.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTc5ODE2MzYsMTcwNzY2MjU5MCwtNj
-UxMDQ5NTYzLDEyOTQ1NTY3OSw1MzQ5Mzk1NzcsLTE3NDQ2ODU4
-OTUsODE5MDUxODA5LDE2MDUxMzUzMDMsMjM4MjM2MjIxLDQxNj
-g4MjkxMSwtODY5Nzg0NjMsMTI5NDU0MTIsLTEwMDI2ODUyNDEs
-LTI2MDE1MjI5MCwtMTY0MzYyNjI1NSwxMjkzMjY2MTMzLC0xOD
-E5NTA0OTM1LC00NjA0Mzk5NzEsLTMwODYyOTgyOCwtMTYyNzU4
-MTY2XX0=
+eyJoaXN0b3J5IjpbMTYwNTc0MTE3MywtMjA1Nzk4MTYzNiwxNz
+A3NjYyNTkwLC02NTEwNDk1NjMsMTI5NDU1Njc5LDUzNDkzOTU3
+NywtMTc0NDY4NTg5NSw4MTkwNTE4MDksMTYwNTEzNTMwMywyMz
+gyMzYyMjEsNDE2ODgyOTExLC04Njk3ODQ2MywxMjk0NTQxMiwt
+MTAwMjY4NTI0MSwtMjYwMTUyMjkwLC0xNjQzNjI2MjU1LDEyOT
+MyNjYxMzMsLTE4MTk1MDQ5MzUsLTQ2MDQzOTk3MSwtMzA4NjI5
+ODI4XX0=
 -->
