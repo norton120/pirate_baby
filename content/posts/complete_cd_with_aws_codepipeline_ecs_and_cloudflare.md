@@ -302,13 +302,14 @@ Time to automate your now working-but-manual pipeline.
 - add a `deploy` stage.
 - :monocle_face: Select `Amazon ECS (Blue/Green)` as provider.
 - For artifacts select BuildArtifact
-- For _AWS CodeDeploy application name_ and 
+- For _AWS CodeDeploy application name_ and _AWS CodeDeploy deployment group_ you want to select the app and group created by your ECS Service; these should have a random prefix, like   `AsFbaw-bash-dog-bash-dog`.
+- For the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MTgyODM0NCwxNTU4OTIwNDYzLC0xNz
-UwMjA1NTg2LDE0MTk1ODI0ODMsLTE4MTc4ODg2ODAsLTIwNTc5
-ODE2MzYsMTcwNzY2MjU5MCwtNjUxMDQ5NTYzLDEyOTQ1NTY3OS
-w1MzQ5Mzk1NzcsLTE3NDQ2ODU4OTUsODE5MDUxODA5LDE2MDUx
-MzUzMDMsMjM4MjM2MjIxLDQxNjg4MjkxMSwtODY5Nzg0NjMsMT
-I5NDU0MTIsLTEwMDI2ODUyNDEsLTI2MDE1MjI5MCwtMTY0MzYy
-NjI1NV19
+eyJoaXN0b3J5IjpbNTEyMDI4MzEyLDE1NTg5MjA0NjMsLTE3NT
+AyMDU1ODYsMTQxOTU4MjQ4MywtMTgxNzg4ODY4MCwtMjA1Nzk4
+MTYzNiwxNzA3NjYyNTkwLC02NTEwNDk1NjMsMTI5NDU1Njc5LD
+UzNDkzOTU3NywtMTc0NDY4NTg5NSw4MTkwNTE4MDksMTYwNTEz
+NTMwMywyMzgyMzYyMjEsNDE2ODgyOTExLC04Njk3ODQ2MywxMj
+k0NTQxMiwtMTAwMjY4NTI0MSwtMjYwMTUyMjkwLC0xNjQzNjI2
+MjU1XX0=
 -->
