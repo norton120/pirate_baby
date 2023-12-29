@@ -269,17 +269,19 @@ Setting up the initial runtime is a little bit of a juggling act; You first crea
 		- Name the load balancer something sensible like `bash-dog`
 		- Bump up the grace period to make debugging easier
 		- Select the nginx container `bash-dog-nginx 80:80`
-		- Create 
+		- Create a listener on port 443 with https
+			- Select the ACM cert we imported from CloudFlare earlier
+		- Add 
 {{< box info >}} 
 **Service Cleanup**: 
 {{< /box >}}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMjIwODk0Miw1MzQ5Mzk1NzcsLTE3ND
-Q2ODU4OTUsODE5MDUxODA5LDE2MDUxMzUzMDMsMjM4MjM2MjIx
-LDQxNjg4MjkxMSwtODY5Nzg0NjMsMTI5NDU0MTIsLTEwMDI2OD
-UyNDEsLTI2MDE1MjI5MCwtMTY0MzYyNjI1NSwxMjkzMjY2MTMz
-LC0xODE5NTA0OTM1LC00NjA0Mzk5NzEsLTMwODYyOTgyOCwtMT
-YyNzU4MTY2LDYxNTg4OTY3MCwtMzY1Mzg1ODI3LC0xNjUyNzk2
-Njg3XX0=
+eyJoaXN0b3J5IjpbNDUxODYyNTkxLDUzNDkzOTU3NywtMTc0ND
+Y4NTg5NSw4MTkwNTE4MDksMTYwNTEzNTMwMywyMzgyMzYyMjEs
+NDE2ODgyOTExLC04Njk3ODQ2MywxMjk0NTQxMiwtMTAwMjY4NT
+I0MSwtMjYwMTUyMjkwLC0xNjQzNjI2MjU1LDEyOTMyNjYxMzMs
+LTE4MTk1MDQ5MzUsLTQ2MDQzOTk3MSwtMzA4NjI5ODI4LC0xNj
+I3NTgxNjYsNjE1ODg5NjcwLC0zNjUzODU4MjcsLTE2NTI3OTY2
+ODddfQ==
 -->
