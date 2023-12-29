@@ -251,7 +251,7 @@ Last create the code deploy role. This role needs the [AWSCodeDeployRoleForECS](
 ```
 
 11. #### Create an empty CodeDeploy Application
-We will need a CodeDeploy app for our ECS service to set up blue/green deploys in. So navigate to CodePipeline -> Applications -> and create a new application named something sensible like `bash-dog-deploy-application`. Leave this open.
+We will need a CodeDeploy app for our ECS service to set up blue/green deploys in. So navigate to CodePipeline -> Applications -> and create a new application named something sensible like `bash-dog-deploy-application`. Leave this open. Don't create a deployment yet, or you will get a weird loop where CloudFormation rips down your ECS Service for having too many deployments associated. 
  
 12. #### Create the ECS Cluster and initial Task Definition
 Setting up the initial runtime is a little bit of a juggling act; You first create your ECS Cluster, Task Definition, and ECS Service with the Service _linked_ to the Code Deploy (but not exactly managed by it yet). The idea is to manually stand up the service and get it to a "healthy" state, and _then_ have CodeDeploy take over. 
@@ -290,11 +290,11 @@ Head over to the load balancer we created - you can find it by navigating to the
 You can throw this in a browser and get an unsafe warning (which is fine, the cert it is using is made for CloudFlare not for visitors). If you bypass that warning, **you should see your application!.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTU4MjQ4MywtMTgxNzg4ODY4MCwtMj
-A1Nzk4MTYzNiwxNzA3NjYyNTkwLC02NTEwNDk1NjMsMTI5NDU1
-Njc5LDUzNDkzOTU3NywtMTc0NDY4NTg5NSw4MTkwNTE4MDksMT
-YwNTEzNTMwMywyMzgyMzYyMjEsNDE2ODgyOTExLC04Njk3ODQ2
-MywxMjk0NTQxMiwtMTAwMjY4NTI0MSwtMjYwMTUyMjkwLC0xNj
-QzNjI2MjU1LDEyOTMyNjYxMzMsLTE4MTk1MDQ5MzUsLTQ2MDQz
-OTk3MV19
+eyJoaXN0b3J5IjpbLTE3NTAyMDU1ODYsMTQxOTU4MjQ4MywtMT
+gxNzg4ODY4MCwtMjA1Nzk4MTYzNiwxNzA3NjYyNTkwLC02NTEw
+NDk1NjMsMTI5NDU1Njc5LDUzNDkzOTU3NywtMTc0NDY4NTg5NS
+w4MTkwNTE4MDksMTYwNTEzNTMwMywyMzgyMzYyMjEsNDE2ODgy
+OTExLC04Njk3ODQ2MywxMjk0NTQxMiwtMTAwMjY4NTI0MSwtMj
+YwMTUyMjkwLC0xNjQzNjI2MjU1LDEyOTMyNjYxMzMsLTE4MTk1
+MDQ5MzVdfQ==
 -->
