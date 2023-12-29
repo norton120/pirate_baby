@@ -150,18 +150,18 @@ I find it is much easier not to get twisted into a dependency pretzel if we star
 	- :monocle_face: Check '_Enable this flag..._' under _Privileged_. 
 	- Leave the default _New service role_ and unless the provided role name is awful, leave it.
 	- Optionally, reduce the timeouts. Generally my builds are running < 3 min, so if they are not done in 10 they are probably never going to be done. 
-	- Leave _Use a buildspec file_ and :monocle_face: do not specify a file name. My experience has been that builds with a non-standard buildspec path fail periodically with issues finding the file.
+	- Leave _Use a buildspec file_ and :monocle_face: do not specify a file name. My experience has been that non-standard filenames for the buildspec/appspec/taskdef files have caused mysterious pipeline failures, but YMMV.
 	- Set up logging using logical names like `bash-dog` and `codebuild`.
 - Skip the deploy stage for now, that needs to be backed-in from a running ECS Service.
 - Save and create your new pipeline.
 _Note:_ The pipeline will immediately build and fail. That's OK, we're far from done.
 
-7. #### Update Build Role Access
+6. #### Update Build Role Access
 Now we need to update the build service role, allowing it to:
 	- login, pull and push our ECR images
 	- write to our s3 artifact bucket
 - Find that role you just created by searching IAM roles for `bash-dog` (well, your equivalent). It should look like `codebuild-bash-dog-pipeline-service-role` unless you changed it. It should also have a policy named something like `CodeBuildBasePolicy-bash-dog-pipeline-us-east-2`. Click into that.
--  Edit the policy and add these statements, updating the image and checking that the s3 bucket arns for the artifacts are present and mac
+-  Edit the policy and add these statements, updating the image and checking that the s3 bucket arns for the artifacts are present and match what you have in s3.
 {{< gist norton120 d622626cb4ce4cace838ce1ec35f96ef >}}
 
 8. #### Run a successful build
@@ -287,7 +287,7 @@ Head over to the load balancer we created - you can find it by navigating to the
 You can throw this in a browser and get an unsafe warning (which is fine, the cert it is using is made for CloudFlare not for visitors). If you bypass that warning, **you should see your application!.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MjUzNzU5MCwxNTU4OTIwNDYzLC0xNz
+eyJoaXN0b3J5IjpbMTk3OTgxMDk2NiwxNTU4OTIwNDYzLC0xNz
 UwMjA1NTg2LDE0MTk1ODI0ODMsLTE4MTc4ODg2ODAsLTIwNTc5
 ODE2MzYsMTcwNzY2MjU5MCwtNjUxMDQ5NTYzLDEyOTQ1NTY3OS
 w1MzQ5Mzk1NzcsLTE3NDQ2ODU4OTUsODE5MDUxODA5LDE2MDUx
