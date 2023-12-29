@@ -301,8 +301,10 @@ Time to automate your now working-but-manual pipeline.
 - Head back to CodePipeline, and in your `bash-dog-pipeline` and edit the pipeline. 
 - add a `deploy` stage.
 - :monocle_face: Select `Amazon ECS (Blue/Green)` as provider.
+- For artifacts select BuildArtifact
+- For _AWS CodeDeploy application name_ and 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTk4ODQzOCwxNTU4OTIwNDYzLC0xNz
+eyJoaXN0b3J5IjpbLTM2MTgyODM0NCwxNTU4OTIwNDYzLC0xNz
 UwMjA1NTg2LDE0MTk1ODI0ODMsLTE4MTc4ODg2ODAsLTIwNTc5
 ODE2MzYsMTcwNzY2MjU5MCwtNjUxMDQ5NTYzLDEyOTQ1NTY3OS
 w1MzQ5Mzk1NzcsLTE3NDQ2ODU4OTUsODE5MDUxODA5LDE2MDUx
