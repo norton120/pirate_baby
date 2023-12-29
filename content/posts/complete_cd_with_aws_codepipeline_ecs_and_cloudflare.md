@@ -260,14 +260,16 @@ Setting up the initial runtime is a little bit of a juggling act; You first crea
 		- Under _Deployment Configuration_ select the task family name you just created.
 		- Name the service something logical like `bash-dog`.
 		- :monocle_face: Under _Deployment Options_ change Deployment Type to _Blue/green deployment (powered by AWS CodeDeploy)_. 
-		- 
+
+{{< box warning >}} 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM0OTM5NTc3LC0xNzQ0Njg1ODk1LDgxOT
-A1MTgwOSwxNjA1MTM1MzAzLDIzODIzNjIyMSw0MTY4ODI5MTEs
-LTg2OTc4NDYzLDEyOTQ1NDEyLC0xMDAyNjg1MjQxLC0yNjAxNT
-IyOTAsLTE2NDM2MjYyNTUsMTI5MzI2NjEzMywtMTgxOTUwNDkz
-NSwtNDYwNDM5OTcxLC0zMDg2Mjk4MjgsLTE2Mjc1ODE2Niw2MT
-U4ODk2NzAsLTM2NTM4NTgyNywtMTY1Mjc5NjY4NywtOTA5MDE0
-MjYzXX0=
+eyJoaXN0b3J5IjpbNjU0MDM3Nzg1LDUzNDkzOTU3NywtMTc0ND
+Y4NTg5NSw4MTkwNTE4MDksMTYwNTEzNTMwMywyMzgyMzYyMjEs
+NDE2ODgyOTExLC04Njk3ODQ2MywxMjk0NTQxMiwtMTAwMjY4NT
+I0MSwtMjYwMTUyMjkwLC0xNjQzNjI2MjU1LDEyOTMyNjYxMzMs
+LTE4MTk1MDQ5MzUsLTQ2MDQzOTk3MSwtMzA4NjI5ODI4LC0xNj
+I3NTgxNjYsNjE1ODg5NjcwLC0zNjUzODU4MjcsLTE2NTI3OTY2
+ODddfQ==
 -->
