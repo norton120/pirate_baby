@@ -193,7 +193,7 @@ Now you need to tell CloudFlare to use the cert you just created. **This is impo
 OK now your CloudFlare is primed, though we have not set up the CNAME yet (that comes later). Onward with our pipeline.
 
 10. #### Create all the IAM Roles
-ECS Execution needs to be able to access the secret(s) created earlier, and ECS Service needs to be able to do normal ECS task things. CodeDeploy also needs a role. So, we create 3 new roles named `bash-dog-ecs-service-role` , `bash-dog-ecs-execution-role` , and `bash-dog-code-deploy` in IAM. 
+ECS Execution needs to be able to access the secret(s) created earlier, and ECS Service needs to be able to do normal ECS task things. CodeDeploy also needs a role. So, we create 3 new roles named `bashDogService-role` , `bash-dog-ecs-execution-role` , and `bash-dog-code-deploy` in IAM. 
 The execution role (think host role in a docker deployment) needs: 
 	- [AmazonECSTaskExecutionRolePolicy](https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2Fservice-role%2FAmazonECSTaskExecutionRolePolicy)
 	- An inline policy for accessing our secret envars
@@ -289,11 +289,11 @@ Head over to the load balancer we created - you can find it by navigating to the
 You can throw this in a browser and get an unsafe warning (which is fine, the cert it is using is made for CloudFlare not for visitors). If you bypass that warning, **you should see your application!.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTc4ODg2ODAsLTIwNTc5ODE2MzYsMT
-cwNzY2MjU5MCwtNjUxMDQ5NTYzLDEyOTQ1NTY3OSw1MzQ5Mzk1
-NzcsLTE3NDQ2ODU4OTUsODE5MDUxODA5LDE2MDUxMzUzMDMsMj
-M4MjM2MjIxLDQxNjg4MjkxMSwtODY5Nzg0NjMsMTI5NDU0MTIs
-LTEwMDI2ODUyNDEsLTI2MDE1MjI5MCwtMTY0MzYyNjI1NSwxMj
-kzMjY2MTMzLC0xODE5NTA0OTM1LC00NjA0Mzk5NzEsLTMwODYy
-OTgyOF19
+eyJoaXN0b3J5IjpbLTIwNTA1NzYwNjYsLTE4MTc4ODg2ODAsLT
+IwNTc5ODE2MzYsMTcwNzY2MjU5MCwtNjUxMDQ5NTYzLDEyOTQ1
+NTY3OSw1MzQ5Mzk1NzcsLTE3NDQ2ODU4OTUsODE5MDUxODA5LD
+E2MDUxMzUzMDMsMjM4MjM2MjIxLDQxNjg4MjkxMSwtODY5Nzg0
+NjMsMTI5NDU0MTIsLTEwMDI2ODUyNDEsLTI2MDE1MjI5MCwtMT
+Y0MzYyNjI1NSwxMjkzMjY2MTMzLC0xODE5NTA0OTM1LC00NjA0
+Mzk5NzFdfQ==
 -->
