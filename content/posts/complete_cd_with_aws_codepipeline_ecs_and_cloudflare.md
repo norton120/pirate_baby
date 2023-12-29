@@ -191,7 +191,7 @@ OK now your CloudFlare is primed, though we have not set up the CNAME yet (that 
 
 9. #### Create all the IAM Roles
 ECS Execution needs to be able to access the secret(s) created earlier, and ECS Service needs to be able to do normal ECS task things. CodeDeploy also needs a role. So, we create 3 new roles named `bashDogServiceRoleForECS` , `bashDogExectuionRoleForECS` , and `bashDogCodeDeployRole` in IAM.
-**Note:** you may want/need to modify the AWS default `ecsTaskExecutionRole` instead of creating `bashDogExecutionRoleForECS` if you find your Fargate tasks are unable to 
+**Note:** you may want/need to modify the AWS default `ecsTaskExecutionRole` instead of creating `bashDogExecutionRoleForECS` if you find your Fargate tasks do not reflect the permissions you've assigned to your execution role. 
  
 The execution role (the role assumed by the host) needs: 
 	- [AmazonECSTaskExecutionRolePolicy](https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2Fservice-role%2FAmazonECSTaskExecutionRolePolicy)
@@ -288,11 +288,11 @@ Head over to the load balancer we created - you can find it by navigating to the
 You can throw this in a browser and get an unsafe warning (which is fine, the cert it is using is made for CloudFlare not for visitors). If you bypass that warning, **you should see your application!.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM5ODkyMTMyLDE1NTg5MjA0NjMsLTE3NT
-AyMDU1ODYsMTQxOTU4MjQ4MywtMTgxNzg4ODY4MCwtMjA1Nzk4
-MTYzNiwxNzA3NjYyNTkwLC02NTEwNDk1NjMsMTI5NDU1Njc5LD
-UzNDkzOTU3NywtMTc0NDY4NTg5NSw4MTkwNTE4MDksMTYwNTEz
-NTMwMywyMzgyMzYyMjEsNDE2ODgyOTExLC04Njk3ODQ2MywxMj
-k0NTQxMiwtMTAwMjY4NTI0MSwtMjYwMTUyMjkwLC0xNjQzNjI2
-MjU1XX0=
+eyJoaXN0b3J5IjpbLTE1Mjc2Nzc3OTcsMTU1ODkyMDQ2MywtMT
+c1MDIwNTU4NiwxNDE5NTgyNDgzLC0xODE3ODg4NjgwLC0yMDU3
+OTgxNjM2LDE3MDc2NjI1OTAsLTY1MTA0OTU2MywxMjk0NTU2Nz
+ksNTM0OTM5NTc3LC0xNzQ0Njg1ODk1LDgxOTA1MTgwOSwxNjA1
+MTM1MzAzLDIzODIzNjIyMSw0MTY4ODI5MTEsLTg2OTc4NDYzLD
+EyOTQ1NDEyLC0xMDAyNjg1MjQxLC0yNjAxNTIyOTAsLTE2NDM2
+MjYyNTVdfQ==
 -->
