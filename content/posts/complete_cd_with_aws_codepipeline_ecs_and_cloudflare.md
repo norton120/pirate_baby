@@ -312,13 +312,15 @@ Time to automate your now working-but-manual pipeline.
 	- Save and exit.
 
 OK. Now the big moment. Push some code to a branch, create a pull request, merge that into main and....
+![success](/success.png)
 
+You have a working, automated blue/green deployment for all 3 of your service containers. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTQ2ODM3OSwxNTU4OTIwNDYzLC0xNz
-UwMjA1NTg2LDE0MTk1ODI0ODMsLTE4MTc4ODg2ODAsLTIwNTc5
-ODE2MzYsMTcwNzY2MjU5MCwtNjUxMDQ5NTYzLDEyOTQ1NTY3OS
-w1MzQ5Mzk1NzcsLTE3NDQ2ODU4OTUsODE5MDUxODA5LDE2MDUx
-MzUzMDMsMjM4MjM2MjIxLDQxNjg4MjkxMSwtODY5Nzg0NjMsMT
-I5NDU0MTIsLTEwMDI2ODUyNDEsLTI2MDE1MjI5MCwtMTY0MzYy
-NjI1NV19
+eyJoaXN0b3J5IjpbLTEzODM1MzIyOTEsLTc1MTQ2ODM3OSwxNT
+U4OTIwNDYzLC0xNzUwMjA1NTg2LDE0MTk1ODI0ODMsLTE4MTc4
+ODg2ODAsLTIwNTc5ODE2MzYsMTcwNzY2MjU5MCwtNjUxMDQ5NT
+YzLDEyOTQ1NTY3OSw1MzQ5Mzk1NzcsLTE3NDQ2ODU4OTUsODE5
+MDUxODA5LDE2MDUxMzUzMDMsMjM4MjM2MjIxLDQxNjg4MjkxMS
+wtODY5Nzg0NjMsMTI5NDU0MTIsLTEwMDI2ODUyNDEsLTI2MDE1
+MjI5MF19
 -->
