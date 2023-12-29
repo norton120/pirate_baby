@@ -278,14 +278,17 @@ Setting up the initial runtime is a little bit of a juggling act; You first crea
 **Service Cleanup**:  <s>if</s> when things go wrong with  your service, you may have to either delete it and start over or it may decide to delete itself after several failed deployments. Be sure to completely remove all artifacts once the service is gone, by deleting the corresponding stack for the service in CloudFormation. Lingering artifacts (especially if you use the same sensible service name again when you retry) can result in all kinds of strange and sad behavior.  This can take a while; be patient. Jumping ahead and re-building the new service while the old one is still deleting **will** cause you pain. 
 {{< /box >}}
 
-At this point, if all goes well your service should be up and running. You can check in on the container logs via _ECS Homepage_ -> _Clusters_ -> _bash-dog_ -> _services_ -> _bash-dog_ -> _logs_
+At this point, if all goes well our service should be up and running. You can check in on the container logs via _ECS Homepage_ -> _Clusters_ -> _bash-dog_ -> _services_ -> _bash-dog_ -> _logs_. 
+We can now wire up the domain and make sure the initial deploy is working!
+
+13. #### 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NzYxNDUxNywxMjk0NTU2NzksNTM0OT
-M5NTc3LC0xNzQ0Njg1ODk1LDgxOTA1MTgwOSwxNjA1MTM1MzAz
-LDIzODIzNjIyMSw0MTY4ODI5MTEsLTg2OTc4NDYzLDEyOTQ1ND
-EyLC0xMDAyNjg1MjQxLC0yNjAxNTIyOTAsLTE2NDM2MjYyNTUs
-MTI5MzI2NjEzMywtMTgxOTUwNDkzNSwtNDYwNDM5OTcxLC0zMD
-g2Mjk4MjgsLTE2Mjc1ODE2Niw2MTU4ODk2NzAsLTM2NTM4NTgy
-N119
+eyJoaXN0b3J5IjpbLTEwMDk4MDA3NzEsMTI5NDU1Njc5LDUzND
+kzOTU3NywtMTc0NDY4NTg5NSw4MTkwNTE4MDksMTYwNTEzNTMw
+MywyMzgyMzYyMjEsNDE2ODgyOTExLC04Njk3ODQ2MywxMjk0NT
+QxMiwtMTAwMjY4NTI0MSwtMjYwMTUyMjkwLC0xNjQzNjI2MjU1
+LDEyOTMyNjYxMzMsLTE4MTk1MDQ5MzUsLTQ2MDQzOTk3MSwtMz
+A4NjI5ODI4LC0xNjI3NTgxNjYsNjE1ODg5NjcwLC0zNjUzODU4
+MjddfQ==
 -->
