@@ -281,14 +281,15 @@ Setting up the initial runtime is a little bit of a juggling act; You first crea
 At this point, if all goes well our service should be up and running. You can check in on the container logs via _ECS Homepage_ -> _Clusters_ -> _bash-dog_ -> _services_ -> _bash-dog_ -> _logs_. 
 We can now wire up the domain and make sure the initial deploy is working!
 
-13. #### 
+13. #### Set up CNAME Record
+Head over to the load balancer we created 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDk4MDA3NzEsMTI5NDU1Njc5LDUzND
-kzOTU3NywtMTc0NDY4NTg5NSw4MTkwNTE4MDksMTYwNTEzNTMw
-MywyMzgyMzYyMjEsNDE2ODgyOTExLC04Njk3ODQ2MywxMjk0NT
-QxMiwtMTAwMjY4NTI0MSwtMjYwMTUyMjkwLC0xNjQzNjI2MjU1
-LDEyOTMyNjYxMzMsLTE4MTk1MDQ5MzUsLTQ2MDQzOTk3MSwtMz
-A4NjI5ODI4LC0xNjI3NTgxNjYsNjE1ODg5NjcwLC0zNjUzODU4
-MjddfQ==
+eyJoaXN0b3J5IjpbLTY1MTA0OTU2MywxMjk0NTU2NzksNTM0OT
+M5NTc3LC0xNzQ0Njg1ODk1LDgxOTA1MTgwOSwxNjA1MTM1MzAz
+LDIzODIzNjIyMSw0MTY4ODI5MTEsLTg2OTc4NDYzLDEyOTQ1ND
+EyLC0xMDAyNjg1MjQxLC0yNjAxNTIyOTAsLTE2NDM2MjYyNTUs
+MTI5MzI2NjEzMywtMTgxOTUwNDkzNSwtNDYwNDM5OTcxLC0zMD
+g2Mjk4MjgsLTE2Mjc1ODE2Niw2MTU4ODk2NzAsLTM2NTM4NTgy
+N119
 -->
