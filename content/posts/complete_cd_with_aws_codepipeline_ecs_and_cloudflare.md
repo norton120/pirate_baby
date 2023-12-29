@@ -194,6 +194,7 @@ ECS Execution needs to be able to access the secret(s) created earlier, and ECS 
 {{< box info >}}
 you may want/need to modify the AWS default `ecsTaskExecutionRole` instead of creating `bashDogExecutionRoleForECS` if you find your Fargate tasks do not reflect the permissions you've assigned to your execution role. The docs [cryptically imply](https://repost.aws/knowledge-center/ecs-unable-to-pull-secrets#:~:text=The%20Amazon%20ECS%20container%20agent%20uses%20the%20task%20execution%20AWS%20Identity%20and%20Access%20Management%20(IAM)%20role%20to%20get%20information%20from%20the%20following%20services%3A) that Fargate does not respect your execution role - I have experienced it both working and not working with an alternate role, and truth be told haven't had time to determine if this is a root cause. 
  {{</ box>}}
+ 
 The execution role (the role assumed by the host) needs: 
 	- [AmazonECSTaskExecutionRolePolicy](https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2Fservice-role%2FAmazonECSTaskExecutionRolePolicy)
 	- An inline policy for accessing our secret envars
@@ -249,8 +250,11 @@ Last create the code deploy role. This role needs the [AWSCodeDeployRoleForECS](
 }
 ```
 
-11. #### Create an empty CodeDeploy Application
+10. #### Create an empty CodeDeploy Application
 We will need a CodeDeploy app for our ECS service to set up blue/green deploys in. So navigate to CodePipeline -> Applications -> and create a new application named something sensible like `bash-dog-deploy-application`. Leave this open. Don't create a deployment yet, or you will get a weird loop where CloudFormation rips down your ECS Service for having too many deployments associated. 
+ 
+ 11. #### Configure Security Group Rules
+ One of the most tricky elements of launching your ECS cluster is that it 
  
 12. #### Create the ECS Cluster and initial Task Definition
 Setting up the initial runtime is a little bit of a juggling act; You first create your ECS Cluster, Task Definition, and ECS Service with the Service _linked_ to the Code Deploy (but not exactly managed by it yet). The idea is to manually stand up the service and get it to a "healthy" state, and _then_ have CodeDeploy take over. 
@@ -289,11 +293,11 @@ Head over to the load balancer we created - you can find it by navigating to the
 You can throw this in a browser and get an unsafe warning (which is fine, the cert it is using is made for CloudFlare not for visitors). If you bypass that warning, **you should see your application!.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1ODI4NDIyMSwxNTU4OTIwNDYzLC0xNz
-UwMjA1NTg2LDE0MTk1ODI0ODMsLTE4MTc4ODg2ODAsLTIwNTc5
-ODE2MzYsMTcwNzY2MjU5MCwtNjUxMDQ5NTYzLDEyOTQ1NTY3OS
-w1MzQ5Mzk1NzcsLTE3NDQ2ODU4OTUsODE5MDUxODA5LDE2MDUx
-MzUzMDMsMjM4MjM2MjIxLDQxNjg4MjkxMSwtODY5Nzg0NjMsMT
-I5NDU0MTIsLTEwMDI2ODUyNDEsLTI2MDE1MjI5MCwtMTY0MzYy
-NjI1NV19
+eyJoaXN0b3J5IjpbLTc0MDEwOTkwLDE1NTg5MjA0NjMsLTE3NT
+AyMDU1ODYsMTQxOTU4MjQ4MywtMTgxNzg4ODY4MCwtMjA1Nzk4
+MTYzNiwxNzA3NjYyNTkwLC02NTEwNDk1NjMsMTI5NDU1Njc5LD
+UzNDkzOTU3NywtMTc0NDY4NTg5NSw4MTkwNTE4MDksMTYwNTEz
+NTMwMywyMzgyMzYyMjEsNDE2ODgyOTExLC04Njk3ODQ2MywxMj
+k0NTQxMiwtMTAwMjY4NTI0MSwtMjYwMTUyMjkwLC0xNjQzNjI2
+MjU1XX0=
 -->
