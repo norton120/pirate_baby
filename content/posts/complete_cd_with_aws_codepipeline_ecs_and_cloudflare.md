@@ -70,9 +70,9 @@ Commit whatever changes you've made. For the duration of this deploy process it 
 
 3. #### ECR Images
 This whole build process centers around container images stored in Elastic Container Registry (ECR). Navigate to ECR in the AWS GUI and click "Get Started" under "Create a Repository." 
-![get started](/create_repository.png)
+![get started](/images/create_repository.png)
 Name the repository with your project and service, i.e.`bash-dog-api` 
-![name your repo](/repo_name.png)
+![name your repo](/images/repo_name.png)
 :monocle_face: leave the defaults as they are. You need mutability to retag `latest`. Repeat for each of your services.
 {{< box info >}} 
 You _shouldn't_ need to worry about docker hub rate limits, because our `buildspec.yml` preloads your existing image as part of the pre-build, so CodeBuild will only pull from docker hub the first time you build. If this does become an issue for some reason (you start getting failed builds because of dockerhub limits for images like `niginx` and `python`) then you will want to add ECR repos for these base images as well and point your Dockerfile towards them. That requires local login to ECR and complicates things, so we will avoid it for now. Just keep in mind that if you run into this issue, you'll add these base images to everything we do here.
@@ -106,7 +106,7 @@ We are going to keep all the envars in AWS SecretsManager. This removes secrets 
 - Start by navigating to SecretsManager and clicking "Store a new Secret"
 - select `other type of secret`
 - set the key/value pairs. This should be in the format of `ENVAR_NAME` `value`. For example, if I want an envar `BASH_DOG_ENVIRONMENT` with a value of `production` it would look like this:
-![secrets manager](/secretsmanager.png)
+![secrets manager](/images/secretsmanager.png)
 - name the secret something logical like `bash-dog/ecs-envars` and create it.
 - Once created, refresh the index page and click into the new secret so you can get the _whole_ new arn (complete with the random suffix). 
 - Head back to your `taskdef.json` file. See the `secrets` section in the api and sidecar containers? Update as follows:
@@ -166,7 +166,7 @@ Now we need to update the build service role, allowing it to:
 
 7. #### Run a successful build
 Push all the changes made so far to `main` in your application repo. If your main is already up to date, you will need to trigger it manually via the CodePipeline with the _Release Change_ button. Let it build, check the logs tab for errors, and with fate on your side you should see this:
-![build success](/build_success.png)
+![build success](/images/build_success.png)
 
 Now for the fun part - navigate to the s3 bucket and find the path `bash-dog-pipeline/buildArtf/`. Look for an artifact with the newest timestamp. Download it. Now check out the `taskdef.json` file within the artifact. You'll see the images have been updated to reflect the image sha for the release you just built! 
 You can also check ECR and see that the same image tag was created. 
@@ -292,7 +292,7 @@ We can now wire up the domain and make sure the initial deploy is working!
 
 13. #### Set up CNAME Record
 Head over to the load balancer we created - you can find it by navigating to the ECS Service homepage and clicking on the listener, then from there the load balancer. Grab the DNS name of your load balancer.
-![dns name](/dns_name.png)
+![dns name](/images/dns_name.png)
 
 You can throw this in a browser and get an unsafe warning (which is fine, the cert it is using is made for CloudFlare not for visitors). If you bypass that warning, **you should see your application!.**
 
@@ -312,15 +312,15 @@ Time to automate your now working-but-manual pipeline.
 	- Save and exit.
 
 OK. Now the big moment. Push some code to a branch, create a pull request, merge that into main and....
-![success](/success.png)
+![success](/images/success.png)
 
 You have a working, automated blue/green deployment for all 3 of your service containers. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODM1MzIyOTEsLTc1MTQ2ODM3OSwxNT
-U4OTIwNDYzLC0xNzUwMjA1NTg2LDE0MTk1ODI0ODMsLTE4MTc4
-ODg2ODAsLTIwNTc5ODE2MzYsMTcwNzY2MjU5MCwtNjUxMDQ5NT
-YzLDEyOTQ1NTY3OSw1MzQ5Mzk1NzcsLTE3NDQ2ODU4OTUsODE5
-MDUxODA5LDE2MDUxMzUzMDMsMjM4MjM2MjIxLDQxNjg4MjkxMS
-wtODY5Nzg0NjMsMTI5NDU0MTIsLTEwMDI2ODUyNDEsLTI2MDE1
-MjI5MF19
+eyJoaXN0b3J5IjpbMTkzNDUxODgyMSwtMTM4MzUzMjI5MSwtNz
+UxNDY4Mzc5LDE1NTg5MjA0NjMsLTE3NTAyMDU1ODYsMTQxOTU4
+MjQ4MywtMTgxNzg4ODY4MCwtMjA1Nzk4MTYzNiwxNzA3NjYyNT
+kwLC02NTEwNDk1NjMsMTI5NDU1Njc5LDUzNDkzOTU3NywtMTc0
+NDY4NTg5NSw4MTkwNTE4MDksMTYwNTEzNTMwMywyMzgyMzYyMj
+EsNDE2ODgyOTExLC04Njk3ODQ2MywxMjk0NTQxMiwtMTAwMjY4
+NTI0MV19
 -->
