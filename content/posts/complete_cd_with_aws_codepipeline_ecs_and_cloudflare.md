@@ -273,7 +273,7 @@ Setting up the initial runtime is a little bit of a juggling act; You first crea
 		- Search and select the arn for the Code Deploy role we created (`bash-dog-code-deploy`), you may have to go get the arn from IAM and paste it in the first time. 
 	- Under _Networking_ select the default VPC, and de-select all the duplicate subnets (where there are more than one for a given zone). Use the primary subnets if you can. 
 		- Use your default security group (add this to the TODO list of things to harden later)
-	- :monocle_face: Leave _public IP_ **on.** This isn't just "expose ECS to a public IP and subnet so you can test it;" unfortunately, modern ECS Fargate cannot connect to any services (like ECR, SecretsManager etc) without either a public IP or  
+	- :monocle_face: Leave _public IP_ **on.** This isn't just "expose ECS to a public IP and subnet so you can test it;" unfortunately, modern ECS Fargate cannot connect to any services (like ECR, SecretsManager etc) without either a public IP or NAT Gateway/PrivateLink setup in a private VPC.]()   
 	- Under _Load Balancer_ select `Application Load Balancer`
 		- Name the load balancer something sensible like `bash-dog`
 		- Bump up the grace period to make debugging easier
@@ -299,7 +299,7 @@ You can throw this in a browser and get an unsafe warning (which is fine, the ce
 14. Completing the pipeline 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzA4MjkzNzMsMTU1ODkyMDQ2MywtMT
+eyJoaXN0b3J5IjpbLTE1NzA5ODIyNTUsMTU1ODkyMDQ2MywtMT
 c1MDIwNTU4NiwxNDE5NTgyNDgzLC0xODE3ODg4NjgwLC0yMDU3
 OTgxNjM2LDE3MDc2NjI1OTAsLTY1MTA0OTU2MywxMjk0NTU2Nz
 ksNTM0OTM5NTc3LC0xNzQ0Njg1ODk1LDgxOTA1MTgwOSwxNjA1
