@@ -282,14 +282,17 @@ At this point, if all goes well our service should be up and running. You can ch
 We can now wire up the domain and make sure the initial deploy is working!
 
 13. #### Set up CNAME Record
-Head over to the load balancer we created - you can find it by navigating to the ECS Service homepage and clicking on the listener, then from there the load balancer. 
+Head over to the load balancer we created - you can find it by navigating to the ECS Service homepage and clicking on the listener, then from there the load balancer. Grab the DNS name of your load balancer.
+![dns name](/dns_name.png)
+
+You can throw this in a browser and 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NTE2ODc0MSwtNjUxMDQ5NTYzLDEyOT
-Q1NTY3OSw1MzQ5Mzk1NzcsLTE3NDQ2ODU4OTUsODE5MDUxODA5
-LDE2MDUxMzUzMDMsMjM4MjM2MjIxLDQxNjg4MjkxMSwtODY5Nz
-g0NjMsMTI5NDU0MTIsLTEwMDI2ODUyNDEsLTI2MDE1MjI5MCwt
-MTY0MzYyNjI1NSwxMjkzMjY2MTMzLC0xODE5NTA0OTM1LC00Nj
-A0Mzk5NzEsLTMwODYyOTgyOCwtMTYyNzU4MTY2LDYxNTg4OTY3
-MF19
+eyJoaXN0b3J5IjpbMjIxNzU0NTA1LC02NTEwNDk1NjMsMTI5ND
+U1Njc5LDUzNDkzOTU3NywtMTc0NDY4NTg5NSw4MTkwNTE4MDks
+MTYwNTEzNTMwMywyMzgyMzYyMjEsNDE2ODgyOTExLC04Njk3OD
+Q2MywxMjk0NTQxMiwtMTAwMjY4NTI0MSwtMjYwMTUyMjkwLC0x
+NjQzNjI2MjU1LDEyOTMyNjYxMzMsLTE4MTk1MDQ5MzUsLTQ2MD
+QzOTk3MSwtMzA4NjI5ODI4LC0xNjI3NTgxNjYsNjE1ODg5Njcw
+XX0=
 -->
