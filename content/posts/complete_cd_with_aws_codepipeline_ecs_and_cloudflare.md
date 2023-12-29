@@ -191,7 +191,7 @@ Now you need to tell CloudFlare to use the cert you just created. **This is impo
 	- Save your rule
 OK now your CloudFlare is primed, though we have not set up the CNAME yet (that comes later). Onward with our pipeline.
 
-11. #### Create a bunch of IAM Roles
+11. #### Create all the IAM Roles
 ECS Execution needs to be able to access the secret(s) created earlier, and ECS Service needs to be able to do normal ECS task things. CodeDeploy also needs a role. So, we create 3 new roles named `bash-dog-ecs-service-role` , `bash-dog-ecs-execution-role` , and `bash-dog-code-deploy` in IAM. 
 The execution role (think host role in a docker deployment) needs: 
 	- [AmazonECSTaskExecutionRolePolicy](https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2Fservice-role%2FAmazonECSTaskExecutionRolePolicy)
@@ -263,11 +263,11 @@ Back to the `bash-dog` cluster page, time to create a service.
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNTEzNTMwMywyMzgyMzYyMjEsNDE2OD
-gyOTExLC04Njk3ODQ2MywxMjk0NTQxMiwtMTAwMjY4NTI0MSwt
-MjYwMTUyMjkwLC0xNjQzNjI2MjU1LDEyOTMyNjYxMzMsLTE4MT
-k1MDQ5MzUsLTQ2MDQzOTk3MSwtMzA4NjI5ODI4LC0xNjI3NTgx
-NjYsNjE1ODg5NjcwLC0zNjUzODU4MjcsLTE2NTI3OTY2ODcsLT
-kwOTAxNDI2MywtOTE2NDg2MDcxLDE3MDQ0MzcyMjcsMjgwMDM3
-OTU1XX0=
+eyJoaXN0b3J5IjpbODE5MDUxODA5LDE2MDUxMzUzMDMsMjM4Mj
+M2MjIxLDQxNjg4MjkxMSwtODY5Nzg0NjMsMTI5NDU0MTIsLTEw
+MDI2ODUyNDEsLTI2MDE1MjI5MCwtMTY0MzYyNjI1NSwxMjkzMj
+Y2MTMzLC0xODE5NTA0OTM1LC00NjA0Mzk5NzEsLTMwODYyOTgy
+OCwtMTYyNzU4MTY2LDYxNTg4OTY3MCwtMzY1Mzg1ODI3LC0xNj
+UyNzk2Njg3LC05MDkwMTQyNjMsLTkxNjQ4NjA3MSwxNzA0NDM3
+MjI3XX0=
 -->
