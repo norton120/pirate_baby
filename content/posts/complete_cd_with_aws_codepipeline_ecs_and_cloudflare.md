@@ -251,8 +251,8 @@ Last create the code deploy role. This role needs the [AWSCodeDeployRoleForECS](
 12. #### Create an empty CodeDeploy Application
 We will need a CodeDeploy app for our ECS service to set up blue/green deploys in. So navigate to CodePipeline -> Applications -> and create a new application named something sensible like `bash-dog-deploy-application`. Leave this open.
  
-13. #### Launching ECS with a CodeDeploy Application
-Now we can set up our runtime. Create a new cluster with defaults, named something logical like `bash-dog`. Let this chug, don't touch anything until the cluster is up and running. 
+13. #### Create the ECS Cluster and initial Task Definition
+Setting up the initial runtime is a little bit of a juggling act; You first create your ECS cluster, task definition, Create a new cluster with defaults, named something logical like `bash-dog`. Let this chug, don't touch anything until the cluster is up and running. 
 Once up, we need a base task definition for the service we are about to create.
 - Click on _Task definitions_, _Create a new task definition (with JSON)_. Paste the guts of your `taskdef.json` file and save.
 Back to the `bash-dog` cluster page, time to create a service. 
@@ -263,11 +263,11 @@ Back to the `bash-dog` cluster page, time to create a service.
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE5MDUxODA5LDE2MDUxMzUzMDMsMjM4Mj
-M2MjIxLDQxNjg4MjkxMSwtODY5Nzg0NjMsMTI5NDU0MTIsLTEw
-MDI2ODUyNDEsLTI2MDE1MjI5MCwtMTY0MzYyNjI1NSwxMjkzMj
-Y2MTMzLC0xODE5NTA0OTM1LC00NjA0Mzk5NzEsLTMwODYyOTgy
-OCwtMTYyNzU4MTY2LDYxNTg4OTY3MCwtMzY1Mzg1ODI3LC0xNj
-UyNzk2Njg3LC05MDkwMTQyNjMsLTkxNjQ4NjA3MSwxNzA0NDM3
-MjI3XX0=
+eyJoaXN0b3J5IjpbLTYzMDY3NjM1LDgxOTA1MTgwOSwxNjA1MT
+M1MzAzLDIzODIzNjIyMSw0MTY4ODI5MTEsLTg2OTc4NDYzLDEy
+OTQ1NDEyLC0xMDAyNjg1MjQxLC0yNjAxNTIyOTAsLTE2NDM2Mj
+YyNTUsMTI5MzI2NjEzMywtMTgxOTUwNDkzNSwtNDYwNDM5OTcx
+LC0zMDg2Mjk4MjgsLTE2Mjc1ODE2Niw2MTU4ODk2NzAsLTM2NT
+M4NTgyNywtMTY1Mjc5NjY4NywtOTA5MDE0MjYzLC05MTY0ODYw
+NzFdfQ==
 -->
