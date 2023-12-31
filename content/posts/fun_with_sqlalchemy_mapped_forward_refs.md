@@ -1,5 +1,5 @@
 ---
-title: "Fun with SQLAlchemy `Mapped` forward refs"
+title: "Fun with SQLAlchemy Mapped forward refs"
 date: 2023-12-30
 draft: false
 ---
@@ -30,5 +30,5 @@ class Banana(SqlalchemyBase):
 ```
 but if you try to forward ref anything _not_ inheriting from `SqlalchemyBase`, :scream_cat:!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA5NTU0MzAzXX0=
+eyJoaXN0b3J5IjpbNDIxNTQ1NDAxXX0=
 -->
