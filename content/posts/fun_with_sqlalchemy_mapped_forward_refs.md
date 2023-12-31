@@ -28,7 +28,7 @@ class Banana(SqlalchemyBase):
 	picked_date:Mapped[datetime]
 	belongs_to: Mapped["User"] = relationship("User", lazy="selectin", back_references="bananas")
 ```
-but if you try to forward ref anything _not_ un 
+but if you try to forward ref anything _not_ inheriting from `SqlalchemyBase`, :scream_cat:!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDcxMDM1MDJdfQ==
+eyJoaXN0b3J5IjpbNzA5NTU0MzAzXX0=
 -->
