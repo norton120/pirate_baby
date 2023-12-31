@@ -13,7 +13,16 @@ class Banana(SqlalchemyBase):
 ```
 But interestingly, `Mapped` does not support forward refs outside the ORM. so 
 `picked_date:Mapped["datetime"]` will error with an _ArgumentError_ if `datetime` was not otherwise imported in the module. However, our 
- 
+forward ref to `"User"` will be fine as long as you've imported `User` via `TYPE_CHECKING`.  
+
+So in conclusion, this works: 
+```
+from typing import TTY
+class Banana(SqlalchemyBase):
+	is_squishy:Mapped[Optional[bool]] = mapped_column(server_default=text("TRUE"))
+	picked_date:Mapped[datetime]
+	belongs_to: Mapped["User"] = relationship("User", lazy="selectin", back_references="bananas")
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTY5NTgwOTddfQ==
+eyJoaXN0b3J5IjpbLTIwNjA5NzM0MDddfQ==
 -->
