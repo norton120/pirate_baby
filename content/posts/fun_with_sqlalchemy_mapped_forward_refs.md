@@ -8,9 +8,11 @@ If you are in the habit of typing your Python, this is a welcome tool both reduc
 ```
 class Banana(SqlalchemyBase):
 	is_squishy:Mapped[Optional[bool]] = mapped_column(server_default=text("TRUE"))
+	picked_date:Mapped[datetime]
 	belongs_to: Mapped["User"] = relationship("User", lazy="selectin", back_references="bananas")
 ```
-But interestingly, `Mapped` is not the same s 
+But interestingly, `Mapped` does not support forward refs outside the ORM. so 
+`picke
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxODMzMDYzNl19
+eyJoaXN0b3J5IjpbLTE4NTMxMjcyODhdfQ==
 -->
