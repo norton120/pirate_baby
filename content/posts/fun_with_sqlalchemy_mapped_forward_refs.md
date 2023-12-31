@@ -3,7 +3,7 @@ title: "Fun with SQLAlchemy `Mapped` forward refs"
 date: 2023-12-30
 draft: false
 ---
-SQLAlchemy 2.0 introduced decla
+SQLAlchemy 2.0 introduced declarative mapping type support with the `Mapped` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDMzMDMwODJdfQ==
+eyJoaXN0b3J5IjpbLTEwNTg0MTM4MzZdfQ==
 -->
