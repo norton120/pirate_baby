@@ -12,7 +12,8 @@ class Banana(SqlalchemyBase):
 	belongs_to: Mapped["User"] = relationship("User", lazy="selectin", back_references="bananas")
 ```
 But interestingly, `Mapped` does not support forward refs outside the ORM. so 
-`picke
+`picked_date:Mapped["datetime"]` will error with an _ArgumentError_ if `datetime` was not otherwise imported in the module. However, our 
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTMxMjcyODhdfQ==
+eyJoaXN0b3J5IjpbLTE2MTY5NTgwOTddfQ==
 -->
