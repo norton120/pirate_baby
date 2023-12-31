@@ -17,12 +17,18 @@ forward ref to `"User"` will be fine as long as you've imported `User` via `TYPE
 
 So in conclusion, this works: 
 ```
-from typing import TTY
+...
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+	from . import User # avoids circular refs
+
 class Banana(SqlalchemyBase):
 	is_squishy:Mapped[Optional[bool]] = mapped_column(server_default=text("TRUE"))
 	picked_date:Mapped[datetime]
 	belongs_to: Mapped["User"] = relationship("User", lazy="selectin", back_references="bananas")
-
+```
+but if you try to forward ref anything _not_ un 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjA5NzM0MDddfQ==
+eyJoaXN0b3J5IjpbLTE4MDcxMDM1MDJdfQ==
 -->
