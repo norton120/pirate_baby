@@ -1,9 +1,10 @@
 ---
 title: "Caffeine"
 subtitle: "stealing from our future selves"
-date: 2023-12-
+date: 2024-1-1
 draft: true
 ---
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTI0Nzk5MTRdfQ==
+eyJoaXN0b3J5IjpbLTM1MTI5MzM1MF19
 -->
