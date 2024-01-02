@@ -11,14 +11,14 @@ The compound adenosine serves as the biological sand in our metaphorical hourgla
 This overloading act has similar effects as any form of debt. By taking possession of energy and alertness that does not belong to present-day you (but is the rightful property of a future version of yourself), you make the assumption that future you will have ample energy and rest to spare. Sadly this is rarely the case; sometimes we can steal back rest on weekends or crash for a day after a hard-burn, but more  often than not, the future version of us is _also_ amassing debt in the form of late nights and lattes. 
 The cyclical levying of energy tax on our future selves accrues interest, as we are not _actually_ performing at peak during those stolen hours. We _are_ tired, even if we have fooled our bodies' analytics into thinking otherwise. Our ability to reason and execute is compromised at a biological level - that is the reason our adenosine fuel gauge was installed in the first place. So each day we wake, burdened with the debt assigned by past-us and the sub-par work produced by a compromised mind and body, and we double down with more shots in our venti red eye.
 
-Debt can be a strategic tool in moments when it is legitimately viable that future you _will_ have significantly more resources than current you. A business with massive (recoverable) accounts receivables but little cash-on-hand can leverage debt to bridge the gap. But as a sea of failed zero-rate startups learned the hard way, accruing debt against "likely future success" is a dangerous game. 
+Debt can be a strategic tool in moments when it is legitimately viable that future you _will_ have significantly more resources than current you. A business with massive (recoverable) accounts receivables but little cash-on-hand can leverage debt to bridge the gap. But as a sea of failed zero-rate startups learned the hard way, accruing debt against "likely future success" is a dangerous game. Food for though
 
 
 
 *<sub>yes, technically caffeine acts as a mild stimulant in addition to the aforementioned fatigue-blocking properties. While not totally inconsequential, there are plenty of other mild stimulants that draw comparatively little interest: we don't see the world consuming 1.2 tons of ginseng or yerba mate a year, and there's a reason for that.</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTYxODY2NjUsNzUzMjg0ODMxLC0yOD
-QwODI3MzksLTEyMjIxMjk4NywxMjc4NjE3MzgyLDIwOTgzMTcw
-NTcsLTIwMzM1MTAyMCwtMTYxNDAzOTI5NywtMzYxNjM1MDUxLC
-0zNTEyOTMzNTBdfQ==
+eyJoaXN0b3J5IjpbLTYyOTgzMDE3Myw3NTMyODQ4MzEsLTI4ND
+A4MjczOSwtMTIyMjEyOTg3LDEyNzg2MTczODIsMjA5ODMxNzA1
+NywtMjAzMzUxMDIwLC0xNjE0MDM5Mjk3LC0zNjE2MzUwNTEsLT
+M1MTI5MzM1MF19
 -->
