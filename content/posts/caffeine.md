@@ -13,10 +13,10 @@ The cyclical levying of energy tax on our future selves accrues interest, as we 
 
 Debt can be a strategic tool in moments when it is legitimately viable that future you _will_ have significantly more resources than current you. A business with massive (recoverable) accounts receivables but little cash-on-hand can leverage debt to bridge the gap. But as a sea of failed zero-rate startups learned the hard way, accruing debt against "likely future success" is a dangerous game. 
 
-*~yes, technically caffeine acts as a mild stimulant in addition to the aforementioned fatigue-blocking properties. While not totally inconsequential, there are plenty of other mild stimulants such as Ginsing 
+*~yes, technically caffeine acts as a mild stimulant in addition to the aforementioned fatigue-blocking properties. While not totally inconsequential, there are plenty of other mild stimulants that draw comparatively little interest
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MjEzMzg4NCwtMjg0MDgyNzM5LC0xMj
-IyMTI5ODcsMTI3ODYxNzM4MiwyMDk4MzE3MDU3LC0yMDMzNTEw
-MjAsLTE2MTQwMzkyOTcsLTM2MTYzNTA1MSwtMzUxMjkzMzUwXX
-0=
+eyJoaXN0b3J5IjpbLTE0OTM1NDM3MTcsLTI4NDA4MjczOSwtMT
+IyMjEyOTg3LDEyNzg2MTczODIsMjA5ODMxNzA1NywtMjAzMzUx
+MDIwLC0xNjE0MDM5Mjk3LC0zNjE2MzUwNTEsLTM1MTI5MzM1MF
+19
 -->
