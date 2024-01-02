@@ -8,9 +8,9 @@ There is a well-warn platitude that "debt is stealing from your future self." Th
 
 In terms of productivity, mental capacity and energy, caffeine is debt in liquid form.    We tend to think of coffee and espresso shots as a fuel or energy source - something additive that picks us up, makes us faster/sharper/more alert. In truth caffeine is reductive, functioning not by _adding_ energy but by silencing the brain's exhaustion signals, muting the alarms that our brains and bodies need rest in a form of biological debt, one that will need to be repaid. 
 The compound adenosine serves as the biological sand in our metaphorical hourglass, collecting in our nervous systems during waking hours until we sleep, at which point the chemical clock is reset. Adenosine is our chemical gas gauge, letting us know when we are mentally running on fumes. Caffeine binds to adenosine receptors, inhibiting the ability of our body to accurately gauge fatigue. This is paramount to covering the warning light with magic marker when your engine is overheating.
-This overloading has the same effects as any form of debt. By taking possession of energy and alertness that does not belong to present-day you (but is the rightful property of a future version of yourself), you make the assumption that future you will have ample energy and rest to spare. Sadly this is rarely the case; sometimes we can steal back rest on weekends, or crash for a day after a hard-burn week, but most often the future version of us is _also_ amassing debt in the form of late nights and lattes - and in
+This overloading has the same effects as any form of debt. By taking possession of energy and alertness that does not belong to present-day you (but is the rightful property of a future version of yourself), you make the assumption that future you will have ample energy and rest to spare. Sadly this is rarely the case; sometimes we can steal back rest on weekends, or crash for a day after a hard-burn week, but most often the future version of us is _also_ amassing debt in the form of late nights and lattes - in addition to the debt current you has placed on them. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0ODczMTcsMTI3ODYxNzM4MiwyMDk4Mz
-E3MDU3LC0yMDMzNTEwMjAsLTE2MTQwMzkyOTcsLTM2MTYzNTA1
-MSwtMzUxMjkzMzUwXX0=
+eyJoaXN0b3J5IjpbLTY5ODk2MjEzNywxMjc4NjE3MzgyLDIwOT
+gzMTcwNTcsLTIwMzM1MTAyMCwtMTYxNDAzOTI5NywtMzYxNjM1
+MDUxLC0zNTEyOTMzNTBdfQ==
 -->
