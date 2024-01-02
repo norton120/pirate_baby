@@ -8,9 +8,9 @@ There is a well-warn platitude that "debt is stealing from your future self." Th
 
 In terms of productivity, mental capacity and energy, caffeine is debt in liquid form.    We tend to think of coffee and espresso shots as a fuel or energy source - something additive that picks us up, makes us faster/sharper/more alert. In truth caffeine is reductive, functioning not by _adding_ energy but by silencing the brain's exhaustion signals, muting the alarms that our brains and bodies need rest in a form of biological debt, one that will need to be repaid. 
 The compound adenosine serves as the biological sand in our metaphorical hourglass, collecting in our nervous systems during waking hours until we sleep, at which point the chemical clock is reset. Adenosine is our chemical gas gauge, letting us know when we are mentally running on fumes. Caffeine binds to adenosine receptors, inhibiting the ability of our body to accurately gauge fatigue. This is paramount to covering the warning light with magic marker when your engine is overheating.
-This overloading    
+This overloading has the same effects as any form of debt. By taking possession of energy and alertness that does not belong to you, but i
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODkzOTE4NiwxMjc4NjE3MzgyLDIwOT
-gzMTcwNTcsLTIwMzM1MTAyMCwtMTYxNDAzOTI5NywtMzYxNjM1
-MDUxLC0zNTEyOTMzNTBdfQ==
+eyJoaXN0b3J5IjpbLTEzNzY2OTYyOTUsMTI3ODYxNzM4MiwyMD
+k4MzE3MDU3LC0yMDMzNTEwMjAsLTE2MTQwMzkyOTcsLTM2MTYz
+NTA1MSwtMzUxMjkzMzUwXX0=
 -->
