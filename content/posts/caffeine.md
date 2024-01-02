@@ -10,9 +10,9 @@ In terms of productivity, mental capacity and energy, caffeine is debt in liquid
 The compound adenosine serves as the biological sand in our metaphorical hourglass, collecting in our nervous systems during waking hours until we sleep, at which point the chemical clock is reset. Adenosine is our chemical gas gauge, letting us know when we are mentally running on fumes. Caffeine binds to adenosine receptors, inhibiting the ability of our body to accurately gauge fatigue. This is paramount to covering the warning light with magic marker when your engine is overheating.
 This overloading has the same effects as any form of debt. By taking possession of energy and alertness that does not belong to present-day you (but is the rightful property of a future version of yourself), you make the assumption that future you will have ample energy and rest to spare. Sadly this is rarely the case; sometimes we can steal back rest on weekends or crash for a day after a hard-burn, but more  often than not, the future version of us is _also_ amassing debt in the form of late nights and lattes. 
 The cyclical levying of energy tax on our future selves accrues interest, as we are not _actually_ performing at peak during those stolen hours. We _are_ tired, even if we have fooled our bodies' analytics into thinking otherwise. Our ability to reason and execute is compromised at a biological level - that is the reason our adenosine fuel gauge was installed in the first place. So each day we wake, burdened with the debt assigned by past-us and the sub-par work produced by a compromised mind and body, and we double down with more shots in our venti red eye.
-Debt can be a strategic tool, 
+Debt can be a strategic tool, in moments when the prospect is legitimately good that future you _will_ have more resources than current you. Maybe there is a critical deadline that needs to be hit by 6am Monday, followed by a few days of rest as sal
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk5NTM4NzI1LC0xMjIyMTI5ODcsMTI3OD
-YxNzM4MiwyMDk4MzE3MDU3LC0yMDMzNTEwMjAsLTE2MTQwMzky
-OTcsLTM2MTYzNTA1MSwtMzUxMjkzMzUwXX0=
+eyJoaXN0b3J5IjpbLTE1ODk0NTUzNDEsLTEyMjIxMjk4NywxMj
+c4NjE3MzgyLDIwOTgzMTcwNTcsLTIwMzM1MTAyMCwtMTYxNDAz
+OTI5NywtMzYxNjM1MDUxLC0zNTEyOTMzNTBdfQ==
 -->
