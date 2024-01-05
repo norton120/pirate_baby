@@ -12,7 +12,7 @@ Such is the case today with words like generative AI, large language models, and
 
 Take the case of ChatGPT, the most widely recognised LLM on the market. Except... ChatGPT isn't an LLM. ChatGPT (and the accompanying OpenAI API) is a brilliantly engineered software platform, representing billions of dollars of R&D, and hundreds of thousands (if not millions) of software development hours. ChatGPT is as much an LLM as Google Search is a NoSQL database. Yes, one of the many complicated parts of the ChatGPT platform is a set of proprietary Large Language Models, just as Google Search has databases of a sort. When you query the OpenAI API, you are interacting with a production consumer-facing endpoint, not a raw LLM. Understanding this - the massive delta between an OSS `LLama2` or `Mistral` or `Falcon` model running on AWS Bedrock or GCP Vertex, and querying a polished, consumer-facing product, is tantamount to separating the generative AI wheat from the chaff.
 
-Now on to Prompt Engineering. Not "how to phrase your question to get the best answer from ChatGPT," which I wish everyone would start calling what it is, _product training_, but designing model-level textual interaction templates. Here's a real-world example from earlier this week: the key players are myself (a Data Engineer living in a Data Science world), Woodson (our _actual_ Data Scientist), and a stock `Falcon-7b-instruct` instance. I started early in the morning, trying to fix a stubborn link in our prom
+Now on to Prompt Engineering. Not "how to phrase your question to get the best answer from ChatGPT," which I wish everyone would start calling what it is, _product training_, but designing model-level textual interaction templates. Here's a real-world example from earlier this week: the key players are myself (a Data Engineer living in a Data Science world), Woodson (our _actual_ Data Scientist), and a stock `Falcon-7b-instruct` instance. I started early in the morning, trying to fix a stubborn link in our prompt chain:
 
 _prompt_:
 ```
@@ -65,7 +65,7 @@ WOO! Now I run it 5 more times.
 `No`, `Yes`, `YES`, `YesNo`, `Yes`
 
 At this point I start thinking about re-entering a career in the food service industry. Just then Woodson walks into the office, sees me with my head on the desk, looks at the prompt terminal on the massive computer screen in front of me.
-"Invert the question to ask if the message requires external context, add a second sentence with yes or no, lowercase, get rid of that period, and ...(pauses to slurp iced tea)... make the word message lowercase, get rid of the space in front of it. Try it now."
+"Where's the temp? OK drop that to point one. Invert the question to ask if the message requires external context, add a second sentence with yes or no, lowercase, get rid of that period, and ...(pauses to slurp iced tea)... make the word message lowercase, get rid of the space in front of the colon. Try it now."
 
 _prompt_
 ```
@@ -74,7 +74,7 @@ Does this message require external context for you to respond? Answer yes or no
 message:That is fine, just pick one.
 ```
 _responses (x5)_
-`Yes`, `Yes`, `Yes`, `Yes`, `Yes`
+`Yes`, `Yes`, `Yes`, `Yes`, `Yes` (this is correct, remember we inverted it)
 
 "How did you do that?!?"
 "Wish I could tell you man. I just did."
@@ -83,6 +83,6 @@ He went on to talk about how I need to think about narrowing the conversational 
 This is a new sport. This kind of practice requires a different kind of thinking, and I am not entirely convinced it can be effectively translated through teaching. Maybe it will be like music; most of us can take tuba lessons and be in the middle school band, but few will ever be good enough to play music professionally at _any_ level - not just the proverbial (and in this case, actual) rock stars, but even so much as to cover the bills of a modest lifestyle. To be able to  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NDg5ODgwMyw1OTMyODE1NTgsMTA5OT
-k2NDYwNl19
+eyJoaXN0b3J5IjpbLTE3ODYzOTk3NTksNTkzMjgxNTU4LDEwOT
+k5NjQ2MDZdfQ==
 -->
