@@ -37,7 +37,7 @@ That is fine, just pick one.
 ```
 _response_:
 ```
-)!
+**lk)!
 ```
 Umm.. that's.. worse? Maybe better, because it is shorter? OK again, maybe no special tokens this time, and raise the temperature. 
 _prompt_:
@@ -48,9 +48,9 @@ MESSAGE: That is fine, just pick one.
 ```
 _response_:
 ```
-YESyes
+YESyes<backpage
 ```
-Closer, but also incorrect. 
+Closer, but also incorrect, and still not stopping where I want it. 
 This goes on for about an hour, adjusting the prompt and the settings. I finally get to this: 
 ```
 Determine if this message is a complete statement that requires no external context, respond only with 'yes', otherwise respond only with 'no'.
@@ -61,10 +61,10 @@ _response_:
 ```
 No
 ```
-WOO! Now I run it 5 more times.
+WOO! Now I run it 5 more times in a row.
 `No`, `Yes`, `YES`, `YesNo`, `Yes`
 
-At this point I start thinking about re-entering a career in the food service industry. Just then Woodson walks into the office, sees me with my head on the desk, looks at the prompt terminal on the massive computer screen in front of me.
+At this point I start thinking about re-entering a career in the food service industry.  Just then Woodson walks into the office, sees me with my head on the desk, looks at the prompt terminal on the massive computer screen in front of me.
 "Where's the temp? OK drop that to point one. Invert the question to ask if the message requires external context, add a second sentence with yes or no, lowercase, get rid of that period, and ...(pauses to slurp iced tea)... make the word message lowercase, get rid of the space in front of the colon. Try it now."
 
 _prompt_
@@ -82,8 +82,9 @@ He went on to talk about how I need to think about narrowing the conversational 
 
 This is a new sport. This kind of practice requires a different kind of thinking, and I am not entirely convinced it can be effectively translated through teaching. Maybe it will be like music; most of us can take tuba lessons and be part of the middle school band, but few will ever be good enough to play music professionally at _any_ level - not just the proverbial (and in this case, actual) rock stars, but even so much as to cover the bills of a modest lifestyle. To be able to craft text that effectively coaxes gold from language model mire is, at the moment, a bit of an art form. 
 There are likely people all over the globe that have never considered an interest in programming or computer science, but are naturally exceptionally gifted at this new dark art. There are people working a New Jersey gas pump, or pulling lobster pots from a bay in Maine, or entering medical claims in an office in Tulsa, that would look at the same block of text and say "yeah just invert the question, and that word needs to be lower case" like it was placing the last piece in a jigsaw puzzle. Wilt Chamberlain was a bellhop when the world of professional basketball first discovered him. 
-I guess it is all relative; to some developers, SQL is database incantation, or JavaScript is a world of broken promises (pun intended). I personally believe that wood framing, electrical work, and plumbing are logical skills that can be learned, shared, and practiced, whereas any task involving drywall or spackle requires a pact with the devil to produce a half-way decent looking outcome.  
+I guess it is all relative; to some developers, SQL is database incantation, or JavaScript is a world of broken promises (pun intended). I personally believe that wood framing, electrical work, and plumbing are logical skills that can be learned, shared, and practiced, whereas any task involving drywall or spackle requires a pact with the devil to produce a half-way decent looking outcome. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MDU2MDI3LDYxNDEwNzUwNSw1OTMyOD
-E1NTgsMTA5OTk2NDYwNl19
+eyJoaXN0b3J5IjpbMTk2NTUyMzgyOSw2MTQxMDc1MDUsNTkzMj
+gxNTU4LDEwOTk5NjQ2MDZdfQ==
 -->
