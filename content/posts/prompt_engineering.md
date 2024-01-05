@@ -23,7 +23,7 @@ _response_:
 ```
 %YES,no\nI agree it is fine but th
 ```
-K. No good. Try again.
+K. No good. Try again with all the same settings for temperature, stop words etc.
 _prompt_:
 ```
 >>INTRODUCTION<<
@@ -35,9 +35,10 @@ That is fine, just pick one.
 ```
 _response_:
 ```
-)
+)!
 ```
+Umm.. that's.. worse? Maybe better, because it is shorter? OK again.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQxOTcxMzgyLDEwOTk5NjQ2MDZdfQ==
+eyJoaXN0b3J5IjpbLTE0NTU5MDEyMzYsMTA5OTk2NDYwNl19
 -->
