@@ -66,8 +66,8 @@ WOO! Now I run it 5 more times in a row.
 
 At this point I start thinking about re-entering a career in the food service industry.
 
-Just then Woodson walks into the office. He looks over my head (which is rested firmly forehead-planted on the desk, my fist b ) at the prompt terminal on the massive computer screen in front of me.
-"Where's the temp? OK drop that to point one. Invert the question to ask if the message requires external context, add a second sentence with yes or no, lowercase, get rid of that period, and ...(pauses to slurp iced tea)... make the word message lowercase, get rid of the space in front of the colon. Try it now."
+Just then Woodson walks into the office. He looks over my head (which is rested firmly forehead-planted on the desk while my fist bangs the keyboard) and scans the prompt terminal of my massive computer screen.
+"Where's the temp set? OK drop that to point one. Invert the question to ask if the message requires external context, add a second sentence with yes or no, lowercase, get rid of that period, and ...(pauses to slurp iced tea)... make the word message lowercase, get rid of the space in front of the colon. Run it."
 
 _prompt_
 ```
@@ -87,6 +87,6 @@ There are likely people all over the globe that have never considered an interes
 I guess it is all relative; to some developers, SQL is database incantation, or JavaScript is a world of broken promises (pun intended). I personally believe that wood framing, electrical work, and plumbing are logical skills that can be learned, shared, and practiced, whereas any task involving drywall or spackle requires a pact with the devil to produce a half-way decent looking outcome. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE3NjMyMDU1LDYxNDEwNzUwNSw1OTMyOD
-E1NTgsMTA5OTk2NDYwNl19
+eyJoaXN0b3J5IjpbLTQ0MjM3NjAwMSw2MTQxMDc1MDUsNTkzMj
+gxNTU4LDEwOTk5NjQ2MDZdfQ==
 -->
