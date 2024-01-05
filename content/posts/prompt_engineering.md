@@ -12,10 +12,12 @@ Take the case of ChatGPT, the most widely recognised LLM on the market. Except..
 
 Now on to Prompt Engineering. Not "how to phrase your question to get the best answer from ChatGPT," which I would honestly bucket under product training, but designing the model-level textual interaction templates. Here's a real-world example from earlier this week: the key players are myself (a Data Engineer living in a Data Science world), Woodson (our _actual_ Data Scientist), and a stock `Falcon-7b-instruct` instance.
 
-_First prompt_:
+_prompt_:
 ```
-You are a helpful AI assistantt
+You are a helpful AI assistant.Assess if the message below is a complete thought that can be responded to without any external context. Respond only 'YES' or 'NO'.
+
+MESSAGE: That is fu
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTE4MzcyOTYsMTA5OTk2NDYwNl19
+eyJoaXN0b3J5IjpbMTMyMjkzNTY1MywxMDk5OTY0NjA2XX0=
 -->
