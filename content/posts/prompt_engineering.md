@@ -63,7 +63,9 @@ WOO! Now I run it 5 more times.
 `No`, `Yes`, `YES`, `YesNo`, `Yes`
 
 At this point I start thinking about re-entering a career in the food service industry. Just then Woodson walks into the office, sees me with my head on the desk, looks at the prompt terminal on the massive computer screen in front of me.
-"Invert the question to ask if the message requires external context, add a second sentence with yes or no, lowercase, and 
+"Invert the question to ask if the message requires external context, add a second sentence with yes or no, lowercase, and ...(pauses to slurp iced tea)... make the word message lowercase, get rid of the space in front of it. Try it now."
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkzMjgxNTU4LDEwOTk5NjQ2MDZdfQ==
+eyJoaXN0b3J5IjpbMjExNTI2OTA4MCw1OTMyODE1NTgsMTA5OT
+k2NDYwNl19
 -->
