@@ -10,7 +10,7 @@ Such is the case today with words like generative AI, large language models, and
 
 Take the case of ChatGPT, the most widely recognised LLM on the market. Except... ChatGPT isn't an LLM.  ChatGPT (and the accompanying OpenAI API) is a brilliantly engineered software platform, representing billions of dollars of r&d, and hundreds of thousands (if not millions) of software development hours. ChatGPT is as much an LLM as Google search is a NoSQL database. Yes, one of the many, complicated parts of the ChatGPT platform is a set of proprietary Large Language Models. And yes, Google has databases. When you query the OpenAI API, you are interacting with a production endpoint and not a raw LLM. Getting this - the massive delta between an OSS `LLama2` or `Mistral` or `Falcon` model running on AWS Bedrock or GCP Vertex, and querying a polished, consumer-facing product, is tantamount to separating the generative AI wheat from the chaff.
 
-Now on to Prompt Engineering. Not "how to phrase your question to get the best answer from ChatGPT," which I would honestly bucket under product training, but designing the model-level textual interaction templates. Here's a real-world example from earlier this week: the key pl `Falcon-7b-instruct`
+Now on to Prompt Engineering. Not "how to phrase your question to get the best answer from ChatGPT," which I would honestly bucket under product training, but designing the model-level textual interaction templates. Here's a real-world example from earlier this week: the key players are myself (a Data Engineer living in a Data Science world), Woodson (our _actual_ Data Scientist), and a `Falcon-7b-instruct` instance with 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MTk1MTYyMywxMDk5OTY0NjA2XX0=
+eyJoaXN0b3J5IjpbMTA0MTI3Nzg2OCwxMDk5OTY0NjA2XX0=
 -->
