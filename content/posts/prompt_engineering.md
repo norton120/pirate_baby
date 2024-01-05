@@ -80,9 +80,9 @@ _responses (x5)_
 "Wish I could tell you man. I just did."
 He went on to talk about how I need to think about narrowing the conversational focus, sounding more like Maharishi Mahesh Yogi explaining the mechanics of transcendental meditation than a Software Engineer talking compiler bugs.
 
-This is a new sport. This kind of practice requires a different kind of thinking, and I am not entirely convinced it can be effectively translated through teaching. Maybe it will be like music; most of us can take tuba lessons and be part of the middle school band, but few will ever be good enough to play music professionally at _any_ level - not just the proverbial (and in this case, actual) rock stars, but even so much as to cover the bills of a modest lifestyle. To be able to craft text in a way that coherese a language model to  
-
+This is a new sport. This kind of practice requires a different kind of thinking, and I am not entirely convinced it can be effectively translated through teaching. Maybe it will be like music; most of us can take tuba lessons and be part of the middle school band, but few will ever be good enough to play music professionally at _any_ level - not just the proverbial (and in this case, actual) rock stars, but even so much as to cover the bills of a modest lifestyle. To be able to craft text that effectively coaxes gold from language model mire is, at the moment, a bit of an art form. 
+There are likely people all over the globe that have never considered c
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDk0ODM1OTYsNTkzMjgxNTU4LDEwOT
-k5NjQ2MDZdfQ==
+eyJoaXN0b3J5IjpbNDA2MDAyNTI2LDU5MzI4MTU1OCwxMDk5OT
+Y0NjA2XX0=
 -->
