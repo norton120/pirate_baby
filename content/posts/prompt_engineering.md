@@ -51,15 +51,16 @@ YESyes
 Closer, but also incorrect. 
 This goes on for about an hour, adjusting the prompt and the settings. I finally get to this: 
 ```
-Determine if this message requi
+Determine if this message is a complete statement that requires no external context, respond only with 'yes', otherwise respond only with 'no'.
 
 MESSAGE: That is fine, just pick one.
 ```
 _response_:
 ```
-YESyes
+No
 ```
-
+WOO! Now I run it 5 more times.
+`No`, `Yes`, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMyNTg3NDgyLDEwOTk5NjQ2MDZdfQ==
+eyJoaXN0b3J5IjpbLTE4ODk2MzU1OSwxMDk5OTY0NjA2XX0=
 -->
