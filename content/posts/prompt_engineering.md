@@ -81,8 +81,8 @@ _responses (x5)_
 He went on to talk about how I need to think about narrowing the conversational focus, sounding more like Maharishi Mahesh Yogi explaining the mechanics of transcendental meditation than a Software Engineer talking compiler bugs.
 
 This is a new sport. This kind of practice requires a different kind of thinking, and I am not entirely convinced it can be effectively translated through teaching. Maybe it will be like music; most of us can take tuba lessons and be part of the middle school band, but few will ever be good enough to play music professionally at _any_ level - not just the proverbial (and in this case, actual) rock stars, but even so much as to cover the bills of a modest lifestyle. To be able to craft text that effectively coaxes gold from language model mire is, at the moment, a bit of an art form. 
-There are likely people all over the globe that have never considered an interest in programming or computer science, but are naturally exceptionally gifted at this. There are people working a New Jersey gas pump, or pulling lobster pots from a bay in Maine, or entering medical claims in an office in Tulsa, that would look at the same block of text and say "yeah just invert the question, and that word needs to be lower case" like it was solving a nearly
+There are likely people all over the globe that have never considered an interest in programming or computer science, but are naturally exceptionally gifted at this. There are people working a New Jersey gas pump, or pulling lobster pots from a bay in Maine, or entering medical claims in an office in Tulsa, that would look at the same block of text and say "yeah just invert the question, and that word needs to be lower case" like it was placing the last piece in a jigsaw puzzle. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTc0Mzk1LDU5MzI4MTU1OCwxMDk5OT
+eyJoaXN0b3J5IjpbNjE0MTA3NTA1LDU5MzI4MTU1OCwxMDk5OT
 Y0NjA2XX0=
 -->
