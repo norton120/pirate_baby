@@ -14,10 +14,16 @@ Now on to Prompt Engineering. Not "how to phrase your question to get the best a
 
 _prompt_:
 ```
-You are a helpful AI assistant.Assess if the message below is a complete thought that can be responded to without any external context. Respond only 'YES' or 'NO'.
+You are a helpful AI assistant.Assess if the question below is a complete thought that can be responded to without any external context. Respond only 'YES' or 'NO'.
 
-MESSAGE: That is fu
+>>QUESTION<< That is fine, just pick one.
+>>ANSWER<<
 ```
+_response_:
+```
+%YES,no\nI agree it is fine but th
+```
+:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjkzNTY1MywxMDk5OTY0NjA2XX0=
+eyJoaXN0b3J5IjpbLTE4NTU3MjE2ODQsMTA5OTk2NDYwNl19
 -->
