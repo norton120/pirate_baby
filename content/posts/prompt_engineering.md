@@ -23,7 +23,21 @@ _response_:
 ```
 %YES,no\nI agree it is fine but th
 ```
-:
+K. No good. Try again.
+_prompt_:
+```
+>>INTRODUCTION<<
+You are a helpful AI assistant.if the question below is a complete thought that can be responded to without any external context respond YES, otherwise NO.
+
+>>QUESTION<< 
+That is fine, just pick one.
+>>ANSWER<<
+```
+_response_:
+```
+)
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTU3MjE2ODQsMTA5OTk2NDYwNl19
+eyJoaXN0b3J5IjpbOTQxOTcxMzgyLDEwOTk5NjQ2MDZdfQ==
 -->
