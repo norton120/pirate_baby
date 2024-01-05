@@ -68,7 +68,7 @@ At this point I start thinking about re-entering a career in the food service in
 
 Just then Woodson walks into the office. He looks over my head (which is rested firmly forehead-planted on the desk while my fist bangs the keyboard) and scans the prompt terminal of my massive computer screen.
 
-**"Where's the temp set? OK drop that to point one. Invert the question to ask if the message requires external context, add a second sentence with yes or no, lowercase, get rid of that period, and ...(pauses to slurp iced tea)... make the word message lowercase, get rid of the space in front of the colon. Run it."**
+_"Where's the temp set to? OK drop that to point one. Invert the question to ask if the message requires external context, add a second sentence with yes or no, lowercase, get rid of that period, and ...(pauses to slurp iced tea)... make the word message lowercase, get rid of the space in front of the colon. Run it."_
 
 _prompt_
 ```
@@ -79,8 +79,9 @@ message:That is fine, just pick one.
 _responses (x5)_
 `Yes`, `Yes`, `Yes`, `Yes`, `Yes` (this is correct, remember we inverted it)
 
-"How did you do that?!?"
-"Wish I could tell you man. I just did."
+_"How did you do that?!?"
+"Wish I could tell you man. I just did."_
+
 He went on to talk about a need to consider narrowing the conversational focus, sounding more like Maharishi Mahesh Yogi explaining the mechanics of transcendental meditation than a Software Engineer talking compiler bugs. I retained as much of what was said as you read above.
 
 This is a new sport. This kind of practice requires a different kind of thinking, and I am not entirely convinced it can be effectively translated through teaching. Maybe it will be like music; most of us can take tuba lessons and be part of the middle school band, but few will ever be good enough to play music professionally at _any_ level - not just the proverbial (and in this case, actual) rock stars, but even so much as to cover the bills of a modest lifestyle. To be able to craft text that effectively coaxes gold from language model mire is, at the moment, a bit of an art form. 
@@ -88,6 +89,6 @@ There are likely people all over the globe that have never considered an interes
 I guess it is all relative; to some developers, SQL is database incantation, or JavaScript is a world of broken promises (pun intended). I personally believe that wood framing, electrical work, and plumbing are logical skills that can be learned, shared, and practiced, whereas any task involving drywall or spackle requires a pact with the devil to produce a half-way decent looking outcome. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjg2OTkxNzUsNjE0MTA3NTA1LDU5Mz
-I4MTU1OCwxMDk5OTY0NjA2XX0=
+eyJoaXN0b3J5IjpbLTgwNDkzNTk0MCw2MTQxMDc1MDUsNTkzMj
+gxNTU4LDEwOTk5NjQ2MDZdfQ==
 -->
