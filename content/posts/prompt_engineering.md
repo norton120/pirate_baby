@@ -4,10 +4,10 @@ subtitle: "some data science is black magic"
 date: 2024-1-5
 draft: true
 ---
-The world never ceases to be filled with new things
+The world never ceases to be filled with new things, and that is exciting. New things are great, but as they are new 
 
 ChatGPT is a brilliantly engineered software platform, representing 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwNzg5NDU0XX0=
+eyJoaXN0b3J5IjpbLTY1Mjc3OTI4NF19
 -->
