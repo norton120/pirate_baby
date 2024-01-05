@@ -37,8 +37,18 @@ _response_:
 ```
 )!
 ```
-Umm.. that's.. worse? Maybe better, because it is shorter? OK again.
+Umm.. that's.. worse? Maybe better, because it is shorter? OK again, maybe no special tokens this time.
+_prompt_:
+```
+If the message below is a complete thought that can be responded to without any external context respond YES, otherwise NO.
 
+MESSAGE: That is fine, just pick one.
+```
+_response_:
+```
+YESyes
+```
+Clo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTU5MDEyMzYsMTA5OTk2NDYwNl19
+eyJoaXN0b3J5IjpbLTUwMTA4MzI4MiwxMDk5OTY0NjA2XX0=
 -->
