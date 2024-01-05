@@ -64,20 +64,21 @@ WOO! Now I run it 5 more times.
 
 At this point I start thinking about re-entering a career in the food service industry. Just then Woodson walks into the office, sees me with my head on the desk, looks at the prompt terminal on the massive computer screen in front of me.
 "Invert the question to ask if the message requires external context, add a second sentence with yes or no, lowercase, get rid of that period, and ...(pauses to slurp iced tea)... make the word message lowercase, get rid of the space in front of it. Try it now."
+
 _prompt_
 ```
 Does this message require external context for you to respond? Answer yes or no
 
-MESSAGE: That is fine, just pick one.
+message:That is fine, just pick one.
 ```
-
+_responses (x5)_
 `Yes`, `Yes`, `Yes`, `Yes`, `Yes`
 
 "How did you do that?!?"
 "Wish I could tell you man. I just did."
-
+He went on to talk about how I need to think about narrowing the conversational focus, much the way that a trasendental meditation 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTk1MTg5NSw1OTMyODE1NTgsMTA5OT
+eyJoaXN0b3J5IjpbMTA4MDMxODM4Miw1OTMyODE1NTgsMTA5OT
 k2NDYwNl19
 -->
