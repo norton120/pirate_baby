@@ -82,8 +82,8 @@ He went on to talk about how I need to think about narrowing the conversational 
 
 This is a new sport. This kind of practice requires a different kind of thinking, and I am not entirely convinced it can be effectively translated through teaching. Maybe it will be like music; most of us can take tuba lessons and be part of the middle school band, but few will ever be good enough to play music professionally at _any_ level - not just the proverbial (and in this case, actual) rock stars, but even so much as to cover the bills of a modest lifestyle. To be able to craft text that effectively coaxes gold from language model mire is, at the moment, a bit of an art form. 
 There are likely people all over the globe that have never considered an interest in programming or computer science, but are naturally exceptionally gifted at this new dark art. There are people working a New Jersey gas pump, or pulling lobster pots from a bay in Maine, or entering medical claims in an office in Tulsa, that would look at the same block of text and say "yeah just invert the question, and that word needs to be lower case" like it was placing the last piece in a jigsaw puzzle. Wilt Chamberlain was a bellhop when the world of professional basketball first discovered him. 
-I guess it is all relative; to some developers, SQL is incantations. 
+I guess it is all relative; to some developers, SQL is database incantation. To others, JavaScript is a world of broken promises (pun intended). I personally believe 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMTgzNTU1MCw2MTQxMDc1MDUsNTkzMj
+eyJoaXN0b3J5IjpbMjAwMzkwODYwMSw2MTQxMDc1MDUsNTkzMj
 gxNTU4LDEwOTk5NjQ2MDZdfQ==
 -->
