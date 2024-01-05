@@ -78,9 +78,9 @@ _responses (x5)_
 "Wish I could tell you man. I just did."
 He went on to talk about how I need to think about narrowing the conversational focus, sounding more like Maharishi Mahesh Yogi explaining the mechanics of transcendental meditation than a Software Engineer talking compiler bugs.
 
-This is a new sport. This kind of practice requires a different kind of thinking, and I am not entirely convinced it can be effectively translated through teaching. Ma 
+This is a new sport. This kind of practice requires a different kind of thinking, and I am not entirely convinced it can be effectively translated through teaching. Maybe it will be like music; most of us can take tuba lessons and be in the middle school band, but few will ever be good enough to play music professionally at _any_ level - not just the proverbial (and in this case, actual) rock stars, but  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1OTc4Mjg4MSw1OTMyODE1NTgsMTA5OT
+eyJoaXN0b3J5IjpbMTg5NTQ4ODY2NSw1OTMyODE1NTgsMTA5OT
 k2NDYwNl19
 -->
