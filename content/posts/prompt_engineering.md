@@ -8,7 +8,9 @@ The world never ceases to be filled with new things, and that is exciting. New t
 
 Such is the case today with words like generative AI, large language models, and of course prompt engineering. These words get tossed into every plan and pitch deck with grand assumptions and promises of near-magic; the ratio of experience to conjecture is painfully low, and the noise from an army of pseudo-knowledgeable content creators looking to cash in on the AI gold isn't helping. 
 
-Take the case of ChatGPT, the most widely recognised LLM on the market. Except... ChatGPT isn't an LLM.  ChatGPT (and the accompanying OpenAI API) is a brilliantly engineered software platform, representing billions of dollars of r&d, and hundreds of thousands (if not millions) of software development hours. ChatGPT is as much an LLM as Google search is a NoSQL database. Yes, one of the many, complicated parts of the ChatGPT platform is a set of proprietary Large Language Models. And yes, Google has databases. When you query the OpenAI API, you are interacting with a production endpoint and not a raw LLM. Getting this - the massive delta between an OSS `LLama2` or `Mistral` or `Falcon` model running on AWS Bedrock or GCP Vertex, and querying a polished, consumer-facing product, is tantamount to separating the generative AI wheat from the chaff.
+![Prompt Engineering](https://i.kym-cdn.com/entries/icons/original/000/010/692/You_Keep_Using_That_Word_meme_banner.jpg)
+
+Take the case of ChatGPT, the most widely recognised LLM on the market. Except... ChatGPT isn't an LLM. ChatGPT (and the accompanying OpenAI API) is a brilliantly engineered software platform, representing billions of dollars of r&d, and hundreds of thousands (if not millions) of software development hours. ChatGPT is as much an LLM as Google search is a NoSQL database. Yes, one of the many, complicated parts of the ChatGPT platform is a set of proprietary Large Language Models. And yes, Google has databases. When you query the OpenAI API, you are interacting with a production endpoint and not a raw LLM. Getting this - the massive delta between an OSS `LLama2` or `Mistral` or `Falcon` model running on AWS Bedrock or GCP Vertex, and querying a polished, consumer-facing product, is tantamount to separating the generative AI wheat from the chaff.
 
 Now on to Prompt Engineering. Not "how to phrase your question to get the best answer from ChatGPT," which I would honestly bucket under product training, but designing the model-level textual interaction templates. Here's a real-world example from earlier this week: the key players are myself (a Data Engineer living in a Data Science world), Woodson (our _actual_ Data Scientist), and a stock `Falcon-7b-instruct` instance.
 
@@ -81,6 +83,6 @@ He went on to talk about how I need to think about narrowing the conversational 
 This is a new sport. This kind of practice requires a different kind of thinking, and I am not entirely convinced it can be effectively translated through teaching. Maybe it will be like music; most of us can take tuba lessons and be in the middle school band, but few will ever be good enough to play music professionally at _any_ level - not just the proverbial (and in this case, actual) rock stars, but even so much as to cover the bills of a modest lifestyle. To be able to  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyNTY2Mzc5LDU5MzI4MTU1OCwxMDk5OT
-Y0NjA2XX0=
+eyJoaXN0b3J5IjpbLTIxMTQ3MjY5NzAsNTkzMjgxNTU4LDEwOT
+k5NjQ2MDZdfQ==
 -->
