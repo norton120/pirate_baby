@@ -76,9 +76,9 @@ _responses (x5)_
 
 "How did you do that?!?"
 "Wish I could tell you man. I just did."
-He went on to talk about how I need to think about narrowing the conversational focus, much the way that a trasendental meditation 
+He went on to talk about how I need to think about narrowing the conversational focus, sounding more like Maharishi Mahesh Yogi explaining the mechanics of transcendental meditation. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDMxODM4Miw1OTMyODE1NTgsMTA5OT
+eyJoaXN0b3J5IjpbLTc5Mjk4OTg1Myw1OTMyODE1NTgsMTA5OT
 k2NDYwNl19
 -->
