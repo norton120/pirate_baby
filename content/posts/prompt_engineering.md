@@ -8,8 +8,8 @@ The world never ceases to be filled with new things, and that is exciting. New t
 
 Such is the case today with words like generative AI, large language models, and of course prompt engineering. These words get tossed into every plan and pitch deck with grand assumptions and promises of near-magic; the ratio of experience to conjecture is painfully low, and the noise from an army of pseudo-knowledgeable content creators looking to cash in on the AI gold isn't helping. 
 
-Take the case of ChatGPT, the most widely recognised LLM on the marketChatGPT is a brilliantly engineered software platform, representing 
+Take the case of ChatGPT, the most widely recognised LLM on the market. Except... ChatGPT isn't an LLM.  ChatGPT (and the accompanying OpenAI API) is a brilliantly engineered software platform, representing $bil
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjA3OTE0MzksMTA5OTk2NDYwNl19
+eyJoaXN0b3J5IjpbLTIwMDE5NjYwMTcsMTA5OTk2NDYwNl19
 -->
