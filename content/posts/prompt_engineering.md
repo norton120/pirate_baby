@@ -79,8 +79,9 @@ message:That is fine, just pick one.
 _responses (x5)_
 `Yes`, `Yes`, `Yes`, `Yes`, `Yes` (this is correct, remember we inverted it)
 
-_"How did you do that?!?"
-"Wish I could tell you man. I just did."_
+_"How did you do that?!?"_
+
+_"Wish I could tell you man. I just did."_
 
 He went on to talk about a need to consider narrowing the conversational focus, sounding more like Maharishi Mahesh Yogi explaining the mechanics of transcendental meditation than a Software Engineer talking compiler bugs. I retained as much of what was said as you read above.
 
@@ -89,6 +90,6 @@ There are likely people all over the globe that have never considered an interes
 I guess it is all relative; to some developers, SQL is database incantation, or JavaScript is a world of broken promises (pun intended). I personally believe that wood framing, electrical work, and plumbing are logical skills that can be learned, shared, and practiced, whereas any task involving drywall or spackle requires a pact with the devil to produce a half-way decent looking outcome. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNDkzNTk0MCw2MTQxMDc1MDUsNTkzMj
+eyJoaXN0b3J5IjpbLTQ2MDIwNzMyMiw2MTQxMDc1MDUsNTkzMj
 gxNTU4LDEwOTk5NjQ2MDZdfQ==
 -->
