@@ -37,7 +37,7 @@ _response_:
 ```
 )!
 ```
-Umm.. that's.. worse? Maybe better, because it is shorter? OK again, maybe no special tokens this time.
+Umm.. that's.. worse? Maybe better, because it is shorter? OK again, maybe no special tokens this time, and raise the temperature. 
 _prompt_:
 ```
 If the message below is a complete thought that can be responded to without any external context respond YES, otherwise NO.
@@ -48,7 +48,18 @@ _response_:
 ```
 YESyes
 ```
-Clo
+Closer, but also incorrect. 
+This goes on for about an hour, adjusting the prompt and the settings. I finally get to this: 
+```
+Determine if this message requi
+
+MESSAGE: That is fine, just pick one.
+```
+_response_:
+```
+YESyes
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMTA4MzI4MiwxMDk5OTY0NjA2XX0=
+eyJoaXN0b3J5IjpbNTMyNTg3NDgyLDEwOTk5NjQ2MDZdfQ==
 -->
