@@ -5,7 +5,7 @@ date: 2024-1-9
 draft: true
 ---
 
-
+Let me preface this by saying that I really appreciate the entire Lang* ecosystem. We rely heavily on LangFuse and it is 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg4NDgzNzAyXX0=
+eyJoaXN0b3J5IjpbNDYwOTc3Mjg4XX0=
 -->
