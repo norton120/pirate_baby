@@ -20,9 +20,9 @@ LangChain does the opposite of this. The framework currently boasts over 200 sup
 In November of 2023 this resulted in what is essentially a text compiling framework that takes 18 minutes to build in a container. It was a hopeful sign when LangChain announced that the framework would be split into `langchain-core` and `langchain-community` packages - great! dependency isolation! But as of now that split is still largely academic. Yes there is a `langchain-core` package, which in itself provides little functionality and still feels extremely coupled to the community ecosystem (more on that in a moment). But if you want any of the integration support you are forced to once again adopt the whole wad of integration spaghetti - back to square one. 
 
 ### Onion Wrapper Architecture
-There are dozens of "I re-implemented LangChain in 40 lines of code" posts on Reddit and Medium; 
+There are dozens of "I re-implemented LangChain in 40 lines of code" posts on Reddit and Medium; I would love to dismiss them all as clickbait, but in truth our prompt templating engine is a couple hundred lines of readable code, and most of our composable "links" that make up our chains are less than 30 lines. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MTI1MzUwMiwtMTU1NzU4MjI3LDEyMT
-M0MzY2MzgsMTM4MjM2MzM0XX0=
+eyJoaXN0b3J5IjpbLTEyMTgxNzkxODksLTE1NTc1ODIyNywxMj
+EzNDM2NjM4LDEzODIzNjMzNF19
 -->
