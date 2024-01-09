@@ -21,8 +21,8 @@ In November of 2023 this resulted in what is essentially a text compiling framew
 
 ### Onion Wrapper Architecture
 There are dozens of "I re-implemented LangChain in 40 lines of code" posts on Reddit and Medium; I would love to dismiss them all as clickbait, but in truth our prompt templating engine is a couple hundred lines of readable code, and most of our composable "links" that make up our chains are less than 30 lines. 
-The LangChain codebase is understandably rushed (2023 was the AI land grab, and a lot of hard choices are made when speed is so critical). 
+The LangChain codebase is understandably rushed (2023 was the AI land grab, and a lot of hard choices are made when speed is so critical). But there is a specific pattern, one quite common with inexperienced Software Engineers under pressure, that doesn't just pepper the code base - it is the primary flavor. That flavor is _onion wrapper_ architec
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMTIxNDgzOSwtOTM4NDgwMjg3LC0xNT
-U3NTgyMjcsMTIxMzQzNjYzOCwxMzgyMzYzMzRdfQ==
+eyJoaXN0b3J5IjpbOTI5MTcwODAsLTkzODQ4MDI4NywtMTU1Nz
+U4MjI3LDEyMTM0MzY2MzgsMTM4MjM2MzM0XX0=
 -->
