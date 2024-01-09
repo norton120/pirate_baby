@@ -52,9 +52,9 @@ About the time we were realizing that the larger `langchain` package was not wha
 I read this as "_we are going to break things all the time and we'd rather just ship whatever whenever and not worry about the impact of regressions on your code." The space _is_ changing fast, and because of that fact correct versioning is critical. Many of the language-model-related packages we use are already several _majors_ behind from only a few weeks ago - and that is **our** problem, because the space is moving fast and we need to decide when we will do the painful upgrades. But deciding, as a library, not to correctly version because braking changes are expected often... that's like saying "we know the probability of a heart attack is really high, so we're going to get rid of your fitbits so we don't need to deal with warning signs." 
 
 ### I have hope
-A month after we made the decision to abandon LangChain, much has changed. `V.0.1.0` was released, promising a stable entrypoint and, eh, interesting ([non-semantic](https://blog.langchain.dev/langchain-v0-1-0/#:~:text=Any%20breaking%20changes%20to%20the%20public%20API%20will%20result%20in%20a%20minor%20version%20bump%20%28the%20second%20digit%29)) versioning (but hey at least they set rules?). LangChain is moving to a sensible [stand-alone packages](https://github.com/langchain-ai/langchain/tree/master/libs/partners?ref=blog.langchain.dev) model for integrations. It would be amazing if we see the project mature into either a stable, reliable library, or evolve into a true llm-application framework. And I'll be the first person to condemn our bespoke code 
+A month after we made the decision to abandon LangChain, much has changed. `V.0.1.0` was released, promising a stable entrypoint and, eh, interesting ([non-semantic](https://blog.langchain.dev/langchain-v0-1-0/#:~:text=Any%20breaking%20changes%20to%20the%20public%20API%20will%20result%20in%20a%20minor%20version%20bump%20%28the%20second%20digit%29)) versioning (but hey at least they set rules?). LangChain is moving to a sensible [stand-alone packages](https://github.com/langchain-ai/langchain/tree/master/libs/partners?ref=blog.langchain.dev) model for integrations. It would be amazing if we see the project mature into either a stable, reliable library, or evolve into a true llm-application framework. And I'll be the first person to condemn our bespoke code to reside in git history and wire up a Lang*-based chain, when (and if) that day comes. But th
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg5NTcxOTU1LC05ODM2NjIyMTIsLTkzOD
-Q4MDI4NywtMTU1NzU4MjI3LDEyMTM0MzY2MzgsMTM4MjM2MzM0
-XX0=
+eyJoaXN0b3J5IjpbLTEyODcwNDQxMzIsLTk4MzY2MjIxMiwtOT
+M4NDgwMjg3LC0xNTU3NTgyMjcsMTIxMzQzNjYzOCwxMzgyMzYz
+MzRdfQ==
 -->
