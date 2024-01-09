@@ -16,9 +16,9 @@ If you've been around the Python ecosystem for more than a minute, you know that
 The general wisdom is to minimize the surface area of dependencies by importing only what your code needs to survive. 
 ![take only what you need to survive](https://y.yarn.co/84492e53-9f7f-42c3-a8c3-bd088fe3d7fe_text.gif)
 
-LangChain does the opposite of this. The framework currently boasts over 700 supported connectors 
+LangChain does the opposite of this. The framework currently boasts over 700 supported integrations - every one of them a depende
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MjcxNTY1NSwxMjEzNDM2NjM4LDEzOD
+eyJoaXN0b3J5IjpbMTkxMTQ5NTI5OSwxMjEzNDM2NjM4LDEzOD
 IzNjMzNF19
 -->
