@@ -7,7 +7,7 @@ draft: true
 
 Let me preface this by saying that I very much appreciate the entire Lang* ecosystem. At my shop we rely heavily on Langfuse for development as well as the tagging interface for our training strategy. More than a few platforms have tried to be _the_ framework for language model applications (think Guidance, Haystack etc), and the Lang* team has arguably made the most headway, and done it OSS :metal:. So try not to disregard these observations as contrarian or success-hating; I really _want_ to love LangChain. 
 
-When we began work on our inference engine back in October 2023 (so a millennia ago in LLM time) it wasn't even discussed that we might use a framework other than LangChain. We  
+When we began work on our inference engine back in October 2023 (so a millennia ago in LLM time) LangChain was the obvious choice. By November of 2023 we completely abandoned LangChain for   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MzEyNTQxMiwxMzgyMzYzMzRdfQ==
+eyJoaXN0b3J5IjpbLTEzNDg5NTU3ODYsMTM4MjM2MzM0XX0=
 -->
