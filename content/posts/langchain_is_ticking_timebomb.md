@@ -47,9 +47,10 @@ When your framework is designed as a pile of scripts, your application becomes a
 
 ### Huh? Moments
 About the time we were realizing that the larger `langchain` package was not what we wanted and began attempting to extract `langchain-core` on our own, a similar discussion thread appeared within the LangChain repo. We were excited to see the parity of thought! But a comment regarding version strategy stood out to all of the team: 
+enter link description here
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNjg5MTE2MSwtOTgzNjYyMjEyLC05Mz
+eyJoaXN0b3J5IjpbLTE5NjA5MTg5NSwtOTgzNjYyMjEyLC05Mz
 g0ODAyODcsLTE1NTc1ODIyNywxMjEzNDM2NjM4LDEzODIzNjMz
 NF19
 -->
