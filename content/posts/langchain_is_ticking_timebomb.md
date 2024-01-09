@@ -5,7 +5,7 @@ date: 2024-1-9
 draft: true
 ---
 
-Let me preface this by saying that I really appreciate the entire Lang* ecosystem. We rely heavily on Langfuse for development and as the primary tagging interface for our training strategy. More than a few platforms have tried to be _the_ framework for language model applications (think Guidance, , and the Lang* team has 
+Let me preface this by saying that I very much appreciate the entire Lang* ecosystem. At my shop we rely heavily on Langfuse for development as well as the tagging interface for our training strategy. More than a few platforms have tried to be _the_ framework for language model applications (think Guidance, Haystack etc), and the Lang* team has arguably made the most headway in 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MjM2MzM0XX0=
+eyJoaXN0b3J5IjpbMjA1MjgwMTg1NSwxMzgyMzYzMzRdfQ==
 -->
