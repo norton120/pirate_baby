@@ -29,8 +29,8 @@ The LangChain codebase is understandably rushed (2023 was the AI land grab, and 
 There are a ton of reasons this kind of design happens - unreasonable delivery demands being one of them, a wide-open-door contribution policy being another. We have all worked on _application_ codebases that look like this - they are the ones that crash all the time with no warning, take forever to get back up by piling more spaghetti on the mound, and are nearly impossible to add new features or fixes to. But the idea of building on a _framework_ that looks like this... that's frightening. Frameworks are your bedrock, they are the solid base on which applications are erected. Framework code is arguably the highest form of software development, meta-programming at its most impactful. Frameworks are not a place to ship-now-at-all-costs, they are the code that must be reliable for the applications to flourish.
 
 ### Not an Application Framework
-This was the last red flag, the proverbial nail in our LangChain-shaped coffin. LangChain describes itself as a "framework for developing applications powered by language models." I disagree. LangChain is a software package, a collection of modules, but it lacks the core elements of what can be reasonably called a framework. It is one thing to develop reu
+This was the last red flag, the proverbial nail in our LangChain-shaped coffin. LangChain describes itself as a "framework for developing applications powered by language models." I disagree. LangChain is a software package, a collection of modules, but it lacks the core elements of what can be reasonably called a framework. It is one thing to develop reusable code elements (these are modules), another thing to make that code portable (these are packages). A _framework_ goes beyond "here's a way to access some functions you can use." It is an inherent architecture that 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjgwNzg4LC05Mzg0ODAyODcsLTE1NT
-c1ODIyNywxMjEzNDM2NjM4LDEzODIzNjMzNF19
+eyJoaXN0b3J5IjpbLTE0OTMwNTUyNjUsLTkzODQ4MDI4NywtMT
+U1NzU4MjI3LDEyMTM0MzY2MzgsMTM4MjM2MzM0XX0=
 -->
