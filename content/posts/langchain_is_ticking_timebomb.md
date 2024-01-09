@@ -49,9 +49,12 @@ When your framework is designed as a pile of scripts, your application becomes a
 About the time we were realizing that the larger `langchain` package was not what we wanted and began attempting to extract `langchain-core` on our own, a similar discussion thread appeared within the LangChain repo. We were excited to see the parity of thought! But [a comment](https://github.com/langchain-ai/langchain/discussions/13823#discussioncomment-7682401) regarding version strategy stood out to all of the team: 
 ![versioning](/images/versioning.png)
 
-I read this as "_we are going to break things all the time and we'd rather just ship whatever whenever and not worry about the impact of regressions on your code." The space _is_ changing fast, and because of that fact correct versioning is critical. Many of the language-model-related packages we use are already several _majors_ behind from only a few weeks ago - and that is **our** problem, because the space is moving fast and we need to decide when we will do the painful upgrades. But deciding, as a library, not to correctly version because braking changes are expected often... that's like saying "we know the probability of a heart attack is really high, so we're going to get rid of your fitbits so we don't need to deal with the warning signs." 
+I read this as "_we are going to break things all the time and we'd rather just ship whatever whenever and not worry about the impact of regressions on your code." The space _is_ changing fast, and because of that fact correct versioning is critical. Many of the language-model-related packages we use are already several _majors_ behind from only a few weeks ago - and that is **our** problem, because the space is moving fast and we need to decide when we will do the painful upgrades. But deciding, as a library, not to correctly version because braking changes are expected often... that's like saying "we know the probability of a heart attack is really high, so we're going to get rid of your fitbits so we don't need to deal with warning signs." 
+
+### I have hope
+A 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDk3NDA4NCwtOTgzNjYyMjEyLC05Mz
+eyJoaXN0b3J5IjpbMTQ1MDU1MTAzNCwtOTgzNjYyMjEyLC05Mz
 g0ODAyODcsLTE1NTc1ODIyNywxMjEzNDM2NjM4LDEzODIzNjMz
 NF19
 -->
