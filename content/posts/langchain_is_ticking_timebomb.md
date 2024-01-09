@@ -31,8 +31,8 @@ There are a ton of reasons this kind of design happens - unreasonable delivery d
 ### Not an Application Framework
 This was the last red flag, the proverbial nail in our LangChain-shaped coffin. LangChain describes itself as a "framework for developing applications powered by language models." I disagree. LangChain is a software package, a collection of modules, but it lacks the core elements of what can be reasonably called a framework. It is one thing to develop reusable code elements (these are modules), another thing to make that code portable (these are packages). A _framework_ goes beyond "here's a way to access some functions you can use." It is an inherent architecture, a structure that manages how parts of your code interact with each other. Airflow is a framework - it uses file system organization to create a familiar pattern across airflow instances, makes opinionated design decisions that ensure the _application_ will function as a whole if adhered to. FastAPI is a framework that does not leverage the filesystem - it has a clear pattern using routers, routes, lifecycle events and dependencies. Even with a non-standard implementation of FastAPI most developers can trace what is happening where with few `ctrl+f` searches. 
 Frameworks answer the very difficult question of "how should the parts of my code work together?"
-LangF
+The most glaring example of this is the LangChain documentation, where every example exists 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzc2NzM5MTAsLTkzODQ4MDI4NywtMT
-U1NzU4MjI3LDEyMTM0MzY2MzgsMTM4MjM2MzM0XX0=
+eyJoaXN0b3J5IjpbMTAzMTAzMjc5LC05Mzg0ODAyODcsLTE1NT
+c1ODIyNywxMjEzNDM2NjM4LDEzODIzNjMzNF19
 -->
