@@ -24,8 +24,10 @@ There are dozens of "I re-implemented LangChain in 40 lines of code" posts on Re
 The LangChain codebase is understandably rushed (2023 was the AI land grab, and a lot of hard choices are made when speed is so critical). But there is a specific pattern, one quite common with inexperienced Software Engineers under pressure, that doesn't just pepper the code base - it is the primary flavor. That flavor is _onion wrapper_ architecture. It goes something like this:
 1. I get a thing working for an extremely specific use case
 2. I need some of the functionality from that thing, or all of it in a different context, but it has been a minute and I don't really understand how the first thing works. So I import the first thing, wrap it in another thing in my new module, then expose that thing
-3. I need parts from the second thing
+3. I need parts from the second thing, but don't really understand how that thing works because it's a sort of mangled version of the first thing, so I import that second thing into a third module and wrap _that_ with more code that works, at the moment. 
+4. Rinse and repeat, until changing a single quote in a prompt requires you to have 35 files with 1100 lines each open in your text editor. 
+This is probably as much 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzIzMjI4MTYsLTkzODQ4MDI4NywtMT
+eyJoaXN0b3J5IjpbLTE4NDQwODY1NTgsLTkzODQ4MDI4NywtMT
 U1NzU4MjI3LDEyMTM0MzY2MzgsMTM4MjM2MzM0XX0=
 -->
