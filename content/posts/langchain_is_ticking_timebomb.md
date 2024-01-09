@@ -34,10 +34,13 @@ Frameworks answer the very difficult question of "how should the parts of my cod
 The most glaring example of the is the LangChain documentation, where every example exists as a notebook cell. This reflects how LangChain is designed - specifically for isolated scripting, and not as a component in a multifaceted application. Pick any framework - Django, Phoenix, Electron - and note how many points in the documentation refer to multiple files:
 ```python
 # my_view.py
-from my_model import bla, 
+from my_model import bla, Bla
+
 # my_model.py
+def bla...
+class Bla...
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMjkwNjM3NSwtOTM4NDgwMjg3LC0xNT
-U3NTgyMjcsMTIxMzQzNjYzOCwxMzgyMzYzMzRdfQ==
+eyJoaXN0b3J5IjpbLTEwODY0NDQ0OTcsLTkzODQ4MDI4NywtMT
+U1NzU4MjI3LDEyMTM0MzY2MzgsMTM4MjM2MzM0XX0=
 -->
