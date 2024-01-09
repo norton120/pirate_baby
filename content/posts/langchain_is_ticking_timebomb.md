@@ -17,8 +17,8 @@ The general wisdom is to minimize the surface area of dependencies by importing 
 ![take only what you need to survive](https://y.yarn.co/84492e53-9f7f-42c3-a8c3-bd088fe3d7fe_text.gif)
 
 LangChain does the opposite of this. The framework currently boasts over 700 supported integrations, every one of them a dependency. If something breaks in the requirements management of the Discord integration, it breaks your project, regardless of if you use Discord or not. 
-Th
+In November of 2023 this lead to a prompt generation framework that took 18 minutes to build 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNDc1MDA4MSwxMjEzNDM2NjM4LDEzOD
+eyJoaXN0b3J5IjpbLTE1NTc1ODIyNywxMjEzNDM2NjM4LDEzOD
 IzNjMzNF19
 -->
