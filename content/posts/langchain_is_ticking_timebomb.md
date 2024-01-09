@@ -49,9 +49,9 @@ When your framework is designed as a pile of scripts, your application becomes a
 About the time we were realizing that the larger `langchain` package was not what we wanted and began attempting to extract `langchain-core` on our own, a similar discussion thread appeared within the LangChain repo. We were excited to see the parity of thought! But [a comment](https://github.com/langchain-ai/langchain/discussions/13823#discussioncomment-7682401) regarding version strategy stood out to all of the team: 
 ![versioning](/images/versioning.png)
 
-This reads as "since we are going to break things all the time, we'd rather everyone just assume all versions 
+I read this as "since we are going to break things all the time, we'd rather not worry about regressions and just ship 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2ODI5Nzk4MSwtOTgzNjYyMjEyLC05Mz
-g0ODAyODcsLTE1NTc1ODIyNywxMjEzNDM2NjM4LDEzODIzNjMz
-NF19
+eyJoaXN0b3J5IjpbNTkzMzQ2MDc0LC05ODM2NjIyMTIsLTkzOD
+Q4MDI4NywtMTU1NzU4MjI3LDEyMTM0MzY2MzgsMTM4MjM2MzM0
+XX0=
 -->
