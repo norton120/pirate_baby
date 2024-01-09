@@ -46,9 +46,10 @@ class Bla(Base):
 When your framework is designed as a pile of scripts, your application becomes a huge pile of scripts. 
 
 ### Huh? Moments
-About the time we were realizing that the larger `langchain` package was not what we wanted and began attempting to extract `langchain-core` on our own, a discussion thread o
+About the time we were realizing that the larger `langchain` package was not what we wanted and began attempting to extract `langchain-core` on our own, a similar discussion thread appeared within the LangChain repo. We were excited to see the parity of thought! But a comment regarding version strategy stood out to all of the team: 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzk0NjQ3NjEsLTk4MzY2MjIxMiwtOT
-M4NDgwMjg3LC0xNTU3NTgyMjcsMTIxMzQzNjYzOCwxMzgyMzYz
-MzRdfQ==
+eyJoaXN0b3J5IjpbLTMwNjg5MTE2MSwtOTgzNjYyMjEyLC05Mz
+g0ODAyODcsLTE1NTc1ODIyNywxMjEzNDM2NjM4LDEzODIzNjMz
+NF19
 -->
