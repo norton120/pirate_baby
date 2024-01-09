@@ -43,8 +43,11 @@ all_the_foos = await Bla.awaitable_attrs.foos
 class Bla(Base):
     foos:list[Foo] = relationship(...)
 ```
-When your framework is designed as a pile of scripts, your application becomes a huge pile of scripts. This wasn't a 
+When your framework is designed as a pile of scripts, your application becomes a huge pile of scripts. 
+
+### Huh? Moments
+There was a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMDc4MDE1MSwtOTM4NDgwMjg3LC0xNT
+eyJoaXN0b3J5IjpbLTk4MzY2MjIxMiwtOTM4NDgwMjg3LC0xNT
 U3NTgyMjcsMTIxMzQzNjYzOCwxMzgyMzYzMzRdfQ==
 -->
