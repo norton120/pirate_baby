@@ -12,9 +12,10 @@ When we began work on our inference engine back in October 2023 (so a millennia 
 What red flags?
 
 ### Dependency Management
-If you've been around the Python ecosystem for more than a minute, you know that dependencies are the Achilles' heel of the language. This is true for Python as a whole, but I have found this to be exponentially worse in the data sphere. When Software Engineering, Data Engineering and Data Science coalesce, you find deeply abstracted package dependencies with pins like `lib
+If you've been around the Python ecosystem for more than a minute, you know that dependencies are the Achilles' heel of the language. This is true for Python as a whole, but I have found this to be exponentially worse in the data sphere. When Software Engineering, Data Engineering and Data Science coalesce, you find deeply abstracted package dependencies with pins like `Cython=>0.1` 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzQzNjYzOCwxMzgyMzYzMzRdfQ==
+eyJoaXN0b3J5IjpbNjE0MjU0Nzc4LDEyMTM0MzY2MzgsMTM4Mj
+M2MzM0XX0=
 -->
