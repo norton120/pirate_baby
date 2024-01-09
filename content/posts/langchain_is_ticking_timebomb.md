@@ -31,8 +31,13 @@ There are a ton of reasons this kind of design happens - unreasonable delivery d
 ### Not an Application Framework
 This was the last red flag, the proverbial nail in our LangChain-shaped coffin. LangChain describes itself as a "framework for developing applications powered by language models." I disagree. LangChain is a software package, a collection of modules, but it lacks the core elements of what can be reasonably called a framework. It is one thing to develop reusable code elements (these are modules), another thing to make that code portable (these are packages). A _framework_ goes beyond "here's a way to access some functions you can use." It is an inherent architecture, a structure that manages how parts of your code interact with each other. Airflow is a framework - it uses file system organization to create a familiar pattern across airflow instances, makes opinionated design decisions that ensure the _application_ will function as a whole if adhered to. FastAPI is a framework that does not leverage the filesystem - it has a clear pattern using routers, routes, lifecycle events and dependencies. Even with a non-standard implementation of FastAPI most developers can grok what is happening and where with few `ctrl+f` searches. 
 Frameworks answer the very difficult question of "how should the parts of my code work together?". LangChain does none of this, and is functionally closer to a library like `requests` than it is to an application framework like _Next.js_ or _Rails_. 
-The most glaring example of the is the LangChain documentation, where every example exists as a notebook cell. This reflects how LangChain is designed - specifically for isolated scripting, and not as a component in a multifaceted application. Pick any framework - Django, Spring
+The most glaring example of the is the LangChain documentation, where every example exists as a notebook cell. This reflects how LangChain is designed - specifically for isolated scripting, and not as a component in a multifaceted application. Pick any framework - Django, Phoenix, Electron - and note how many points in the documentation refer to multiple files:
+```python
+# my_view.py
+from my_model import bla, 
+# my_model.py
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3Mjk3MjM4NSwtOTM4NDgwMjg3LC0xNT
+eyJoaXN0b3J5IjpbLTQyMjkwNjM3NSwtOTM4NDgwMjg3LC0xNT
 U3NTgyMjcsMTIxMzQzNjYzOCwxMzgyMzYzMzRdfQ==
 -->
