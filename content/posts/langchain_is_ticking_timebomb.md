@@ -26,8 +26,8 @@ The LangChain codebase is understandably rushed (2023 was the AI land grab, and 
 2. I need some of the functionality from that thing, or all of it in a different context, but it has been a minute and I don't really understand how the first thing works. So I import the first thing, wrap it in another thing in my new module, then expose that thing
 3. I need parts from the second thing, but don't really understand how that thing works because it's a sort of mangled version of the first thing, so I import that second thing into a third module and wrap _that_ with more code that works, at the moment. 
 4. Rinse and repeat, until changing a single quote in a prompt requires you to have 35 files with 1100 lines each open in your text editor. 
-There are a ton of reasons this kind of design happens - unreasonable speed demands being one of them, a wide-open-door contribution policy being another. We have all worked on application codebases that look like this.
+There are a ton of reasons this kind of design happens - unreasonable delivery demands being one of them, a wide-open-door contribution policy being another. We have all worked on _application_ codebases that look like this - they are the ones that crash all the time with no warning, take forever to get back up by piling more onion
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTg4MzE0MDMsLTkzODQ4MDI4NywtMT
-U1NzU4MjI3LDEyMTM0MzY2MzgsMTM4MjM2MzM0XX0=
+eyJoaXN0b3J5IjpbNzE5OTMwNzcyLC05Mzg0ODAyODcsLTE1NT
+c1ODIyNywxMjEzNDM2NjM4LDEzODIzNjMzNF19
 -->
