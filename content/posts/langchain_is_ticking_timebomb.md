@@ -49,9 +49,9 @@ When your framework is designed as a pile of scripts, your application becomes a
 About the time we were realizing that the larger `langchain` package was not what we wanted and began attempting to extract `langchain-core` on our own, a similar discussion thread appeared within the LangChain repo. We were excited to see the parity of thought! But [a comment](https://github.com/langchain-ai/langchain/discussions/13823#discussioncomment-7682401) regarding version strategy stood out to all of the team: 
 ![versioning](/images/versioning.png)
 
-I read this as "since we are going to break things all the time, we'd rather not worry about regressions and just ship whatever whenever." The space _is_ changing fast, and so correct versioning isn't a nice-to-have, it is critical. Many of our packages are already several _majors_ behind from only a few weeks ago - and that is **our
+I read this as "since we are going to break things all the time, we'd rather not worry about regressions and just ship whatever whenever." The space _is_ changing fast, and so correct versioning isn't a nice-to-have, it is critical. Many of our packages are already several _majors_ behind from only a few weeks ago - and that is **our** problem, because the space is moving fast and we need to decide when we will do the painful upgrades. But deciding not to correctly version because braking changes are expected... that's like saying "we know the probabiliy of 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTY3NTIyNCwtOTgzNjYyMjEyLC05Mz
+eyJoaXN0b3J5IjpbMTM0MjE0OTI0NSwtOTgzNjYyMjEyLC05Mz
 g0ODAyODcsLTE1NTc1ODIyNywxMjEzNDM2NjM4LDEzODIzNjMz
 NF19
 -->
