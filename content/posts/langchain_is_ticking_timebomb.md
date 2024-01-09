@@ -12,10 +12,10 @@ When we began work on our inference engine back in October 2023 (so a millennia 
 What red flags?
 
 ### Dependency Management
-If you've been around the Python ecosystem for more than a minute, you know that dependencies are the Achilles' heel of the language. This is true for Python as a whole, but I have found this to be exponentially worse in the data sphere. When Software Engineering, Data Engineering and Data Science coalesce, you find deeply abstracted package dependencies with pins like `Cython=>0.1` 
+If you've been around the Python ecosystem for more than a minute, you know that dependencies are the Achilles' heel of the language. This is true for Python as a whole, but I have found this to be exponentially worse in the data sphere. When Software Engineering, Data Engineering and Data Science coalesce, you find deeply abstracted package dependencies with pins like `Cython=>0.1` that "worked before," and lurk in the darkness of deployed code waiting to ruin your weekend. A few years ago the `snowflake-sqlalchemy` adapter was so 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE0MjU0Nzc4LDEyMTM0MzY2MzgsMTM4Mj
-M2MzM0XX0=
+eyJoaXN0b3J5IjpbLTg1OTAyMjQ5NSwxMjEzNDM2NjM4LDEzOD
+IzNjMzNF19
 -->
