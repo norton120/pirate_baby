@@ -8,7 +8,9 @@ It starts out innocent enough, on a frozen New Year's Eve afternoon. You are doi
 ![Bash is so destructive](/images/bash.png)
 
 You are just about ready to close down your laptop when an alert pops up from AWS CodeDeploy: your deployment has failed. You assume it is a fluke - probably a failed resource allocation or something similar, all you did was add one line to a markdown file :man_shrugging:. So you retry. A few minutes pass, and then again the pipeline fails. 
-Upon closer inspection the error indicates that your `taskdef.json` file is malformed, and the 
+Upon closer inspection the error indicates that your `taskdef.json` file has a syntax error, and the deploy was not able to complete. You look in GitHub and the `taskdef.json` has not changed for a month. 
+An earlier pipeline with the same `taskdef.json` built just fine three hours ago. Only one line of markdown has changed. What fresh hell is this? 
+I'll skip to the end - you an
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNjE4NTUyMiwxMDgwMzQ2ODMxXX0=
+eyJoaXN0b3J5IjpbNTEwOTUwNjQ0LDEwODAzNDY4MzFdfQ==
 -->
