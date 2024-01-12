@@ -12,7 +12,7 @@ Upon closer inspection the error indicates that your `appspec.yaml` file has a s
 An earlier pipeline with the same `appspec.yaml` built just fine three hours ago. Only one line of markdown has changed. What fresh hell is this? 
 I'll skip to the end (you can fill in several hours of searching and tweaking and pointless pull requests trying to find the suddenly offending character if you want the full experience): part of the _CodeDeploy_ configuration is to specify artifacts to be used during the ECS blue/green deployment flow - and you can specify `source` and `build` artifacts. As you would expect, `source` artifacts are a copy of your repository code checked out in the _source_ stage of your _CodePipeline_, while `build` artifacts are assets you created (and specified) during your _CodeBuild_ stage. Since the `appspec.yaml` was not altered during the build, I had naively chosen to use the file directly from the repo those many months ago. However, the `source` artifacts have a hard size limit of 3MB; once your repository grows to larger than this, the artifact fails to import and silently returns nothing. 
 
-Luckily, this "silent killer" is prominently documented in the [_CodePipeline_ docs](https://docs.aws.amazon.com/codepipeline/latest/userguide/welcome-introducing-artifacts.html) ... just kidding, there's no mention  
+Luckily, this "silent killer" is prominently documented in the [_CodePipeline_ docs](https://docs.aws.amazon.com/codepipeline/latest/userguide/welcome-introducing-artifacts.html) ... just kidding, there's no mention of it anywhere outside the troubleshooting guide. I appreciate the very Pythonic nature of that documentation styl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4ODQyOTEwNCwxMDgwMzQ2ODMxXX0=
+eyJoaXN0b3J5IjpbLTE0OTMxMjk1NzIsMTA4MDM0NjgzMV19
 -->
