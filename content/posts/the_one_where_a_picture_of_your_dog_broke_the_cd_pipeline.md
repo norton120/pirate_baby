@@ -8,9 +8,9 @@ It starts out innocent enough, on a frozen New Year's Eve afternoon. You are doi
 ![Bash is so destructive](/images/bash.png)
 
 You are just about ready to close down your laptop when an alert pops up from AWS _CodeDeploy_: your deployment has failed. You assume it is a fluke - probably a failed resource allocation or something similar, all you did was add one line to a markdown file :man_shrugging:. So you retry. A few minutes pass, and then again the pipeline fails. 
-Upon closer inspection the error indicates that your `taskdef.json` file has a syntax error, and the deploy was not able to complete. You look in GitHub and the `taskdef.json` has not changed for a month. 
-An earlier pipeline with the same `taskdef.json` built just fine three hours ago. Only one line of markdown has changed. What fresh hell is this? 
-I'll skip to the end (you can fill in several hours of searching and tweaking and pointless pull requests trying to find the suddenly offending character if you want the full experience): part of the _CodeDeploy_ configuration is to specify artifacts to be used during the ECS blue/green deployment flow - and you can specify `source` and `build` artifacts. As you would expect, `source` artifacts are a copy of your repository code checked out in the `source` step of your _CodePipeline_, while 
+Upon closer inspection the error indicates that your `appspec.yaml` file has a syntax error, and the deploy was not able to complete. You look in GitHub and the `appspec.yaml` has not changed for a month. 
+An earlier pipeline with the same `appspec.yaml` built just fine three hours ago. Only one line of markdown has changed. What fresh hell is this? 
+I'll skip to the end (you can fill in several hours of searching and tweaking and pointless pull requests trying to find the suddenly offending character if you want the full experience): part of the _CodeDeploy_ configuration is to specify artifacts to be used during the ECS blue/green deployment flow - and you can specify `source` and `build` artifacts. As you would expect, `source` artifacts are a copy of your repository code checked out in the _source_ stage of your _CodePipeline_, while `build` artifacts are assets you created (and specified) during your _CodeBuild_ stage. Since I just needed 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDA1MTQ0MCwxMDgwMzQ2ODMxXX0=
+eyJoaXN0b3J5IjpbMTQyODgwMzA2MSwxMDgwMzQ2ODMxXX0=
 -->
