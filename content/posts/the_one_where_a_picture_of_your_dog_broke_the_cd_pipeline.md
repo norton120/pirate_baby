@@ -7,7 +7,8 @@ It starts out innocent enough, on a frozen New Year's Eve afternoon. You are doi
 
 ![Bash is so destructive](/images/bash.png)
 
-You are just about ready to close down your laptop when an alert pops up from AWS CodeDeploy: your deployment has failed. You assume it is a fluke - probably a failed resource allocation or something similar, all you did was 
+You are just about ready to close down your laptop when an alert pops up from AWS CodeDeploy: your deployment has failed. You assume it is a fluke - probably a failed resource allocation or something similar, all you did was add one line to a markdown file :man_shrugging:. So you retry. A few minutes pass, and then again the pipeline fails. 
+Upon closer inspection the error indicates that your `taskdef.json` file is malformed, and the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDY5MDE0NzMsMTA4MDM0NjgzMV19
+eyJoaXN0b3J5IjpbLTkyNjE4NTUyMiwxMDgwMzQ2ODMxXX0=
 -->
