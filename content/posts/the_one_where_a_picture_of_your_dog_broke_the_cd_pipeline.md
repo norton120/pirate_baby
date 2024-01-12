@@ -7,7 +7,7 @@ It starts out innocent enough, on a frozen New Year's Eve afternoon. You are doi
 
 ![Bash is so destructive](/images/bash.png)
 
-You are just about ready to close down your laptop when 
+You are just about ready to close down your laptop when an alert pops up from AWS CodeDeploy: your deployment has failed. You assume it is a fluke - probably a failed resource allocation or something similar, all you did was 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1Mjk3Mjc2MSwxMDgwMzQ2ODMxXX0=
+eyJoaXN0b3J5IjpbLTEwNDY5MDE0NzMsMTA4MDM0NjgzMV19
 -->
