@@ -1,7 +1,7 @@
 ---
 title: "The one where a picture of your dog broke your CD pipeline"
 date: 2023-12-31
-draft: true
+draft: false
 ---
 It starts out innocent enough, on a frozen New Year's Eve afternoon. You are doing some final documentation cleanup - because it is New Year's Eve and not the best time for the team to be rolling out fresh feature code, and because updating the repo docs is usually a worthwhile endeavor in moments like this as part of good code hygiene. Being the clever and hilarious documentation author that you are, you hyperlink a picture of your dog Bash to a bash code block (pure pun magnificence, I might add).  Happy with your updates, you wait for CI to pass testing, linting, scanning etc. and solicit a pull request rubber stamp from the team. 
 
@@ -15,6 +15,6 @@ I'll skip to the end (you can fill in several hours of searching and tweaking an
 Luckily, this "silent killer" is prominently documented in the [_CodePipeline_ docs](https://docs.aws.amazon.com/codepipeline/latest/userguide/welcome-introducing-artifacts.html) ... just kidding, there's no mention of it anywhere outside the troubleshooting guide. I appreciate the very Pythonic nature of that documentation style (don't document the constraints, just explain them in the errors page). Of course there's also no mention of the limit in the error - just that it cannot read the file. Happy New Year :tada:! 
 The fix is relatively easy - include the file in the build artifacts, switch to `build`, call it a day. The frustration is that CodeDeploy (like so many AWS services) feels less and less like a managed service product and more and more like piggybacking on found code. As if someone built the `source` artifact to handle a very specific use case, and it worked, and so that was the end of the development cycle for that feature. There are only about 6 fields in the _ECS Blue/Green_ deployment, and one of them can lead to your pipeline randomly failing when your codebase reaches a modest size. It is reflective of the AWS mentality of late - a complete fixation on shipping new services while barely supporting continuity for the old ones, with meaningful updates only for flagship products. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY0NDE3NjU5LC0zMTY5ODAzOTQsMTA4MD
-M0NjgzMV19
+eyJoaXN0b3J5IjpbNzIxODkyMTA0LDI2NDQxNzY1OSwtMzE2OT
+gwMzk0LDEwODAzNDY4MzFdfQ==
 -->
