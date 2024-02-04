@@ -7,7 +7,7 @@ If you are a higher-order carbon based life form on planet Earth, you owe much o
 
 But pattern matching can also be a source of painful, damaging flaws in our logic. The highest profile examples of this today focus on race, gender and sexuality - areas where pattern matching in the previous century continued to echo false conclusions long after the root assumptions were dispelled. Where 40 years ago a case might have been made that the overwhelming racial disparity among the incarcerated in the USA was evidence of some kind of "genetic predisposition to crime," today we generally regard the exact same data as evidence of systemic bias in our criminal and judicial systems. 
 The colorblind movement in the 1980's and 90's aimed to shift away from pattern matching completely in regard to specific attributes - primarily race and gender. At the risk of distracting from my point, I will summarize my first-hand view that while "colorblindness" did not result in a complete and perfect transformation of society to eliminate racial assumptions or gender and sexuality biases, there was remarkable progress made in a very short time that often feels redacted from recent recollection. 
-What has evolved today is a return to socially-sanctioned pattern matching on those same attributes, with a focus instead on shifting which patterns we apply. Among those 
+What has evolved today is a return to socially-sanctioned pattern matching on those same attributes, with a focus instead on shifting which patterns we apply. Among those is the 
 
 
 Every year around this time, it is obligatory for most of us to slog through at least a half-dozen adaptions of Charles Dickens' 1843 classic "A Christmas Carol." Whether it is a modern-day remake with a Tiny Tim that suffers from only having an iPhone 12, a true-to-the-original live stage performance, or an exceptionally well acted Muppet movie, you can be sure each performance will deliver the same, singular lesson: All wealthy misers are doomed, lest they learn the error of their ways and embrace the Christmas spirit - most notably, the spirit of giving (and subsequently, demonstrate this newfound spirit by handing over much of their wealth to others deemed less fortunate). 
@@ -16,6 +16,6 @@ It is embarrassingly trite to take a contrarian view of nearly two-century-old l
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM0OTUzOTMsLTEwMzU2NDU0NzEsLTI4OT
-A1NzMyOCwtNTQ3Njk3ODk1XX0=
+eyJoaXN0b3J5IjpbLTYzMTY4Njg4NCwtMTAzNTY0NTQ3MSwtMj
+g5MDU3MzI4LC01NDc2OTc4OTVdfQ==
 -->
