@@ -4,7 +4,7 @@ subtitle: "The trials and tribulations of a life lived in bubble-wrap"
 date: 2024-2-8
 draft: true
 ---
-There was a local incident not too long ago where a person 
+There was a local incident not too long ago where a person died from injuries related to unsuccessfully scaling a security fence and beco
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDA5MjcyOThdfQ==
+eyJoaXN0b3J5IjpbLTQzODUxMjcyMF19
 -->
