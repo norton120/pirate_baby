@@ -7,7 +7,7 @@ enableInlineShortcodes = true
 enableRobotsTXT = true
 enableEmoji = true
 pygmentsUseClasses = true
-#googleAnalytics = 'G-QYLKP2XXPB'
+googleAnalytics = 'G-QYLKP2XXPB'
 
 [outputs]
   home = ['HTML','RSS', 'JSON']
