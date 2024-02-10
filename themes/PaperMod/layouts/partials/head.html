@@ -35,6 +35,7 @@
 {{- if site.Params.analytics.naver.SiteVerificationTag }}
 <meta name="naver-site-verification" content="{{ site.Params.analytics.naver.SiteVerificationTag }}">
 {{- end }}
+{{ template "_internal/google_analytics.html" . }}
 
 {{- /* Styles */}}
 
