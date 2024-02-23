@@ -46,10 +46,10 @@ The **mostly academic** projects are driven by (no surprise here) data-focused r
 The **mostly inexperienced** projects are motivated, fast-moving, and entirely focused on the wrong shiny objects. These are very high-profile, generally VC backed endeavors that tout the number of "tool integrations" - i.e. how many API wrappers they have shoehorned into the code base - as the benchmark by which they compete. This might make sense many cycles in the future, if the core project capabilities are sound bedrock (similar to the 5,000 integrations in the `django-pakages` registry). But with their current trajectory, I don't foresee most of these projects ever reaching maturity. The contributors seem most impressed with what "coding can do," focused on the novelty of giving an LLM access to Jira, less interested in ensuring that the framework produces robust, polished, reliable, and ultimately useful outcomes. 
 The rush by countless gen AI projects to create a novel prompt templating solution is a fantastic example of this. If there is one universally solved problem in nearly every programming language, it is "how can I generate dynamic text within templated outputs?" Prompt rendering is significantly less complex than compiling valid SQL or HTML from partials, yet many of these libraries chose to roll their own or :scream: inject raw user inputs directly into the code. Understanding the difference between an unsolved problem and a problem you **personally** have not yet solved is a critical skill in Engineering, something that is painfully lacking in the open-source gen AI ecosystem today. 
 
-Between the two, I believe the opportunity moment for seasoned Developers lies within transforming the mostly academic projects first. These projects need veteran programmers to think through what a framework for this technology should look like, and execute the complex meta-programming that will make these tools accessible. Architecture decisions need to be guided by those that can consider the entire lifespan of the software and the whole of the developer experience, based on hard-won knowledge. The next true change agents in the gen AI space will be David Heinemeier Hanssons, not an Alan Turings. At the same time, evolution does not happen in a bubble and there will come a time (sooner than most think I believe) when the luster of the mostly inexperienced projects will decay from poorly built foundations; here too, the old programmers, who are no strangers to righting the path of a lost ship, will find their place.  
+Between the two, I believe the opportunity moment for seasoned Developers lies within transforming the mostly academic projects first. These projects need veteran programmers to think through what a framework for this technology should look like, and execute the complex meta-programming that will make these tools accessible. Architecture decisions need to be guided by those that can consider the entire lifespan of the software and the whole of the developer experience, based on hard-won knowledge. The next true change agents in the gen AI space will be David Heinemeier Hanssons, not an Alan Turings. At the same time, evolution does not happen in a bubble and there will come a time (sooner than most think I believe) when the luster of the mostly inexperienced projects will collapse on their poorly built foundations; here too, the sage Engineers who are no strangers to righting the path of a lost ship will find their place.  
 
 #### A perfect storm of opportunity
-But why old programmers? What makes this demand for framework-building, design-pattern-minded Software Engineers the exclusive domain of the graybeards? AI is supposedly a young person's game, and only a few years ago we were informed that an impending army of bootcamp grads and CompSci majors were coming to commodize the field. How can I possibly argue that the face of change in AI looks more like the cast of RED than High School Musical?
+But why "old programmers"? What makes this demand for framework-building, design-pattern-minded Software Engineers the exclusive domain of the graybeards? AI is supposedly a young person's game, and only a few years ago we were informed that an impending army of bootcamp grads and CompSci majors were coming to commodize the field. How can I possibly argue that the face of change in AI looks more like the cast of RED than High School Musical?
 
 First, meta-programming and framework building are hard. Really hard. They are the difference between knowing to use  `user.update(name='dave')` to save a name, and writing the underlying code that powers the `update()` function. For many CS and now bootcamp grads, programming is just a good paying job - one that they can get by fine in without any knowledge of the latter. Those same people also existed twenty years ago, but it is unlikely they are "old programmers" today. Instead, they are Sysadmins and District Managers and CSOs, people that "used to code." And there's very little risk of any of them (old or new) striking out to build the next enterprise AI framework.
 
@@ -64,11 +64,11 @@ Rick the "old salesman" was there in the before-times. He was there for the craz
 
 The motorcycle industry is better with guys like Rick selling bikes, and Artificial Intelligence Software will be better with the guidance and grit of old programmers. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNzcwODE3OSwxMzQ0NjA2NjkxLDExNj
-Q1NzA4MSwtMTk2NzIwNDQ5MSw1Mzg2MDk4NjYsLTYzNDYyMDA3
-NCw3NDM5MTY5MCw3OTU4MzE2NTAsLTIwODk5ODM5MzUsMTQwOD
-MyNTc3MywtMTEwNzk2NTgxMCwtMTE3MTMyMTI1Miw2MDExMDk4
-OTgsLTUyMDM5MDQ0NiwxMTgxMTQwMzA4LC0yNzU0MjU1NTAsMj
-Q1ODkwODk3LC0xMjEzNjk4Mzc0LC0xMzMxMTk5Nzk4LC0xMDEz
-OTQwMTMxXX0=
+eyJoaXN0b3J5IjpbODg1ODA3NDg3LDE5MTc3MDgxNzksMTM0ND
+YwNjY5MSwxMTY0NTcwODEsLTE5NjcyMDQ0OTEsNTM4NjA5ODY2
+LC02MzQ2MjAwNzQsNzQzOTE2OTAsNzk1ODMxNjUwLC0yMDg5OT
+gzOTM1LDE0MDgzMjU3NzMsLTExMDc5NjU4MTAsLTExNzEzMjEy
+NTIsNjAxMTA5ODk4LC01MjAzOTA0NDYsMTE4MTE0MDMwOCwtMj
+c1NDI1NTUwLDI0NTg5MDg5NywtMTIxMzY5ODM3NCwtMTMzMTE5
+OTc5OF19
 -->
