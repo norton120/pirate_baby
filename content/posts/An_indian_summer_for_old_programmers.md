@@ -35,7 +35,9 @@ Between the two, I believe the opportunity moment for old programmers lies withi
 
 #### A perfect storm of opportunity
 But why old programmers? What makes this demand for framework-building, design-pattern-minded Software Engineers the exclusive domain of the graybeards? AI is supposedly a young person's game, and only a few years ago we were informed that an impending army of bootcamp grads and CompSci majors were soon arriving to commodize the sport; so how can I possibly argue that the face of change in AI looks more like the cast of RED than High School Musical?
-First, meta-programming and framework building are hard. Really hard. They are the difference between knowing `user.update(name='dave')` is how you update a user, and writing the underlying code for the `update()` function. For a lot of CS and now bootcamp grads, programming is just a good paying job; they can get by fine without any knowledge of the latter and have no interest in changing that. Those people existed 20 years ago too, but they aren't likely to be "old programmers" today - they are sysadmins or district managers or any one of the 
+
+First, meta-programming and framework building are hard. Really hard. They are the difference between knowing `user.update(name='dave')` is how you update a user, and writing the underlying code for the `update()` function. For a lot of CS and now bootcamp grads, programming is just a good paying job and they can get by fine without any knowledge of the latter (and harbor no interest in changing that). Those people existed 20 years ago too, but they aren't likely to be "old programmers" today; they are Sysadmins and District Managers and CSOs, all people that "used to code, too."
+
 
 #### why this is for old programmers
 - remember that surge of programmers that was supposed to commoditize us? the bootcamp armies, the shores teaming with legions of compsci majors? Well, the fortune that smiled on them also smiled on us. 
@@ -45,11 +47,11 @@ First, meta-programming and framework building are hard. Really hard. They are t
 - rickman and his little book of birthdays
 - what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODE0Mjg2NTIsLTI3NTQyNTU1MCwyND
-U4OTA4OTcsLTEyMTM2OTgzNzQsLTEzMzExOTk3OTgsLTEwMTM5
-NDAxMzEsOTcyNzM1MTgwLC0xNzIyNzk3MzI1LC0xMDg0MzQ1Nj
-QzLC0xOTI2ODYyODUzLDEyNTEwNTIwMzMsMTAxNjExOTQ1Mywt
-MTkzMDM2MTMxLDE5NTI1NzUwMTEsLTQ2NDIwNzYzMywtMzQ4NT
-QzOTE2LDIyMDYwMjg0LC05NzEwNjkyNjAsMjAzOTYwNDczNyw3
-MzUzMTkzNTRdfQ==
+eyJoaXN0b3J5IjpbLTI0MDA2NzQ4MSwtMjc1NDI1NTUwLDI0NT
+g5MDg5NywtMTIxMzY5ODM3NCwtMTMzMTE5OTc5OCwtMTAxMzk0
+MDEzMSw5NzI3MzUxODAsLTE3MjI3OTczMjUsLTEwODQzNDU2ND
+MsLTE5MjY4NjI4NTMsMTI1MTA1MjAzMywxMDE2MTE5NDUzLC0x
+OTMwMzYxMzEsMTk1MjU3NTAxMSwtNDY0MjA3NjMzLC0zNDg1ND
+M5MTYsMjIwNjAyODQsLTk3MTA2OTI2MCwyMDM5NjA0NzM3LDcz
+NTMxOTM1NF19
 -->
