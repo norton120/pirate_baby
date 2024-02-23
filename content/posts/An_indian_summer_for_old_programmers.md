@@ -34,7 +34,7 @@ The **mostly inexperienced** projects are motivated, fast-moving, and entirely f
 Between the two, I believe the opportunity moment for old programmers lies within transforming the mostly academic projects first. These projects need veteran programmers to think through what a framework for this technology should look like, and implement it. Framework builders, meta programmers that can consider the entire lifespan of the software and the whole of the developer experience. The change agent here will be a David Heinemeier Hansson, not an Alan Turing. But evolution does not happen in a bubble, and there will come a time (sooner than most think I believe) when the luster of the mostly inexperienced projects will decay from poorly built foundations; here too, the old programmers, who are no strangers to righting the path of a lost ship, will find their place.  
 
 #### A perfect storm of opportunity
-But why old programmers? What makes this demand for framework-building, design-pattern-minded Software Engineers the exclusive domain of the graybeards? AI is supposedly a young person's game, and only a few years ago we were informed that an impending army of bootcamp grads and CompSci majors were soon arriving to commodize the sport; so how is it possible that the f?
+But why old programmers? What makes this demand for framework-building, design-pattern-minded Software Engineers the exclusive domain of the graybeards? AI is supposedly a young person's game, and only a few years ago we were informed that an impending army of bootcamp grads and CompSci majors were soon arriving to commodize the sport; so how can I possibly argue that the face of change in AI looks more like the cast of RED than ?
 
 
 #### why this is for old programmers
@@ -45,11 +45,11 @@ But why old programmers? What makes this demand for framework-building, design-p
 - rickman and his little book of birthdays
 - what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODczMzE0OTEsLTI3NTQyNTU1MCwyND
-U4OTA4OTcsLTEyMTM2OTgzNzQsLTEzMzExOTk3OTgsLTEwMTM5
-NDAxMzEsOTcyNzM1MTgwLC0xNzIyNzk3MzI1LC0xMDg0MzQ1Nj
-QzLC0xOTI2ODYyODUzLDEyNTEwNTIwMzMsMTAxNjExOTQ1Mywt
-MTkzMDM2MTMxLDE5NTI1NzUwMTEsLTQ2NDIwNzYzMywtMzQ4NT
-QzOTE2LDIyMDYwMjg0LC05NzEwNjkyNjAsMjAzOTYwNDczNyw3
-MzUzMTkzNTRdfQ==
+eyJoaXN0b3J5IjpbMTQ0NDYwNjc3MywtMjc1NDI1NTUwLDI0NT
+g5MDg5NywtMTIxMzY5ODM3NCwtMTMzMTE5OTc5OCwtMTAxMzk0
+MDEzMSw5NzI3MzUxODAsLTE3MjI3OTczMjUsLTEwODQzNDU2ND
+MsLTE5MjY4NjI4NTMsMTI1MTA1MjAzMywxMDE2MTE5NDUzLC0x
+OTMwMzYxMzEsMTk1MjU3NTAxMSwtNDY0MjA3NjMzLC0zNDg1ND
+M5MTYsMjIwNjAyODQsLTk3MTA2OTI2MCwyMDM5NjA0NzM3LDcz
+NTMxOTM1NF19
 -->
