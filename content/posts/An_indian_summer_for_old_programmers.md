@@ -29,13 +29,13 @@ For our purposes let's focus on statistical models, language models, and machine
 
 #### why this is for old programmers
 - remember that surge of programmers that was supposed to commoditize us? the bootcamp armies, the shores teaming with legions of compsci majors? Well, the fortune that smiled on them also smiled on us. 
-- By now there would be a glut of hyper-talented, experienced, and well-disciplined Software Engineers with lower cholesterol and a higher caffeene tolerance that you, had it not been for (F/M)AANG and their ilk swooping in like the spacecraft from WAL-E to pacify and infantilize a generation of programmers. Are there remarkably bright and talented 26-year-olds from that realm that already have more knowledge and experience than I ever will? Absolutely. But there are way less of them than their should be, and we owe that good fortune to Facebook hiring excess to keep the talent away from the competition and paying them not to work. The endless parade of live-your-best-life/social-issues-over-code/
+- By now there would be a glut of hyper-talented, experienced, and well-disciplined Software Engineers with lower cholesterol and a higher caffeene tolerance that you, had it not been for (F/M)AANG and their ilk swooping in like the spacecraft from WAL-E to pacify and infantilize a generation of programmers. Are there remarkably bright and talented 26-year-olds from that realm that already have more knowledge and experience than I ever will? Absolutely. But there are way less of them than their should be, and we owe that good fortune to Facebook hiring excess to keep the talent away from the competition and paying them not to work. The endless parade of live-your-best-life/social-issues-over-code/complete-lack-of-delivery-expectations fostered a focus on
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQ3NjQ1NzYsLTEwODQzNDU2NDMsLT
-E5MjY4NjI4NTMsMTI1MTA1MjAzMywxMDE2MTE5NDUzLC0xOTMw
-MzYxMzEsMTk1MjU3NTAxMSwtNDY0MjA3NjMzLC0zNDg1NDM5MT
-YsMjIwNjAyODQsLTk3MTA2OTI2MCwyMDM5NjA0NzM3LDczNTMx
-OTM1NCwxMjYxMjI0MjgsOTczMTUzMTc5LC0xODI2MzA5MTMzLC
-0xMTk0NDY0NzM1LDE5MTAwOTQ1MjQsLTEwMjQ5MDcyMDcsLTIw
-MDY5MjA1OThdfQ==
+eyJoaXN0b3J5IjpbLTE0NDAwNzExMCwtMTA4NDM0NTY0MywtMT
+kyNjg2Mjg1MywxMjUxMDUyMDMzLDEwMTYxMTk0NTMsLTE5MzAz
+NjEzMSwxOTUyNTc1MDExLC00NjQyMDc2MzMsLTM0ODU0MzkxNi
+wyMjA2MDI4NCwtOTcxMDY5MjYwLDIwMzk2MDQ3MzcsNzM1MzE5
+MzU0LDEyNjEyMjQyOCw5NzMxNTMxNzksLTE4MjYzMDkxMzMsLT
+ExOTQ0NjQ3MzUsMTkxMDA5NDUyNCwtMTAyNDkwNzIwNywtMjAw
+NjkyMDU5OF19
 -->
