@@ -44,8 +44,8 @@ The crop of generative AI OSS projects fall largely into one of two categories: 
 The **mostly academic** projects are driven by (no surprise here) data-focused researchers in academia. Projects like [MemGPT](https://memgpt.ai/) are filled with technically brilliant concepts and truly revolutionary solutions to computing problems. What they lack is design patterns, implementation strategy, or any sense of a cohesive developer API. These are typically pseudocode-that-runs, a whiteboard thought exercise in how a solution _might_ work squeezed into production. MemGPT is not a framework or a library, it is an exciting proof-of-concept. 
 
 The **mostly inexperienced** projects are motivated, fast-moving, and entirely focused on the wrong shiny objects. These are very high-profile, generally VC backed endeavors that tout the number of "tool integrations" - i.e. how many API wrappers they have shoehorned into the code base - as the benchmark by which they compete. This might make sense many cycles in the future, if the core project capabilities are sound bedrock (similar to the 5,000 integrations in the `django-pakages` registry). But with their current trajectory, I don't foresee most of these projects ever reaching maturity. The contributors seem most impressed with what "coding can do," focused on the novelty of giving an LLM access to Jira, less interested in ensuring that the framework produces robust, polished, reliable, and ultimately useful outcomes. 
-The rush by countless gen AI projects to create a novel prompt templating solution is a fantastic example of this. If there is one universally solved problem in nearly every programming language, it is "how can I generate dynamic text within templated outputs?" Prompt rendering is significantly less complex than compiling valid SQL or HTML from partials, yet 
-Understanding the difference between an unsolved problem and a problem you _personally_ have not yet solved is a critical element of softwexperience, something that is painfully lacking in the OSS AI ecosystem today. 
+The rush by countless gen AI projects to create a novel prompt templating solution is a fantastic example of this. If there is one universally solved problem in nearly every programming language, it is "how can I generate dynamic text within templated outputs?" Prompt rendering is significantly less complex than compiling valid SQL or HTML from partials, yet many of these libraries chose to roll their own or :scream: inject raw user inputs directly into the code.
+Understanding the difference between an unsolved problem and a problem you _personally_ have not yet solved is a critical element of software experience, something that is painfully lacking in the open-source gen AI ecosystem today. 
 
 Between the two, I believe the opportunity moment for old programmers lies within transforming the mostly academic projects first. These projects need veteran programmers to think through what a framework for this technology should look like, and implement it. Framework builders, meta programmers that can consider the entire lifespan of the software and the whole of the developer experience. The change agent here will be a David Heinemeier Hansson, not an Alan Turing. But evolution does not happen in a bubble, and there will come a time (sooner than most think I believe) when the luster of the mostly inexperienced projects will decay from poorly built foundations; here too, the old programmers, who are no strangers to righting the path of a lost ship, will find their place.  
 
@@ -65,11 +65,11 @@ Rick the "old salesman" was there in the before-times. He was there for the craz
 
 The motorcycle industry is better with guys like Rick selling bikes, and Artificial Intelligence Software will be better with the guidance and grit of old programmers. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzY3MDczODAsMTM0NDYwNjY5MSwxMT
-Y0NTcwODEsLTE5NjcyMDQ0OTEsNTM4NjA5ODY2LC02MzQ2MjAw
-NzQsNzQzOTE2OTAsNzk1ODMxNjUwLC0yMDg5OTgzOTM1LDE0MD
-gzMjU3NzMsLTExMDc5NjU4MTAsLTExNzEzMjEyNTIsNjAxMTA5
-ODk4LC01MjAzOTA0NDYsMTE4MTE0MDMwOCwtMjc1NDI1NTUwLD
-I0NTg5MDg5NywtMTIxMzY5ODM3NCwtMTMzMTE5OTc5OCwtMTAx
-Mzk0MDEzMV19
+eyJoaXN0b3J5IjpbMzYwMjk1NTMwLDEzNDQ2MDY2OTEsMTE2ND
+U3MDgxLC0xOTY3MjA0NDkxLDUzODYwOTg2NiwtNjM0NjIwMDc0
+LDc0MzkxNjkwLDc5NTgzMTY1MCwtMjA4OTk4MzkzNSwxNDA4Mz
+I1NzczLC0xMTA3OTY1ODEwLC0xMTcxMzIxMjUyLDYwMTEwOTg5
+OCwtNTIwMzkwNDQ2LDExODExNDAzMDgsLTI3NTQyNTU1MCwyND
+U4OTA4OTcsLTEyMTM2OTgzNzQsLTEzMzExOTk3OTgsLTEwMTM5
+NDAxMzFdfQ==
 -->
