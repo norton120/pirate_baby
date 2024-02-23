@@ -13,7 +13,7 @@ I feel I will tell a very similar story of Software/Data/DevOps (et al) Engineer
 We all know the stories of zero-rate excess. (M/F)AANG employees outraged that their favorite cereal is no longer stocked at the closest snack station, CompSci grads dumbfounded that their first job would expect a five-day work week. Then there are the more mundane (but no less tell-tale) evidences: recruiters hounding anyone titled "Developer" with sight-unseen six-figure job offers, lavish office perks that sounded more like a cruise ship than a place of business ("we have a climbing wall!"). Rock-star impunity as "the talent," in great demand and impossible to replace. And of course, a shared cognitive dissidence ignoring the lack of concrete ROI from all of it.  
 
 #### It was the worst of times
-We all know these stories too. (M/F)AANG tech layoffs in the range of 40,000 people with more on the way. 320,000 across all of tech in the last year. VC funding at the lowest point in 6 years, 62% lower than the funding peak of 2022. Engineering managers-of-managers upended and taking consulting or contract work to fill the gap. Post after painful social media post from displaced big tech Engineers who can't seem to find that next role. And a looming fear of Artificial Intelligence that might quickly automate away once thought "sacred" and un-automatable skills.
+We all know these stories too. (M/F)AANG tech layoffs in the range of 40,000 people with more on the way. 320,000 across all of tech in the last year. VC funding at the lowest point in six years, 62% lower than the funding peak in '22. Layers of Engineering management stripped away,  Post after painful social media post from displaced big tech Engineers who can't seem to find that next role. And a looming fear of Artificial Intelligence that might quickly automate away once thought "sacred" and un-automatable skills.
 
 #### The Indian summer
 During these "dark times", OpenAI went from $29B to over $80B in value. 20 new AI unicorns were minted in 2023 (the slowest year for new unicorns in half a decade). Good fortune abounds for an Engineer wishing to join the AI cash grab; typically it is as easy as wrapping the OpenAI api in a few lines of javascript and running to the nearest investor with an open wallet. "Look my app summerizes {thing}!" "My app has a personality like Joe Pesci!" and the checks pile up.
@@ -49,11 +49,11 @@ Rick the "old salesman" was there in the before-times. He was there for the craz
 
 The motorcycle industry is better with guys like Rick selling bikes, and Artificial Intelligence Software will be better with the guidance and grit of old programmers. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMzQzOTI5MSwxMzQ0NjA2NjkxLDExNj
-Q1NzA4MSwtMTk2NzIwNDQ5MSw1Mzg2MDk4NjYsLTYzNDYyMDA3
-NCw3NDM5MTY5MCw3OTU4MzE2NTAsLTIwODk5ODM5MzUsMTQwOD
-MyNTc3MywtMTEwNzk2NTgxMCwtMTE3MTMyMTI1Miw2MDExMDk4
-OTgsLTUyMDM5MDQ0NiwxMTgxMTQwMzA4LC0yNzU0MjU1NTAsMj
-Q1ODkwODk3LC0xMjEzNjk4Mzc0LC0xMzMxMTk5Nzk4LC0xMDEz
-OTQwMTMxXX0=
+eyJoaXN0b3J5IjpbLTIwNzI0MDYyODksMTM0NDYwNjY5MSwxMT
+Y0NTcwODEsLTE5NjcyMDQ0OTEsNTM4NjA5ODY2LC02MzQ2MjAw
+NzQsNzQzOTE2OTAsNzk1ODMxNjUwLC0yMDg5OTgzOTM1LDE0MD
+gzMjU3NzMsLTExMDc5NjU4MTAsLTExNzEzMjEyNTIsNjAxMTA5
+ODk4LC01MjAzOTA0NDYsMTE4MTE0MDMwOCwtMjc1NDI1NTUwLD
+I0NTg5MDg5NywtMTIxMzY5ODM3NCwtMTMzMTE5OTc5OCwtMTAx
+Mzk0MDEzMV19
 -->
