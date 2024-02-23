@@ -35,7 +35,7 @@ Between the two, I believe the opportunity moment for old programmers lies withi
 
 #### A perfect storm of opportunity
 But why old programmers? What makes this demand for framework-building, design-pattern-minded Software Engineers the exclusive domain of the graybeards? AI is supposedly a young person's game, and only a few years ago we were informed that an impending army of bootcamp grads and CompSci majors were soon arriving to commodize the sport; so how can I possibly argue that the face of change in AI looks more like the cast of RED than High School Musical?
-First, meta-programming and framework building are hard. Really hard. They are the difference between knowing `user.update(name='dave')` is how you update a user, and writing the underlying code for the `update()` function. For a lot of the most recent flock of CS and bootcamp grads programming is just a good paying job, and they can get by fine without any knowledge of the latter. 
+First, meta-programming and framework building are hard. Really hard. They are the difference between knowing `user.update(name='dave')` is how you update a user, and writing the underlying code for the `update()` function. For a lot of more recent CS and bootcamp grads, programming is just a good paying job. They can get by fine without any knowledge of the latter and have no interes 
 
 #### why this is for old programmers
 - remember that surge of programmers that was supposed to commoditize us? the bootcamp armies, the shores teaming with legions of compsci majors? Well, the fortune that smiled on them also smiled on us. 
@@ -45,7 +45,7 @@ First, meta-programming and framework building are hard. Really hard. They are t
 - rickman and his little book of birthdays
 - what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMzc1OTYzMiwtMjc1NDI1NTUwLDI0NT
+eyJoaXN0b3J5IjpbLTU2NTY5NTQxMiwtMjc1NDI1NTUwLDI0NT
 g5MDg5NywtMTIxMzY5ODM3NCwtMTMzMTE5OTc5OCwtMTAxMzk0
 MDEzMSw5NzI3MzUxODAsLTE3MjI3OTczMjUsLTEwODQzNDU2ND
 MsLTE5MjY4NjI4NTMsMTI1MTA1MjAzMywxMDE2MTE5NDUzLC0x
