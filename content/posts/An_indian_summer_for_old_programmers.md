@@ -16,9 +16,9 @@ We all know the stories. (M/F)AANG employees outraged that their favorite cereal
 We know these stories too. (M/F)AANG tech layoffs in the range of 40,000 people (as of 2/24), with more likely to come. 320,000+ layed off across tech in 23/24. VC funding at the lowest point in 6 years, and 62% lower than the funding peak of 2022. Engineers that had only recently settled into cushy management jobs suddenly upended, taking consulting or contract work to fill the gap. Post after painful social media post from displaced big tech Engineers who can't seem to find that next role. And a looming fear of Artificial Intelligence that might quickly automate away once thought "sacred" and un-automatable skills.
 
 #### The Indian summer
-During these "dark times", OpenAI went from $29B to over $80B in value. 20 new AI unicorns were minted in 2023 (the slowest year for new unicorns in half a decade). Opportun 
+During these "dark times", OpenAI went from $29B to over $80B in value. 20 new AI unicorns were minted in 2023 (the slowest year for new unicorns in half a decade). Opportunities abound to join the AI cash grab with sm, or to
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MjAzMjk3MiwxMDE2MTE5NDUzLC0xOT
+eyJoaXN0b3J5IjpbMTIyMjkwODI1NiwxMDE2MTE5NDUzLC0xOT
 MwMzYxMzEsMTk1MjU3NTAxMSwtNDY0MjA3NjMzLC0zNDg1NDM5
 MTYsMjIwNjAyODQsLTk3MTA2OTI2MCwyMDM5NjA0NzM3LDczNT
 MxOTM1NCwxMjYxMjI0MjgsOTczMTUzMTc5LC0xODI2MzA5MTMz
