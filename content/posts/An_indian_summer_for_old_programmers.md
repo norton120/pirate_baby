@@ -43,10 +43,10 @@ Secondly, I believe that there would be a glut of hyper-talented, reasonably exp
 If you are an old programmer - the kind of salt that still remembers what all the letters in SOLID stand for, that once had _Patterns of Enterprise Application Architecture_ on your nightstand, that actually understands DNS - then this is your call to service. Put down the _world's greatest Regional VP_ mug, dust off the keyboard, and get into the fray of Artificial Intelligence Software Design where your skills are most needed. Help usher in the next generation of quality software, and secure your place in a rapidly approaching future. The opulent past of recent years needed software managers-of-managers, the AI-driven enterprises of tomorrow may not. 
 
 #### the old motorcycle salesman
-There is one more lesson to learn from my motorcycle-selling history. While my focus has been on the saga of the many fly-by-night salespeople with their momentous rise and subsequent fall, there were others. One in particular, was an old salt salesman that had been slinging bikes since the early 1980s. He benefited from the bubble as much as the next salesperson, purchasing a modest house, trade in his old Honda Civic for a new one. During the height of the madness, when everyone was getting into the motorcycle selling game - 
+There is one more lesson to learn from my motorcycle-selling history. While my focus has been on the saga of the many fly-by-night salespeople with their momentous rise and subsequent fall, there were others. One in particular, was an old salt salesman that had been slinging bikes since the early 1980s. He benefited from the bubble as much as the next salesperson, purchasing a modest house and trading in his old Honda Civic for a new one. During the height of the madness, everyone was getting into the motorcycle selling game - realtors, car guys, even stock brokers were moonlighting slinging bikes for cash. I remember the old salesman was 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjExOTE1OTQsNjAxMTA5ODk4LC01Mj
+eyJoaXN0b3J5IjpbLTE5MjE0NzIzMTAsNjAxMTA5ODk4LC01Mj
 AzOTA0NDYsMTE4MTE0MDMwOCwtMjc1NDI1NTUwLDI0NTg5MDg5
 NywtMTIxMzY5ODM3NCwtMTMzMTE5OTc5OCwtMTAxMzk0MDEzMS
 w5NzI3MzUxODAsLTE3MjI3OTczMjUsLTEwODQzNDU2NDMsLTE5
