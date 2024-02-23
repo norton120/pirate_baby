@@ -10,12 +10,15 @@ The most money I have ever made was selling motorcycles. Software Engineering is
 I feel I'll tell a very similar story of Software/Data/DevOps (et al) Engineering in the not-to-distant future. A slow-burning period of unsustainable gluttony followed immediately by a devastating correction. Then a moment of opportunity, mistaken by most to be a return of "the good times", and finally, a long plunge into sensible reality. This is a common narrative right now, and I'll only touch on the first two parts (the past decadence and the inevitable correction) enough to set the stage. What I think matters today, and the heart of this writing, is a dissection of that critical window of opportunity. 
 
 #### It was the best of times
-We all know the stories. (M/F)AANG employees outraged that their favorite cereal is no longer stocked at the closest snack station during company all-hands, and CompSci grads dumbfounded that their first job would expect a five-day work week. Then the more mundane (but no less tell-tale) evidence; recruiters hounding you day and night with six-figure job offers, lavish perks that sometimes sounded less like work and more like a cruise ship ("we have a climbing wall!"). Rock-star impunity derived from an unspoken understanding that you were "the talent," in great demand and terribly difficult to replace. And of course, a shared cognative dissidence of ignoring developer ROI (and lack there of).  To call the last decade of  Software engineei bourgeoisie would be innacurate only in that so much would have be
+We all know the stories. (M/F)AANG employees outraged that their favorite cereal is no longer stocked at the closest snack station during company all-hands, and CompSci grads dumbfounded that their first job would expect a five-day work week. Then the more mundane (but no less tell-tale) evidence; recruiters hounding anyone titled "developer" day and night with six-figure job offers, lavish perks that sometimes sounded less like work and more like a cruise ship ("we have a climbing wall!"). Rock-star impunity derived from an unspoken understanding of who was "the talent," in great demand and terribly difficult to replace. And of course, a shared cognative dissidence in ignoring developer ROI (and lack there of).  To call the last decade of Software Engineers the bourgeoisie would be innacurate only in that Aristocracy was often more befitting. 
+
+#### It was the worst of times
+We kn
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDE1Nzg2NTIsMTk1MjU3NTAxMSwtND
-Y0MjA3NjMzLC0zNDg1NDM5MTYsMjIwNjAyODQsLTk3MTA2OTI2
-MCwyMDM5NjA0NzM3LDczNTMxOTM1NCwxMjYxMjI0MjgsOTczMT
-UzMTc5LC0xODI2MzA5MTMzLC0xMTk0NDY0NzM1LDE5MTAwOTQ1
-MjQsLTEwMjQ5MDcyMDcsLTIwMDY5MjA1OTgsMTYwMzUxOTI1Mi
-wyNjQ1MDQ0MzcsLTQ3MDI4MTI3MSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTI2MjY0Nzk3MiwxOTUyNTc1MDExLC00Nj
+QyMDc2MzMsLTM0ODU0MzkxNiwyMjA2MDI4NCwtOTcxMDY5MjYw
+LDIwMzk2MDQ3MzcsNzM1MzE5MzU0LDEyNjEyMjQyOCw5NzMxNT
+MxNzksLTE4MjYzMDkxMzMsLTExOTQ0NjQ3MzUsMTkxMDA5NDUy
+NCwtMTAyNDkwNzIwNywtMjAwNjkyMDU5OCwxNjAzNTE5MjUyLD
+I2NDUwNDQzNywtNDcwMjgxMjcxLC0yMDg4NzQ2NjEyXX0=
 -->
