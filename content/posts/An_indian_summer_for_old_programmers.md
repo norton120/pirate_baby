@@ -38,7 +38,10 @@ But why old programmers? What makes this demand for framework-building, design-p
 
 First, meta-programming and framework building are hard. Really hard. They are the difference between knowing `user.update(name='dave')` is how you update a user, and writing the underlying code for the `update()` function. For a lot of CS and now bootcamp grads, programming is just a good paying job and they can get by fine without any knowledge of the latter (and harbor no interest in changing that). Those people existed 20 years ago too, but they aren't likely to be "old programmers" today; they are Sysadmins and District Managers and CSOs, all people that "used to code, too."
 
-Secondly, I believe that there would be a glut of hyper-talented, accordingly experienced, and lightly seasoned young developers had it not been for the (F/M)AANG and their ilk of big tech 
+Secondly, I believe that there would be a glut of hyper-talented, accordingly experienced, and lightly seasoned young developers had it not been for the (F/M)AANG and their ilk of big tech swooping in like the spacecraft from WAL-E to 
+pacify and initialize a large portion of the new programmer population over the last 
+
+
 #### why this is for old programmers
 - remember that surge of programmers that was supposed to commoditize us? the bootcamp armies, the shores teaming with legions of compsci majors? Well, the fortune that smiled on them also smiled on us. 
 - By now there would be a glut of hyper-talented, experienced, and well-disciplined Software Engineers with lower cholesterol and a higher caffeene tolerance that you, had it not been for (F/M)AANG and their ilk swooping in like the spacecraft from WAL-E to pacify and infantilize a generation of programmers. Are there remarkably bright and talented 26-year-olds from that realm that already have more knowledge and experience than I ever will? Absolutely. But there are way less of them than their should be, and we owe that good fortune to Facebook hiring excess to keep the talent away from the competition and paying them not to work. The endless parade of live-your-best-life/social-issues-over-code/complete-lack-of-delivery-expectations fostered a focus on the "developer lifestyle" and gave us armies of coders, and very few Software Engineers. What this space needs is Software Engineering. 
@@ -47,11 +50,11 @@ Secondly, I believe that there would be a glut of hyper-talented, accordingly ex
 - rickman and his little book of birthdays
 - what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODYyNjM3NTMsLTI3NTQyNTU1MCwyND
-U4OTA4OTcsLTEyMTM2OTgzNzQsLTEzMzExOTk3OTgsLTEwMTM5
-NDAxMzEsOTcyNzM1MTgwLC0xNzIyNzk3MzI1LC0xMDg0MzQ1Nj
-QzLC0xOTI2ODYyODUzLDEyNTEwNTIwMzMsMTAxNjExOTQ1Mywt
-MTkzMDM2MTMxLDE5NTI1NzUwMTEsLTQ2NDIwNzYzMywtMzQ4NT
-QzOTE2LDIyMDYwMjg0LC05NzEwNjkyNjAsMjAzOTYwNDczNyw3
-MzUzMTkzNTRdfQ==
+eyJoaXN0b3J5IjpbODA3MTg3Mzc3LC0yNzU0MjU1NTAsMjQ1OD
+kwODk3LC0xMjEzNjk4Mzc0LC0xMzMxMTk5Nzk4LC0xMDEzOTQw
+MTMxLDk3MjczNTE4MCwtMTcyMjc5NzMyNSwtMTA4NDM0NTY0My
+wtMTkyNjg2Mjg1MywxMjUxMDUyMDMzLDEwMTYxMTk0NTMsLTE5
+MzAzNjEzMSwxOTUyNTc1MDExLC00NjQyMDc2MzMsLTM0ODU0Mz
+kxNiwyMjA2MDI4NCwtOTcxMDY5MjYwLDIwMzk2MDQ3MzcsNzM1
+MzE5MzU0XX0=
 -->
