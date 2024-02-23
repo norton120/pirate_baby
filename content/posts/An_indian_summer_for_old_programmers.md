@@ -31,9 +31,11 @@ For our purposes let's focus on statistical models, language models, and machine
 - remember that surge of programmers that was supposed to commoditize us? the bootcamp armies, the shores teaming with legions of compsci majors? Well, the fortune that smiled on them also smiled on us. 
 - By now there would be a glut of hyper-talented, experienced, and well-disciplined Software Engineers with lower cholesterol and a higher caffeene tolerance that you, had it not been for (F/M)AANG and their ilk swooping in like the spacecraft from WAL-E to pacify and infantilize a generation of programmers. Are there remarkably bright and talented 26-year-olds from that realm that already have more knowledge and experience than I ever will? Absolutely. But there are way less of them than their should be, and we owe that good fortune to Facebook hiring excess to keep the talent away from the competition and paying them not to work. The endless parade of live-your-best-life/social-issues-over-code/complete-lack-of-delivery-expectations fostered a focus on the "developer lifestyle" and gave us armies of coders, and very few Software Engineers. What this space needs is Software Engineering. 
 
-#### the old motorcycle 
+#### the old motorcycle salesman
+- rickman and his little book of birthdays
+- what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzIzNDY4MzYsLTEwODQzNDU2NDMsLT
+eyJoaXN0b3J5IjpbLTE3MjI3OTczMjUsLTEwODQzNDU2NDMsLT
 E5MjY4NjI4NTMsMTI1MTA1MjAzMywxMDE2MTE5NDUzLC0xOTMw
 MzYxMzEsMTk1MjU3NTAxMSwtNDY0MjA3NjMzLC0zNDg1NDM5MT
 YsMjIwNjAyODQsLTk3MTA2OTI2MCwyMDM5NjA0NzM3LDczNTMx
