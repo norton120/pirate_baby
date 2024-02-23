@@ -36,10 +36,10 @@ database.run_query("UPDATE user SET(u.first_name,
  The proliferation of MVC + ORM frameworks like Spring, Ruby on Rails and Django did not introduce any revolutionary database technology, nor did they represent a leap forward in computer science. They leveraged a very different technology, _application design principals_, and fostered a leap forward in the _developer experience_. 
 
 I see the same challenges in the generative AI landscape today as post-dot-com web development: flush with technology, pale with structure.  
-[Instructor](https://github.com/jxnl/instructor) is a library that monkey patches OpenAI's sdk to enforce response classes. Instructor released an ORM integration last week that allows database objects and LLM objects to be swapped directly. The project is tightly coupled to the OpenAI product, and I don't see the ORM integration evolving past a novelty - a service generating db objects in a vaccuum is kind of pointless, and I think you'll end up wrapping the classes and basically building them into oddly shaped tools calls to get any real value from it. But the idea _does spark thoughts around what LLM software could look like, what form the abstractions could take on within a mature framework. This is the question we should all be asking right now, and one the old programmers are uniquely able to answer. 
+[Instructor](https://github.com/jxnl/instructor) is a library that monkey patches OpenAI's sdk to enforce response classes. Instructor released an ORM integration last week that allows database objects and LLM objects to be swapped directly. The project is tightly coupled to the OpenAI product, and I don't see the ORM integration evolving past a novelty - a service generating db objects in a vaccuum is kind of pointless, and I think you'll end up wrapping the classes and basically building them into oddly shaped tools calls to get any real value from it. But the idea _does_ spark thoughts around what LLM software could look like, what form the abstractions should take on within a mature framework. This is the question Software Developers should all be asking right now, and it is a question the "old programmers" may be uniquely able to answer. 
 
 #### What's out there
-The crop of OSS generative AI projects fall largely into one of two categories: mostly academic or mostly inexperienced. 
+The crop of generative AI OSS projects fall largely into one of two categories: mostly academic or mostly inexperienced. 
 
 The **mostly academic** projects are driven by (no surprise here) data-focused researchers in academia. Projects like [MemGPT](https://memgpt.ai/) are filled with technically brilliant concepts and truly revolutionary solutions to computing problems. What they lack is design patterns, implementation strategy, or any sense of a cohesive developer API. These are typically pseudocode-that-runs, a whiteboard thought exercise in how a solution _might_ work squeezed into production. MemGPT is not a framework or a library, it is an exciting proof-of-concept. 
 
@@ -63,11 +63,11 @@ Rick the "old salesman" was there in the before-times. He was there for the craz
 
 The motorcycle industry is better with guys like Rick selling bikes, and Artificial Intelligence Software will be better with the guidance and grit of old programmers. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1OTQ1NjE4OCwxMzQ0NjA2NjkxLDExNj
-Q1NzA4MSwtMTk2NzIwNDQ5MSw1Mzg2MDk4NjYsLTYzNDYyMDA3
-NCw3NDM5MTY5MCw3OTU4MzE2NTAsLTIwODk5ODM5MzUsMTQwOD
-MyNTc3MywtMTEwNzk2NTgxMCwtMTE3MTMyMTI1Miw2MDExMDk4
-OTgsLTUyMDM5MDQ0NiwxMTgxMTQwMzA4LC0yNzU0MjU1NTAsMj
-Q1ODkwODk3LC0xMjEzNjk4Mzc0LC0xMzMxMTk5Nzk4LC0xMDEz
-OTQwMTMxXX0=
+eyJoaXN0b3J5IjpbOTA2OTMzMDIzLDEzNDQ2MDY2OTEsMTE2ND
+U3MDgxLC0xOTY3MjA0NDkxLDUzODYwOTg2NiwtNjM0NjIwMDc0
+LDc0MzkxNjkwLDc5NTgzMTY1MCwtMjA4OTk4MzkzNSwxNDA4Mz
+I1NzczLC0xMTA3OTY1ODEwLC0xMTcxMzIxMjUyLDYwMTEwOTg5
+OCwtNTIwMzkwNDQ2LDExODExNDAzMDgsLTI3NTQyNTU1MCwyND
+U4OTA4OTcsLTEyMTM2OTgzNzQsLTEzMzExOTk3OTgsLTEwMTM5
+NDAxMzFdfQ==
 -->
