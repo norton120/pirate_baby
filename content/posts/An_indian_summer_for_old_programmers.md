@@ -29,9 +29,9 @@ For our purposes let's focus on statistical models, language models, and machine
 
 #### why this is for old programmers
 - remember that surge of programmers that was supposed to commoditize us? the bootcamp armies, the shores teaming with legions of compsci majors? Well, the fortune that smiled on them also smiled on us. 
-- By now there shou
+- By now there would be a glut of hyper-talented, experienced, and well-disciplined Software Engineers with lower cholesterol and a higher caffeene 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MDI0NzIxNSwtMTA4NDM0NTY0MywtMT
+eyJoaXN0b3J5IjpbMjAwNTk0Mjg0NiwtMTA4NDM0NTY0MywtMT
 kyNjg2Mjg1MywxMjUxMDUyMDMzLDEwMTYxMTk0NTMsLTE5MzAz
 NjEzMSwxOTUyNTc1MDExLC00NjQyMDc2MzMsLTM0ODU0MzkxNi
 wyMjA2MDI4NCwtOTcxMDY5MjYwLDIwMzk2MDQ3MzcsNzM1MzE5
