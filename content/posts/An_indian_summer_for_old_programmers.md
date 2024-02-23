@@ -44,14 +44,14 @@ If you are an old programmer - the kind of salt that still remembers what all th
 
 #### the old motorcycle salesman
 There is one more lesson to learn from my motorcycle-selling history. While my focus thus far has been on the saga of the many fly-by-night salespeople with their momentous rise and subsequent fall, there were others. One in particular, was an "old salesman" who had been slinging bikes since the early 1980's - let's call him Rick. Rick benefited from the bubble as much as the next, purchasing a modest house and trading in his run-down Honda Civic for a new model. There came a point where it seemed like _everyone_ was getting into the motorcycle selling game - realtors, car salespeople, even stock brokers were moonlighting with us. Rick was frustrated with this crowd - they knew nothing about the bikes they were selling, and they had no investment in the motorcycle community. 
-After the crash, Rick kept on business as usual. He had a little book that he would make calls from every day, and somehow a handful of customers would come in asking for him. When asked, he explained - it was an old Zig Ziggler tactic; every time he sold a bike to a nice person, he would write down their name, number and birthday in the book. Over 20 years he had filled it so every day was a list of birthdays, and almost every day he'd talk to at least one person looking for a motorcycle, or had a family member or friend that was. 
+After the crash, Rick kept on business as usual. He had a little book that he would make calls from every day, and somehow a handful of customers would come in asking for him. When asked, he explained - it was an old Zig Ziggler tactic; every time he sold a motorcycle to a person he enjoyed working with, he would write down that person's phone number and birthday in the book. Over 20 years he had filled the book so that every day of the year he had a list to call; and almost every day, one of those calls would need a bike or know someone that did. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzMwNTU3NCwxNDA4MzI1NzczLC0xMT
-A3OTY1ODEwLC0xMTcxMzIxMjUyLDYwMTEwOTg5OCwtNTIwMzkw
-NDQ2LDExODExNDAzMDgsLTI3NTQyNTU1MCwyNDU4OTA4OTcsLT
-EyMTM2OTgzNzQsLTEzMzExOTk3OTgsLTEwMTM5NDAxMzEsOTcy
-NzM1MTgwLC0xNzIyNzk3MzI1LC0xMDg0MzQ1NjQzLC0xOTI2OD
-YyODUzLDEyNTEwNTIwMzMsMTAxNjExOTQ1MywtMTkzMDM2MTMx
-LDE5NTI1NzUwMTFdfQ==
+eyJoaXN0b3J5IjpbLTIwODk5ODM5MzUsMTQwODMyNTc3MywtMT
+EwNzk2NTgxMCwtMTE3MTMyMTI1Miw2MDExMDk4OTgsLTUyMDM5
+MDQ0NiwxMTgxMTQwMzA4LC0yNzU0MjU1NTAsMjQ1ODkwODk3LC
+0xMjEzNjk4Mzc0LC0xMzMxMTk5Nzk4LC0xMDEzOTQwMTMxLDk3
+MjczNTE4MCwtMTcyMjc5NzMyNSwtMTA4NDM0NTY0MywtMTkyNj
+g2Mjg1MywxMjUxMDUyMDMzLDEwMTYxMTk0NTMsLTE5MzAzNjEz
+MSwxOTUyNTc1MDExXX0=
 -->
