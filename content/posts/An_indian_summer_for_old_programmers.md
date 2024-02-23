@@ -23,9 +23,10 @@ For our purposes let's focus on statistical models, language models, and machine
 
 - these founders are young, VCs love to back ambitous and inexperienced people
 - these innovators are achedemics and they are applying briliant ideas with not great code
-- inexperience means the wrong "shiny objects" are catching their eyes. Frameworks that should be focused on making the LLM interaction robust, polished, reliable, and with an excellent developer experience, are instead focused on adding API connections and provi
+- inexperience means the wrong "shiny objects" are catching their eyes. Frameworks that should be focused on making the LLM interaction robust, polished, reliable, and with an excellent developer experience, are instead focused on adding API connections and providers - they are still excited about what "coding can do" and missing that the new tool is what needs focus 
+- What we need is seasoned software patterns and abstractions applied to create durable frameworks. what the L
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NjI2NTYwOCwtMTA4NDM0NTY0MywtMT
+eyJoaXN0b3J5IjpbLTE1MDk0MTc4OSwtMTA4NDM0NTY0MywtMT
 kyNjg2Mjg1MywxMjUxMDUyMDMzLDEwMTYxMTk0NTMsLTE5MzAz
 NjEzMSwxOTUyNTc1MDExLC00NjQyMDc2MzMsLTM0ODU0MzkxNi
 wyMjA2MDI4NCwtOTcxMDY5MjYwLDIwMzk2MDQ3MzcsNzM1MzE5
