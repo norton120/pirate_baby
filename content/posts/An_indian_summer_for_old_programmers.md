@@ -40,17 +40,17 @@ First, meta-programming and framework building are hard. Really hard. They are t
 
 Secondly, I believe that there would be a glut of hyper-talented, reasonably experienced, lightly seasoned younger Software Engineers on the market today, had it not been for (F/M)AANG and their big tech ilk swooping in like the spacecraft from WAL-E to pacify and infantalize huge swaths of dev talent. Are there remarkably bright, highly skilled 26-year-olds that escaped from Google with more knowledge and experience than I ever will posses? Absolutely. But there are far fewer of them than should be, given the spike in popularity of CS degrees and the proliferation of boot camps, online programs, and free resources now available. Old programmers owe this good fortune to the opulent insanity of the last decade; every excess Engineer Facebook hired only to keep them off the market, rotting without work, is one less seasoned programmer on the market today. Junior devs that came of age in the 20/80 work/life "balance" of far too many tech teams are still junior devs today, because that lack of seat time translated into a lack of skills progression. 
 
-If you are an old programmer - the kind of salt that still remembers what all the letters in SOLID stand for, that once had _Patterns of Enterprise Application Architecture_ on your nightstand; the kind of programmer that 
+If you are an old programmer - the kind of salt that still remembers what all the letters in SOLID stand for, that once had _Patterns of Enterprise Application Architecture_ on your nightstand, that actually understands DNS - then this is your call to service. Put down your "world's greate
 
 #### the old motorcycle salesman
 - rickman and his little book of birthdays
 - what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NzIxNTQ3OSw2MDExMDk4OTgsLTUyMD
-M5MDQ0NiwxMTgxMTQwMzA4LC0yNzU0MjU1NTAsMjQ1ODkwODk3
-LC0xMjEzNjk4Mzc0LC0xMzMxMTk5Nzk4LC0xMDEzOTQwMTMxLD
-k3MjczNTE4MCwtMTcyMjc5NzMyNSwtMTA4NDM0NTY0MywtMTky
-Njg2Mjg1MywxMjUxMDUyMDMzLDEwMTYxMTk0NTMsLTE5MzAzNj
-EzMSwxOTUyNTc1MDExLC00NjQyMDc2MzMsLTM0ODU0MzkxNiwy
-MjA2MDI4NF19
+eyJoaXN0b3J5IjpbLTE3OTk0MDMwNzAsNjAxMTA5ODk4LC01Mj
+AzOTA0NDYsMTE4MTE0MDMwOCwtMjc1NDI1NTUwLDI0NTg5MDg5
+NywtMTIxMzY5ODM3NCwtMTMzMTE5OTc5OCwtMTAxMzk0MDEzMS
+w5NzI3MzUxODAsLTE3MjI3OTczMjUsLTEwODQzNDU2NDMsLTE5
+MjY4NjI4NTMsMTI1MTA1MjAzMywxMDE2MTE5NDUzLC0xOTMwMz
+YxMzEsMTk1MjU3NTAxMSwtNDY0MjA3NjMzLC0zNDg1NDM5MTYs
+MjIwNjAyODRdfQ==
 -->
