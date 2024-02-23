@@ -21,7 +21,7 @@ During these "dark times", OpenAI went from $29B to over $80B in value. 20 new A
 But remember I called this moment a moment of opportunity. Not an opportunity for a short-lived buck, but to carve out a soft landing and safe passage into the sensible world to come. This is not an opportunity for everyone; in fact, the disadvantages that make it untennable by so many people in the Engineering field is part of what makes it an opportunity. But opportunities tend to be like that - and if this one does not favor you, then the next very well might. 
 For our purposes let's focus on statistical models, language models, and machine learning implementations. If you look past the generative AI hype and ask what the larger set of AI tools offer, the answer is pretty simple - these tools give you a way to make computers do things that are really hard (or functionally impossible) to do without them. For a seasoned programmer this is not a new paradigm; every time you have adopted a new tool or learned a new language, it was because doing so expanded your plane of influence. Consider: at some early point in your career, you probably wanted to keep state between runs of your program but didn't know how. So you learned how to interact with a database.  Instantly, something that was impossible before (saving state) was now quite reasonable. It wasn't free knowledge or magic - adding state to a program (along with the complexity of database adapters and idiosyncrasies) introduces new challenges, new elements for you to master in your design. But this _ability_ of your program was unblocked. 
 Today, you might want the results from your program to improve based on feedback from users. So you learn how to create an ML training loop, applying user-provided scores to a dataset which is fed back into the training cycle. Instantly, something that was impossible before (progressive self-improvement of your program's output) is now quite reasonable.  
-The database example has useful parallels; in the late 1980's database innovation  came from commercial closed-source powerhouses like Microsoft SQL Server and Oracle, and OSS projects like Postgresql (and later MySQL). With the focus on OOP during the dot-com era, the first ORM and MVC patterns (both in Smalltalk) arrived in 1995. Even so, by 2004 many of us were building PHP PDO models that amounted to 10,000 line bricks of stringified SQL queries. The proliferation of MVC + ORM frameworks like Spring, Ruby on Rails and Django did not introduce any revolutionary database technology, nor did they represent a leap forward in computer science. They leveraged a very different technology, _application design principals_, and fostered a leap forward in the _developer experience_. The generative AI landscape is today suffers from the same: flush in technology and 
+The database example has useful parallels; in the late 1980's database innovation  came from commercial closed-source powerhouses like Microsoft SQL Server and Oracle, and OSS projects like Postgresql (and later MySQL). With the focus on OOP during the dot-com era, the first ORM and MVC patterns (both in Smalltalk) arrived in 1995. Even so, by 2004 many of us were building PHP PDO models that amounted to 10,000 line bricks of stringified SQL queries. The proliferation of MVC + ORM frameworks like Spring, Ruby on Rails and Django did not introduce any revolutionary database technology, nor did they represent a leap forward in computer science. They leveraged a very different technology, _application design principals_, and fostered a leap forward in the _developer experience_. The generative AI landscape is today suffers from the same challenges as post-dot-com web development: flush in technology, pale in structure 
 
 
 
@@ -45,11 +45,11 @@ new release from Instructor on Friday - I used this package in an LLM project la
 - rickman and his little book of birthdays
 - what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MTI5MTM4LDI0NTg5MDg5NywtMTIxMz
-Y5ODM3NCwtMTMzMTE5OTc5OCwtMTAxMzk0MDEzMSw5NzI3MzUx
-ODAsLTE3MjI3OTczMjUsLTEwODQzNDU2NDMsLTE5MjY4NjI4NT
-MsMTI1MTA1MjAzMywxMDE2MTE5NDUzLC0xOTMwMzYxMzEsMTk1
-MjU3NTAxMSwtNDY0MjA3NjMzLC0zNDg1NDM5MTYsMjIwNjAyOD
-QsLTk3MTA2OTI2MCwyMDM5NjA0NzM3LDczNTMxOTM1NCwxMjYx
-MjI0MjhdfQ==
+eyJoaXN0b3J5IjpbMTQ4NDMwNzQ4NCwyNDU4OTA4OTcsLTEyMT
+M2OTgzNzQsLTEzMzExOTk3OTgsLTEwMTM5NDAxMzEsOTcyNzM1
+MTgwLC0xNzIyNzk3MzI1LC0xMDg0MzQ1NjQzLC0xOTI2ODYyOD
+UzLDEyNTEwNTIwMzMsMTAxNjExOTQ1MywtMTkzMDM2MTMxLDE5
+NTI1NzUwMTEsLTQ2NDIwNzYzMywtMzQ4NTQzOTE2LDIyMDYwMj
+g0LC05NzEwNjkyNjAsMjAzOTYwNDczNyw3MzUzMTkzNTQsMTI2
+MTIyNDI4XX0=
 -->
