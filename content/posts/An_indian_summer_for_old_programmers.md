@@ -29,7 +29,7 @@ The crop of OSS generative AI projects fall largely into one of two categories: 
 
 The mostly academic projects are driven by (no surprise here) data-focused researchers in academia. Projects like [MemGPT](https://memgpt.ai/) are filled with technically brilliant concepts and truly revolutionary solutions to computing problems. What they lack is design patterns, implementation strategy, or any sense of a cohesive developer API. These are typically pseudocode-that-runs, a whiteboard thought exercise in how a solution _might_ work squeezed into production. MemGPT is not a framework or a library, it is an exciting proof-of-concept. It needs veteran programmers to think about what a framework for this technology would look like, and then implement that. The change agent here will be a David Heinemeier Hansson, not an Alan Turing. 
 
-The mostly inexperienced projects are motivated, fast-moving, and entirely focused on the wrong shiny objects. These are very high-profile, generally VC backed endeavors. They tout their number of "tool integrations" - i.e. the number of API wrappers they have plugged into the codebase - as the benchmark by which they compete.  
+The mostly inexperienced projects are motivated, fast-moving, and entirely focused on the wrong shiny objects. These are very high-profile, generally VC backed endeavors. They tout their number of "tool integrations" - i.e. how many API wrappers they have plugged into the code base - as the benchmark by which they compete. This would make sense in a world where the core of the problem space - prodc 
 
 
 - these founders are young, VCs love to back ambitous and inexperienced people
@@ -46,7 +46,7 @@ The mostly inexperienced projects are motivated, fast-moving, and entirely focus
 - rickman and his little book of birthdays
 - what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NjgwMTU5MiwyNDU4OTA4OTcsLTEyMT
+eyJoaXN0b3J5IjpbLTQxODMwOTI0NCwyNDU4OTA4OTcsLTEyMT
 M2OTgzNzQsLTEzMzExOTk3OTgsLTEwMTM5NDAxMzEsOTcyNzM1
 MTgwLC0xNzIyNzk3MzI1LC0xMDg0MzQ1NjQzLC0xOTI2ODYyOD
 UzLDEyNTEwNTIwMzMsMTAxNjExOTQ1MywtMTkzMDM2MTMxLDE5
