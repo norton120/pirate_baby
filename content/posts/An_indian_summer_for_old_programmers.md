@@ -47,9 +47,9 @@ There is one more lesson to learn from my motorcycle-selling history. While my f
 After the crash, Rick left his manager-of-managers role and went back to selling bikes. He had a little book that he would make calls from every day, and somehow a handful of customers would come in asking for him. When asked, he explained - it was an old Zig Ziggler tactic; every time he sold a motorcycle to a person he enjoyed working with, he would write down that person's phone number and birthday in the book. Over a span of 20 years he filled the book until every day provided him a list of calls to make - and almost every day's list provided at least one customer who needed a bike, or knew someone that did.  
 Rick the "old salesman" was there in the before-times. He was there for the crazy excess, and he reaped the benefits (within reason). He was there for the Indian summer, and smartly re-positioned himself while the rest squandered the opportunity, and he comfortably settled into the new normal of motorcycle sales, which had no place for the rest of us (including myself). 
 
-The motorcycle industry is better with guys like Rick selling bikes, and Arti
+The motorcycle industry is better with guys like Rick selling bikes, and Artificial Intelligence Software will be better with the guidance and grit of old programmers. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDAwNTE5Niw3NDM5MTY5MCw3OTU4Mz
+eyJoaXN0b3J5IjpbLTYzNDYyMDA3NCw3NDM5MTY5MCw3OTU4Mz
 E2NTAsLTIwODk5ODM5MzUsMTQwODMyNTc3MywtMTEwNzk2NTgx
 MCwtMTE3MTMyMTI1Miw2MDExMDk4OTgsLTUyMDM5MDQ0NiwxMT
 gxMTQwMzA4LC0yNzU0MjU1NTAsMjQ1ODkwODk3LC0xMjEzNjk4
