@@ -16,13 +16,13 @@ We all know the stories. (M/F)AANG employees outraged that their favorite cereal
 We know these stories too. (M/F)AANG tech layoffs in the range of 40,000 people (as of 2/24), with more likely to come. 320,000+ layed off across tech in 23/24. VC funding at the lowest point in 6 years, and 62% lower than the funding peak of 2022. Engineers that had only recently settled into cushy management jobs suddenly upended, taking consulting or contract work to fill the gap. Post after painful social media post from displaced big tech Engineers who can't seem to find that next role. And a looming fear of Artificial Intelligence that might quickly automate away once thought "sacred" and un-automatable skills.
 
 #### The Indian summer
-During these "dark times", OpenAI went from $29B to over $80B in value. 20 new AI unicorns were minted in 2023 (the slowest year for new unicorns in half a decade). Opportunities abound for Engineers to join the AI cash grab, typically by wrapping the OpenAI api in a few lines of javascript and running to the nearest investor 
+During these "dark times", OpenAI went from $29B to over $80B in value. 20 new AI unicorns were minted in 2023 (the slowest year for new unicorns in half a decade). Opportunities abound for Engineers to join the AI cash grab, typically by wrapping the OpenAI api in a few lines of javascript and running to the nearest investor with an open wallet. "Look my app summerizes {en
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDAyODYzNSwxMDE2MTE5NDUzLC0xOT
-MwMzYxMzEsMTk1MjU3NTAxMSwtNDY0MjA3NjMzLC0zNDg1NDM5
-MTYsMjIwNjAyODQsLTk3MTA2OTI2MCwyMDM5NjA0NzM3LDczNT
-MxOTM1NCwxMjYxMjI0MjgsOTczMTUzMTc5LC0xODI2MzA5MTMz
-LC0xMTk0NDY0NzM1LDE5MTAwOTQ1MjQsLTEwMjQ5MDcyMDcsLT
-IwMDY5MjA1OTgsMTYwMzUxOTI1MiwyNjQ1MDQ0MzcsLTQ3MDI4
-MTI3MV19
+eyJoaXN0b3J5IjpbLTE3NTAxODMzODUsMTAxNjExOTQ1MywtMT
+kzMDM2MTMxLDE5NTI1NzUwMTEsLTQ2NDIwNzYzMywtMzQ4NTQz
+OTE2LDIyMDYwMjg0LC05NzEwNjkyNjAsMjAzOTYwNDczNyw3Mz
+UzMTkzNTQsMTI2MTIyNDI4LDk3MzE1MzE3OSwtMTgyNjMwOTEz
+MywtMTE5NDQ2NDczNSwxOTEwMDk0NTI0LC0xMDI0OTA3MjA3LC
+0yMDA2OTIwNTk4LDE2MDM1MTkyNTIsMjY0NTA0NDM3LC00NzAy
+ODEyNzFdfQ==
 -->
