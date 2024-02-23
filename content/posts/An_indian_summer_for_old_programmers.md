@@ -10,7 +10,7 @@ The most money I have ever made was my years spent selling motorcycles. Software
 I feel I will tell a very similar story of Software/Data/DevOps (et al) Engineering in the not-to-distant future. A slow-burning period of unsustainable gluttony followed immediately by a devastating correction, then a moment of opportunity, mistaken by most to be a return of "the good times", and finally, a long plunge into sensible reality. The first two parts, past decadence and inevitable correction, are common narratives at the moment so I'll only touch on them enough to set the stage. What I think matters today, and the heart of this writing, is a dissection of that critical third part - the window of opportunity - and the sanity that is to follow. 
 
 #### It was the best of times
-We all know the stories of zero-rate excess. (M/F)AANG employees outraged that their favorite cereal is no longer stocked at the closest snack station, CompSci grads dumbfounded that their first job would expect a five-day work week. Then there are the more mundane (but no less tell-tale) evidences: recruiters hounding anyone titled "Developer" with sight-unseen six-figure job offers, lavish office perks that sounded less like work and more like a cruise ship ("we have a climbing wall!"). Rock-star impunity derived from an unspoken understanding of who was "the talent," in great demand and terribly difficult to replace. And of course, a shared cognative dissidence in ignoring developer ROI (and lack there of).  To call the last decade of Software Engineers the bourgeoisie would be innacurate only in that Aristocracy was often more befitting. 
+We all know the stories of zero-rate excess. (M/F)AANG employees outraged that their favorite cereal is no longer stocked at the closest snack station, CompSci grads dumbfounded that their first job would expect a five-day work week. Then there are the more mundane (but no less tell-tale) evidences: recruiters hounding anyone titled "Developer" with sight-unseen six-figure job offers, lavish office perks that sounded more like a cruise ship than a place of business ("we have a climbing wall!"). Rock-star impunity derived from an unspoken understanding of who was "the talent," in great demand and terribly difficult to replace. And of course, a shared cognative dissidence ignoring developer ROI (and lack there of).  To call the last decade of Software Engineers the bourgeoisie would be innacurate only in that Aristocracy was often more befitting. 
 
 #### It was the worst of times
 We know these stories too. (M/F)AANG tech layoffs in the range of 40,000 people (as of 2/24), with more likely to come. 320,000+ layed off across tech in 23/24. VC funding at the lowest point in 6 years, and 62% lower than the funding peak of 2022. Engineers that had only recently settled into cushy management jobs suddenly upended, taking consulting or contract work to fill the gap. Post after painful social media post from displaced big tech Engineers who can't seem to find that next role. And a looming fear of Artificial Intelligence that might quickly automate away once thought "sacred" and un-automatable skills.
@@ -49,11 +49,11 @@ Rick the "old salesman" was there in the before-times. He was there for the craz
 
 The motorcycle industry is better with guys like Rick selling bikes, and Artificial Intelligence Software will be better with the guidance and grit of old programmers. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NzUwOTExOSwtMTk2NzIwNDQ5MSw1Mz
-g2MDk4NjYsLTYzNDYyMDA3NCw3NDM5MTY5MCw3OTU4MzE2NTAs
-LTIwODk5ODM5MzUsMTQwODMyNTc3MywtMTEwNzk2NTgxMCwtMT
-E3MTMyMTI1Miw2MDExMDk4OTgsLTUyMDM5MDQ0NiwxMTgxMTQw
-MzA4LC0yNzU0MjU1NTAsMjQ1ODkwODk3LC0xMjEzNjk4Mzc0LC
-0xMzMxMTk5Nzk4LC0xMDEzOTQwMTMxLDk3MjczNTE4MCwtMTcy
-Mjc5NzMyNV19
+eyJoaXN0b3J5IjpbLTE0NzE2Njg3MzgsLTE5NjcyMDQ0OTEsNT
+M4NjA5ODY2LC02MzQ2MjAwNzQsNzQzOTE2OTAsNzk1ODMxNjUw
+LC0yMDg5OTgzOTM1LDE0MDgzMjU3NzMsLTExMDc5NjU4MTAsLT
+ExNzEzMjEyNTIsNjAxMTA5ODk4LC01MjAzOTA0NDYsMTE4MTE0
+MDMwOCwtMjc1NDI1NTUwLDI0NTg5MDg5NywtMTIxMzY5ODM3NC
+wtMTMzMTE5OTc5OCwtMTAxMzk0MDEzMSw5NzI3MzUxODAsLTE3
+MjI3OTczMjVdfQ==
 -->
