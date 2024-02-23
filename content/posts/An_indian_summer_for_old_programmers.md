@@ -13,9 +13,9 @@ I feel I'll tell a very similar story of Software/Data/DevOps (et al) Engineerin
 We all know the stories. (M/F)AANG employees outraged that their favorite cereal is no longer stocked at the closest snack station during company all-hands, and CompSci grads dumbfounded that their first job would expect a five-day work week. Then the more mundane (but no less tell-tale) evidence; recruiters hounding anyone titled "developer" day and night with six-figure job offers, lavish perks that sometimes sounded less like work and more like a cruise ship ("we have a climbing wall!"). Rock-star impunity derived from an unspoken understanding of who was "the talent," in great demand and terribly difficult to replace. And of course, a shared cognative dissidence in ignoring developer ROI (and lack there of).  To call the last decade of Software Engineers the bourgeoisie would be innacurate only in that Aristocracy was often more befitting. 
 
 #### It was the worst of times
-We know these stories too. (M/F)AANG tech layoffs in the range of 40,000 people (as of 2/24), with more likely to come. 320,000+ layed off across tech in 23/24. VC funding at the lowest point in 6 years, and 62% lower than the funding peak of 2022. Engineers that had only recently settled into cushy management jobs suddenly upended, taking consulting or contract work to fill the gap. Post after painful post from displaced Engineers from big tech that can't seem to find the next role. 
+We know these stories too. (M/F)AANG tech layoffs in the range of 40,000 people (as of 2/24), with more likely to come. 320,000+ layed off across tech in 23/24. VC funding at the lowest point in 6 years, and 62% lower than the funding peak of 2022. Engineers that had only recently settled into cushy management jobs suddenly upended, taking consulting or contract work to fill the gap. Post after painful post from displaced Engineers from big tech that can't seem to find the next role. And a looming fear of an era of Artificial Intelligence that might quickly 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxOTU0NjYwOSwxOTUyNTc1MDExLC00Nj
+eyJoaXN0b3J5IjpbMTgyMDM5NzM3OCwxOTUyNTc1MDExLC00Nj
 QyMDc2MzMsLTM0ODU0MzkxNiwyMjA2MDI4NCwtOTcxMDY5MjYw
 LDIwMzk2MDQ3MzcsNzM1MzE5MzU0LDEyNjEyMjQyOCw5NzMxNT
 MxNzksLTE4MjYzMDkxMzMsLTExOTQ0NjQ3MzUsMTkxMDA5NDUy
