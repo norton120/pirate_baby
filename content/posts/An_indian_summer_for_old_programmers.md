@@ -23,13 +23,13 @@ For our purposes let's focus on statistical models, language models, and machine
 
 - these founders are young, VCs love to back ambitous and inexperienced people
 - these innovators are achedemics and they are applying briliant ideas with not great code
-- these 
+- inexperience means the wrong "shiny objects" are catching their eyes. Frameworks that should be focused on making the LLM interaction robust, polished, reliable, and with an excellent developer experience, are instead focused on adding API connections and provi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI4NDMyMjczLC0xMDg0MzQ1NjQzLC0xOT
-I2ODYyODUzLDEyNTEwNTIwMzMsMTAxNjExOTQ1MywtMTkzMDM2
-MTMxLDE5NTI1NzUwMTEsLTQ2NDIwNzYzMywtMzQ4NTQzOTE2LD
-IyMDYwMjg0LC05NzEwNjkyNjAsMjAzOTYwNDczNyw3MzUzMTkz
-NTQsMTI2MTIyNDI4LDk3MzE1MzE3OSwtMTgyNjMwOTEzMywtMT
-E5NDQ2NDczNSwxOTEwMDk0NTI0LC0xMDI0OTA3MjA3LC0yMDA2
-OTIwNTk4XX0=
+eyJoaXN0b3J5IjpbLTU0NjI2NTYwOCwtMTA4NDM0NTY0MywtMT
+kyNjg2Mjg1MywxMjUxMDUyMDMzLDEwMTYxMTk0NTMsLTE5MzAz
+NjEzMSwxOTUyNTc1MDExLC00NjQyMDc2MzMsLTM0ODU0MzkxNi
+wyMjA2MDI4NCwtOTcxMDY5MjYwLDIwMzk2MDQ3MzcsNzM1MzE5
+MzU0LDEyNjEyMjQyOCw5NzMxNTMxNzksLTE4MjYzMDkxMzMsLT
+ExOTQ0NjQ3MzUsMTkxMDA5NDUyNCwtMTAyNDkwNzIwNywtMjAw
+NjkyMDU5OF19
 -->
