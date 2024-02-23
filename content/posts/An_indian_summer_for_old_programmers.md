@@ -47,13 +47,13 @@ There is one more lesson to learn from my motorcycle-selling history. While my f
 After the crash, Rick went back from the madcap weekend sales rushes to business as usual. He had a little book that he would make calls from every day, and somehow a handful of customers would come in asking for him. When asked, he explained - it was an old Zig Ziggler tactic; every time he sold a motorcycle to a person he enjoyed working with, he would write down that person's phone number and birthday in the book. Over a span of 20 years he filled the book until every day provided him a list of calls to make - and almost every day's list provided at least one customer who needed a bike, or knew someone that did.  
 Rick the "old salesman" was there in the before-times. He was there for the crazy excess, and he reaped the benefits (within reason). He was there for the Indian summer, and smartly re-positioned himself while the rest squandered the opportunity, and he comfortably settled into the new normal of motorcycle sales, which had no place for the rest of us (including myself). 
 
-Be the "old programmer" in this story. We need 
+The motorcycle industry is better off now with 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQzOTE2OTAsNzk1ODMxNjUwLC0yMDg5OT
-gzOTM1LDE0MDgzMjU3NzMsLTExMDc5NjU4MTAsLTExNzEzMjEy
-NTIsNjAxMTA5ODk4LC01MjAzOTA0NDYsMTE4MTE0MDMwOCwtMj
-c1NDI1NTUwLDI0NTg5MDg5NywtMTIxMzY5ODM3NCwtMTMzMTE5
-OTc5OCwtMTAxMzk0MDEzMSw5NzI3MzUxODAsLTE3MjI3OTczMj
-UsLTEwODQzNDU2NDMsLTE5MjY4NjI4NTMsMTI1MTA1MjAzMywx
-MDE2MTE5NDUzXX0=
+eyJoaXN0b3J5IjpbMTQ4Nzc0NzU1OCw3NDM5MTY5MCw3OTU4Mz
+E2NTAsLTIwODk5ODM5MzUsMTQwODMyNTc3MywtMTEwNzk2NTgx
+MCwtMTE3MTMyMTI1Miw2MDExMDk4OTgsLTUyMDM5MDQ0NiwxMT
+gxMTQwMzA4LC0yNzU0MjU1NTAsMjQ1ODkwODk3LC0xMjEzNjk4
+Mzc0LC0xMzMxMTk5Nzk4LC0xMDEzOTQwMTMxLDk3MjczNTE4MC
+wtMTcyMjc5NzMyNSwtMTA4NDM0NTY0MywtMTkyNjg2Mjg1Mywx
+MjUxMDUyMDMzXX0=
 -->
