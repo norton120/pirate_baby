@@ -1,8 +1,9 @@
 ---
 title: "An Indian Summer for Old Programmers"
-date: 2024-2-20
+date: 2023-02-20
 draft: false
 ---
+
 ### History
 The most money I have ever made was my years spent selling motorcycles. Software Engineering is by all means a lucrative profession, and I've never been the starving artist developer who prizes a compelling mission over a compelling paycheck. But the years I sold motorcycles - between 2003 and 2008 - coincided with a wave of temporary insanity in the US real estate market. Heretofore normal people became mad with the sudden access to "wealth," in the form of massive home equity reserves they could spend as easily as cash via HELOC checkbooks. And spend they did - in my dealership, to the tune of $100,000 boats, $50,000 Harley Davidsons, and $30,000 jetskis, often two or three at a time ("get the pair or the garage will look lopsided"). This was a time when ex-convict, high-school dropout motorcycle salesman would net twice the income of the Ivy-league lawyer to whom they were selling an overpriced jetboat. As salespeople we assumed this prosperity to be an eternal constant, and we planned, spent, and generally behaved accordingly. The day after Lehman Brothers toppled in the fall of 2008, I checked that the front doors of the dealership were unlocked. Twice. Before that day, I could look out the window of my elevated office and see thousands of customers spread across our dealership floor, a football field of motorcycle commerce in action. From that day forward, the customers numbered in single digits and the floor was populated only by listless, terrified salespeople. Salespeople that saw their incomes vanish and their savings evaporate; most went from six-figure incomes to earning little more than minimum wage overnight. But a short time into this barren economic winter, there was a sudden reprieve in the form of the Southern California gas price explosion. Economic forces combined to send the price of a gallon to just under $5 (that's over $7 a gallon today), and Angelinos again panicked - this time stampeding to our dealership to purchase 70-plus-mpg scooters and motorcycles. At one point we partnered with a local car dealer so customers could trade in their massive SUVs and lifted trucks (for a sizable loss) and pay top dollar for a Vespa clone. By all accounts the gravy days were back, and most of the salespeople resumed decadence as usual. But the seasoned ones, the wise old oaks (probably in their 30's now that I think of it) maintained caution. They used this temporary reprieve to right-size, to reposition themselves. One sold his mansion (there is no other word for that house) to an eager young co-worker for a sizable, but still tolerable, loss. Many left management roles and returned to the showroom floor, preparing for the impending downsizing (and reduced need for management overhead). Of course the scooter bubble quickly burst, and what was left was nearly half a decade of the worst sales and slowest rebound in the history of power sports. It was only the seasoned veterans that survived.
 
@@ -64,11 +65,11 @@ Rick the "old salesman" was there in the before-times. He was there for the craz
 
 The motorcycle industry is better with guys like Rick selling bikes, and Artificial Intelligence Software will be better with the guidance and grit of old programmers. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTQ2ODQ5ODIsLTI1MTg4MzA4MiwxOT
-E3NzA4MTc5LDEzNDQ2MDY2OTEsMTE2NDU3MDgxLC0xOTY3MjA0
-NDkxLDUzODYwOTg2NiwtNjM0NjIwMDc0LDc0MzkxNjkwLDc5NT
-gzMTY1MCwtMjA4OTk4MzkzNSwxNDA4MzI1NzczLC0xMTA3OTY1
-ODEwLC0xMTcxMzIxMjUyLDYwMTEwOTg5OCwtNTIwMzkwNDQ2LD
-ExODExNDAzMDgsLTI3NTQyNTU1MCwyNDU4OTA4OTcsLTEyMTM2
-OTgzNzRdfQ==
+eyJoaXN0b3J5IjpbLTk5NzY3NDQ1OSwtMTg1NDY4NDk4MiwtMj
+UxODgzMDgyLDE5MTc3MDgxNzksMTM0NDYwNjY5MSwxMTY0NTcw
+ODEsLTE5NjcyMDQ0OTEsNTM4NjA5ODY2LC02MzQ2MjAwNzQsNz
+QzOTE2OTAsNzk1ODMxNjUwLC0yMDg5OTgzOTM1LDE0MDgzMjU3
+NzMsLTExMDc5NjU4MTAsLTExNzEzMjEyNTIsNjAxMTA5ODk4LC
+01MjAzOTA0NDYsMTE4MTE0MDMwOCwtMjc1NDI1NTUwLDI0NTg5
+MDg5N119
 -->
