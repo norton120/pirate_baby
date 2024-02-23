@@ -22,6 +22,7 @@ But remember I called this moment a moment of opportunity. Not an opportunity fo
 For our purposes let's focus on statistical models, language models, and machine learning implementations. If you look past the generative AI hype and ask what the larger set of AI tools offer, the answer is pretty simple - these tools give you a way to make computers do things that are really hard (or functionally impossible) to do without them. For a seasoned programmer this is not a new paradigm; every time you have adopted a new tool or learned a new language, it was because doing so expanded your plane of influence. Consider: at some early point in your career, you probably wanted to keep state between runs of your program but didn't know how. So you learned how to interact with a database.  Instantly, something that was impossible before (saving state) was now quite reasonable. It wasn't free knowledge or magic - adding state to a program (along with the complexity of database adapters and idiosyncrasies) introduces new challenges, new elements for you to master in your design. But this _ability_ of your program was unblocked. 
 Today, you might want the results from your program to improve based on feedback from users. So you learn how to create an ML training loop, applying user-provided scores to a dataset which is fed back into the training cycle. Instantly, something that was impossible before (progressive self-improvement of your program's output) is now quite reasonable.  
 The database example is a useful one with many parallels; in the late 1980's we saw the development of commercial closed-source powerhouses like Microsoft SQL Server and Oracle, and OSS projects like Postgresql (and later MySQL). OOP was all the rage during the dot-com era, yet arguably the first ORM (Smalltalk's TOPLink) did not arrive until 1995. By 2004 we were still building PHP PDO models that amounted to 10,000 line walls of stringified SQL queries. 
+MVC frameworks like Ruby on Rails and Django
 
 new release from Instructor on Friday - I used this package in an LLM project last year. It monkeypatches the OpenAI sdk to allow you to pass a "required object" class, and the model will always respond with an instance of that class. Very limiting compared to tools calls (and will only ever work for OpenAI), but useful in certain contexts. This release included an ORM integration - so database objects and LLM objects can be swapped directly. I don't think this will evolve past a novelty - a service generating db objects in a vaccuum is kind of pointless, and I think you'll end up wrapping the classes and basically building them into oddly shaped tools calls to get any real value from it. But the idea does spark thoughts around what LLM software could look like, what form the abstractions could take on within a mature framework. The current crop of generative projects are filled with 10k line files and walls of text strings, because many of the creators aren't engineers and they are focused on theory. It's a lot like old php PDO models, they were also huge walls of unmaintainable (sql) text strings. If you use any ORM today you expect to be able to do things like user.save() or user.reset_password() to update a user, not database.run_query("UPDATE user SET(u.first_name, u.last_name # etc for 30 more lines. I'm super interested in this line of thinking right now - this is where software engineers are going to make the difference over academics, where we build production-quality implementations from the theories
 
@@ -42,11 +43,11 @@ new release from Instructor on Friday - I used this package in an LLM project la
 - rickman and his little book of birthdays
 - what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzExOTk3OTgsLTEwMTM5NDAxMzEsOT
-cyNzM1MTgwLC0xNzIyNzk3MzI1LC0xMDg0MzQ1NjQzLC0xOTI2
-ODYyODUzLDEyNTEwNTIwMzMsMTAxNjExOTQ1MywtMTkzMDM2MT
-MxLDE5NTI1NzUwMTEsLTQ2NDIwNzYzMywtMzQ4NTQzOTE2LDIy
-MDYwMjg0LC05NzEwNjkyNjAsMjAzOTYwNDczNyw3MzUzMTkzNT
-QsMTI2MTIyNDI4LDk3MzE1MzE3OSwtMTgyNjMwOTEzMywtMTE5
-NDQ2NDczNV19
+eyJoaXN0b3J5IjpbMTg1MjM5MzExOCwtMTMzMTE5OTc5OCwtMT
+AxMzk0MDEzMSw5NzI3MzUxODAsLTE3MjI3OTczMjUsLTEwODQz
+NDU2NDMsLTE5MjY4NjI4NTMsMTI1MTA1MjAzMywxMDE2MTE5ND
+UzLC0xOTMwMzYxMzEsMTk1MjU3NTAxMSwtNDY0MjA3NjMzLC0z
+NDg1NDM5MTYsMjIwNjAyODQsLTk3MTA2OTI2MCwyMDM5NjA0Nz
+M3LDczNTMxOTM1NCwxMjYxMjI0MjgsOTczMTUzMTc5LC0xODI2
+MzA5MTMzXX0=
 -->
