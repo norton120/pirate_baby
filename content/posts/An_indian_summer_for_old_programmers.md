@@ -26,7 +26,7 @@ The database example has useful parallels; in the late 1980's database innovatio
 
 #### What's out there
 The crop of OSS generative AI projects fall largely into one of two categories: mostly academic or mostly inexperienced. 
-The mostly academic projects are driven by (no surprise here) data-focused researchers in academia. Projects like [MemGPT](https://memgpt.ai/) are filled with technically brilliant concepts and truly revolutionary solutions to computing problems. What they lack is design patterns, implementation strategy, or any sense of a cohesive developer API. These are typically pseudocode-that-runs, a whiteboard thought exercise in how a solution _might_ work squeezed into production. MemGPT is not a framework or a library, it is an exciting proof-of-concept. It needs veteran programmers to think about what a 
+The mostly academic projects are driven by (no surprise here) data-focused researchers in academia. Projects like [MemGPT](https://memgpt.ai/) are filled with technically brilliant concepts and truly revolutionary solutions to computing problems. What they lack is design patterns, implementation strategy, or any sense of a cohesive developer API. These are typically pseudocode-that-runs, a whiteboard thought exercise in how a solution _might_ work squeezed into production. MemGPT is not a framework or a library, it is an exciting proof-of-concept. It needs veteran programmers to think about what a framework for this technology would look like, and then implement that. The change agent here will be a David Herkemer-Hanson, not a 
 
 The current crop of generative projects are filled with 10k line files and walls of text strings, because many of the creators aren't engineers and they are focused on theory. It's a lot like old php PDO models, they were also huge walls of unmaintainable (sql) text strings. I'm super interested in this line of thinking right now - this is where software engineers are going to make the difference over academics, where we build production-quality implementations from the theories
 
@@ -47,11 +47,11 @@ The current crop of generative projects are filled with 10k line files and walls
 - rickman and his little book of birthdays
 - what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4ODc3NDU4NiwyNDU4OTA4OTcsLTEyMT
-M2OTgzNzQsLTEzMzExOTk3OTgsLTEwMTM5NDAxMzEsOTcyNzM1
-MTgwLC0xNzIyNzk3MzI1LC0xMDg0MzQ1NjQzLC0xOTI2ODYyOD
-UzLDEyNTEwNTIwMzMsMTAxNjExOTQ1MywtMTkzMDM2MTMxLDE5
-NTI1NzUwMTEsLTQ2NDIwNzYzMywtMzQ4NTQzOTE2LDIyMDYwMj
-g0LC05NzEwNjkyNjAsMjAzOTYwNDczNyw3MzUzMTkzNTQsMTI2
-MTIyNDI4XX0=
+eyJoaXN0b3J5IjpbMzMyMzMwMjc3LDI0NTg5MDg5NywtMTIxMz
+Y5ODM3NCwtMTMzMTE5OTc5OCwtMTAxMzk0MDEzMSw5NzI3MzUx
+ODAsLTE3MjI3OTczMjUsLTEwODQzNDU2NDMsLTE5MjY4NjI4NT
+MsMTI1MTA1MjAzMywxMDE2MTE5NDUzLC0xOTMwMzYxMzEsMTk1
+MjU3NTAxMSwtNDY0MjA3NjMzLC0zNDg1NDM5MTYsMjIwNjAyOD
+QsLTk3MTA2OTI2MCwyMDM5NjA0NzM3LDczNTMxOTM1NCwxMjYx
+MjI0MjhdfQ==
 -->
