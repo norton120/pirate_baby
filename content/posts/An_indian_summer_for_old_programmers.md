@@ -43,14 +43,15 @@ Secondly, I believe that there would be a glut of hyper-talented, reasonably exp
 If you are an old programmer - the kind of salt that still remembers what all the letters in SOLID stand for, that once had _Patterns of Enterprise Application Architecture_ on your nightstand, that actually understands DNS - then this is your call to service. Put down the _world's greatest Regional VP_ mug, dust off the keyboard, and get into the fray of Artificial Intelligence Software Design where your skills are most needed. Help usher in the next generation of quality software, and secure your place in a rapidly approaching future. The opulent past of recent years needed software managers-of-managers, the AI-driven enterprises of tomorrow may not. 
 
 #### the old motorcycle salesman
-There is one more lesson to learn from my motorcycle-selling history. While my focus thus far has been on the saga of the many fly-by-night salespeople with their momentous rise and subsequent fall, there were others. One in particular, was an "old salesman" that had been slinging bikes since the early 1980s. He benefited from the bubble as much as the next salesperson, purchasing a modest house and trading in his old Honda Civic for a new one. During the height of the madness, everyone was getting into the motorcycle selling game - realtors, car guys, even stock brokers were moonlighting slinging bikes for cash. I remember the old salesman was frustrated with the crowd - these people knew nothing about the bikes they were selling and had no investment in the community. 
+There is one more lesson to learn from my motorcycle-selling history. While my focus thus far has been on the saga of the many fly-by-night salespeople with their momentous rise and subsequent fall, there were others. One in particular, was an "old salesman" who had been slinging bikes since the early 1980's. This salesman benefited from the bubble as much as the next, purchasing a modest house and trading in his old Honda Civic for a new one during the peak. At one point, everyone was getting into the motorcycle selling game - realtors, car guys, even stock brokers were moonlighting as bike slingers. I remember the old salesman was frustrated with this crowd - they knew nothing about the bikes they were selling, and they had no investment in the motorcycle community. 
+Ate
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg4MDI1NDIwLDYwMTEwOTg5OCwtNTIwMz
-kwNDQ2LDExODExNDAzMDgsLTI3NTQyNTU1MCwyNDU4OTA4OTcs
-LTEyMTM2OTgzNzQsLTEzMzExOTk3OTgsLTEwMTM5NDAxMzEsOT
-cyNzM1MTgwLC0xNzIyNzk3MzI1LC0xMDg0MzQ1NjQzLC0xOTI2
-ODYyODUzLDEyNTEwNTIwMzMsMTAxNjExOTQ1MywtMTkzMDM2MT
-MxLDE5NTI1NzUwMTEsLTQ2NDIwNzYzMywtMzQ4NTQzOTE2LDIy
-MDYwMjg0XX0=
+eyJoaXN0b3J5IjpbMTQ4Mjc1MDA3Myw2MDExMDk4OTgsLTUyMD
+M5MDQ0NiwxMTgxMTQwMzA4LC0yNzU0MjU1NTAsMjQ1ODkwODk3
+LC0xMjEzNjk4Mzc0LC0xMzMxMTk5Nzk4LC0xMDEzOTQwMTMxLD
+k3MjczNTE4MCwtMTcyMjc5NzMyNSwtMTA4NDM0NTY0MywtMTky
+Njg2Mjg1MywxMjUxMDUyMDMzLDEwMTYxMTk0NTMsLTE5MzAzNj
+EzMSwxOTUyNTc1MDExLC00NjQyMDc2MzMsLTM0ODU0MzkxNiwy
+MjA2MDI4NF19
 -->
