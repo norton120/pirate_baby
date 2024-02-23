@@ -49,7 +49,7 @@ The rush by countless gen AI projects to create a novel prompt templating soluti
 Between the two, I believe the opportunity moment for seasoned Developers lies within transforming the mostly academic projects first. These projects need veteran programmers to think through what a framework for this technology should look like, and execute the complex meta-programming that will make these tools accessible. Architecture decisions need to be guided by those that can consider the entire lifespan of the software and the whole of the developer experience, based on hard-won knowledge. The next true change agents in the gen AI space will be David Heinemeier Hanssons, not an Alan Turings. At the same time, evolution does not happen in a bubble and there will come a time (sooner than most think I believe) when the luster of the mostly inexperienced projects will collapse on their poorly built foundations; here too, the sage Engineers who are no strangers to righting the path of a lost ship will find their place.  
 
 #### A perfect storm of opportunity
-But why "old programmers"? What makes this demand for framework-building, design-pattern-minded Software Engineers the exclusive domain of the graybeards? AI is supposedly a young person's game, and only a few years ago we were informed that an impending army of bootcamp grads and CompSci majors were coming to commodize the field. How can I possibly argue that the face of change in AI looks more like the cast of RED than High School Musical?
+But why "old programmers"? What makes this demand for framework-building, design-pattern-minded Software Engineers the exclusive domain of the graybeards? AI is supposedly a young person's game, and only a few years ago we were informed that an impending army of bootcamp grads and CompSci majors were coming to commodize the field. How can it be argued that the next faces of change in AI look more like the cast of RED than ?
 
 First, meta-programming and framework building are hard. Really hard. They are the difference between knowing to use  `user.update(name='dave')` to save a name, and writing the underlying code that powers the `update()` function. For many CS and now bootcamp grads, programming is just a good paying job - one that they can get by fine in without any knowledge of the latter. Those same people also existed twenty years ago, but it is unlikely they are "old programmers" today. Instead, they are Sysadmins and District Managers and CSOs, people that "used to code." And there's very little risk of any of them (old or new) striking out to build the next enterprise AI framework.
 
@@ -64,11 +64,11 @@ Rick the "old salesman" was there in the before-times. He was there for the craz
 
 The motorcycle industry is better with guys like Rick selling bikes, and Artificial Intelligence Software will be better with the guidance and grit of old programmers. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1ODA3NDg3LDE5MTc3MDgxNzksMTM0ND
-YwNjY5MSwxMTY0NTcwODEsLTE5NjcyMDQ0OTEsNTM4NjA5ODY2
-LC02MzQ2MjAwNzQsNzQzOTE2OTAsNzk1ODMxNjUwLC0yMDg5OT
-gzOTM1LDE0MDgzMjU3NzMsLTExMDc5NjU4MTAsLTExNzEzMjEy
-NTIsNjAxMTA5ODk4LC01MjAzOTA0NDYsMTE4MTE0MDMwOCwtMj
-c1NDI1NTUwLDI0NTg5MDg5NywtMTIxMzY5ODM3NCwtMTMzMTE5
-OTc5OF19
+eyJoaXN0b3J5IjpbLTI1MTg4MzA4MiwxOTE3NzA4MTc5LDEzND
+Q2MDY2OTEsMTE2NDU3MDgxLC0xOTY3MjA0NDkxLDUzODYwOTg2
+NiwtNjM0NjIwMDc0LDc0MzkxNjkwLDc5NTgzMTY1MCwtMjA4OT
+k4MzkzNSwxNDA4MzI1NzczLC0xMTA3OTY1ODEwLC0xMTcxMzIx
+MjUyLDYwMTEwOTg5OCwtNTIwMzkwNDQ2LDExODExNDAzMDgsLT
+I3NTQyNTU1MCwyNDU4OTA4OTcsLTEyMTM2OTgzNzQsLTEzMzEx
+OTk3OThdfQ==
 -->
