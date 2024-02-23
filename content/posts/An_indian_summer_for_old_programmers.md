@@ -10,12 +10,14 @@ The most money I have ever made was selling motorcycles. Software Engineering is
 I feel I'll tell a very similar story of Software/Data/DevOps (et al) Engineering in the not-to-distant future. A slow-burning period of unsustainable gluttony followed immediately by a devastating correction. Then a moment of opportunity, mistaken by most to be a return of "the good times", and finally, a long plunge into sensible reality. This is a common narrative right now, and I'll only touch on the first two parts (the past decadence and the inevitable correction) enough to set the stage. What I think matters today, and the heart of this writing, is a dissection of that critical window of opportunity. 
 
 #### It was the best of times
-We all know the stories. (M/F)AANG employees outraged that their favorite cereal is no longer stocked at the closest snack station during company all-hands. CompSci grads dumbfounded that their first job would expect a five-day work week. But there is the more mundane but no less tell-tale evidence of a decade of unsustainable bousquise 
+We all know the stories. (M/F)AANG employees outraged that their favorite cereal is no longer stocked at the closest snack station during company all-hands. CompSci grads dumbfounded that their first job would expect a five-day work week. But there is the more mundane, but no less tell-tale, evidence; rec
+
+of a decade of  bourgeoisie 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0ODU0MzkxNiwyMjA2MDI4NCwtOTcxMD
-Y5MjYwLDIwMzk2MDQ3MzcsNzM1MzE5MzU0LDEyNjEyMjQyOCw5
-NzMxNTMxNzksLTE4MjYzMDkxMzMsLTExOTQ0NjQ3MzUsMTkxMD
-A5NDUyNCwtMTAyNDkwNzIwNywtMjAwNjkyMDU5OCwxNjAzNTE5
-MjUyLDI2NDUwNDQzNywtNDcwMjgxMjcxLC0yMDg4NzQ2NjEyXX
-0=
+eyJoaXN0b3J5IjpbLTE5NjEyNzgzMzIsLTM0ODU0MzkxNiwyMj
+A2MDI4NCwtOTcxMDY5MjYwLDIwMzk2MDQ3MzcsNzM1MzE5MzU0
+LDEyNjEyMjQyOCw5NzMxNTMxNzksLTE4MjYzMDkxMzMsLTExOT
+Q0NjQ3MzUsMTkxMDA5NDUyNCwtMTAyNDkwNzIwNywtMjAwNjky
+MDU5OCwxNjAzNTE5MjUyLDI2NDUwNDQzNywtNDcwMjgxMjcxLC
+0yMDg4NzQ2NjEyXX0=
 -->
