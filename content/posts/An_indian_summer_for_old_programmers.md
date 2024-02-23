@@ -33,7 +33,8 @@ The **mostly inexperienced** projects are motivated, fast-moving, and entirely f
 
 Between the two, I believe the opportunity moment for old programmers lies within transforming the mostly academic projects first. These projects need veteran programmers to think through what a framework for this technology should look like, and implement it. Framework builders, meta programmers that can consider the entire lifespan of the software and the whole of the developer experience. The change agent here will be a David Heinemeier Hansson, not an Alan Turing. But evolution does not happen in a bubble, and there will come a time (sooner than most think I believe) when the luster of the mostly inexperienced projects will decay from poorly built foundations; here too, the old programmers, who are no strangers to righting the path of a lost ship, will find their place.  
 
-#### 
+#### The perfect storm that made this possible
+I'd be
 
 #### why this is for old programmers
 - remember that surge of programmers that was supposed to commoditize us? the bootcamp armies, the shores teaming with legions of compsci majors? Well, the fortune that smiled on them also smiled on us. 
@@ -43,7 +44,7 @@ Between the two, I believe the opportunity moment for old programmers lies withi
 - rickman and his little book of birthdays
 - what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDA2ODg1OSwtMjc1NDI1NTUwLDI0NT
+eyJoaXN0b3J5IjpbMTgxNDU2NjU3OCwtMjc1NDI1NTUwLDI0NT
 g5MDg5NywtMTIxMzY5ODM3NCwtMTMzMTE5OTc5OCwtMTAxMzk0
 MDEzMSw5NzI3MzUxODAsLTE3MjI3OTczMjUsLTEwODQzNDU2ND
 MsLTE5MjY4NjI4NTMsMTI1MTA1MjAzMywxMDE2MTE5NDUzLC0x
