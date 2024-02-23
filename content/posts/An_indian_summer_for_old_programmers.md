@@ -19,10 +19,10 @@ We know these stories too. (M/F)AANG tech layoffs in the range of 40,000 people 
 During these "dark times", OpenAI went from $29B to over $80B in value. 20 new AI unicorns were minted in 2023 (the slowest year for new unicorns in half a decade). Good fortune abounds for an Engineer wishing to join the AI cash grab; typically it is as easy as wrapping the OpenAI api in a few lines of javascript and running to the nearest investor with an open wallet. "Look my app summerizes {thing}!" "My app has a personality like Joe Pesci!" and the checks pile up.
 
 But remember I called this moment a moment of opportunity. Not an opportunity for a short-lived buck, but to carve out a soft landing and safe passage into the sensible world to come. This is not an opportunity for everyone; in fact, the disadvantages that make it untennable by so many people in the Engineering field is part of what makes it an opportunity. But opportunities tend to be like that - and if this one does not favor you, then the next very well might. 
-For our purposes let's focus on statistical models, language models, and machine learning implementations. If you look past the generative AI hype and ask what the larger set of AI tools offer, the answer is pretty simple - these tools give you a way to make computers do things that were really hard (or functionally impossible) to get them to do without them. If you wanted 
+For our purposes let's focus on statistical models, language models, and machine learning implementations. If you look past the generative AI hype and ask what the larger set of AI tools offer, the answer is pretty simple - these tools give you a way to make computers do things that were really hard (or functionally impossible) to do without them. If you wanted to 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzY0ODY1MDEsLTE5MjY4NjI4NTMsMT
+eyJoaXN0b3J5IjpbLTIwNTQxNjE0MTMsLTE5MjY4NjI4NTMsMT
 I1MTA1MjAzMywxMDE2MTE5NDUzLC0xOTMwMzYxMzEsMTk1MjU3
 NTAxMSwtNDY0MjA3NjMzLC0zNDg1NDM5MTYsMjIwNjAyODQsLT
 k3MTA2OTI2MCwyMDM5NjA0NzM3LDczNTMxOTM1NCwxMjYxMjI0
