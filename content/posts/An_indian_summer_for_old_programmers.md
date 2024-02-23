@@ -20,8 +20,12 @@ During these "dark times", OpenAI went from $29B to over $80B in value. 20 new A
 
 But remember I called this moment a moment of opportunity. Not an opportunity for a short-lived buck, but to carve out a soft landing and safe passage into the sensible world to come. This is not an opportunity for everyone; in fact, the disadvantages that make it untennable by so many people in the Engineering field is part of what makes it an opportunity. But opportunities tend to be like that - and if this one does not favor you, then the next very well might. 
 For our purposes let's focus on statistical models, language models, and machine learning implementations. If you look past the generative AI hype and ask what the larger set of AI tools offer, the answer is pretty simple - these tools give you a way to make computers do things that are really hard (or functionally impossible) to do without them. 
+
+- these founders are young, VCs love to back ambitous and inexperienced people
+- these innovators are achedemics and they are applying briliant ideas with not great code
+- these 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxOTE0MDA2LC0xMDg0MzQ1NjQzLC0xOT
+eyJoaXN0b3J5IjpbODI4NDMyMjczLC0xMDg0MzQ1NjQzLC0xOT
 I2ODYyODUzLDEyNTEwNTIwMzMsMTAxNjExOTQ1MywtMTkzMDM2
 MTMxLDE5NTI1NzUwMTEsLTQ2NDIwNzYzMywtMzQ4NTQzOTE2LD
 IyMDYwMjg0LC05NzEwNjkyNjAsMjAzOTYwNDczNyw3MzUzMTkz
