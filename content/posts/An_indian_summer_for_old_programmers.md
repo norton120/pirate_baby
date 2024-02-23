@@ -18,14 +18,14 @@ We know these stories too. (M/F)AANG tech layoffs in the range of 40,000 people 
 #### The Indian summer
 During these "dark times", OpenAI went from $29B to over $80B in value. 20 new AI unicorns were minted in 2023 (the slowest year for new unicorns in half a decade). Good fortune abounds for an Engineer wishing to join the AI cash grab; typically it is as easy as wrapping the OpenAI api in a few lines of javascript and running to the nearest investor with an open wallet. "Look my app summerizes {thing}!" "My app has a personality like Joe Pesci!" and the checks pile up.
 
-But remember I called this moment a moment of opportunity. Not an opportunity for a quick and short-lived buck, but a moment to carve out a soft landing and safe passage into the sensible world to come. 
+But remember I called this moment a moment of opportunity. Not an opportunity for a short-lived buck (tho, but a moment to carve out a soft landing and safe passage into the sensible world to come. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjY4NjI4NTMsMTI1MTA1MjAzMywxMD
-E2MTE5NDUzLC0xOTMwMzYxMzEsMTk1MjU3NTAxMSwtNDY0MjA3
-NjMzLC0zNDg1NDM5MTYsMjIwNjAyODQsLTk3MTA2OTI2MCwyMD
-M5NjA0NzM3LDczNTMxOTM1NCwxMjYxMjI0MjgsOTczMTUzMTc5
-LC0xODI2MzA5MTMzLC0xMTk0NDY0NzM1LDE5MTAwOTQ1MjQsLT
-EwMjQ5MDcyMDcsLTIwMDY5MjA1OTgsMTYwMzUxOTI1MiwyNjQ1
-MDQ0MzddfQ==
+eyJoaXN0b3J5IjpbLTEwNjcyMjQ2NzQsLTE5MjY4NjI4NTMsMT
+I1MTA1MjAzMywxMDE2MTE5NDUzLC0xOTMwMzYxMzEsMTk1MjU3
+NTAxMSwtNDY0MjA3NjMzLC0zNDg1NDM5MTYsMjIwNjAyODQsLT
+k3MTA2OTI2MCwyMDM5NjA0NzM3LDczNTMxOTM1NCwxMjYxMjI0
+MjgsOTczMTUzMTc5LC0xODI2MzA5MTMzLC0xMTk0NDY0NzM1LD
+E5MTAwOTQ1MjQsLTEwMjQ5MDcyMDcsLTIwMDY5MjA1OTgsMTYw
+MzUxOTI1Ml19
 -->
