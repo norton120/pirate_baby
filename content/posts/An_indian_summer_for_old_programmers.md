@@ -43,11 +43,11 @@ Secondly, I believe that there would be a glut of hyper-talented, reasonably exp
 If you are an old programmer - the kind of salt that still remembers what all the letters in SOLID stand for, that once had _Patterns of Enterprise Application Architecture_ on your nightstand, that actually understands DNS - then this is your call to service. Put down the _world's greatest Regional VP_ mug, dust off the keyboard, and get into the fray of Artificial Intelligence Software Design where your skills are most needed. Help usher in the next generation of quality software, and secure your place in a rapidly approaching future. The opulent past of recent years needed software managers-of-managers, the AI-driven enterprises of tomorrow may not. 
 
 #### the old motorcycle salesman
-There is one more lesson to learn from my motorcycle-selling history. While my focus thus far has been on the saga of the many fly-by-night salespeople with their momentous rise and subsequent fall, there were others. One in particular, was an "old salesman" who had been slinging bikes since the early 1980's. This salesman benefited from the bubble as much as the next, purchasing a modest house and trading in his run-down Honda Civic for a new model. There came a point where it seemed like _everyone_ was getting into the motorcycle selling game - realtors, car sa, even stock brokers were moonlighting with us. The old salesman was frustrated with this crowd - they knew nothing about the bikes they were selling, and they had no investment in the motorcycle community. 
-After the crash, the old salesman  
+There is one more lesson to learn from my motorcycle-selling history. While my focus thus far has been on the saga of the many fly-by-night salespeople with their momentous rise and subsequent fall, there were others. One in particular, was an "old salesman" who had been slinging bikes since the early 1980's - let's call him Rick. Rick benefited from the bubble as much as the next, purchasing a modest house and trading in his run-down Honda Civic for a new model. There came a point where it seemed like _everyone_ was getting into the motorcycle selling game - realtors, car salespeople, even stock brokers were moonlighting with us. Rick was frustrated with this crowd - they knew nothing about the bikes they were selling, and they had no investment in the motorcycle community. 
+After the crash, Rick kept on business as usual. He had a little book that he would make calls from every day
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1Mjg0NzI5OCwtMTEwNzk2NTgxMCwtMT
+eyJoaXN0b3J5IjpbMTcyNjEwMjgyNSwtMTEwNzk2NTgxMCwtMT
 E3MTMyMTI1Miw2MDExMDk4OTgsLTUyMDM5MDQ0NiwxMTgxMTQw
 MzA4LC0yNzU0MjU1NTAsMjQ1ODkwODk3LC0xMjEzNjk4Mzc0LC
 0xMzMxMTk5Nzk4LC0xMDEzOTQwMTMxLDk3MjczNTE4MCwtMTcy
