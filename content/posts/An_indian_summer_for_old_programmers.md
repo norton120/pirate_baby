@@ -24,7 +24,7 @@ Today, you might want the results from your program to improve based on feedback
 The database example has useful parallels; in the late 1980's database innovation  came from commercial closed-source powerhouses like Microsoft SQL Server and Oracle, and OSS projects like Postgresql (and later MySQL). With the focus on OOP during the dot-com era, the first ORM and MVC patterns (both in Smalltalk) arrived in 1995. Even so, by 2004 many of us were building PHP PDO models that amounted to 10,000 line bricks of stringified SQL queries. The proliferation of MVC + ORM frameworks like Spring, Ruby on Rails and Django did not introduce any revolutionary database technology, nor did they represent a leap forward in computer science. They leveraged a very different technology, _application design principals_, and fostered a leap forward in the _developer experience_. The generative AI landscape is today suffers from the same challenges as post-dot-com web development: flush in technology, pale in structure.  
 [Instructor](https://github.com/jxnl/instructor) is a library I used in a project about a year ago which monkeypatches the OpenAI sdk to enforce response classes. They released an ORM integration last week, allowing database objects and LLM objects to be swapped directly. The project is tightly coupled to the OpenAI product and I don't see the ORM integration evolving past a novelty - a service generating db objects in a vaccuum is kind of pointless, and I think you'll end up wrapping the classes and basically building them into oddly shaped tools calls to get any real value from it. But the idea does spark thoughts around what LLM software could look like, what form the abstractions could take on within a mature framework. This is the question we should all be asking right now, and one the old programmers are uniquely able to answer. 
 The highest-profile crop of OSS generative AI projects fall largely into one of two categories: mostly academic or mostly inexperienced. 
-The mostly academic projects are driven by data-focused researchers in academia. Projects like [MemGPT](https://memgpt.ai/) are filled with technically brilliant concepts and truly revolutionary solutions to computing problems, implemented in a 
+The mostly academic projects are driven by (no surprise here) data-focused researchers in academia. Projects like [MemGPT](https://memgpt.ai/) are filled with technically brilliant concepts and truly revolutionary solutions to computing problems. What they lack is design patterns, an implementation and interface strategy, or any sense of a 
 
 The current crop of generative projects are filled with 10k line files and walls of text strings, because many of the creators aren't engineers and they are focused on theory. It's a lot like old php PDO models, they were also huge walls of unmaintainable (sql) text strings. If you use any ORM today you expect to be able to do things like user.save() or user.reset_password() to update a user, not database.run_query("UPDATE user SET(u.first_name, u.last_name # etc for 30 more lines. I'm super interested in this line of thinking right now - this is where software engineers are going to make the difference over academics, where we build production-quality implementations from the theories
 
@@ -45,11 +45,11 @@ The current crop of generative projects are filled with 10k line files and walls
 - rickman and his little book of birthdays
 - what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk3MzM0MjYzLDI0NTg5MDg5NywtMTIxMz
-Y5ODM3NCwtMTMzMTE5OTc5OCwtMTAxMzk0MDEzMSw5NzI3MzUx
-ODAsLTE3MjI3OTczMjUsLTEwODQzNDU2NDMsLTE5MjY4NjI4NT
-MsMTI1MTA1MjAzMywxMDE2MTE5NDUzLC0xOTMwMzYxMzEsMTk1
-MjU3NTAxMSwtNDY0MjA3NjMzLC0zNDg1NDM5MTYsMjIwNjAyOD
-QsLTk3MTA2OTI2MCwyMDM5NjA0NzM3LDczNTMxOTM1NCwxMjYx
-MjI0MjhdfQ==
+eyJoaXN0b3J5IjpbMjYyOTAyMDEsMjQ1ODkwODk3LC0xMjEzNj
+k4Mzc0LC0xMzMxMTk5Nzk4LC0xMDEzOTQwMTMxLDk3MjczNTE4
+MCwtMTcyMjc5NzMyNSwtMTA4NDM0NTY0MywtMTkyNjg2Mjg1My
+wxMjUxMDUyMDMzLDEwMTYxMTk0NTMsLTE5MzAzNjEzMSwxOTUy
+NTc1MDExLC00NjQyMDc2MzMsLTM0ODU0MzkxNiwyMjA2MDI4NC
+wtOTcxMDY5MjYwLDIwMzk2MDQ3MzcsNzM1MzE5MzU0LDEyNjEy
+MjQyOF19
 -->
