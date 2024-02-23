@@ -9,11 +9,13 @@ The most money I have ever made was selling motorcycles. Software Engineering is
 ### History Repeats Itself
 I feel I'll tell a very similar story of Software/Data/DevOps (et al) Engineering in the not-to-distant future. A slow-burning period of unsustainable gluttony followed immediately by a devastating correction. Then a moment of opportunity, mistaken by most to be a return of "the good times", and finally, a long plunge into sensible reality. This is a common narrative right now, and I'll only touch on the first two parts (the past decadence and the inevitable correction) enough to set the stage. What I think matters today, and the heart of this writing, is a dissection of that critical window of opportunity. 
 
-#### 
+#### It was the best of times
+It is no surprise to anyone that didn't 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIwNjAyODQsLTk3MTA2OTI2MCwyMDM5Nj
-A0NzM3LDczNTMxOTM1NCwxMjYxMjI0MjgsOTczMTUzMTc5LC0x
-ODI2MzA5MTMzLC0xMTk0NDY0NzM1LDE5MTAwOTQ1MjQsLTEwMj
-Q5MDcyMDcsLTIwMDY5MjA1OTgsMTYwMzUxOTI1MiwyNjQ1MDQ0
-MzcsLTQ3MDI4MTI3MSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEwODk0MzE2NzMsMjIwNjAyODQsLTk3MT
+A2OTI2MCwyMDM5NjA0NzM3LDczNTMxOTM1NCwxMjYxMjI0Mjgs
+OTczMTUzMTc5LC0xODI2MzA5MTMzLC0xMTk0NDY0NzM1LDE5MT
+AwOTQ1MjQsLTEwMjQ5MDcyMDcsLTIwMDY5MjA1OTgsMTYwMzUx
+OTI1MiwyNjQ1MDQ0MzcsLTQ3MDI4MTI3MSwtMjA4ODc0NjYxMl
+19
 -->
