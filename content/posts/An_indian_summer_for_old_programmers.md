@@ -19,14 +19,13 @@ We know these stories too. (M/F)AANG tech layoffs in the range of 40,000 people 
 During these "dark times", OpenAI went from $29B to over $80B in value. 20 new AI unicorns were minted in 2023 (the slowest year for new unicorns in half a decade). Good fortune abounds for an Engineer wishing to join the AI cash grab; typically it is as easy as wrapping the OpenAI api in a few lines of javascript and running to the nearest investor with an open wallet. "Look my app summerizes {thing}!" "My app has a personality like Joe Pesci!" and the checks pile up.
 
 But remember I called this moment a moment of opportunity. Not an opportunity for a short-lived buck, but to carve out a soft landing and safe passage into the sensible world to come. This is not an opportunity for everyone; in fact, the disadvantages that make it untennable by so many people in the Engineering field is part of what makes it an opportunity. But opportunities tend to be like that - and if this one does not favor you, then the next very well might. 
-For our purposes let's focus on statistical models, language models, and machine learning implementations. If you look past the generative AI hype and ask what the larger set of AI tools offer, the answer is pretty simple - these tools give you a way to make computers do things that are really hard (or functionally impossible) to do without them. Let's say you have a text input where users look up names, and you want to be able to accept imperfect names. The name in question might be "Steven" but you want to accept "Steve" or "Steve-o." Maybe you'd start with a large lookup table of possible aliases for known names, or do some standardizing and match on parts of the string `steve` and `steven`. You could probably do alright, until someone inputs "Rick" for "Richard."  With a language model that has been trained on a large body of text that natuarally includes name derivations, this now becomes trivial to implement.  
-
+For our purposes let's focus on statistical models, language models, and machine learning implementations. If you look past the generative AI hype and ask what the larger set of AI tools offer, the answer is pretty simple - these tools give you a way to make computers do things that are really hard (or functionally impossible) to do without them. Let's solve a classic problem with a new tool - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTEyMDI3NiwtMTA4NDM0NTY0MywtMT
-kyNjg2Mjg1MywxMjUxMDUyMDMzLDEwMTYxMTk0NTMsLTE5MzAz
-NjEzMSwxOTUyNTc1MDExLC00NjQyMDc2MzMsLTM0ODU0MzkxNi
-wyMjA2MDI4NCwtOTcxMDY5MjYwLDIwMzk2MDQ3MzcsNzM1MzE5
-MzU0LDEyNjEyMjQyOCw5NzMxNTMxNzksLTE4MjYzMDkxMzMsLT
-ExOTQ0NjQ3MzUsMTkxMDA5NDUyNCwtMTAyNDkwNzIwNywtMjAw
-NjkyMDU5OF19
+eyJoaXN0b3J5IjpbLTE1Njk4OTEwMjgsLTEwODQzNDU2NDMsLT
+E5MjY4NjI4NTMsMTI1MTA1MjAzMywxMDE2MTE5NDUzLC0xOTMw
+MzYxMzEsMTk1MjU3NTAxMSwtNDY0MjA3NjMzLC0zNDg1NDM5MT
+YsMjIwNjAyODQsLTk3MTA2OTI2MCwyMDM5NjA0NzM3LDczNTMx
+OTM1NCwxMjYxMjI0MjgsOTczMTUzMTc5LC0xODI2MzA5MTMzLC
+0xMTk0NDY0NzM1LDE5MTAwOTQ1MjQsLTEwMjQ5MDcyMDcsLTIw
+MDY5MjA1OThdfQ==
 -->
