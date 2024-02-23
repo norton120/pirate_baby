@@ -36,9 +36,9 @@ Between the two, I believe the opportunity moment for old programmers lies withi
 #### A perfect storm of opportunity
 But why old programmers? What makes this demand for framework-building, design-pattern-minded Software Engineers the exclusive domain of the graybeards? AI is supposedly a young person's game, and only a few years ago we were informed that an impending army of bootcamp grads and CompSci majors were coming to commodize the field. How can I possibly argue that the face of change in AI looks more like the cast of RED than High School Musical?
 
-First, meta-programming and framework building are hard. Really hard. They are the difference between knowing to use  `user.update(name='dave')` to save a name, and writing the underlying code that powers the `update()` function. For many CS and now bootcamp grads, programming is just a good paying job - one that they can get by fine in without any knowledge of the latter. Those same people also existed twenty years ago, but it is unlikely they are "old programmers" today. Instead, they are Sysadmins and District Managers and CSOs, people that "used to code." And there's very little risk of any of them (old or new) striking out to build the next enterprise AI framework
+First, meta-programming and framework building are hard. Really hard. They are the difference between knowing to use  `user.update(name='dave')` to save a name, and writing the underlying code that powers the `update()` function. For many CS and now bootcamp grads, programming is just a good paying job - one that they can get by fine in without any knowledge of the latter. Those same people also existed twenty years ago, but it is unlikely they are "old programmers" today. Instead, they are Sysadmins and District Managers and CSOs, people that "used to code." And there's very little risk of any of them (old or new) striking out to build the next enterprise AI framework.
 
-Secondly, I believe that there would be a glut of hyper-talented, accordingly experienced, and lightly seasoned younger Software Engineers had it not been for (F/M)AANG and their big tech ilk swooping in like the spacecraft from WAL-E to pacify and infantalize a large segment the next . Are there remarkably bright, talented 26-year-olds that escaped from Google with more knowledge and experience than I ever will posses? Absolutely. But there are far fewer of them than their should be, and old programmers owe that good fortune to the decadence of the last decade. Every excess Engineer Facebook hired only to keep them off the market and then let them rot without work is one less seasoned programmer on the market today. Junior devs that lived in a 20/80 work/life "balance" over the last decade are still junior devs today, because that lack of seat time translates into a lack of skills progression. 
+Secondly, I believe that there would be a glut of hyper-talented, reasonably experienced, lightly seasoned younger Software Engineers on the market today, had it not been for (F/M)AANG and their big tech ilk swooping in like the spacecraft from WAL-E to pacify and infantalize huge swaths of dev talent. Are there remarkably bright, highly skilled 26-year-olds that escaped from Google with more knowledge and experience than I ever will posses? Absolutely. But there are far fewer of them than should be, given the explosion of code and old programmers owe that good fortune to the decadence of the last decade. Every excess Engineer Facebook hired only to keep them off the market and then let them rot without work is one less seasoned programmer on the market today. Junior devs that lived in a 20/80 work/life "balance" over the last decade are still junior devs today, because that lack of seat time translates into a lack of skills progression. 
 
 
 
@@ -50,11 +50,11 @@ Secondly, I believe that there would be a glut of hyper-talented, accordingly ex
 - rickman and his little book of birthdays
 - what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxOTE1MzUxOCwxMTgxMTQwMzA4LC0yNz
-U0MjU1NTAsMjQ1ODkwODk3LC0xMjEzNjk4Mzc0LC0xMzMxMTk5
-Nzk4LC0xMDEzOTQwMTMxLDk3MjczNTE4MCwtMTcyMjc5NzMyNS
-wtMTA4NDM0NTY0MywtMTkyNjg2Mjg1MywxMjUxMDUyMDMzLDEw
-MTYxMTk0NTMsLTE5MzAzNjEzMSwxOTUyNTc1MDExLC00NjQyMD
-c2MzMsLTM0ODU0MzkxNiwyMjA2MDI4NCwtOTcxMDY5MjYwLDIw
-Mzk2MDQ3MzddfQ==
+eyJoaXN0b3J5IjpbOTM2Nzg2OTAwLDExODExNDAzMDgsLTI3NT
+QyNTU1MCwyNDU4OTA4OTcsLTEyMTM2OTgzNzQsLTEzMzExOTk3
+OTgsLTEwMTM5NDAxMzEsOTcyNzM1MTgwLC0xNzIyNzk3MzI1LC
+0xMDg0MzQ1NjQzLC0xOTI2ODYyODUzLDEyNTEwNTIwMzMsMTAx
+NjExOTQ1MywtMTkzMDM2MTMxLDE5NTI1NzUwMTEsLTQ2NDIwNz
+YzMywtMzQ4NTQzOTE2LDIyMDYwMjg0LC05NzEwNjkyNjAsMjAz
+OTYwNDczN119
 -->
