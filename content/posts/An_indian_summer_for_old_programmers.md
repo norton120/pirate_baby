@@ -40,7 +40,7 @@ First, meta-programming and framework building are hard. Really hard. They are t
 
 Secondly, I believe that there would be a glut of hyper-talented, reasonably experienced, lightly seasoned younger Software Engineers on the market today, had it not been for (F/M)AANG and their big tech ilk swooping in like the spacecraft from WAL-E to pacify and infantalize huge swaths of dev talent. Are there remarkably bright, highly skilled 26-year-olds that escaped from Google with more knowledge and experience than I ever will posses? Absolutely. But there are far fewer of them than should be, given the spike in popularity of CS degrees and the proliferation of boot camps, online programs, and free resources now available. Old programmers owe this good fortune to the opulent insanity of the last decade; every excess Engineer Facebook hired only to keep them off the market, rotting without work, is one less seasoned programmer on the market today. Junior devs that came of age in the 20/80 work/life "balance" of far too many tech teams are still junior devs today, because that lack of seat time translated into a lack of skills progression. 
 
-
+If you are a salty old programmer - the kind that still remembers what all the letters of SOLID stand fo
 
 #### why this is for old programmers
 - remember that surge of programmers that was supposed to commoditize us? the bootcamp armies, the shores teaming with legions of compsci majors? Well, the fortune that smiled on them also smiled on us. 
@@ -50,7 +50,7 @@ Secondly, I believe that there would be a glut of hyper-talented, reasonably exp
 - rickman and his little book of birthdays
 - what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NDAzOTA4MCwxMTgxMTQwMzA4LC0yNz
+eyJoaXN0b3J5IjpbMjA4MTE0OTY1MCwxMTgxMTQwMzA4LC0yNz
 U0MjU1NTAsMjQ1ODkwODk3LC0xMjEzNjk4Mzc0LC0xMzMxMTk5
 Nzk4LC0xMDEzOTQwMTMxLDk3MjczNTE4MCwtMTcyMjc5NzMyNS
 wtMTA4NDM0NTY0MywtMTkyNjg2Mjg1MywxMjUxMDUyMDMzLDEw
