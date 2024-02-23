@@ -27,14 +27,14 @@ The database example has useful parallels; in the late 1980's database innovatio
 #### What's out there
 The crop of OSS generative AI projects fall largely into one of two categories: mostly academic or mostly inexperienced. 
 
-The mostly academic projects are driven by (no surprise here) data-focused researchers in academia. Projects like [MemGPT](https://memgpt.ai/) are filled with technically brilliant concepts and truly revolutionary solutions to computing problems. What they lack is design patterns, implementation strategy, or any sense of a cohesive developer API. These are typically pseudocode-that-runs, a whiteboard thought exercise in how a solution _might_ work squeezed into production. MemGPT is not a framework or a library, it is an exciting proof-of-concept. It needs veteran programmers to think about what a framework for this technology would look like, and then implement that. The change agent here will be a David Heinemeier Hansson, not an Alan Turing. 
+The **mostly academic** projects are driven by (no surprise here) data-focused researchers in academia. Projects like [MemGPT](https://memgpt.ai/) are filled with technically brilliant concepts and truly revolutionary solutions to computing problems. What they lack is design patterns, implementation strategy, or any sense of a cohesive developer API. These are typically pseudocode-that-runs, a whiteboard thought exercise in how a solution _might_ work squeezed into production. MemGPT is not a framework or a library, it is an exciting proof-of-concept. It needs veteran programmers to think about what a framework for this technology would look like, and then implement that. The change agent here will be a David Heinemeier Hansson, not an Alan Turing. 
 
-The mostly inexperienced projects are motivated, fast-moving, and entirely focused on the wrong shiny objects. These are very high-profile, generally VC backed endeavors. They tout their number of "tool integrations" - i.e. how many API wrappers they have plugged into the code base - as the benchmark by which they compete. This might make sense many cycles in the future, after the core project capabilities are sound and bedrock-reliable - similar to the 5,000 + integrations in the `django-pakages` registry. But this approach seems most impressed with what "coding can do," focused on the novelty of giving an LLM access to Jira, and less interested in that access producing robust, polished, reliable, and ultimately useful outcomes. 
+The **mostly inexperienced** projects are motivated, fast-moving, and entirely focused on the wrong shiny objects. These are very high-profile, generally VC backed endeavors. They tout their number of "tool integrations" - i.e. how many API wrappers they have plugged into the code base - as the benchmark by which they compete. This might make sense many cycles in the future, after the core project capabilities are sound bedrock - similar to the 5,000 + integrations in the `django-pakages` registry. But this approach seems most impressed with what "coding can do," focused on the novelty of giving an LLM access to Jira, and less interested in that access producing robust, polished, reliable, and ultimately useful outcomes. 
 
 
 - these founders are young, VCs love to back ambitous and inexperienced people
 
-- inexperience means the wrong "shiny objects" are catching their eyes. Frameworks that should be focused on making the LLM interaction robust, polished, reliable, and with an excellent developer experience, are instead focused on adding API connections and providers - they are still excited about what "coding can do" and missing that the new tool is what needs focus 
+
 - What we need is seasoned software patterns and abstractions applied to create durable frameworks. what the LLM and ML worlds need right now is a Rails, or a Django, not more piles of theory code
 - This is an opportunity for old programmers. people that understand design principals and are not excited about connecting to APIs, that can think through the entire developer experience and the lifespan of the software they are writing. Framework builders.
 
@@ -46,11 +46,11 @@ The mostly inexperienced projects are motivated, fast-moving, and entirely focus
 - rickman and his little book of birthdays
 - what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MDg2NDUwMywtMjc1NDI1NTUwLDI0NT
-g5MDg5NywtMTIxMzY5ODM3NCwtMTMzMTE5OTc5OCwtMTAxMzk0
-MDEzMSw5NzI3MzUxODAsLTE3MjI3OTczMjUsLTEwODQzNDU2ND
-MsLTE5MjY4NjI4NTMsMTI1MTA1MjAzMywxMDE2MTE5NDUzLC0x
-OTMwMzYxMzEsMTk1MjU3NTAxMSwtNDY0MjA3NjMzLC0zNDg1ND
-M5MTYsMjIwNjAyODQsLTk3MTA2OTI2MCwyMDM5NjA0NzM3LDcz
-NTMxOTM1NF19
+eyJoaXN0b3J5IjpbNzE0NjI5NjI5LC0yNzU0MjU1NTAsMjQ1OD
+kwODk3LC0xMjEzNjk4Mzc0LC0xMzMxMTk5Nzk4LC0xMDEzOTQw
+MTMxLDk3MjczNTE4MCwtMTcyMjc5NzMyNSwtMTA4NDM0NTY0My
+wtMTkyNjg2Mjg1MywxMjUxMDUyMDMzLDEwMTYxMTk0NTMsLTE5
+MzAzNjEzMSwxOTUyNTc1MDExLC00NjQyMDc2MzMsLTM0ODU0Mz
+kxNiwyMjA2MDI4NCwtOTcxMDY5MjYwLDIwMzk2MDQ3MzcsNzM1
+MzE5MzU0XX0=
 -->
