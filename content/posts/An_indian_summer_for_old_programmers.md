@@ -31,10 +31,8 @@ The **mostly academic** projects are driven by (no surprise here) data-focused r
 
 The **mostly inexperienced** projects are motivated, fast-moving, and entirely focused on the wrong shiny objects. These are very high-profile, generally VC backed endeavors. They tout their number of "tool integrations" - i.e. how many API wrappers they have plugged into the code base - as the benchmark by which they compete. This might make sense many cycles in the future once the core project capabilities are sound bedrock, similar to the 5,000 + integrations in the `django-pakages` registry. But with the current trajectory, I don't foresee most of these projects ever reaching that maturity; they seem most impressed with what "coding can do," focused on the novelty of giving an LLM access to Jira, less interested in ensuring that access produces robust, polished, reliable, and ultimately useful outcomes. The rush to create novel prompt templating solutions is a fantastic example of this; if there is one thing that is a solved problem in nearly every programming language, it is "how can I generate dynamic text within templated outputs?" The answer is, the same way we generate HTML in every server-side rendered or SPA framework, and the same way we compile SQL in dbt. Understanding the difference between an unsolved problem and a problem you _personally_ have not yet solved is a critical part of experience, something that is painfully lacking in the OSS AI ecosystem today. 
 
-Between the two, I believe the opportunity moment for old programmers lies within transforming the mostly academic projects. These projects need veteran programmers to think about what a framework for this technology would look like, and then implement that. The change agent here will be a David Heinemeier Hansson, not an Alan Turing. But evolution does not happen in a bubble, and there will come a time when the false 
+Between the two, I believe the opportunity moment for old programmers lies within transforming the mostly academic projects. These projects need veteran programmers to think about what a framework for this technology would look like, and then implement that. The change agent here will be a David Heinemeier Hansson, not an Alan Turing. But evolution does not happen in a bubble, and there will come a time when the luster of the mostly inexperienced projects will decay from poorly built foundations; here too, the 
 
-
-- these founders are young, VCs love to back ambitous and inexperienced people
 
 
 - What we need is seasoned software patterns and abstractions applied to create durable frameworks. what the LLM and ML worlds need right now is a Rails, or a Django, not more piles of theory code
@@ -48,11 +46,11 @@ Between the two, I believe the opportunity moment for old programmers lies withi
 - rickman and his little book of birthdays
 - what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MTg0OTQ0OCwtMjc1NDI1NTUwLDI0NT
-g5MDg5NywtMTIxMzY5ODM3NCwtMTMzMTE5OTc5OCwtMTAxMzk0
-MDEzMSw5NzI3MzUxODAsLTE3MjI3OTczMjUsLTEwODQzNDU2ND
-MsLTE5MjY4NjI4NTMsMTI1MTA1MjAzMywxMDE2MTE5NDUzLC0x
-OTMwMzYxMzEsMTk1MjU3NTAxMSwtNDY0MjA3NjMzLC0zNDg1ND
-M5MTYsMjIwNjAyODQsLTk3MTA2OTI2MCwyMDM5NjA0NzM3LDcz
-NTMxOTM1NF19
+eyJoaXN0b3J5IjpbOTI4NDQ2Nzc3LC0yNzU0MjU1NTAsMjQ1OD
+kwODk3LC0xMjEzNjk4Mzc0LC0xMzMxMTk5Nzk4LC0xMDEzOTQw
+MTMxLDk3MjczNTE4MCwtMTcyMjc5NzMyNSwtMTA4NDM0NTY0My
+wtMTkyNjg2Mjg1MywxMjUxMDUyMDMzLDEwMTYxMTk0NTMsLTE5
+MzAzNjEzMSwxOTUyNTc1MDExLC00NjQyMDc2MzMsLTM0ODU0Mz
+kxNiwyMjA2MDI4NCwtOTcxMDY5MjYwLDIwMzk2MDQ3MzcsNzM1
+MzE5MzU0XX0=
 -->
