@@ -10,12 +10,12 @@ The most money I have ever made was selling motorcycles. Software Engineering is
 I feel I'll tell a very similar story of Software/Data/DevOps (et al) Engineering in the not-to-distant future. A slow-burning period of unsustainable gluttony followed immediately by a devastating correction. Then a moment of opportunity, mistaken by most to be a return of "the good times", and finally, a long plunge into sensible reality. This is a common narrative right now, and I'll only touch on the first two parts (the past decadence and the inevitable correction) enough to set the stage. What I think matters today, and the heart of this writing, is a dissection of that critical window of opportunity. 
 
 #### It was the best of times
-We all know the stories. (M/F)AANG employees outraged that their favorite cereal is no longer stocked at the closest snack station during company all-hands, and CompSci grads dumbfounded that their first job would expect a five-day work week. Then the more mundane (but no less tell-tale) evidence; recruiters hounding you day and night with six-figure job offers, lavish perks that sometimes sounded less like work and more like a cruise ship ("we have a climbing wall!"). Rock-star impunity derived from an unspoken understanding that you were "the talent," in great demand and terribly difficult to replace. And of course, a shared cognative dissidence of ignoring developer ROI (and lack there of).  To call the previous decade of  bourgeoisie 
+We all know the stories. (M/F)AANG employees outraged that their favorite cereal is no longer stocked at the closest snack station during company all-hands, and CompSci grads dumbfounded that their first job would expect a five-day work week. Then the more mundane (but no less tell-tale) evidence; recruiters hounding you day and night with six-figure job offers, lavish perks that sometimes sounded less like work and more like a cruise ship ("we have a climbing wall!"). Rock-star impunity derived from an unspoken understanding that you were "the talent," in great demand and terribly difficult to replace. And of course, a shared cognative dissidence of ignoring developer ROI (and lack there of).  To call the software space of the previous decade the modern bourgeoisie would be a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExOTI0NjMxLDE5NTI1NzUwMTEsLTQ2ND
-IwNzYzMywtMzQ4NTQzOTE2LDIyMDYwMjg0LC05NzEwNjkyNjAs
-MjAzOTYwNDczNyw3MzUzMTkzNTQsMTI2MTIyNDI4LDk3MzE1Mz
-E3OSwtMTgyNjMwOTEzMywtMTE5NDQ2NDczNSwxOTEwMDk0NTI0
-LC0xMDI0OTA3MjA3LC0yMDA2OTIwNTk4LDE2MDM1MTkyNTIsMj
-Y0NTA0NDM3LC00NzAyODEyNzEsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNjM2MDMzNDQsMTk1MjU3NTAxMSwtNDY0Mj
+A3NjMzLC0zNDg1NDM5MTYsMjIwNjAyODQsLTk3MTA2OTI2MCwy
+MDM5NjA0NzM3LDczNTMxOTM1NCwxMjYxMjI0MjgsOTczMTUzMT
+c5LC0xODI2MzA5MTMzLC0xMTk0NDY0NzM1LDE5MTAwOTQ1MjQs
+LTEwMjQ5MDcyMDcsLTIwMDY5MjA1OTgsMTYwMzUxOTI1MiwyNj
+Q1MDQ0MzcsLTQ3MDI4MTI3MSwtMjA4ODc0NjYxMl19
 -->
