@@ -10,14 +10,14 @@ The most money I have ever made was selling motorcycles. Software Engineering is
 I feel I'll tell a very similar story of Software/Data/DevOps (et al) Engineering in the not-to-distant future. A slow-burning period of unsustainable gluttony followed immediately by a devastating correction. Then a moment of opportunity, mistaken by most to be a return of "the good times", and finally, a long plunge into sensible reality. This is a common narrative right now, and I'll only touch on the first two parts (the past decadence and the inevitable correction) enough to set the stage. What I think matters today, and the heart of this writing, is a dissection of that critical window of opportunity. 
 
 #### It was the best of times
-We all know the stories. (M/F)AANG employees outraged that their favorite cereal is no longer stocked at the closest snack station during company all-hands. CompSci grads dumbfounded that their first job would expect a five-day work week. Then there is the more mundane (but no less tell-tale) evidence; recruiters hounding you day and night with six-figure job offers, rock-star impunity derived from an unspoken understanding: you were "the talent," in great demand and terribly difficult to replace. 
+We all know the stories. (M/F)AANG employees outraged that their favorite cereal is no longer stocked at the closest snack station during company all-hands. CompSci grads dumbfounded that their first job would expect a five-day work week. Then there is the more mundane (but no less tell-tale) evidence; recruiters hounding you day and night with six-figure job offers, lavish perks that sometimes sounded les rock-star impunity derived from an unspoken understanding that you were "the talent," in great demand and terribly difficult to replace. 
 
 of a decade of  bourgeoisie 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MjU3NTAxMSwtNDY0MjA3NjMzLC0zND
-g1NDM5MTYsMjIwNjAyODQsLTk3MTA2OTI2MCwyMDM5NjA0NzM3
-LDczNTMxOTM1NCwxMjYxMjI0MjgsOTczMTUzMTc5LC0xODI2Mz
-A5MTMzLC0xMTk0NDY0NzM1LDE5MTAwOTQ1MjQsLTEwMjQ5MDcy
-MDcsLTIwMDY5MjA1OTgsMTYwMzUxOTI1MiwyNjQ1MDQ0MzcsLT
-Q3MDI4MTI3MSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMjI2Njg5MzYxLDE5NTI1NzUwMTEsLTQ2ND
+IwNzYzMywtMzQ4NTQzOTE2LDIyMDYwMjg0LC05NzEwNjkyNjAs
+MjAzOTYwNDczNyw3MzUzMTkzNTQsMTI2MTIyNDI4LDk3MzE1Mz
+E3OSwtMTgyNjMwOTEzMywtMTE5NDQ2NDczNSwxOTEwMDk0NTI0
+LC0xMDI0OTA3MjA3LC0yMDA2OTIwNTk4LDE2MDM1MTkyNTIsMj
+Y0NTA0NDM3LC00NzAyODEyNzEsLTIwODg3NDY2MTJdfQ==
 -->
