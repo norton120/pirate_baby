@@ -43,12 +43,10 @@ Secondly, I believe that there would be a glut of hyper-talented, reasonably exp
 If you are an old programmer - the kind of salt that still remembers what all the letters in SOLID stand for, that once had _Patterns of Enterprise Application Architecture_ on your nightstand, that actually understands DNS - then this is your call to service. Put down the _world's greatest Regional VP_ mug, dust off the keyboard, and get into the fray of Artificial Intelligence Software Design where your skills are most needed. Help usher in the next generation of quality software, and secure your place in a rapidly approaching future. The opulent past of recent years needed software managers-of-managers, the AI-driven enterprises of tomorrow may not. 
 
 #### the old motorcycle salesman
-There is one more lesson to learn from my motorcycle-selling history. While my focus has been on the saga of the many fly-by-night salespeople and their mon
+There is one more lesson to learn from my motorcycle-selling history. While my focus has been on the saga of the many fly-by-night salespeople with their momentous rise and subsequent fall, there were others. One in particular, was an old salt salesman from Boston that had been slinging bikes since the early 1980s. He enjoyed the bubble as much as the next person - bought a
 
-- rickman and his little book of birthdays
-- what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY5Njk3NTYwLDYwMTEwOTg5OCwtNTIwMz
+eyJoaXN0b3J5IjpbMjE3NjUwMDI4LDYwMTEwOTg5OCwtNTIwMz
 kwNDQ2LDExODExNDAzMDgsLTI3NTQyNTU1MCwyNDU4OTA4OTcs
 LTEyMTM2OTgzNzQsLTEzMzExOTk3OTgsLTEwMTM5NDAxMzEsOT
 cyNzM1MTgwLC0xNzIyNzk3MzI1LC0xMDg0MzQ1NjQzLC0xOTI2
