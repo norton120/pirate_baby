@@ -40,17 +40,19 @@ First, meta-programming and framework building are hard. Really hard. They are t
 
 Secondly, I believe that there would be a glut of hyper-talented, reasonably experienced, lightly seasoned younger Software Engineers on the market today, had it not been for (F/M)AANG and their big tech ilk swooping in like the spacecraft from WAL-E to pacify and infantalize huge swaths of dev talent. Are there remarkably bright, highly skilled 26-year-olds that escaped from Google with more knowledge and experience than I ever will posses? Absolutely. But there are far fewer of them than should be, given the spike in popularity of CS degrees and the proliferation of boot camps, online programs, and free resources now available. Old programmers owe this good fortune to the opulent insanity of the last decade; every excess Engineer Facebook hired only to keep them off the market, rotting without work, is one less seasoned programmer on the market today. Junior devs that came of age in the 20/80 work/life "balance" of far too many tech teams are still junior devs today, because that lack of seat time translated into a lack of skills progression. 
 
-If you are an old programmer - the kind of salt that still remembers what all the letters in SOLID stand for, that once had _Patterns of Enterprise Application Architecture_ on your nightstand, that actually understands DNS - then this is your call to service. Put down the _world's greatest Regional VP_ mug, dust off the keyboard, and get into the fray of Artificial Intelligence Software Design where your skills are most needed. Help usher in a generation of good, quality software that can make This is your Indian summer, your moment of opportunity to redefine your place in a rapidly approaching future. If  
+If you are an old programmer - the kind of salt that still remembers what all the letters in SOLID stand for, that once had _Patterns of Enterprise Application Architecture_ on your nightstand, that actually understands DNS - then this is your call to service. Put down the _world's greatest Regional VP_ mug, dust off the keyboard, and get into the fray of Artificial Intelligence Software Design where your skills are most needed. Help usher in the next generation of quality software, and secure your place in a rapidly approaching future. 
+If you
+
 
 #### the old motorcycle salesman
 - rickman and his little book of birthdays
 - what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5ODY2OTM0LDYwMTEwOTg5OCwtNTIwMz
-kwNDQ2LDExODExNDAzMDgsLTI3NTQyNTU1MCwyNDU4OTA4OTcs
-LTEyMTM2OTgzNzQsLTEzMzExOTk3OTgsLTEwMTM5NDAxMzEsOT
-cyNzM1MTgwLC0xNzIyNzk3MzI1LC0xMDg0MzQ1NjQzLC0xOTI2
-ODYyODUzLDEyNTEwNTIwMzMsMTAxNjExOTQ1MywtMTkzMDM2MT
-MxLDE5NTI1NzUwMTEsLTQ2NDIwNzYzMywtMzQ4NTQzOTE2LDIy
-MDYwMjg0XX0=
+eyJoaXN0b3J5IjpbLTY4OTg0NDk3NSw2MDExMDk4OTgsLTUyMD
+M5MDQ0NiwxMTgxMTQwMzA4LC0yNzU0MjU1NTAsMjQ1ODkwODk3
+LC0xMjEzNjk4Mzc0LC0xMzMxMTk5Nzk4LC0xMDEzOTQwMTMxLD
+k3MjczNTE4MCwtMTcyMjc5NzMyNSwtMTA4NDM0NTY0MywtMTky
+Njg2Mjg1MywxMjUxMDUyMDMzLDEwMTYxMTk0NTMsLTE5MzAzNj
+EzMSwxOTUyNTc1MDExLC00NjQyMDc2MzMsLTM0ODU0MzkxNiwy
+MjA2MDI4NF19
 -->
