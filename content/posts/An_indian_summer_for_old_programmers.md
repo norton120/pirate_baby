@@ -44,10 +44,10 @@ If you are an old programmer - the kind of salt that still remembers what all th
 
 #### the old motorcycle salesman
 There is one more lesson to learn from my motorcycle-selling history. While my focus thus far has been on the saga of the many fly-by-night salespeople with their momentous rise and subsequent fall, there were others. One in particular, was an "old salesman" who had been slinging bikes since the early 1980's - let's call him Rick. Rick benefited from the bubble as much as the next, purchasing a modest house and trading in his run-down Honda Civic for a new model. There came a point where it seemed like _everyone_ was getting into the motorcycle selling game - realtors, car salespeople, even stock brokers were moonlighting with us. Rick was frustrated with this crowd - they knew nothing about the bikes they were selling, and they had no investment in the motorcycle community. 
-After the crash, Rick kept on business as usual. He had a little book that he would make calls from every day, and somehow a
+After the crash, Rick kept on business as usual. He had a little book that he would make calls from every day, and somehow a handful of customers would come in asking for him. When asked, he explained - it was an old Zig Ziggler tactic; every time he sold a bike to a nice person, he would write down their name, number and birthday in the book. Over 20 years he had filled it so every day was at least a few birthdays, and 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjE2MDkzMzcsLTExMDc5NjU4MTAsLT
+eyJoaXN0b3J5IjpbLTIxNDY5NzE2NzQsLTExMDc5NjU4MTAsLT
 ExNzEzMjEyNTIsNjAxMTA5ODk4LC01MjAzOTA0NDYsMTE4MTE0
 MDMwOCwtMjc1NDI1NTUwLDI0NTg5MDg5NywtMTIxMzY5ODM3NC
 wtMTMzMTE5OTc5OCwtMTAxMzk0MDEzMSw5NzI3MzUxODAsLTE3
