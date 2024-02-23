@@ -51,7 +51,7 @@ Between the two, I believe the opportunity moment for seasoned Developers lies w
 #### A perfect storm of opportunity
 But why "old programmers"? What makes this demand for framework-building, design-pattern-minded Software Engineers the exclusive domain of the graybeards? AI is supposedly a young person's game, and only a few years ago we were informed that an impending army of bootcamp grads and CompSci majors were coming to commodize the field. How can it be argued that the next faces of change in AI look more like the cast of RED than Silicon Valley?
 
-First, meta-programming is hard. Really hard. It is the difference between knowing to use  `user.update(name='dave')` when you want to save a name, and understanding the countless implications across an application that an `update()` function must address. Most CS and boot camp grads are not meta-programmers; they enjoy a surface understanding of the tools they use, and are happy with a business-focused career progression; they will not go on to become "old programmers." Instead, they graduate to Sysadmins and District Managers and CIOs, people that "used to code." There is very little chance that .
+First, meta-programming is hard. Really hard. It is the difference between knowing to use  `user.update(name='dave')` when you want to save a name, and understanding the implications and side effects an `update()` function must address to work as expected. Most CS and boot camp grads are not meta-programmers; they enjoy a surface understanding of the tools they use, and are happy with a business-focused career progression; they will not go on to become "old programmers." Instead, they graduate to Sysadmins and District Managers and CIOs, people that "used to code." There is very little chance that these people will strike out to change the gen AI landscape any time soon.
 
 Secondly, I believe that there would be a glut of hyper-talented, reasonably experienced, lightly seasoned younger Software Engineers on the market today, had it not been for (F/M)AANG and their big tech ilk swooping in like the spacecraft from WAL-E to pacify and infantalize huge swaths of dev talent. Are there remarkably bright, highly skilled 26-year-olds that escaped from Google with more knowledge and experience than I ever will posses? Absolutely. But there are far fewer of them than should be, given the spike in popularity of CS degrees and the proliferation of boot camps, online programs, and free resources now available. Old programmers owe this good fortune to the opulent insanity of the last decade; every excess Engineer Facebook hired only to keep them off the market, rotting without work, is one less seasoned programmer on the market today. Junior devs that came of age in the 20/80 work/life "balance" of far too many tech teams are still junior devs today, because that lack of seat time translated into a lack of skills progression. 
 
@@ -64,11 +64,11 @@ Rick the "old salesman" was there in the before-times. He was there for the craz
 
 The motorcycle industry is better with guys like Rick selling bikes, and Artificial Intelligence Software will be better with the guidance and grit of old programmers. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQzNjAzOTc3LC0yNTE4ODMwODIsMTkxNz
-cwODE3OSwxMzQ0NjA2NjkxLDExNjQ1NzA4MSwtMTk2NzIwNDQ5
-MSw1Mzg2MDk4NjYsLTYzNDYyMDA3NCw3NDM5MTY5MCw3OTU4Mz
-E2NTAsLTIwODk5ODM5MzUsMTQwODMyNTc3MywtMTEwNzk2NTgx
-MCwtMTE3MTMyMTI1Miw2MDExMDk4OTgsLTUyMDM5MDQ0NiwxMT
-gxMTQwMzA4LC0yNzU0MjU1NTAsMjQ1ODkwODk3LC0xMjEzNjk4
-Mzc0XX0=
+eyJoaXN0b3J5IjpbLTU1MDMzOTYxOSwtMjUxODgzMDgyLDE5MT
+c3MDgxNzksMTM0NDYwNjY5MSwxMTY0NTcwODEsLTE5NjcyMDQ0
+OTEsNTM4NjA5ODY2LC02MzQ2MjAwNzQsNzQzOTE2OTAsNzk1OD
+MxNjUwLC0yMDg5OTgzOTM1LDE0MDgzMjU3NzMsLTExMDc5NjU4
+MTAsLTExNzEzMjEyNTIsNjAxMTA5ODk4LC01MjAzOTA0NDYsMT
+E4MTE0MDMwOCwtMjc1NDI1NTUwLDI0NTg5MDg5NywtMTIxMzY5
+ODM3NF19
 -->
