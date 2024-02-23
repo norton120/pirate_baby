@@ -29,15 +29,11 @@ The crop of OSS generative AI projects fall largely into one of two categories: 
 
 The mostly academic projects are driven by (no surprise here) data-focused researchers in academia. Projects like [MemGPT](https://memgpt.ai/) are filled with technically brilliant concepts and truly revolutionary solutions to computing problems. What they lack is design patterns, implementation strategy, or any sense of a cohesive developer API. These are typically pseudocode-that-runs, a whiteboard thought exercise in how a solution _might_ work squeezed into production. MemGPT is not a framework or a library, it is an exciting proof-of-concept. It needs veteran programmers to think about what a framework for this technology would look like, and then implement that. The change agent here will be a David Heinemeier Hansson, not an Alan Turing. 
 
-The mostly inexperienced projects are motivated, fast-moving, and entirely focused on the wrong shiny objects. 
-
-The current crop of generative projects are filled with 10k line files and walls of text strings, because many of the creators aren't engineers and they are focused on theory. It's a lot like old php PDO models, they were also huge walls of unmaintainable (sql) text strings. I'm super interested in this line of thinking right now - this is where software engineers are going to make the difference over academics, where we build production-quality implementations from the theories
-
-
+The mostly inexperienced projects are motivated, fast-moving, and entirely focused on the wrong shiny objects. These very high-profile, generally VC backed endeavors  
 
 
 - these founders are young, VCs love to back ambitous and inexperienced people
-- these innovators are achedemics and they are applying briliant ideas with not great code
+
 - inexperience means the wrong "shiny objects" are catching their eyes. Frameworks that should be focused on making the LLM interaction robust, polished, reliable, and with an excellent developer experience, are instead focused on adding API connections and providers - they are still excited about what "coding can do" and missing that the new tool is what needs focus 
 - What we need is seasoned software patterns and abstractions applied to create durable frameworks. what the LLM and ML worlds need right now is a Rails, or a Django, not more piles of theory code
 - This is an opportunity for old programmers. people that understand design principals and are not excited about connecting to APIs, that can think through the entire developer experience and the lifespan of the software they are writing. Framework builders.
@@ -50,7 +46,7 @@ The current crop of generative projects are filled with 10k line files and walls
 - rickman and his little book of birthdays
 - what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEwMzExMTUwLDI0NTg5MDg5NywtMTIxMz
+eyJoaXN0b3J5IjpbMjQ4MTk5MDc2LDI0NTg5MDg5NywtMTIxMz
 Y5ODM3NCwtMTMzMTE5OTc5OCwtMTAxMzk0MDEzMSw5NzI3MzUx
 ODAsLTE3MjI3OTczMjUsLTEwODQzNDU2NDMsLTE5MjY4NjI4NT
 MsMTI1MTA1MjAzMywxMDE2MTE5NDUzLC0xOTMwMzYxMzEsMTk1
