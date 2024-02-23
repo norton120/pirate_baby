@@ -10,7 +10,7 @@ The most money I have ever made was my years spent selling motorcycles. Software
 I feel I will tell a very similar story of Software/Data/DevOps (et al) Engineering in the not-to-distant future. A slow-burning period of unsustainable gluttony followed immediately by a devastating correction, then a moment of opportunity, mistaken by most to be a return of "the good times", and finally, a long plunge into sensible reality. The first two parts, past decadence and inevitable correction, are common narratives at the moment so I'll only touch on them enough to set the stage. What I think matters today, and the heart of this writing, is a dissection of that critical third part - the window of opportunity - and the sanity that is to follow. 
 
 #### It was the best of times
-We all know the stories of zero-rate excess. (M/F)AANG employees outraged that their favorite cereal is no longer stocked at the closest snack station, CompSci grads dumbfounded that their first job would expect a five-day work week. Then there are the more mundane (but no less tell-tale) evidences: recruiters hounding anyone titled "Developer" with sight-unseen six-figure job offers, lavish office perks that sounded more like a cruise ship than a place of business ("we have a climbing wall!"). Rock-star impunity derived from an unspoken understanding of who was "the talent," in great demand and terribly difficult to replace. And of course, a shared cognative dissidence ignoring the lack of ROI behind it all.  To call the last decade in Software Engineering the bourgeoisie would be inaccurate only in that Aristocracy was more befitting. 
+We all know the stories of zero-rate excess. (M/F)AANG employees outraged that their favorite cereal is no longer stocked at the closest snack station, CompSci grads dumbfounded that their first job would expect a five-day work week. Then there are the more mundane (but no less tell-tale) evidences: recruiters hounding anyone titled "Developer" with sight-unseen six-figure job offers, lavish office perks that sounded more like a cruise ship than a place of business ("we have a climbing wall!"). Rock-star impunity as "the talent," in great demand and impossible to replace. And of course, a shared cognitive dissidence ignoring the lack of ROI behind it all.  
 
 #### It was the worst of times
 We know these stories too. (M/F)AANG tech layoffs in the range of 40,000 people (as of 2/24), with more likely to come. 320,000+ layed off across tech in 23/24. VC funding at the lowest point in 6 years, and 62% lower than the funding peak of 2022. Engineers that had only recently settled into cushy management jobs suddenly upended, taking consulting or contract work to fill the gap. Post after painful social media post from displaced big tech Engineers who can't seem to find that next role. And a looming fear of Artificial Intelligence that might quickly automate away once thought "sacred" and un-automatable skills.
@@ -49,11 +49,11 @@ Rick the "old salesman" was there in the before-times. He was there for the craz
 
 The motorcycle industry is better with guys like Rick selling bikes, and Artificial Intelligence Software will be better with the guidance and grit of old programmers. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDU3MDgxLC0xOTY3MjA0NDkxLDUzOD
-YwOTg2NiwtNjM0NjIwMDc0LDc0MzkxNjkwLDc5NTgzMTY1MCwt
-MjA4OTk4MzkzNSwxNDA4MzI1NzczLC0xMTA3OTY1ODEwLC0xMT
-cxMzIxMjUyLDYwMTEwOTg5OCwtNTIwMzkwNDQ2LDExODExNDAz
-MDgsLTI3NTQyNTU1MCwyNDU4OTA4OTcsLTEyMTM2OTgzNzQsLT
-EzMzExOTk3OTgsLTEwMTM5NDAxMzEsOTcyNzM1MTgwLC0xNzIy
-Nzk3MzI1XX0=
+eyJoaXN0b3J5IjpbLTE1NTI2NjYwOTIsMTE2NDU3MDgxLC0xOT
+Y3MjA0NDkxLDUzODYwOTg2NiwtNjM0NjIwMDc0LDc0MzkxNjkw
+LDc5NTgzMTY1MCwtMjA4OTk4MzkzNSwxNDA4MzI1NzczLC0xMT
+A3OTY1ODEwLC0xMTcxMzIxMjUyLDYwMTEwOTg5OCwtNTIwMzkw
+NDQ2LDExODExNDAzMDgsLTI3NTQyNTU1MCwyNDU4OTA4OTcsLT
+EyMTM2OTgzNzQsLTEzMzExOTk3OTgsLTEwMTM5NDAxMzEsOTcy
+NzM1MTgwXX0=
 -->
