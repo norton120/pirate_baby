@@ -23,12 +23,19 @@ But remember I called this a moment of opportunity. Not for a short-lived buck, 
 AI is a big space, but let's narrow that view to predictive and generative models for the sake of conversation. If you look past the generative AI hype and ask what the larger set of AI tools offer, the answer is pretty simple - these tools offer a way to make computers do things that are really hard (or functionally impossible) to do without them. For a seasoned programmer this is not a new paradigm; every time you have adopted a new tool or learned a new language, it was because doing so expanded your plane of influence. Consider: at some early point in your career, you probably wanted to keep state between runs of your program but didn't know how. So you learned how to interact with a database.  Instantly, something that was impossible before (saving state) was now quite reasonable. It wasn't free knowledge or magic - adding state to a program (along with the complexity of database adapters and idiosyncrasies) introduces new challenges, new elements for you to master in your design. But this _ability_ of your program was unlocked. 
 Today, you might want the results from your program to improve based on feedback from users. So you learn how to create an ML training cycle, applying user-provided scores to a dataset which is fed back to re-train your model. Instantly, something that was impossible before (progressive self-improvement of your program's output) is now quite reasonable.  
 
-Database and ORM evolution demonstrates a useful parallel; in the late 1980's database innovation came from commercial powerhouses like Microsoft SQL Server and Oracle, and from OSS projects like Postgresql (and later MySQL). With the focus on OOP during the dot-com era, the first ORM and MVC patterns (both in Smalltalk) arrived in 1995. Even so, in 2004 many of us were still building PHP PDO models that amounted to 10,000 lines of stringified SQL queries. When you use any ORM today, you expect to be able to do things like `user.save()` or `user.reset_password()` intuitively, and not hand-craft queries like 
+Database and ORM evolution demonstrates a useful parallel; in the late 1980's database innovation came from commercial powerhouses like Microsoft SQL Server and Oracle, and from OSS projects like Postgresql (and later MySQL). With the focus on OOP during the dot-com era, the first ORM and MVC patterns (both in Smalltalk) arrived in 1995. Even so, in 2004 many of us were still building PHP PDO models that amounted to 10,000 lines of stringified SQL queries. When you use any ORM today, you expect to be able to do things like 
+```python
+user.save()
+user.reset_password()
+``` 
+intuitively, and not hand-craft queries like 
 ```python
 database.run_query("UPDATE user SET(u.first_name, 
 									u.last_name # etc for 30 more lines`
 ```
- The proliferation of MVC + ORM frameworks like Spring, Ruby on Rails and Django did not introduce any revolutionary database technology, nor did they represent a leap forward in computer science. They leveraged a very different technology, _application design principals_, and fostered a leap forward in the _developer experience_. I see the same challenges in the generative AI landscape today as post-dot-com web development: flush with technology, pale in structure.  
+ The proliferation of MVC + ORM frameworks like Spring, Ruby on Rails and Django did not introduce any revolutionary database technology, nor did they represent a leap forward in computer science. They leveraged a very different technology, _application design principals_, and fostered a leap forward in the _developer experience_. 
+
+I see the same challenges in the generative AI landscape today as post-dot-com web development: flush with technology, pale in structure.  
 [Instructor](https://github.com/jxnl/instructor) is a library I used in a project about a year ago which monkey patches the OpenAI sdk to enforce response classes. Instructor released an ORM integration last week, allowing database objects and LLM objects to be swapped directly. The project is tightly coupled to the OpenAI product and I don't see the ORM integration evolving past a novelty - a service generating db objects in a vaccuum is kind of pointless, and I think you'll end up wrapping the classes and basically building them into oddly shaped tools calls to get any real value from it. But the idea does spark thoughts around what LLM software could look like, what form the abstractions could take on within a mature framework. This is the question we should all be asking right now, and one the old programmers are uniquely able to answer. 
 
 #### What's out there
@@ -56,7 +63,7 @@ Rick the "old salesman" was there in the before-times. He was there for the craz
 
 The motorcycle industry is better with guys like Rick selling bikes, and Artificial Intelligence Software will be better with the guidance and grit of old programmers. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NDI3MzgwNSwxMzQ0NjA2NjkxLDExNj
+eyJoaXN0b3J5IjpbLTE5NjYwOTQwOCwxMzQ0NjA2NjkxLDExNj
 Q1NzA4MSwtMTk2NzIwNDQ5MSw1Mzg2MDk4NjYsLTYzNDYyMDA3
 NCw3NDM5MTY5MCw3OTU4MzE2NTAsLTIwODk5ODM5MzUsMTQwOD
 MyNTc3MywtMTEwNzk2NTgxMCwtMTE3MTMyMTI1Miw2MDExMDk4
