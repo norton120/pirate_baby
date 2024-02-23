@@ -59,16 +59,16 @@ If you are an old programmer - the kind of salt that still remembers what the le
 
 #### the old motorcycle salesman
 There is one more story to learn from in my motorcycle-selling history. An "old salesperson" who had been slinging bikes since the early 1980's - let's call him Rick. Rick benefited from the bubble as much as the next, purchasing a modest house and trading in his run-down Honda Civic for a new model. There came a point where it seemed like _everyone_ was getting into the motorcycle selling game - realtors, car salespeople, even stock brokers were moonlighting with us. Rick was frustrated with this crowd - they knew nothing about the bikes they were selling, and they had no investment in the motorcycle community. 
-After the crash, Rick left his sales manager role and went back to selling bikes. He had a little book that he would make calls from every day, and somehow a handful of customers would come in asking for him. When asked, he explained - it was an old Zig Ziggler saltactic; every time he sold a motorcycle to a person he enjoyed working with, he would write down that person's phone number and birthday in the book. Over a span of 20 years he filled the book until every day provided him a list of calls to make - and almost every day's list provided at least one customer who needed a bike, or knew someone that did.  
-Rick the "old salesman" was there in the before-times. He was there for the crazy excess, and he reaped the benefits (within reason). He was there for the Indian summer, and smartly re-positioned himself while the rest squandered the opportunity, and he comfortably settled into the new normal of motorcycle sales, which had no place for the rest of us (including myself). 
+After the crash, Rick left his sales manager role and went back to selling bikes. He had a little book that he would make calls from every day, and somehow a handful of customers would come in asking for him. When asked, he explained - it was an old Zig Ziggler sales strategy; every time he sold a motorcycle to a person he enjoyed working with, he would write down that person's phone number and birthday in the book. Over a span of 20 years he filled the book until every day provided him a list of calls to make, people he already knew he liked - and almost every day's list provided at least one customer who needed a bike, or knew someone that did.  
+Rick the "old salesman" was there in the before-times. He was there for the crazy excess, and he reaped the benefits (within reason). He was there for the Indian summer, and smartly re-positioned himself while the rest squandered the opportunity. He comfortably settled into the new normal of motorcycle sales, which had no place for the rest of us (including myself). 
 
 The motorcycle industry is better with guys like Rick selling bikes, and Artificial Intelligence Software will be better with the guidance and grit of old programmers. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODU2Mjk5MTAsLTI1MTg4MzA4MiwxOT
-E3NzA4MTc5LDEzNDQ2MDY2OTEsMTE2NDU3MDgxLC0xOTY3MjA0
-NDkxLDUzODYwOTg2NiwtNjM0NjIwMDc0LDc0MzkxNjkwLDc5NT
-gzMTY1MCwtMjA4OTk4MzkzNSwxNDA4MzI1NzczLC0xMTA3OTY1
-ODEwLC0xMTcxMzIxMjUyLDYwMTEwOTg5OCwtNTIwMzkwNDQ2LD
-ExODExNDAzMDgsLTI3NTQyNTU1MCwyNDU4OTA4OTcsLTEyMTM2
-OTgzNzRdfQ==
+eyJoaXN0b3J5IjpbMTUzMjk4MTk4MywtMjUxODgzMDgyLDE5MT
+c3MDgxNzksMTM0NDYwNjY5MSwxMTY0NTcwODEsLTE5NjcyMDQ0
+OTEsNTM4NjA5ODY2LC02MzQ2MjAwNzQsNzQzOTE2OTAsNzk1OD
+MxNjUwLC0yMDg5OTgzOTM1LDE0MDgzMjU3NzMsLTExMDc5NjU4
+MTAsLTExNzEzMjEyNTIsNjAxMTA5ODk4LC01MjAzOTA0NDYsMT
+E4MTE0MDMwOCwtMjc1NDI1NTUwLDI0NTg5MDg5NywtMTIxMzY5
+ODM3NF19
 -->
