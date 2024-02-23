@@ -44,14 +44,14 @@ If you are an old programmer - the kind of salt that still remembers what all th
 
 #### the old motorcycle salesman
 There is one more lesson to learn from my motorcycle-selling history. While my focus thus far has been on the saga of the many fly-by-night salespeople with their momentous rise and subsequent fall, there were others. One in particular, was an "old salesman" who had been slinging bikes since the early 1980's - let's call him Rick. Rick benefited from the bubble as much as the next, purchasing a modest house and trading in his run-down Honda Civic for a new model. There came a point where it seemed like _everyone_ was getting into the motorcycle selling game - realtors, car salespeople, even stock brokers were moonlighting with us. Rick was frustrated with this crowd - they knew nothing about the bikes they were selling, and they had no investment in the motorcycle community. 
-After the crash, Rick kept on business as usual. He had a little book that he would make calls from every day, and sure enough he was the only salesperson that kept up solid numbers while the 
+After the crash, Rick kept on business as usual. He had a little book that he would make calls from every day, and somehow a
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNjg4MjA2LC0xMTA3OTY1ODEwLC0xMT
-cxMzIxMjUyLDYwMTEwOTg5OCwtNTIwMzkwNDQ2LDExODExNDAz
-MDgsLTI3NTQyNTU1MCwyNDU4OTA4OTcsLTEyMTM2OTgzNzQsLT
-EzMzExOTk3OTgsLTEwMTM5NDAxMzEsOTcyNzM1MTgwLC0xNzIy
-Nzk3MzI1LC0xMDg0MzQ1NjQzLC0xOTI2ODYyODUzLDEyNTEwNT
-IwMzMsMTAxNjExOTQ1MywtMTkzMDM2MTMxLDE5NTI1NzUwMTEs
-LTQ2NDIwNzYzM119
+eyJoaXN0b3J5IjpbLTE5MjE2MDkzMzcsLTExMDc5NjU4MTAsLT
+ExNzEzMjEyNTIsNjAxMTA5ODk4LC01MjAzOTA0NDYsMTE4MTE0
+MDMwOCwtMjc1NDI1NTUwLDI0NTg5MDg5NywtMTIxMzY5ODM3NC
+wtMTMzMTE5OTc5OCwtMTAxMzk0MDEzMSw5NzI3MzUxODAsLTE3
+MjI3OTczMjUsLTEwODQzNDU2NDMsLTE5MjY4NjI4NTMsMTI1MT
+A1MjAzMywxMDE2MTE5NDUzLC0xOTMwMzYxMzEsMTk1MjU3NTAx
+MSwtNDY0MjA3NjMzXX0=
 -->
