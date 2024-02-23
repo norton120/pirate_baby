@@ -21,7 +21,7 @@ During these "dark times", OpenAI went from $29B to over $80B in value. 20 new A
 But remember I called this moment a moment of opportunity. Not an opportunity for a short-lived buck, but to carve out a soft landing and safe passage into the sensible world to come. This is not an opportunity for everyone; in fact, the disadvantages that make it untennable by so many people in the Engineering field is part of what makes it an opportunity. But opportunities tend to be like that - and if this one does not favor you, then the next very well might. 
 For our purposes let's focus on statistical models, language models, and machine learning implementations. If you look past the generative AI hype and ask what the larger set of AI tools offer, the answer is pretty simple - these tools give you a way to make computers do things that are really hard (or functionally impossible) to do without them. For a seasoned programmer this is not a new paradigm; every time you have adopted a new tool or learned a new language, it was because doing so expanded your plane of influence. Consider: at some early point in your career, you probably wanted to keep state between runs of your program but didn't know how. So you learned how to interact with a database.  Instantly, something that was impossible before (saving state) was now quite reasonable. It wasn't free knowledge or magic - adding state to a program (along with the complexity of database adapters and idiosyncrasies) introduces new challenges, new elements for you to master in your design. But this _ability_ of your program was unblocked. 
 Today, you might want the results from your program to improve based on feedback from users. So you learn how to create an ML training loop, applying user-provided scores to a dataset which is fed back into the training cycle. Instantly, something that was impossible before (progressive self-improvement of your program's output) is now quite reasonable.  
-The database example is a useful one with many parallels; in the late 1980's we saw the development of commercial closed-source powerhouses like Microsoft SQL Server and Oracle and OSS projects like Postgresql (and later MySQL). 
+The database example is a useful one with many parallels; in the late 1980's we saw the development of commercial closed-source powerhouses like Microsoft SQL Server and Oracle, and OSS projects like Postgresql (and later MySQL). OOP was all the rage and ushered in 
 
 - these founders are young, VCs love to back ambitous and inexperienced people
 - these innovators are achedemics and they are applying briliant ideas with not great code
@@ -37,7 +37,7 @@ The database example is a useful one with many parallels; in the late 1980's we 
 - rickman and his little book of birthdays
 - what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDY3NzA2OSwtMTAxMzk0MDEzMSw5Nz
+eyJoaXN0b3J5IjpbLTM0MzI0NTExMywtMTAxMzk0MDEzMSw5Nz
 I3MzUxODAsLTE3MjI3OTczMjUsLTEwODQzNDU2NDMsLTE5MjY4
 NjI4NTMsMTI1MTA1MjAzMywxMDE2MTE5NDUzLC0xOTMwMzYxMz
 EsMTk1MjU3NTAxMSwtNDY0MjA3NjMzLC0zNDg1NDM5MTYsMjIw
