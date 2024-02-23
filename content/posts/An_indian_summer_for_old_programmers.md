@@ -19,7 +19,9 @@ We know these stories too. (M/F)AANG tech layoffs in the range of 40,000 people 
 During these "dark times", OpenAI went from $29B to over $80B in value. 20 new AI unicorns were minted in 2023 (the slowest year for new unicorns in half a decade). Good fortune abounds for an Engineer wishing to join the AI cash grab; typically it is as easy as wrapping the OpenAI api in a few lines of javascript and running to the nearest investor with an open wallet. "Look my app summerizes {thing}!" "My app has a personality like Joe Pesci!" and the checks pile up.
 
 But remember I called this moment a moment of opportunity. Not an opportunity for a short-lived buck, but to carve out a soft landing and safe passage into the sensible world to come. This is not an opportunity for everyone; in fact, the disadvantages that make it untennable by so many people in the Engineering field is part of what makes it an opportunity. But opportunities tend to be like that - and if this one does not favor you, then the next very well might. 
-For our purposes let's focus on statistical models, language models, and machine learning implementations. If you look past the generative AI hype and ask what the larger set of AI tools offer, the answer is pretty simple - these tools give you a way to make computers do things that are really hard (or functionally impossible) to do without them. For a seasoned programmer this is not a new paradigm; every time you have adopted a new tool or learned a new language, it was because doing so expanded your plane of influence. Consider: at some early point in your career, you probably wanted to keep state between runs of your program but didn't know how. So you learned how to interact with a database.  Instantly, something that was impossible before (saving state) was now quite reasonable. It wasn't free knowledToday you might want to improve the results of 
+For our purposes let's focus on statistical models, language models, and machine learning implementations. If you look past the generative AI hype and ask what the larger set of AI tools offer, the answer is pretty simple - these tools give you a way to make computers do things that are really hard (or functionally impossible) to do without them. For a seasoned programmer this is not a new paradigm; every time you have adopted a new tool or learned a new language, it was because doing so expanded your plane of influence. Consider: at some early point in your career, you probably wanted to keep state between runs of your program but didn't know how. So you learned how to interact with a database.  Instantly, something that was impossible before (saving state) was now quite reasonable. It wasn't free knowledge or magic - adding state to a program (along with the complexity of database adapters and idiosyncrasies) introduce
+
+Today you might want to improve the results of 
 
 - these founders are young, VCs love to back ambitous and inexperienced people
 - these innovators are achedemics and they are applying briliant ideas with not great code
@@ -35,11 +37,11 @@ For our purposes let's focus on statistical models, language models, and machine
 - rickman and his little book of birthdays
 - what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2OTIzMDAyLDk3MjczNTE4MCwtMTcyMj
-c5NzMyNSwtMTA4NDM0NTY0MywtMTkyNjg2Mjg1MywxMjUxMDUy
-MDMzLDEwMTYxMTk0NTMsLTE5MzAzNjEzMSwxOTUyNTc1MDExLC
-00NjQyMDc2MzMsLTM0ODU0MzkxNiwyMjA2MDI4NCwtOTcxMDY5
-MjYwLDIwMzk2MDQ3MzcsNzM1MzE5MzU0LDEyNjEyMjQyOCw5Nz
-MxNTMxNzksLTE4MjYzMDkxMzMsLTExOTQ0NjQ3MzUsMTkxMDA5
-NDUyNF19
+eyJoaXN0b3J5IjpbMjEwNjAzNTc5NSw5NzI3MzUxODAsLTE3Mj
+I3OTczMjUsLTEwODQzNDU2NDMsLTE5MjY4NjI4NTMsMTI1MTA1
+MjAzMywxMDE2MTE5NDUzLC0xOTMwMzYxMzEsMTk1MjU3NTAxMS
+wtNDY0MjA3NjMzLC0zNDg1NDM5MTYsMjIwNjAyODQsLTk3MTA2
+OTI2MCwyMDM5NjA0NzM3LDczNTMxOTM1NCwxMjYxMjI0MjgsOT
+czMTUzMTc5LC0xODI2MzA5MTMzLC0xMTk0NDY0NzM1LDE5MTAw
+OTQ1MjRdfQ==
 -->
