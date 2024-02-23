@@ -19,14 +19,14 @@ We know these stories too. (M/F)AANG tech layoffs in the range of 40,000 people 
 During these "dark times", OpenAI went from $29B to over $80B in value. 20 new AI unicorns were minted in 2023 (the slowest year for new unicorns in half a decade). Good fortune abounds for an Engineer wishing to join the AI cash grab; typically it is as easy as wrapping the OpenAI api in a few lines of javascript and running to the nearest investor with an open wallet. "Look my app summerizes {thing}!" "My app has a personality like Joe Pesci!" and the checks pile up.
 
 But remember I called this moment a moment of opportunity. Not an opportunity for a short-lived buck, but to carve out a soft landing and safe passage into the sensible world to come. This is not an opportunity for everyone; in fact, the disadvantages that make it untennable by so many people in the Engineering field is part of what makes it an opportunity. But opportunities tend to be like that - and if this one does not favor you, then the next very well might. 
-For our purposes let's focus on statistical models, language models, and machine learning implementations. If you look past the generative AI hype and ask what the larger set of AI tools offer, the answer is pretty simple - these tools give you a way to make computers do things that were really hard (or functionally impossible) to do without them. Let's say you have a text input where users input names, and you wanted to have flexibility 
+For our purposes let's focus on statistical models, language models, and machine learning implementations. If you look past the generative AI hype and ask what the larger set of AI tools offer, the answer is pretty simple - these tools give you a way to make computers do things that were really hard (or functionally impossible) to do without them. Let's say you have a text input where users look up names, and you wanted to be able to accept imperfect names. The name in question might be "Steven" but you want to accept "Steve" or "Steve-o" or 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2NjQ3NjY0LC0xOTI2ODYyODUzLDEyNT
-EwNTIwMzMsMTAxNjExOTQ1MywtMTkzMDM2MTMxLDE5NTI1NzUw
-MTEsLTQ2NDIwNzYzMywtMzQ4NTQzOTE2LDIyMDYwMjg0LC05Nz
-EwNjkyNjAsMjAzOTYwNDczNyw3MzUzMTkzNTQsMTI2MTIyNDI4
-LDk3MzE1MzE3OSwtMTgyNjMwOTEzMywtMTE5NDQ2NDczNSwxOT
-EwMDk0NTI0LC0xMDI0OTA3MjA3LC0yMDA2OTIwNTk4LDE2MDM1
-MTkyNTJdfQ==
+eyJoaXN0b3J5IjpbLTkxMzY3MTkzNywtMTkyNjg2Mjg1MywxMj
+UxMDUyMDMzLDEwMTYxMTk0NTMsLTE5MzAzNjEzMSwxOTUyNTc1
+MDExLC00NjQyMDc2MzMsLTM0ODU0MzkxNiwyMjA2MDI4NCwtOT
+cxMDY5MjYwLDIwMzk2MDQ3MzcsNzM1MzE5MzU0LDEyNjEyMjQy
+OCw5NzMxNTMxNzksLTE4MjYzMDkxMzMsLTExOTQ0NjQ3MzUsMT
+kxMDA5NDUyNCwtMTAyNDkwNzIwNywtMjAwNjkyMDU5OCwxNjAz
+NTE5MjUyXX0=
 -->
