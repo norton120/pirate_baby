@@ -35,8 +35,8 @@ database.run_query("UPDATE user SET(u.first_name,
 ```
  The proliferation of MVC + ORM frameworks like Spring, Ruby on Rails and Django did not introduce any revolutionary database technology, nor did they represent a leap forward in computer science. They leveraged a very different technology, _application design principals_, and fostered a leap forward in the _developer experience_. 
 
-I see the same challenges in the generative AI landscape today as post-dot-com web development: flush with technology, pale in structure.  
-[Instructor](https://github.com/jxnl/instructor) is a library I used in a project about a year ago which monkey patches the OpenAI sdk to enforce response classes. Instructor released an ORM integration last week, allowing database objects and LLM objects to be swapped directly. The project is tightly coupled to the OpenAI product and I don't see the ORM integration evolving past a novelty - a service generating db objects in a vaccuum is kind of pointless, and I think you'll end up wrapping the classes and basically building them into oddly shaped tools calls to get any real value from it. But the idea does spark thoughts around what LLM software could look like, what form the abstractions could take on within a mature framework. This is the question we should all be asking right now, and one the old programmers are uniquely able to answer. 
+I see the same challenges in the generative AI landscape today as post-dot-com web development: flush with technology, pale with structure.  
+[Instructor](https://github.com/jxnl/instructor) is a library that monkey patches OpenAI's sdk to enforce response classes. Instructor released an ORM integration last week that allows database objects and LLM objects to be swapped directly. The project is tightly coupled to the OpenAI product, and I don't see the ORM integration evolving past a novelty - a service generating db objects in a vaccuum is kind of pointless, and I think you'll end up wrapping the classes and basically building them into oddly shaped tools calls to get any real value from it. But the idea _does spark thoughts around what LLM software could look like, what form the abstractions could take on within a mature framework. This is the question we should all be asking right now, and one the old programmers are uniquely able to answer. 
 
 #### What's out there
 The crop of OSS generative AI projects fall largely into one of two categories: mostly academic or mostly inexperienced. 
@@ -63,7 +63,7 @@ Rick the "old salesman" was there in the before-times. He was there for the craz
 
 The motorcycle industry is better with guys like Rick selling bikes, and Artificial Intelligence Software will be better with the guidance and grit of old programmers. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjYwOTQwOCwxMzQ0NjA2NjkxLDExNj
+eyJoaXN0b3J5IjpbLTg1OTQ1NjE4OCwxMzQ0NjA2NjkxLDExNj
 Q1NzA4MSwtMTk2NzIwNDQ5MSw1Mzg2MDk4NjYsLTYzNDYyMDA3
 NCw3NDM5MTY5MCw3OTU4MzE2NTAsLTIwODk5ODM5MzUsMTQwOD
 MyNTc3MywtMTEwNzk2NTgxMCwtMTE3MTMyMTI1Miw2MDExMDk4
