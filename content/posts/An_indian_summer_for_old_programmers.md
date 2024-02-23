@@ -13,12 +13,12 @@ I feel I'll tell a very similar story of Software/Data/DevOps (et al) Engineerin
 We all know the stories. (M/F)AANG employees outraged that their favorite cereal is no longer stocked at the closest snack station during company all-hands, and CompSci grads dumbfounded that their first job would expect a five-day work week. Then the more mundane (but no less tell-tale) evidence; recruiters hounding anyone titled "developer" day and night with six-figure job offers, lavish perks that sometimes sounded less like work and more like a cruise ship ("we have a climbing wall!"). Rock-star impunity derived from an unspoken understanding of who was "the talent," in great demand and terribly difficult to replace. And of course, a shared cognative dissidence in ignoring developer ROI (and lack there of).  To call the last decade of Software Engineers the bourgeoisie would be innacurate only in that Aristocracy was often more befitting. 
 
 #### It was the worst of times
-We know these stories too. (M/F)AANG tech layoffs in the range of 40,000 people (as of 2/24), with more likely to come. VC funding at the lowest point in 6 years - 62% lower than the peak in 2022. 
+We know these stories too. (M/F)AANG tech layoffs in the range of 40,000 people (as of 2/24), with more likely to come. VC funding at the lowest point in 6 years - 62% lower than the peak in 2022. Engineers that had settled i
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEzNDYyODI0LDE5NTI1NzUwMTEsLTQ2ND
-IwNzYzMywtMzQ4NTQzOTE2LDIyMDYwMjg0LC05NzEwNjkyNjAs
-MjAzOTYwNDczNyw3MzUzMTkzNTQsMTI2MTIyNDI4LDk3MzE1Mz
-E3OSwtMTgyNjMwOTEzMywtMTE5NDQ2NDczNSwxOTEwMDk0NTI0
-LC0xMDI0OTA3MjA3LC0yMDA2OTIwNTk4LDE2MDM1MTkyNTIsMj
-Y0NTA0NDM3LC00NzAyODEyNzEsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTYxMzkwNjIxNiwxOTUyNTc1MDExLC00Nj
+QyMDc2MzMsLTM0ODU0MzkxNiwyMjA2MDI4NCwtOTcxMDY5MjYw
+LDIwMzk2MDQ3MzcsNzM1MzE5MzU0LDEyNjEyMjQyOCw5NzMxNT
+MxNzksLTE4MjYzMDkxMzMsLTExOTQ0NjQ3MzUsMTkxMDA5NDUy
+NCwtMTAyNDkwNzIwNywtMjAwNjkyMDU5OCwxNjAzNTE5MjUyLD
+I2NDUwNDQzNywtNDcwMjgxMjcxLC0yMDg4NzQ2NjEyXX0=
 -->
