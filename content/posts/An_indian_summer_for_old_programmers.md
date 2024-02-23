@@ -29,7 +29,7 @@ The crop of OSS generative AI projects fall largely into one of two categories: 
 
 The mostly academic projects are driven by (no surprise here) data-focused researchers in academia. Projects like [MemGPT](https://memgpt.ai/) are filled with technically brilliant concepts and truly revolutionary solutions to computing problems. What they lack is design patterns, implementation strategy, or any sense of a cohesive developer API. These are typically pseudocode-that-runs, a whiteboard thought exercise in how a solution _might_ work squeezed into production. MemGPT is not a framework or a library, it is an exciting proof-of-concept. It needs veteran programmers to think about what a framework for this technology would look like, and then implement that. The change agent here will be a David Heinemeier Hansson, not an Alan Turing. 
 
-The mostly inexperienced projects are motivated, fast-moving, and entirely focused on the wrong shiny objects. These are very high-profile, generally VC backed endeavors. They tout their number of "tool integrations" - i.e. how many API wrappers they have plugged into the code base - as the benchmark by which they compete. This might make sense many cycles in the future, after the core project capabilities are sound and bedrock-reliable - similar to the 5,000 + integrations in the `django-pakages` registry. But this approach seems most impressed with what "coding can do" - more interested in getting the LLM access to Jira, and less interested in 
+The mostly inexperienced projects are motivated, fast-moving, and entirely focused on the wrong shiny objects. These are very high-profile, generally VC backed endeavors. They tout their number of "tool integrations" - i.e. how many API wrappers they have plugged into the code base - as the benchmark by which they compete. This might make sense many cycles in the future, after the core project capabilities are sound and bedrock-reliable - similar to the 5,000 + integrations in the `django-pakages` registry. But this approach seems most impressed with what "coding can do," focused on the novelty of giving an LLM access to Jira, and less interested in that access producing robust, polished, reliable, and ultimately useful outcomes. 
 
 
 - these founders are young, VCs love to back ambitous and inexperienced people
@@ -46,7 +46,7 @@ The mostly inexperienced projects are motivated, fast-moving, and entirely focus
 - rickman and his little book of birthdays
 - what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDMyNjg5MSwtMjc1NDI1NTUwLDI0NT
+eyJoaXN0b3J5IjpbMTI3MDg2NDUwMywtMjc1NDI1NTUwLDI0NT
 g5MDg5NywtMTIxMzY5ODM3NCwtMTMzMTE5OTc5OCwtMTAxMzk0
 MDEzMSw5NzI3MzUxODAsLTE3MjI3OTczMjUsLTEwODQzNDU2ND
 MsLTE5MjY4NjI4NTMsMTI1MTA1MjAzMywxMDE2MTE5NDUzLC0x
