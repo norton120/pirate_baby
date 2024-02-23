@@ -45,13 +45,15 @@ If you are an old programmer - the kind of salt that still remembers what all th
 #### the old motorcycle salesman
 There is one more lesson to learn from my motorcycle-selling history. While my focus thus far has been on the saga of the many fly-by-night salespeople with their momentous rise and subsequent fall, there were others. One in particular, was an "old salesman" who had been slinging bikes since the early 1980's - let's call him Rick. Rick benefited from the bubble as much as the next, purchasing a modest house and trading in his run-down Honda Civic for a new model. There came a point where it seemed like _everyone_ was getting into the motorcycle selling game - realtors, car salespeople, even stock brokers were moonlighting with us. Rick was frustrated with this crowd - they knew nothing about the bikes they were selling, and they had no investment in the motorcycle community. 
 After the crash, Rick went back from the madcap weekend sales rushes to business as usual. He had a little book that he would make calls from every day, and somehow a handful of customers would come in asking for him. When asked, he explained - it was an old Zig Ziggler tactic; every time he sold a motorcycle to a person he enjoyed working with, he would write down that person's phone number and birthday in the book. Over a span of 20 years he filled the book until every day provided him a list of calls to make - and almost every day's list provided at least one customer who needed a bike, or knew someone that did.  
-Rick the "old salesman" was there in the before-times. He was there for the crazy excess, and he reaped the benefits (within reason). He was there for the Indian summer, and smartly re-positioned himself while the rest squandered the opportunity, and he settled into the new future of mot 
+Rick the "old salesman" was there in the before-times. He was there for the crazy excess, and he reaped the benefits (within reason). He was there for the Indian summer, and smartly re-positioned himself while the rest squandered the opportunity, and he comfortably settled into the new normal of motorcycle sales, which had no place for the rest of us (including myself). 
+
+Be the "old programmer" in this sto
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMDg5MjY1LDc5NTgzMTY1MCwtMjA4OT
-k4MzkzNSwxNDA4MzI1NzczLC0xMTA3OTY1ODEwLC0xMTcxMzIx
-MjUyLDYwMTEwOTg5OCwtNTIwMzkwNDQ2LDExODExNDAzMDgsLT
-I3NTQyNTU1MCwyNDU4OTA4OTcsLTEyMTM2OTgzNzQsLTEzMzEx
-OTk3OTgsLTEwMTM5NDAxMzEsOTcyNzM1MTgwLC0xNzIyNzk3Mz
-I1LC0xMDg0MzQ1NjQzLC0xOTI2ODYyODUzLDEyNTEwNTIwMzMs
-MTAxNjExOTQ1M119
+eyJoaXN0b3J5IjpbLTIwMDkwNjUxNTcsNzk1ODMxNjUwLC0yMD
+g5OTgzOTM1LDE0MDgzMjU3NzMsLTExMDc5NjU4MTAsLTExNzEz
+MjEyNTIsNjAxMTA5ODk4LC01MjAzOTA0NDYsMTE4MTE0MDMwOC
+wtMjc1NDI1NTUwLDI0NTg5MDg5NywtMTIxMzY5ODM3NCwtMTMz
+MTE5OTc5OCwtMTAxMzk0MDEzMSw5NzI3MzUxODAsLTE3MjI3OT
+czMjUsLTEwODQzNDU2NDMsLTE5MjY4NjI4NTMsMTI1MTA1MjAz
+MywxMDE2MTE5NDUzXX0=
 -->
