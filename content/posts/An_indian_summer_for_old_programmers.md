@@ -16,9 +16,9 @@ We all know the stories of zero-rate excess. (M/F)AANG employees outraged that t
 We all know these stories too. (M/F)AANG tech layoffs in the range of 40,000 people with more on the way. 320,000 across all of tech in the last year. VC funding at the lowest point in six years, 62% lower than the funding peak in '22. Layers of software management stripped away, initiatives shit-canned, and post after painful social media post from displaced big tech Engineers who can't seem to find their next role. All the while, a looming fear of Artificial Intelligence that might quickly automate away roles that we once believed to be sacredly human.
 
 #### The Indian summer
-During these dark times OpenAI grew from $29B to over $80B in value. Twenty new AI unicorns were minted in '23 (the slowest year for new unicorns in half a decade). The party has noy ended for Engineers wishing to join the AI cash grab; simply wrap the OpenAI API with a few lines of JavaScript and sprint to your nearest investor with an open wallet. "Look my app summarizes {thing}!" "My chat app has a personality like John Wick!" and the checks pile up.
+During these dark times OpenAI grew from $29B to over $80B in value. Twenty new AI unicorns were minted in '23 (the slowest year for new unicorns in half a decade). The party has not ended for Engineers wishing to join the AI cash grab; simply wrap OpenAI's API with a few lines of JavaScript and sprint to your nearest investor with an open wallet. "Look my app summarizes {thing}!" "My chat app has a personality like John Wick!" and the checks pile up.
 
-But remember I called this moment a moment of opportunity. Not an opportunity for a short-lived buck, but to carve out a soft landing and safe passage into the sensible world to come. This is not an opportunity for everyone; in fact, the disadvantages that make it untennable by so many people in the Engineering field is part of what makes it an opportunity. But opportunities tend to be like that - and if this one does not favor you, then the next very well might. 
+But remember I called this a moment of opportunity. Not for a short-lived buck, but an opportunity to carve out both soft landing and safe passage into the world to come. This iopportunity for everyone; in fact, the disadvantages that make it untennable by so many people in the Engineering field is part of what makes it an opportunity. But opportunities tend to be like that - and if this one does not favor you, then the next very well might. 
 For our purposes let's focus on statistical models, language models, and machine learning implementations. If you look past the generative AI hype and ask what the larger set of AI tools offer, the answer is pretty simple - these tools give you a way to make computers do things that are really hard (or functionally impossible) to do without them. For a seasoned programmer this is not a new paradigm; every time you have adopted a new tool or learned a new language, it was because doing so expanded your plane of influence. Consider: at some early point in your career, you probably wanted to keep state between runs of your program but didn't know how. So you learned how to interact with a database.  Instantly, something that was impossible before (saving state) was now quite reasonable. It wasn't free knowledge or magic - adding state to a program (along with the complexity of database adapters and idiosyncrasies) introduces new challenges, new elements for you to master in your design. But this _ability_ of your program was unblocked. 
 Today, you might want the results from your program to improve based on feedback from users. So you learn how to create an ML training loop, applying user-provided scores to a dataset which is fed back into the training cycle. Instantly, something that was impossible before (progressive self-improvement of your program's output) is now quite reasonable.  
 The database example has useful parallels; in the late 1980's database innovation  came from commercial closed-source powerhouses like Microsoft SQL Server and Oracle, and OSS projects like Postgresql (and later MySQL). With the focus on OOP during the dot-com era, the first ORM and MVC patterns (both in Smalltalk) arrived in 1995. Even so, by 2004 many of us were building PHP PDO models that amounted to 10,000 line bricks of stringified SQL queries. If you use any ORM today you expect to be able to do things like `user.save()` or `user.reset_password()` to update a user, not `database.run_query("UPDATE user SET(u.first_name, u.last_name # etc for 30 more lines`. The proliferation of MVC + ORM frameworks like Spring, Ruby on Rails and Django did not introduce any revolutionary database technology, nor did they represent a leap forward in computer science. They leveraged a very different technology, _application design principals_, and fostered a leap forward in the _developer experience_. I see the same challenges in the generative AI landscape today as post-dot-com web development: flush with technology, pale in structure.  
@@ -49,11 +49,11 @@ Rick the "old salesman" was there in the before-times. He was there for the craz
 
 The motorcycle industry is better with guys like Rick selling bikes, and Artificial Intelligence Software will be better with the guidance and grit of old programmers. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTY0MTAyMDgsMTM0NDYwNjY5MSwxMT
-Y0NTcwODEsLTE5NjcyMDQ0OTEsNTM4NjA5ODY2LC02MzQ2MjAw
-NzQsNzQzOTE2OTAsNzk1ODMxNjUwLC0yMDg5OTgzOTM1LDE0MD
-gzMjU3NzMsLTExMDc5NjU4MTAsLTExNzEzMjEyNTIsNjAxMTA5
-ODk4LC01MjAzOTA0NDYsMTE4MTE0MDMwOCwtMjc1NDI1NTUwLD
-I0NTg5MDg5NywtMTIxMzY5ODM3NCwtMTMzMTE5OTc5OCwtMTAx
-Mzk0MDEzMV19
+eyJoaXN0b3J5IjpbODQxMTM1Mzk4LDEzNDQ2MDY2OTEsMTE2ND
+U3MDgxLC0xOTY3MjA0NDkxLDUzODYwOTg2NiwtNjM0NjIwMDc0
+LDc0MzkxNjkwLDc5NTgzMTY1MCwtMjA4OTk4MzkzNSwxNDA4Mz
+I1NzczLC0xMTA3OTY1ODEwLC0xMTcxMzIxMjUyLDYwMTEwOTg5
+OCwtNTIwMzkwNDQ2LDExODExNDAzMDgsLTI3NTQyNTU1MCwyND
+U4OTA4OTcsLTEyMTM2OTgzNzQsLTEzMzExOTk3OTgsLTEwMTM5
+NDAxMzFdfQ==
 -->
