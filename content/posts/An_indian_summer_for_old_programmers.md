@@ -53,7 +53,7 @@ But why "old programmers"? What makes this demand for framework-building, design
 
 First, meta-programming is hard. Really hard. It is the difference between knowing to use  `user.update(name='dave')` when you want to save a name, and understanding the implications and side effects an `update()` function must address to work as expected. Most CS and boot camp grads are not meta-programmers; they enjoy a surface understanding of the tools they use, and are happy with a business-focused career progression; they will not go on to become "old programmers." Instead, they graduate to Sysadmins and District Managers and CIOs, people that "used to code." There is very little chance that these people will strike out to change the gen AI landscape any time soon.
 
-Secondly, I believe that there would be a glut of hyper-talented, reasonably experienced, lightly seasoned younger Software Engineers on the market today, had it not been for (F/M)AANG and their big tech ilk swooping in like the spacecraft from WAL-E to pacify and infantalize huge swaths of dev talent. Old programmers owe their good fortune, in part, to the opulent insanity of the last decade; every excess Engineer Facebook hired only to keep them off the market, rotting without work, is one less seasoned programmer on the market today. Junior devs that came of age in the 20/80 work/life "balance" of far too many tech teams are still junior devs today, because that lack of seat time translated into a lack of skills progression. 
+Secondly, I believe that there would be a glut of hyper-talented, reasonably experienced, lightly seasoned younger Software Engineers on the market today, had it not been for (F/M)AANG and their big tech ilk swooping in like the spacecraft from WAL-E to pacify and infantalize huge swaths of dev talent. Old programmers owe their good fortune, in part, to the opulent insanity of the last decade; every excess Engineer Facebook hired only to keep them off the market, rotting without work, is one less seasoned programmer on the market today. Junior devs that came of age in the 20/80 work/life "balance" practiced by far too many tech teams are still junior devs today, because that lack of seat time has translated into a lack of skills progression. That is not to say that no remarkably bright, highly skilled 26-year-olds escaped from Google with more knowledge and experience than I ever will posses - some absolutely did. But there are far fewer of them than should be, given the spike in popularity of CS degrees over the last deca and the proliferation of boot camps, online programs, and free resources now available.
 
 If you are an old programmer - the kind of salt that still remembers what all the letters in SOLID stand for, that once had _Patterns of Enterprise Application Architecture_ on your nightstand, that actually understands DNS - then this is your call to service. Put down the _world's greatest Regional VP_ mug, dust off the keyboard, and get into the fray of Artificial Intelligence Software Design where your skills are most needed. Help usher in the next generation of quality software, and secure your place in a rapidly approaching future. The opulent past of recent years needed software managers-of-managers, the AI-driven enterprises of tomorrow may not. 
 
@@ -64,11 +64,11 @@ Rick the "old salesman" was there in the before-times. He was there for the craz
 
 The motorcycle industry is better with guys like Rick selling bikes, and Artificial Intelligence Software will be better with the guidance and grit of old programmers. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDUzNzkzNywtMjUxODgzMDgyLDE5MT
-c3MDgxNzksMTM0NDYwNjY5MSwxMTY0NTcwODEsLTE5NjcyMDQ0
-OTEsNTM4NjA5ODY2LC02MzQ2MjAwNzQsNzQzOTE2OTAsNzk1OD
-MxNjUwLC0yMDg5OTgzOTM1LDE0MDgzMjU3NzMsLTExMDc5NjU4
-MTAsLTExNzEzMjEyNTIsNjAxMTA5ODk4LC01MjAzOTA0NDYsMT
-E4MTE0MDMwOCwtMjc1NDI1NTUwLDI0NTg5MDg5NywtMTIxMzY5
-ODM3NF19
+eyJoaXN0b3J5IjpbLTE2NjQ4NTM3NzIsLTI1MTg4MzA4MiwxOT
+E3NzA4MTc5LDEzNDQ2MDY2OTEsMTE2NDU3MDgxLC0xOTY3MjA0
+NDkxLDUzODYwOTg2NiwtNjM0NjIwMDc0LDc0MzkxNjkwLDc5NT
+gzMTY1MCwtMjA4OTk4MzkzNSwxNDA4MzI1NzczLC0xMTA3OTY1
+ODEwLC0xMTcxMzIxMjUyLDYwMTEwOTg5OCwtNTIwMzkwNDQ2LD
+ExODExNDAzMDgsLTI3NTQyNTU1MCwyNDU4OTA4OTcsLTEyMTM2
+OTgzNzRdfQ==
 -->
