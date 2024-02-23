@@ -34,7 +34,7 @@ The **mostly inexperienced** projects are motivated, fast-moving, and entirely f
 Between the two, I believe the opportunity moment for old programmers lies within transforming the mostly academic projects first. These projects need veteran programmers to think through what a framework for this technology should look like, and implement it. Framework builders, meta programmers that can consider the entire lifespan of the software and the whole of the developer experience. The change agent here will be a David Heinemeier Hansson, not an Alan Turing. But evolution does not happen in a bubble, and there will come a time (sooner than most think I believe) when the luster of the mostly inexperienced projects will decay from poorly built foundations; here too, the old programmers, who are no strangers to righting the path of a lost ship, will find their place.  
 
 #### A perfect storm of opportunity
-But why old programmers? What makes this demand for framework-building, design-pattern-minded Software Engineers the exclusive domain of the graybeards? AI is supposedly a young person's game, and there is supposed to be an army of bootcamp grads and CompSci majors (
+But why old programmers? What makes this demand for framework-building, design-pattern-minded Software Engineers the exclusive domain of the graybeards? AI is supposedly a young person's game, and there was supposed to be an army of bootcamp grads and CompSci majors arriving to commodize the sport, so how is this possible?
 
 #### why this is for old programmers
 - remember that surge of programmers that was supposed to commoditize us? the bootcamp armies, the shores teaming with legions of compsci majors? Well, the fortune that smiled on them also smiled on us. 
@@ -44,7 +44,7 @@ But why old programmers? What makes this demand for framework-building, design-p
 - rickman and his little book of birthdays
 - what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4MTUyODE4LC0yNzU0MjU1NTAsMjQ1OD
+eyJoaXN0b3J5IjpbMTg5MDY4NTEyLC0yNzU0MjU1NTAsMjQ1OD
 kwODk3LC0xMjEzNjk4Mzc0LC0xMzMxMTk5Nzk4LC0xMDEzOTQw
 MTMxLDk3MjczNTE4MCwtMTcyMjc5NzMyNSwtMTA4NDM0NTY0My
 wtMTkyNjg2Mjg1MywxMjUxMDUyMDMzLDEwMTYxMTk0NTMsLTE5
