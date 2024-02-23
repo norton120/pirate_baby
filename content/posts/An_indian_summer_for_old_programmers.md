@@ -16,7 +16,7 @@ We all know the stories of zero-rate excess. (M/F)AANG employees outraged that t
 We all know these stories too. (M/F)AANG tech layoffs in the range of 40,000 people with more on the way. 320,000 across all of tech in the last year. VC funding at the lowest point in six years, 62% lower than the funding peak in '22. Layers of software management stripped away, initiatives shit-canned, and post after painful social media post from displaced big tech Engineers who can't seem to find their next role. All the while, a looming fear of Artificial Intelligence that might quickly automate away roles that we once believed to be sacredly human.
 
 #### The Indian summer
-During these "dark times", OpenAI went from $29B to over $80B in value. 20 new AI unicorns were minted in 2023 (the slowest year for new unicorns in half a decade). The party hasn't ended for Engineers wishing to join the AI cash grab; simply wrap the OpenAI api with a few lines of javascript and sp tonearest investor with an open wallet. "Look my app summerizes {thing}!" "My app has a personality like Joe Pesci!" and the checks pile up.
+During these dark times OpenAI grew from $29B to over $80B in value. Twenty new AI unicorns were minted in '23 (the slowest year for new unicorns in half a decade). The party has noy ended for Engineers wishing to join the AI cash grab; simply wrap the OpenAI API with a few lines of JavaScript and sprint to your nearest investor with an open wallet. "Look my app summarizes {thing}!" "My chat app has a personality like John Wick!" and the checks pile up.
 
 But remember I called this moment a moment of opportunity. Not an opportunity for a short-lived buck, but to carve out a soft landing and safe passage into the sensible world to come. This is not an opportunity for everyone; in fact, the disadvantages that make it untennable by so many people in the Engineering field is part of what makes it an opportunity. But opportunities tend to be like that - and if this one does not favor you, then the next very well might. 
 For our purposes let's focus on statistical models, language models, and machine learning implementations. If you look past the generative AI hype and ask what the larger set of AI tools offer, the answer is pretty simple - these tools give you a way to make computers do things that are really hard (or functionally impossible) to do without them. For a seasoned programmer this is not a new paradigm; every time you have adopted a new tool or learned a new language, it was because doing so expanded your plane of influence. Consider: at some early point in your career, you probably wanted to keep state between runs of your program but didn't know how. So you learned how to interact with a database.  Instantly, something that was impossible before (saving state) was now quite reasonable. It wasn't free knowledge or magic - adding state to a program (along with the complexity of database adapters and idiosyncrasies) introduces new challenges, new elements for you to master in your design. But this _ability_ of your program was unblocked. 
@@ -49,11 +49,11 @@ Rick the "old salesman" was there in the before-times. He was there for the craz
 
 The motorcycle industry is better with guys like Rick selling bikes, and Artificial Intelligence Software will be better with the guidance and grit of old programmers. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMTczNTM3NSwxMzQ0NjA2NjkxLDExNj
-Q1NzA4MSwtMTk2NzIwNDQ5MSw1Mzg2MDk4NjYsLTYzNDYyMDA3
-NCw3NDM5MTY5MCw3OTU4MzE2NTAsLTIwODk5ODM5MzUsMTQwOD
-MyNTc3MywtMTEwNzk2NTgxMCwtMTE3MTMyMTI1Miw2MDExMDk4
-OTgsLTUyMDM5MDQ0NiwxMTgxMTQwMzA4LC0yNzU0MjU1NTAsMj
-Q1ODkwODk3LC0xMjEzNjk4Mzc0LC0xMzMxMTk5Nzk4LC0xMDEz
-OTQwMTMxXX0=
+eyJoaXN0b3J5IjpbLTE4NTY0MTAyMDgsMTM0NDYwNjY5MSwxMT
+Y0NTcwODEsLTE5NjcyMDQ0OTEsNTM4NjA5ODY2LC02MzQ2MjAw
+NzQsNzQzOTE2OTAsNzk1ODMxNjUwLC0yMDg5OTgzOTM1LDE0MD
+gzMjU3NzMsLTExMDc5NjU4MTAsLTExNzEzMjEyNTIsNjAxMTA5
+ODk4LC01MjAzOTA0NDYsMTE4MTE0MDMwOCwtMjc1NDI1NTUwLD
+I0NTg5MDg5NywtMTIxMzY5ODM3NCwtMTMzMTE5OTc5OCwtMTAx
+Mzk0MDEzMV19
 -->
