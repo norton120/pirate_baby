@@ -31,12 +31,7 @@ The **mostly academic** projects are driven by (no surprise here) data-focused r
 
 The **mostly inexperienced** projects are motivated, fast-moving, and entirely focused on the wrong shiny objects. These are very high-profile, generally VC backed endeavors. They tout their number of "tool integrations" - i.e. how many API wrappers they have plugged into the code base - as the benchmark by which they compete. This might make sense many cycles in the future once the core project capabilities are sound bedrock, similar to the 5,000 + integrations in the `django-pakages` registry. But with the current trajectory, I don't foresee most of these projects ever reaching that maturity; they seem most impressed with what "coding can do," focused on the novelty of giving an LLM access to Jira, less interested in ensuring that access produces robust, polished, reliable, and ultimately useful outcomes. The rush to create novel prompt templating solutions is a fantastic example of this; if there is one thing that is a solved problem in nearly every programming language, it is "how can I generate dynamic text within templated outputs?" The answer is, the same way we generate HTML in every server-side rendered or SPA framework, and the same way we compile SQL in dbt. Understanding the difference between an unsolved problem and a problem you _personally_ have not yet solved is a critical part of experience, something that is painfully lacking in the OSS AI ecosystem today. 
 
-Between the two, I believe the opportunity moment for old programmers lies within transforming the mostly academic projects first. These projects need veteran programmers to think through what a framework for this technology should look like, and implement it. Framework builders, meta programmers that can consider the entire lifespan of the software and the whole of the developer experience. The change agent here will be a David Heinemeier Hansson, not an Alan Turing. But evolution does not happen in a bubble, and there will come a time when the luster of the mostly inexperienced projects will decay from poorly built foundations; here too, the old programmers 
-
-
-
-- What we need is seasoned software patterns and abstractions applied to create durable frameworks. what the LLM and ML worlds need right now is a Rails, or a Django, not more piles of theory code
-- This is an opportunity for old programmers. people that understand design principals and are not excited about connecting to APIs, that can think through the entire developer experience and the lifespan of the software they are writing. Framework builders.
+Between the two, I believe the opportunity moment for old programmers lies within transforming the mostly academic projects first. These projects need veteran programmers to think through what a framework for this technology should look like, and implement it. Framework builders, meta programmers that can consider the entire lifespan of the software and the whole of the developer experience. The change agent here will be a David Heinemeier Hansson, not an Alan Turing. But evolution does not happen in a bubble, and there will come a time when the luster of the mostly inexperienced projects will decay from poorly built foundations; here too, the old programmers, who are no strangers to righting the path of a lost ship, will find their great impact.  
 
 #### why this is for old programmers
 - remember that surge of programmers that was supposed to commoditize us? the bootcamp armies, the shores teaming with legions of compsci majors? Well, the fortune that smiled on them also smiled on us. 
@@ -46,11 +41,11 @@ Between the two, I believe the opportunity moment for old programmers lies withi
 - rickman and his little book of birthdays
 - what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NTkyMzc4MiwtMjc1NDI1NTUwLDI0NT
-g5MDg5NywtMTIxMzY5ODM3NCwtMTMzMTE5OTc5OCwtMTAxMzk0
-MDEzMSw5NzI3MzUxODAsLTE3MjI3OTczMjUsLTEwODQzNDU2ND
-MsLTE5MjY4NjI4NTMsMTI1MTA1MjAzMywxMDE2MTE5NDUzLC0x
-OTMwMzYxMzEsMTk1MjU3NTAxMSwtNDY0MjA3NjMzLC0zNDg1ND
-M5MTYsMjIwNjAyODQsLTk3MTA2OTI2MCwyMDM5NjA0NzM3LDcz
-NTMxOTM1NF19
+eyJoaXN0b3J5IjpbLTExNTIzODY2MTksLTI3NTQyNTU1MCwyND
+U4OTA4OTcsLTEyMTM2OTgzNzQsLTEzMzExOTk3OTgsLTEwMTM5
+NDAxMzEsOTcyNzM1MTgwLC0xNzIyNzk3MzI1LC0xMDg0MzQ1Nj
+QzLC0xOTI2ODYyODUzLDEyNTEwNTIwMzMsMTAxNjExOTQ1Mywt
+MTkzMDM2MTMxLDE5NTI1NzUwMTEsLTQ2NDIwNzYzMywtMzQ4NT
+QzOTE2LDIyMDYwMjg0LC05NzEwNjkyNjAsMjAzOTYwNDczNyw3
+MzUzMTkzNTRdfQ==
 -->
