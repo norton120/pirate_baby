@@ -19,7 +19,7 @@ We know these stories too. (M/F)AANG tech layoffs in the range of 40,000 people 
 During these "dark times", OpenAI went from $29B to over $80B in value. 20 new AI unicorns were minted in 2023 (the slowest year for new unicorns in half a decade). Good fortune abounds for an Engineer wishing to join the AI cash grab; typically it is as easy as wrapping the OpenAI api in a few lines of javascript and running to the nearest investor with an open wallet. "Look my app summerizes {thing}!" "My app has a personality like Joe Pesci!" and the checks pile up.
 
 But remember I called this moment a moment of opportunity. Not an opportunity for a short-lived buck, but to carve out a soft landing and safe passage into the sensible world to come. This is not an opportunity for everyone; in fact, the disadvantages that make it untennable by so many people in the Engineering field is part of what makes it an opportunity. But opportunities tend to be like that - and if this one does not favor you, then the next very well might. 
-For our purposes let's focus on statistical models, language models, and machine learning implementations. If you look past the generative AI hype and ask what the larger set of AI tools offer, the answer is pretty simple - these tools give you a way to make computers do things that are really hard (or functionally impossible) to do without them. 
+For our purposes let's focus on statistical models, language models, and machine learning implementations. If you look past the generative AI hype and ask what the larger set of AI tools offer, the answer is pretty simple - these tools give you a way to make computers do things that are really hard (or functionally impossible) to do without them. This is no different than a 
 
 - these founders are young, VCs love to back ambitous and inexperienced people
 - these innovators are achedemics and they are applying briliant ideas with not great code
@@ -35,11 +35,11 @@ For our purposes let's focus on statistical models, language models, and machine
 - rickman and his little book of birthdays
 - what that looks like for us, if we take the opportunity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjI3OTczMjUsLTEwODQzNDU2NDMsLT
-E5MjY4NjI4NTMsMTI1MTA1MjAzMywxMDE2MTE5NDUzLC0xOTMw
-MzYxMzEsMTk1MjU3NTAxMSwtNDY0MjA3NjMzLC0zNDg1NDM5MT
-YsMjIwNjAyODQsLTk3MTA2OTI2MCwyMDM5NjA0NzM3LDczNTMx
-OTM1NCwxMjYxMjI0MjgsOTczMTUzMTc5LC0xODI2MzA5MTMzLC
-0xMTk0NDY0NzM1LDE5MTAwOTQ1MjQsLTEwMjQ5MDcyMDcsLTIw
-MDY5MjA1OThdfQ==
+eyJoaXN0b3J5IjpbODExOTM3MjcsLTE3MjI3OTczMjUsLTEwOD
+QzNDU2NDMsLTE5MjY4NjI4NTMsMTI1MTA1MjAzMywxMDE2MTE5
+NDUzLC0xOTMwMzYxMzEsMTk1MjU3NTAxMSwtNDY0MjA3NjMzLC
+0zNDg1NDM5MTYsMjIwNjAyODQsLTk3MTA2OTI2MCwyMDM5NjA0
+NzM3LDczNTMxOTM1NCwxMjYxMjI0MjgsOTczMTUzMTc5LC0xOD
+I2MzA5MTMzLC0xMTk0NDY0NzM1LDE5MTAwOTQ1MjQsLTEwMjQ5
+MDcyMDddfQ==
 -->
