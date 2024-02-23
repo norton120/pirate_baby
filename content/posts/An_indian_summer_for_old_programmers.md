@@ -16,12 +16,12 @@ We all know the stories. (M/F)AANG employees outraged that their favorite cereal
 We know these stories too. (M/F)AANG tech layoffs in the range of 40,000 people (as of 2/24), with more likely to come. 320,000+ layed off across tech in 23/24. VC funding at the lowest point in 6 years, and 62% lower than the funding peak of 2022. Engineers that had only recently settled into cushy management jobs suddenly upended, taking consulting or contract work to fill the gap. Post after painful social media post from displaced big tech Engineers who can't seem to find that next role. And a looming fear of Artificial Intelligence that might quickly automate away once thought "sacred" and un-automatable skills.
 
 #### The Indian summer
-One sector of 
+OpenAI 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MTY2MjE0NCwxOTUyNTc1MDExLC00Nj
-QyMDc2MzMsLTM0ODU0MzkxNiwyMjA2MDI4NCwtOTcxMDY5MjYw
-LDIwMzk2MDQ3MzcsNzM1MzE5MzU0LDEyNjEyMjQyOCw5NzMxNT
-MxNzksLTE4MjYzMDkxMzMsLTExOTQ0NjQ3MzUsMTkxMDA5NDUy
-NCwtMTAyNDkwNzIwNywtMjAwNjkyMDU5OCwxNjAzNTE5MjUyLD
-I2NDUwNDQzNywtNDcwMjgxMjcxLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbNzkyNzAwODYxLDE5NTI1NzUwMTEsLTQ2ND
+IwNzYzMywtMzQ4NTQzOTE2LDIyMDYwMjg0LC05NzEwNjkyNjAs
+MjAzOTYwNDczNyw3MzUzMTkzNTQsMTI2MTIyNDI4LDk3MzE1Mz
+E3OSwtMTgyNjMwOTEzMywtMTE5NDQ2NDczNSwxOTEwMDk0NTI0
+LC0xMDI0OTA3MjA3LC0yMDA2OTIwNTk4LDE2MDM1MTkyNTIsMj
+Y0NTA0NDM3LC00NzAyODEyNzEsLTIwODg3NDY2MTJdfQ==
 -->
