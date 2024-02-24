@@ -8,8 +8,9 @@ We should have known by the drive home from the movie theater that we weren't go
 "But what if she summarized every week and just read the summaries?" 
 "Even a weekly summary would become unreadable in less than a year." 
 "Then she summarized those? She could keep making the history smaller and smaller, that's kind of how memories work!" 
-"She
+"At some point she'd loose too much detail - memory gets vague, but we can still recall super specific details when they matter."
+"Well then she could go back to the daily notebooks a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjI3ODI2NDMsLTE0MzA1MTQ4MSw0Nz
-cxNzg4MDBdfQ==
+eyJoaXN0b3J5IjpbMTc0NTQyODM0NywtMTQzMDUxNDgxLDQ3Nz
+E3ODgwMF19
 -->
