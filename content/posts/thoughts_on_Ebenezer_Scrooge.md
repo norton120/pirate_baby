@@ -7,8 +7,7 @@ If you are a higher-order carbon based life form on planet Earth, you owe much o
 
 But pattern matching can also be a source of painful, damaging flaws in our logic. The highest profile examples of this today focus on race, gender and sexuality - areas where pattern matching in the previous century introduced and concreted false conclusions long after the root assumptions were dispelled. It is striking how humans will twist and contort our chain of logic to apply these patterns; consider that 40 years ago it was commonly argued that the overwhelming racial disparity among incarcerated Americans was evidence of some kind of "genetic predisposition to crime," today the exact same data is viewed as evidence of systemic bias in our criminal and judicial systems. 
 The colorblind movement in the late 1980's and 1990's aimed to shift away from pattern matching completely, in regard to specific attributes - primarily race and gender (sadly less focus on sexuality). At the risk of distracting from my point, I will summarize that while in my first-hand view the "colorblind movement" did not result in a complete and perfect transformation of society to eliminate racial, gender or sexuality biases, there was remarkable progress made in a very short period of time (and that fact feels redacted from the postmodern narrative). 
-Regardless, today we have seen a widespread return of socially-sanctioned pattern matching on those same attributes, with a focus instead on shifting which patterns we apply. Among those is the 
-
+Regardless, today we have seen a widespread return of socially-sanctioned pattern matching 
 
 Every year around this time, it is obligatory for most of us to slog through at least a half-dozen adaptions of Charles Dickens' 1843 classic "A Christmas Carol." Whether it is a modern-day remake with a Tiny Tim that suffers from only having an iPhone 12, a true-to-the-original live stage performance, or an exceptionally well acted Muppet movie, you can be sure each performance will deliver the same, singular lesson: All wealthy misers are doomed, lest they learn the error of their ways and embrace the Christmas spirit - most notably, the spirit of giving (and subsequently, demonstrate this newfound spirit by handing over much of their wealth to others deemed less fortunate). 
 
@@ -16,6 +15,6 @@ It is embarrassingly trite to take a contrarian view of nearly two-century-old l
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAyODIyMDA1LC02MzE2ODY4ODQsLTEwMz
-U2NDU0NzEsLTI4OTA1NzMyOCwtNTQ3Njk3ODk1XX0=
+eyJoaXN0b3J5IjpbLTExMzI4NzY3MDAsLTYzMTY4Njg4NCwtMT
+AzNTY0NTQ3MSwtMjg5MDU3MzI4LC01NDc2OTc4OTVdfQ==
 -->
