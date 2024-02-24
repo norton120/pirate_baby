@@ -20,8 +20,9 @@ I doubt I could have imagined that 20 years later, I would find myself faced wit
 Jenni if you're reading this, sorry about that. 
 
 ## a near-perfect analogy
-Large Language Models are, in reality, just functions. You input at least one argument (text) and they output in kind. The output is a product of the model - more specifically, of the "memories" or training data that the model 
+Large Language Models are, in reality, just functions. You input at least one argument (text) and they output in kind. The output is a product of the model - more specifically, of the "memories" or training data that the model has been assembled with. Without this training data, the LLM would output very little of value - similar to a conversation with a newborn. 
+But the training data "memories" of the m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjkxMzgwMSw5ODA3ODg3NDEsLTE0Mz
+eyJoaXN0b3J5IjpbLTk1MjUwODMwMCw5ODA3ODg3NDEsLTE0Mz
 A1MTQ4MSw0NzcxNzg4MDBdfQ==
 -->
