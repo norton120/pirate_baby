@@ -20,8 +20,8 @@ I doubt I could have imagined that 20 years later, I would find myself faced wit
 Jenni if you're reading this, sorry about that. 
 
 ## a near-perfect analogy
-Large Language Models are, in reality, just functions. You input 
+Large Language Models are, in reality, just functions. You input at least one argument (text) and they output in kind. The output is a product of the model - more specifically, of the "memories" or training data that the model 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNzA3MzA2OSw5ODA3ODg3NDEsLTE0Mz
+eyJoaXN0b3J5IjpbLTUwNjkxMzgwMSw5ODA3ODg3NDEsLTE0Mz
 A1MTQ4MSw0NzcxNzg4MDBdfQ==
 -->
