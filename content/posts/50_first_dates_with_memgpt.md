@@ -13,8 +13,8 @@ _"But what if she summarized every week and just read the summaries?"
 "She wouldn't be able to go anywhere, she'd need a room full of notebooks to function!"_
 
 The rest of the ride was very quiet. 
-If only I had known how right she was; not only had 
+If only I had known how right she was; not only did 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4Mzg1NTQ2MSwtMTQzMDUxNDgxLDQ3Nz
-E3ODgwMF19
+eyJoaXN0b3J5IjpbMzY2NzA0MjE3LC0xNDMwNTE0ODEsNDc3MT
+c4ODAwXX0=
 -->
