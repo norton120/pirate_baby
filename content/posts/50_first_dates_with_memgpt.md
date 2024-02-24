@@ -9,8 +9,12 @@ We should have known by the drive home from the movie theater that we weren't go
 "Even a weekly summary would become unreadable in less than a year." 
 "Then she summarized those? She could keep making the history smaller and smaller, that's kind of how memories work!" 
 "At some point she'd loose too much detail - memory gets vague, but we can still recall super specific details when they matter."
-"Well then she could go back to the daily notebooks a
+"Well then she could go back to the daily notebooks when she needs those details!" 
+"She wouldn't be able to go anywhere, she'd need a room full of notebooks to function!"
+The rest of the car ride was silent. 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NTQyODM0NywtMTQzMDUxNDgxLDQ3Nz
-E3ODgwMF19
+eyJoaXN0b3J5IjpbNTkxNjc3MTM0LC0xNDMwNTE0ODEsNDc3MT
+c4ODAwXX0=
 -->
