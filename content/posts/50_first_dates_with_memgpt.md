@@ -14,8 +14,8 @@ _"But what if she summarized every week and just read the summaries?"
 
 The rest of the ride was very quiet. 
 
-Imagine my surprise when 20 years later I find myself solving this very same problem for a very different 
+Little could I have imagined that 20 years later, I would find myself faced with this very same problem 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MDMyNzcwMCwtMTQzMDUxNDgxLDQ3Nz
-E3ODgwMF19
+eyJoaXN0b3J5IjpbNTYyMDkyNTY3LC0xNDMwNTE0ODEsNDc3MT
+c4ODAwXX0=
 -->
