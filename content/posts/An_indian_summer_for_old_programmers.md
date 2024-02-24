@@ -1,6 +1,6 @@
 ---
 title: "An Indian Summer for Old Programmers"
-date: 2023-02-20
+date: 2024-02-20
 draft: false
 ---
 
@@ -65,11 +65,11 @@ Rick the "old salesman" was there in the before-times. He was there for the craz
 
 The motorcycle industry is better with guys like Rick selling bikes, and Artificial Intelligence Software will be better with the guidance and grit of old programmers. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NzY3NDQ1OSwtMTg1NDY4NDk4MiwtMj
-UxODgzMDgyLDE5MTc3MDgxNzksMTM0NDYwNjY5MSwxMTY0NTcw
-ODEsLTE5NjcyMDQ0OTEsNTM4NjA5ODY2LC02MzQ2MjAwNzQsNz
-QzOTE2OTAsNzk1ODMxNjUwLC0yMDg5OTgzOTM1LDE0MDgzMjU3
-NzMsLTExMDc5NjU4MTAsLTExNzEzMjEyNTIsNjAxMTA5ODk4LC
-01MjAzOTA0NDYsMTE4MTE0MDMwOCwtMjc1NDI1NTUwLDI0NTg5
-MDg5N119
+eyJoaXN0b3J5IjpbMjc5Njc3NDgsLTk5NzY3NDQ1OSwtMTg1ND
+Y4NDk4MiwtMjUxODgzMDgyLDE5MTc3MDgxNzksMTM0NDYwNjY5
+MSwxMTY0NTcwODEsLTE5NjcyMDQ0OTEsNTM4NjA5ODY2LC02Mz
+Q2MjAwNzQsNzQzOTE2OTAsNzk1ODMxNjUwLC0yMDg5OTgzOTM1
+LDE0MDgzMjU3NzMsLTExMDc5NjU4MTAsLTExNzEzMjEyNTIsNj
+AxMTA5ODk4LC01MjAzOTA0NDYsMTE4MTE0MDMwOCwtMjc1NDI1
+NTUwXX0=
 -->
