@@ -14,8 +14,8 @@ _"But what if she summarized every week and just read the summaries?"
 
 The rest of the ride was very quiet. 
 
-I couldn't have imagined that 20 years later I would find myself faced with this very same problem while building an artificial intelligence agent, and the brightest minds in the space would derive a solution 
+I couldn't have imagined that 20 years later I would find myself faced with this very problem while building an artificial intelligence agent - supplying memories to a mind that h, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwNzg4NzQxLC0xNDMwNTE0ODEsNDc3MT
-c4ODAwXX0=
+eyJoaXN0b3J5IjpbLTIwMjc1MjQ3MjYsOTgwNzg4NzQxLC0xND
+MwNTE0ODEsNDc3MTc4ODAwXX0=
 -->
