@@ -5,7 +5,7 @@ draft: true
 ---
 If you are a higher-order carbon based life form on planet Earth, you owe much of your existence to pattern matching. If you are an antelope and you spot a stalking lion in the brush, you don't wait to determine the intentions of _this particular lion_ - pattern matching enables you to think "that looks like enough like the thing that ate my friend last week, I should run." When early homo sapiens came across a mushroom that appeared similar to one that had made them sick before, they left it alone. Across the animal kingdom this ability to apply generalizations based on summary evaluations has been a critical survival tool, and continues to do so today; we look for patterns when we decide if an email is a scam, or if it is safe to cross the street, or if a friend is trustworthy. The value in pattern matching is that we can act quickly and repeatedly by grouping similar things together and then acting on them as a whole. This is essential to functioning faster than a tree sloth in the real world.
 
-But pattern matching can also be a source of painful, damaging flaws in our logic. The highest profile examples of this today focus on race, gender and sexuality - areas where pattern matching in the previous century introduced and concreted false conclusions long after the root assumptions were dispelled. It is striking how humans will twist and contort our chain of logic to apply these patterns; Where 40 years ago a case might have been made that the overwhelming racial disparity among the incarcerated in the USA was evidence of some kind of "genetic predisposition to crime," today we generally regard the exact same data as evidence of systemic bias in our criminal and judicial systems. 
+But pattern matching can also be a source of painful, damaging flaws in our logic. The highest profile examples of this today focus on race, gender and sexuality - areas where pattern matching in the previous century introduced and concreted false conclusions long after the root assumptions were dispelled. It is striking how humans will twist and contort our chain of logic to apply these patterns; consider that 40 years ago it was commonly argued that the overwhelming racial disparity among incarcerated Americans was evidence of some kind of "genetic predisposition to crime," today the exact same data is viewed as evidence of systemic bias in our criminal and judicial systems. 
 The colorblind movement in the 1980's and 90's aimed to shift away from pattern matching completely in regard to specific attributes - primarily race and gender. At the risk of distracting from my point, I will summarize my first-hand view that while "colorblindness" did not result in a complete and perfect transformation of society to eliminate racial assumptions or gender and sexuality biases, there was remarkable progress made in a very short time that often feels redacted from recent recollection. 
 What has evolved today is a return to socially-sanctioned pattern matching on those same attributes, with a focus instead on shifting which patterns we apply. Among those is the 
 
@@ -16,6 +16,6 @@ It is embarrassingly trite to take a contrarian view of nearly two-century-old l
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1OTk1NjYzOSwtNjMxNjg2ODg0LC0xMD
-M1NjQ1NDcxLC0yODkwNTczMjgsLTU0NzY5Nzg5NV19
+eyJoaXN0b3J5IjpbNjAzMjk0MTE0LC02MzE2ODY4ODQsLTEwMz
+U2NDU0NzEsLTI4OTA1NzMyOCwtNTQ3Njk3ODk1XX0=
 -->
