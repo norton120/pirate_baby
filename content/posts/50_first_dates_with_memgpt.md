@@ -23,8 +23,8 @@ Jenni if you're reading this, sorry about that.
 Large Language Models are, in reality, just functions. You input at least one argument (text) and they output in kind. The output is a product of the model - more specifically, of the "memories" or training data that the model has been assembled with. Without this training data, the LLM would output very little of value - similar to a conversation with a newborn. 
 But the training data "memories" of the model are fixed at inference time - exactly like Lucy in the movie. She has developed experiences and gathered information to a very specific point (in her case, the day of her accident) and she will forever process what shes, hears and learns with a "model" fixed to that day. This is _exactly_ how our LLM function operates - fixed to the moment it was pickled. 
 
-
+So our next 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MDgyNzM5NSwtMjU4NzE0MTYzLDk4MD
+eyJoaXN0b3J5IjpbMTE1OTUzOTk4MiwtMjU4NzE0MTYzLDk4MD
 c4ODc0MSwtMTQzMDUxNDgxLDQ3NzE3ODgwMF19
 -->
