@@ -24,17 +24,17 @@ The natural next strategy is to prepend those new "memories" as part of the text
 
 ## The limits of prompt engineering
 The lion's share of language model Engineering coverage has been devoted to _prompt engineering_, or crafting the content we submit in a turn so that it produces the most desirable outcome. An entire ecosystem has rapidly developed around prompt design, from prompt engineering classes to prompt exchange marketplaces - all from the idea that with the "perfect prompt" you can coax the "perfect output" a language model. 
-Henry, Sandler's character in _50 First Dates_, may have been one of the earliest prompt engineers. Early in the move Henry falls in love with Lucy but agrees not to tell her about her i
+Henry, Sandler's character in _50 First Dates_, may have been one of the earliest prompt engineers. Early in the move Henry falls in love with Lucy but agrees with her family not to tell her about her injury, instead wooing her anew each day
 Prompt engineering is certainly an important piece of the puzzle, but it doesn't remotely solve our problem. 
 
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA4MTA5OTAsNjc5MjY2MzkwLDg1Mj
-g1ODQ4LC0xODc3MDYzNzkxLDIxNzI2NTAsLTIwNTMxNzU1NTcs
-LTIwMzM3MjcxNjUsLTEzMjcyMzI3NjUsLTY1NzA2OTQzMSw5ND
-Y2ODI4NzcsMTcwOTAxMTU2MiwxMjE5MjUxNjQzLC0xOTQ3MTI1
-NDk4LDEyMjE0NTc3OTgsLTI1NTU1MjUxNiwxODkxOTIwNDE1LD
-E0ODE5MTU3MTYsMTAyNTk1NTcyOSwxMTU5NTM5OTgyLC0yNTg3
-MTQxNjNdfQ==
+eyJoaXN0b3J5IjpbMTc2NTcxMDcyOSw2NzkyNjYzOTAsODUyOD
+U4NDgsLTE4NzcwNjM3OTEsMjE3MjY1MCwtMjA1MzE3NTU1Nywt
+MjAzMzcyNzE2NSwtMTMyNzIzMjc2NSwtNjU3MDY5NDMxLDk0Nj
+Y4Mjg3NywxNzA5MDExNTYyLDEyMTkyNTE2NDMsLTE5NDcxMjU0
+OTgsMTIyMTQ1Nzc5OCwtMjU1NTUyNTE2LDE4OTE5MjA0MTUsMT
+Q4MTkxNTcxNiwxMDI1OTU1NzI5LDExNTk1Mzk5ODIsLTI1ODcx
+NDE2M119
 -->
