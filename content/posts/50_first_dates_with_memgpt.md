@@ -5,9 +5,9 @@ draft: true
 ---
 ## preamble
 The drive home from the movie theater was not going well. My then-girlfriend sat arms crossed in the passenger seat, the red glow from the traffic light matching her mood. "You can't just let it be romantic. Why do you have to ruin everything!?!" We had just seen _50 First Dates_, a classic Sandler/Barrymore romance about a woman who's brain injury prevents her from forming long-term memories. In the movie, Lucy (Barrymore) constructs her own "external memory" via her diary; a clever plot device, but one that required suspension of disbelief that I just could not abide. I had done shorthand math while the credits were rolling: If Lucy's average diary entry took 20 minutes to write (that is less than most people, and most people aren't trying to compensate for brain damage), each entry would take roughly half that time - so about 10 minutes - to read. Reading a week's entries would take more than an hour to read. By the 6 month mark, her daily catch-up reading about her past would require more hours than are in a day. Romantic? Yes. Realistic? No. And so we argued. I believe the conversation went something like this: 
-_"But what if every Sunday she made wrote a cheat sheet for the past week, and then she only read those? every week and just read the summaries?" 
+_"But what if every Sunday she made wrote a cheat sheet for the past week, and then she only read those? That would take less time. " 
 "Even a weekly summary would become unreadable in less than a year." 
-"Then she summarized those? She could keep making the history smaller and smaller, that's kind of how memories work!" 
+"OK, then what if she summarized those cheat sheets?? She could keep making the history smaller and smaller." 
 "At some point she'd loose too much detail - memory gets vague, but we can still recall super specific details when they matter."
 "Well then she could go back to the daily notebooks when she needs those details!" 
 "She wouldn't be able to go anywhere. She'd be chained to a room full of notebooks in order to function!"_
@@ -24,11 +24,10 @@ But the training data "memories" of the model are fixed at inference time - exac
 
 So our next 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3Nzc4MzU4NiwtMjA1MzE3NTU1NywtMj
-AzMzcyNzE2NSwtMTMyNzIzMjc2NSwtNjU3MDY5NDMxLDk0NjY4
-Mjg3NywxNzA5MDExNTYyLDEyMTkyNTE2NDMsLTE5NDcxMjU0OT
-gsMTIyMTQ1Nzc5OCwtMjU1NTUyNTE2LDE4OTE5MjA0MTUsMTQ4
-MTkxNTcxNiwxMDI1OTU1NzI5LDExNTk1Mzk5ODIsLTI1ODcxND
-E2Myw5ODA3ODg3NDEsLTE0MzA1MTQ4MSw0NzcxNzg4MDBdfQ==
-
+eyJoaXN0b3J5IjpbLTgxMzA1OTAzLC0yMDUzMTc1NTU3LC0yMD
+MzNzI3MTY1LC0xMzI3MjMyNzY1LC02NTcwNjk0MzEsOTQ2Njgy
+ODc3LDE3MDkwMTE1NjIsMTIxOTI1MTY0MywtMTk0NzEyNTQ5OC
+wxMjIxNDU3Nzk4LC0yNTU1NTI1MTYsMTg5MTkyMDQxNSwxNDgx
+OTE1NzE2LDEwMjU5NTU3MjksMTE1OTUzOTk4MiwtMjU4NzE0MT
+YzLDk4MDc4ODc0MSwtMTQzMDUxNDgxLDQ3NzE3ODgwMF19
 -->
