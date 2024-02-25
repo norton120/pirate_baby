@@ -29,15 +29,15 @@ Henry, Sandler's character in _50 First Dates_, may have been one of the earlies
 
 But how useful is this prompting, really? In the movie, Henry finally addresses the extreme limitations in a life of infinite first dates, and tells Lucy about her condition. With a language model, a "perfect prompt" executed in isolation is just as limited in value. Complex tasks require many complex steps, each building on a modified state - and this cannot be accomplished in a single turn. While prompt engineering is certainly an important piece of the puzzle, it doesn't remotely solve our problem by itself.
 
-## RAG isn't 
+## RAG is not 
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzA2ODc1NTksLTE1MzA4NTM2NjQsNj
-c5MjY2MzkwLDg1Mjg1ODQ4LC0xODc3MDYzNzkxLDIxNzI2NTAs
-LTIwNTMxNzU1NTcsLTIwMzM3MjcxNjUsLTEzMjcyMzI3NjUsLT
-Y1NzA2OTQzMSw5NDY2ODI4NzcsMTcwOTAxMTU2MiwxMjE5MjUx
-NjQzLC0xOTQ3MTI1NDk4LDEyMjE0NTc3OTgsLTI1NTU1MjUxNi
-wxODkxOTIwNDE1LDE0ODE5MTU3MTYsMTAyNTk1NTcyOSwxMTU5
-NTM5OTgyXX0=
+eyJoaXN0b3J5IjpbLTQ5NDA4MjcxNSwtMjEzMDY4NzU1OSwtMT
+UzMDg1MzY2NCw2NzkyNjYzOTAsODUyODU4NDgsLTE4NzcwNjM3
+OTEsMjE3MjY1MCwtMjA1MzE3NTU1NywtMjAzMzcyNzE2NSwtMT
+MyNzIzMjc2NSwtNjU3MDY5NDMxLDk0NjY4Mjg3NywxNzA5MDEx
+NTYyLDEyMTkyNTE2NDMsLTE5NDcxMjU0OTgsMTIyMTQ1Nzc5OC
+wtMjU1NTUyNTE2LDE4OTE5MjA0MTUsMTQ4MTkxNTcxNiwxMDI1
+OTU1NzI5XX0=
 -->
