@@ -20,17 +20,17 @@ The training data "memories" in an large language model are fixed at inference t
 
 Each time the LLM function is executed (we will refer to this as a _turn_) is exactly like one day for Lucy. If you've turned turned the temperature down on your model enough to be deterministic, then each turn with the same input will look exactly like Lucy's early routine, repeating the same day over and over (and baking a lot of identical birthday cakes). The LLM cannot form new "memories" as a pure inference endpoint. 
 
-We can prepend those new "memories" as part of the text we pass the LLM function, effectively augmenting the training data of our language model for the duration of the turn*. However language model context windows - the combined size of the text that can be input and output - are limited. Again, this is _exactly_ how Lu
+We can prepend those new "memories" as part of the text we pass the LLM function, effectively augmenting the training data of our language model for the duration of the turn*. However language model context windows - the combined amount of text that can be input and output in a single execution- are limited in size. Again, this is _exactly_ how Barrymore's character experiences the world; her context window is one day. 
 
 ## The limits of prompt engineering
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNjU4MDU5Miw2NzkyNjYzOTAsODUyOD
-U4NDgsLTE4NzcwNjM3OTEsMjE3MjY1MCwtMjA1MzE3NTU1Nywt
-MjAzMzcyNzE2NSwtMTMyNzIzMjc2NSwtNjU3MDY5NDMxLDk0Nj
-Y4Mjg3NywxNzA5MDExNTYyLDEyMTkyNTE2NDMsLTE5NDcxMjU0
-OTgsMTIyMTQ1Nzc5OCwtMjU1NTUyNTE2LDE4OTE5MjA0MTUsMT
-Q4MTkxNTcxNiwxMDI1OTU1NzI5LDExNTk1Mzk5ODIsLTI1ODcx
-NDE2M119
+eyJoaXN0b3J5IjpbLTExNTQ4NTU0NDgsNjc5MjY2MzkwLDg1Mj
+g1ODQ4LC0xODc3MDYzNzkxLDIxNzI2NTAsLTIwNTMxNzU1NTcs
+LTIwMzM3MjcxNjUsLTEzMjcyMzI3NjUsLTY1NzA2OTQzMSw5ND
+Y2ODI4NzcsMTcwOTAxMTU2MiwxMjE5MjUxNjQzLC0xOTQ3MTI1
+NDk4LDEyMjE0NTc3OTgsLTI1NTU1MjUxNiwxODkxOTIwNDE1LD
+E0ODE5MTU3MTYsMTAyNTk1NTcyOSwxMTU5NTM5OTgyLC0yNTg3
+MTQxNjNdfQ==
 -->
