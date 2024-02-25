@@ -20,13 +20,13 @@ The training data "memories" in an large language model are fixed at inference t
 
 Each time the LLM function is executed (we will refer to this as a _turn_) is exactly like one day for Lucy. If you've turned turned the temperature down on your model enough to be deterministic, then each turn with the same input will look exactly like Lucy's early routine, repeating the same day over and over (and baking a lot of identical birthday cakes). The LLM cannot form new "memories" as a pure inference endpoint. 
 
-We can prepend those new "memories" as part of the turn, effectively adding to the training data of our language model for the duration of the turn*. 
+We can prepend those new "memories" as part of the text we pass the LLM function, effectively augmenting the training data of our language model for the duration of the turn*. However, this quickly becomes a problem 
 
 ## The limits of prompt engineering
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0Nzg4NjcyLDY3OTI2NjM5MCw4NTI4NT
+eyJoaXN0b3J5IjpbOTExMjQ2MjY0LDY3OTI2NjM5MCw4NTI4NT
 g0OCwtMTg3NzA2Mzc5MSwyMTcyNjUwLC0yMDUzMTc1NTU3LC0y
 MDMzNzI3MTY1LC0xMzI3MjMyNzY1LC02NTcwNjk0MzEsOTQ2Nj
 gyODc3LDE3MDkwMTE1NjIsMTIxOTI1MTY0MywtMTk0NzEyNTQ5
