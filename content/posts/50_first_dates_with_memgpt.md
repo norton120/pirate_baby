@@ -45,15 +45,15 @@ Context:
 
 Question: What is the last thing Todd said before he quit yesterday?
 ```
-Again _50 First Dates_ does not disappoint with real-world analogs. In the film, Lucy's condition is kept hidden from her with the help of falsified context clues; her father swaps the real newspaper with a reprinted one, re-paints the  
+Again _50 First Dates_ does not disappoint with real-world analogs. In the film, Lucy's condition is kept hidden from her with the help of falsified context clues; her father swaps out her newspaper with a reprinted one, passes off a recorded football game as live TV, and paints over a wall every evening so she can re-paint it the next day.  
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODQ0MTcyMTgsLTIxMzA2ODc1NTksLT
-E1MzA4NTM2NjQsNjc5MjY2MzkwLDg1Mjg1ODQ4LC0xODc3MDYz
-NzkxLDIxNzI2NTAsLTIwNTMxNzU1NTcsLTIwMzM3MjcxNjUsLT
-EzMjcyMzI3NjUsLTY1NzA2OTQzMSw5NDY2ODI4NzcsMTcwOTAx
-MTU2MiwxMjE5MjUxNjQzLC0xOTQ3MTI1NDk4LDEyMjE0NTc3OT
-gsLTI1NTU1MjUxNiwxODkxOTIwNDE1LDE0ODE5MTU3MTYsMTAy
-NTk1NTcyOV19
+eyJoaXN0b3J5IjpbLTkwNDkwMzM5NSwtMjEzMDY4NzU1OSwtMT
+UzMDg1MzY2NCw2NzkyNjYzOTAsODUyODU4NDgsLTE4NzcwNjM3
+OTEsMjE3MjY1MCwtMjA1MzE3NTU1NywtMjAzMzcyNzE2NSwtMT
+MyNzIzMjc2NSwtNjU3MDY5NDMxLDk0NjY4Mjg3NywxNzA5MDEx
+NTYyLDEyMTkyNTE2NDMsLTE5NDcxMjU0OTgsMTIyMTQ1Nzc5OC
+wtMjU1NTUyNTE2LDE4OTE5MjA0MTUsMTQ4MTkxNTcxNiwxMDI1
+OTU1NzI5XX0=
 -->
