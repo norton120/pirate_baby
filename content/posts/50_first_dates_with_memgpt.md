@@ -50,11 +50,13 @@ The context injected by RAG might be very helpful, or it might be virtually irre
 Again _50 First Dates_ does not disappoint with real-world analogs. In the film, Lucy's condition is kept hidden from her with the help of falsified context clues; her father swaps out her newspaper with a reprinted one, passes off a recorded football game as live TV, and paints over a wall every evening so she can re-paint it the next day, none the wiser. This context adds to the prompt and allows Lucy to live a full day (albeit the same one over and over). It does a significantly better job of reaching the desired outcome (Lucy enjoys her day and is able to function within it) than relying completely on the day's organic events. 
 Later, Henry introduces the first attempt to be honest with Lucy in the form of a VHS recording. To the plot of the film this is a pivotal moment, as it is Lucy's first step towards regaining agency. With the language model, it is functionally the same as the newspaper and the paint; each turn is potentially better and more informed when it includes RAG content, but it is still very much an isolated turn without true external state management.  
 
-Regardless of which Lucy consumes - the fake newspaper or Henry's real VHS tape - improvement in Lucy's life is limited to the outcome of that day. Lucy still has no agency to live a full life, just as our language model can take no steps towards completing a complex task or 
+Regardless of which Lucy consumes - the fake newspaper or Henry's real VHS tape - improvement in Lucy's life is limited to the outcome of that day. Lucy still has no agency to live a full life, just as our language model can take no meaningful steps towards completing a complex task. 
+
+Just like prompt engineering, RAG is a part and a part of the answer, but it is not the answer in and of itself.
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDEwNjMyMTksMzU4MTM3OTQ1LC0yMT
+eyJoaXN0b3J5IjpbLTE2NDE1MjU2OTksMzU4MTM3OTQ1LC0yMT
 MwNjg3NTU5LC0xNTMwODUzNjY0LDY3OTI2NjM5MCw4NTI4NTg0
 OCwtMTg3NzA2Mzc5MSwyMTcyNjUwLC0yMDUzMTc1NTU3LC0yMD
 MzNzI3MTY1LC0xMzI3MjMyNzY1LC02NTcwNjk0MzEsOTQ2Njgy
