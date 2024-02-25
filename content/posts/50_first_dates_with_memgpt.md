@@ -8,7 +8,7 @@ The drive home from the movie theater was not going well. My then-girlfriend sat
 _"But what if every Sunday she made wrote a cheat sheet for the past week, and then she only read those? That would take less time. " 
 "Even a weekly summary would become unreadable in less than a year." 
 "OK, then what if she summarized those cheat sheets?? She could keep making the history smaller and smaller." 
-"At some point she'd loose too much detail - memory gets vague, but we can still recall super specific details when they matter."
+"Yeah but then she'd loose too much detail - our memory gets vague, but we can still recall super specific details when they matter. Otherwise "
 "Well then she could go back to the daily notebooks when she needs those details!" 
 "She wouldn't be able to go anywhere. She'd be chained to a room full of notebooks in order to function!"_
 
@@ -24,10 +24,11 @@ But the training data "memories" of the model are fixed at inference time - exac
 
 So our next 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMzA1OTAzLC0yMDUzMTc1NTU3LC0yMD
-MzNzI3MTY1LC0xMzI3MjMyNzY1LC02NTcwNjk0MzEsOTQ2Njgy
-ODc3LDE3MDkwMTE1NjIsMTIxOTI1MTY0MywtMTk0NzEyNTQ5OC
-wxMjIxNDU3Nzk4LC0yNTU1NTI1MTYsMTg5MTkyMDQxNSwxNDgx
-OTE1NzE2LDEwMjU5NTU3MjksMTE1OTUzOTk4MiwtMjU4NzE0MT
-YzLDk4MDc4ODc0MSwtMTQzMDUxNDgxLDQ3NzE3ODgwMF19
+eyJoaXN0b3J5IjpbLTQzMzU2MDYyNywtMjA1MzE3NTU1NywtMj
+AzMzcyNzE2NSwtMTMyNzIzMjc2NSwtNjU3MDY5NDMxLDk0NjY4
+Mjg3NywxNzA5MDExNTYyLDEyMTkyNTE2NDMsLTE5NDcxMjU0OT
+gsMTIyMTQ1Nzc5OCwtMjU1NTUyNTE2LDE4OTE5MjA0MTUsMTQ4
+MTkxNTcxNiwxMDI1OTU1NzI5LDExNTk1Mzk5ODIsLTI1ODcxND
+E2Myw5ODA3ODg3NDEsLTE0MzA1MTQ4MSw0NzcxNzg4MDBdfQ==
+
 -->
