@@ -23,18 +23,17 @@ Each time the LLM function is executed (here we will refer to this combined exec
 The natural next strategy is to prepend those new "memories" as part of the text passed to the LLM function, effectively augmenting the training data of the language model for the duration of the turn*. However language model context windows - the combined amount of text that can be input and output in a single turn - are limited in size. Again, this is _exactly_ how Barrymore's character experiences the world; her context window is one single day. Just as I argued so many years earlier that Lucy's memories would eventually take longer to consume than there are hours in a day for her to retain them, new knowledge that must be included in a turn in order for the language model to produce a useful output quickly outgrows the available context window. 
 
 ## The limits of prompt engineering
-The lion's share of language model Engineering coverage has been devoted to _prompt engineering_, or crafting the content we submit in a turn so that it produces the most desirable outcome. An entire ecosystem has rapidly developed around prompt design - from prompt engineering classes to prompt exchange marketplaces, 
-
-Prompt engineering is an important piece of the puzzle. 
+The lion's share of language model Engineering coverage has been devoted to _prompt engineering_, or crafting the content we submit in a turn so that it produces the most desirable outcome. An entire ecosystem has rapidly developed around prompt design, from prompt engineering classes to prompt exchange marketplaces - all from the idea that with the "perfect prompt" you can coax the "perfect output" a language model. 
+Prompt engineering is certainly an important piece of the puzzle, but it doesn't solve
 
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTM2MjMzNSw2NzkyNjYzOTAsODUyOD
-U4NDgsLTE4NzcwNjM3OTEsMjE3MjY1MCwtMjA1MzE3NTU1Nywt
-MjAzMzcyNzE2NSwtMTMyNzIzMjc2NSwtNjU3MDY5NDMxLDk0Nj
-Y4Mjg3NywxNzA5MDExNTYyLDEyMTkyNTE2NDMsLTE5NDcxMjU0
-OTgsMTIyMTQ1Nzc5OCwtMjU1NTUyNTE2LDE4OTE5MjA0MTUsMT
-Q4MTkxNTcxNiwxMDI1OTU1NzI5LDExNTk1Mzk5ODIsLTI1ODcx
-NDE2M119
+eyJoaXN0b3J5IjpbNzAwMDM5ODYyLDY3OTI2NjM5MCw4NTI4NT
+g0OCwtMTg3NzA2Mzc5MSwyMTcyNjUwLC0yMDUzMTc1NTU3LC0y
+MDMzNzI3MTY1LC0xMzI3MjMyNzY1LC02NTcwNjk0MzEsOTQ2Nj
+gyODc3LDE3MDkwMTE1NjIsMTIxOTI1MTY0MywtMTk0NzEyNTQ5
+OCwxMjIxNDU3Nzk4LC0yNTU1NTI1MTYsMTg5MTkyMDQxNSwxND
+gxOTE1NzE2LDEwMjU5NTU3MjksMTE1OTUzOTk4MiwtMjU4NzE0
+MTYzXX0=
 -->
