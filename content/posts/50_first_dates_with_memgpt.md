@@ -18,9 +18,9 @@ Twenty years later, the "Lucy problem" is a perfect lens to help us understand o
 Large Language Models are, in reality, just functions. You input at least one argument (text) and they output in kind. This output is the product of the model's business logic, combined parameters, and internal arguments - one of those arguments being the training data used to develop the inference model. This training data serves as the model's "memories"; without it the LLM would output very little of value, similar to a holding a deep conversation with a newborn. 
 The training data "memories" in an large language model are fixed at inference time, exactly like Lucy's memories in the movie. She has developed experiences and gathered information up to a very specific point (in her case, the day of her accident); from that day forward, she interprets stimuli based on the exact state of her mind, her memories, at that time. This is _precisely_ how inference with a large language model operates - fixed to the moment the training was complete, and the resulting function was pickled. 
 
-Language models operati
+Each time the LLM function is executed (we will refer to this as a _turn_) is exactly like one day for Lucy. If you've tuned your 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4Mzc1MjMwMyw2NzkyNjYzOTAsODUyOD
+eyJoaXN0b3J5IjpbMTE0MDMxNTUwNCw2NzkyNjYzOTAsODUyOD
 U4NDgsLTE4NzcwNjM3OTEsMjE3MjY1MCwtMjA1MzE3NTU1Nywt
 MjAzMzcyNzE2NSwtMTMyNzIzMjc2NSwtNjU3MDY5NDMxLDk0Nj
 Y4Mjg3NywxNzA5MDExNTYyLDEyMTkyNTE2NDMsLTE5NDcxMjU0
