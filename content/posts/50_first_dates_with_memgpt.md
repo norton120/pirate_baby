@@ -20,13 +20,15 @@ The training data "memories" in an large language model are fixed at inference t
 
 Each time the LLM function is executed (we will refer to this execution and response as a _turn_) is exactly like one day for Lucy. If you've turned turned the temperature down on your model enough to be deterministic, then each turn with the same input will look exactly like Lucy's early routine, repeating the same day over and over (and baking a lot of identical birthday cakes). The LLM cannot form new "memories" as a pure inference endpoint. 
 
-We can prepend those new "memories" as part of the text we pass the LLM function, effectively augmenting the training data of our language model for the duration of the turn*. However language model context windows - the combined amount of text that can be input and output in a single turn - are limited in size. Again, this is _exactly_ how Barrymore's character experiences the world; her context window is one day. And just as I argued earlier that her knowledge would take longer to consume than there are hours in a day for her to retain it, the new knowledge a large language models to consider quickly outgrows the available context window. 
+We can prepend those new "memories" as part of the text we pass the LLM function, effectively augmenting the training data of our language model for the duration of the turn*. However language model context windows - the combined amount of text that can be input and output in a single turn - are limited in size. Again, this is _exactly_ how Barrymore's character experiences the world; her context window is one day. And just as I argued earlier that her knowledge would take longer to consume than there are hours in a day for her to retain it, the new knowledge a large language model should consider when deriving an output quickly outgrows the available context window. 
 
 ## The limits of prompt engineering
+The lion's share of language model Engineering coverage has been on 
+
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MzE5OTI0MCw2NzkyNjYzOTAsODUyOD
+eyJoaXN0b3J5IjpbMTIyNzU2NjM1OSw2NzkyNjYzOTAsODUyOD
 U4NDgsLTE4NzcwNjM3OTEsMjE3MjY1MCwtMjA1MzE3NTU1Nywt
 MjAzMzcyNzE2NSwtMTMyNzIzMjc2NSwtNjU3MDY5NDMxLDk0Nj
 Y4Mjg3NywxNzA5MDExNTYyLDEyMTkyNTE2NDMsLTE5NDcxMjU0
