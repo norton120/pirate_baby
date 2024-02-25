@@ -12,7 +12,7 @@ _"But what if every Sunday she made wrote a cheat sheet for the past week, and t
 "But she'd still have her daily journals for when she needs those details!" 
 "How would she ever search that? We're back where we started."_
 
-Twenty years later, the "Lucy problem" is a perfect lens to help us understand what is maybe the most important challenge in designing a large language model agent framework. 
+Twenty years later, the "Lucy problem" is a perfect lens to help us understand what is maybe the most important challenge in designing a large language model agent framework. And the solution proposed by researchers and co
 
 
 ## a near-perfect analogy
@@ -21,7 +21,7 @@ But the training data "memories" of the model are fixed at inference time - exac
 
 So our next 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NzkxNTQyMSwtMTg3NzA2Mzc5MSwyMT
+eyJoaXN0b3J5IjpbLTQ5ODQzNDU0OSwtMTg3NzA2Mzc5MSwyMT
 cyNjUwLC0yMDUzMTc1NTU3LC0yMDMzNzI3MTY1LC0xMzI3MjMy
 NzY1LC02NTcwNjk0MzEsOTQ2NjgyODc3LDE3MDkwMTE1NjIsMT
 IxOTI1MTY0MywtMTk0NzEyNTQ5OCwxMjIxNDU3Nzk4LC0yNTU1
