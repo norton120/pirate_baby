@@ -12,7 +12,7 @@ _"But what if every Sunday she made wrote a cheat sheet for the past week, and t
 "But she'd still have her daily journals for when she needs those details!" 
 "How would she ever search that? We're back where we started."_
 
-Twenty years later, the "Lucy problem" is a perfect lens to help us understand what is maybe the most important challenge in designing a large language model agent framework. A solution proposed by [researchers at UC Berkeley](https://research.memgpt.ai/) is both 
+Twenty years later, the "Lucy problem" is a perfect lens to help us understand one of the most important challenges in designing a :arge language model agent framework. A solution proposed by [researchers at UC Berkeley](https://research.memgpt.ai/) is both 
 
 
 ## a near-perfect analogy
@@ -21,11 +21,11 @@ But the training data "memories" of the model are fixed at inference time - exac
 
 So our next 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTc1ODAyMzQsLTE4NzcwNjM3OTEsMj
-E3MjY1MCwtMjA1MzE3NTU1NywtMjAzMzcyNzE2NSwtMTMyNzIz
-Mjc2NSwtNjU3MDY5NDMxLDk0NjY4Mjg3NywxNzA5MDExNTYyLD
-EyMTkyNTE2NDMsLTE5NDcxMjU0OTgsMTIyMTQ1Nzc5OCwtMjU1
-NTUyNTE2LDE4OTE5MjA0MTUsMTQ4MTkxNTcxNiwxMDI1OTU1Nz
-I5LDExNTk1Mzk5ODIsLTI1ODcxNDE2Myw5ODA3ODg3NDEsLTE0
-MzA1MTQ4MV19
+eyJoaXN0b3J5IjpbNTQ0NTg0OTYsLTE4NzcwNjM3OTEsMjE3Mj
+Y1MCwtMjA1MzE3NTU1NywtMjAzMzcyNzE2NSwtMTMyNzIzMjc2
+NSwtNjU3MDY5NDMxLDk0NjY4Mjg3NywxNzA5MDExNTYyLDEyMT
+kyNTE2NDMsLTE5NDcxMjU0OTgsMTIyMTQ1Nzc5OCwtMjU1NTUy
+NTE2LDE4OTE5MjA0MTUsMTQ4MTkxNTcxNiwxMDI1OTU1NzI5LD
+ExNTk1Mzk5ODIsLTI1ODcxNDE2Myw5ODA3ODg3NDEsLTE0MzA1
+MTQ4MV19
 -->
