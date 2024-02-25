@@ -27,16 +27,17 @@ The lion's share of language model Engineering coverage has been devoted to _pro
 
 Henry, Sandler's character in _50 First Dates_, may have been one of the earliest prompt engineers. Early in the film Henry falls in love with Lucy and agrees not to tell her about her injury, instead wooing her anew each day. His daily "prompts" to re-win her heart begin abysmally, with most ending in rejection. Over time, his technique evolves until Lucy falls for him day after day. We see this same example in countless language model demos, where a meticulously crafted prompt is used to visualize analytics for a dataset or generate a spot-on cover letter. 
 
-But how useful is this prompting, really? In the movie, Henry finally addresses the extreme limitations in a life of infinite first dates, and tells Lucy about her condition. With a , a single "perfect prompt" executed in isolation is just as limited in value. Complex tasks require many steps, each building on a modified state. While prompt engineering is certainly an important piece of the puzzle, it doesn't remotely solve our problem of . 
+But how useful is this prompting, really? In the movie, Henry finally addresses the extreme limitations in a life of infinite first dates, and tells Lucy about her condition. With a language model, a "perfect prompt" executed in isolation is just as limited in value. Complex tasks require many complex steps, each building on a modified state - and this cannot be accomplished in a single turn. While prompt engineering is certainly an important piece of the puzzle, it doesn't remotely solve our problem by itself.
 
+## RAG isn't 
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkzMTQ3MzgzLC0xNTMwODUzNjY0LDY3OT
-I2NjM5MCw4NTI4NTg0OCwtMTg3NzA2Mzc5MSwyMTcyNjUwLC0y
-MDUzMTc1NTU3LC0yMDMzNzI3MTY1LC0xMzI3MjMyNzY1LC02NT
-cwNjk0MzEsOTQ2NjgyODc3LDE3MDkwMTE1NjIsMTIxOTI1MTY0
-MywtMTk0NzEyNTQ5OCwxMjIxNDU3Nzk4LC0yNTU1NTI1MTYsMT
-g5MTkyMDQxNSwxNDgxOTE1NzE2LDEwMjU5NTU3MjksMTE1OTUz
-OTk4Ml19
+eyJoaXN0b3J5IjpbLTIxMzA2ODc1NTksLTE1MzA4NTM2NjQsNj
+c5MjY2MzkwLDg1Mjg1ODQ4LC0xODc3MDYzNzkxLDIxNzI2NTAs
+LTIwNTMxNzU1NTcsLTIwMzM3MjcxNjUsLTEzMjcyMzI3NjUsLT
+Y1NzA2OTQzMSw5NDY2ODI4NzcsMTcwOTAxMTU2MiwxMjE5MjUx
+NjQzLC0xOTQ3MTI1NDk4LDEyMjE0NTc3OTgsLTI1NTU1MjUxNi
+wxODkxOTIwNDE1LDE0ODE5MTU3MTYsMTAyNTk1NTcyOSwxMTU5
+NTM5OTgyXX0=
 -->
