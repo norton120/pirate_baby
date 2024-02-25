@@ -18,13 +18,13 @@ Twenty years later, the "Lucy problem" is a perfect lens to help us understand o
 Large Language Models are, in reality, just functions. You input at least one argument (text) and they output in kind. This output is the product of the model's business logic, combined parameters, and internal arguments - one of those arguments being the training data used to develop the inference model. This training data serves as the model's "memories"; without it the LLM would output very little of value, similar to a holding a deep conversation with a newborn. 
 The training data "memories" in an large language model are fixed at inference time, exactly like Lucy's memories in the movie. She has developed experiences and gathered information up to a very specific point (in her case, the day of her accident); from that day forward, she interprets stimuli based on the exact state of her mind, her memories, at that time. This is _precisely_ how inference with a large language model operates - fixed to the moment the training was complete, and the resulting function was pickled. 
 
-So our next 
+Language models operati
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc5MjY2MzkwLDg1Mjg1ODQ4LC0xODc3MD
-YzNzkxLDIxNzI2NTAsLTIwNTMxNzU1NTcsLTIwMzM3MjcxNjUs
-LTEzMjcyMzI3NjUsLTY1NzA2OTQzMSw5NDY2ODI4NzcsMTcwOT
-AxMTU2MiwxMjE5MjUxNjQzLC0xOTQ3MTI1NDk4LDEyMjE0NTc3
-OTgsLTI1NTU1MjUxNiwxODkxOTIwNDE1LDE0ODE5MTU3MTYsMT
-AyNTk1NTcyOSwxMTU5NTM5OTgyLC0yNTg3MTQxNjMsOTgwNzg4
-NzQxXX0=
+eyJoaXN0b3J5IjpbMTQ4Mzc1MjMwMyw2NzkyNjYzOTAsODUyOD
+U4NDgsLTE4NzcwNjM3OTEsMjE3MjY1MCwtMjA1MzE3NTU1Nywt
+MjAzMzcyNzE2NSwtMTMyNzIzMjc2NSwtNjU3MDY5NDMxLDk0Nj
+Y4Mjg3NywxNzA5MDExNTYyLDEyMTkyNTE2NDMsLTE5NDcxMjU0
+OTgsMTIyMTQ1Nzc5OCwtMjU1NTUyNTE2LDE4OTE5MjA0MTUsMT
+Q4MTkxNTcxNiwxMDI1OTU1NzI5LDExNTk1Mzk5ODIsLTI1ODcx
+NDE2M119
 -->
