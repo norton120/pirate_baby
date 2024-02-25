@@ -18,13 +18,13 @@ Twenty years later, the "Lucy problem" is a perfect lens to help us understand o
 Large Language Models are, in reality, just functions. You input at least one argument (text) and they output in kind. This output is the product of the model's business logic, combined parameters, and internal arguments - one of those arguments being the training data used to develop the inference model. This training data serves as the model's "memories"; without it the LLM would output very little of value, similar to a holding a deep conversation with a newborn. 
 The training data "memories" in an large language model are fixed at inference time, exactly like Lucy's memories in the movie. She has developed experiences and gathered information up to a very specific point (in her case, the day of her accident); from that day forward, she interprets stimuli based on the exact state of her mind, her memories, at that time. This is _precisely_ how inference with a large language model operates - fixed to the moment the training was complete, and the resulting function was pickled. 
 
-Each time the LLM function is executed (we will refer to this as a _turn_) is exactly like one day for Lucy. If you've tuned your 
+Each time the LLM function is executed (we will refer to this as a _turn_) is exactly like one day for Lucy. If you've turned turned the temperature down on your model enough to be deterministic, then each turn with the same input will look exactly like Lucy's early routi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MDMxNTUwNCw2NzkyNjYzOTAsODUyOD
-U4NDgsLTE4NzcwNjM3OTEsMjE3MjY1MCwtMjA1MzE3NTU1Nywt
-MjAzMzcyNzE2NSwtMTMyNzIzMjc2NSwtNjU3MDY5NDMxLDk0Nj
-Y4Mjg3NywxNzA5MDExNTYyLDEyMTkyNTE2NDMsLTE5NDcxMjU0
-OTgsMTIyMTQ1Nzc5OCwtMjU1NTUyNTE2LDE4OTE5MjA0MTUsMT
-Q4MTkxNTcxNiwxMDI1OTU1NzI5LDExNTk1Mzk5ODIsLTI1ODcx
-NDE2M119
+eyJoaXN0b3J5IjpbNDk5NTUwMzkwLDY3OTI2NjM5MCw4NTI4NT
+g0OCwtMTg3NzA2Mzc5MSwyMTcyNjUwLC0yMDUzMTc1NTU3LC0y
+MDMzNzI3MTY1LC0xMzI3MjMyNzY1LC02NTcwNjk0MzEsOTQ2Nj
+gyODc3LDE3MDkwMTE1NjIsMTIxOTI1MTY0MywtMTk0NzEyNTQ5
+OCwxMjIxNDU3Nzk4LC0yNTU1NTI1MTYsMTg5MTkyMDQxNSwxND
+gxOTE1NzE2LDEwMjU5NTU3MjksMTE1OTUzOTk4MiwtMjU4NzE0
+MTYzXX0=
 -->
