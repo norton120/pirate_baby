@@ -30,12 +30,12 @@ Henry, Sandler's character in _50 First Dates_, may have been one of the earlies
 But how useful is this prompting, really? In the movie, Henry finally addresses the extreme limitations in a life of infinite first dates, and tells Lucy about her condition. With a language model, a "perfect prompt" executed in isolation is just as limited in value. Complex tasks require many complex steps, each building on a modified state - and this cannot be accomplished in a single turn. While prompt engineering is certainly an important piece of the puzzle, it doesn't remotely solve our problem alone.
 
 ## RAG, the newspaper, and the video tape
-For both Lucy and the language model, things get interesting once we start externalizing memories. Retrieval Augmented Generation (RAG) is probably a close second to prompt engineering in the sheer volume of attention paid. RAG can be more simply stated as "store text somewhere, then on each turn search that text and add bits to the prompt." The most common RAG implementations today are blind semantic searches, where for any raw user prompt the RAG store is sear 
+For both Lucy and the language model, things get interesting once we start externalizing memories. Retrieval Augmented Generation (RAG) is probably a close second to prompt engineering in the sheer volume of attention paid. RAG can be more simply stated as "store text somewhere, then on each turn search that text and add bits to the prompt." The most common RAG implementations today are blind semantic searches, where for every user input is searched in the RAG store by semantic similarity, and then the top few search results are stuf
 
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTgyMDY2NjYsLTIxMzA2ODc1NTksLT
+eyJoaXN0b3J5IjpbLTEwNDU2NDg3MTgsLTIxMzA2ODc1NTksLT
 E1MzA4NTM2NjQsNjc5MjY2MzkwLDg1Mjg1ODQ4LC0xODc3MDYz
 NzkxLDIxNzI2NTAsLTIwNTMxNzU1NTcsLTIwMzM3MjcxNjUsLT
 EzMjcyMzI3NjUsLTY1NzA2OTQzMSw5NDY2ODI4NzcsMTcwOTAx
