@@ -15,7 +15,7 @@ _"But what if she summarized every week and just read the summaries?"
 
 The rest of the ride was very quiet. 
 
-I doubt I could have imagined that 20 years later, I would find myself faced with the  very same problem while building an artificial intelligence agent. Or that the most interesting solution to the problem - and maybe the most revolutionary - resembles most the solution I had been arguing against that night. 
+I couldn't have imagined that 20 years later, I would find myself faced with the  very same problem while building an artificial intelligence agent. Or that the most interesting solution to the problem - and maybe the most revolutionary - resembles most the solution I had been arguing against that night. 
 
 Jenni if you're reading this, sorry about that. 
 
@@ -25,9 +25,9 @@ But the training data "memories" of the model are fixed at inference time - exac
 
 So our next 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ2NjgyODc3LDE3MDkwMTE1NjIsMTIxOT
-I1MTY0MywtMTk0NzEyNTQ5OCwxMjIxNDU3Nzk4LC0yNTU1NTI1
-MTYsMTg5MTkyMDQxNSwxNDgxOTE1NzE2LDEwMjU5NTU3MjksMT
-E1OTUzOTk4MiwtMjU4NzE0MTYzLDk4MDc4ODc0MSwtMTQzMDUx
-NDgxLDQ3NzE3ODgwMF19
+eyJoaXN0b3J5IjpbLTY1NzA2OTQzMSw5NDY2ODI4NzcsMTcwOT
+AxMTU2MiwxMjE5MjUxNjQzLC0xOTQ3MTI1NDk4LDEyMjE0NTc3
+OTgsLTI1NTU1MjUxNiwxODkxOTIwNDE1LDE0ODE5MTU3MTYsMT
+AyNTk1NTcyOSwxMTU5NTM5OTgyLC0yNTg3MTQxNjMsOTgwNzg4
+NzQxLC0xNDMwNTE0ODEsNDc3MTc4ODAwXX0=
 -->
