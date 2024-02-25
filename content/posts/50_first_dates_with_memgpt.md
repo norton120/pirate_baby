@@ -20,19 +20,19 @@ The training data "memories" in an large language model are fixed at inference t
 
 Each time the LLM function is executed (we will refer to this execution and response as a _turn_) is exactly like one day for Lucy. If you've turned turned the temperature down on your model enough to be deterministic, then each turn with the same input will look exactly like Lucy's early routine, repeating the same day over and over (and baking a lot of identical birthday cakes). The LLM cannot form new "memories" as a pure inference endpoint. 
 
-We can prepend those new "memories" as part of the text we pass the LLM function, effectively augmenting the training data of our language model for the duration of the turn*. However language model context windows - the combined amount of text that can be input and output in a single turn - are limited in size. Again, this is _exactly_ how Barrymore's character experiences the world; her context window is one day. And just as I argued earlier that her knowledge would take longer to consume than there are hours in a day for her to retain it, the new knowledge a large language model should consider when deriving an output quickly outgrows the available context window. 
+We can prepend those new "memories" as part of the text we pass the LLM function, effectively augmenting the training data of our language model for the duration of the turn*. However language model context windows - the combined amount of text that can be input and output in a single turn - are limited in size. Again, this is _exactly_ how Barrymore's character experiences the world; her context window is one day. Just as I argued earlier that Lucy's knowledge would eventually take longer to consume than there are hours in a day for her to retain it, new knowledge that a large language model must include in order to produce a useful output quickly outgrows the model's available context window. 
 
 ## The limits of prompt engineering
-The lion's share of the last year's language model Engineering coverage has been devoted to _prompt engineering_, or crafting the content of the text we submit to a turn in order to get 
+The lion's share of the last year's language model Engineering coverage has been devoted to _prompt engineering_, or crafting the content of the text we submit to a turn in a way that produces the most desirable outcome. Prompt engineering is an important part of the solution, but 
 
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NTQwNDg4LDY3OTI2NjM5MCw4NTI4NT
-g0OCwtMTg3NzA2Mzc5MSwyMTcyNjUwLC0yMDUzMTc1NTU3LC0y
-MDMzNzI3MTY1LC0xMzI3MjMyNzY1LC02NTcwNjk0MzEsOTQ2Nj
-gyODc3LDE3MDkwMTE1NjIsMTIxOTI1MTY0MywtMTk0NzEyNTQ5
-OCwxMjIxNDU3Nzk4LC0yNTU1NTI1MTYsMTg5MTkyMDQxNSwxND
-gxOTE1NzE2LDEwMjU5NTU3MjksMTE1OTUzOTk4MiwtMjU4NzE0
-MTYzXX0=
+eyJoaXN0b3J5IjpbNTQxMzA1LDY3OTI2NjM5MCw4NTI4NTg0OC
+wtMTg3NzA2Mzc5MSwyMTcyNjUwLC0yMDUzMTc1NTU3LC0yMDMz
+NzI3MTY1LC0xMzI3MjMyNzY1LC02NTcwNjk0MzEsOTQ2NjgyOD
+c3LDE3MDkwMTE1NjIsMTIxOTI1MTY0MywtMTk0NzEyNTQ5OCwx
+MjIxNDU3Nzk4LC0yNTU1NTI1MTYsMTg5MTkyMDQxNSwxNDgxOT
+E1NzE2LDEwMjU5NTU3MjksMTE1OTUzOTk4MiwtMjU4NzE0MTYz
+XX0=
 -->
