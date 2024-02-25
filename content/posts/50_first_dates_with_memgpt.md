@@ -45,11 +45,11 @@ Context:
 
 Question: What is the last thing Todd said before he quit yesterday?
 ```
-Again _50 First Dates_ does not disappoint with real-world analogs. In the film Lucy's family hides her condition from her by c
+Again _50 First Dates_ does not disappoint with real-world analogs. In the film Lucy's condition is hidden from her with a collection of augmentated 
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MDEwMjM0OSwtMjEzMDY4NzU1OSwtMT
+eyJoaXN0b3J5IjpbMjAxNDMzNzg2OCwtMjEzMDY4NzU1OSwtMT
 UzMDg1MzY2NCw2NzkyNjYzOTAsODUyODU4NDgsLTE4NzcwNjM3
 OTEsMjE3MjY1MCwtMjA1MzE3NTU1NywtMjAzMzcyNzE2NSwtMT
 MyNzIzMjc2NSwtNjU3MDY5NDMxLDk0NjY4Mjg3NywxNzA5MDEx
