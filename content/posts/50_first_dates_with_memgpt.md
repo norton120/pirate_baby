@@ -14,17 +14,17 @@ _"But what if every Sunday she made wrote a cheat sheet for the past week, and t
 
 Twenty years later, the "Lucy problem" is a perfect lens to help us understand one of the most important challenges in designing a Large Language Model Agent Framework. The solution proposed by [researchers at UC Berkeley](https://research.memgpt.ai/) is remarkably innovative and offers exciting potential - and it is a solution that bears significant resemblance to the one I was arguing against during that car ride home. It looks like I owe someone an apology.
 
-## Lucy the langa near-perfect analogy
-Large Language Models are, in reality, just functions. You input at least one argument (text) and they output in kind. The output is a product of the model - more specifically, of the "memories" or training data that the model has been assembled with. Without this training data, the LLM would output very little of value - similar to a conversation with a newborn. 
+## Lucy the language model: a near-perfect analogy
+Large Language Models are, in reality, just functions. You input at least one argument (text) and they output in kind. The resuoutput is a product of the model's logic  - more specifically, of the "memories" or training data that the model has been assembled with. Without this training data, the LLM would output very little of value - similar to a conversation with a newborn. 
 But the training data "memories" of the model are fixed at inference time - exactly like Lucy in the movie. She has developed experiences and gathered information to a very specific point (in her case, the day of her accident) and she will forever process what shes, hears and learns with a "model" fixed to that day. This is _exactly_ how our LLM function operates - fixed to the moment it was pickled. 
 
 So our next 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTYzNDM2MSw4NTI4NTg0OCwtMTg3Nz
-A2Mzc5MSwyMTcyNjUwLC0yMDUzMTc1NTU3LC0yMDMzNzI3MTY1
-LC0xMzI3MjMyNzY1LC02NTcwNjk0MzEsOTQ2NjgyODc3LDE3MD
-kwMTE1NjIsMTIxOTI1MTY0MywtMTk0NzEyNTQ5OCwxMjIxNDU3
-Nzk4LC0yNTU1NTI1MTYsMTg5MTkyMDQxNSwxNDgxOTE1NzE2LD
-EwMjU5NTU3MjksMTE1OTUzOTk4MiwtMjU4NzE0MTYzLDk4MDc4
-ODc0MV19
+eyJoaXN0b3J5IjpbLTEwNDYzNjQxNTksODUyODU4NDgsLTE4Nz
+cwNjM3OTEsMjE3MjY1MCwtMjA1MzE3NTU1NywtMjAzMzcyNzE2
+NSwtMTMyNzIzMjc2NSwtNjU3MDY5NDMxLDk0NjY4Mjg3NywxNz
+A5MDExNTYyLDEyMTkyNTE2NDMsLTE5NDcxMjU0OTgsMTIyMTQ1
+Nzc5OCwtMjU1NTUyNTE2LDE4OTE5MjA0MTUsMTQ4MTkxNTcxNi
+wxMDI1OTU1NzI5LDExNTk1Mzk5ODIsLTI1ODcxNDE2Myw5ODA3
+ODg3NDFdfQ==
 -->
