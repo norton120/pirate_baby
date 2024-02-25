@@ -25,14 +25,14 @@ The natural next strategy is to prepend those new "memories" as part of the text
 ## The limits of prompt engineering
 The lion's share of language model Engineering coverage has been devoted to _prompt engineering_, or crafting the content we submit in a turn so that it produces the most desirable outcome. An entire ecosystem has rapidly developed around prompt design, from prompt engineering classes to prompt exchange marketplaces - all from the idea that with the "perfect prompt" you can coax the "perfect output" a language model. 
 Henry, Sandler's character in _50 First Dates_, may have been one of the earliest prompt engineers. Early in the film Henry falls in love with Lucy and agrees not to tell her about her injury, instead wooing her anew each day. His daily "prompts" to re-win her heart begin abysmally, with most ending in rejection. But over time his technique evolves until she consistently falls for him, day after day. 
-But how useful is this prompting? 
+But how useful is this prompting, really? In the movie, Henry finally addresses that a life of infinite first dates is an extremely limited one. 
 
 Prompt engineering is certainly an important piece of the puzzle, but it doesn't remotely solve our problem. 
 
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNTY0NDI3OCwtMTUzMDg1MzY2NCw2Nz
+eyJoaXN0b3J5IjpbMTUyODQ2NjEwNiwtMTUzMDg1MzY2NCw2Nz
 kyNjYzOTAsODUyODU4NDgsLTE4NzcwNjM3OTEsMjE3MjY1MCwt
 MjA1MzE3NTU1NywtMjAzMzcyNzE2NSwtMTMyNzIzMjc2NSwtNj
 U3MDY5NDMxLDk0NjY4Mjg3NywxNzA5MDExNTYyLDEyMTkyNTE2
