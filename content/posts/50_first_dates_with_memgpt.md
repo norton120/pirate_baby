@@ -50,15 +50,15 @@ The context injected by RAG might be very helpful, or it might be virtually irre
 Again _50 First Dates_ does not disappoint with real-world analogs. In the film, Lucy's condition is kept hidden from her with the help of falsified context clues; her father swaps out her newspaper with a reprinted one, passes off a recorded football game as live TV, and paints over a wall every evening so she can re-paint it the next day, none the wiser. This context adds to the prompt and allows Lucy to live a full day (albeit the same one over and over). It does a significantly better job of reaching the desired outcome (Lucy enjoys her day and is able to function within it) than relying completely on the day's organic events. 
 Later, Henry introduces the first attempt to be honest with Lucy in the form of a VHS recording. To the plot of the film this is a pivotal moment, as it is Lucy's first step towards regaining agency. With the language model, it is functionally the same as the newspaper and the paint; each turn is potentially better and more informed when it includes RAG content, but it is still very much an isolated turn without true external state management.  
 
-Weather Luc the fake newspaper or Henry's real VHS tape - it is still only impacting that  
+Regardless of which Lucy consumes -  the fake newspaper or Henry's real VHS tape - the improvement is limited to the outcome of that day. Lucy still has no agency to live a full life
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA0NzQ1MjI1LC0yMTMwNjg3NTU5LC0xNT
-MwODUzNjY0LDY3OTI2NjM5MCw4NTI4NTg0OCwtMTg3NzA2Mzc5
-MSwyMTcyNjUwLC0yMDUzMTc1NTU3LC0yMDMzNzI3MTY1LC0xMz
-I3MjMyNzY1LC02NTcwNjk0MzEsOTQ2NjgyODc3LDE3MDkwMTE1
-NjIsMTIxOTI1MTY0MywtMTk0NzEyNTQ5OCwxMjIxNDU3Nzk4LC
-0yNTU1NTI1MTYsMTg5MTkyMDQxNSwxNDgxOTE1NzE2LDEwMjU5
-NTU3MjldfQ==
+eyJoaXN0b3J5IjpbLTE3NjE1Mjg0MTksLTIxMzA2ODc1NTksLT
+E1MzA4NTM2NjQsNjc5MjY2MzkwLDg1Mjg1ODQ4LC0xODc3MDYz
+NzkxLDIxNzI2NTAsLTIwNTMxNzU1NTcsLTIwMzM3MjcxNjUsLT
+EzMjcyMzI3NjUsLTY1NzA2OTQzMSw5NDY2ODI4NzcsMTcwOTAx
+MTU2MiwxMjE5MjUxNjQzLC0xOTQ3MTI1NDk4LDEyMjE0NTc3OT
+gsLTI1NTU1MjUxNiwxODkxOTIwNDE1LDE0ODE5MTU3MTYsMTAy
+NTk1NTcyOV19
 -->
