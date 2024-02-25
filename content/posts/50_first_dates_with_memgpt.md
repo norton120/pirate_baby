@@ -32,14 +32,15 @@ But how useful is this prompting, really? In the movie, Henry finally addresses 
 ## RAG, the newspaper, and the video tape
 For both Lucy and the language model, things get interesting once we start externalizing memories. Retrieval Augmented Generation (RAG) is probably a close second to prompt engineering in the sheer volume of attention paid. RAG can be more simply stated as "store text somewhere, then on each turn search that text and add bits to the prompt." The most common RAG implementations today are blind semantic searches, where every user input is searched against the RAG store by semantic similarity, and then the top few search results are combined with the user input as the prompt. They look something like this:
 
-```python
-# user promp
+```txt
+# user input
+T
 ```
 
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODMzMzUxNywtMjEzMDY4NzU1OSwtMT
+eyJoaXN0b3J5IjpbLTM4NzExNzczMywtMjEzMDY4NzU1OSwtMT
 UzMDg1MzY2NCw2NzkyNjYzOTAsODUyODU4NDgsLTE4NzcwNjM3
 OTEsMjE3MjY1MCwtMjA1MzE3NTU1NywtMjAzMzcyNzE2NSwtMT
 MyNzIzMjc2NSwtNjU3MDY5NDMxLDk0NjY4Mjg3NywxNzA5MDEx
