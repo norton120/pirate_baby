@@ -4,7 +4,7 @@ date: 2024-02-25
 draft: true
 ---
 ## preamble
-The drive home from the movie theater was not going well. My then-girlfriend sat arms crossed in the passenger seat, the red glow from the traffic light matching her mood. "You can't just let it be romantic. Why do you have to ruin everything!?!" We had just seen _50 First Dates_, a classic Sandler/Barrymore romance about a woman who's brain injury prevents her from forming long-term memories. In the movie, Lucy (Barrymore) constructs her own "external memory" via her diary; a clever plot device, but one that required a suspension of disbelief I could not abide. If her journal entries took 20 minutes a day to write (that is less than most people, and most people aren't trying to compensate for brain damage), each page would take roughly half that time - so 10 minutes - to read. That means reading a week's journals would take her an hour each day. A month of journals would take her nearly half the day (assuming she stopped to eat) to read. Within a few months, all she would have time to do is read about her past; by the 6 month mark, her daily reading would take more hours than are in a day. Romantic? Yes. Realistic? No. And so we argued, the complexity of her logic growing in lock-step with the rising emotions. 
+The drive home from the movie theater was not going well. My then-girlfriend sat arms crossed in the passenger seat, the red glow from the traffic light matching her mood. "You can't just let it be romantic. Why do you have to ruin everything!?!" We had just seen _50 First Dates_, a classic Sandler/Barrymore romance about a woman who's brain injury prevents her from forming long-term memories. In the movie, Lucy (Barrymore) constructs her own "external memory" via her diary; a clever plot device, but one that required suspension of disbelief that I just could not abide. I had done shorthand math while the credits were rolling: If Lucy's daily diary entries took 20 minutes a day to write (that is less than most people, and most people aren't trying to compensate for brain damage), each page would take roughly half that time - so 10 minutes - to read. That means reading a week's journals would take her an hour each day. A month of journals would take her nearly half the day (assuming she stopped to eat) to read. Within a few months, all she would have time to do is read about her past; by the 6 month mark, her daily reading would take more hours than are in a day. Romantic? Yes. Realistic? No. And so we argued, the complexity of her logic growing in lock-step with the rising emotions. 
 
 _"But what if she summarized every week and just read the summaries?" 
 "Even a weekly summary would become unreadable in less than a year." 
@@ -25,7 +25,7 @@ But the training data "memories" of the model are fixed at inference time - exac
 
 So our next 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3ODk4NDA5MSwtMjA1MzE3NTU1NywtMj
+eyJoaXN0b3J5IjpbMTMwODc3MDA0NywtMjA1MzE3NTU1NywtMj
 AzMzcyNzE2NSwtMTMyNzIzMjc2NSwtNjU3MDY5NDMxLDk0NjY4
 Mjg3NywxNzA5MDExNTYyLDEyMTkyNTE2NDMsLTE5NDcxMjU0OT
 gsMTIyMTQ1Nzc5OCwtMjU1NTUyNTE2LDE4OTE5MjA0MTUsMTQ4
