@@ -56,12 +56,12 @@ Regardless of which Lucy consumes - the fake newspaper or Henry's real VHS tape 
 Just like prompt engineering, RAG is a piece of the puzzle, but it is not the answer in and of itself.
 
 ## A mind with a diary
-Let's review that theory from the car. What if Lucy kept a diary, and then managed this "external memory" by summarizing, consolidating, and making herself cheat sheets? Unlike her father's newspaper or Henry's VHS tape, this memory would be under her control. _She_ decides what is critically important, what can be consoli
+Let's review that theory from the car. What if Lucy kept a diary, and then managed this "external memory" by summarizing, consolidating, and making herself cheat sheets? Unlike her father's newspaper or Henry's VHS tape, this memory would be under her control. _She_ decides what is critically important, what can be forgotten, and what should live in "cold storage" to be dredged up only when needed. The movie touches on this idea (though it took my fun-ruining 
 
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzODE5MDY5NCwzNTgxMzc5NDUsLTIxMz
+eyJoaXN0b3J5IjpbMTAyMzYzMDI0NywzNTgxMzc5NDUsLTIxMz
 A2ODc1NTksLTE1MzA4NTM2NjQsNjc5MjY2MzkwLDg1Mjg1ODQ4
 LC0xODc3MDYzNzkxLDIxNzI2NTAsLTIwNTMxNzU1NTcsLTIwMz
 M3MjcxNjUsLTEzMjcyMzI3NjUsLTY1NzA2OTQzMSw5NDY2ODI4
