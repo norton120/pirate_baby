@@ -29,7 +29,7 @@ Henry, Sandler's character in _50 First Dates_, may have been one of the earlies
 
 But how useful is this prompting, really? In the movie, Henry finally addresses the extreme limitations in a life of infinite first dates, and tells Lucy about her condition. With a language model, a "perfect prompt" executed in isolation is just as limited in value. Complex tasks require many complex steps, each building on a modified state - and this cannot be accomplished in a single turn. While prompt engineering is certainly an important piece of the puzzle, it doesn't remotely solve our problem alone.
 
-## RAG, the newspaper, and the video tape
+## RAG, a newspaper, and a video tape
 For both Lucy and the language model, things get interesting once we start externalizing memories. Retrieval Augmented Generation (RAG) is probably a close second to prompt engineering in the sheer volume of attention paid. RAG can be more simply stated as "store text somewhere, then on each turn search that text and add bits to the prompt." The most common RAG implementations today are blind semantic searches, where every user input is searched against the RAG store by semantic similarity, and then the top few search results are combined with the user input as the prompt. They look something like this:
 
 ```txt
@@ -45,11 +45,13 @@ Context:
 
 Question: What is the last thing Todd said before he quit yesterday?
 ```
-Again _50 First Dates_ does not disappoint with real-world analogs. In the film, Lucy's condition is kept hidden from her with the help of falsified context clues; her father swaps out her newspaper with a reprinted one, passes off a recorded football game as live TV, and paints over a wall every evening so she can re-paint it the next day, none the wiser. This context adds to the prompt and allows Lucy to live a full day (albeit the same one over and over). It does a significantly better job of reaching the desired outcome (Lucy enjoys her
+Again _50 First Dates_ does not disappoint with real-world analogs. In the film, Lucy's condition is kept hidden from her with the help of falsified context clues; her father swaps out her newspaper with a reprinted one, passes off a recorded football game as live TV, and paints over a wall every evening so she can re-paint it the next day, none the wiser. This context adds to the prompt and allows Lucy to live a full day (albeit the same one over and over). It does a significantly better job of reaching the desired outcome (Lucy enjoys her day and is able to function within it) than relying completely on the day's organic events. 
+
+But this 
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3Mzg3NjQyOSwtMjEzMDY4NzU1OSwtMT
+eyJoaXN0b3J5IjpbMTk4MjU0NjQ5OCwtMjEzMDY4NzU1OSwtMT
 UzMDg1MzY2NCw2NzkyNjYzOTAsODUyODU4NDgsLTE4NzcwNjM3
 OTEsMjE3MjY1MCwtMjA1MzE3NTU1NywtMjAzMzcyNzE2NSwtMT
 MyNzIzMjc2NSwtNjU3MDY5NDMxLDk0NjY4Mjg3NywxNzA5MDEx
