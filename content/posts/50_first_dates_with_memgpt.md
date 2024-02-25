@@ -10,13 +10,11 @@ _"But what if every Sunday she made wrote a cheat sheet for the past week, and t
 "OK, then what if she summarized those cheat sheets?? She could keep making the history smaller and smaller." 
 "Yeah but eventually she'd loose too much detail and the summaries would be useless. "
 "But she'd still have her daily journals for when she needs those details!" 
-"How would she ever search that? We're back to the "_
+"How would she ever search that? We're back where we started."_
 
-The rest of the ride was very quiet. 
-
+Twenty years later, the "Lucy problem" is a perfect lens to help us think through
 I couldn't have imagined that 20 years later I would find myself faced with the  same problem as the fictional Henry while building an artificial intelligence agent, or that the most interesting solution to the problem - and maybe the most revolutionary - resembles most the solution I had been arguing against that night. 
 
-Jenni if you're reading this, sorry about that. 
 
 ## a near-perfect analogy
 Large Language Models are, in reality, just functions. You input at least one argument (text) and they output in kind. The output is a product of the model - more specifically, of the "memories" or training data that the model has been assembled with. Without this training data, the LLM would output very little of value - similar to a conversation with a newborn. 
@@ -24,7 +22,7 @@ But the training data "memories" of the model are fixed at inference time - exac
 
 So our next 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MTkwMzczMiwtMTg3NzA2Mzc5MSwyMT
+eyJoaXN0b3J5IjpbLTI0MzEzNzQ1NiwtMTg3NzA2Mzc5MSwyMT
 cyNjUwLC0yMDUzMTc1NTU3LC0yMDMzNzI3MTY1LC0xMzI3MjMy
 NzY1LC02NTcwNjk0MzEsOTQ2NjgyODc3LDE3MDkwMTE1NjIsMT
 IxOTI1MTY0MywtMTk0NzEyNTQ5OCwxMjIxNDU3Nzk4LC0yNTU1
