@@ -23,21 +23,23 @@ Each time the LLM function is executed (here we will refer to this combined exec
 The natural next strategy is to prepend those new "memories" as part of the text passed to the LLM function, effectively augmenting the training data of the language model for the duration of the turn*. However language model context windows - the combined amount of text that can be input and output in a single turn - are limited in size. Again, this is _exactly_ how Barrymore's character experiences the world; her context window is one single day. Just as I argued so many years earlier that Lucy's memories would eventually take longer to consume than there are hours in a day for her to retain them, new knowledge that must be included in a turn in order for the language model to produce a useful output quickly outgrows the available context window. 
 
 ## The limits of prompt engineering
-The lion's share of language model Engineering coverage has been devoted to _prompt engineering_, or crafting the content we submit in a turn so that it produces the most desirable outcome. An entire ecosystem has rapidly developed around prompt design, from prompt engineering classes to prompt exchange marketplaces - all from the idea that with the "perfect prompt" you can coax the "perfect output" a language model. 
+The lion's share of LLM Engineering coverage has been devoted to _prompt engineering_, or crafting the content we submit in a turn so that it produces the most desirable outcome. An entire ecosystem has rapidly developed around prompt design, from prompt engineering classes to prompt exchange marketplaces - all from the idea that with the "perfect prompt" you can coax the "perfect output" a language model. 
 
 Henry, Sandler's character in _50 First Dates_, may have been one of the earliest prompt engineers. Early in the film Henry falls in love with Lucy and agrees not to tell her about her injury, instead wooing her anew each day. His daily "prompts" to re-win her heart begin abysmally, with most ending in rejection. Over time, his technique evolves until Lucy falls for him day after day. We see this same example in countless language model demos, where a meticulously crafted prompt is used to visualize analytics for a dataset or generate a spot-on cover letter. 
 
 But how useful is this prompting, really? In the movie, Henry finally addresses the extreme limitations in a life of infinite first dates, and tells Lucy about her condition. With a language model, a "perfect prompt" executed in isolation is just as limited in value. Complex tasks require many complex steps, each building on a modified state - and this cannot be accomplished in a single turn. While prompt engineering is certainly an important piece of the puzzle, it doesn't remotely solve our problem by itself.
 
-## RAG is not 
+## RAG helps, but isn't the answer
+RR
+
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NDA4MjcxNSwtMjEzMDY4NzU1OSwtMT
-UzMDg1MzY2NCw2NzkyNjYzOTAsODUyODU4NDgsLTE4NzcwNjM3
-OTEsMjE3MjY1MCwtMjA1MzE3NTU1NywtMjAzMzcyNzE2NSwtMT
-MyNzIzMjc2NSwtNjU3MDY5NDMxLDk0NjY4Mjg3NywxNzA5MDEx
-NTYyLDEyMTkyNTE2NDMsLTE5NDcxMjU0OTgsMTIyMTQ1Nzc5OC
-wtMjU1NTUyNTE2LDE4OTE5MjA0MTUsMTQ4MTkxNTcxNiwxMDI1
-OTU1NzI5XX0=
+eyJoaXN0b3J5IjpbMzY2MDc2NDExLC0yMTMwNjg3NTU5LC0xNT
+MwODUzNjY0LDY3OTI2NjM5MCw4NTI4NTg0OCwtMTg3NzA2Mzc5
+MSwyMTcyNjUwLC0yMDUzMTc1NTU3LC0yMDMzNzI3MTY1LC0xMz
+I3MjMyNzY1LC02NTcwNjk0MzEsOTQ2NjgyODc3LDE3MDkwMTE1
+NjIsMTIxOTI1MTY0MywtMTk0NzEyNTQ5OCwxMjIxNDU3Nzk4LC
+0yNTU1NTI1MTYsMTg5MTkyMDQxNSwxNDgxOTE1NzE2LDEwMjU5
+NTU3MjldfQ==
 -->
