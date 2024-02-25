@@ -18,21 +18,21 @@ Twenty years later, the "Lucy problem" is a perfect lens to help us understand o
 Large Language Models are, in reality, just functions. You input at least one argument (text) and they output in kind. This output is the product of the model's business logic, combined parameters, and internal arguments - one of those arguments being the training data used to develop the inference model. This training data serves as the model's "memories"; without it the LLM would output very little of value, similar to a holding a deep conversation with a newborn. 
 The training data "memories" in an large language model are fixed at inference time, exactly like Lucy's memories in the movie. She has developed experiences and gathered information up to a very specific point (in her case, the day of her accident); from that day forward, she interprets stimuli based on the exact state of her mind, her memories, at that time. This is _precisely_ how inference with a large language model operates - fixed to the moment the training was complete, and the resulting function was pickled. 
 
-Each time the LLM function is executed (we will refer to this execution and response as a _turn_) is exactly like one day for Lucy. If you've turned turned the temperature down on your model enough to be deterministic, then each turn with the same input will look exactly like Lucy's early routine, repeating the same day over and over (and baking a lot of identical birthday cakes). The LLM cannot form new "memories" as a pure inference endpoint. 
+Each time the LLM function is executed (here we will refer to this combined execution and response as a _turn_, borrowing from chat nomenclature) is exactly like one single day in the life of Lucy. With the model temperature turned down to be deterministic, then each turn with the same input will look exactly like Lucy's early routine, repeating the same day over and over (and baking a lot of identical birthday cakes). The LLM cannot form new "memories" as a pure inference endpoint. 
 
 We can prepend those new "memories" as part of the text we pass the LLM function, effectively augmenting the training data of our language model for the duration of the turn*. However language model context windows - the combined amount of text that can be input and output in a single turn - are limited in size. Again, this is _exactly_ how Barrymore's character experiences the world; her context window is one day. Just as I argued earlier that Lucy's knowledge would eventually take longer to consume than there are hours in a day for her to retain it, new knowledge that a large language model must include in order to produce a useful output quickly outgrows the model's available context window. 
 
 ## The limits of prompt engineering
-The lion's share of the last year's language model Engineering coverage has been devoted to _prompt engineering_, or crafting the content of the text we submit to a turn in a way that produces the most desirable outcome. Prompt engineering is an important part of the solution, but 
+The lion's share of the last year's language model Engineering coverage has been devoted to _prompt engineering_, or crafting the content of the text we submit to a turn in a way that produces the most desirable outcome. Prompt engineering is an important part of the solution,
 
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQxMzA1LDY3OTI2NjM5MCw4NTI4NTg0OC
-wtMTg3NzA2Mzc5MSwyMTcyNjUwLC0yMDUzMTc1NTU3LC0yMDMz
-NzI3MTY1LC0xMzI3MjMyNzY1LC02NTcwNjk0MzEsOTQ2NjgyOD
-c3LDE3MDkwMTE1NjIsMTIxOTI1MTY0MywtMTk0NzEyNTQ5OCwx
-MjIxNDU3Nzk4LC0yNTU1NTI1MTYsMTg5MTkyMDQxNSwxNDgxOT
-E1NzE2LDEwMjU5NTU3MjksMTE1OTUzOTk4MiwtMjU4NzE0MTYz
-XX0=
+eyJoaXN0b3J5IjpbLTExNTgzNTIxNTMsNjc5MjY2MzkwLDg1Mj
+g1ODQ4LC0xODc3MDYzNzkxLDIxNzI2NTAsLTIwNTMxNzU1NTcs
+LTIwMzM3MjcxNjUsLTEzMjcyMzI3NjUsLTY1NzA2OTQzMSw5ND
+Y2ODI4NzcsMTcwOTAxMTU2MiwxMjE5MjUxNjQzLC0xOTQ3MTI1
+NDk4LDEyMjE0NTc3OTgsLTI1NTU1MjUxNiwxODkxOTIwNDE1LD
+E0ODE5MTU3MTYsMTAyNTk1NTcyOSwxMTU5NTM5OTgyLC0yNTg3
+MTQxNjNdfQ==
 -->
