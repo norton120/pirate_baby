@@ -56,15 +56,17 @@ Regardless of which Lucy consumes - the fake newspaper or Henry's real VHS tape 
 Just like prompt engineering, RAG is a piece of the puzzle, but it is not the answer in and of itself.
 
 ## A mind with a diary
-Let's review that theory from the car. What if Lucy kept a diary, and then managed this "external memory" by summarizing, consolidating, and making herself cheat sheets? Unlike her father's newspapers or Henry's VHS tapes, this memory would be completely under her control. _She_ decides what information is critically important, what memories can be forgotten, and what knowledge should live on in "cold storage" to be dredged up only when required. The film touches on this idea (though it took my romance-ruining logic to really see it played out in detail). With an external memory like this, Lucy is now unbound from her context window. She can pursue her interests for as long as they take, participate actively in the mundane but important events of life, have a family, _live_. She can make a menu for the week on Monday, go shi 
+Let's review that theory from the car. What if Lucy kept a diary, and then managed this "external memory" by summarizing, consolidating, and making herself cheat sheets? Unlike her father's newspapers or Henry's VHS tapes, this memory would be completely under her control. _She_ decides what information is critically important, what memories can be forgotten, and what knowledge should live on in "cold storage" to be dredged up only when required. The film touches on this idea (though it took my romance-ruining logic to really see it played out in detail). With an external memory like this, Lucy is now unbound from her context window. She can pursue her interests for as long as they take, participate actively in the mundane but important events of life, have a family, _live_. She can make a menu for the week on Monday, go shopping for groceries Wednesday, and cook them on Friday - all the elements of agency returned to her by a few notebooks and todo lists. 
+
+This is remarkably similar to the premise behind [MemGPT](https://memgpt.ai/).  Instead of 
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM5MDIzMTQxLDM1ODEzNzk0NSwtMjEzMD
-Y4NzU1OSwtMTUzMDg1MzY2NCw2NzkyNjYzOTAsODUyODU4NDgs
-LTE4NzcwNjM3OTEsMjE3MjY1MCwtMjA1MzE3NTU1NywtMjAzMz
-cyNzE2NSwtMTMyNzIzMjc2NSwtNjU3MDY5NDMxLDk0NjY4Mjg3
-NywxNzA5MDExNTYyLDEyMTkyNTE2NDMsLTE5NDcxMjU0OTgsMT
-IyMTQ1Nzc5OCwtMjU1NTUyNTE2LDE4OTE5MjA0MTUsMTQ4MTkx
-NTcxNl19
+eyJoaXN0b3J5IjpbLTEyOTY1NzQ2MDcsMzU4MTM3OTQ1LC0yMT
+MwNjg3NTU5LC0xNTMwODUzNjY0LDY3OTI2NjM5MCw4NTI4NTg0
+OCwtMTg3NzA2Mzc5MSwyMTcyNjUwLC0yMDUzMTc1NTU3LC0yMD
+MzNzI3MTY1LC0xMzI3MjMyNzY1LC02NTcwNjk0MzEsOTQ2Njgy
+ODc3LDE3MDkwMTE1NjIsMTIxOTI1MTY0MywtMTk0NzEyNTQ5OC
+wxMjIxNDU3Nzk4LC0yNTU1NTI1MTYsMTg5MTkyMDQxNSwxNDgx
+OTE1NzE2XX0=
 -->
