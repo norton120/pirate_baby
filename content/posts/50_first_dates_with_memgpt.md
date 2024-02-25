@@ -45,15 +45,15 @@ Context:
 
 Question: What is the last thing Todd said before he quit yesterday?
 ```
-Again _50 First Dates_ does not disappoint with real-world analogs. In the film, Lucy's condition is kept hidden from her 
+Again _50 First Dates_ does not disappoint with real-world analogs. In the film, Lucy's condition is kept hidden from her with the help of falsified context clues; her father 
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjI0NjkzNTksLTIxMzA2ODc1NTksLT
-E1MzA4NTM2NjQsNjc5MjY2MzkwLDg1Mjg1ODQ4LC0xODc3MDYz
-NzkxLDIxNzI2NTAsLTIwNTMxNzU1NTcsLTIwMzM3MjcxNjUsLT
-EzMjcyMzI3NjUsLTY1NzA2OTQzMSw5NDY2ODI4NzcsMTcwOTAx
-MTU2MiwxMjE5MjUxNjQzLC0xOTQ3MTI1NDk4LDEyMjE0NTc3OT
-gsLTI1NTU1MjUxNiwxODkxOTIwNDE1LDE0ODE5MTU3MTYsMTAy
-NTk1NTcyOV19
+eyJoaXN0b3J5IjpbMjIwNjQ1MjU4LC0yMTMwNjg3NTU5LC0xNT
+MwODUzNjY0LDY3OTI2NjM5MCw4NTI4NTg0OCwtMTg3NzA2Mzc5
+MSwyMTcyNjUwLC0yMDUzMTc1NTU3LC0yMDMzNzI3MTY1LC0xMz
+I3MjMyNzY1LC02NTcwNjk0MzEsOTQ2NjgyODc3LDE3MDkwMTE1
+NjIsMTIxOTI1MTY0MywtMTk0NzEyNTQ5OCwxMjIxNDU3Nzk4LC
+0yNTU1NTI1MTYsMTg5MTkyMDQxNSwxNDgxOTE1NzE2LDEwMjU5
+NTU3MjldfQ==
 -->
