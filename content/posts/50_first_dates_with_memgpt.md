@@ -36,6 +36,7 @@ For both Lucy and the language model, things get interesting once we start exter
 # prompt with just user input
 Question: What is the last thing Todd said before he quit yesterday?
 ```
+vs
 ```txt
 # prompt with vector similarity search results for "What is the last thing Todd said before he quit yesterday?" via embeddings, prepended to prompt
 Context:
@@ -52,15 +53,19 @@ Later, Henry introduces the first attempt to be honest with Lucy in the form of 
 
 Regardless of which Lucy consumes - the fake newspaper or Henry's real VHS tape - improvement in Lucy's life is limited to the outcome of that day. Lucy still has no agency to live a full life, just as our language model can take no meaningful steps towards completing a complex task. 
 
-Just like prompt engineering, RAG is a part and a part of the answer, but it is not the answer in and of itself.
+Just like prompt engineering, RAG is a piece of the puzzle, but it is not the answer in and of itself.
+
+## A mind with a diary
+Let's reg
+
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDE1MjU2OTksMzU4MTM3OTQ1LC0yMT
-MwNjg3NTU5LC0xNTMwODUzNjY0LDY3OTI2NjM5MCw4NTI4NTg0
-OCwtMTg3NzA2Mzc5MSwyMTcyNjUwLC0yMDUzMTc1NTU3LC0yMD
-MzNzI3MTY1LC0xMzI3MjMyNzY1LC02NTcwNjk0MzEsOTQ2Njgy
-ODc3LDE3MDkwMTE1NjIsMTIxOTI1MTY0MywtMTk0NzEyNTQ5OC
-wxMjIxNDU3Nzk4LC0yNTU1NTI1MTYsMTg5MTkyMDQxNSwxNDgx
-OTE1NzE2XX0=
+eyJoaXN0b3J5IjpbNzkzNzgyOTU0LDM1ODEzNzk0NSwtMjEzMD
+Y4NzU1OSwtMTUzMDg1MzY2NCw2NzkyNjYzOTAsODUyODU4NDgs
+LTE4NzcwNjM3OTEsMjE3MjY1MCwtMjA1MzE3NTU1NywtMjAzMz
+cyNzE2NSwtMTMyNzIzMjc2NSwtNjU3MDY5NDMxLDk0NjY4Mjg3
+NywxNzA5MDExNTYyLDEyMTkyNTE2NDMsLTE5NDcxMjU0OTgsMT
+IyMTQ1Nzc5OCwtMjU1NTUyNTE2LDE4OTE5MjA0MTUsMTQ4MTkx
+NTcxNl19
 -->
