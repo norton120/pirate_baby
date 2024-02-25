@@ -11,7 +11,7 @@ _"But what if she summarized every week and just read the summaries?"
 "Then she summarized those? She could keep making the history smaller and smaller, that's kind of how memories work!" 
 "At some point she'd loose too much detail - memory gets vague, but we can still recall super specific details when they matter."
 "Well then she could go back to the daily notebooks when she needs those details!" 
-"She wouldn't be able to go anywhere. She'd be  room full of notebooks to function!"_
+"She wouldn't be able to go anywhere. She'd be chained to a room full of notebooks in order to function!"_
 
 The rest of the ride was very quiet. 
 
@@ -25,9 +25,9 @@ But the training data "memories" of the model are fixed at inference time - exac
 
 So our next 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA5MjY4MTQxLDEyMTkyNTE2NDMsLTE5ND
-cxMjU0OTgsMTIyMTQ1Nzc5OCwtMjU1NTUyNTE2LDE4OTE5MjA0
-MTUsMTQ4MTkxNTcxNiwxMDI1OTU1NzI5LDExNTk1Mzk5ODIsLT
-I1ODcxNDE2Myw5ODA3ODg3NDEsLTE0MzA1MTQ4MSw0NzcxNzg4
-MDBdfQ==
+eyJoaXN0b3J5IjpbMTcwOTAxMTU2MiwxMjE5MjUxNjQzLC0xOT
+Q3MTI1NDk4LDEyMjE0NTc3OTgsLTI1NTU1MjUxNiwxODkxOTIw
+NDE1LDE0ODE5MTU3MTYsMTAyNTk1NTcyOSwxMTU5NTM5OTgyLC
+0yNTg3MTQxNjMsOTgwNzg4NzQxLC0xNDMwNTE0ODEsNDc3MTc4
+ODAwXX0=
 -->
