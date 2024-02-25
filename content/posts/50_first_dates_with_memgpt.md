@@ -45,15 +45,15 @@ Context:
 
 Question: What is the last thing Todd said before he quit yesterday?
 ```
-Again _50 First Dates_ does not disappoint, with plot devices that 
+Again _50 First Dates_ does not disappoint, with plot elements to match the impact of RAG prompting. 
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NzYzNjQ5LC0yMTMwNjg3NTU5LC0xNT
-MwODUzNjY0LDY3OTI2NjM5MCw4NTI4NTg0OCwtMTg3NzA2Mzc5
-MSwyMTcyNjUwLC0yMDUzMTc1NTU3LC0yMDMzNzI3MTY1LC0xMz
-I3MjMyNzY1LC02NTcwNjk0MzEsOTQ2NjgyODc3LDE3MDkwMTE1
-NjIsMTIxOTI1MTY0MywtMTk0NzEyNTQ5OCwxMjIxNDU3Nzk4LC
-0yNTU1NTI1MTYsMTg5MTkyMDQxNSwxNDgxOTE1NzE2LDEwMjU5
-NTU3MjldfQ==
+eyJoaXN0b3J5IjpbMTY1MTI4MzE0MCwtMjEzMDY4NzU1OSwtMT
+UzMDg1MzY2NCw2NzkyNjYzOTAsODUyODU4NDgsLTE4NzcwNjM3
+OTEsMjE3MjY1MCwtMjA1MzE3NTU1NywtMjAzMzcyNzE2NSwtMT
+MyNzIzMjc2NSwtNjU3MDY5NDMxLDk0NjY4Mjg3NywxNzA5MDEx
+NTYyLDEyMTkyNTE2NDMsLTE5NDcxMjU0OTgsMTIyMTQ1Nzc5OC
+wtMjU1NTUyNTE2LDE4OTE5MjA0MTUsMTQ4MTkxNTcxNiwxMDI1
+OTU1NzI5XX0=
 -->
