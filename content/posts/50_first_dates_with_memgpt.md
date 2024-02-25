@@ -12,8 +12,7 @@ _"But what if every Sunday she made wrote a cheat sheet for the past week, and t
 "But she'd still have her daily journals for when she needs those details!" 
 "How would she ever search that? We're back where we started."_
 
-Twenty years later, the "Lucy problem" is a perfect lens to help us understand what is maybe the most important challenge in designing large language model agent .
-I couldn't have imagined that 20 years later I would find myself faced with the  same problem as the fictional Henry while building an artificial intelligence agent, or that the most interesting solution to the problem - and maybe the most revolutionary - resembles most the solution I had been arguing against that night. 
+Twenty years later, the "Lucy problem" is a perfect lens to help us understand what is maybe the most important challenge in designing a large language model agent framework. And the solution looks an awful lot like the one I could not swallow all those years ago. 
 
 
 ## a near-perfect analogy
@@ -22,11 +21,11 @@ But the training data "memories" of the model are fixed at inference time - exac
 
 So our next 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NzIyMjkwMCwtMTg3NzA2Mzc5MSwyMT
-cyNjUwLC0yMDUzMTc1NTU3LC0yMDMzNzI3MTY1LC0xMzI3MjMy
-NzY1LC02NTcwNjk0MzEsOTQ2NjgyODc3LDE3MDkwMTE1NjIsMT
-IxOTI1MTY0MywtMTk0NzEyNTQ5OCwxMjIxNDU3Nzk4LC0yNTU1
-NTI1MTYsMTg5MTkyMDQxNSwxNDgxOTE1NzE2LDEwMjU5NTU3Mj
-ksMTE1OTUzOTk4MiwtMjU4NzE0MTYzLDk4MDc4ODc0MSwtMTQz
-MDUxNDgxXX0=
+eyJoaXN0b3J5IjpbMjg0ODc4NiwtMTg3NzA2Mzc5MSwyMTcyNj
+UwLC0yMDUzMTc1NTU3LC0yMDMzNzI3MTY1LC0xMzI3MjMyNzY1
+LC02NTcwNjk0MzEsOTQ2NjgyODc3LDE3MDkwMTE1NjIsMTIxOT
+I1MTY0MywtMTk0NzEyNTQ5OCwxMjIxNDU3Nzk4LC0yNTU1NTI1
+MTYsMTg5MTkyMDQxNSwxNDgxOTE1NzE2LDEwMjU5NTU3MjksMT
+E1OTUzOTk4MiwtMjU4NzE0MTYzLDk4MDc4ODc0MSwtMTQzMDUx
+NDgxXX0=
 -->
