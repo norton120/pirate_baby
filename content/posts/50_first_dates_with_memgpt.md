@@ -32,7 +32,7 @@ Henry, Sandler's character in _50 First Dates_, may have been one of the earlies
 The examples are impressive, but how useful is this prompting really? In the movie, Henry finally addresses the extreme limitations in a life of infinite first dates, and tells Lucy about her condition. With a language model, a "perfect prompt" executed in isolation is just as limited in value. Complex tasks require many complex steps, each building on a modified state - and this cannot be accomplished in a single turn. While prompt engineering is certainly an important piece of the puzzle, it isn't remotely a holistic solution to our problem.
 
 ## RAG, a newspaper, and a video tape
-For both Lucy and the language model, things get interesting once we start externalizing memories. Retrieval Augmented Generation (RAG) is probably a close second to prompt engineering in the sheer volume of attention paid. RAG can be more simply stated as "store text somewhere, then on each turn search that text and add bits to the prompt." The most common RAG implementations today are blind semantic searches, where every user input is searched against the RAG store by semantic similarity, and then the top few search results are combined with the user input as the prompt. They look something like this:
+For both Lucy and the language model, things get interesting once we start externalizing memories. Retrieval Augmented Generation (RAG) is probably a close second to prompt engineering in the sheer volume of attention paid in LLM-related content. RAG can be more simply stated as "store text somewhere, then on each turn search that text and add bits to the prompt." The most common RAG implementations today are blind semantic searches, where every user input is searched against the RAG store by semantic similarity, and then the top few search results are combined with the user input as the prompt. They look something like this:
 
 ```txt
 # prompt with just user input
@@ -77,11 +77,11 @@ Join me next time when we explore the parallels between Happy Gilmore and Kubern
 <sub>1. Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <sub>2. Note that throughout this writing I am referring to the concepts introduced by the research behind MemGPT, not the implementation itself. The nomenclature, pseudo-code, and description of events here are not intended to reflect the software project.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTg4OTcxMjEsLTQxNDc4Nzk3OSwzNT
-gxMzc5NDUsLTIxMzA2ODc1NTksLTE1MzA4NTM2NjQsNjc5MjY2
-MzkwLDg1Mjg1ODQ4LC0xODc3MDYzNzkxLDIxNzI2NTAsLTIwNT
-MxNzU1NTcsLTIwMzM3MjcxNjUsLTEzMjcyMzI3NjUsLTY1NzA2
-OTQzMSw5NDY2ODI4NzcsMTcwOTAxMTU2MiwxMjE5MjUxNjQzLC
-0xOTQ3MTI1NDk4LDEyMjE0NTc3OTgsLTI1NTU1MjUxNiwxODkx
-OTIwNDE1XX0=
+eyJoaXN0b3J5IjpbNDIxNTcxMzkwLC00MTQ3ODc5NzksMzU4MT
+M3OTQ1LC0yMTMwNjg3NTU5LC0xNTMwODUzNjY0LDY3OTI2NjM5
+MCw4NTI4NTg0OCwtMTg3NzA2Mzc5MSwyMTcyNjUwLC0yMDUzMT
+c1NTU3LC0yMDMzNzI3MTY1LC0xMzI3MjMyNzY1LC02NTcwNjk0
+MzEsOTQ2NjgyODc3LDE3MDkwMTE1NjIsMTIxOTI1MTY0MywtMT
+k0NzEyNTQ5OCwxMjIxNDU3Nzk4LC0yNTU1NTI1MTYsMTg5MTky
+MDQxNV19
 -->
