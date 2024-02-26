@@ -10,7 +10,7 @@ I believe the conversation went something like this:
 _"**Her**: But what if every Sunday she made wrote a cheat sheet for the past week, and then she only read those? That would take less time. "_
 _"**Me**: Even a weekly summary would become unreadable in less than a year."_
 _"**Her**: OK, then what if she summarized those cheat sheets?? She could keep making the history smaller and smaller."_
-_"**Me**:  Yeah but eventually she'd loose too much detail and the summaries would be useless."_
+_"**Me**:  Yeah but eventually she'd lose too much detail and the summaries would be useless."_
 _"**Her**: But she'd still have her daily journals for when she needs those details!"_
 _"**Me**: How would she ever search that? We're back where we started."_
 
@@ -87,11 +87,11 @@ Join me next time, when we explore the parallels between Happy Gilmore and K8S (
 
 <sub>2. Note that throughout this writing I am referring to the concepts introduced by the research behind MemGPT, not the implementation itself. The nomenclature, pseudo-code, and description of events here are not intended to reflect the software project.</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODQxMTMwNjMsLTQxNDc4Nzk3OSwzNT
-gxMzc5NDUsLTIxMzA2ODc1NTksLTE1MzA4NTM2NjQsNjc5MjY2
-MzkwLDg1Mjg1ODQ4LC0xODc3MDYzNzkxLDIxNzI2NTAsLTIwNT
-MxNzU1NTcsLTIwMzM3MjcxNjUsLTEzMjcyMzI3NjUsLTY1NzA2
-OTQzMSw5NDY2ODI4NzcsMTcwOTAxMTU2MiwxMjE5MjUxNjQzLC
-0xOTQ3MTI1NDk4LDEyMjE0NTc3OTgsLTI1NTU1MjUxNiwxODkx
-OTIwNDE1XX0=
+eyJoaXN0b3J5IjpbNTA1NjAwODcwLC0xNTg0MTEzMDYzLC00MT
+Q3ODc5NzksMzU4MTM3OTQ1LC0yMTMwNjg3NTU5LC0xNTMwODUz
+NjY0LDY3OTI2NjM5MCw4NTI4NTg0OCwtMTg3NzA2Mzc5MSwyMT
+cyNjUwLC0yMDUzMTc1NTU3LC0yMDMzNzI3MTY1LC0xMzI3MjMy
+NzY1LC02NTcwNjk0MzEsOTQ2NjgyODc3LDE3MDkwMTE1NjIsMT
+IxOTI1MTY0MywtMTk0NzEyNTQ5OCwxMjIxNDU3Nzk4LC0yNTU1
+NTI1MTZdfQ==
 -->
