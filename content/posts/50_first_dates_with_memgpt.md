@@ -14,10 +14,10 @@ _"**Her**: But what if every Sunday she made wrote a cheat sheet for the past we
 "**Her**: But she'd still have her daily journals for when she needs those details!" 
 "**Me**: How would she ever search that? We're back where we started."_
 
-Twenty years later, the "Lucy problem" is a perfect lens to help us understand one of the most important challenges in designing a Large Language Model Agent Framework. The solution proposed by [researchers at UC Berkeley](https://research.memgpt.ai/) is remarkably innovative and offers exciting potential - and it is a solution that bears significant resemblance to the o I was arguing against during that car ride home. It looks like I owe someone an apology.
+Twenty years later, the "Lucy problem" is a perfect lens to help us understand one of the most important challenges in designing a Large Language Model Agent Framework. The solution proposed by [researchers at UC Berkeley](https://research.memgpt.ai/) is remarkably innovative and offers exciting potential - and it is a solution that bears significant resemblance to the "Lucy solution" I was arguing against during that car ride home. It looks like I owe someone a long overdue apology.
 
 ## Lucy the language model: a near-perfect analogy
-Large Language Models are, in reality, just functions. You input at least one argument (text) and they output in kind. This output is the product of the model's business logic, combined parameters, and internal arguments - one of those arguments being the training data used to develop the inference model. This training data serves as the model's "memories"; without it the LLM would output very little of value, similar to a holding a deep conversation with a newborn. 
+Large Language Models are, in reality, just functions. You input at least one argument (text) and they output in kind. This output is the product of the model's business logic, combined parameters, and internal arguments - one of those arguments being the training data used to develop the inference model. This training data serves as the model's "memories"; without it the LLM would output very little of value, similar to attempting a deep conversation with a newborn. 
 The training data "memories" in an large language model are fixed at inference time, exactly like Lucy's memories in the movie. She has developed experiences and gathered information up to a very specific point (in her case, the day of her accident); from that day forward, she interprets stimuli based on the exact state of her mind, her memories, at that time. This is _precisely_ how inference with a large language model operates - fixed to the moment the training was complete, and the resulting function was pickled. 
 
 Each time the LLM function is executed (here we will refer to this combined execution and response as a _turn_, borrowing from chat nomenclature) is exactly like one single day in the life of Lucy. With the model temperature turned down to 0 (deterministic) each turn with the same input will look exactly like Lucy's early routine - repeating the same day over and over (and baking a lot of identical birthday cakes). An LLM cannot form new "memories" as a pure inference endpoint, any more than Lucy can. 
@@ -77,11 +77,11 @@ Join me next time when we explore the parallels between Happy Gilmore and Kubern
 <sub>1. Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <sub>2. Note that throughout this writing I am referring to the concepts introduced by the research behind MemGPT, not the implementation itself. The nomenclature, pseudo-code, and description of events here are not intended to reflect the software project.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkxMDg5NTIzLC00MTQ3ODc5NzksMzU4MT
-M3OTQ1LC0yMTMwNjg3NTU5LC0xNTMwODUzNjY0LDY3OTI2NjM5
-MCw4NTI4NTg0OCwtMTg3NzA2Mzc5MSwyMTcyNjUwLC0yMDUzMT
-c1NTU3LC0yMDMzNzI3MTY1LC0xMzI3MjMyNzY1LC02NTcwNjk0
-MzEsOTQ2NjgyODc3LDE3MDkwMTE1NjIsMTIxOTI1MTY0MywtMT
-k0NzEyNTQ5OCwxMjIxNDU3Nzk4LC0yNTU1NTI1MTYsMTg5MTky
-MDQxNV19
+eyJoaXN0b3J5IjpbLTMxNTg4NjY1OSwtNDE0Nzg3OTc5LDM1OD
+EzNzk0NSwtMjEzMDY4NzU1OSwtMTUzMDg1MzY2NCw2NzkyNjYz
+OTAsODUyODU4NDgsLTE4NzcwNjM3OTEsMjE3MjY1MCwtMjA1Mz
+E3NTU1NywtMjAzMzcyNzE2NSwtMTMyNzIzMjc2NSwtNjU3MDY5
+NDMxLDk0NjY4Mjg3NywxNzA5MDExNTYyLDEyMTkyNTE2NDMsLT
+E5NDcxMjU0OTgsMTIyMTQ1Nzc5OCwtMjU1NTUyNTE2LDE4OTE5
+MjA0MTVdfQ==
 -->
