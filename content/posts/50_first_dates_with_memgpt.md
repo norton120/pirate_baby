@@ -60,7 +60,7 @@ Just like prompt engineering, RAG is a piece of the puzzle, but it is not the an
 ## A mind with a diary
 Let's review that theory from the car. What if Lucy kept a diary, and then managed this "external memory" by summarizing, consolidating, and making herself cheat sheets? Unlike her father's newspapers or Henry's VHS tapes, this memory would be completely under her control. _She_ decides what information is critically important, what memories can be forgotten, and what knowledge should live on in "cold storage" to be dredged up only when required. The film touches on this idea (though it took my romance-ruining logic to really see it played out in detail). With an external memory like this, Lucy is now unbound from her context window. She can pursue her interests for as long as they take, participate actively in the mundane but important events of life, have a family, _live_. She can make a menu for the week on Monday, go shopping for groceries Wednesday, and cook them on Friday - all the elements of agency returned to her by a few notebooks and todo lists. 
 
-This is remarkably similar to the premise behind the [MemGPT](https://memgpt.ai/) project<super>2</super>. The context window, chat history, and RAG knowledge store are treated as tiered "memories"; each memory can be written and purged by the LLM using tool calls. 
+This is remarkably similar to the premise behind the [MemGPT](https://memgpt.ai/) project<sup>2</sup>. The context window, chat history, and RAG knowledge store are treated as tiered "memories"; each memory can be written and purged by the LLM using tool calls. 
 Instead of approaching each turn as an isolated prompt + RAG + input = response, the "core" memory (the context window content) is processed continually as a daemon, with a new turn on each "heartbeart." Just as each day Lucy is presented with her notes and todo list from the previous day, with each turn the language model is presented with the core memory assembled by the previous turn. During that turn the language model can edit this core memory, move information out of core and into archival memory, or search/recall from archival memory and add that back to core, and these changes will apply to the core memory presented in the next turn.
 
 Here's a walk-through of how an agent could work (with a bit of pseudo-code): The agent has a core memory describing itself and the user, a history section containing the last five messages, and a list of tools the agent can call. This core memory is passed as the prompt in a turn every 10 seconds, or sooner if externally triggered. On the first pass the agent calls the `archive_lines()` tool to move the 2nd paragraph of the user information to cold storage. Why? because the system prompt informs the agent of the current and max memory sizes, and instructs the agent to self-adjust when needed. On the next pass, the tool call request and result are the newest entries in the core memory history (the 2 oldest from the last turn have been moved to recall memory and are not visible). This turn the agent calls `pause_heartbeats()` to wait for external stimuli, as it detects nothing else to update in it's own core memory. The next turn is triggered by a user message, which is the newest history entry in this turn's core memory. The user message says "how many people are in the Seattle office?" and the agent's first action is to call the `get_employee_list()` tool, along with the internal monologue message "I must get the list of employees and count only the ones in the Seattle office. I must then send the message back to the user" . On the next turn, the agent tool call, internal monologue, and tool call result are in the core memory history, but the original user message has been pushed out. On this turn the agent's internal monologue is "65 employees are in the Seattle office. I must retrieve the original question so I can answer it correctly" and the tool call is `retrieve_message(user, -1)` to get the last message from the user. On the next turn, the agent calls `send_message("there are 65 employees in the Seattle office")`, and responds to the user. And the beat goes on.
@@ -77,11 +77,11 @@ Join me next time when we explore the parallels between Happy Gilmore and Kubern
 <sub>1. Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <sub>2. Note that throughout this writing I am referring to the concepts introduced by the research behind MemGPT, not the implementation itself. The nomenclature, pseudo-code, and description of events here are not intended to reflect the software project.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxNTcxMzkwLC00MTQ3ODc5NzksMzU4MT
-M3OTQ1LC0yMTMwNjg3NTU5LC0xNTMwODUzNjY0LDY3OTI2NjM5
-MCw4NTI4NTg0OCwtMTg3NzA2Mzc5MSwyMTcyNjUwLC0yMDUzMT
-c1NTU3LC0yMDMzNzI3MTY1LC0xMzI3MjMyNzY1LC02NTcwNjk0
-MzEsOTQ2NjgyODc3LDE3MDkwMTE1NjIsMTIxOTI1MTY0MywtMT
-k0NzEyNTQ5OCwxMjIxNDU3Nzk4LC0yNTU1NTI1MTYsMTg5MTky
-MDQxNV19
+eyJoaXN0b3J5IjpbLTE0ODEwODUyMTgsLTQxNDc4Nzk3OSwzNT
+gxMzc5NDUsLTIxMzA2ODc1NTksLTE1MzA4NTM2NjQsNjc5MjY2
+MzkwLDg1Mjg1ODQ4LC0xODc3MDYzNzkxLDIxNzI2NTAsLTIwNT
+MxNzU1NTcsLTIwMzM3MjcxNjUsLTEzMjcyMzI3NjUsLTY1NzA2
+OTQzMSw5NDY2ODI4NzcsMTcwOTAxMTU2MiwxMjE5MjUxNjQzLC
+0xOTQ3MTI1NDk4LDEyMjE0NTc3OTgsLTI1NTU1MjUxNiwxODkx
+OTIwNDE1XX0=
 -->
