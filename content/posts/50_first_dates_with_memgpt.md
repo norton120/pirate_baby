@@ -4,7 +4,7 @@ date: 2024-02-25
 draft: true
 ---
 ## preamble
-The drive home from the movie theater was not going well. My then-girlfriend sat arms crossed in the passenger seat, the red glow from the traffic light matching her mood. "You can't just let it be romantic. Why do you have to ruin everything!?!" We had just seen _50 First Dates_, a classic Sandler/Barrymore romance about a woman who's brain injury prevents her from forming long-term memories. In the movie, Lucy (Barrymore) constructs her own "external memory" via her diary; a clever plot device, but one that required suspension of disbelief that I just could not abide. I had done shorthand math while the credits were rolling: If Lucy's average diary entry took 20 minutes to write (that is less than most people, and most people aren't trying to compensate for brain damage), each entry would take roughly half that time - so about 10 minutes - to read. Reading a week's entries would take more than an hour to read. By the 6 month mark, her daily catch-up reading about her past would require more hours than are in a day. Romantic? Yes. Realistic? No. And so we argued. I believe the conversation went something like this: 
+The drive home from the movie theater was not going well. My then-girlfriend sat arms crossed in the passenger seat, the red glow from the traffic light matching her mood. "You can't just let it be romantic. Why do you have to ruin everything!?!" We had just seen _50 First Dates_, a classic Sandler/Barrymore romance about a woman who's brain injury prevents her from forming long-term memories. In the movie, Lucy (Barrymore) constructs her own "external memory" via her diary; a clever plot device, but one that required suspension of disbelief that I just could not abide. I had done shorthand math while the credits were rolling: If Lucy's average diary entry took 20 minutes to write (that is less than most people, and most people aren't trying to compensate for brain damage), each entry would take roughly half that time - so about 10 minutes - to read. Reading a week's entries would take more than an hour. By the 6 month mark, the daily catch-up on her past would require more hours of reading than are in a day. Romantic? Yes. Realistic? No. And so we argued. I believe the conversation went something like this: 
 _"But what if every Sunday she made wrote a cheat sheet for the past week, and then she only read those? That would take less time. " 
 "Even a weekly summary would become unreadable in less than a year." 
 "OK, then what if she summarized those cheat sheets?? She could keep making the history smaller and smaller." 
@@ -75,11 +75,11 @@ Join me next time when we explore the parallels between Happy Gilmore and Kubern
 <sub>1. Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <sub>2. Note that throughout this writing I am referring to the concepts introduced by the research behind MemGPT, not the implementation itself. The nomenclature, pseudo-code, and description of events here are not intended to reflect the software project.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0OTUxOTc5LC00MTQ3ODc5NzksMzU4MT
-M3OTQ1LC0yMTMwNjg3NTU5LC0xNTMwODUzNjY0LDY3OTI2NjM5
-MCw4NTI4NTg0OCwtMTg3NzA2Mzc5MSwyMTcyNjUwLC0yMDUzMT
-c1NTU3LC0yMDMzNzI3MTY1LC0xMzI3MjMyNzY1LC02NTcwNjk0
-MzEsOTQ2NjgyODc3LDE3MDkwMTE1NjIsMTIxOTI1MTY0MywtMT
-k0NzEyNTQ5OCwxMjIxNDU3Nzk4LC0yNTU1NTI1MTYsMTg5MTky
-MDQxNV19
+eyJoaXN0b3J5IjpbLTEwNDUwMjI5MDcsLTQxNDc4Nzk3OSwzNT
+gxMzc5NDUsLTIxMzA2ODc1NTksLTE1MzA4NTM2NjQsNjc5MjY2
+MzkwLDg1Mjg1ODQ4LC0xODc3MDYzNzkxLDIxNzI2NTAsLTIwNT
+MxNzU1NTcsLTIwMzM3MjcxNjUsLTEzMjcyMzI3NjUsLTY1NzA2
+OTQzMSw5NDY2ODI4NzcsMTcwOTAxMTU2MiwxMjE5MjUxNjQzLC
+0xOTQ3MTI1NDk4LDEyMjE0NTc3OTgsLTI1NTU1MjUxNiwxODkx
+OTIwNDE1XX0=
 -->
