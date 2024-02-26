@@ -76,9 +76,9 @@ This "language model operating system" is a starkly contrasting view of how infe
 
 I am very excited about what a framework built on this concept could mean; adding stimuli to a well-appointed agent (or cluster of agents) becomes an execution layer that evolves beyond text generation and an ROI that grows exponentially with the complexity of its' charge. A language model operating in this fashion is still a language model - a function, not a sentient being - but it crosses a threshold of appearance that is the stuff of Sci-Fi. More importantly, it adds a critical element to the generative equation that I just don't see autonomous agency succeeding without: repetition. Humans don't immediately think every required thought and blurt out the perfect response in one breath; we take steps, ask questions that uncover new questions, pause to consider internally, and _arrive_ at an answer. By bestowing that same capacity on an application, this language model operating system could be a new paradigm in computing. 
 
-For those of us building user-facing agents, this is a concept worth focus and cycles. Single-turn prompt libraries and slice-and-dice embedding building to RAG away bad responses was the best idea we had in the dark AI days of 6 months ago, but I don't think they will get us where we want to go. Lucy married Henry, became a mom, and sailed to Alaska, because she was given the agency to own her mind, manage her memories. Language model agents need the same, an "operating system" to unlock them. 
+For those of us building user-facing agents, this is a concept worth focus and cycles. Single-turn prompt libraries and slice-and-dice embedding building to RAG away bad responses was the best idea we had in the dark AI days of 6 months ago, but I don't think they will get us where we want to go. In _50 First Dates_ Lucy married Henry, became a mom, and sailed to Alaska, all because she was restored the agency to own her mind and manage her memories. Language model agents need the same in an "operating system" if we want to unlock them. 
 
-Join me next time when we explore the parallels between Happy Gilmore and Kubernetes (hint: there are none.)  
+Join me next time, when we explore the parallels between Happy Gilmore and Kubernetes (hint: there are none.)  
 
 
  
@@ -86,7 +86,7 @@ Join me next time when we explore the parallels between Happy Gilmore and Kubern
 <sub>1. Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <sub>2. Note that throughout this writing I am referring to the concepts introduced by the research behind MemGPT, not the implementation itself. The nomenclature, pseudo-code, and description of events here are not intended to reflect the software project.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDEyMzE1NCwtNDE0Nzg3OTc5LDM1OD
+eyJoaXN0b3J5IjpbLTMxMzQwOTUzMCwtNDE0Nzg3OTc5LDM1OD
 EzNzk0NSwtMjEzMDY4NzU1OSwtMTUzMDg1MzY2NCw2NzkyNjYz
 OTAsODUyODU4NDgsLTE4NzcwNjM3OTEsMjE3MjY1MCwtMjA1Mz
 E3NTU1NywtMjAzMzcyNzE2NSwtMTMyNzIzMjc2NSwtNjU3MDY5
