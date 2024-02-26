@@ -27,7 +27,7 @@ To compensate for this with an LLM, the natural next step is to prepend those ne
 ## The limits of prompt engineering
 The lion's share of LLM Engineering coverage has been devoted to _prompt engineering_, or crafting the content we submit in a turn so that it produces the most desirable outcome. An entire ecosystem has rapidly developed around prompt design, from prompt engineering classes to prompt exchange marketplaces - all from the idea that from the "perfect prompt" you can coax the "perfect output."
 
-Henry, Sandler's character in _50 First Dates_, may have been one of the earliest prompt engineers. Early in the film Henry falls in love with Lucy and agrees not to tell her about her injury, instead wooing her anew each day. His daily "prompts" to re-win her heart begin abysmally, with most ending in rejection. Over time his technique evolves, until Lucy consistently falls for him every day. We see this same example in countless language model demos, where a meticulously crafted prompt is used to visualize analytics for a dataset, or generate a spot-on cover letter.
+Henry, Sandler's character in _50 First Dates_, may have been one of the earliest prompt engineers. Early in the film Henry falls in love with Lucy and agrees not to tell her about her injury, instead wooing her anew each day. His daily "prompts" to re-win her heart begin abysmally, with most ending in rejection. Over time his technique evolves until Lucy consistently falls for him every day. We see this same example in countless language model demos, where a meticulously crafted prompt is used to visualize analytics for a dataset, or generate a spot-on cover letter.
 
 The examples are impressive, but how useful is this prompting really? In the movie, Henry finally addresses the extreme limitations in a life of infinite first dates, and tells Lucy about her condition. With a language model, a "perfect prompt" executed in isolation is just as limited in value. Complex tasks require many complex steps, each building on a modified state - and this cannot be accomplished in a single turn. While prompt engineering is certainly an important piece of the puzzle, it isn't remotely a holistic solution to our problem.
 
@@ -82,16 +82,22 @@ Join me next time, when we explore the parallels between Happy Gilmore and K8S (
 
 
 
-
+**Footnotes:**
 <sub>1. Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub>
 
 <sub>2. Note that throughout this writing I am referring to the concepts introduced by the research behind MemGPT, not the implementation itself. The nomenclature, pseudo-code, and description of events here are not intended to reflect the software project.</sub>
+
+**MemGPT Citation:**
+<sub>
+packer 2023 memgpt, MemGPT: Towards LLMs as Operating Systems,  
+authors: Packer, Charles and Wooders, Sarah and Lin, Kevin and Fang, Vivian and Patil, Shishir G. and Stoica, Ion and Gonzalez, Joseph E.,  
+arXiv preprint arXiv:2310.08560</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1NjAwODcwLC0xNTg0MTEzMDYzLC00MT
-Q3ODc5NzksMzU4MTM3OTQ1LC0yMTMwNjg3NTU5LC0xNTMwODUz
-NjY0LDY3OTI2NjM5MCw4NTI4NTg0OCwtMTg3NzA2Mzc5MSwyMT
-cyNjUwLC0yMDUzMTc1NTU3LC0yMDMzNzI3MTY1LC0xMzI3MjMy
-NzY1LC02NTcwNjk0MzEsOTQ2NjgyODc3LDE3MDkwMTE1NjIsMT
-IxOTI1MTY0MywtMTk0NzEyNTQ5OCwxMjIxNDU3Nzk4LC0yNTU1
-NTI1MTZdfQ==
+eyJoaXN0b3J5IjpbMTA0ODI3MTkyOSwtMTU4NDExMzA2MywtND
+E0Nzg3OTc5LDM1ODEzNzk0NSwtMjEzMDY4NzU1OSwtMTUzMDg1
+MzY2NCw2NzkyNjYzOTAsODUyODU4NDgsLTE4NzcwNjM3OTEsMj
+E3MjY1MCwtMjA1MzE3NTU1NywtMjAzMzcyNzE2NSwtMTMyNzIz
+Mjc2NSwtNjU3MDY5NDMxLDk0NjY4Mjg3NywxNzA5MDExNTYyLD
+EyMTkyNTE2NDMsLTE5NDcxMjU0OTgsMTIyMTQ1Nzc5OCwtMjU1
+NTUyNTE2XX0=
 -->
