@@ -31,5 +31,7 @@ googleAnalytics = 'G-QYLKP2XXPB'
   icon = "/piratebaby.png"
   iconHeight = 40
 
-[markup.goldmark.renderer]
-  unsafe = true
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
