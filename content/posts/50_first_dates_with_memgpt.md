@@ -61,11 +61,11 @@ Let's review that theory from the car. What if Lucy kept a diary, and then manag
 This is remarkably similar to the premise behind the [MemGPT](https://memgpt.ai/) project.  The context window, chat history, and RAG knowledge store are treated as tiered "memories"; each memory can be written and purged by the LLM using tool calls. 
 Instead of approaching each turn as an isolated prompt + RAG + input = response, the "core" memory (the context window content) is processed continually as a daemon, with a new turn on each "heartbeart." Just as each day Lucy is presented with her notes and todo list from the previous day, with each turn the language model is presented with the core memory assembled by the previous turn. During that turn the language model can edit this core memory, move information out of core and into archival memory, or search/recall from archival memory and add that back to core, and these changes will apply to the core memory presented in the next turn.
 
-For example, an agent running on a daemon will have a core memory describing itself, 
+Playing this strategy through: our example agent would have a core memory describing itself, the user, the last five messages in the chat history, 
 
 <sub>*Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMzk5NDA0NCwzNTgxMzc5NDUsLTIxMz
+eyJoaXN0b3J5IjpbLTQyMzcwMDQ1NSwzNTgxMzc5NDUsLTIxMz
 A2ODc1NTksLTE1MzA4NTM2NjQsNjc5MjY2MzkwLDg1Mjg1ODQ4
 LC0xODc3MDYzNzkxLDIxNzI2NTAsLTIwNTMxNzU1NTcsLTIwMz
 M3MjcxNjUsLTEzMjcyMzI3NjUsLTY1NzA2OTQzMSw5NDY2ODI4
