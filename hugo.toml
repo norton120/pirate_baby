@@ -30,3 +30,6 @@ pygmentsUseClasses = true
 [params.label]
   icon = "/piratebaby.png"
   iconHeight = 40
+
+[markup.goldmark.renderer]
+  unsafe = true
