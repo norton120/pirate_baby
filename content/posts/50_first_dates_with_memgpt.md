@@ -66,13 +66,13 @@ Here's a walk-through of how an agent could work (with a bit of pseudocode): The
 
 
 <sub>1. Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
-<sub>2. Note that throughout this writing I am referring to the concepts introduced by the work in MemGPT, not the implementation itself.<' 
+<sub>2. Note that throughout this writing I am referring to the concepts introduced by the research behind MemGPT, not the implementation itself. The nomenclature, pseudocode, and description of events are not intended to reflect the softwarre</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI1MTk3NDUwLDM1ODEzNzk0NSwtMjEzMD
-Y4NzU1OSwtMTUzMDg1MzY2NCw2NzkyNjYzOTAsODUyODU4NDgs
-LTE4NzcwNjM3OTEsMjE3MjY1MCwtMjA1MzE3NTU1NywtMjAzMz
-cyNzE2NSwtMTMyNzIzMjc2NSwtNjU3MDY5NDMxLDk0NjY4Mjg3
-NywxNzA5MDExNTYyLDEyMTkyNTE2NDMsLTE5NDcxMjU0OTgsMT
-IyMTQ1Nzc5OCwtMjU1NTUyNTE2LDE4OTE5MjA0MTUsMTQ4MTkx
-NTcxNl19
+eyJoaXN0b3J5IjpbMTYzMzUyNzMxOSwzNTgxMzc5NDUsLTIxMz
+A2ODc1NTksLTE1MzA4NTM2NjQsNjc5MjY2MzkwLDg1Mjg1ODQ4
+LC0xODc3MDYzNzkxLDIxNzI2NTAsLTIwNTMxNzU1NTcsLTIwMz
+M3MjcxNjUsLTEzMjcyMzI3NjUsLTY1NzA2OTQzMSw5NDY2ODI4
+NzcsMTcwOTAxMTU2MiwxMjE5MjUxNjQzLC0xOTQ3MTI1NDk4LD
+EyMjE0NTc3OTgsLTI1NTU1MjUxNiwxODkxOTIwNDE1LDE0ODE5
+MTU3MTZdfQ==
 -->
