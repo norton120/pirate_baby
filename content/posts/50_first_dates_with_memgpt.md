@@ -7,14 +7,14 @@ draft: true
 The drive home from the movie theater was not going well. My then-girlfriend sat arms crossed in the passenger seat, the red glow from the traffic light matching her mood. "You can't just let it be romantic. Why do you have to ruin everything!?!" We had just seen _50 First Dates_, a classic Sandler/Barrymore romance about a woman who's brain injury prevents her from forming long-term memories. In the movie, Lucy (Barrymore) constructs her own "external memory" via her diary; a clever plot device, but one that required suspension of disbelief that I just could not abide. I had done shorthand math while the credits were rolling: If Lucy's average diary entry took 20 minutes to write (that is less than most people, and most people aren't trying to compensate for brain damage), each entry would take roughly half that time - so about 10 minutes - to read. Reading a week's entries would take more than an hour. By the 6 month mark, the daily catch-up on her past would require more hours of reading than are in a day. Romantic? Yes. Realistic? No. And so we argued. 
 I believe the conversation went something like this: 
 
-_"**Her**:But what if every Sunday she made wrote a cheat sheet for the past week, and then she only read those? That would take less time. " 
-"**Me**:Even a weekly summary would become unreadable in less than a year." 
-"**Her**:OK, then what if she summarized those cheat sheets?? She could keep making the history smaller and smaller." 
-"**Me**Yeah but eventually she'd loose too much detail and the summaries would be useless. "
-"But she'd still have her daily journals for when she needs those details!" 
-"How would she ever search that? We're back where we started."_
+_"**Her**: But what if every Sunday she made wrote a cheat sheet for the past week, and then she only read those? That would take less time. " 
+"**Me**: Even a weekly summary would become unreadable in less than a year." 
+"**Her**: OK, then what if she summarized those cheat sheets?? She could keep making the history smaller and smaller." 
+"**Me**:  Yeah but eventually she'd loose too much detail and the summaries would be useless."
+"**Her**: But she'd still have her daily journals for when she needs those details!" 
+"**Me**: How would she ever search that? We're back where we started."_
 
-Twenty years later, the "Lucy problem" is a perfect lens to help us understand one of the most important challenges in designing a Large Language Model Agent Framework. The solution proposed by [researchers at UC Berkeley](https://research.memgpt.ai/) is remarkably innovative and offers exciting potential - and it is a solution that bears significant resemblance to the one I was arguing against during that car ride home. It looks like I owe someone an apology.
+Twenty years later, the "Lucy problem" is a perfect lens to help us understand one of the most important challenges in designing a Large Language Model Agent Framework. The solution proposed by [researchers at UC Berkeley](https://research.memgpt.ai/) is remarkably innovative and offers exciting potential - and it is a solution that bears significant resemblance to the o I was arguing against during that car ride home. It looks like I owe someone an apology.
 
 ## Lucy the language model: a near-perfect analogy
 Large Language Models are, in reality, just functions. You input at least one argument (text) and they output in kind. This output is the product of the model's business logic, combined parameters, and internal arguments - one of those arguments being the training data used to develop the inference model. This training data serves as the model's "memories"; without it the LLM would output very little of value, similar to a holding a deep conversation with a newborn. 
@@ -77,11 +77,11 @@ Join me next time when we explore the parallels between Happy Gilmore and Kubern
 <sub>1. Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <sub>2. Note that throughout this writing I am referring to the concepts introduced by the research behind MemGPT, not the implementation itself. The nomenclature, pseudo-code, and description of events here are not intended to reflect the software project.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDg4MTQ0NTEsLTQxNDc4Nzk3OSwzNT
-gxMzc5NDUsLTIxMzA2ODc1NTksLTE1MzA4NTM2NjQsNjc5MjY2
-MzkwLDg1Mjg1ODQ4LC0xODc3MDYzNzkxLDIxNzI2NTAsLTIwNT
-MxNzU1NTcsLTIwMzM3MjcxNjUsLTEzMjcyMzI3NjUsLTY1NzA2
-OTQzMSw5NDY2ODI4NzcsMTcwOTAxMTU2MiwxMjE5MjUxNjQzLC
-0xOTQ3MTI1NDk4LDEyMjE0NTc3OTgsLTI1NTU1MjUxNiwxODkx
-OTIwNDE1XX0=
+eyJoaXN0b3J5IjpbODkxMDg5NTIzLC00MTQ3ODc5NzksMzU4MT
+M3OTQ1LC0yMTMwNjg3NTU5LC0xNTMwODUzNjY0LDY3OTI2NjM5
+MCw4NTI4NTg0OCwtMTg3NzA2Mzc5MSwyMTcyNjUwLC0yMDUzMT
+c1NTU3LC0yMDMzNzI3MTY1LC0xMzI3MjMyNzY1LC02NTcwNjk0
+MzEsOTQ2NjgyODc3LDE3MDkwMTE1NjIsMTIxOTI1MTY0MywtMT
+k0NzEyNTQ5OCwxMjIxNDU3Nzk4LC0yNTU1NTI1MTYsMTg5MTky
+MDQxNV19
 -->
