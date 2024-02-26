@@ -1,7 +1,7 @@
 ---
 title: "50 First Dates With MemGPT"
 date: 2024-02-25
-draft: true
+draft: false
 ---
 ## preamble
 The drive home from the movie theater was not going well. My then-girlfriend sat arms crossed in the passenger seat, the red glow from the traffic light matching her mood. "You can't just let it be romantic. Why do you have to ruin everything!?!" We had just seen _50 First Dates_, a classic Sandler/Barrymore romance about a woman who's brain injury prevents her from forming long-term memories. In the movie, Lucy (Barrymore) constructs her own "external memory" via her diary; a clever plot device, but one that required suspension of disbelief that I just could not abide. I had done shorthand math while the credits were rolling: If Lucy's average diary entry took 20 minutes to write (that is less than most people, and most people aren't trying to compensate for brain damage), each entry would take roughly half that time - so about 10 minutes - to read. Reading a week's entries would take more than an hour. By the 6 month mark, the daily catch-up on her past would require more hours of reading than are in a day. Romantic? Yes. Realistic? No. And so we argued. 
@@ -78,7 +78,7 @@ I am very excited about what a framework built on this concept could mean; addin
 
 For those of us building user-facing agents, this is a concept worth focus and cycles. Single-turn prompt libraries and slice-and-dice embedding building to RAG away bad responses was the best idea we had in the dark AI days of 6 months ago, but I don't think they will get us where we want to go. In _50 First Dates_ Lucy married Henry, became a mom, and sailed to Alaska, all because she was restored the agency to own her mind and manage her memories. Language model agents need the same in an "operating system" if we want to unlock them. 
 
-Join me next time, when we explore the parallels between Happy Gilmore and Kubernetes (hint: there are none.)  
+Join me next time, when we explore the parallels between Happy Gilmore and K8S (hint: there are none).  
 
 
  
@@ -86,11 +86,11 @@ Join me next time, when we explore the parallels between Happy Gilmore and Kuber
 <sub>1. Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <sub>2. Note that throughout this writing I am referring to the concepts introduced by the research behind MemGPT, not the implementation itself. The nomenclature, pseudo-code, and description of events here are not intended to reflect the software project.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMzQwOTUzMCwtNDE0Nzg3OTc5LDM1OD
-EzNzk0NSwtMjEzMDY4NzU1OSwtMTUzMDg1MzY2NCw2NzkyNjYz
-OTAsODUyODU4NDgsLTE4NzcwNjM3OTEsMjE3MjY1MCwtMjA1Mz
-E3NTU1NywtMjAzMzcyNzE2NSwtMTMyNzIzMjc2NSwtNjU3MDY5
-NDMxLDk0NjY4Mjg3NywxNzA5MDExNTYyLDEyMTkyNTE2NDMsLT
-E5NDcxMjU0OTgsMTIyMTQ1Nzc5OCwtMjU1NTUyNTE2LDE4OTE5
-MjA0MTVdfQ==
+eyJoaXN0b3J5IjpbLTE1ODQxMTMwNjMsLTQxNDc4Nzk3OSwzNT
+gxMzc5NDUsLTIxMzA2ODc1NTksLTE1MzA4NTM2NjQsNjc5MjY2
+MzkwLDg1Mjg1ODQ4LC0xODc3MDYzNzkxLDIxNzI2NTAsLTIwNT
+MxNzU1NTcsLTIwMzM3MjcxNjUsLTEzMjcyMzI3NjUsLTY1NzA2
+OTQzMSw5NDY2ODI4NzcsMTcwOTAxMTU2MiwxMjE5MjUxNjQzLC
+0xOTQ3MTI1NDk4LDEyMjE0NTc3OTgsLTI1NTU1MjUxNiwxODkx
+OTIwNDE1XX0=
 -->
