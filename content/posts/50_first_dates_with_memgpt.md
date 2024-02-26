@@ -65,12 +65,12 @@ Here's a walk-through of how an agent could work (with a bit of pseudo-code): Th
 
 This "language model operating system" is a starkly contrasting view of how inference services could function to complete complex, multifaceted tasks. It also changes the paradigm of "evolution" as an agent; allowing the application to adjust and self-correct. Prompts and RAG become correctable elements within a generative "cycle"; if a RAG search is ineffective or prompt misses the mark, it can be re-tried or compensated for on the next turn. And most distinctly important from single-turn agent design, the results of this self-managed memory are cumulative. This is an absolute necessity for true agency. As an Engineer I am very excited about what this could mean; adding stimuli to a well-appointed agent (or cluster of agents) becomes an execution layer that evolves beyond text generation and an ROI that grows exponentially with the complexity of its' charge. A language model operating in this fashion is still a language model - a function, not a sentient being - but it crosses a threshold of appearance that is the stuff of Sci-Fi. More importantly, it adds a critical element to the generative equation that I just don't see autonomous agency succeeding without: repetition. Humans don't immediately think every required thought and blurt out the perfect response in one breath; we take steps, ask questions that uncover new questions, pause to consider internally, and _arrive_ at an answer. By bestowing that same capacity on an application, this language model operating system is a new paradigm. 
 
-If you are building user-facing agents and investing cycles in call-answer, single-turn frameworks, pulling your hair out trying to craft the perfect prompt templates, and scrambling to chase ha
+If you are building user-facing agents and investing cycles in call-answer, single-turn frameworks, pulling your hair out trying to craft the perfect prompt templates, and scrambling to build slice and dice your embeddings a million different ways, I have to say I think you are backing the wrong horse. 
 
 <sub>1. Adding context to a prompt and fine-tuning or retraining a model are not really the same thing, but I was willing to take a few liberties with technical accuracy for the sake of clearly demonstrating the subject concepts.</sub> 
 <sub>2. Note that throughout this writing I am referring to the concepts introduced by the research behind MemGPT, not the implementation itself. The nomenclature, pseudo-code, and description of events here are not intended to reflect the software project.</sub> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NjE1MDQ2MCwtNDE0Nzg3OTc5LDM1OD
+eyJoaXN0b3J5IjpbMTkzNTk4NTU0NywtNDE0Nzg3OTc5LDM1OD
 EzNzk0NSwtMjEzMDY4NzU1OSwtMTUzMDg1MzY2NCw2NzkyNjYz
 OTAsODUyODU4NDgsLTE4NzcwNjM3OTEsMjE3MjY1MCwtMjA1Mz
 E3NTU1NywtMjAzMzcyNzE2NSwtMTMyNzIzMjc2NSwtNjU3MDY5
