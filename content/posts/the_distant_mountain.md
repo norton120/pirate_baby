@@ -1,7 +1,9 @@
-___
-title: “the Distant Mountain”
+---
+title: "Carry Your Own Water"
+date: 2024-03-05
 draft: true
-  ___
+---
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNDMzMjc1MV19
+eyJoaXN0b3J5IjpbLTI1NjQxNTExMF19
 -->
