@@ -6,7 +6,8 @@ draft: true
 ---
 _grounding your ML product lifecycle in commerical reality_
 
-Every hype cycle has an equal and opposite detractor cycle, and 
+The AI hype cycle h
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTcyMDIzOTgsODU5Njg3MjUzXX0=
+eyJoaXN0b3J5IjpbMTg3NjAxODQzNCwtMTE5NzIwMjM5OCw4NT
+k2ODcyNTNdfQ==
 -->
