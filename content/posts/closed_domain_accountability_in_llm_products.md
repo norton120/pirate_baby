@@ -11,9 +11,9 @@ If you subscribe to the Gartner predictive model for AI impact and adoption (the
 
 If your Linkedin feed is similar to mine it tells this story, but a different story as well: one of false claims and frustrated users, automation promises unfulfilled, nightmare customer experiences and AI-powered products gone rogue. What I hear on calls and consults is executives with waining patience. There is still an overwhelming excitement around the potential of language-model based applications, but the reckless abandon with which AI initiatives were undertaken in 2023 seems to be sobering up a bit - and for most of us, this is a good thing. Sure, if you make a living playing investment valuation shell games then reality is rarely your friend; but if, like most of us, you want to make money by building things that solve problems, and _work_, then this is a welcome shift in the AI tide. 
 
-So how do we make the transition to _product_ focused development with language models, get away from the squishy intangibles and moving delivery targets to ship something that is an unquestionable success?  
+So how do we make the transition from squishy intangibles and moving delivery targets to ship _products_ that is an unquestionable success?  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDk5NDA3NDYsMTU4Mjk2NjQ0Myw0NT
-I0MzU0MjYsLTE1MjM4OTkxNTcsODU5Njg3MjUzLC0xMTk3MjAy
-Mzk4XX0=
+eyJoaXN0b3J5IjpbLTE1MzA5NjY2NTMsLTE5MDk5NDA3NDYsMT
+U4Mjk2NjQ0Myw0NTI0MzU0MjYsLTE1MjM4OTkxNTcsODU5Njg3
+MjUzLC0xMTk3MjAyMzk4XX0=
 -->
