@@ -8,8 +8,8 @@ _grounding your ML product lifecycle in commerical reality_
 
 If you subscribe to the Gartner predictive model for AI impact and adoption (the "AI Hype Cycle") we are still far from peak AI expectations:
 ![Gartner AI Hype Cycle 2023](https://emt.gartnerweb.com/ngw/globalassets/en/newsroom/images/graphs/swe-hc-image.png)
-Yet every third Linkedin post
+Yet if your Linkedin feed is anything like, mine it tells different story: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NjM3MjU5NSw4NTk2ODcyNTMsLTExOT
+eyJoaXN0b3J5IjpbMTY1ODU2OTUxMCw4NTk2ODcyNTMsLTExOT
 cyMDIzOThdfQ==
 -->
