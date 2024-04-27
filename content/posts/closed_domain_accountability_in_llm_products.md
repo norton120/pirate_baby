@@ -11,12 +11,19 @@ If you subscribe to the Gartner predictive model for AI impact and adoption (a.k
 
 The endless stream of incredible Linkedin LLM product demos seem to support this model. But another narrative is also taking shape; one of false claims and frustrated users, automation promises unfulfilled, nightmare customer experiences and AI-powered products gone rogue. What I hear on calls and consults is executives with waining patience. There is still an overwhelming excitement around the potential application of large (and small) language models, but the reckless abandon with which AI initiatives were undertaken in 2023 seems to be sobering up. This impending reality check in the AI space is probably not your friend if you play investment shell games for a living; but for those of us that create value by _actually shipping stuff that works_, this is a welcome change in the tide. Rather than a curb of inertia in AI development, we should expect a graduation in the standards and and consumer tolerances for applications leveraging AI.
 
-What does this mean in practice? For one, AI-powered products will start to be judged by performance instead of potential.  
+What does this mean in practice? For one, get ready for AI-powered products to be judged by performance instead of potential.  
 
 So how do we make the transition from squishy intangibles and moving delivery targets to ship _products_ and _features_ that are an unquestionable success?
+
+### Sunset your disclaimers
+Here is a banner you won't see:
+```
+Due to the 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM3MDc3MjMwLDEzNzc4NDk1MzQsMTc5Mz
-M0MjE3NCw4MTM0ODU4MjIsLTYxODIzNzc2NywxNzk2NzM3Njk2
-LC0xOTA5OTQwNzQ2LDE1ODI5NjY0NDMsNDUyNDM1NDI2LC0xNT
-IzODk5MTU3LDg1OTY4NzI1MywtMTE5NzIwMjM5OF19
+eyJoaXN0b3J5IjpbNjY2NTMyNTE0LDgzNzA3NzIzMCwxMzc3OD
+Q5NTM0LDE3OTMzNDIxNzQsODEzNDg1ODIyLC02MTgyMzc3Njcs
+MTc5NjczNzY5NiwtMTkwOTk0MDc0NiwxNTgyOTY2NDQzLDQ1Mj
+QzNTQyNiwtMTUyMzg5OTE1Nyw4NTk2ODcyNTMsLTExOTcyMDIz
+OThdfQ==
 -->
