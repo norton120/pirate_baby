@@ -9,13 +9,13 @@ _grounding your ML product lifecycle in commerical reality_
 If you subscribe to the Gartner predictive model for AI impact and adoption (a.k.a the "AI Hype Cycle") we are still far from peak AI expectations.
 ![Gartner AI Hype Cycle 2023](https://emt.gartnerweb.com/ngw/globalassets/en/newsroom/images/graphs/swe-hc-image.png)
 
-The endless stream of incredible Linkedin LLM product demos seem to support this model. But another narrative is also taking shape; one of false claims and frustrated users, automation promises unfulfilled, nightmare customer experiences and AI-powered products gone rogue. What I hear on calls and consults is executives with waining patience. There is still an overwhelming excitement around the potential application of large (and small) language models, but the reckless abandon with which AI initiatives were undertaken in 2023 seems to be sobering up. This impending reality check in the AI space is probably not your friend if you play investment shell games for a living; but for those of us that create value by _actually shipping stuff that works_, this is a welcome change in the tides.  
+The endless stream of incredible Linkedin LLM product demos seem to support this model. But another narrative is also taking shape; one of false claims and frustrated users, automation promises unfulfilled, nightmare customer experiences and AI-powered products gone rogue. What I hear on calls and consults is executives with waining patience. There is still an overwhelming excitement around the potential application of large (and small) language models, but the reckless abandon with which AI initiatives were undertaken in 2023 seems to be sobering up. This impending reality check in the AI space is probably not your friend if you play investment shell games for a living; but for those of us that create value by _actually shipping stuff that works_, this is a welcome change in the tides. It is unl
 
 If you are in 
 So how do we make the transition from squishy intangibles and moving delivery targets to ship _products_ and _features_ that are an unquestionable success?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4Njg0NzUzNCwxNzkzMzQyMTc0LDgxMz
-Q4NTgyMiwtNjE4MjM3NzY3LDE3OTY3Mzc2OTYsLTE5MDk5NDA3
-NDYsMTU4Mjk2NjQ0Myw0NTI0MzU0MjYsLTE1MjM4OTkxNTcsOD
-U5Njg3MjUzLC0xMTk3MjAyMzk4XX0=
+eyJoaXN0b3J5IjpbLTE3NDg4NDY1NTYsMTc5MzM0MjE3NCw4MT
+M0ODU4MjIsLTYxODIzNzc2NywxNzk2NzM3Njk2LC0xOTA5OTQw
+NzQ2LDE1ODI5NjY0NDMsNDUyNDM1NDI2LC0xNTIzODk5MTU3LD
+g1OTY4NzI1MywtMTE5NzIwMjM5OF19
 -->
