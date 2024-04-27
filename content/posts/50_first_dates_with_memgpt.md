@@ -1,6 +1,7 @@
 ---
 title: "50 First Dates With MemGPT"
 date: 2024-02-25
+tags: ['ai','ml']
 draft: false
 ---
 ## preamble
@@ -89,8 +90,8 @@ Join me next time, when we explore the parallels between Happy Gilmore and K8S (
 
 **MemGPT Citation:**
 <sub>
-packer 2023 memgpt, MemGPT: Towards LLMs as Operating Systems,  
-authors: Packer, Charles and Wooders, Sarah and Lin, Kevin and Fang, Vivian and Patil, Shishir G. and Stoica, Ion and Gonzalez, Joseph E.,  
+packer 2023 memgpt, MemGPT: Towards LLMs as Operating Systems,
+authors: Packer, Charles and Wooders, Sarah and Lin, Kevin and Fang, Vivian and Patil, Shishir G. and Stoica, Ion and Gonzalez, Joseph E.,
 arXiv preprint arXiv:2310.08560</sub>
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTA0ODI3MTkyOSwtMTU4NDExMzA2MywtND

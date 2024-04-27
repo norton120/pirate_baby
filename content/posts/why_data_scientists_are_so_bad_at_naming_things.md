@@ -1,5 +1,6 @@
 ---
 title: "Data Science Nomenclature"
+tags: ['ai','ml','de','ops']
 date: 2023-12-13
 draft: false
 ---

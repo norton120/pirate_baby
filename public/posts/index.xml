@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on the Pirate Baby</title>
+    <link>http://0.0.0.0:1313/posts/</link>
+    <description>Recent content in Posts on the Pirate Baby</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://0.0.0.0:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>50 First Dates With MemGPT</title>
+      <link>http://0.0.0.0:1313/posts/50_first_dates_with_memgpt/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://0.0.0.0:1313/posts/50_first_dates_with_memgpt/</guid>
+      <description>preamble The drive home from the movie theater was not going well. My then-girlfriend sat arms crossed in the passenger seat, the red glow from the traffic light matching her mood. &amp;ldquo;You can&amp;rsquo;t just let it be romantic. Why do you have to ruin everything!?!&amp;rdquo; We had just seen 50 First Dates, a classic Sandler/Barrymore romance about a woman who&amp;rsquo;s brain injury prevents her from forming long-term memories. In the movie, Lucy (Barrymore) constructs her own &amp;ldquo;external memory&amp;rdquo; via her diary; a clever plot device, but one that required suspension of disbelief that I just could not abide.</description>
+    </item>
+    <item>
+      <title>An Indian Summer for Old Programmers</title>
+      <link>http://0.0.0.0:1313/posts/an_indian_summer_for_old_programmers/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://0.0.0.0:1313/posts/an_indian_summer_for_old_programmers/</guid>
+      <description>History The most money I have ever made was my years spent selling motorcycles. Software Engineering is by all means a lucrative profession, and I&amp;rsquo;ve never been the starving artist developer who prizes a compelling mission over a compelling paycheck. But the years I sold motorcycles - between 2003 and 2008 - coincided with a wave of temporary insanity in the US real estate market. Heretofore normal people became mad with the sudden access to &amp;ldquo;wealth,&amp;rdquo; in the form of massive home equity reserves they could spend as easily as cash via HELOC checkbooks.</description>
+    </item>
+    <item>
+      <title>The one where a picture of your dog broke your CD pipeline</title>
+      <link>http://0.0.0.0:1313/posts/the_one_where_a_picture_of_your_dog_broke_the_cd_pipeline/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://0.0.0.0:1313/posts/the_one_where_a_picture_of_your_dog_broke_the_cd_pipeline/</guid>
+      <description>It starts out innocent enough, on a frozen New Year&amp;rsquo;s Eve afternoon. You are doing some final documentation cleanup - because it is New Year&amp;rsquo;s Eve and not the best time for the team to be rolling out fresh feature code, and because updating the repo docs is usually a worthwhile endeavor in moments like this as part of good code hygiene. Being the clever and hilarious documentation author that you are, you hyperlink a picture of your dog Bash to a bash code block (pure pun magnificence, I might add).</description>
+    </item>
+    <item>
+      <title>Fun with SQLAlchemy Mapped forward refs</title>
+      <link>http://0.0.0.0:1313/posts/fun_with_sqlalchemy_mapped_forward_refs/</link>
+      <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://0.0.0.0:1313/posts/fun_with_sqlalchemy_mapped_forward_refs/</guid>
+      <description>SQLAlchemy has nifty declarative mapping type support with the Mapped typing descriptor. If you are in the habit of typing your Python, this is a welcome tool that reduces boilerplate while still feeling quite natural:
+class Banana(SqlalchemyBase): is_squishy:Mapped[Optional[bool]] = mapped_column(server_default=text(&amp;#34;TRUE&amp;#34;)) picked_date:Mapped[datetime] belongs_to: Mapped[&amp;#34;User&amp;#34;] = relationship(&amp;#34;User&amp;#34;, lazy=&amp;#34;selectin&amp;#34;, back_references=&amp;#34;bananas&amp;#34;) But interestingly, Mapped does not support forward refs outside the ORM. so picked_date:Mapped[&amp;quot;datetime&amp;quot;] will error with an ArgumentError if datetime was not otherwise imported in the module.</description>
+    </item>
+    <item>
+      <title>A Complete Containerized CD Pipeline With AWS and Cloudflare for 2024</title>
+      <link>http://0.0.0.0:1313/posts/complete_cd_with_aws_codepipeline_ecs_and_cloudflare/</link>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://0.0.0.0:1313/posts/complete_cd_with_aws_codepipeline_ecs_and_cloudflare/</guid>
+      <description>Recently I went about standing up a fresh Continuous Delivery pipeline for a new project. The project is a relatively standard containerized stack with nothing exceptional to speak of, and as our exploratory work was already in AWS I decided to launch this CD in AWS CodePipeline. Furthermore, we wanted to dogfood our long-term infra management (this project is infra abstraction/automation software) and so opted not to use TerraForm or CloudFormation templates - that way we could have a fully &amp;ldquo;Clickops&amp;rsquo;d&amp;rdquo; infrastructure for our tools to reclaim and manage.</description>
+    </item>
+    <item>
+      <title>On Having Enough Time</title>
+      <link>http://0.0.0.0:1313/posts/on_having_enough_time/</link>
+      <pubDate>Sun, 24 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://0.0.0.0:1313/posts/on_having_enough_time/</guid>
+      <description>It is difficult to argue substantially that there is not enough time if there is a TV on your wall or TikTok on your phone.</description>
+    </item>
+    <item>
+      <title>Data Science Nomenclature</title>
+      <link>http://0.0.0.0:1313/posts/why_data_scientists_are_so_bad_at_naming_things/</link>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://0.0.0.0:1313/posts/why_data_scientists_are_so_bad_at_naming_things/</guid>
+      <description>I have a working theory that most of the Data Scientists working today developed their naming conventions by watching Star Trek: The Next Generation in the 90s.</description>
+    </item>
+    <item>
+      <title>Caffeine</title>
+      <link>http://0.0.0.0:1313/posts/caffeine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://0.0.0.0:1313/posts/caffeine/</guid>
+      <description>There is a well-warn platitude that &amp;ldquo;debt is stealing from your future self.&amp;rdquo; The logic follows that instead of (or worse, in addition to) spending the resources you currently have, debt is the act of spending against resources you will have down the road. Debt functions on highly optimistic principals, namely that future you will be so very well off that not only will that version of yourself have enough means to cover your then-current expenses, but also surplus to cover the now-current expenses present-day you is unwilling or unable to afford.</description>
+    </item>
+    <item>
+      <title>Langchain is a Ticking Timebomb</title>
+      <link>http://0.0.0.0:1313/posts/langchain_is_ticking_timebomb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://0.0.0.0:1313/posts/langchain_is_ticking_timebomb/</guid>
+      <description>Let me preface this by saying that I very much appreciate the entire Lang* ecosystem. At my shop we rely heavily on Langfuse for development as well as the tagging interface for our training strategy. More than a few platforms have tried to be the framework for language model applications (think Guidance, Haystack etc), and the Lang* team has arguably made the most headway, and done it OSS &amp;#x1f918;. So try not to disregard these observations as contrarian or success-hating; I really want to love LangChain.</description>
+    </item>
+    <item>
+      <title>Prompt Engineering</title>
+      <link>http://0.0.0.0:1313/posts/prompt_engineering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://0.0.0.0:1313/posts/prompt_engineering/</guid>
+      <description>The world never ceases to be filled with new things, and that is exciting. New things are great, but as they come with a learning curve - not the least of which is the language surrounding them. Like when the first coffee shop opened in the little town where I went to college in the late 90s, and we learned to order “express-o” (which was named that, logically, because it was like coffee but faster).</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>The one where a picture of your dog broke your CD pipeline | the Pirate Baby</title>
+<meta name="keywords" content="ai, ml, ops">
+<meta name="description" content="It starts out innocent enough, on a frozen New Year&rsquo;s Eve afternoon. You are doing some final documentation cleanup - because it is New Year&rsquo;s Eve and not the best time for the team to be rolling out fresh feature code, and because updating the repo docs is usually a worthwhile endeavor in moments like this as part of good code hygiene. Being the clever and hilarious documentation author that you are, you hyperlink a picture of your dog Bash to a bash code block (pure pun magnificence, I might add).">
+<meta name="author" content="">
+<link rel="canonical" href="http://0.0.0.0:1313/posts/the_one_where_a_picture_of_your_dog_broke_the_cd_pipeline/">
+
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QYLKP2XXPB"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-QYLKP2XXPB');
+        }
+      </script>
+    
+  
+
+
+<link crossorigin="anonymous" href="/assets/css/stylesheet.e087fd1dc76e73a35ae6d7028ddc1ba41e0131e7f9b3a6e2d019a208e6d6c4b5.css" integrity="sha256-4If9Hcduc6Na5tcCjdwbpB4BMef5s6bi0BmiCObWxLU=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="http://0.0.0.0:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://0.0.0.0:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://0.0.0.0:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://0.0.0.0:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://0.0.0.0:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://0.0.0.0:1313/posts/the_one_where_a_picture_of_your_dog_broke_the_cd_pipeline/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QYLKP2XXPB"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-QYLKP2XXPB');
+        }
+      </script>
+    
+  
+
+<meta property="og:title" content="The one where a picture of your dog broke your CD pipeline" />
+<meta property="og:description" content="It starts out innocent enough, on a frozen New Year&rsquo;s Eve afternoon. You are doing some final documentation cleanup - because it is New Year&rsquo;s Eve and not the best time for the team to be rolling out fresh feature code, and because updating the repo docs is usually a worthwhile endeavor in moments like this as part of good code hygiene. Being the clever and hilarious documentation author that you are, you hyperlink a picture of your dog Bash to a bash code block (pure pun magnificence, I might add)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://0.0.0.0:1313/posts/the_one_where_a_picture_of_your_dog_broke_the_cd_pipeline/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-12-31T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-12-31T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="The one where a picture of your dog broke your CD pipeline"/>
+<meta name="twitter:description" content="It starts out innocent enough, on a frozen New Year&rsquo;s Eve afternoon. You are doing some final documentation cleanup - because it is New Year&rsquo;s Eve and not the best time for the team to be rolling out fresh feature code, and because updating the repo docs is usually a worthwhile endeavor in moments like this as part of good code hygiene. Being the clever and hilarious documentation author that you are, you hyperlink a picture of your dog Bash to a bash code block (pure pun magnificence, I might add)."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://0.0.0.0:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "The one where a picture of your dog broke your CD pipeline",
+      "item": "http://0.0.0.0:1313/posts/the_one_where_a_picture_of_your_dog_broke_the_cd_pipeline/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "The one where a picture of your dog broke your CD pipeline",
+  "name": "The one where a picture of your dog broke your CD pipeline",
+  "description": "It starts out innocent enough, on a frozen New Year\u0026rsquo;s Eve afternoon. You are doing some final documentation cleanup - because it is New Year\u0026rsquo;s Eve and not the best time for the team to be rolling out fresh feature code, and because updating the repo docs is usually a worthwhile endeavor in moments like this as part of good code hygiene. Being the clever and hilarious documentation author that you are, you hyperlink a picture of your dog Bash to a bash code block (pure pun magnificence, I might add).",
+  "keywords": [
+    "ai", "ml", "ops"
+  ],
+  "articleBody": "It starts out innocent enough, on a frozen New Year’s Eve afternoon. You are doing some final documentation cleanup - because it is New Year’s Eve and not the best time for the team to be rolling out fresh feature code, and because updating the repo docs is usually a worthwhile endeavor in moments like this as part of good code hygiene. Being the clever and hilarious documentation author that you are, you hyperlink a picture of your dog Bash to a bash code block (pure pun magnificence, I might add). Happy with your updates, you wait for CI to pass testing, linting, scanning etc. and solicit a pull request rubber stamp from the team.\nYou are just about ready to close down your laptop when an alert pops up from AWS CodeDeploy: your deployment has failed. You assume it is a fluke - probably a failed resource allocation or something similar, all you did was add one line to a markdown file 🤷‍♂️. So you retry. A few minutes pass, and then again the pipeline fails. Upon closer inspection the error indicates that your appspec.yaml file has a syntax error, and the deploy was not able to complete. You look in GitHub and the appspec.yaml has not changed for a month. An earlier pipeline with the same appspec.yaml built just fine three hours ago. Only one line of markdown has changed. What fresh hell is this? I’ll skip to the end (you can fill in several hours of searching and tweaking and pointless pull requests trying to find the suddenly offending character if you want the full experience): part of the CodeDeploy configuration is to specify artifacts to be used during the ECS blue/green deployment flow - and you can specify source and build artifacts. As you would expect, source artifacts are a copy of your repository code checked out in the source stage of your CodePipeline, while build artifacts are assets you created (and specified) during your CodeBuild stage. Since the appspec.yaml was not altered during the build, I had naively chosen to use the file directly from the repo those many months ago. However, the source artifacts have a hard size limit of 3MB; once your repository grows to larger than this, the artifact fails to import and silently returns nothing.\nLuckily, this “silent killer” is prominently documented in the CodePipeline docs … just kidding, there’s no mention of it anywhere outside the troubleshooting guide. I appreciate the very Pythonic nature of that documentation style (don’t document the constraints, just explain them in the errors page). Of course there’s also no mention of the limit in the error - just that it cannot read the file. Happy New Year 🎉! The fix is relatively easy - include the file in the build artifacts, switch to build, call it a day. The frustration is that CodeDeploy (like so many AWS services) feels less and less like a managed service product and more and more like piggybacking on found code. As if someone built the source artifact to handle a very specific use case, and it worked, and so that was the end of the development cycle for that feature. There are only about 6 fields in the ECS Blue/Green deployment, and one of them can lead to your pipeline randomly failing when your codebase reaches a modest size. It is reflective of the AWS mentality of late - a complete fixation on shipping new services while barely supporting continuity for the old ones, with meaningful updates only for flagship products.\n",
+  "wordCount" : "592",
+  "inLanguage": "en",
+  "datePublished": "2023-12-31T00:00:00Z",
+  "dateModified": "2023-12-31T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://0.0.0.0:1313/posts/the_one_where_a_picture_of_your_dog_broke_the_cd_pipeline/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "the Pirate Baby",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://0.0.0.0:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://0.0.0.0:1313/" accesskey="h" title="the Pirate Baby (Alt + H)">
+                        
+                    <img src="http://0.0.0.0:1313/piratebaby_huaab79433917d743d4e178df45e5313e8_505492_0x40_resize_box_3.png" alt="" aria-label="logo"
+                        height="40">the Pirate Baby</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://0.0.0.0:1313/work-with-pirate-baby/" title="C&amp;C">
+                    <span>C&amp;C</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://0.0.0.0:1313/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://0.0.0.0:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://0.0.0.0:1313/">Home</a>&nbsp;»&nbsp;<a href="http://0.0.0.0:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      The one where a picture of your dog broke your CD pipeline
+    </h1>
+    <div class="post-meta"><span title='2023-12-31 00:00:00 +0000 UTC'>December 31, 2023</span>&nbsp;·&nbsp;3 min
+
+</div>
+  </header> 
+  <div class="post-content"><p>It starts out innocent enough, on a frozen New Year&rsquo;s Eve afternoon. You are doing some final documentation cleanup - because it is New Year&rsquo;s Eve and not the best time for the team to be rolling out fresh feature code, and because updating the repo docs is usually a worthwhile endeavor in moments like this as part of good code hygiene. Being the clever and hilarious documentation author that you are, you hyperlink a picture of your dog Bash to a bash code block (pure pun magnificence, I might add).  Happy with your updates, you wait for CI to pass testing, linting, scanning etc. and solicit a pull request rubber stamp from the team.</p>
+<p><img loading="lazy" src="/images/bash.png" alt="Bash is so destructive"  />
+</p>
+<p>You are just about ready to close down your laptop when an alert pops up from AWS <em>CodeDeploy</em>: your deployment has failed. You assume it is a fluke - probably a failed resource allocation or something similar, all you did was add one line to a markdown file &#x1f937;&zwj;&#x2642;&#xfe0f;. So you retry. A few minutes pass, and then again the pipeline fails.
+Upon closer inspection the error indicates that your <code>appspec.yaml</code> file has a syntax error, and the deploy was not able to complete. You look in GitHub and the <code>appspec.yaml</code> has not changed for a month.
+An earlier pipeline with the same <code>appspec.yaml</code> built just fine three hours ago. Only one line of markdown has changed. What fresh hell is this?
+I&rsquo;ll skip to the end (you can fill in several hours of searching and tweaking and pointless pull requests trying to find the suddenly offending character if you want the full experience): part of the <em>CodeDeploy</em> configuration is to specify artifacts to be used during the ECS blue/green deployment flow - and you can specify <code>source</code> and <code>build</code> artifacts. As you would expect, <code>source</code> artifacts are a copy of your repository code checked out in the <em>source</em> stage of your <em>CodePipeline</em>, while <code>build</code> artifacts are assets you created (and specified) during your <em>CodeBuild</em> stage. Since the <code>appspec.yaml</code> was not altered during the build, I had naively chosen to use the file directly from the repo those many months ago. However, the <code>source</code> artifacts have a hard size limit of 3MB; once your repository grows to larger than this, the artifact fails to import and silently returns nothing.</p>
+<p>Luckily, this &ldquo;silent killer&rdquo; is prominently documented in the <a href="https://docs.aws.amazon.com/codepipeline/latest/userguide/welcome-introducing-artifacts.html"><em>CodePipeline</em> docs</a> &hellip; just kidding, there&rsquo;s no mention of it anywhere outside the troubleshooting guide. I appreciate the very Pythonic nature of that documentation style (don&rsquo;t document the constraints, just explain them in the errors page). Of course there&rsquo;s also no mention of the limit in the error - just that it cannot read the file. Happy New Year &#x1f389;!
+The fix is relatively easy - include the file in the build artifacts, switch to <code>build</code>, call it a day. The frustration is that CodeDeploy (like so many AWS services) feels less and less like a managed service product and more and more like piggybacking on found code. As if someone built the <code>source</code> artifact to handle a very specific use case, and it worked, and so that was the end of the development cycle for that feature. There are only about 6 fields in the <em>ECS Blue/Green</em> deployment, and one of them can lead to your pipeline randomly failing when your codebase reaches a modest size. It is reflective of the AWS mentality of late - a complete fixation on shipping new services while barely supporting continuity for the old ones, with meaningful updates only for flagship products.</p>
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNzIxODkyMTA0LDI2NDQxNzY1OSwtMzE2OT
+gwMzk0LDEwODAzNDY4MzFdfQ==
+-->
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://0.0.0.0:1313/tags/ai/">Ai</a></li>
+      <li><a href="http://0.0.0.0:1313/tags/ml/">Ml</a></li>
+      <li><a href="http://0.0.0.0:1313/tags/ops/">Ops</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://0.0.0.0:1313/posts/an_indian_summer_for_old_programmers/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>An Indian Summer for Old Programmers</span>
+  </a>
+  <a class="next" href="http://0.0.0.0:1313/posts/fun_with_sqlalchemy_mapped_forward_refs/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Fun with SQLAlchemy Mapped forward refs</span>
+  </a>
+</nav>
+
+  </footer><div id="disqus_thread"></div>
+<script>
+    
+
+    var disqus_config = function () {
+    this.page.url = 'http:\/\/0.0.0.0:1313\/posts\/the_one_where_a_picture_of_your_dog_broke_the_cd_pipeline\/';  
+    this.page.identifier = 'ce44560a91631acef130625d90919811'; 
+    };
+    (function() { 
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-pirate-baby.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="http://0.0.0.0:1313/">the Pirate Baby</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

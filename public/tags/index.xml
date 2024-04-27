@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on the Pirate Baby</title>
+    <link>http://0.0.0.0:1313/tags/</link>
+    <description>Recent content in Tags on the Pirate Baby</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://0.0.0.0:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai</title>
+      <link>http://0.0.0.0:1313/tags/ai/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://0.0.0.0:1313/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ml</title>
+      <link>http://0.0.0.0:1313/tags/ml/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://0.0.0.0:1313/tags/ml/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ops</title>
+      <link>http://0.0.0.0:1313/tags/ops/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://0.0.0.0:1313/tags/ops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>De</title>
+      <link>http://0.0.0.0:1313/tags/de/</link>
+      <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://0.0.0.0:1313/tags/de/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Infra</title>
+      <link>http://0.0.0.0:1313/tags/infra/</link>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://0.0.0.0:1313/tags/infra/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

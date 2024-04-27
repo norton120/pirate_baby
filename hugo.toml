@@ -8,11 +8,16 @@ enableRobotsTXT = true
 enableEmoji = true
 pygmentsUseClasses = true
 googleAnalytics = 'G-QYLKP2XXPB'
+disqusShortname = 'https-pirate-baby'
+
+[taxonomies]
+  tag = 'tags'
 
 [outputs]
   home = ['HTML','RSS', 'JSON']
 
 [params]
+  comments = true
   env = 'production'
   hideSummary = true
   description = 'Thoughts from Ethan Knox'
@@ -26,6 +31,34 @@ googleAnalytics = 'G-QYLKP2XXPB'
   ShowAllPagesInArchive = true
   ShowPageNums = true
   ShowToc = false
+  github = 'norton120'
+  linkedin = 'ethan-knox'
+
+[params.homeInfoParams]
+  Title = '_Ship Mercilessly_ :pirate_flag:'
+  Content = '''[:brain: **AI**](/tags/ai) :black_medium_small_square:
+  [:chart_with_upwards_trend: **DE**](/tags/de) :black_medium_small_square:
+  [:robot: **ML**](/tags/ml) :black_medium_small_square:
+  [:building_construction: **Infra**](/tags/infra) :black_medium_small_square:
+  [:computer: **Ops**](/tags/ops)
+  '''
+
+[[params.SocialIcons]]
+  name = 'linkedin'
+  url = 'https://www.linkedin.com/in/ethan-knox'
+
+[[params.SocialIcons]]
+  name = 'github'
+  url = 'https://github.com/norton120'
+
+[[params.SocialIcons]]
+  name = 'medium'
+  url = 'https://medium.com/@ethan.m.knox'
+
+[[params.SocialIcons]]
+  name = 'email'
+  url = 'mailto:ethan@pirate.baby'
+
 
 [params.label]
   icon = "/piratebaby.png"
