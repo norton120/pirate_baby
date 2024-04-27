@@ -4,7 +4,9 @@ tags: ["ai","ml","ops"]
 date: 2024-4-26
 draft: true
 ---
-_or, how to 
+_grounding your ML product lifecycle in commerical reality_
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NjAwMzMzNV19
+eyJoaXN0b3J5IjpbODU5Njg3MjUzXX0=
 -->
