@@ -44,12 +44,13 @@ In every genie story someone falls prey to the curse of ambiguous wishes. The ge
 Ground truth datasets for your product should be largely the domain of the Product Owner, and should reflect an interatively tightening understanding of what success looks like. 
 
 ### Ruthlessly Define Success
-A few times here I have referenced the definition of success. That definition needs to be, uh.. defined. By Product. Be able to ans
+A few times here I have referenced the definition of success. That definition needs to be, uh.. defined. By Product. Be able to answer any question of "can it do" or "what does it do when" without looking at the AI Engineering team. If your AI Engineering team are the only people that can answer "can it do," that means you left the product design up to them. That is stupid, don't do that. 
+Create scripts, brand
 
 ### Use. Metrics. 
 If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTc3MjMyMDAsMTMxNTA5NzQ1NSw5Mz
+eyJoaXN0b3J5IjpbLTEzNTUwNDczMzUsMTMxNTA5NzQ1NSw5Mz
 E4MDM5NDUsLTk2NjM1MjcxOCwxMDUyMzgzMjgyLDYxNjQ3OTQ3
 Nyw2NjY1MzI1MTQsODM3MDc3MjMwLDEzNzc4NDk1MzQsMTc5Mz
 M0MjE3NCw4MTM0ODU4MjIsLTYxODIzNzc2NywxNzk2NzM3Njk2
