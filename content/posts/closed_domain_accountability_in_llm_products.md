@@ -29,12 +29,12 @@ We could have slapped a disclamer "estimates may be innacurate and you may get y
 2. Determine the _actual_ timeline once the order has been placed
 3. If the actual was greater than the estimate, upgrade the shipping _for free_ to get the actual to match the estimate
 
-
+simply handing off a 
 
 ### Stop playing
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzODgyMTk1Nyw2MTY0Nzk0NzcsNjY2NT
+eyJoaXN0b3J5IjpbMTA1MjM4MzI4Miw2MTY0Nzk0NzcsNjY2NT
 MyNTE0LDgzNzA3NzIzMCwxMzc3ODQ5NTM0LDE3OTMzNDIxNzQs
 ODEzNDg1ODIyLC02MTgyMzc3NjcsMTc5NjczNzY5NiwtMTkwOT
 k0MDc0NiwxNTgyOTY2NDQzLDQ1MjQzNTQyNiwtMTUyMzg5OTE1
