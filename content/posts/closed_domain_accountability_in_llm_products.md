@@ -26,14 +26,17 @@ I once worked with an ecom platform that was getting _slaughtered_ by Amazon ove
 We could have slapped a disclamer "estimates may be innacurate and you may get your stuff whenever" - but that wasn't the product we wanted to deliver. So we built out a simple system: 
 
 1. Display the best guess estimate based on available information
-2. D
+2. Determine the _actual_ timeline once the order has been placed
+3. If the actual was greater than the estimate, upgrade the shipping _for free_ to get the actual to match the estimate
+
+
 
 ### Stop playing
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzUzMjMwMjIsNjE2NDc5NDc3LDY2Nj
-UzMjUxNCw4MzcwNzcyMzAsMTM3Nzg0OTUzNCwxNzkzMzQyMTc0
-LDgxMzQ4NTgyMiwtNjE4MjM3NzY3LDE3OTY3Mzc2OTYsLTE5MD
-k5NDA3NDYsMTU4Mjk2NjQ0Myw0NTI0MzU0MjYsLTE1MjM4OTkx
-NTcsODU5Njg3MjUzLC0xMTk3MjAyMzk4XX0=
+eyJoaXN0b3J5IjpbMjEzODgyMTk1Nyw2MTY0Nzk0NzcsNjY2NT
+MyNTE0LDgzNzA3NzIzMCwxMzc3ODQ5NTM0LDE3OTMzNDIxNzQs
+ODEzNDg1ODIyLC02MTgyMzc3NjcsMTc5NjczNzY5NiwtMTkwOT
+k0MDc0NiwxNTgyOTY2NDQzLDQ1MjQzNTQyNiwtMTUyMzg5OTE1
+Nyw4NTk2ODcyNTMsLTExOTcyMDIzOThdfQ==
 -->
