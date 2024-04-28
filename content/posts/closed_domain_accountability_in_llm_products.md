@@ -29,15 +29,14 @@ We could have slapped a disclamer "estimates may be innacurate and you may get y
 2. Determine the _actual_ timeline once the order has been placed
 3. If the actual was greater than the estimate, upgrade the shipping _for free_ to get the actual to match the estimate
 
-simply handing off the output of your first solution and wrapping it with a disclaimer is not Software Engineering, it is order taking. The first step to 
+simply handing off the output of your first solution to the user and wrapping it with a disclaimer is not Software Engineering, it is order taking. Viable products are accountable, even when their individual components are not. 
 
 ### Stop playing
-
+Nothing mak
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTk2OTAwNTIsMTA1MjM4MzI4Miw2MT
-Y0Nzk0NzcsNjY2NTMyNTE0LDgzNzA3NzIzMCwxMzc3ODQ5NTM0
-LDE3OTMzNDIxNzQsODEzNDg1ODIyLC02MTgyMzc3NjcsMTc5Nj
-czNzY5NiwtMTkwOTk0MDc0NiwxNTgyOTY2NDQzLDQ1MjQzNTQy
-NiwtMTUyMzg5OTE1Nyw4NTk2ODcyNTMsLTExOTcyMDIzOThdfQ
-==
+eyJoaXN0b3J5IjpbLTUzNzI1NzI2NywxMDUyMzgzMjgyLDYxNj
+Q3OTQ3Nyw2NjY1MzI1MTQsODM3MDc3MjMwLDEzNzc4NDk1MzQs
+MTc5MzM0MjE3NCw4MTM0ODU4MjIsLTYxODIzNzc2NywxNzk2Nz
+M3Njk2LC0xOTA5OTQwNzQ2LDE1ODI5NjY0NDMsNDUyNDM1NDI2
+LC0xNTIzODk5MTU3LDg1OTY4NzI1MywtMTE5NzIwMjM5OF19
 -->
