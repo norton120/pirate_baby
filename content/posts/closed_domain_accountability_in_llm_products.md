@@ -41,14 +41,14 @@ Be able to explain exactly what you are doing in an experiment, or it is just pl
 ### Treat Ground Truth Like an Evil Genie
 In every genie story someone falls prey to the curse of ambiguous wishes. The genie twists assumptions, plays on words, and transforms every wish into a curse. 
 
-Ground truth datasets for your product should be largely the domain of the Product Owner, and should reflect an interall
+Ground truth datasets for your product should be largely the domain of the Product Owner, and should reflect an interatively tightening understanding of what success looks like. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAxMDY4MTM0LDkzMTgwMzk0NSwtOTY2Mz
-UyNzE4LDEwNTIzODMyODIsNjE2NDc5NDc3LDY2NjUzMjUxNCw4
-MzcwNzcyMzAsMTM3Nzg0OTUzNCwxNzkzMzQyMTc0LDgxMzQ4NT
-gyMiwtNjE4MjM3NzY3LDE3OTY3Mzc2OTYsLTE5MDk5NDA3NDYs
-MTU4Mjk2NjQ0Myw0NTI0MzU0MjYsLTE1MjM4OTkxNTcsODU5Nj
-g3MjUzLC0xMTk3MjAyMzk4XX0=
+eyJoaXN0b3J5IjpbMTMxNTA5NzQ1NSw5MzE4MDM5NDUsLTk2Nj
+M1MjcxOCwxMDUyMzgzMjgyLDYxNjQ3OTQ3Nyw2NjY1MzI1MTQs
+ODM3MDc3MjMwLDEzNzc4NDk1MzQsMTc5MzM0MjE3NCw4MTM0OD
+U4MjIsLTYxODIzNzc2NywxNzk2NzM3Njk2LC0xOTA5OTQwNzQ2
+LDE1ODI5NjY0NDMsNDUyNDM1NDI2LC0xNTIzODk5MTU3LDg1OT
+Y4NzI1MywtMTE5NzIwMjM5OF19
 -->
