@@ -45,15 +45,15 @@ Ground truth datasets for your product should be largely the domain of the Produ
 
 ### Ruthlessly Define Success
 A few times here I have referenced the definition of success. That definition needs to be, uh.. defined. By Product. Be able to answer any question of "can it do" or "what does it do when" without looking at the AI Engineering team. If your AI Engineering team are the only people that can answer "can it do," that means you left the product design up to them. That is stupid, don't do that. 
-Create NLUX scripts - just like websites have wireframes, AI-powered products need language "wireframes" from someone who has thought the experience through without worrying about implementation. Then the AI 
+Create NLUX scripts - just like websites have wireframes, AI-powered products need language "wireframes" from someone who has thought the experience through without worrying about implementation. Those scripts become test cases, and those test cases produce measures of success that are tangiable and not "I'm working on it"
 
 ### Use. Metrics. 
 If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NzQ4NTMsMTMxNTA5NzQ1NSw5MzE4MD
-M5NDUsLTk2NjM1MjcxOCwxMDUyMzgzMjgyLDYxNjQ3OTQ3Nyw2
-NjY1MzI1MTQsODM3MDc3MjMwLDEzNzc4NDk1MzQsMTc5MzM0Mj
-E3NCw4MTM0ODU4MjIsLTYxODIzNzc2NywxNzk2NzM3Njk2LC0x
-OTA5OTQwNzQ2LDE1ODI5NjY0NDMsNDUyNDM1NDI2LC0xNTIzOD
-k5MTU3LDg1OTY4NzI1MywtMTE5NzIwMjM5OF19
+eyJoaXN0b3J5IjpbOTM3MjQ5MzAyLDEzMTUwOTc0NTUsOTMxOD
+AzOTQ1LC05NjYzNTI3MTgsMTA1MjM4MzI4Miw2MTY0Nzk0Nzcs
+NjY2NTMyNTE0LDgzNzA3NzIzMCwxMzc3ODQ5NTM0LDE3OTMzND
+IxNzQsODEzNDg1ODIyLC02MTgyMzc3NjcsMTc5NjczNzY5Niwt
+MTkwOTk0MDc0NiwxNTgyOTY2NDQzLDQ1MjQzNTQyNiwtMTUyMz
+g5OTE1Nyw4NTk2ODcyNTMsLTExOTcyMDIzOThdfQ==
 -->
