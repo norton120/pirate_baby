@@ -39,11 +39,11 @@ Experimentation, on the other hand, results in concrete feedback. "Today I am go
 Be able to explain exactly what you are doing in an experiment, or it is just playing. 
 
 ### Treat Ground Truth Like an Evil Genie
-In every move
+All variations of the Genie story have one thing in commin
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NjYzMjg5MSwtOTY2MzUyNzE4LDEwNT
+eyJoaXN0b3J5IjpbLTY2NjMwOTY3MiwtOTY2MzUyNzE4LDEwNT
 IzODMyODIsNjE2NDc5NDc3LDY2NjUzMjUxNCw4MzcwNzcyMzAs
 MTM3Nzg0OTUzNCwxNzkzMzQyMTc0LDgxMzQ4NTgyMiwtNjE4Mj
 M3NzY3LDE3OTY3Mzc2OTYsLTE5MDk5NDA3NDYsMTU4Mjk2NjQ0
