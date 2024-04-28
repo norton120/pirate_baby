@@ -19,11 +19,16 @@ So how do we make the transition from squishy intangibles and moving delivery ta
 Here is a banner you won't see:
 ![Amazon does not need an out clause](images/unreliable_software.png)
 That is because products cannot come with an escape hatch. You need to get it right and get it reliable, full stop. 
+This doesn't mean _the LLM_ needs to get it right - it means that you, the Engineer, need to find a path between the user, the LLM, and the software you are creating that provides a reliable and trustworthy experience. 
+
+On an ecom project 
+
+### Stop playing
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjQ3NTIyMzcsNjY2NTMyNTE0LDgzNz
-A3NzIzMCwxMzc3ODQ5NTM0LDE3OTMzNDIxNzQsODEzNDg1ODIy
-LC02MTgyMzc3NjcsMTc5NjczNzY5NiwtMTkwOTk0MDc0NiwxNT
-gyOTY2NDQzLDQ1MjQzNTQyNiwtMTUyMzg5OTE1Nyw4NTk2ODcy
-NTMsLTExOTcyMDIzOThdfQ==
+eyJoaXN0b3J5IjpbNDIzNDE0NzIyLDY2NjUzMjUxNCw4MzcwNz
+cyMzAsMTM3Nzg0OTUzNCwxNzkzMzQyMTc0LDgxMzQ4NTgyMiwt
+NjE4MjM3NzY3LDE3OTY3Mzc2OTYsLTE5MDk5NDA3NDYsMTU4Mj
+k2NjQ0Myw0NTI0MzU0MjYsLTE1MjM4OTkxNTcsODU5Njg3MjUz
+LC0xMTk3MjAyMzk4XX0=
 -->
