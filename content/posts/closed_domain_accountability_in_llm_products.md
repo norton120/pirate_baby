@@ -34,12 +34,12 @@ simply handing off the output of your first solution to the user and wrapping it
 ### Stop playing
 Nothing makes my skin crawl like stepping into a Machine Learning stack where one of the repos is named "Playground." I know that is an unfortunately common nomenclature for experimentation suites, but words matter - and in this case illustrate the issue. 
 
-Commerical Product Engineering teams are not Acedamia, and the software we write is not intended to promote our personal learning or exploration. Put simply, this is not a place to play. _Experimentation_ is an important part of AI/ML development, and by systematically applying the scientific method we can discover new techniques and solutions. That experimentation should be governed by a commerically viable outcome - we know exactly what success looks like, we experiment with laser-focus toward that definition of success, and we have concrete metrics in place to tell us when that success has been achieved. "Playgrounds" often manifest in practice what the name implies: haphazardly adjusting parameters, trying on techn
+Commerical Product Engineering teams are not Acedamia, and the software we write is not intended to promote our personal learning or exploration. Put simply, this is not a place to play. _Experimentation_ is an important part of AI/ML development, and by systematically applying the scientific method we can discover new techniques and solutions. That experimentation should be governed by a commerically viable outcome - we know exactly what success looks like, we experiment with laser-focus toward that definition of success, and we have concrete metrics in place to tell us when that success has been achieved. "Playgrounds" often manifest in practice what the name implies: haphazardly adjusting parameters, trying out whatever novel methodology is in vogue this morning, traversing down rabbit holes totally unrelated to the initial goal. Engineers that spend their days in 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTUyNTAwNDcsLTk2NjM1MjcxOCwxMD
-UyMzgzMjgyLDYxNjQ3OTQ3Nyw2NjY1MzI1MTQsODM3MDc3MjMw
-LDEzNzc4NDk1MzQsMTc5MzM0MjE3NCw4MTM0ODU4MjIsLTYxOD
-IzNzc2NywxNzk2NzM3Njk2LC0xOTA5OTQwNzQ2LDE1ODI5NjY0
-NDMsNDUyNDM1NDI2LC0xNTIzODk5MTU3LDg1OTY4NzI1MywtMT
-E5NzIwMjM5OF19
+eyJoaXN0b3J5IjpbMzI3OTk5NjUsLTk2NjM1MjcxOCwxMDUyMz
+gzMjgyLDYxNjQ3OTQ3Nyw2NjY1MzI1MTQsODM3MDc3MjMwLDEz
+Nzc4NDk1MzQsMTc5MzM0MjE3NCw4MTM0ODU4MjIsLTYxODIzNz
+c2NywxNzk2NzM3Njk2LC0xOTA5OTQwNzQ2LDE1ODI5NjY0NDMs
+NDUyNDM1NDI2LC0xNTIzODk5MTU3LDg1OTY4NzI1MywtMTE5Nz
+IwMjM5OF19
 -->
