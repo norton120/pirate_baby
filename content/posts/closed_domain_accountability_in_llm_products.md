@@ -23,14 +23,17 @@ This doesn't mean _the LLM_ needs to get it right - it means that you, the Engin
 
 I once worked with an ecom platform that was getting _slaughtered_ by Amazon over shipping timelines. The problem wasn't the actual delivery time - the majority of orders were less than two days from a warehouse - it was the logistics of displaying an estimated delivery date using slow vendor feeds. 
 
-We could have slapped a disclamer "estimates may be innacurate and you may get your stuff whenever" - but that wasn't the product we wanted to deliver. So we built out 
+We could have slapped a disclamer "estimates may be innacurate and you may get your stuff whenever" - but that wasn't the product we wanted to deliver. So we built out a simple system: 
+
+1. Display the best guess estimate based on available information
+2. D
 
 ### Stop playing
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxOTI3NDY4OCw2MTY0Nzk0NzcsNjY2NT
-MyNTE0LDgzNzA3NzIzMCwxMzc3ODQ5NTM0LDE3OTMzNDIxNzQs
-ODEzNDg1ODIyLC02MTgyMzc3NjcsMTc5NjczNzY5NiwtMTkwOT
-k0MDc0NiwxNTgyOTY2NDQzLDQ1MjQzNTQyNiwtMTUyMzg5OTE1
-Nyw4NTk2ODcyNTMsLTExOTcyMDIzOThdfQ==
+eyJoaXN0b3J5IjpbLTE2NzUzMjMwMjIsNjE2NDc5NDc3LDY2Nj
+UzMjUxNCw4MzcwNzcyMzAsMTM3Nzg0OTUzNCwxNzkzMzQyMTc0
+LDgxMzQ4NTgyMiwtNjE4MjM3NzY3LDE3OTY3Mzc2OTYsLTE5MD
+k5NDA3NDYsMTU4Mjk2NjQ0Myw0NTI0MzU0MjYsLTE1MjM4OTkx
+NTcsODU5Njg3MjUzLC0xMTk3MjAyMzk4XX0=
 -->
