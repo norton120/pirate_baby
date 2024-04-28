@@ -18,11 +18,12 @@ So how do we make the transition from squishy intangibles and moving delivery ta
 ### Sunset your disclaimers
 Here is a banner you won't see:
 ![Amazon does not need an out clause](images/unreliable_software.png)
-Th
+That is because products cannot come with an escape hatch. You need to get it right and get it reliable, full stop. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNDAyMzU3Nyw2NjY1MzI1MTQsODM3MD
-c3MjMwLDEzNzc4NDk1MzQsMTc5MzM0MjE3NCw4MTM0ODU4MjIs
-LTYxODIzNzc2NywxNzk2NzM3Njk2LC0xOTA5OTQwNzQ2LDE1OD
-I5NjY0NDMsNDUyNDM1NDI2LC0xNTIzODk5MTU3LDg1OTY4NzI1
-MywtMTE5NzIwMjM5OF19
+eyJoaXN0b3J5IjpbLTE2NjQ3NTIyMzcsNjY2NTMyNTE0LDgzNz
+A3NzIzMCwxMzc3ODQ5NTM0LDE3OTMzNDIxNzQsODEzNDg1ODIy
+LC02MTgyMzc3NjcsMTc5NjczNzY5NiwtMTkwOTk0MDc0NiwxNT
+gyOTY2NDQzLDQ1MjQzNTQyNiwtMTUyMzg5OTE1Nyw4NTk2ODcy
+NTMsLTExOTcyMDIzOThdfQ==
 -->
