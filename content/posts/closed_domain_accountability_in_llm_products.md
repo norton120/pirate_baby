@@ -34,9 +34,9 @@ simply handing off the output of your first solution to the user and wrapping it
 ### Stop playing
 Nothing makes my skin crawl like stepping into a Machine Learning stack where one of the repos is named "Playground." I know that is an unfortunately common nomenclature for experimentation suites, but words matter - and in this case reflect the flaws in the process. 
 
-Commerical Product Engineering teams are not Acedamia, and the software we write is not intended to promote our personal learning and exploration. This is not a place to play. _Experimentation_ is an important part AI/ML development
+Commerical Product Engineering teams are not Acedamia, and the software we write is not intended to promote our personal learning and exploration. This is not a place to play. _Experimentation_ is an important part AI/ML development, by applying the scientific method
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDk4NjczNiwxMDUyMzgzMjgyLDYxNj
+eyJoaXN0b3J5IjpbLTk2NjM1MjcxOCwxMDUyMzgzMjgyLDYxNj
 Q3OTQ3Nyw2NjY1MzI1MTQsODM3MDc3MjMwLDEzNzc4NDk1MzQs
 MTc5MzM0MjE3NCw4MTM0ODU4MjIsLTYxODIzNzc2NywxNzk2Nz
 M3Njk2LC0xOTA5OTQwNzQ2LDE1ODI5NjY0NDMsNDUyNDM1NDI2
