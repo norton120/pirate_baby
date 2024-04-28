@@ -11,6 +11,7 @@ summary: New home candidates! These are boats I am considering as the new base o
 These are boats I am considering at the moment.
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDIwMDMwNyw1NTM3MDgxNDldfQ==
+eyJoaXN0b3J5IjpbLTQ4NjAzNjc5LDU1MzcwODE0OV19
 -->
