@@ -32,13 +32,14 @@ We could have slapped a disclamer "estimates may be innacurate and you may get y
 simply handing off the output of your first solution to the user and wrapping it with a disclaimer is not Software Engineering, it is order taking. Viable products are accountable, even when their individual components are not. 
 
 ### Stop playing
-Nothing makes my skin crawl like stepping into a Machine Learning stack where one of the repos is named "Playground." I know that is an unfortunately common nomenclature for experimentation suites, but words matter - and in this case reflect the flaws in the process. 
+Nothing makes my skin crawl like stepping into a Machine Learning stack where one of the repos is named "Playground." I know that is an unfortunately common nomenclature for experimentation suites, but words matter - and in this case illustrate the issue. 
 
-Commerical Product Engineering teams are not Acedamia, and the software we write is not intended to promote our personal learning and exploration. This is not a place to play. _Experimentation_ is an important part AI/ML development, by applying the scientific method
+Commerical Product Engineering teams are not Acedamia, and the software we write is not intended to promote our personal learning or exploration. Put simply, this is not a place to play. _Experimentation_ is an important part AI/ML development, and by systematically applying the scientific method we can discover new techniques and solutions; that is not playing. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NjM1MjcxOCwxMDUyMzgzMjgyLDYxNj
-Q3OTQ3Nyw2NjY1MzI1MTQsODM3MDc3MjMwLDEzNzc4NDk1MzQs
-MTc5MzM0MjE3NCw4MTM0ODU4MjIsLTYxODIzNzc2NywxNzk2Nz
-M3Njk2LC0xOTA5OTQwNzQ2LDE1ODI5NjY0NDMsNDUyNDM1NDI2
-LC0xNTIzODk5MTU3LDg1OTY4NzI1MywtMTE5NzIwMjM5OF19
+eyJoaXN0b3J5IjpbMzE5Nzk5MjQ3LC05NjYzNTI3MTgsMTA1Mj
+M4MzI4Miw2MTY0Nzk0NzcsNjY2NTMyNTE0LDgzNzA3NzIzMCwx
+Mzc3ODQ5NTM0LDE3OTMzNDIxNzQsODEzNDg1ODIyLC02MTgyMz
+c3NjcsMTc5NjczNzY5NiwtMTkwOTk0MDc0NiwxNTgyOTY2NDQz
+LDQ1MjQzNTQyNiwtMTUyMzg5OTE1Nyw4NTk2ODcyNTMsLTExOT
+cyMDIzOThdfQ==
 -->
