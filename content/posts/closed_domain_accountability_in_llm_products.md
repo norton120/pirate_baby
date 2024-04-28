@@ -17,13 +17,11 @@ So how do we make the transition from squishy intangibles and moving delivery ta
 
 ### Sunset your disclaimers
 Here is a banner you won't see:
-```
-Due to the 
-```
+![Amazon does not 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2NTMyNTE0LDgzNzA3NzIzMCwxMzc3OD
-Q5NTM0LDE3OTMzNDIxNzQsODEzNDg1ODIyLC02MTgyMzc3Njcs
-MTc5NjczNzY5NiwtMTkwOTk0MDc0NiwxNTgyOTY2NDQzLDQ1Mj
-QzNTQyNiwtMTUyMzg5OTE1Nyw4NTk2ODcyNTMsLTExOTcyMDIz
-OThdfQ==
+eyJoaXN0b3J5IjpbMTE4NDc3ODM0NCw2NjY1MzI1MTQsODM3MD
+c3MjMwLDEzNzc4NDk1MzQsMTc5MzM0MjE3NCw4MTM0ODU4MjIs
+LTYxODIzNzc2NywxNzk2NzM3Njk2LC0xOTA5OTQwNzQ2LDE1OD
+I5NjY0NDMsNDUyNDM1NDI2LC0xNTIzODk5MTU3LDg1OTY4NzI1
+MywtMTE5NzIwMjM5OF19
 -->
