@@ -7,7 +7,10 @@ url: "/boats"
 summary: New home candidates! These are boats I am considering as the new base of operations.
 ---
 
-# Candidate Boats
+# Candidate Boats!
+These are boats I am considering at the moment.
+
+<iframe 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNzg0MTYyMF19
+eyJoaXN0b3J5IjpbODkwMzA0ODE5XX0=
 -->
