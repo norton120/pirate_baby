@@ -39,14 +39,16 @@ Experimentation, on the other hand, results in concrete feedback. "Today I am go
 Be able to explain exactly what you are doing in an experiment, or it is just playing. 
 
 ### Treat Ground Truth Like an Evil Genie
-In every genie story someone falls prey to the curse of ambiguous wishes. The genie twists assumptions, shifts 
+In every genie story someone falls prey to the curse of ambiguous wishes. The genie twists assumptions, plays on words, and transforms every wish into a curse. 
+
+Ground truth datasets for a 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMxODAzOTQ1LC05NjYzNTI3MTgsMTA1Mj
-M4MzI4Miw2MTY0Nzk0NzcsNjY2NTMyNTE0LDgzNzA3NzIzMCwx
-Mzc3ODQ5NTM0LDE3OTMzNDIxNzQsODEzNDg1ODIyLC02MTgyMz
-c3NjcsMTc5NjczNzY5NiwtMTkwOTk0MDc0NiwxNTgyOTY2NDQz
-LDQ1MjQzNTQyNiwtMTUyMzg5OTE1Nyw4NTk2ODcyNTMsLTExOT
-cyMDIzOThdfQ==
+eyJoaXN0b3J5IjpbLTE5NTYyNTgyNDMsOTMxODAzOTQ1LC05Nj
+YzNTI3MTgsMTA1MjM4MzI4Miw2MTY0Nzk0NzcsNjY2NTMyNTE0
+LDgzNzA3NzIzMCwxMzc3ODQ5NTM0LDE3OTMzNDIxNzQsODEzND
+g1ODIyLC02MTgyMzc3NjcsMTc5NjczNzY5NiwtMTkwOTk0MDc0
+NiwxNTgyOTY2NDQzLDQ1MjQzNTQyNiwtMTUyMzg5OTE1Nyw4NT
+k2ODcyNTMsLTExOTcyMDIzOThdfQ==
 -->
