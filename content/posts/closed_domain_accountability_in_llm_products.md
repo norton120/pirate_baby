@@ -21,12 +21,12 @@ Here is a banner you won't see:
 That is because products cannot come with an escape hatch. You need to get it right and get it reliable, full stop. 
 This doesn't mean _the LLM_ needs to get it right - it means that you, the Engineer, need to find a path between the user, the LLM, and the software you are creating that provides a reliable and trustworthy experience. 
 
-I once worked with an ecom platform that was getting _slaughtered_ by Amazon over shipping timelines. The pro
+I once worked with an ecom platform that was getting _slaughtered_ by Amazon over shipping timelines. The problem wasn't the actual delivery time - 2/3 of orders were less than two days from a warehouse - it was the logistics of displaying an estimated d
 
 ### Stop playing
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDcxMjkzMjYsNjY2NTMyNTE0LDgzNz
+eyJoaXN0b3J5IjpbLTE5MDA1OTYwNjYsNjY2NTMyNTE0LDgzNz
 A3NzIzMCwxMzc3ODQ5NTM0LDE3OTMzNDIxNzQsODEzNDg1ODIy
 LC02MTgyMzc3NjcsMTc5NjczNzY5NiwtMTkwOTk0MDc0NiwxNT
 gyOTY2NDQzLDQ1MjQzNTQyNiwtMTUyMzg5OTE1Nyw4NTk2ODcy
