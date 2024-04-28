@@ -35,9 +35,11 @@ simply handing off the output of your first solution to the user and wrapping it
 Nothing makes my skin crawl like stepping into a Machine Learning stack where one of the repos is named "Playground." I know that is an unfortunately common nomenclature for experimentation suites, but words matter - and in this case illustrate the issue. 
 
 Commerical Product Engineering teams are not Acedamia, and the software we write is not intended to promote our personal learning or exploration. Put simply, this is not a place to play. _Experimentation_ is an important part of AI/ML development, and by systematically applying the scientific method we can discover new techniques and solutions. That experimentation should be governed by a commerically viable outcome - we know exactly what success looks like, we experiment with laser-focus toward that definition of success, and we have concrete metrics in place to tell us when that success has been achieved. "Playgrounds" often manifest in practice what the name implies: haphazardly adjusting parameters, trying out whatever novel methodology is in vogue this morning, traversing down rabbit holes totally unrelated to the initial goal. At standup, Engineers in the playground say things like "still working on it." 
-Experimentation, on the other hand, results in concrete feedback. "Today 
+Experimentation, on the other hand, results in concrete feedback. "Today I am going to run through the matrix of affinity mask weights, the current match on ground truth is at 86% and we are targeting 90% or better with this experiment." 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1NTA4MjY4LC05NjYzNTI3MTgsMTA1Mj
+eyJoaXN0b3J5IjpbMzU2NzEyMjI4LC05NjYzNTI3MTgsMTA1Mj
 M4MzI4Miw2MTY0Nzk0NzcsNjY2NTMyNTE0LDgzNzA3NzIzMCwx
 Mzc3ODQ5NTM0LDE3OTMzNDIxNzQsODEzNDg1ODIyLC02MTgyMz
 c3NjcsMTc5NjczNzY5NiwtMTkwOTk0MDc0NiwxNTgyOTY2NDQz
