@@ -32,12 +32,13 @@ We could have slapped a disclamer "estimates may be innacurate and you may get y
 simply handing off the output of your first solution to the user and wrapping it with a disclaimer is not Software Engineering, it is order taking. Viable products are accountable, even when their individual components are not. 
 
 ### Stop playing
-Nothing makes my skin crawl like stepping into a Machine Learning stack where one of the repos is named "Playground." I know that is an unfortunately common nomenclature, but words matter - and in this case reflect the pro
+Nothing makes my skin crawl like stepping into a Machine Learning stack where one of the repos is named "Playground." I know that is an unfortunately common nomenclature for experimentation suites, but words matter - and in this case reflect the flaws in the process. 
+
+Product Engineering teams are not acedamia, and the software we write is not intended to promote our per
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDM5ODM5MDUsMTA1MjM4MzI4Miw2MT
-Y0Nzk0NzcsNjY2NTMyNTE0LDgzNzA3NzIzMCwxMzc3ODQ5NTM0
-LDE3OTMzNDIxNzQsODEzNDg1ODIyLC02MTgyMzc3NjcsMTc5Nj
-czNzY5NiwtMTkwOTk0MDc0NiwxNTgyOTY2NDQzLDQ1MjQzNTQy
-NiwtMTUyMzg5OTE1Nyw4NTk2ODcyNTMsLTExOTcyMDIzOThdfQ
-==
+eyJoaXN0b3J5IjpbLTUwNDIzOTc1MiwxMDUyMzgzMjgyLDYxNj
+Q3OTQ3Nyw2NjY1MzI1MTQsODM3MDc3MjMwLDEzNzc4NDk1MzQs
+MTc5MzM0MjE3NCw4MTM0ODU4MjIsLTYxODIzNzc2NywxNzk2Nz
+M3Njk2LC0xOTA5OTQwNzQ2LDE1ODI5NjY0NDMsNDUyNDM1NDI2
+LC0xNTIzODk5MTU3LDg1OTY4NzI1MywtMTE5NzIwMjM5OF19
 -->
