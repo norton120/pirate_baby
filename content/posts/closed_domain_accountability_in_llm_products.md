@@ -43,12 +43,13 @@ In every genie story someone falls prey to the curse of ambiguous wishes. The ge
 
 Ground truth datasets for your product should be largely the domain of the Product Owner, and should reflect an interatively tightening understanding of what success looks like. 
 
-
+### Use. Metrics. 
+If there is one critical difference betw
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNTA5NzQ1NSw5MzE4MDM5NDUsLTk2Nj
-M1MjcxOCwxMDUyMzgzMjgyLDYxNjQ3OTQ3Nyw2NjY1MzI1MTQs
-ODM3MDc3MjMwLDEzNzc4NDk1MzQsMTc5MzM0MjE3NCw4MTM0OD
-U4MjIsLTYxODIzNzc2NywxNzk2NzM3Njk2LC0xOTA5OTQwNzQ2
-LDE1ODI5NjY0NDMsNDUyNDM1NDI2LC0xNTIzODk5MTU3LDg1OT
-Y4NzI1MywtMTE5NzIwMjM5OF19
+eyJoaXN0b3J5IjpbLTIyMTg1NzMwMSwxMzE1MDk3NDU1LDkzMT
+gwMzk0NSwtOTY2MzUyNzE4LDEwNTIzODMyODIsNjE2NDc5NDc3
+LDY2NjUzMjUxNCw4MzcwNzcyMzAsMTM3Nzg0OTUzNCwxNzkzMz
+QyMTc0LDgxMzQ4NTgyMiwtNjE4MjM3NzY3LDE3OTY3Mzc2OTYs
+LTE5MDk5NDA3NDYsMTU4Mjk2NjQ0Myw0NTI0MzU0MjYsLTE1Mj
+M4OTkxNTcsODU5Njg3MjUzLC0xMTk3MjAyMzk4XX0=
 -->
