@@ -21,14 +21,16 @@ Here is a banner you won't see:
 That is because products cannot come with an escape hatch. You need to get it right and get it reliable, full stop. 
 This doesn't mean _the LLM_ needs to get it right - it means that you, the Engineer, need to find a path between the user, the LLM, and the software you are creating that provides a reliable and trustworthy experience. 
 
-I once worked with an ecom platform that was getting _slaughtered_ by Amazon over shipping timelines. The problem wasn't the actual delivery time - 2/3 of orders were less than two days from a warehouse - it was the logistics of displaying an estimated delivery date. 
+I once worked with an ecom platform that was getting _slaughtered_ by Amazon over shipping timelines. The problem wasn't the actual delivery time - the majority of orders were less than two days from a warehouse - it was the logistics of displaying an estimated delivery date using slow vendor feeds. 
+
+We could have slapped a disclamer "estimates may be innacurate and you may get your stuff whenever" - but that wasn't the product we wanted to deliver. So we built out 
 
 ### Stop playing
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg1MDc3MDQ2LDYxNjQ3OTQ3Nyw2NjY1Mz
-I1MTQsODM3MDc3MjMwLDEzNzc4NDk1MzQsMTc5MzM0MjE3NCw4
-MTM0ODU4MjIsLTYxODIzNzc2NywxNzk2NzM3Njk2LC0xOTA5OT
-QwNzQ2LDE1ODI5NjY0NDMsNDUyNDM1NDI2LC0xNTIzODk5MTU3
-LDg1OTY4NzI1MywtMTE5NzIwMjM5OF19
+eyJoaXN0b3J5IjpbLTIxOTI3NDY4OCw2MTY0Nzk0NzcsNjY2NT
+MyNTE0LDgzNzA3NzIzMCwxMzc3ODQ5NTM0LDE3OTMzNDIxNzQs
+ODEzNDg1ODIyLC02MTgyMzc3NjcsMTc5NjczNzY5NiwtMTkwOT
+k0MDc0NiwxNTgyOTY2NDQzLDQ1MjQzNTQyNiwtMTUyMzg5OTE1
+Nyw4NTk2ODcyNTMsLTExOTcyMDIzOThdfQ==
 -->
