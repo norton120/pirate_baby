@@ -43,13 +43,16 @@ In every genie story someone falls prey to the curse of ambiguous wishes. The ge
 
 Ground truth datasets for your product should be largely the domain of the Product Owner, and should reflect an interatively tightening understanding of what success looks like. 
 
+### Ruthlessly Define Success
+A few times here I have referenced the definition of success. That definition needs to be, uh.. defined. By Product. Be able to ans
+
 ### Use. Metrics. 
-If there is one critical difference betw
+If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMTg1NzMwMSwxMzE1MDk3NDU1LDkzMT
-gwMzk0NSwtOTY2MzUyNzE4LDEwNTIzODMyODIsNjE2NDc5NDc3
-LDY2NjUzMjUxNCw4MzcwNzcyMzAsMTM3Nzg0OTUzNCwxNzkzMz
-QyMTc0LDgxMzQ4NTgyMiwtNjE4MjM3NzY3LDE3OTY3Mzc2OTYs
-LTE5MDk5NDA3NDYsMTU4Mjk2NjQ0Myw0NTI0MzU0MjYsLTE1Mj
-M4OTkxNTcsODU5Njg3MjUzLC0xMTk3MjAyMzk4XX0=
+eyJoaXN0b3J5IjpbLTEwOTc3MjMyMDAsMTMxNTA5NzQ1NSw5Mz
+E4MDM5NDUsLTk2NjM1MjcxOCwxMDUyMzgzMjgyLDYxNjQ3OTQ3
+Nyw2NjY1MzI1MTQsODM3MDc3MjMwLDEzNzc4NDk1MzQsMTc5Mz
+M0MjE3NCw4MTM0ODU4MjIsLTYxODIzNzc2NywxNzk2NzM3Njk2
+LC0xOTA5OTQwNzQ2LDE1ODI5NjY0NDMsNDUyNDM1NDI2LC0xNT
+IzODk5MTU3LDg1OTY4NzI1MywtMTE5NzIwMjM5OF19
 -->
