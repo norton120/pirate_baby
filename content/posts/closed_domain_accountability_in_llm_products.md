@@ -18,8 +18,8 @@ So how do we make the transition from squishy intangibles and moving delivery ta
 ### Sunset your disclaimers
 Here is a banner you won't see:
 ![Amazon does not need an out clause](images/unreliable_software.png)
-That is because products cannot come with an escape hatch. You need to get it right and get it reliable, full stop. 
-This doesn't mean _the LLM_ needs to get it right - it means that you, the Engineer, need to find a path between the user, the LLM, and the software you are creating that provides a reliable and trustworthy experience. 
+That is because real products cannot come with an escape hatch. It is your job to  get it right and get it reliable, full stop. 
+This doesn't mean _the LLM_ needs to get it right - it means that Engineers mustfind a path between the user, the LLM, and the software you are creating that provides a reliable and trustworthy experience. 
 
 I once worked with an ecom platform that was getting _slaughtered_ by Amazon over shipping timelines. The problem wasn't the actual delivery time - the majority of orders were less than two days from a warehouse - it was the logistics of displaying an estimated delivery date using slow vendor feeds. 
 
@@ -50,10 +50,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 ### Use. Metrics. 
 If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM3MjQ5MzAyLDEzMTUwOTc0NTUsOTMxOD
-AzOTQ1LC05NjYzNTI3MTgsMTA1MjM4MzI4Miw2MTY0Nzk0Nzcs
-NjY2NTMyNTE0LDgzNzA3NzIzMCwxMzc3ODQ5NTM0LDE3OTMzND
-IxNzQsODEzNDg1ODIyLC02MTgyMzc3NjcsMTc5NjczNzY5Niwt
-MTkwOTk0MDc0NiwxNTgyOTY2NDQzLDQ1MjQzNTQyNiwtMTUyMz
-g5OTE1Nyw4NTk2ODcyNTMsLTExOTcyMDIzOThdfQ==
+eyJoaXN0b3J5IjpbMTkxOTU4MDIzNSw5MzcyNDkzMDIsMTMxNT
+A5NzQ1NSw5MzE4MDM5NDUsLTk2NjM1MjcxOCwxMDUyMzgzMjgy
+LDYxNjQ3OTQ3Nyw2NjY1MzI1MTQsODM3MDc3MjMwLDEzNzc4ND
+k1MzQsMTc5MzM0MjE3NCw4MTM0ODU4MjIsLTYxODIzNzc2Nywx
+Nzk2NzM3Njk2LC0xOTA5OTQwNzQ2LDE1ODI5NjY0NDMsNDUyND
+M1NDI2LC0xNTIzODk5MTU3LDg1OTY4NzI1MywtMTE5NzIwMjM5
+OF19
 -->
