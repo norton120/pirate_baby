@@ -27,7 +27,7 @@ I once worked with an ecom platform that was being _slaughtered_ by Amazon over 
 2. Determine the _actual_ timeline after the order was placed
 3. If the actual was slower than the estimate, upgrade the shipping _for free_ to force the actual to match the estimate
 
-
+For the tiny percentage of orders that 
 simply handing off the output of your first solution to the user and wrapping it with a disclaimer is not Software Engineering, it is order taking. Viable products are accountable, even when their individual components are not. 
 
 ### Stop playing
@@ -49,7 +49,7 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 ### Use. Metrics. 
 If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDUxNzE2Miw5MzcyNDkzMDIsMTMxNT
+eyJoaXN0b3J5IjpbLTE2NjA0NjU2Myw5MzcyNDkzMDIsMTMxNT
 A5NzQ1NSw5MzE4MDM5NDUsLTk2NjM1MjcxOCwxMDUyMzgzMjgy
 LDYxNjQ3OTQ3Nyw2NjY1MzI1MTQsODM3MDc3MjMwLDEzNzc4ND
 k1MzQsMTc5MzM0MjE3NCw4MTM0ODU4MjIsLTYxODIzNzc2Nywx
