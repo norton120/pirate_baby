@@ -18,10 +18,10 @@ So how do we make the transition from squishy intangibles and moving delivery ta
 ### Sunset your disclaimers
 Here is a banner you won't see:
 ![Amazon does not need an out clause](images/unreliable_software.png)
-That is because real products cannot come with an escape hatch. It is the responsibility of the AI Engineering team  is your job to  get it right and get it reliable, full stop. 
-This doesn't mean _the LLM_ needs to get it right - it means that Engineers must orchestrate success between the software, LLM and user. are creating that provides a reliable and trustworthy experience. 
+That is because real products cannot come with an escape hatch. It is the responsibility of the AI Engineering team to make it right and make it reliable, full stop. 
+This doesn't mean _the LLM_ needs to get it right - it means that Engineers must orchestrate the interaction of software, LLM and user to arrive at success, creating a product that provides a reliable and trustworthy experience. 
 
-I once worked with an ecom platform that was getting _slaughtered_ by Amazon over shipping timelines. The problem wasn't the actual delivery time - the majority of orders were less than two days from a warehouse - it was the logistics of displaying an estimated delivery date using slow vendor feeds. 
+I once worked with an ecom platform that was being _slaughtered_ by Amazon over shipping timelines. The problem wasn't the actual delivery time - the majority of orders were less than two days from a warehouse - it was the logistics of displaying an estimated delivery date using slow vendor feeds. 
 
 We could have slapped a disclamer "estimates may be innacurate and you may get your stuff whenever" - but that wasn't the product we wanted to deliver. So we built out a simple system: 
 
@@ -50,11 +50,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 ### Use. Metrics. 
 If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjgyMDE0Nyw5MzcyNDkzMDIsMTMxNT
-A5NzQ1NSw5MzE4MDM5NDUsLTk2NjM1MjcxOCwxMDUyMzgzMjgy
-LDYxNjQ3OTQ3Nyw2NjY1MzI1MTQsODM3MDc3MjMwLDEzNzc4ND
-k1MzQsMTc5MzM0MjE3NCw4MTM0ODU4MjIsLTYxODIzNzc2Nywx
-Nzk2NzM3Njk2LC0xOTA5OTQwNzQ2LDE1ODI5NjY0NDMsNDUyND
-M1NDI2LC0xNTIzODk5MTU3LDg1OTY4NzI1MywtMTE5NzIwMjM5
-OF19
+eyJoaXN0b3J5IjpbLTEwMDAyNTM1NzIsOTM3MjQ5MzAyLDEzMT
+UwOTc0NTUsOTMxODAzOTQ1LC05NjYzNTI3MTgsMTA1MjM4MzI4
+Miw2MTY0Nzk0NzcsNjY2NTMyNTE0LDgzNzA3NzIzMCwxMzc3OD
+Q5NTM0LDE3OTMzNDIxNzQsODEzNDg1ODIyLC02MTgyMzc3Njcs
+MTc5NjczNzY5NiwtMTkwOTk0MDc0NiwxNTgyOTY2NDQzLDQ1Mj
+QzNTQyNiwtMTUyMzg5OTE1Nyw4NTk2ODcyNTMsLTExOTcyMDIz
+OThdfQ==
 -->
