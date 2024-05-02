@@ -29,6 +29,8 @@ A _Pirate Baby_ specialty. Development environments should be Software Engineeri
 
 ## How We Work Together
 
+The Artificial Intelligence field is evolving at breakneck pace, an
+
 An interesting and valuable observation made in [Cal Newport's Deep Work](https://calnewport.com/writing/) is that humans are biologically capable of deep analytical thinking only about 4 hours a day. That is 20 hours of "deep work" in a standard business week.
 
 When you hire on contract, you pay a premium for those "deep work" skills. When we work on contract, those "deep work" skills are what we intend to make use of. For this reason, **we try to limit our engagements to 10-20hr/wk per Engineer**. This is actually pretty easy to support with a few key workflow adjustments.
@@ -41,3 +43,6 @@ When you hire on contract, you pay a premium for those "deep work" skills. When 
 Think _Pirate Baby_ is a good fit for you and your team?
 
 [:envelope: drop us a line](&#77;&#97;&#73;&#108;&#116;&#111;&#58;&#101;&#116;&#104;&#97;&#110;&#64;&#112;&#105;&#114;&#97;&#116;&#101;&#46;&#98;&#97;&#98;&#121;&#63;&#115;&#117;&#98;&#106;&#101;&#99;&#116;&#61;&#73;&#37;&#50;&#55;&#100;&#37;&#50;&#48;&#108;&#105;&#107;&#101;&#37;&#50;&#48;&#116;&#111;&#37;&#50;&#48;&#116;&#97;&#108;&#107;&#37;&#50;&#48;&#97;&#98;&#111;&#117;&#116;&#37;&#50;&#48;&#97;&#37;&#50;&#48;&#112;&#111;&#116;&#101;&#110;&#116;&#105;&#97;&#108;&#37;&#50;&#48;&#112;&#114;&#111;&#106;&#101;&#99;&#116;)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNTc0NTY4OTgwXX0=
+-->
