@@ -28,15 +28,7 @@ It is bigger than just AWS/GCP/Azure now. Megaclouds are still your core service
 Development environments should be Software Engineering force multipliers, catered to the needs of your team. At _Pirate Baby_ we have over a decade of experience building, refining, and containerizing development processes to eliminate tribal knowledge, measuably shrink cycle times, and make onboarding delays a thing of the past. We will fit the tools to empower your people, not the other way around.
 
 ## Commitment to the Bleeding Edge
-
-<<<<<<< HEAD
-The Artificial Intelligence field is evolving at breakneck pace, an
-
-An interesting and valuable observation made in [Cal Newport's Deep Work](https://calnewport.com/writing/) is that humans are biologically capable of deep analytical thinking only about 4 hours a day. That is 20 hours of "deep work" in a standard business week.
-=======
 The Generative AI space is evolving at a breakneck pace. Experts must "live at the tip of the spear" by actively contributing to ongoing Open Source Software and academic projects, or risk falling behind. At _Pirate Baby_ we are seriously committed to laying the path forward for Generative AI Software; this means devoting as much as 50% of our cycles to the OSS and academic projects that are defining the GenAI landscape.
->>>>>>> 569157b (better C&C)
-
 
 ## Maximizing ROI with Pirate Baby
 Whenever working with external resources it is critical that you maximize your return. Here are some important ways you can do that.
