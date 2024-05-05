@@ -1,0 +1,72 @@
+{
+    "make":{
+        "15":"Sabre"
+    },
+    "engine":{
+        "15":"Volvo Penta  m13"
+    },
+    "total_power":{
+        "15":null
+    },
+    "engine_hours":{
+        "15":null
+    },
+    "class":{
+        "15":"Cruiser\/Racer"
+    },
+    "length":{
+        "15":3358.0
+    },
+    "year":{
+        "15":1978.0
+    },
+    "model":{
+        "15":"34"
+    },
+    "capacity":{
+        "15":null
+    },
+    "price":{
+        "15":23000.0
+    },
+    "details":{
+        "15":{
+
+        }
+    },
+    "propulsion":{
+        "15":{
+            "fuel_type":"Diesel",
+            "engine_make":"Volvo Penta ",
+            "engine_type":"Inboard",
+            "engine_year":"1978",
+            "engine_model":"m13"
+        }
+    },
+    "boat_specs":{
+        "15":{
+            "beam":10.42,
+            "heads":"1",
+            "fuel_tank":"",
+            "max_draft":5.5,
+            "holding_tank":"",
+            "length_overall":35.5,
+            "fresh_water_tank":""
+        }
+    },
+    "location":{
+        "15":{
+            "city":"Topping",
+            "state":"Virginia"
+        }
+    },
+    "description":{
+        "15":"1978 Sabre Mk II 34'\nThis Sabre has been very well kept and maintained by its two only owners. The Sabre 34 was one of Sabre's most successful designs with a long production life. This boat features a functional interior with beautiful simple lines that keep the '34' popular with sailors who want performance as well as comfort. The interiors are crafted in teak wood with high quality joinery work throughout.\nThis Sabre 34 is a USCG documented vessel.\u00a0The perfect weekend cruiser, overnighter, or racer as Sabre sailboats are known to be fast and point well. Coral Reefer II can comfortably sleep six and she is looking for an owner that loves solid sailboats to take her for the new leg of her journey.\nUPGRADES & MAINTENANCE\u00a0\u00a0\nENGINE FULLY SERVICED (2022)\u00a0\nNEW MOTOR MOUNTS & INJECTORS (2022)\nNEW HEAT PUMP (2021)\nREPLACED AC UNIT (2021)\nGPS, WIND, SPEED, DEPTH INSTALLATION (2021)\nBOTTOM PAINT (2021)\nNEW FRESH WATER PUMP & FAUCET IN GALLEY (2021)\nNEW HEAD (2021)\nREPLACED GAS STOVE WITH MICROWAVE, HAS STOVE WITH CNG TANKS, ETC.\nTWO EXTRA SAILS\u00a0\nWINTER COVER, LOTS OF PARTS, PAINT, SPARES, FANS, AND MORE\n\u00a0BRAND NEW 3.5HP MERCURY ENGINE WITH 9' TOBIN SPORT DINGY, BOTH NEVER USED NOT INCLUDED\u00a0Please contact Regent Point Yacht Sales Brokerage Team at\u00a0(804) 758-4457Show More"
+    },
+    "url":{
+        "15":"https:\/\/www.yachtworld.com\/yacht\/1978-sabre-34-8762563\/"
+    },
+    "id":{
+        "15":8762563.0
+    }
+}
