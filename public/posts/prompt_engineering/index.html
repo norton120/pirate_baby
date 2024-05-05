@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Prompt Engineering | the Pirate Baby</title>
+<meta name="keywords" content="ai, ml, de">
+<meta name="description" content="The world never ceases to be filled with new things, and that is exciting. New things are great, but as they come with a learning curve - not the least of which is the language surrounding them. Like when the first coffee shop opened in the little town where I went to college in the late 90s, and we learned to order “express-o” (which was named that, logically, because it was like coffee but faster).">
+<meta name="author" content="">
+<link rel="canonical" href="http://0.0.0.0:1313/posts/prompt_engineering/">
+
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QYLKP2XXPB"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-QYLKP2XXPB');
+        }
+      </script>
+    
+  
+
+
+<link crossorigin="anonymous" href="/assets/css/stylesheet.e087fd1dc76e73a35ae6d7028ddc1ba41e0131e7f9b3a6e2d019a208e6d6c4b5.css" integrity="sha256-4If9Hcduc6Na5tcCjdwbpB4BMef5s6bi0BmiCObWxLU=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="http://0.0.0.0:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://0.0.0.0:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://0.0.0.0:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://0.0.0.0:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://0.0.0.0:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://0.0.0.0:1313/posts/prompt_engineering/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QYLKP2XXPB"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-QYLKP2XXPB');
+        }
+      </script>
+    
+  
+
+<meta property="og:title" content="Prompt Engineering" />
+<meta property="og:description" content="The world never ceases to be filled with new things, and that is exciting. New things are great, but as they come with a learning curve - not the least of which is the language surrounding them. Like when the first coffee shop opened in the little town where I went to college in the late 90s, and we learned to order “express-o” (which was named that, logically, because it was like coffee but faster)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://0.0.0.0:1313/posts/prompt_engineering/" /><meta property="article:section" content="posts" />
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Prompt Engineering"/>
+<meta name="twitter:description" content="The world never ceases to be filled with new things, and that is exciting. New things are great, but as they come with a learning curve - not the least of which is the language surrounding them. Like when the first coffee shop opened in the little town where I went to college in the late 90s, and we learned to order “express-o” (which was named that, logically, because it was like coffee but faster)."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://0.0.0.0:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Prompt Engineering",
+      "item": "http://0.0.0.0:1313/posts/prompt_engineering/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Prompt Engineering",
+  "name": "Prompt Engineering",
+  "description": "The world never ceases to be filled with new things, and that is exciting. New things are great, but as they come with a learning curve - not the least of which is the language surrounding them. Like when the first coffee shop opened in the little town where I went to college in the late 90s, and we learned to order “express-o” (which was named that, logically, because it was like coffee but faster).",
+  "keywords": [
+    "ai", "ml", "de"
+  ],
+  "articleBody": "The world never ceases to be filled with new things, and that is exciting. New things are great, but as they come with a learning curve - not the least of which is the language surrounding them. Like when the first coffee shop opened in the little town where I went to college in the late 90s, and we learned to order “express-o” (which was named that, logically, because it was like coffee but faster).\nSuch is the case today with words like generative AI, large language models, and of course prompt engineering. These words get tossed into every plan and pitch deck with grand assumptions and promises of near-magic; the ratio of experience to conjecture is painfully low, and the noise from an army of pseudo-knowledgeable content creators looking to cash in on the AI gold isn’t helping.\nTake the case of ChatGPT, the most widely recognised LLM on the market. Except… ChatGPT isn’t an LLM. ChatGPT (and the accompanying OpenAI API) is a brilliantly engineered software platform, representing billions of dollars of R\u0026D, and hundreds of thousands (if not millions) of software development hours. ChatGPT is as much an LLM as Google Search is a NoSQL database. Yes, one of the many complicated parts of the ChatGPT platform is a set of proprietary Large Language Models, just as Google Search has databases of a sort. When you query the OpenAI API, you are interacting with a production consumer-facing endpoint, not a raw LLM. Understanding this - the massive delta between an OSS LLama2 or Mistral or Falcon model running on AWS Bedrock or GCP Vertex, and querying a polished, consumer-facing product, is tantamount to separating the generative AI wheat from the chaff.\nNow on to Prompt Engineering. Not “how to phrase your question to get the best answer from ChatGPT,” which I wish everyone would start calling what it is, product training, but designing model-level textual interaction templates. Here’s a real-world example from earlier this week: the key players are myself (a Data Engineer living in a Data Science world), Woodson (our actual Data Scientist), and a stock Falcon-7b-instruct instance. I started early in the morning, trying to fix a stubborn link in our prompt chain:\nprompt:\nYou are a helpful AI assistant.Assess if the question below is a complete thought that can be responded to without any external context. Respond only 'YES' or 'NO'. \u003e\u003eQUESTION\u003c\u003c That is fine, just pick one. \u003e\u003eANSWER\u003c\u003c response:\n%YES,no\\nI agree it is fine but th K. No good. Try again with all the same settings for temperature, stop words etc. prompt:\n\u003e\u003eINTRODUCTION\u003c\u003c You are a helpful AI assistant.if the question below is a complete thought that can be responded to without any external context respond YES, otherwise NO. \u003e\u003eQUESTION\u003c\u003c That is fine, just pick one. \u003e\u003eANSWER\u003c\u003c response:\n**lk)! Umm.. that’s.. worse? Maybe better, because it is shorter? OK again, maybe no special tokens this time, and raise the temperature. prompt:\nIf the message below is a complete thought that can be responded to without any external context respond YES, otherwise NO. MESSAGE: That is fine, just pick one. response:\nYESyes",
+  "wordCount" : "1079",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://0.0.0.0:1313/posts/prompt_engineering/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "the Pirate Baby",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://0.0.0.0:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://0.0.0.0:1313/" accesskey="h" title="the Pirate Baby (Alt + H)">
+                        
+                    <img src="http://0.0.0.0:1313/piratebaby_huaab79433917d743d4e178df45e5313e8_505492_0x40_resize_box_3.png" alt="" aria-label="logo"
+                        height="40">the Pirate Baby</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://0.0.0.0:1313/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://0.0.0.0:1313/work-with-pirate-baby/" title="C&amp;C">
+                    <span>C&amp;C</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://0.0.0.0:1313/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://0.0.0.0:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://0.0.0.0:1313/">Home</a>&nbsp;»&nbsp;<a href="http://0.0.0.0:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Prompt Engineering
+    </h1>
+    <div class="post-meta">6 min
+
+</div>
+  </header> 
+  <div class="post-content"><p>The world never ceases to be filled with new things, and that is exciting. New things are great, but as they come with a learning curve - not the least of which is the language surrounding them. Like when the first coffee shop opened in the little town where I went to college in the late 90s, and we learned to order “express-o” (which was named that, logically, because it was like coffee but <em>faster</em>).</p>
+<p>Such is the case today with words like generative AI, large language models, and of course prompt engineering. These words get tossed into every plan and pitch deck with grand assumptions and promises of near-magic; the ratio of experience to conjecture is painfully low, and the noise from an army of pseudo-knowledgeable content creators looking to cash in on the AI gold isn&rsquo;t helping.</p>
+<p><img loading="lazy" src="https://i.kym-cdn.com/entries/icons/original/000/010/692/You_Keep_Using_That_Word_meme_banner.jpg" alt="Prompt Engineering"  />
+</p>
+<p>Take the case of ChatGPT, the most widely recognised LLM on the market. Except&hellip; ChatGPT isn&rsquo;t an LLM. ChatGPT (and the accompanying OpenAI API) is a brilliantly engineered software platform, representing billions of dollars of R&amp;D, and hundreds of thousands (if not millions) of software development hours. ChatGPT is as much an LLM as Google Search is a NoSQL database. Yes, one of the many complicated parts of the ChatGPT platform is a set of proprietary Large Language Models, just as Google Search has databases of a sort. When you query the OpenAI API, you are interacting with a production consumer-facing endpoint, not a raw LLM. Understanding this - the massive delta between an OSS <code>LLama2</code> or <code>Mistral</code> or <code>Falcon</code> model running on AWS Bedrock or GCP Vertex, and querying a polished, consumer-facing product, is tantamount to separating the generative AI wheat from the chaff.</p>
+<p>Now on to Prompt Engineering. Not &ldquo;how to phrase your question to get the best answer from ChatGPT,&rdquo; which I wish everyone would start calling what it is, <em>product training</em>, but designing model-level textual interaction templates. Here&rsquo;s a real-world example from earlier this week: the key players are myself (a Data Engineer living in a Data Science world), Woodson (our <em>actual</em> Data Scientist), and a stock <code>Falcon-7b-instruct</code> instance. I started early in the morning, trying to fix a stubborn link in our prompt chain:</p>
+<p><em>prompt</em>:</p>
+<pre tabindex="0"><code>You are a helpful AI assistant.Assess if the question below is a complete thought that can be responded to without any external context. Respond only &#39;YES&#39; or &#39;NO&#39;.
+
+&gt;&gt;QUESTION&lt;&lt; That is fine, just pick one.
+&gt;&gt;ANSWER&lt;&lt;
+</code></pre><p><em>response</em>:</p>
+<pre tabindex="0"><code>%YES,no\nI agree it is fine but th
+</code></pre><p>K. No good. Try again with all the same settings for temperature, stop words etc.
+<em>prompt</em>:</p>
+<pre tabindex="0"><code>&gt;&gt;INTRODUCTION&lt;&lt;
+You are a helpful AI assistant.if the question below is a complete thought that can be responded to without any external context respond YES, otherwise NO.
+
+&gt;&gt;QUESTION&lt;&lt;
+That is fine, just pick one.
+&gt;&gt;ANSWER&lt;&lt;
+</code></pre><p><em>response</em>:</p>
+<pre tabindex="0"><code>**lk)!
+</code></pre><p>Umm.. that&rsquo;s.. worse? Maybe better, because it is shorter? OK again, maybe no special tokens this time, and raise the temperature.
+<em>prompt</em>:</p>
+<pre tabindex="0"><code>If the message below is a complete thought that can be responded to without any external context respond YES, otherwise NO.
+
+MESSAGE: That is fine, just pick one.
+</code></pre><p><em>response</em>:</p>
+<pre tabindex="0"><code>YESyes&lt;backpage
+</code></pre><p>Closer, but also incorrect, and still not stopping where I want it.
+This goes on for about an hour, adjusting the prompt and the settings. I finally get to this:</p>
+<pre tabindex="0"><code>Determine if this message is a complete statement that requires no external context, respond only with &#39;yes&#39;, otherwise respond only with &#39;no&#39;.
+
+MESSAGE: That is fine, just pick one.
+</code></pre><p><em>response</em>:</p>
+<pre tabindex="0"><code>No
+</code></pre><p>WOO! Now I run it 5 more times in a row.
+<code>No</code>, <code>Yes</code>, <code>YES</code>, <code>YesNo</code>, <code>Yes</code></p>
+<p>At this point I start thinking about re-entering a career in the food service industry.</p>
+<p>Just then Woodson walks into the office. He looks over my head (which is rested firmly forehead-planted on the desk while my fist bangs the keyboard) and scans the prompt terminal of my massive computer screen.</p>
+<p><em>&ldquo;Where&rsquo;s the temp set to? OK drop that to point one. Invert the question to ask if the message requires external context, add a second sentence with yes or no, lowercase, get rid of that period, and &hellip;(pauses to slurp iced tea)&hellip; make the word message lowercase, get rid of the space in front of the colon. Run it.&rdquo;</em></p>
+<p><em>prompt</em></p>
+<pre tabindex="0"><code>Does this message require external context for you to respond? Answer yes or no
+
+message:That is fine, just pick one.
+</code></pre><p><em>responses (x5)</em>
+<code>Yes</code>, <code>Yes</code>, <code>Yes</code>, <code>Yes</code>, <code>Yes</code> (this is correct, remember we inverted it)</p>
+<p><em>&ldquo;How did you do that?!?&rdquo;</em></p>
+<p><em>&ldquo;Wish I could tell you man. I just did.&rdquo;</em></p>
+<p>He went on to talk about a need to consider narrowing the conversational focus, sounding more like Maharishi Mahesh Yogi explaining the mechanics of transcendental meditation than a Software Engineer talking compiler bugs. I retained as much of what was said as you read above.</p>
+<p>This is a new sport. This kind of practice requires a different kind of thinking, and I am not entirely convinced it can be effectively translated through teaching. Maybe it will be like music; most of us can take tuba lessons and be part of the middle school band, but few will ever be good enough to play music professionally at <em>any</em> level - not just the proverbial (and in this case, actual) rock stars, but even so much as to cover the bills of a modest lifestyle. To be able to craft text that effectively coaxes gold from language model mire is, at the moment, a bit of an art form.
+There are likely people all over the globe that have never considered an interest in programming or computer science, but are naturally exceptionally gifted at this new dark art. There are people working a New Jersey gas pump, or pulling lobster pots from a bay in Maine, or entering medical claims in an office in Tulsa, that would look at the same block of text and say &ldquo;yeah just invert the question, and that word needs to be lower case&rdquo; like it was placing the last piece in a jigsaw puzzle. Wilt Chamberlain was a bellhop when the world of professional basketball first discovered him.</p>
+<p>I guess it is all relative; to some developers, SQL is database incantation, or JavaScript is a world of broken promises (pun intended). I personally believe that wood framing, electrical work, and plumbing are logical skills that can be learned, shared, and practiced, whereas any task involving drywall or spackle requires a pact with the devil to produce a half-way decent looking outcome.</p>
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTcyOTYyMjE1Miw2MTQxMDc1MDUsNTkzMj
+gxNTU4LDEwOTk5NjQ2MDZdfQ==
+-->
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://0.0.0.0:1313/tags/ai/">Ai</a></li>
+      <li><a href="http://0.0.0.0:1313/tags/ml/">Ml</a></li>
+      <li><a href="http://0.0.0.0:1313/tags/de/">De</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://0.0.0.0:1313/posts/langchain_is_ticking_timebomb/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Langchain is a Ticking Timebomb</span>
+  </a>
+</nav>
+
+  </footer><div id="disqus_thread"></div>
+<script>
+    
+
+    var disqus_config = function () {
+    this.page.url = 'http:\/\/0.0.0.0:1313\/posts\/prompt_engineering\/';  
+    this.page.identifier = 'ca985862fe6386231c13362f48c35b04'; 
+    };
+    (function() { 
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-pirate-baby.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="http://0.0.0.0:1313/">the Pirate Baby</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

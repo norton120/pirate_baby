@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>A Complete Containerized CD Pipeline With AWS and Cloudflare for 2024 | the Pirate Baby</title>
+<meta name="keywords" content="infra, ops, de">
+<meta name="description" content="Recently I went about standing up a fresh Continuous Delivery pipeline for a new project. The project is a relatively standard containerized stack with nothing exceptional to speak of, and as our exploratory work was already in AWS I decided to launch this CD in AWS CodePipeline. Furthermore, we wanted to dogfood our long-term infra management (this project is infra abstraction/automation software) and so opted not to use TerraForm or CloudFormation templates - that way we could have a fully &ldquo;Clickops&rsquo;d&rdquo; infrastructure for our tools to reclaim and manage.">
+<meta name="author" content="">
+<link rel="canonical" href="http://0.0.0.0:1313/posts/complete_cd_with_aws_codepipeline_ecs_and_cloudflare/">
+
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QYLKP2XXPB"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-QYLKP2XXPB');
+        }
+      </script>
+    
+  
+
+
+<link crossorigin="anonymous" href="/assets/css/stylesheet.e087fd1dc76e73a35ae6d7028ddc1ba41e0131e7f9b3a6e2d019a208e6d6c4b5.css" integrity="sha256-4If9Hcduc6Na5tcCjdwbpB4BMef5s6bi0BmiCObWxLU=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="http://0.0.0.0:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://0.0.0.0:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://0.0.0.0:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://0.0.0.0:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://0.0.0.0:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://0.0.0.0:1313/posts/complete_cd_with_aws_codepipeline_ecs_and_cloudflare/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QYLKP2XXPB"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-QYLKP2XXPB');
+        }
+      </script>
+    
+  
+
+<meta property="og:title" content="A Complete Containerized CD Pipeline With AWS and Cloudflare for 2024" />
+<meta property="og:description" content="Recently I went about standing up a fresh Continuous Delivery pipeline for a new project. The project is a relatively standard containerized stack with nothing exceptional to speak of, and as our exploratory work was already in AWS I decided to launch this CD in AWS CodePipeline. Furthermore, we wanted to dogfood our long-term infra management (this project is infra abstraction/automation software) and so opted not to use TerraForm or CloudFormation templates - that way we could have a fully &ldquo;Clickops&rsquo;d&rdquo; infrastructure for our tools to reclaim and manage." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://0.0.0.0:1313/posts/complete_cd_with_aws_codepipeline_ecs_and_cloudflare/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-12-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-12-27T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="A Complete Containerized CD Pipeline With AWS and Cloudflare for 2024"/>
+<meta name="twitter:description" content="Recently I went about standing up a fresh Continuous Delivery pipeline for a new project. The project is a relatively standard containerized stack with nothing exceptional to speak of, and as our exploratory work was already in AWS I decided to launch this CD in AWS CodePipeline. Furthermore, we wanted to dogfood our long-term infra management (this project is infra abstraction/automation software) and so opted not to use TerraForm or CloudFormation templates - that way we could have a fully &ldquo;Clickops&rsquo;d&rdquo; infrastructure for our tools to reclaim and manage."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://0.0.0.0:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "A Complete Containerized CD Pipeline With AWS and Cloudflare for 2024",
+      "item": "http://0.0.0.0:1313/posts/complete_cd_with_aws_codepipeline_ecs_and_cloudflare/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "A Complete Containerized CD Pipeline With AWS and Cloudflare for 2024",
+  "name": "A Complete Containerized CD Pipeline With AWS and Cloudflare for 2024",
+  "description": "Recently I went about standing up a fresh Continuous Delivery pipeline for a new project. The project is a relatively standard containerized stack with nothing exceptional to speak of, and as our exploratory work was already in AWS I decided to launch this CD in AWS CodePipeline. Furthermore, we wanted to dogfood our long-term infra management (this project is infra abstraction/automation software) and so opted not to use TerraForm or CloudFormation templates - that way we could have a fully \u0026ldquo;Clickops\u0026rsquo;d\u0026rdquo; infrastructure for our tools to reclaim and manage.",
+  "keywords": [
+    "infra", "ops", "de"
+  ],
+  "articleBody": "Recently I went about standing up a fresh Continuous Delivery pipeline for a new project. The project is a relatively standard containerized stack with nothing exceptional to speak of, and as our exploratory work was already in AWS I decided to launch this CD in AWS CodePipeline. Furthermore, we wanted to dogfood our long-term infra management (this project is infra abstraction/automation software) and so opted not to use TerraForm or CloudFormation templates - that way we could have a fully “Clickops’d” infrastructure for our tools to reclaim and manage. Besides, Clickops is easy right?\nTo my surprise, nothing worked. Deploying CD for a very standard stack (details to follow) via GUI clicks is a bizarre dance filled with broken states and never-resolvable circular dependencies, magic file/variable names that are either not documented or documented incorrectly (like the variety of spellings for appspec.yaml / AppSpec.yml / appsec.yml across AWS CodeDeploy docs), cryptic error codes, and incompatible default settings. Some of this is nothing new - all the clouds have quirks. But I was taken off guard by just how bad, how completely non-functional I was suddenly finding these services which I had used happily for years.\nMaybe I have gotten too comfortable with infra as code, or maybe ECS and CodePipeline have gotten significantly more brittle in the last year. Maybe this is the multiverse where AWS services are much, much worse and I am a lost traveler. Whatever the reason, I decided that once this project was successfully deployed I would codify the process, in detail, as a guide for others (and my future self). This is that guide.\nHow To Guide: We are setting up a blue/green deployment of a containerized application. The application uses docker-compose locally with one application container, one db container, a sidecar container (in our case logging, but can be anything) and an nginx container to serve web content. In AWS our stack will be:\nCodePipeline to manage our blue/green deployment via CodeBuild and CodeDeploy A single ECS service running on Fargate A single Elastic Load Balencer ECR for storing our container images SecretsManager for managing our environment variables Github as our source code provider CloudFlare for our DNS and proxy provider There are numerous security groups, IAM roles etc needed in combination to make this all work, along with support elements like ACM to store the CloudFlare origin cert that I won’t directly call out here, but will be noted in the process.\nThis deploy will blue/green the whole of your container stack - this means if your sidecar(s) or nginx need to roll back they can also do so. The downside is that they are all built with every deploy. If you want to add more complex checking logic later to only build changed containers, go for it.\nDo not skim this guide! If you are like me, you normally skim over these things, copy the code examples, and refer back when you hit errors. Don’t do that. The ClickOps process here is like a ritual dance, missing one tiny step will anger the AWS gods and you will have to start over from the beginning. Suck it up and read the whole thing, and follow exactly step by step, or pain will follow.\nLegend To minimize repetition I am going to use some shorthands:\nThe 🧐 icon means Follow directions exactly. I know, AWS docs or a tutorial might claim you can change the filename or specify the path somewhere; my experience has been that not all the configs are respected, and often only the default paths/names actually work. If you choose to deviate, best of luck to you. The ☢️ icon means Thing for future us to improve on. This may mean tightening access scopes, moving elements to dedicated VPCs etc. This guide may be all that is needed for a small experimental startup, but you probably want to think about designated accounts / multi-region /mutli-cloud / multiverse in the future, and that’s beyond the scope here. The aws account number for the examples will be 123456789012. You can find-replace with your account. The project name will be bash-dog. You can find-replace with your project name. The AWS region will be us-east-2. You can find-replace with your default region. Steps Start your magic files. Our pipeline needs 3 files placed in the root directory of your project.\n🧐 The taskdef.json behaves similar to a docker-compose.yml in ECS 🧐 The appspec.yaml file which pulls together the CodeDeploy deployment (Note: appspec.yaml is the correct, and AFAIK only working naming convention for this file). 🧐 The buildspec.ymlfile which is similar to any CI actions file you may have used, it is basically a list of bash commands run in a “builder” context. also note that buildspec.yml and appspec.yaml have different filetype suffixes. Yay. Here are the files you should start with.\nI strongly suggest cloning them as-is and updating only the elements as you follow along. To quick copy them to your project root (where they must live):\ncd bash-dog/ # your project root curl https://gist.githubusercontent.com/norton120/61e9a94f035da8202ab74e41e1705087/raw/9b253c5ba06b05cbe1f6038d65b8690ffe088bd5/appspec.yaml \u003e appspec.yaml curl https://gist.githubusercontent.com/norton120/61e9a94f035da8202ab74e41e1705087/raw/9b253c5ba06b05cbe1f6038d65b8690ffe088bd5/taskdef.json \u003e taskdef.json curl https://gist.githubusercontent.com/norton120/61e9a94f035da8202ab74e41e1705087/raw/7ee3330bbbc33f3376cdc996a186cd0e90152e9a/buildspec.yml \u003e buildspec.yml Commit these files to your codebase.\nMaking your project deploy-able This is a whole other topic in itself, so I’ll stick to the assumptions made with this current set of files and let you sort out what changes you may want to make:\nOne dockerfile, named Dockerfile, contains all the image definitions for your deployment. Each image to be deployed is targeted with the same name as the service you are deploying, i.e. the api image definition in your Dockerfile is defined as FROM some-image:tag as api. If this is foreign to you check out Naming your Builds. Your code builds environment-agnostic, that is, the same build runs locally as in production. Things like requirements files and entrypoints are managed via an environment variable and not a different set of build steps. Each service (i.e. container) runs on a different port. The awsvpc network addresses each of your containers via localhost (not the assigned container name!) so your containers cannot have port collisions. Only nginx will be exposed to the load balancer. Your nginx image needs to have an nginx.conf that routes traffic to all the other containers in your stack. Kinda goes without saying, but your nginx container should get port 80. We will be encrypting traffic from the load balancer to CloudFlare via origin cert (CloudFlare will handle client encryption), and restricting direct access to the container. Commit whatever changes you’ve made. For the duration of this deploy process it may save your sanity to turn off branch protection and deploy directly to main 😱. Otherwise you will need to PR each tiny file tweak, and the PR process is basically valueless rubber-stamping in this case. ECR Images This whole build process centers around container images stored in Elastic Container Registry (ECR). Navigate to ECR in the AWS GUI and click “Get Started” under “Create a Repository.”\nName the repository with your project and service, i.e.bash-dog-api 🧐 leave the defaults as they are. You need mutability to retag latest. Repeat for each of your services. You shouldn’t need to worry about docker hub rate limits, because our buildspec.yml preloads your existing image as part of the pre-build, so CodeBuild will only pull from docker hub the first time you build. If this does become an issue for some reason (you start getting failed builds because of dockerhub limits for images like niginx and python) then you will want to add ECR repos for these base images as well and point your Dockerfile towards them. That requires local login to ECR and complicates things, so we will avoid it for now. Just keep in mind that if you run into this issue, you’ll add these base images to everything we do here.\nTime to prime the pump: locally, log into your ECR registry with\ndocker login --username AWS --password \\ $(docker run \\ -e AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY} \\ -e AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID} \\ -e AWS_SESSION_TOKEN=${AWS_SESSION_TOKEN} \\ -e AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION} \\ --rm amazon/aws-cli ecr get-login-password) \\ 123456789012.dkr.ecr.us-east-2.amazonaws.com/bash-dog-api note: this is using identity manager temporary creds. Use whatever strategy you prefer for authenticating the aws-cli container. Now build and tag your image:\ndocker build -f Dockerfile \\ -t 123456789012.dkr.ecr.us-east-2.amazonaws.com/bash-dog-api \\ --target api . note the --target needs to match the target we are building. Once the build is successful, push it up\ndocker push 123456789012.dkr.ecr.us-east-2.amazonaws.com/bash-dog-api:latest Rinse and repeat for each of the services you are deploying. Remember that bash-dog-nginx is our image of nginx with a custom nginx.conf mounted that will serve the sibling containers.\nSecrets We are going to keep all the envars in AWS SecretsManager. This removes secrets from our pipeline and repo code, and makes it less painful to update envars down the line.\nStart by navigating to SecretsManager and clicking “Store a new Secret” select other type of secret set the key/value pairs. This should be in the format of ENVAR_NAME value. For example, if I want an envar BASH_DOG_ENVIRONMENT with a value of production it would look like this: name the secret something logical like bash-dog/ecs-envars and create it. Once created, refresh the index page and click into the new secret so you can get the whole new arn (complete with the random suffix). Head back to your taskdef.json file. See the secrets section in the api and sidecar containers? Update as follows: for each envar you defined (and want for the given container), set a name key to match that envar (case sensitive). Update the arn with the whole new arn you just copied, paying special attention to the suffix on the arn. It must match the envar name you just set, and you need the 2 extra colons at the end. so setting our BASH_DOG_ENVIRONMENT envar in the api container would look like this: ... \"name\": \"bash-dog-api\", \"secrets\": [ { \"name\":\"BASH_DOG_ENVIRONMENT\", \"valueFrom\":\"arn:aws:secretsmanager:us-east-2:123456789012:secret:bash-dog/ecs-envars-PlIIOb:BASH_DOG_URL::\" }, ... remember that this arn will be the one you just created, not the example arn above!\nBe sure to delete any example envars you aren’t using, they will cause the pipeline to error if the secret or key does not exist. If you have envars that conflict between containers (for example, if each container needs a different HOSTNAME envar) you will need to set up individual secrets for each container. Then reference them with the same pattern, just using the container-specific secret arns for each set of secrets. Make sure references across containers use localhost and not the container names; this is one place I’ve found ECS awsvpc networking functions differently than a bridge docker network. so # bad API_HOST=http://api-container-name:8080 # good API_HOST=http://localhost:8080 Code Pipeline I find it is much easier not to get twisted into a dependency pretzel if we start our pipeline at the very end, with the CodePipeline itself.\nNavigate to CodePipeline -\u003e CreatePipeline. Name your new pipeline something sensible like bash-dog-pipeline. Create a new service role, name it something sensible like bash-dog-pipeline-role. 🧐 Leave “Allow AWS CodePipeline to create a service role so it can be used with this new pipeline” checked. (don’t try to re-use an existing service role, or hand-roll your own… role. You will hate yourself if you do either of these things, and it just won’t work). Leave all the other defaults alone and click Next. In the next screen select Github (Version 2). Follow the prompts to create a new Github Connection, and select your repository. 🧐 For Branch name use your main branch main or equivalent. Leave all the other defaults alone and click Next. Next, Create a build project inline by selecting AWS CodeBuild as the provider and then clicking Create Project. In the new window: name your build project something sensible like bash-dog-build-project. 🧐 under Additional configuration check ‘restrict number of concurrent builds this project can start’ and set the limit to 1. For Environment select Managed Image, EC2 Amazon Linux Operating system, Standard Runtime, and the 🧐 amazonlinux2-x86_64-standard:4.0 image (not the default!) 🧐 Check ‘Enable this flag…’ under Privileged. Leave the default New service role and unless the provided role name is awful, leave it. Optionally, reduce the timeouts. Generally my builds are running \u003c 3 min, so if they are not done in 10 they are probably never going to be done. Leave Use a buildspec file and 🧐 do not specify a file name. My experience has been that non-standard filenames for the buildspec/appspec/taskdef files have caused mysterious pipeline failures, but YMMV. Set up logging using logical names like bash-dog and codebuild. Skip the deploy stage for now, that needs to be backed-in from a running ECS Service. Save and create your new pipeline. Note: The pipeline will immediately build and fail. That’s OK, we’re far from done. Update Build Role Access Now we need to update the build service role, allowing it to: - login, pull and push our ECR images - write to our s3 artifact bucket (possibly already configured, but worth double-checking)\nFind that role you just created by searching IAM roles for bash-dog (well, your equivalent). It should look like codebuild-bash-dog-pipeline-service-role unless you changed it. It should also have a policy named something like CodeBuildBasePolicy-bash-dog-pipeline-us-east-2. Click into that. Edit the policy and add these statements, updating the image and checking that the s3 bucket arns for the artifacts are present and match what you have in s3. Run a successful build Push all the changes made so far to main in your application repo. If your main is already up to date, you will need to trigger it manually via the CodePipeline with the Release Change button. Let it build, check the logs tab for errors, and with fate on your side you should see this: Now for the fun part - navigate to the s3 bucket and find the path bash-dog-pipeline/buildArtf/. Look for an artifact with the newest timestamp. Download it. Now check out the taskdef.json file within the artifact. You’ll see the images have been updated to reflect the image sha for the release you just built! You can also check ECR and see that the same image tag was created.\nAdding your Cloudflare Origin Cert and Enabling Full Strict This seems random at the moment, but you will need this to create your load balancer, which you will do while creating an ECS service.\nLog in to Cloudflare for your respective domain. Under SSL -\u003e Origin Certificate click Create Certificate. Leave the defaults. Note: the free certs will only work for bare domains (example.com) and single level subdomains (www.example.com). Click Create. In a different tab, navigate to AWS Certificate Manager and click on Import. Back in Cloudflare, time to copy the cert you just created, and paste the values into the respective boxes in ACR. 🧐 click the copy buttons. Don’t try to scroll copy, you can grab/miss needed whitespace and break the cert. Leave Certificate chain blank. Click through to import the cert. Now you need to tell CloudFlare to use the cert you just created. This is important!. In CloudFlare, click into Rules -\u003e Configuration Rules Create a new rule. 🧐 Set the hostname filter to match exactly the (sub)domain fully qualified host (i.e. example.com or banana.example.com). 🧐 Under then settings are… find SSL, and select “Full (strict)” Save your rule OK now your CloudFlare is primed, though we have not set up the CNAME yet (that comes later). Onward with our pipeline. Create all the IAM Roles ECS Execution needs to be able to access the secret(s) created earlier, and ECS Service needs to be able to do normal ECS task things. CodeDeploy also needs a role. So, we create 3 new roles named bashDogServiceRoleForECS , bashDogExectuionRoleForECS , and bashDogCodeDeployRole in IAM. you may want/need to modify the AWS default ecsTaskExecutionRole instead of creating bashDogExecutionRoleForECS if you find your Fargate tasks do not reflect the permissions you’ve assigned to your execution role. The docs cryptically imply that Fargate does not respect your execution role - I have experienced it both working and not working with an alternate role, and truth be told haven’t had time to determine if this is a root cause.\nThe execution role (the role assumed by the host) needs: - AmazonECSTaskExecutionRolePolicy - An inline policy for accessing our secret envars Creating this policy is surprisingly unintuitive. Specify Elastic Container Service (no alias for ECS) and Elastic Container Service. The policy should look like this: Make sure your trust relationships looks like this:\n{ \"Version\": \"2008-10-17\", \"Statement\": [ { \"Sid\": \"\", \"Effect\": \"Allow\", \"Principal\": { \"Service\": \"ecs-tasks.amazonaws.com\" }, \"Action\": \"sts:AssumeRole\" } ] } Next, create the Service role (think role assumed within the container). This is pretty straightforward, and is useful because you can add specific services to this role later as needed. This role needs AWSCodeDeployRoleForECS. Make sure the trust relationship of the created role looks like this:\n{ \"Version\": \"2012-10-17\", \"Statement\": [ { \"Sid\": \"\", \"Effect\": \"Allow\", \"Principal\": { \"Service\": \"ecs-tasks.amazonaws.com\" }, \"Action\": \"sts:AssumeRole\" } ] } Last create the code deploy role. This role needs the AWSCodeDeployRoleForECS policy, and trust relationship should look like this:\n{ \"Version\": \"2012-10-17\", \"Statement\": [ { \"Sid\": \"\", \"Effect\": \"Allow\", \"Principal\": { \"Service\": \"codedeploy.amazonaws.com\" }, \"Action\": \"sts:AssumeRole\" } ] } Create an empty CodeDeploy Application We will need a CodeDeploy app for our ECS service to set up blue/green deploys in. So navigate to CodePipeline -\u003e Applications -\u003e and create a new application named something sensible like bash-dog-deploy-application. Leave this open. Don’t create a deployment yet, or you will get a weird loop where CloudFormation rips down your ECS Service for having too many deployments associated.\nConfigure Security Group and IAM Role Rules One of the most tricky elements of launching your ECS Service is that it really needs to succeed the first time you manually deploy it. If the initial task set for the service is unable to get to a “healthy” state, CloudFormation will stubbornly retry the same broken code until it finally tears down the service - and you have to start all over :sad_cat:. Before you attempt to launch the ECS cluster, go through all the dependent services and make sure you have set up security group ingress rules, access policies etc. ahead of time. Things like:\ndoes your app need database access, maybe RDS or Dynamo? have you set up ingress/egress policies for the the security group you will apply to the ECS cluster? does your app need other AWS services, like bedrock, or SQS, or Lambda? Have you applied all the needed policies to the bashDogServiceRoleForECS? are all the envars you need loaded into secrets manager? Try and get as far ahead of things that will break your application before you attempt to launch in ECS, you will be glad you did. Create the ECS Cluster and initial Task Definition Setting up the initial runtime is a little bit of a juggling act; You first create your ECS Cluster, Task Definition, and ECS Service with the Service linked to the Code Deploy (but not exactly managed by it yet). The idea is to manually stand up the service and get it to a “healthy” state, and then have CodeDeploy take over. 1. We create a new cluster from the ECS home page. Name the cluster something logical like bash-dog, leave all the defaults. This will take a minute, just leave it and wait until it is ready (clicking ahead will break things). 2. Next we create a task definition that will be used by our service. From the ECS home page click on Task definitions, Create a new task definition (with JSON). Paste the guts of your taskdef.json file (the one in your application repo) and save. 3. Finally we will create our ECS Service. Navigate to the bash-dog cluster and click Create under Services. - Leave the defaults for Environment. - Under Deployment Configuration select the task family name you just created. - Name the service something logical like bash-dog. - 🧐 Under Deployment Options change Deployment Type to Blue/green deployment (powered by AWS CodeDeploy). - Leave the default deployment configuration of CodeDeployDefault.ECSAllAtOnce. - Search and select the arn for the Code Deploy role we created (bash-dog-code-deploy), you may have to go get the arn from IAM and paste it in the first time. - Under Networking select the default VPC, and de-select all the duplicate subnets (where there are more than one for a given zone). Use the primary subnets if you can. - Use your default security group (add this to the TODO list of things to harden later) - 🧐 Leave public IP on. This isn’t just “expose ECS to a public IP and subnet so you can test it;” ☢️ unfortunately, modern ECS Fargate cannot connect to any services (like ECR, SecretsManager etc) without either a public IP or NAT Gateway/PrivateLink setup in a private VPC. Long-term, having our ECS cluster hanging out publicly is not OK - but both solutions add complexity and cost we are not going to cover right now. I’ll try to do separate update on this topic later. - Under Load Balancer select Application Load Balancer - Name the load balancer something sensible like bash-dog - Bump up the grace period to make debugging easier - Select the nginx container bash-dog-nginx 80:80 - Create a listener on port 443 with https - Select the ACM cert we imported from CloudFlare earlier - Add primary and secondary target groups with the default http configs. Name them something sensible like bash-dog-main and bash-dog-secondary. - Save and wait for the new Service to spin up.\nService Cleanup: if when things go wrong with your service, you may have to either delete it and start over or it may decide to delete itself after several failed deployments. Be sure to completely remove all artifacts once the service is gone, by deleting the corresponding stack for the service in CloudFormation. Lingering artifacts (especially if you use the same sensible service name again when you retry) can result in all kinds of strange and sad behavior. This can take a while; be patient. Jumping ahead and re-building the new service while the old one is still deleting will cause you pain. At this point, if all goes well our service should be up and running. You can check in on the container logs via ECS Homepage -\u003e Clusters -\u003e bash-dog -\u003e services -\u003e bash-dog -\u003e logs. We can now wire up the domain and make sure the initial deploy is working!\nSet up CNAME Record Head over to the load balancer we created - you can find it by navigating to the ECS Service homepage and clicking on the listener, then from there the load balancer. Grab the DNS name of your load balancer. You can throw this in a browser and get an unsafe warning (which is fine, the cert it is using is made for CloudFlare not for visitors). If you bypass that warning, you should see your application!.\n14 .#### Completing the pipeline Time to automate your now working-but-manual pipeline.\nHead back to CodePipeline, and in your bash-dog-pipeline and edit the pipeline. add a deploy stage. 🧐 Select Amazon ECS (Blue/Green) as provider. For artifacts select BuildArtifact For AWS CodeDeploy application name and AWS CodeDeploy deployment group you want to select the app and group created by your ECS Service; these should have a random prefix, like AsFbaw-bash-dog-bash-dog. For the Amazon ECS task definition put 🧐 exactly taskdef.json. For the AWS CodeDeploy AppSpec file put 🧐 exactly appspec.yaml Leave Dynamically update task definition image - optional alone, do not add or change anything. Save your new stage (3 saves to get all the way out), confirming the changes to the pipeline. Under CodeDeploy -\u003e Applications -\u003e name_of_generated_application -\u003e Deployments, click into the active deployment. scroll down to Deployment Settings at the bottom and set the original revision termination to something rational, like 5 minutes. Otherwise every deploy will take over an hour to be “complete.” Save and exit. OK. Now the big moment. Push some code to a branch, create a pull request, merge that into main and…. You have a working, automated blue/green deployment for all 3 of your service containers.\n",
+  "wordCount" : "4028",
+  "inLanguage": "en",
+  "datePublished": "2023-12-27T00:00:00Z",
+  "dateModified": "2023-12-27T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://0.0.0.0:1313/posts/complete_cd_with_aws_codepipeline_ecs_and_cloudflare/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "the Pirate Baby",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://0.0.0.0:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://0.0.0.0:1313/" accesskey="h" title="the Pirate Baby (Alt + H)">
+                        
+                    <img src="http://0.0.0.0:1313/piratebaby_huaab79433917d743d4e178df45e5313e8_505492_0x40_resize_box_3.png" alt="" aria-label="logo"
+                        height="40">the Pirate Baby</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://0.0.0.0:1313/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://0.0.0.0:1313/work-with-pirate-baby/" title="C&amp;C">
+                    <span>C&amp;C</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://0.0.0.0:1313/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://0.0.0.0:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://0.0.0.0:1313/">Home</a>&nbsp;»&nbsp;<a href="http://0.0.0.0:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      A Complete Containerized CD Pipeline With AWS and Cloudflare for 2024
+    </h1>
+    <div class="post-meta"><span title='2023-12-27 00:00:00 +0000 UTC'>December 27, 2023</span>&nbsp;·&nbsp;19 min
+
+</div>
+  </header> 
+  <div class="post-content"><p>Recently I went about standing up a fresh Continuous Delivery pipeline for a new project. The project is a relatively standard containerized stack with nothing exceptional to speak of, and as our exploratory work was already in AWS I decided to launch this CD in AWS CodePipeline. Furthermore, we wanted to dogfood our long-term infra management (this project is infra abstraction/automation software) and so opted <em>not</em> to use TerraForm or CloudFormation templates - that way we could have a fully &ldquo;Clickops&rsquo;d&rdquo; infrastructure for our tools to reclaim and manage. Besides, Clickops is easy right?</p>
+<p>To my surprise, nothing worked. Deploying CD for a very standard stack (details to follow) via GUI clicks is a bizarre dance filled with broken states and never-resolvable circular dependencies, magic file/variable names that are either not documented or documented incorrectly (like the variety of spellings for <code>appspec.yaml / AppSpec.yml / appsec.yml</code> across AWS CodeDeploy docs), cryptic error codes, and incompatible default settings. Some of this is nothing new - all the clouds have quirks. But I was taken off guard by just how bad, how completely <em>non-functional</em> I was suddenly finding these services which I had used happily for years.</p>
+<p>Maybe I have gotten too comfortable with infra as code, or maybe ECS and CodePipeline have gotten significantly more brittle in the last year. Maybe this is the multiverse where AWS services are much, much worse and I am a lost traveler. Whatever the reason, I decided that once this project was successfully deployed I would codify the process, in detail, as a guide for others (and my future self). This is that guide.</p>
+<h2 id="how-to-guide">How To Guide:<a hidden class="anchor" aria-hidden="true" href="#how-to-guide">#</a></h2>
+<p>We are setting up a blue/green deployment of a containerized application. The application uses docker-compose locally with one application container, one db container, a sidecar container (in our case logging, but can be anything) and an nginx container to serve web content. In AWS our stack will be:</p>
+<ul>
+<li>CodePipeline to manage our blue/green deployment via CodeBuild and CodeDeploy</li>
+<li>A single ECS service running on Fargate</li>
+<li>A single Elastic Load Balencer</li>
+<li>ECR for storing our container images</li>
+<li>SecretsManager for managing our environment variables</li>
+<li>Github as our source code provider</li>
+<li>CloudFlare for our DNS and proxy provider</li>
+</ul>
+<p>There are numerous security groups, IAM roles etc needed in combination to make this all work, along with support elements like ACM to store the CloudFlare origin cert that I won&rsquo;t directly call out here, but will be noted in the process.</p>
+<p>This deploy will blue/green the whole of your container stack - this means if your sidecar(s) or nginx need to roll back they can also do so. The downside is that they are all built with every deploy. If you want to add more complex checking logic later to only build changed containers, go for it.</p>
+
+
+<style type="text/css">
+    .box-shortcode {
+      padding: 1.6em;
+      padding-top: 1.4em;
+      line-height: 1.4em;
+      margin-top: 1em;
+      margin-bottom: 2em;
+      border-radius: 4px;
+      color: #444;
+      background: #f3ebe850;
+    }
+
+    .box-title {
+      margin: -18px -18px 12px;
+      padding: 4px 18px;
+      border-radius: 4px 4px 0 0;
+      font-weight: 700;
+      color: #fff;
+      background: #6ab0de;
+    }
+    .box-shortcode.warning .box-title {
+      background: #ff6b6b;
+    }
+    .box-shortcode.warning {
+      background: #ff6b6b4f;
+    }
+    .box-shortcode.info .box-title {
+      background: #0089e488;
+    }
+    .box-shortcode.info {
+      background: #0089e41c;
+      box-shadow: 3px 3px 5px #0089e410;
+    }
+    .box-shortcode.important .box-title {
+      background: #f7ec2c;
+    }
+    .box-shortcode.important {
+      background: #f7ec2c7d;
+    }
+    .box-shortcode.tip .box-title {
+      background: #a3ffa34d;
+    }
+    .box-shortcode.tip {
+      background: #a3ffa34d;
+      box-shadow: 3px 3px 5px #0089e410;
+    }
+    .icon-box {
+      display: inline-flex;
+      align-self: center;
+      margin-right: 8px;
+    }
+    .icon-box img,
+    .icon-box svg {
+      height: 1em;
+      width: 1em;
+      fill: currentColor;
+    }
+    .icon-box img,
+    .icon-box.baseline svg {
+      top: 0.125em;
+      position: relative;
+    }
+    .box-shortcode p {
+      margin-bottom: 0.6em;
+    }
+    .box-shortcode p:first-of-type {
+      display: inline;
+    }
+    .box-shortcode p:nth-of-type(2) {
+      margin-top: 0.6em;
+    }
+    .box-shortcode p:last-child {
+      margin-bottom: 0;
+    }
+  </style>
+
+  
+  <svg width="0" height="0" display="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="tip-box" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
+      <path
+        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"/>
+    </symbol>
+    <symbol id="important-box" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
+      <path
+        d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/>
+    </symbol>
+    <symbol id="warning-box" viewBox="0 0 576 512" preserveAspectRatio="xMidYMid meet">
+      <path
+        d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/>
+    </symbol>
+    <symbol id="info-box" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
+      <path
+        d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"/>
+    </symbol>
+  </svg><div class="box box-shortcode warning" >
+    <span class="icon-box baseline">
+      <svg><use href="#warning-box"></use></svg>
+    </span>
+    <p><strong>Do not skim this guide!</strong> If you are like me, you normally skim over these things, copy the code examples, and refer back when you hit errors. <strong>Don&rsquo;t do that.</strong> The ClickOps process here is like a ritual dance, missing one tiny step will anger the AWS gods and <em>you will have to start over from the beginning.</em> Suck it up and read the whole thing, and follow exactly step by step, or pain will follow.</p>
+  </div>
+
+<h3 id="legend">Legend<a hidden class="anchor" aria-hidden="true" href="#legend">#</a></h3>
+<p>To minimize repetition I am going to use some shorthands:</p>
+<ul>
+<li>The &#x1f9d0; icon means <strong>Follow directions exactly.</strong> I know, AWS docs or a tutorial might claim you can change the filename or specify the path somewhere; my experience has been that not all the configs are respected, and often only the default paths/names actually work. If you choose to deviate, best of luck to you.</li>
+<li>The &#x2622;&#xfe0f; icon means <strong>Thing for future us to improve on.</strong> This may mean tightening access scopes, moving elements to dedicated VPCs etc. This guide may be all that is needed for a small experimental startup, but you probably want to think about designated accounts / multi-region /mutli-cloud / multiverse in the future, and that&rsquo;s beyond the scope here.</li>
+<li>The aws account number for the examples will be <code>123456789012</code>. You can find-replace with your account.</li>
+<li>The project name will be <code>bash-dog</code>.  You can find-replace with your project name.</li>
+<li>The AWS region will be <code>us-east-2</code>. You can find-replace with your default region.</li>
+</ul>
+<h3 id="steps">Steps<a hidden class="anchor" aria-hidden="true" href="#steps">#</a></h3>
+<ol>
+<li>
+<h4 id="start-your-magic-files">Start your magic files.<a hidden class="anchor" aria-hidden="true" href="#start-your-magic-files">#</a></h4>
+</li>
+</ol>
+<p>Our pipeline needs 3 files placed in the root directory of your project.</p>
+<ul>
+<li>&#x1f9d0; The <code>taskdef.json</code> behaves similar to a docker-compose.yml in ECS</li>
+<li>&#x1f9d0; The <code>appspec.yaml</code> file which pulls together the CodeDeploy deployment (<em>Note</em>: <code>appspec.yaml</code> is the correct, and AFAIK only working naming convention for this file).</li>
+<li>&#x1f9d0; The <code>buildspec.yml</code>file which is similar to any CI actions file you may have used, it is basically a list of bash commands run in a &ldquo;builder&rdquo; context.
+also note that <code>buildspec.yml</code> and <code>appspec.yaml</code> have different filetype suffixes. Yay.</li>
+</ul>
+<p>Here are the files you should start with.</p>
+<script src="https://gist.github.com/norton120/61e9a94f035da8202ab74e41e1705087.js"></script>
+
+<p>I strongly suggest cloning them as-is and updating only the elements as you follow along. To quick copy them to your project root (where they must live):</p>
+<pre tabindex="0"><code>cd bash-dog/ # your project root
+curl https://gist.githubusercontent.com/norton120/61e9a94f035da8202ab74e41e1705087/raw/9b253c5ba06b05cbe1f6038d65b8690ffe088bd5/appspec.yaml &gt; appspec.yaml
+curl https://gist.githubusercontent.com/norton120/61e9a94f035da8202ab74e41e1705087/raw/9b253c5ba06b05cbe1f6038d65b8690ffe088bd5/taskdef.json &gt; taskdef.json
+curl https://gist.githubusercontent.com/norton120/61e9a94f035da8202ab74e41e1705087/raw/7ee3330bbbc33f3376cdc996a186cd0e90152e9a/buildspec.yml &gt; buildspec.yml
+</code></pre><p>Commit these files to your codebase.</p>
+<ol start="2">
+<li>
+<h4 id="making-your-project-deploy-able">Making your project deploy-able<a hidden class="anchor" aria-hidden="true" href="#making-your-project-deploy-able">#</a></h4>
+</li>
+</ol>
+<p>This is a whole other topic in itself, so I&rsquo;ll stick to the assumptions made with this current set of files and let you sort out what changes you may want to make:</p>
+<ul>
+<li>One dockerfile, named <code>Dockerfile</code>, contains all the image definitions for your deployment.</li>
+<li>Each image to be deployed is targeted with the same name as the service you are deploying, i.e. the <code>api</code> image definition in your <code>Dockerfile</code> is defined as <code>FROM some-image:tag as api</code>. If this is foreign to you check out <a href="https://docs.docker.com/build/building/multi-stage/#name-your-build-stages">Naming your Builds</a>.</li>
+<li>Your code builds environment-agnostic, that is, the same build runs locally as in production. Things like requirements files and entrypoints are managed via an environment variable and not a different set of build steps.</li>
+<li>Each service (i.e. container) runs on a different port. The <code>awsvpc</code> network addresses each of your containers via localhost (not the assigned container name!) so your containers cannot have port collisions.</li>
+<li>Only nginx will be exposed to the load balancer. Your nginx image needs to have an <code>nginx.conf</code> that routes traffic to all the other containers in your stack.</li>
+<li>Kinda goes without saying, but your nginx container should get port 80. We will be encrypting traffic from the load balancer to CloudFlare via origin cert (CloudFlare will handle client encryption), and restricting direct access to the container.
+Commit whatever changes you&rsquo;ve made. For the duration of this deploy process it may save your sanity to turn off branch protection and deploy directly to main &#x1f631;. Otherwise you will need to PR each tiny file tweak, and the PR process is basically valueless rubber-stamping in this case.</li>
+</ul>
+<ol start="3">
+<li>
+<h4 id="ecr-images">ECR Images<a hidden class="anchor" aria-hidden="true" href="#ecr-images">#</a></h4>
+</li>
+</ol>
+<p>This whole build process centers around container images stored in Elastic Container Registry (ECR). Navigate to ECR in the AWS GUI and click &ldquo;Get Started&rdquo; under &ldquo;Create a Repository.&rdquo;</p>
+<p><img loading="lazy" src="/images/create_repository.png" alt="getting started"  />
+</p>
+<p>Name the repository with your project and service, i.e.<code>bash-dog-api</code>
+<img loading="lazy" src="/images/repo_name.png" alt="name your repo"  />
+
+&#x1f9d0; leave the defaults as they are. You need mutability to retag <code>latest</code>. Repeat for each of your services.
+
+
+<div class="box box-shortcode info" >
+    <span class="icon-box baseline">
+      <svg><use href="#info-box"></use></svg>
+    </span>
+    <p>You <em>shouldn&rsquo;t</em> need to worry about docker hub rate limits, because our <code>buildspec.yml</code> preloads your existing image as part of the pre-build, so CodeBuild will only pull from docker hub the first time you build. If this does become an issue for some reason (you start getting failed builds because of dockerhub limits for images like <code>niginx</code> and <code>python</code>) then you will want to add ECR repos for these base images as well and point your Dockerfile towards them. That requires local login to ECR and complicates things, so we will avoid it for now. Just keep in mind that if you run into this issue, you&rsquo;ll add these base images to everything we do here.</p>
+  </div>
+
+Time to prime the pump: locally, log into your ECR registry with</p>
+<pre tabindex="0"><code>docker login --username AWS --password \
+$(docker run \
+-e AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY} \
+-e AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID} \
+-e AWS_SESSION_TOKEN=${AWS_SESSION_TOKEN} \
+-e AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION} \
+--rm amazon/aws-cli ecr get-login-password) \
+123456789012.dkr.ecr.us-east-2.amazonaws.com/bash-dog-api
+</code></pre><p><em>note</em>: this is using identity manager temporary creds. Use whatever strategy you prefer for authenticating the aws-cli container.
+Now build and tag your image:</p>
+<pre tabindex="0"><code>docker build -f Dockerfile \
+-t  123456789012.dkr.ecr.us-east-2.amazonaws.com/bash-dog-api \
+--target api .
+</code></pre><p>note the <code>--target</code> needs to match the target we are building. Once the build is successful, push it up</p>
+<pre tabindex="0"><code>docker push 123456789012.dkr.ecr.us-east-2.amazonaws.com/bash-dog-api:latest
+</code></pre><p>Rinse and repeat for each of the services you are deploying. Remember that <code>bash-dog-nginx</code> is our image of nginx with a custom <code>nginx.conf</code> mounted that will serve the sibling containers.</p>
+<ol start="4">
+<li>
+<h4 id="secrets">Secrets<a hidden class="anchor" aria-hidden="true" href="#secrets">#</a></h4>
+</li>
+</ol>
+<p>We are going to keep all the envars in AWS SecretsManager. This removes secrets from our pipeline and repo code, and makes it less painful to update envars down the line.</p>
+<ul>
+<li>Start by navigating to SecretsManager and clicking &ldquo;Store a new Secret&rdquo;</li>
+<li>select <code>other type of secret</code></li>
+<li>set the key/value pairs. This should be in the format of <code>ENVAR_NAME</code> <code>value</code>. For example, if I want an envar <code>BASH_DOG_ENVIRONMENT</code> with a value of <code>production</code> it would look like this:
+<img loading="lazy" src="/images/secretsmanager.png" alt="secrets manager"  />
+</li>
+<li>name the secret something logical like <code>bash-dog/ecs-envars</code> and create it.</li>
+<li>Once created, refresh the index page and click into the new secret so you can get the <em>whole</em> new arn (complete with the random suffix).</li>
+<li>Head back to your <code>taskdef.json</code> file. See the <code>secrets</code> section in the api and sidecar containers? Update as follows:
+<ul>
+<li>for each envar you defined (and want for the given container), set a <code>name</code> key to match that envar (case sensitive).</li>
+<li>Update the arn with the whole new arn you just copied, paying special attention to the suffix on the arn. It must match the envar name you just set, and you need the 2 extra colons at the end.
+so setting our <code>BASH_DOG_ENVIRONMENT</code> envar in the api container would look like this:</li>
+</ul>
+</li>
+</ul>
+<pre tabindex="0"><code>...
+&#34;name&#34;: &#34;bash-dog-api&#34;,
+&#34;secrets&#34;: [
+	{
+     &#34;name&#34;:&#34;BASH_DOG_ENVIRONMENT&#34;,
+     &#34;valueFrom&#34;:&#34;arn:aws:secretsmanager:us-east-2:123456789012:secret:bash-dog/ecs-envars-PlIIOb:BASH_DOG_URL::&#34;
+    },
+...
+</code></pre><p>remember that this arn will be the one you just created, not the example arn above!</p>
+<ul>
+<li>Be sure to delete any example envars you <em>aren&rsquo;t</em> using, they will cause the pipeline to error if the secret or key does not exist.</li>
+<li>If you have envars that conflict between containers (for example, if each container needs a different <code>HOSTNAME</code> envar) you will need to set up individual secrets for each container. Then reference them with the same pattern, just using the container-specific secret arns for each set of secrets.</li>
+<li>Make sure references across containers use <code>localhost</code> and not the container names; this is one place I&rsquo;ve found ECS <code>awsvpc</code> networking functions differently than a bridge docker network. so</li>
+</ul>
+<pre tabindex="0"><code># bad
+API_HOST=http://api-container-name:8080
+# good
+API_HOST=http://localhost:8080
+</code></pre><ol start="5">
+<li>
+<h4 id="code-pipeline">Code Pipeline<a hidden class="anchor" aria-hidden="true" href="#code-pipeline">#</a></h4>
+</li>
+</ol>
+<p>I find it is much easier not to get twisted into a dependency pretzel if we start our pipeline at the very end, with the CodePipeline itself.</p>
+<ul>
+<li>Navigate to <em>CodePipeline -&gt; CreatePipeline</em>.</li>
+<li>Name your new pipeline something sensible like <code>bash-dog-pipeline</code>.</li>
+<li>Create a new service role, name it something sensible like <code>bash-dog-pipeline-role</code>.   &#x1f9d0; Leave &ldquo;<em>Allow AWS CodePipeline to create a service role so it can be used with this new pipeline</em>&rdquo; checked. (don&rsquo;t try to re-use an existing service role, or hand-roll your own&hellip; role. You will hate yourself if you do either of these things, and it just won&rsquo;t work).</li>
+<li>Leave all the other defaults alone and click <em>Next</em>.</li>
+<li>In the next screen select <code>Github (Version 2)</code>. Follow the prompts to create a new Github Connection, and select your repository.</li>
+<li>&#x1f9d0; For <em>Branch name</em> use your main branch <code>main</code> or equivalent.</li>
+<li>Leave all the other defaults alone and click <em>Next</em>.</li>
+<li>Next, Create a build project inline by selecting AWS CodeBuild as the provider and then clicking <em>Create Project</em>. In the new window:
+<img loading="lazy" src="/images/build_stage.png" alt="stage"  />
+
+<ul>
+<li>name your build project something sensible like <code>bash-dog-build-project</code>.
+<img loading="lazy" src="/images/build_project_a.png" alt="name build project"  />
+</li>
+<li>&#x1f9d0; under <em>Additional configuration</em> check &lsquo;restrict number of concurrent builds this project can start&rsquo; and set the limit to 1.</li>
+<li>For Environment select <code>Managed Image</code>, <code>EC2</code> <code>Amazon Linux</code> Operating system, <code>Standard</code> Runtime, and the &#x1f9d0;  <code>amazonlinux2-x86_64-standard:4.0</code> image (not the default!)
+<img loading="lazy" src="/images/build_project_b.png" alt="environment"  />
+</li>
+<li>&#x1f9d0; Check &lsquo;<em>Enable this flag&hellip;</em>&rsquo; under <em>Privileged</em>.</li>
+<li>Leave the default <em>New service role</em> and unless the provided role name is awful, leave it.
+<img loading="lazy" src="/images/build_project_c.png" alt="service role"  />
+</li>
+<li>Optionally, reduce the timeouts. Generally my builds are running &lt; 3 min, so if they are not done in 10 they are probably never going to be done.</li>
+<li>Leave <em>Use a buildspec file</em> and &#x1f9d0; do not specify a file name. My experience has been that non-standard filenames for the buildspec/appspec/taskdef files have caused mysterious pipeline failures, but YMMV.
+<img loading="lazy" src="/images/build_project_d.png" alt="file"  />
+</li>
+<li>Set up logging using logical names like <code>bash-dog</code> and <code>codebuild</code>.
+<img loading="lazy" src="/images/build_project_e.png" alt="logs"  />
+</li>
+</ul>
+</li>
+<li>Skip the deploy stage for now, that needs to be backed-in from a running ECS Service.</li>
+<li>Save and create your new pipeline.
+<em>Note:</em> The pipeline will immediately build and fail. That&rsquo;s OK, we&rsquo;re far from done.</li>
+</ul>
+<ol start="6">
+<li>
+<h4 id="update-build-role-access">Update Build Role Access<a hidden class="anchor" aria-hidden="true" href="#update-build-role-access">#</a></h4>
+</li>
+</ol>
+<p>Now we need to update the build service role, allowing it to:
+- login, pull and push our ECR images
+- write to our s3 artifact bucket (possibly already configured, but worth double-checking)</p>
+<ul>
+<li>Find that role you just created by searching IAM roles for <code>bash-dog</code> (well, your equivalent). It should look like <code>codebuild-bash-dog-pipeline-service-role</code> unless you changed it. It should also have a policy named something like <code>CodeBuildBasePolicy-bash-dog-pipeline-us-east-2</code>. Click into that.</li>
+<li>Edit the policy and add these statements, updating the image and checking that the s3 bucket arns for the artifacts are present and match what you have in s3.
+<script src="https://gist.github.com/norton120/d622626cb4ce4cace838ce1ec35f96ef.js"></script>
+</li>
+</ul>
+<ol start="7">
+<li>
+<h4 id="run-a-successful-build">Run a successful build<a hidden class="anchor" aria-hidden="true" href="#run-a-successful-build">#</a></h4>
+</li>
+</ol>
+<p>Push all the changes made so far to <code>main</code> in your application repo. If your main is already up to date, you will need to trigger it manually via the CodePipeline with the <em>Release Change</em> button. Let it build, check the logs tab for errors, and with fate on your side you should see this:
+<img loading="lazy" src="/images/build_success.png" alt="build success"  />
+</p>
+<p>Now for the fun part - navigate to the s3 bucket and find the path <code>bash-dog-pipeline/buildArtf/</code>. Look for an artifact with the newest timestamp. Download it. Now check out the <code>taskdef.json</code> file within the artifact. You&rsquo;ll see the images have been updated to reflect the image sha for the release you just built!
+You can also check ECR and see that the same image tag was created.</p>
+<ol start="8">
+<li>
+<h4 id="adding-your-cloudflare-origin-cert-and-enabling-full-strict">Adding your Cloudflare Origin Cert and Enabling Full Strict<a hidden class="anchor" aria-hidden="true" href="#adding-your-cloudflare-origin-cert-and-enabling-full-strict">#</a></h4>
+</li>
+</ol>
+<p>This seems random at the moment, but you will need this to create your load balancer, which you will do while creating an ECS service.</p>
+<ul>
+<li>Log in to Cloudflare for your respective domain.
+<ul>
+<li>Under <em>SSL</em> -&gt; <em>Origin Certificate</em> click <em>Create Certificate</em>.</li>
+<li>Leave the defaults. <strong>Note:</strong> the free certs will only work for bare domains (<em>example.com</em>) and <strong>single level subdomains</strong> (<em><a href="https://www.example.com">www.example.com</a></em>).</li>
+<li>Click <em>Create</em>.</li>
+</ul>
+</li>
+<li>In a different tab, navigate to <a href="https://us-east-2.console.aws.amazon.com/acm/home?region=us-east-2#/certificates/list">AWS Certificate Manager</a> and click on  <em>Import</em>.</li>
+<li>Back in Cloudflare, time to copy the cert you just created, and paste the values into the respective boxes in ACR.
+<ul>
+<li>&#x1f9d0; click the copy buttons. Don&rsquo;t try to scroll copy, you can grab/miss needed whitespace and break the cert.</li>
+<li>Leave Certificate chain blank. Click through to import the cert.
+Now you need to tell CloudFlare to use the cert you just created. <strong>This is important!</strong>.</li>
+</ul>
+</li>
+<li>In CloudFlare, click into <em>Rules</em> -&gt; <em>Configuration Rules</em></li>
+<li>Create a new rule.
+<ul>
+<li>&#x1f9d0; Set the hostname filter to match exactly the (sub)domain fully qualified host (i.e. <code>example.com</code> or <code>banana.example.com</code>).</li>
+<li>&#x1f9d0; Under <em>then settings are&hellip;</em> find SSL, and  select &ldquo;Full (strict)&rdquo;</li>
+<li>Save your rule
+OK now your CloudFlare is primed, though we have not set up the CNAME yet (that comes later). Onward with our pipeline.</li>
+</ul>
+</li>
+</ul>
+<ol start="9">
+<li>
+<h4 id="create-all-the-iam-roles">Create all the IAM Roles<a hidden class="anchor" aria-hidden="true" href="#create-all-the-iam-roles">#</a></h4>
+</li>
+</ol>
+<p>ECS Execution needs to be able to access the secret(s) created earlier, and ECS Service needs to be able to do normal ECS task things. CodeDeploy also needs a role. So, we create 3 new roles named <code>bashDogServiceRoleForECS</code> , <code>bashDogExectuionRoleForECS</code> , and <code>bashDogCodeDeployRole</code> in IAM.
+
+
+<div class="box box-shortcode info" >
+    <span class="icon-box baseline">
+      <svg><use href="#info-box"></use></svg>
+    </span>
+    <p>you may want/need to modify the AWS default <code>ecsTaskExecutionRole</code> instead of creating <code>bashDogExecutionRoleForECS</code> if you find your Fargate tasks do not reflect the permissions you&rsquo;ve assigned to your execution role. The docs <a href="https://repost.aws/knowledge-center/ecs-unable-to-pull-secrets#:~:text=The%20Amazon%20ECS%20container%20agent%20uses%20the%20task%20execution%20AWS%20Identity%20and%20Access%20Management%20(IAM)%20role%20to%20get%20information%20from%20the%20following%20services%3A">cryptically imply</a> that Fargate does not respect your execution role - I have experienced it both working and not working with an alternate role, and truth be told haven&rsquo;t had time to determine if this is a root cause.</p>
+  </div>
+</p>
+<p>The execution role (the role assumed by the host) needs:
+- <a href="https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2Fservice-role%2FAmazonECSTaskExecutionRolePolicy">AmazonECSTaskExecutionRolePolicy</a>
+- An inline policy for accessing our secret envars
+Creating this policy is surprisingly unintuitive. Specify <em>Elastic Container Service</em> (no alias for ECS) and Elastic Container Service.
+The policy should look like this:
+<script src="https://gist.github.com/norton120/d07535142a3cf363679a7aacbca94196.js"></script>
+
+Make sure your trust relationships looks like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;Version&#34;</span><span class="p">:</span> <span class="s2">&#34;2008-10-17&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;Statement&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&#34;Sid&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&#34;Effect&#34;</span><span class="p">:</span> <span class="s2">&#34;Allow&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&#34;Principal&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nt">&#34;Service&#34;</span><span class="p">:</span> <span class="s2">&#34;ecs-tasks.amazonaws.com&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">},</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&#34;Action&#34;</span><span class="p">:</span> <span class="s2">&#34;sts:AssumeRole&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Next, create the Service role (think role assumed within the container). This is pretty straightforward, and is useful because you can add specific services to this role later as needed. This role needs <a href="https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAWSCodeDeployRoleForECS">AWSCodeDeployRoleForECS</a>. Make sure the trust relationship of the created role looks like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;Version&#34;</span><span class="p">:</span> <span class="s2">&#34;2012-10-17&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;Statement&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&#34;Sid&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&#34;Effect&#34;</span><span class="p">:</span> <span class="s2">&#34;Allow&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&#34;Principal&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nt">&#34;Service&#34;</span><span class="p">:</span> <span class="s2">&#34;ecs-tasks.amazonaws.com&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">},</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&#34;Action&#34;</span><span class="p">:</span> <span class="s2">&#34;sts:AssumeRole&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Last create the code deploy role. This role needs the <a href="https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-2#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAWSCodeDeployRoleForECS">AWSCodeDeployRoleForECS</a> policy, and trust relationship should look like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;Version&#34;</span><span class="p">:</span> <span class="s2">&#34;2012-10-17&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;Statement&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&#34;Sid&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&#34;Effect&#34;</span><span class="p">:</span> <span class="s2">&#34;Allow&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&#34;Principal&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nt">&#34;Service&#34;</span><span class="p">:</span> <span class="s2">&#34;codedeploy.amazonaws.com&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">},</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&#34;Action&#34;</span><span class="p">:</span> <span class="s2">&#34;sts:AssumeRole&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><ol start="10">
+<li>
+<h4 id="create-an-empty-codedeploy-application">Create an empty CodeDeploy Application<a hidden class="anchor" aria-hidden="true" href="#create-an-empty-codedeploy-application">#</a></h4>
+</li>
+</ol>
+<p>We will need a CodeDeploy app for our ECS service to set up blue/green deploys in. So navigate to CodePipeline -&gt; Applications -&gt; and create a new application named something sensible like <code>bash-dog-deploy-application</code>. Leave this open. Don&rsquo;t create a deployment yet, or you will get a weird loop where CloudFormation rips down your ECS Service for having too many deployments associated.</p>
+<ol start="11">
+<li>
+<h4 id="configure-security-group-and-iam-role-rules">Configure Security Group and IAM Role Rules<a hidden class="anchor" aria-hidden="true" href="#configure-security-group-and-iam-role-rules">#</a></h4>
+</li>
+</ol>
+<p>One of the most tricky elements of launching your ECS Service is that it really needs to succeed the first time you manually deploy it. If the initial task set for the service is unable to get to a &ldquo;healthy&rdquo; state, CloudFormation will stubbornly retry the same broken code until it finally tears down the service - and you have to start all over :sad_cat:. Before you attempt to launch the ECS cluster, go through all the dependent services and make sure you have set up security group ingress rules, access policies etc. ahead of time. Things like:</p>
+<ul>
+<li>does your app need database access, maybe RDS or Dynamo? have you set up  ingress/egress policies for the the security group you will apply to the ECS cluster?</li>
+<li>does your app need other AWS services, like bedrock, or SQS, or Lambda? Have you applied all the needed policies to the <code>bashDogServiceRoleForECS</code>?</li>
+<li>are all the envars you need loaded into secrets manager?
+Try and get as far ahead of things that will break your application <em>before</em> you attempt to launch in ECS, you will be glad you did.</li>
+</ul>
+<ol start="12">
+<li>
+<h4 id="create-the-ecs-cluster-and-initial-task-definition">Create the ECS Cluster and initial Task Definition<a hidden class="anchor" aria-hidden="true" href="#create-the-ecs-cluster-and-initial-task-definition">#</a></h4>
+</li>
+</ol>
+<p>Setting up the initial runtime is a little bit of a juggling act; You first create your ECS Cluster, Task Definition, and ECS Service with the Service <em>linked</em> to the Code Deploy (but not exactly managed by it yet). The idea is to manually stand up the service and get it to a &ldquo;healthy&rdquo; state, and <em>then</em> have CodeDeploy take over.
+1. We <strong>create a new cluster</strong> from the ECS home page. Name the cluster something logical like <code>bash-dog</code>, leave all the defaults. This will take a minute, just leave it and wait until it is ready (clicking ahead will break things).
+2. Next we <strong>create a task definition</strong> that will be used by our service. From the ECS home page click on <em>Task definitions</em>, <em>Create a new task definition (with JSON)</em>. Paste the guts of your <code>taskdef.json</code> file (the one in your application repo) and save.
+3. Finally we will <strong>create our ECS Service</strong>. Navigate to the <code>bash-dog</code> cluster and click <em>Create</em> under Services.
+- Leave the defaults for Environment.
+- Under <em>Deployment Configuration</em> select the task family name you just created.
+- Name the service something logical like <code>bash-dog</code>.
+- &#x1f9d0; Under <em>Deployment Options</em> change Deployment Type to <em>Blue/green deployment (powered by AWS CodeDeploy)</em>.
+- Leave the default deployment configuration of <code>CodeDeployDefault.ECSAllAtOnce</code>.
+- Search and select the arn for the Code Deploy role we created (<code>bash-dog-code-deploy</code>), you may have to go get the arn from IAM and paste it in the first time.
+- Under <em>Networking</em> select the default VPC, and de-select all the duplicate subnets (where there are more than one for a given zone). Use the primary subnets if you can.
+- Use your default security group (add this to the TODO list of things to harden later)
+- &#x1f9d0; Leave <em>public IP</em> <strong>on.</strong> This isn&rsquo;t just &ldquo;expose ECS to a public IP and subnet so you can test it;&rdquo; &#x2622;&#xfe0f; unfortunately, modern ECS Fargate cannot connect to any services (like ECR, SecretsManager etc) <a href="https://stackoverflow.com/questions/61265108/aws-ecs-fargate-resourceinitializationerror-unable-to-pull-secrets-or-registry">without either a public IP or NAT Gateway/PrivateLink setup in a private VPC</a>. Long-term, having our ECS cluster hanging out publicly is not OK - but both solutions add complexity and cost we are not going to cover right now. I&rsquo;ll try to do separate update on this topic later.
+- Under <em>Load Balancer</em> select <code>Application Load Balancer</code>
+- Name the load balancer something sensible like <code>bash-dog</code>
+- Bump up the grace period to make debugging easier
+- Select the nginx container <code>bash-dog-nginx 80:80</code>
+- Create a listener on port 443 with https
+- Select the ACM cert we imported from CloudFlare earlier
+- Add primary and secondary target groups with the default http configs. Name them something sensible like <code>bash-dog-main</code> and <code>bash-dog-secondary</code>.
+- Save and wait for the new Service to spin up.</p>
+
+
+<div class="box box-shortcode info" >
+    <span class="icon-box baseline">
+      <svg><use href="#info-box"></use></svg>
+    </span>
+    <p><strong>Service Cleanup</strong>:  <s>if</s> when things go wrong with  your service, you may have to either delete it and start over or it may decide to delete itself after several failed deployments. Be sure to completely remove all artifacts once the service is gone, by deleting the corresponding stack for the service in CloudFormation. Lingering artifacts (especially if you use the same sensible service name again when you retry) can result in all kinds of strange and sad behavior.  This can take a while; be patient. Jumping ahead and re-building the new service while the old one is still deleting <strong>will</strong> cause you pain.
+<img loading="lazy" src="/images/cloudformation_fail.png" alt="fail"  /></p>
+  </div>
+
+<p>At this point, if all goes well our service should be up and running. You can check in on the container logs via <em>ECS Homepage</em> -&gt; <em>Clusters</em> -&gt; <em>bash-dog</em> -&gt; <em>services</em> -&gt; <em>bash-dog</em> -&gt; <em>logs</em>.
+We can now wire up the domain and make sure the initial deploy is working!</p>
+<ol start="13">
+<li>
+<h4 id="set-up-cname-record">Set up CNAME Record<a hidden class="anchor" aria-hidden="true" href="#set-up-cname-record">#</a></h4>
+</li>
+</ol>
+<p>Head over to the load balancer we created - you can find it by navigating to the ECS Service homepage and clicking on the listener, then from there the load balancer. Grab the DNS name of your load balancer.
+<img loading="lazy" src="/images/dns_name.png" alt="dns name"  />
+</p>
+<p>You can throw this in a browser and get an unsafe warning (which is fine, the cert it is using is made for CloudFlare not for visitors). If you bypass that warning, <strong>you should see your application!.</strong></p>
+<p>14 .#### Completing the pipeline
+Time to automate your now working-but-manual pipeline.</p>
+<ul>
+<li>Head back to CodePipeline, and in your <code>bash-dog-pipeline</code> and edit the pipeline.</li>
+<li>add a <code>deploy</code> stage.
+<ul>
+<li>&#x1f9d0; Select <code>Amazon ECS (Blue/Green)</code> as provider.</li>
+<li>For artifacts select BuildArtifact</li>
+<li>For <em>AWS CodeDeploy application name</em> and <em>AWS CodeDeploy deployment group</em> you want to select the app and group created by your ECS Service; these should have a random prefix, like   <code>AsFbaw-bash-dog-bash-dog</code>.</li>
+<li>For the <em>Amazon ECS task definition</em> put &#x1f9d0; <em>exactly</em> <code>taskdef.json</code>.</li>
+<li>For the <em>AWS CodeDeploy AppSpec file</em> put &#x1f9d0; <em>exactly</em> <code>appspec.yaml</code></li>
+<li>Leave <em>Dynamically update task definition image -  optional</em> alone, do not add or change anything.</li>
+<li>Save your new stage (3 saves to get all the way out), confirming the changes to the pipeline.</li>
+</ul>
+</li>
+<li>Under <em>CodeDeploy</em> -&gt; <em>Applications</em> -&gt; name_of_generated_application -&gt; <em>Deployments</em>, click into the active deployment.
+<ul>
+<li>scroll down to <em>Deployment Settings</em> at the bottom and set the original revision termination to something rational, like 5 minutes. Otherwise every deploy will take over an hour to be &ldquo;complete.&rdquo;</li>
+<li>Save and exit.</li>
+</ul>
+</li>
+</ul>
+<p>OK. Now the big moment. Push some code to a branch, create a pull request, merge that into main and&hellip;.
+<img loading="lazy" src="/images/success.png" alt="success"  />
+</p>
+<p>You have a working, automated blue/green deployment for all 3 of your service containers.</p>
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTUzNDI5OTUyMSwxOTM0NTE4ODIxLC0xMz
+gzNTMyMjkxLC03NTE0NjgzNzksMTU1ODkyMDQ2MywtMTc1MDIw
+NTU4NiwxNDE5NTgyNDgzLC0xODE3ODg4NjgwLC0yMDU3OTgxNj
+M2LDE3MDc2NjI1OTAsLTY1MTA0OTU2MywxMjk0NTU2NzksNTM0
+OTM5NTc3LC0xNzQ0Njg1ODk1LDgxOTA1MTgwOSwxNjA1MTM1Mz
+AzLDIzODIzNjIyMSw0MTY4ODI5MTEsLTg2OTc4NDYzLDEyOTQ1
+NDEyXX0=
+-->
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://0.0.0.0:1313/tags/infra/">Infra</a></li>
+      <li><a href="http://0.0.0.0:1313/tags/ops/">Ops</a></li>
+      <li><a href="http://0.0.0.0:1313/tags/de/">De</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://0.0.0.0:1313/posts/fun_with_sqlalchemy_mapped_forward_refs/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Fun with SQLAlchemy Mapped forward refs</span>
+  </a>
+  <a class="next" href="http://0.0.0.0:1313/posts/on_having_enough_time/">
+    <span class="title">Next »</span>
+    <br>
+    <span>On Having Enough Time</span>
+  </a>
+</nav>
+
+  </footer><div id="disqus_thread"></div>
+<script>
+    
+
+    var disqus_config = function () {
+    this.page.url = 'http:\/\/0.0.0.0:1313\/posts\/complete_cd_with_aws_codepipeline_ecs_and_cloudflare\/';  
+    this.page.identifier = '1221f45607f6e9ac07f485133af099f1'; 
+    };
+    (function() { 
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-pirate-baby.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="http://0.0.0.0:1313/">the Pirate Baby</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

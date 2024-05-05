@@ -1,0 +1,81 @@
+import json
+from pathlib import Path
+
+
+class MakeBoat:
+
+
+    def getdata(self, key):
+        # stupid pandas indexes and I don't feel like re-converting again
+        top = self.data[key]
+        return top.get("7", top.get("15"))
+
+    def __init__(self, boatpath:Path):
+        self.boatpath = boatpath
+        self.body = ""
+        self.data = json.loads((boatpath / "data.json").read_text())
+        images, header_img = self._make_image_section()
+        self.body += self.make_head(header_img)
+        self.body += self.make_price()
+        self.body += self.make_description()
+        self.body += images
+        self.body += self.base_specs()
+        self.body += self.engine()
+        index = self.boatpath / "index.md"
+        index.write_text(self.body)
+
+    def make_head(self, header_img:str):
+        name = self.boatpath.name.split("-")[:2]
+        name = " ".join(name).title()
+        head = "---\n"
+        head += f"title: {name}\n"
+        head += "date: 2024-05-04\n"
+        head += "tags: ['boats']\n"
+        head += "draft: false\n"
+        head += "showReadingTime: false\n"
+        head += f"cover:\n  image: {header_img}\n  hidden: false\n  hiddenInList: false\n  hiddenInSingle: false\n"
+        head += "---\n\n"
+        return head
+
+    def make_description(self):
+        description = "## Description (from YachtWorld)\n\n"
+        description += self.getdata("description").replace("\n", "\n\n").strip("Show More")
+        description += "\n\n"
+        return description
+
+    def _make_image_section(self) -> tuple[str, str]:
+        localbody = "<details>\n<summary>📷 Images:</summary>\n"
+        header_img = None
+        for image in Path(f"/app/static/images/{self.boatpath.name}").iterdir():
+            if image.suffix in [".jpg", ".png"]:
+                src = f"/images/{self.boatpath.name}/{image.name}"
+                if not header_img:
+                    header_img = src
+                localbody += f'<img src="{src}" alt="{image.stem}">\n'
+
+        localbody += "</details>\n\n"
+        return localbody, header_img
+
+    def make_price(self):
+        price = "### :money_mouth_face: Asking Price: "
+        price += f'${round(self.getdata("price")):,}'
+        return price + "\n"
+
+    def base_specs(self):
+        specs = "## Basic Specifications\n\n"
+        for k,v in self.getdata("boat_specs").items():
+            if not v:
+                v = "Unknown"
+            specs += f"- **{k}**: {v}\n"
+        return specs
+
+    def engine(self):
+        engine = "## Engine Details\n\n"
+        for k,v in self.getdata("propulsion").items():
+            if not v:
+                v = "Unknown"
+            engine += f"- **{k}**: {v}\n"
+        for key in ('engine',"engine_hours", "total_power",):
+            value = self.getdata(key) or "Unknown"
+            engine += f"- **{key.replace('_',' ')}**: {value}\n"
+        return engine
