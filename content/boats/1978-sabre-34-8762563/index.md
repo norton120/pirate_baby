@@ -110,3 +110,7 @@ WINTER COVER, LOTS OF PARTS, PAINT, SPARES, FANS, AND MORE
 - **engine**: Volvo Penta  m13
 - **engine hours**: Unknown
 - **total power**: Unknown
+## Writeups
+
+- [YachtWorld Listing](https://www.yachtworld.com/yacht/1978-sabre-34-8762563/)
+- [SailboatData](https://sailboatdata.com/sailboat/sabre-34/?units=imperial)

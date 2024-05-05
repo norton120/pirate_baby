@@ -21,6 +21,7 @@ class MakeBoat:
         self.body += images
         self.body += self.base_specs()
         self.body += self.engine()
+        self.body += self.writeups()
         index = self.boatpath / "index.md"
         index.write_text(self.body)
 
@@ -79,3 +80,11 @@ class MakeBoat:
             value = self.getdata(key) or "Unknown"
             engine += f"- **{key.replace('_',' ')}**: {value}\n"
         return engine
+
+    def writeups(self):
+        name_kebab = "-".join(self.boatpath.name.split("-")[1:3])
+        writeups = "## Writeups\n\n"
+        writeups += f"- [YachtWorld Listing]({self.getdata('url')})\n"
+        writeups += f"- [SailboatData](https://sailboatdata.com/sailboat/{name_kebab}/?units=imperial)\n"
+        writeups += f"- [Practical Sailor](https://www.practical-sailor.com/sailboat-reviews/{name_kebab})\n"
+        return writeups

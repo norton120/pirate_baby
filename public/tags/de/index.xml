@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>De on the Pirate Baby</title>
+    <link>http://0.0.0.0:1313/tags/de/</link>
+    <description>Recent content in De on the Pirate Baby</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://0.0.0.0:1313/tags/de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fun with SQLAlchemy Mapped forward refs</title>
+      <link>http://0.0.0.0:1313/posts/fun_with_sqlalchemy_mapped_forward_refs/</link>
+      <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://0.0.0.0:1313/posts/fun_with_sqlalchemy_mapped_forward_refs/</guid>
+      <description>SQLAlchemy has nifty declarative mapping type support with the Mapped typing descriptor. If you are in the habit of typing your Python, this is a welcome tool that reduces boilerplate while still feeling quite natural:
+class Banana(SqlalchemyBase): is_squishy:Mapped[Optional[bool]] = mapped_column(server_default=text(&amp;#34;TRUE&amp;#34;)) picked_date:Mapped[datetime] belongs_to: Mapped[&amp;#34;User&amp;#34;] = relationship(&amp;#34;User&amp;#34;, lazy=&amp;#34;selectin&amp;#34;, back_references=&amp;#34;bananas&amp;#34;) But interestingly, Mapped does not support forward refs outside the ORM. so picked_date:Mapped[&amp;quot;datetime&amp;quot;] will error with an ArgumentError if datetime was not otherwise imported in the module.</description>
+    </item>
+    <item>
+      <title>A Complete Containerized CD Pipeline With AWS and Cloudflare for 2024</title>
+      <link>http://0.0.0.0:1313/posts/complete_cd_with_aws_codepipeline_ecs_and_cloudflare/</link>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://0.0.0.0:1313/posts/complete_cd_with_aws_codepipeline_ecs_and_cloudflare/</guid>
+      <description>Recently I went about standing up a fresh Continuous Delivery pipeline for a new project. The project is a relatively standard containerized stack with nothing exceptional to speak of, and as our exploratory work was already in AWS I decided to launch this CD in AWS CodePipeline. Furthermore, we wanted to dogfood our long-term infra management (this project is infra abstraction/automation software) and so opted not to use TerraForm or CloudFormation templates - that way we could have a fully &amp;ldquo;Clickops&amp;rsquo;d&amp;rdquo; infrastructure for our tools to reclaim and manage.</description>
+    </item>
+    <item>
+      <title>Data Science Nomenclature</title>
+      <link>http://0.0.0.0:1313/posts/why_data_scientists_are_so_bad_at_naming_things/</link>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://0.0.0.0:1313/posts/why_data_scientists_are_so_bad_at_naming_things/</guid>
+      <description>I have a working theory that most of the Data Scientists working today developed their naming conventions by watching Star Trek: The Next Generation in the 90s.</description>
+    </item>
+    <item>
+      <title>Prompt Engineering</title>
+      <link>http://0.0.0.0:1313/posts/prompt_engineering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://0.0.0.0:1313/posts/prompt_engineering/</guid>
+      <description>The world never ceases to be filled with new things, and that is exciting. New things are great, but as they come with a learning curve - not the least of which is the language surrounding them. Like when the first coffee shop opened in the little town where I went to college in the late 90s, and we learned to order “express-o” (which was named that, logically, because it was like coffee but faster).</description>
+    </item>
+  </channel>
+</rss>

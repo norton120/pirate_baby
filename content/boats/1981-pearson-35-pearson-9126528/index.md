@@ -86,3 +86,7 @@ Blue Heron has stood the test of time, remaining highly sought after on the use
 - **engine**: Westerbeke  W30
 - **engine hours**: Unknown
 - **total power**: Unknown
+## Writeups
+
+- [YachtWorld Listing](https://www.yachtworld.com/yacht/1981-pearson-35-pearson-9126528/)
+- [SailboatData](https://sailboatdata.com/sailboat/pearson-35/?units=imperial)
