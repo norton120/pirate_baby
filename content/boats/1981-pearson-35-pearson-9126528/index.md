@@ -12,28 +12,8 @@ cover:
 ---
 
 ### :money_mouth_face: Asking Price: $17,000
-## Description (from YachtWorld)
-
- MAINTENANCE & UPGRADES 
-
-ENGINE FULLY SERVICED (FUEL FILTER, GLOW PLUGS & NEW LIFT PUMP)
-
-(JANUARY 2023)  
-
-CUSTOM LUX FOAM MATTRESS IN V- BERTH (FEBRUARY 2023)
-
-NEW MAINSAIL COVER & COCKPIT CANVAS (FEBRUARY 2022) 
-
-NEW INTERIOR CUSHIONS (APRIL 2022) 
-
- 
-
-Blue Heron has stood the test of time, remaining highly sought after on the used boat market even after almost 25 years since its introduction. Her previous owners, who were the second owners, sailed her to Bermuda twice. The current sellers have taken good care of her and are now ready to sell. With a traditional design and comfortable living space both on deck and below, the Pearson 35 is a great option for sailors looking for a classic vessel with lasting qualities.
-
- 
-
 <details>
-<summary>📷 Images:</summary>
+<summary style='color:yellow;font-weight:bold;'>📷 More Pictures!:</summary>
 <img src="/images/1981-pearson-35-pearson-9126528/9126528_20231114122718054_1_XLARGE.jpg" alt="9126528_20231114122718054_1_XLARGE">
 <img src="/images/1981-pearson-35-pearson-9126528/9126528_20231114122702686_1_XLARGE.jpg" alt="9126528_20231114122702686_1_XLARGE">
 <img src="/images/1981-pearson-35-pearson-9126528/9126528_20231114122546705_1_XLARGE.jpg" alt="9126528_20231114122546705_1_XLARGE">
@@ -68,6 +48,26 @@ Blue Heron has stood the test of time, remaining highly sought after on the use
 <img src="/images/1981-pearson-35-pearson-9126528/9126528_20231114122631038_1_XLARGE.jpg" alt="9126528_20231114122631038_1_XLARGE">
 </details>
 
+## Description (from YachtWorld)
+
+ MAINTENANCE & UPGRADES 
+
+ENGINE FULLY SERVICED (FUEL FILTER, GLOW PLUGS & NEW LIFT PUMP)
+
+(JANUARY 2023)  
+
+CUSTOM LUX FOAM MATTRESS IN V- BERTH (FEBRUARY 2023)
+
+NEW MAINSAIL COVER & COCKPIT CANVAS (FEBRUARY 2022) 
+
+NEW INTERIOR CUSHIONS (APRIL 2022) 
+
+ 
+
+Blue Heron has stood the test of time, remaining highly sought after on the used boat market even after almost 25 years since its introduction. Her previous owners, who were the second owners, sailed her to Bermuda twice. The current sellers have taken good care of her and are now ready to sell. With a traditional design and comfortable living space both on deck and below, the Pearson 35 is a great option for sailors looking for a classic vessel with lasting qualities.
+
+ 
+
 ## Basic Specifications
 
 - **beam**: 10.0
@@ -88,5 +88,8 @@ Blue Heron has stood the test of time, remaining highly sought after on the use
 - **total power**: Unknown
 ## Writeups
 
-- [YachtWorld Listing](https://www.yachtworld.com/yacht/1981-pearson-35-pearson-9126528/)
-- [SailboatData](https://sailboatdata.com/sailboat/pearson-35/?units=imperial)
+<ul>
+
+<li><a href='https://www.yachtworld.com/yacht/1981-pearson-35-pearson-9126528/' target='_BLANK'>YachtWorld Listing</a></li>
+<li><a href='https://sailboatdata.com/sailboat/pearson-35/?units=imperial' target='_BLANK'>SailboatData</a></li>
+<li><a href='https://www.practical-sailor.com/sailboat-reviews/pearson-35' target='_BLANK'>Practical Sailor</a></li>

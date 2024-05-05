@@ -17,8 +17,8 @@ class MakeBoat:
         images, header_img = self._make_image_section()
         self.body += self.make_head(header_img)
         self.body += self.make_price()
-        self.body += self.make_description()
         self.body += images
+        self.body += self.make_description()
         self.body += self.base_specs()
         self.body += self.engine()
         self.body += self.writeups()
@@ -45,7 +45,7 @@ class MakeBoat:
         return description
 
     def _make_image_section(self) -> tuple[str, str]:
-        localbody = "<details>\n<summary>📷 Images:</summary>\n"
+        localbody = "<details>\n<summary style='color:yellow;font-weight:bold;'>📷 More Pictures!:</summary>\n"
         header_img = None
         for image in Path(f"/app/static/images/{self.boatpath.name}").iterdir():
             if image.suffix in [".jpg", ".png"]:
@@ -83,8 +83,11 @@ class MakeBoat:
 
     def writeups(self):
         name_kebab = "-".join(self.boatpath.name.split("-")[1:3])
-        writeups = "## Writeups\n\n"
-        writeups += f"- [YachtWorld Listing]({self.getdata('url')})\n"
-        writeups += f"- [SailboatData](https://sailboatdata.com/sailboat/{name_kebab}/?units=imperial)\n"
-        writeups += f"- [Practical Sailor](https://www.practical-sailor.com/sailboat-reviews/{name_kebab})\n"
+        writeups = "## Writeups\n\n<ul>\n\n"
+        for url, title in (
+            (self.getdata('url'), "YachtWorld Listing"),
+            (f"https://sailboatdata.com/sailboat/{name_kebab}/?units=imperial", "SailboatData"),
+            (f"https://www.practical-sailor.com/sailboat-reviews/{name_kebab}", "Practical Sailor"),
+        ):
+            writeups += f"<li><a href='{url}' target='_BLANK'>{title}</a></li>\n"
         return writeups
