@@ -22,6 +22,7 @@ cover:
 <img src="/images/1978-sabre-34-8762563/8762563_20230324073423475_1_XLARGE.jpg" alt="8762563_20230324073423475_1_XLARGE">
 <img src="/images/1978-sabre-34-8762563/8762563_20230324073546770_1_XLARGE.jpg" alt="8762563_20230324073546770_1_XLARGE">
 <img src="/images/1978-sabre-34-8762563/8762563_20230324073455196_1_XLARGE.jpg" alt="8762563_20230324073455196_1_XLARGE">
+<img src="/images/1978-sabre-34-8762563/IMG_2357.jpg" alt="IMG_2357">
 <img src="/images/1978-sabre-34-8762563/8762563_20230324073403748_1_XLARGE.jpg" alt="8762563_20230324073403748_1_XLARGE">
 <img src="/images/1978-sabre-34-8762563/8762563_20230324073553791_1_XLARGE.jpg" alt="8762563_20230324073553791_1_XLARGE">
 <img src="/images/1978-sabre-34-8762563/8762563_20230324073558820_1_XLARGE.jpg" alt="8762563_20230324073558820_1_XLARGE">
@@ -34,6 +35,8 @@ cover:
 <img src="/images/1978-sabre-34-8762563/8762563_20230324073421450_1_XLARGE.jpg" alt="8762563_20230324073421450_1_XLARGE">
 <img src="/images/1978-sabre-34-8762563/8762563_20230324073545780_1_XLARGE.jpg" alt="8762563_20230324073545780_1_XLARGE">
 <img src="/images/1978-sabre-34-8762563/8762563_20230324073404674_1_XLARGE.jpg" alt="8762563_20230324073404674_1_XLARGE">
+<img src="/images/1978-sabre-34-8762563/IMG_2355.jpg" alt="IMG_2355">
+<img src="/images/1978-sabre-34-8762563/IMG_2358.jpg" alt="IMG_2358">
 <img src="/images/1978-sabre-34-8762563/8762563_20230324073458223_1_XLARGE.jpg" alt="8762563_20230324073458223_1_XLARGE">
 <img src="/images/1978-sabre-34-8762563/8762563_20230324073422463_1_XLARGE.jpg" alt="8762563_20230324073422463_1_XLARGE">
 <img src="/images/1978-sabre-34-8762563/8762563_20230324073608995_1_XLARGE.jpg" alt="8762563_20230324073608995_1_XLARGE">
@@ -49,6 +52,7 @@ cover:
 <img src="/images/1978-sabre-34-8762563/8762563_20230324073419449_1_XLARGE.jpg" alt="8762563_20230324073419449_1_XLARGE">
 <img src="/images/1978-sabre-34-8762563/8762563_20230324073504268_1_XLARGE.jpg" alt="8762563_20230324073504268_1_XLARGE">
 <img src="/images/1978-sabre-34-8762563/8762563_20230324073601115_1_XLARGE.jpg" alt="8762563_20230324073601115_1_XLARGE">
+<img src="/images/1978-sabre-34-8762563/IMG_2356.jpg" alt="IMG_2356">
 <img src="/images/1978-sabre-34-8762563/8762563_20230324073457211_1_XLARGE.jpg" alt="8762563_20230324073457211_1_XLARGE">
 <img src="/images/1978-sabre-34-8762563/8762563_20230324073500288_1_XLARGE.jpg" alt="8762563_20230324073500288_1_XLARGE">
 <img src="/images/1978-sabre-34-8762563/8762563_20230324073456206_1_XLARGE.jpg" alt="8762563_20230324073456206_1_XLARGE">
@@ -117,3 +121,17 @@ WINTER COVER, LOTS OF PARTS, PAINT, SPARES, FANS, AND MORE
 <li><a href='https://www.yachtworld.com/yacht/1978-sabre-34-8762563/' target='_BLANK'>YachtWorld Listing</a></li>
 <li><a href='https://sailboatdata.com/sailboat/sabre-34/?units=imperial' target='_BLANK'>SailboatData</a></li>
 <li><a href='https://www.practical-sailor.com/sailboat-reviews/sabre-34' target='_BLANK'>Practical Sailor</a></li>
+</ul>
+
+## Visit Notes
+
+
+
+**2024-05-06:**
+
+- Pictures show the port lights that are leaking; the leaks are at the fittings, will need to be rebedded. No water trailing down to the woodwork.
+- The floorboards right by the mast are really delaminated varnish; this looks like teak but it was varnished for some reason? Will probably need to replace the 2 short boards.
+- The interior is, overall, really nicely maintained. I pulled up seat cushions and couldn't find any signs of unknown leaking anywhere.
+- The engine is clean, no milkyness I could see in the oil.
+- Small drip off a hose line in the back of the engine compartment that looks like it leads from the cockpit, not sure what that is.
+- Bilge was full and flooded when we came onboard, the broker turned on the pump power and it cleared in about 5 minutes. Not completely dry, but dry enough. Pump stopped on its own.

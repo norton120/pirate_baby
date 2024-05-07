@@ -5,9 +5,11 @@ from pathlib import Path
 class MakeBoat:
 
 
-    def getdata(self, key):
+    def getdata(self, key, default=None):
         # stupid pandas indexes and I don't feel like re-converting again
-        top = self.data[key]
+        top = self.data.get(key, default)
+        if top == default:
+            return top
         return top.get("7", top.get("15"))
 
     def __init__(self, boatpath:Path):
@@ -22,6 +24,7 @@ class MakeBoat:
         self.body += self.base_specs()
         self.body += self.engine()
         self.body += self.writeups()
+        self.body += self.visit_notes()
         index = self.boatpath / "index.md"
         index.write_text(self.body)
 
@@ -90,4 +93,24 @@ class MakeBoat:
             (f"https://www.practical-sailor.com/sailboat-reviews/{name_kebab}", "Practical Sailor"),
         ):
             writeups += f"<li><a href='{url}' target='_BLANK'>{title}</a></li>\n"
+        writeups += "</ul>\n\n"
         return writeups
+
+    def visit_notes(self):
+        if not (note_dates := self.getdata("visit_notes", [])):
+            return ""
+        notes = "## Visit Notes\n\n"
+        for date in note_dates:
+            notes += f"\n\n**{date['date']}:**\n\n"
+            for note in date['notes']:
+                notes += f"- {note}\n"
+        return notes
+
+
+if __name__ == "__main__":
+    paths = Path("/app/content/boats").iterdir()
+    for path in paths:
+        if path.is_dir() and not path.name.startswith("_"):
+            print("making boat: ", path)
+            MakeBoat(path)
+            print("done")

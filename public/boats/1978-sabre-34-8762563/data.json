@@ -68,5 +68,21 @@
     },
     "id":{
         "15":8762563.0
+    },
+    "visit_notes":{
+        "15":[
+        {
+            "date": "2024-05-06",
+            "notes": [
+                "Pictures show the port lights that are leaking; the leaks are at the fittings, will need to be rebedded. No water trailing down to the woodwork.",
+                "The floorboards right by the mast are really delaminated varnish; this looks like teak but it was varnished for some reason? Will probably need to replace the 2 short boards.",
+                "The interior is, overall, really nicely maintained. I pulled up seat cushions and couldn't find any signs of unknown leaking anywhere.",
+                "The engine is clean, no milkyness I could see in the oil.",
+                "Small drip off a hose line in the back of the engine compartment that looks like it leads from the cockpit, not sure what that is.",
+                "Bilge was full and flooded when we came onboard, the broker turned on the pump power and it cleared in about 5 minutes. Not completely dry, but dry enough. Pump stopped on its own."
+            ]
+        }
+    ]
     }
+
 }
