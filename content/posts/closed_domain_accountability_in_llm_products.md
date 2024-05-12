@@ -18,9 +18,9 @@ So how do we make the transition from squishy intangibles and moving delivery ta
 ### Sunset your disclaimers
 Here is a banner you won't see:
 ![Amazon does not need an out clause](images/unreliable_software.png)
-That is because real products cannot come with an escape hatch. The AI Engineering team is responsible for making the consumer experience right and reliable, full stop. This doesn't mean _the LLM_ needs to get everything right every time - quite the contrary. Engineers must orchestrate the holistic interaction of software, inference, and user to arrive at  creating a product that provides a reliable and trustworthy experience. 
+That is because real products cannot come with an escape hatch. The AI Engineering team is responsible for making the consumer experience right and reliable, full stop. This doesn't mean _the LLM_ needs to get everything right every time - quite the contrary. Engineers must orchestrate the holistic interaction of software, inference, and user to arrive at a reliable and trustworthy experience. 
 
-I once worked with an ecom platform that was being _slaughtered_ by Amazon over shipping timelines. The problem wasn't the platform's actual delivery time - most orders were delivered less than two days travel from a warehouse - it was the logistics of displaying an accurate estimated delivery date while relying on slow 3rd party vendor feeds. We could have slapped a disclamer "estimates may be innacurate and you may get your stuff whenever" - but that wasn't the product we wanted to deliver. So we built out a simple system: 
+I once worked with an ecom platform that was being _slaughtered_ by Amazon over shipping timelines. The problem wasn't our actual delivery times (most orders were delivered in 1-2 days), but the logistics of displaying an accurate estimated delivery date when relying on slow 3rd party vendor feeds. We could have slapped a disclamer "estimates may be innacurate and you may get your stuff whenever" - but that wasn't the product we wanted to deliver. So we built out a simple system: 
 
 1. Lead with the best guess arrival date estimate, based on all available information (accurate or not)
 2. Determine the _actual_ timeline after the order was placed
@@ -48,11 +48,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 ### Use. Metrics. 
 If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3OTE5MjY3OSwtMTY2MDQ2NTYzLDkzNz
-I0OTMwMiwxMzE1MDk3NDU1LDkzMTgwMzk0NSwtOTY2MzUyNzE4
-LDEwNTIzODMyODIsNjE2NDc5NDc3LDY2NjUzMjUxNCw4MzcwNz
-cyMzAsMTM3Nzg0OTUzNCwxNzkzMzQyMTc0LDgxMzQ4NTgyMiwt
-NjE4MjM3NzY3LDE3OTY3Mzc2OTYsLTE5MDk5NDA3NDYsMTU4Mj
-k2NjQ0Myw0NTI0MzU0MjYsLTE1MjM4OTkxNTcsODU5Njg3MjUz
-XX0=
+eyJoaXN0b3J5IjpbNTM0NjU2MzIsLTE2NjA0NjU2Myw5MzcyND
+kzMDIsMTMxNTA5NzQ1NSw5MzE4MDM5NDUsLTk2NjM1MjcxOCwx
+MDUyMzgzMjgyLDYxNjQ3OTQ3Nyw2NjY1MzI1MTQsODM3MDc3Mj
+MwLDEzNzc4NDk1MzQsMTc5MzM0MjE3NCw4MTM0ODU4MjIsLTYx
+ODIzNzc2NywxNzk2NzM3Njk2LC0xOTA5OTQwNzQ2LDE1ODI5Nj
+Y0NDMsNDUyNDM1NDI2LC0xNTIzODk5MTU3LDg1OTY4NzI1M119
+
 -->
