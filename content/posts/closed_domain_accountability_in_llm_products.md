@@ -33,7 +33,7 @@ Nothing makes my skin crawl like stepping into a Machine Learning stack where on
 Commercial Product Engineering teams are not Academia, and the software we write is not intended to promote our personal learning or exploration. Put simply, this is not a place to play. 
 _Experimentation_ is an important part of AI/ML development. In Experimentation, the scientific method is applied to stated hypotheses in order to discover new solutions for stated objectives. This experimentation must be systematic and governed by a commercially viable outcome; success is clearly defined and experiments produce metrics reflecting progress toward that success. 
 
-"_Playgrounds_," on the other hand, most often exactly what the name implies: Data Scientists haphazardly adjusting parameters, trying out whatever novel methodology is in vogue at the moment, and traversing down rabbit holes totally unrelated to the initial objective. 
+"_Playgrounds_," on the other hand, most often live up to their namesake: Data Scientists haphazardly adjusting model parameters,  out whatever novel methodology is in vogue at the moment, and traversing down rabbit holes totally unrelated to the initial objective. 
  
 Experimentation, on the other hand, results in concrete feedback. "Today I am going to run through the matrix of affinity mask weights, the current match on ground truth is at 86% and we are targeting 90% or better with this experiment." 
 Be able to explain exactly what you are doing in an experiment, or it is just playing. 
@@ -50,11 +50,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 ### Use. Metrics. 
 If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NDU4MDcwMywtMTYxNTc2NjQzLDEyOD
-Y5MzcwNTQsLTE2MTI5MzM3MzQsMTMwOTg5MDA4OCwtMTY2MDQ2
-NTYzLDkzNzI0OTMwMiwxMzE1MDk3NDU1LDkzMTgwMzk0NSwtOT
-Y2MzUyNzE4LDEwNTIzODMyODIsNjE2NDc5NDc3LDY2NjUzMjUx
-NCw4MzcwNzcyMzAsMTM3Nzg0OTUzNCwxNzkzMzQyMTc0LDgxMz
-Q4NTgyMiwtNjE4MjM3NzY3LDE3OTY3Mzc2OTYsLTE5MDk5NDA3
-NDZdfQ==
+eyJoaXN0b3J5IjpbOTk5NTk5NTg5LC0xNjE1NzY2NDMsMTI4Nj
+kzNzA1NCwtMTYxMjkzMzczNCwxMzA5ODkwMDg4LC0xNjYwNDY1
+NjMsOTM3MjQ5MzAyLDEzMTUwOTc0NTUsOTMxODAzOTQ1LC05Nj
+YzNTI3MTgsMTA1MjM4MzI4Miw2MTY0Nzk0NzcsNjY2NTMyNTE0
+LDgzNzA3NzIzMCwxMzc3ODQ5NTM0LDE3OTMzNDIxNzQsODEzND
+g1ODIyLC02MTgyMzc3NjcsMTc5NjczNzY5NiwtMTkwOTk0MDc0
+Nl19
 -->
