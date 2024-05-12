@@ -37,7 +37,7 @@ _Experimentation_ is an important part of AI/ML development. In Experimentation,
  
 Experiments report metrics - how many test cases remain, how the scores are trending, and if the hypothesis under test is a statistical improvement. Playgrounds generate updates like "I am still working on X" and "Y seems a little better now." 
 
-If you are unable to 
+
 
 ### Treat Ground Truth Like an Evil Genie
 In every genie story someone falls prey to the curse of ambiguous wishes. The genie twists assumptions, plays on words, and transforms every wish into a curse. 
@@ -51,11 +51,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 ### Use. Metrics. 
 If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njk2NzA3OTksLTE2MTU3NjY0MywxMj
-g2OTM3MDU0LC0xNjEyOTMzNzM0LDEzMDk4OTAwODgsLTE2NjA0
-NjU2Myw5MzcyNDkzMDIsMTMxNTA5NzQ1NSw5MzE4MDM5NDUsLT
-k2NjM1MjcxOCwxMDUyMzgzMjgyLDYxNjQ3OTQ3Nyw2NjY1MzI1
-MTQsODM3MDc3MjMwLDEzNzc4NDk1MzQsMTc5MzM0MjE3NCw4MT
-M0ODU4MjIsLTYxODIzNzc2NywxNzk2NzM3Njk2LC0xOTA5OTQw
-NzQ2XX0=
+eyJoaXN0b3J5IjpbMjAxMTU4MzI2MSwtMTYxNTc2NjQzLDEyOD
+Y5MzcwNTQsLTE2MTI5MzM3MzQsMTMwOTg5MDA4OCwtMTY2MDQ2
+NTYzLDkzNzI0OTMwMiwxMzE1MDk3NDU1LDkzMTgwMzk0NSwtOT
+Y2MzUyNzE4LDEwNTIzODMyODIsNjE2NDc5NDc3LDY2NjUzMjUx
+NCw4MzcwNzcyMzAsMTM3Nzg0OTUzNCwxNzkzMzQyMTc0LDgxMz
+Q4NTgyMiwtNjE4MjM3NzY3LDE3OTY3Mzc2OTYsLTE5MDk5NDA3
+NDZdfQ==
 -->
