@@ -46,16 +46,16 @@ asier to grasp when you consider that the immediate goal of each experiment is n
 ### Treat Ground Truth Like an Evil Genie
 In every genie story someone falls prey to the curse of ambiguous wishes. The genie twists assumptions, plays on words, and transforms every wish into a curse. 
 
-Ground truth datasets for your product should be largely the domain of the Product Owner, and should reflect an interatively tightening understanding of what success looks like. 
+Ground truth datasets for your product should be largely the domain of the Product Owner, and should reflect an iteratively tightening understanding of what success looks like. 
 
 ### Ruthlessly Define Success
 A few times here I have referenced the definition of success. That definition needs to be, uh.. defined. By Product. Be able to answer any question of "can it do" or "what does it do when" without looking at the AI Engineering team. If your AI Engineering team are the only people that can answer "can it do," that means you left the product design up to them. That is stupid, don't do that. 
 Create NLUX scripts - just like websites have wireframes, AI-powered products need language "wireframes" from someone who has thought the experience through without worrying about implementation. Those scripts become test cases, and those test cases produce measures of success that are tangiable and not "I'm working on it"
 
-### Use. Metrics. 
-If there is one critical difference between open-ended 
+###  
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTg2NjkwNzUsLTE1MjU4NTQxNzEsMT
+eyJoaXN0b3J5IjpbLTE0MTI5MTcwNDEsLTE1MjU4NTQxNzEsMT
 M0ODI4NDIzOCwzNDgxMzQ1MzUsLTc1MzE4NDY3LC02Njk5NTgw
 NjQsLTE2MTU3NjY0MywxMjg2OTM3MDU0LC0xNjEyOTMzNzM0LD
 EzMDk4OTAwODgsLTE2NjA0NjU2Myw5MzcyNDkzMDIsMTMxNTA5
