@@ -18,8 +18,7 @@ So how do we make the transition from squishy intangibles and moving delivery ta
 ### Sunset your disclaimers
 Here is a banner you won't see:
 ![Amazon does not need an out clause](images/unreliable_software.png)
-That is because real products cannot come with an escape hatch. The AI Engineering team is responsible for making the consumer experience ri and make it reliable, full stop. 
-This doesn't mean _the LLM_ needs to get everything right, every time - quite the contrary. It means Engineers must orchestrate the interaction of software, LLM and user to arrive at success, creating a product that provides a reliable and trustworthy experience. 
+That is because real products cannot come with an escape hatch. The AI Engineering team is responsible for making the consumer experience right and reliable, full stop. This doesn't mean _the LLM_ needs to get everything right every time - quite the contrary. Engineers must orchestrate the holistic interaction of software, inference, and user to arrive at  creating a product that provides a reliable and trustworthy experience. 
 
 I once worked with an ecom platform that was being _slaughtered_ by Amazon over shipping timelines. The problem wasn't the platform's actual delivery time - most orders were delivered less than two days travel from a warehouse - it was the logistics of displaying an accurate estimated delivery date while relying on slow 3rd party vendor feeds. We could have slapped a disclamer "estimates may be innacurate and you may get your stuff whenever" - but that wasn't the product we wanted to deliver. So we built out a simple system: 
 
@@ -49,7 +48,7 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 ### Use. Metrics. 
 If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2OTc3ODYxMiwtMTY2MDQ2NTYzLDkzNz
+eyJoaXN0b3J5IjpbLTI3OTE5MjY3OSwtMTY2MDQ2NTYzLDkzNz
 I0OTMwMiwxMzE1MDk3NDU1LDkzMTgwMzk0NSwtOTY2MzUyNzE4
 LDEwNTIzODMyODIsNjE2NDc5NDc3LDY2NjUzMjUxNCw4MzcwNz
 cyMzAsMTM3Nzg0OTUzNCwxNzkzMzQyMTc0LDgxMzQ4NTgyMiwt
