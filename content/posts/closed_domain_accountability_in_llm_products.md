@@ -33,8 +33,9 @@ Nothing makes my skin crawl like stepping into a Machine Learning stack where on
 Commercial Product Engineering teams are not Academia, and the software we write is not intended to promote our personal learning or exploration. Put simply, this is not a place to play. 
 _Experimentation_ is an important part of AI/ML development. In Experimentation, the scientific method is applied to stated hypotheses in order to discover new solutions for stated objectives. This experimentation must be systematic and governed by a commercially viable outcome; success is clearly defined and experiments produce metrics reflecting progress toward that success. 
 
-"_Playgrounds_," on the other hand, most often live up to their namesake: Data Scientists haphazardly adjusting model parameters,  out whatever novel methodology is in vogue at the moment, and traversing down rabbit holes totally unrelated to the initial objective. 
+"_Playgrounds_," on the other hand, most often live up to their namesake: Data Scientists haphazardly adjusting model parameters, test-driving whatever novel methodologies are in vogue at the moment, and traversing down rabbit holes totally unrelated to the initial objective. 
  
+Experimenters can, at any time, report on the status of their experiments - how many test cases remain, what the score tren
 Experimentation, on the other hand, results in concrete feedback. "Today I am going to run through the matrix of affinity mask weights, the current match on ground truth is at 86% and we are targeting 90% or better with this experiment." 
 Be able to explain exactly what you are doing in an experiment, or it is just playing. 
 
@@ -50,7 +51,7 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 ### Use. Metrics. 
 If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk5NTk5NTg5LC0xNjE1NzY2NDMsMTI4Nj
+eyJoaXN0b3J5IjpbMzc5OTExNzc4LC0xNjE1NzY2NDMsMTI4Nj
 kzNzA1NCwtMTYxMjkzMzczNCwxMzA5ODkwMDg4LC0xNjYwNDY1
 NjMsOTM3MjQ5MzAyLDEzMTUwOTc0NTUsOTMxODAzOTQ1LC05Nj
 YzNTI3MTgsMTA1MjM4MzI4Miw2MTY0Nzk0NzcsNjY2NTMyNTE0
