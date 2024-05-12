@@ -42,6 +42,9 @@ in software engineering we know things will work and we just need to implement t
 asier to grasp when you consider that the immediate goal of each experiment is not feature success, but _hypothesis elimination_ that will ultimately lead to feature success. What does that mean? We experiment because we do not know what will actually work
 </replace>
 
+### Get Back to Product Ownership
+
+
 ### Treat Ground Truth Like an Evil Genie
 Ambiguous wishes are the downfall of fairy tail magic lamps; a man wishes for wealth, and the genie transforms him into a rich miser on his death bed. Your ground truth datasets are as equally sensitive to ambiguity. 
 
@@ -53,11 +56,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTYzNTk4MjksMTU0Mzg2NjY1NSw5MD
-Q3MTQ5OTcsLTMzNDAzMzE3Miw5MDE5MjU3NzMsLTE2NzkzMDA4
-NDksLTQ5NDEzODAzMiwtMTUyNTg1NDE3MSwxMzQ4Mjg0MjM4LD
-M0ODEzNDUzNSwtNzUzMTg0NjcsLTY2OTk1ODA2NCwtMTYxNTc2
-NjQzLDEyODY5MzcwNTQsLTE2MTI5MzM3MzQsMTMwOTg5MDA4OC
-wtMTY2MDQ2NTYzLDkzNzI0OTMwMiwxMzE1MDk3NDU1LDkzMTgw
-Mzk0NV19
+eyJoaXN0b3J5IjpbMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LDE1ND
+M4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1Nzcz
+LC0xNjc5MzAwODQ5LC00OTQxMzgwMzIsLTE1MjU4NTQxNzEsMT
+M0ODI4NDIzOCwzNDgxMzQ1MzUsLTc1MzE4NDY3LC02Njk5NTgw
+NjQsLTE2MTU3NjY0MywxMjg2OTM3MDU0LC0xNjEyOTMzNzM0LD
+EzMDk4OTAwODgsLTE2NjA0NjU2Myw5MzcyNDkzMDIsMTMxNTA5
+NzQ1NV19
 -->
