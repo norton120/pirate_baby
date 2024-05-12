@@ -37,8 +37,7 @@ _Experimentation_ is an important part of AI/ML development. In Experimentation,
  
 Experiments report metrics - how many test cases remain, how the scores are trending, and if the hypothesis under test is a statistical improvement. Playgrounds generate updates like "I am still working on X" and "Y seems a little better now." 
 
-Structured experimenting is especially important when you consider how Data Science differs from Software Engineering; 
-
+What makes 
 
 asier to grasp when you consider that the immediate goal of each experiment is not feature success, but _hypothesis elimination_ that will ultimately lead to feature success. What does that mean? We experiment because we do not know what will actually work
 
@@ -54,11 +53,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 ### Use. Metrics. 
 If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0ODI4NDIzOCwzNDgxMzQ1MzUsLTc1Mz
-E4NDY3LC02Njk5NTgwNjQsLTE2MTU3NjY0MywxMjg2OTM3MDU0
-LC0xNjEyOTMzNzM0LDEzMDk4OTAwODgsLTE2NjA0NjU2Myw5Mz
-cyNDkzMDIsMTMxNTA5NzQ1NSw5MzE4MDM5NDUsLTk2NjM1Mjcx
-OCwxMDUyMzgzMjgyLDYxNjQ3OTQ3Nyw2NjY1MzI1MTQsODM3MD
-c3MjMwLDEzNzc4NDk1MzQsMTc5MzM0MjE3NCw4MTM0ODU4MjJd
-fQ==
+eyJoaXN0b3J5IjpbLTg3NzMwODM3MCwxMzQ4Mjg0MjM4LDM0OD
+EzNDUzNSwtNzUzMTg0NjcsLTY2OTk1ODA2NCwtMTYxNTc2NjQz
+LDEyODY5MzcwNTQsLTE2MTI5MzM3MzQsMTMwOTg5MDA4OCwtMT
+Y2MDQ2NTYzLDkzNzI0OTMwMiwxMzE1MDk3NDU1LDkzMTgwMzk0
+NSwtOTY2MzUyNzE4LDEwNTIzODMyODIsNjE2NDc5NDc3LDY2Nj
+UzMjUxNCw4MzcwNzcyMzAsMTM3Nzg0OTUzNCwxNzkzMzQyMTc0
+XX0=
 -->
