@@ -40,6 +40,8 @@ Experiments report metrics - how many test cases remain, how the scores are tren
 <replace>
 in software engineering we know things will work and we just need to implement them. In Data Science experiments, we don't know if our thing will work. 
 asier to grasp when you consider that the immediate goal of each experiment is not feature success, but _hypothesis elimination_ that will ultimately lead to feature success. What does that mean? We experiment because we do not know what will actually work
+
+because the path to success is that much more complex, it is that much more important we can communicate clearly with metrics and measured progress. 
 </replace>
 
 ### Get Back to Product Ownership
@@ -56,11 +58,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LDE1ND
-M4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1Nzcz
-LC0xNjc5MzAwODQ5LC00OTQxMzgwMzIsLTE1MjU4NTQxNzEsMT
-M0ODI4NDIzOCwzNDgxMzQ1MzUsLTc1MzE4NDY3LC02Njk5NTgw
-NjQsLTE2MTU3NjY0MywxMjg2OTM3MDU0LC0xNjEyOTMzNzM0LD
-EzMDk4OTAwODgsLTE2NjA0NjU2Myw5MzcyNDkzMDIsMTMxNTA5
-NzQ1NV19
+eyJoaXN0b3J5IjpbMjA4NjEzODU5NywzMDk5NjQ3NzgsLTIwNT
+YzNTk4MjksMTU0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzNDAzMzE3
+Miw5MDE5MjU3NzMsLTE2NzkzMDA4NDksLTQ5NDEzODAzMiwtMT
+UyNTg1NDE3MSwxMzQ4Mjg0MjM4LDM0ODEzNDUzNSwtNzUzMTg0
+NjcsLTY2OTk1ODA2NCwtMTYxNTc2NjQzLDEyODY5MzcwNTQsLT
+E2MTI5MzM3MzQsMTMwOTg5MDA4OCwtMTY2MDQ2NTYzLDkzNzI0
+OTMwMl19
 -->
