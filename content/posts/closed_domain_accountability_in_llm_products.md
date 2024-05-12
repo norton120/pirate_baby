@@ -43,7 +43,7 @@ asier to grasp when you consider that the immediate goal of each experiment is n
 </replace>
 
 ### Treat Ground Truth Like an Evil Genie
-Ambiguous wishes are always the downfall of magic lamps in fairy tails - someone wishes for fame and becomes a 
+Ambiguous wishes are always the downfall of magic lamps in fairy tails; a ca
 
 Ground truth datasets for your product should be largely the domain of the Product Owner, and should reflect an iteratively tightening understanding of what success looks like. 
 
@@ -53,11 +53,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTEyMzU1MDgsLTQ5NDEzODAzMiwtMT
-UyNTg1NDE3MSwxMzQ4Mjg0MjM4LDM0ODEzNDUzNSwtNzUzMTg0
-NjcsLTY2OTk1ODA2NCwtMTYxNTc2NjQzLDEyODY5MzcwNTQsLT
-E2MTI5MzM3MzQsMTMwOTg5MDA4OCwtMTY2MDQ2NTYzLDkzNzI0
-OTMwMiwxMzE1MDk3NDU1LDkzMTgwMzk0NSwtOTY2MzUyNzE4LD
-EwNTIzODMyODIsNjE2NDc5NDc3LDY2NjUzMjUxNCw4MzcwNzcy
-MzBdfQ==
+eyJoaXN0b3J5IjpbLTgxNjEzOTY2OCwtNDk0MTM4MDMyLC0xNT
+I1ODU0MTcxLDEzNDgyODQyMzgsMzQ4MTM0NTM1LC03NTMxODQ2
+NywtNjY5OTU4MDY0LC0xNjE1NzY2NDMsMTI4NjkzNzA1NCwtMT
+YxMjkzMzczNCwxMzA5ODkwMDg4LC0xNjYwNDY1NjMsOTM3MjQ5
+MzAyLDEzMTUwOTc0NTUsOTMxODAzOTQ1LC05NjYzNTI3MTgsMT
+A1MjM4MzI4Miw2MTY0Nzk0NzcsNjY2NTMyNTE0LDgzNzA3NzIz
+MF19
 -->
