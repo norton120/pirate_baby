@@ -35,9 +35,7 @@ _Experimentation_ is an important part of AI/ML development. In Experimentation,
 
 "_Playgrounds_," on the other hand, most often live up to their namesake: Data Scientists haphazardly adjusting model parameters, test-driving whatever novel methodologies are in vogue at the moment, and traversing down rabbit holes totally unrelated to the initial objective. 
  
-Experiments report metrics - how many test cases remain, how the scores are trending, and if the hypothesis under test is a statistical improvement. Playgrounds generate updates like "I am still working on X" and "Y seems a little better now." The outsized importance of structured experimenting (not playing) is easier to grasp when you consider the immediate goal of experimentation is not feature success, but _hypothesis elimination_ that will ultimately lead to feature success. 
-Software Engineering is, for the most part, implementing the known. If 
-
+Experiments report metrics - how many test cases remain, how the scores are trending, and if the hypothesis under test is a statistical improvement. Playgrounds generate updates like "I am still working on X" and "Y seems a little better now." The outsized importance of structured experimenting (not playing) is easier to grasp when you consider the immediate goal of experimentation is not feature success, but _hypothesis elimination_ that will ultimately lead to feature success. We experiment because we do not know what will actually work
 
 ### Treat Ground Truth Like an Evil Genie
 In every genie story someone falls prey to the curse of ambiguous wishes. The genie twists assumptions, plays on words, and transforms every wish into a curse. 
@@ -51,7 +49,7 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 ### Use. Metrics. 
 If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMTc1NTk0MCwtMTYxNTc2NjQzLDEyOD
+eyJoaXN0b3J5IjpbLTY2OTk1ODA2NCwtMTYxNTc2NjQzLDEyOD
 Y5MzcwNTQsLTE2MTI5MzM3MzQsMTMwOTg5MDA4OCwtMTY2MDQ2
 NTYzLDkzNzI0OTMwMiwxMzE1MDk3NDU1LDkzMTgwMzk0NSwtOT
 Y2MzUyNzE4LDEwNTIzODMyODIsNjE2NDc5NDc3LDY2NjUzMjUx
