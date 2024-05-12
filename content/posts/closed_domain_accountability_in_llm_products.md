@@ -30,7 +30,8 @@ As expectations for Generative Engineering become more grounded in consumer real
 ### Stop playing
 Nothing makes my skin crawl like stepping into a Machine Learning stack where one of the repositories is named "Playground." I know that is an unfortunately common nomenclature for experimentation suites, but words matter - and in this case illustrate my issue with production Data Science. 
 
-Commercial Product Engineering teams are not Academia, and the software we write is not intended to promote our personal learning or exploration. Put simply, this is not a place to play. _Experimentation_ is an important part of AI/ML development, and by systematically applying the scientific method we can discover new techniques and solutions. That experimentation should be governed by a commerically viable outcome - we know exactly what success looks like, we experiment with laser-focus toward that definition of success, and we have concrete metrics in place to tell us when that success has been achieved. "Playgrounds" often manifest in practice what the name implies: haphazardly adjusting parameters, trying out whatever novel methodology is in vogue this morning, traversing down rabbit holes totally unrelated to the initial goal. At standup, Engineers in the playground say things like "still working on it." 
+Commercial Product Engineering teams are not Academia, and the software we write is not intended to promote our personal learning or exploration. Put simply, this is not a place to play. 
+_Experimentation_, on the other hand, is an important part of AI/ML development. In Experystematically applying the scientific method we can discover new techniques and solutions. That experimentation should be governed by a commerically viable outcome - we know exactly what success looks like, we experiment with laser-focus toward that definition of success, and we have concrete metrics in place to tell us when that success has been achieved. "Playgrounds" often manifest in practice what the name implies: haphazardly adjusting parameters, trying out whatever novel methodology is in vogue this morning, traversing down rabbit holes totally unrelated to the initial goal. At standup, Engineers in the playground say things like "still working on it." 
 Experimentation, on the other hand, results in concrete feedback. "Today I am going to run through the matrix of affinity mask weights, the current match on ground truth is at 86% and we are targeting 90% or better with this experiment." 
 Be able to explain exactly what you are doing in an experiment, or it is just playing. 
 
@@ -46,11 +47,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 ### Use. Metrics. 
 If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODQ4ODczMSwtMTYxNTc2NjQzLDEyOD
-Y5MzcwNTQsLTE2MTI5MzM3MzQsMTMwOTg5MDA4OCwtMTY2MDQ2
-NTYzLDkzNzI0OTMwMiwxMzE1MDk3NDU1LDkzMTgwMzk0NSwtOT
-Y2MzUyNzE4LDEwNTIzODMyODIsNjE2NDc5NDc3LDY2NjUzMjUx
-NCw4MzcwNzcyMzAsMTM3Nzg0OTUzNCwxNzkzMzQyMTc0LDgxMz
-Q4NTgyMiwtNjE4MjM3NzY3LDE3OTY3Mzc2OTYsLTE5MDk5NDA3
-NDZdfQ==
+eyJoaXN0b3J5IjpbLTE5NDA0MzY3ODgsLTE2MTU3NjY0MywxMj
+g2OTM3MDU0LC0xNjEyOTMzNzM0LDEzMDk4OTAwODgsLTE2NjA0
+NjU2Myw5MzcyNDkzMDIsMTMxNTA5NzQ1NSw5MzE4MDM5NDUsLT
+k2NjM1MjcxOCwxMDUyMzgzMjgyLDYxNjQ3OTQ3Nyw2NjY1MzI1
+MTQsODM3MDc3MjMwLDEzNzc4NDk1MzQsMTc5MzM0MjE3NCw4MT
+M0ODU4MjIsLTYxODIzNzc2NywxNzk2NzM3Njk2LC0xOTA5OTQw
+NzQ2XX0=
 -->
