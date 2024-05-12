@@ -52,14 +52,13 @@ Ground truth datasets for your product should be largely the domain of the Produ
 A few times here I have referenced the definition of success. That definition needs to be, uh.. defined. By Product. Be able to answer any question of "can it do" or "what does it do when" without looking at the AI Engineering team. If your AI Engineering team are the only people that can answer "can it do," that means you left the product design up to them. That is stupid, don't do that. 
 Create NLUX scripts - just like websites have wireframes, AI-powered products need language "wireframes" from someone who has thought the experience through without worrying about implementation. Those scripts become test cases, and those test cases produce measures of success that are tangiable and not "I'm working on it"
 
-###  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTI5MTcwNDEsLTE1MjU4NTQxNzEsMT
-M0ODI4NDIzOCwzNDgxMzQ1MzUsLTc1MzE4NDY3LC02Njk5NTgw
-NjQsLTE2MTU3NjY0MywxMjg2OTM3MDU0LC0xNjEyOTMzNzM0LD
-EzMDk4OTAwODgsLTE2NjA0NjU2Myw5MzcyNDkzMDIsMTMxNTA5
-NzQ1NSw5MzE4MDM5NDUsLTk2NjM1MjcxOCwxMDUyMzgzMjgyLD
-YxNjQ3OTQ3Nyw2NjY1MzI1MTQsODM3MDc3MjMwLDEzNzc4NDk1
-MzRdfQ==
+eyJoaXN0b3J5IjpbLTQ5NDEzODAzMiwtMTUyNTg1NDE3MSwxMz
+Q4Mjg0MjM4LDM0ODEzNDUzNSwtNzUzMTg0NjcsLTY2OTk1ODA2
+NCwtMTYxNTc2NjQzLDEyODY5MzcwNTQsLTE2MTI5MzM3MzQsMT
+MwOTg5MDA4OCwtMTY2MDQ2NTYzLDkzNzI0OTMwMiwxMzE1MDk3
+NDU1LDkzMTgwMzk0NSwtOTY2MzUyNzE4LDEwNTIzODMyODIsNj
+E2NDc5NDc3LDY2NjUzMjUxNCw4MzcwNzcyMzAsMTM3Nzg0OTUz
+NF19
 -->
