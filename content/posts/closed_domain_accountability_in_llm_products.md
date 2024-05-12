@@ -38,7 +38,7 @@ _Experimentation_ is an important part of AI/ML development. In Experimentation,
 Experiments report metrics - how many test cases remain, how the scores are trending, and if the hypothesis under test is a statistical improvement. Playgrounds generate updates like "I am still working on X" and "Y seems a little better now." 
 
 <replace>
-in software engineering we know things will work and we just need to implement them. In Data Science experiments, we don't know 
+in software engineering we know things will work and we just need to implement them. In Data Science experiments, we don't know if our thing will work. 
 asier to grasp when you consider that the immediate goal of each experiment is not feature success, but _hypothesis elimination_ that will ultimately lead to feature success. What does that mean? We experiment because we do not know what will actually work
 </replace>
 
@@ -55,11 +55,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 ### Use. Metrics. 
 If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjU4NTQxNzEsMTM0ODI4NDIzOCwzND
-gxMzQ1MzUsLTc1MzE4NDY3LC02Njk5NTgwNjQsLTE2MTU3NjY0
-MywxMjg2OTM3MDU0LC0xNjEyOTMzNzM0LDEzMDk4OTAwODgsLT
-E2NjA0NjU2Myw5MzcyNDkzMDIsMTMxNTA5NzQ1NSw5MzE4MDM5
-NDUsLTk2NjM1MjcxOCwxMDUyMzgzMjgyLDYxNjQ3OTQ3Nyw2Nj
-Y1MzI1MTQsODM3MDc3MjMwLDEzNzc4NDk1MzQsMTc5MzM0MjE3
-NF19
+eyJoaXN0b3J5IjpbLTExOTg2NjkwNzUsLTE1MjU4NTQxNzEsMT
+M0ODI4NDIzOCwzNDgxMzQ1MzUsLTc1MzE4NDY3LC02Njk5NTgw
+NjQsLTE2MTU3NjY0MywxMjg2OTM3MDU0LC0xNjEyOTMzNzM0LD
+EzMDk4OTAwODgsLTE2NjA0NjU2Myw5MzcyNDkzMDIsMTMxNTA5
+NzQ1NSw5MzE4MDM5NDUsLTk2NjM1MjcxOCwxMDUyMzgzMjgyLD
+YxNjQ3OTQ3Nyw2NjY1MzI1MTQsODM3MDc3MjMwLDEzNzc4NDk1
+MzRdfQ==
 -->
