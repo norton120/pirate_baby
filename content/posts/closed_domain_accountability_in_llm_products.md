@@ -24,13 +24,13 @@ I once worked with an ecom platform that was being _slaughtered_ by Amazon over 
 
 Instead we standardized on free two-day delivery for anything we couldn't reliably calculate via API calls. Simple automated shipping covered the vast majority of these orders, and expedited shipping (which we paid for) took care of slow outliers that turned up during fulfillment. Clear, reliable delivery timelines had a dramatic impact on conversion that greatly outweighed the occasional cost of expedited shipping. We delivered the whole of the feature we promised, not a watered-down version plastered with escape hatches. 
 
-As expectations for Generative Engineering become more grounded in consumer reality, the limitations of a product's parts will not excuse the failings of the sum. That means thinking outside the prompt and beyond your RAG strategy, doing a lot of hard Data Engineering, or Software Engineering, or Product Development - or all of the above. 
+As expectations for Generative Engineering become more grounded in consumer reality, the limitations of a product's parts will not excuse the failings of the sum. That means thinking outside the prompt and beyond your RAG strategy, doing a lot of hard Data Engineering, or Software Engineering, or Product Development - or all of the above - to move past the disclaimers and deliver what you promise.
 
 
 ### Stop playing
-Nothing makes my skin crawl like stepping into a Machine Learning stack where one of the repositories is named "Playground." I know that is an unfortunately common nomenclature for experimentation suites, but words matter - and in this case illustrate the issue. 
+Nothing makes my skin crawl like stepping into a Machine Learning stack where one of the repositories is named "Playground." I know that is an unfortunately common nomenclature for experimentation suites, but words matter - and in this case illustrate my issue with production Data Science. 
 
-Commerical Product Engineering teams are not Acedamia, and the software we write is not intended to promote our personal learning or exploration. Put simply, this is not a place to play. _Experimentation_ is an important part of AI/ML development, and by systematically applying the scientific method we can discover new techniques and solutions. That experimentation should be governed by a commerically viable outcome - we know exactly what success looks like, we experiment with laser-focus toward that definition of success, and we have concrete metrics in place to tell us when that success has been achieved. "Playgrounds" often manifest in practice what the name implies: haphazardly adjusting parameters, trying out whatever novel methodology is in vogue this morning, traversing down rabbit holes totally unrelated to the initial goal. At standup, Engineers in the playground say things like "still working on it." 
+Commercial Product Engineering teams are not Academia, and the software we write is not intended to promote our personal learning or exploration. Put simply, this is not a place to play. _Experimentation_ is an important part of AI/ML development, and by systematically applying the scientific method we can discover new techniques and solutions. That experimentation should be governed by a commerically viable outcome - we know exactly what success looks like, we experiment with laser-focus toward that definition of success, and we have concrete metrics in place to tell us when that success has been achieved. "Playgrounds" often manifest in practice what the name implies: haphazardly adjusting parameters, trying out whatever novel methodology is in vogue this morning, traversing down rabbit holes totally unrelated to the initial goal. At standup, Engineers in the playground say things like "still working on it." 
 Experimentation, on the other hand, results in concrete feedback. "Today I am going to run through the matrix of affinity mask weights, the current match on ground truth is at 86% and we are targeting 90% or better with this experiment." 
 Be able to explain exactly what you are doing in an experiment, or it is just playing. 
 
@@ -46,7 +46,7 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 ### Use. Metrics. 
 If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzE3NjkyOSwtMTYxNTc2NjQzLDEyOD
+eyJoaXN0b3J5IjpbLTgxODQ4ODczMSwtMTYxNTc2NjQzLDEyOD
 Y5MzcwNTQsLTE2MTI5MzM3MzQsMTMwOTg5MDA4OCwtMTY2MDQ2
 NTYzLDkzNzI0OTMwMiwxMzE1MDk3NDU1LDkzMTgwMzk0NSwtOT
 Y2MzUyNzE4LDEwNTIzODMyODIsNjE2NDc5NDc3LDY2NjUzMjUx
