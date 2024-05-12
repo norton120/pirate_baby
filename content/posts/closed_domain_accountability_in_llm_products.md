@@ -37,7 +37,7 @@ _Experimentation_ is an important part of AI/ML development. In Experimentation,
  
 Experiments report metrics - how many test cases remain, how the scores are trending, and if the hypothesis under test is a statistical improvement. Playgrounds generate updates like "I am still working on X" and "Y seems a little better now." 
 
-The outsized importance of structured experimenting is easier to grasp when you consider the immediate goal of each experiment is not feature success, but _hypothesis elimination_ that will ultimately lead to feature success. What does that mean? We experiment because we do not know what will actually work
+The outsized importance of structured experimenting is easier to grasp when you consider that the immediate goal of each experiment is not feature success, but _hypothesis elimination_ that will ultimately lead to feature success. What does that mean? We experiment because we do not know what will actually work
 
 ### Treat Ground Truth Like an Evil Genie
 In every genie story someone falls prey to the curse of ambiguous wishes. The genie twists assumptions, plays on words, and transforms every wish into a curse. 
@@ -51,11 +51,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 ### Use. Metrics. 
 If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTk1NTg2NiwtNzUzMTg0NjcsLTY2OT
-k1ODA2NCwtMTYxNTc2NjQzLDEyODY5MzcwNTQsLTE2MTI5MzM3
-MzQsMTMwOTg5MDA4OCwtMTY2MDQ2NTYzLDkzNzI0OTMwMiwxMz
-E1MDk3NDU1LDkzMTgwMzk0NSwtOTY2MzUyNzE4LDEwNTIzODMy
-ODIsNjE2NDc5NDc3LDY2NjUzMjUxNCw4MzcwNzcyMzAsMTM3Nz
-g0OTUzNCwxNzkzMzQyMTc0LDgxMzQ4NTgyMiwtNjE4MjM3NzY3
-XX0=
+eyJoaXN0b3J5IjpbMzQ4MTM0NTM1LC03NTMxODQ2NywtNjY5OT
+U4MDY0LC0xNjE1NzY2NDMsMTI4NjkzNzA1NCwtMTYxMjkzMzcz
+NCwxMzA5ODkwMDg4LC0xNjYwNDY1NjMsOTM3MjQ5MzAyLDEzMT
+UwOTc0NTUsOTMxODAzOTQ1LC05NjYzNTI3MTgsMTA1MjM4MzI4
+Miw2MTY0Nzk0NzcsNjY2NTMyNTE0LDgzNzA3NzIzMCwxMzc3OD
+Q5NTM0LDE3OTMzNDIxNzQsODEzNDg1ODIyLC02MTgyMzc3Njdd
+fQ==
 -->
