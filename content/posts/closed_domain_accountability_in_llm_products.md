@@ -35,8 +35,7 @@ _Experimentation_ is an important part of AI/ML development. In Experimentation,
 
 "_Playgrounds_," on the other hand, most often live up to their namesake: Data Scientists haphazardly adjusting model parameters, test-driving whatever novel methodologies are in vogue at the moment, and traversing down rabbit holes totally unrelated to the initial objective. 
  
-Experiments report metrics - how many test cases remain, how the scores are trending, and if the hypothesis under test is a statistical improvement. Playgrounds generate updates like "I am still working on X" and "Y seems a little better now." 
-
+Experiments report metrics - how many test cases remain, how the scores are trending, and if the hypothesis under test is a statistical improvement. Playgrounds generate updates like "I am still working on X" and "Y seems a little better now." A critical difference between Experimentation and Software Engineering is that 
 
 
 ### Treat Ground Truth Like an Evil Genie
@@ -51,7 +50,7 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 ### Use. Metrics. 
 If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMTU4MzI2MSwtMTYxNTc2NjQzLDEyOD
+eyJoaXN0b3J5IjpbMTA1NzYzMjYwNiwtMTYxNTc2NjQzLDEyOD
 Y5MzcwNTQsLTE2MTI5MzM3MzQsMTMwOTg5MDA4OCwtMTY2MDQ2
 NTYzLDkzNzI0OTMwMiwxMzE1MDk3NDU1LDkzMTgwMzk0NSwtOT
 Y2MzUyNzE4LDEwNTIzODMyODIsNjE2NDc5NDc3LDY2NjUzMjUx
