@@ -35,9 +35,7 @@ _Experimentation_ is an important part of AI/ML development. In Experimentation,
 
 "_Playgrounds_," on the other hand, most often live up to their namesake: Data Scientists haphazardly adjusting model parameters, test-driving whatever novel methodologies are in vogue at the moment, and traversing down rabbit holes totally unrelated to the initial objective. 
  
-Experimenters can, at any time, report on the status of their experiments - how many test cases remain, what the score tren
-Experimentation, on the other hand, results in concrete feedback. "Today I am going to run through the matrix of affinity mask weights, the current match on ground truth is at 86% and we are targeting 90% or better with this experiment." 
-Be able to explain exactly what you are doing in an experiment, or it is just playing. 
+Experimenters report experiment state with metrics - how many test cases remain, how the scores are trending, and if the hypthe
 
 ### Treat Ground Truth Like an Evil Genie
 In every genie story someone falls prey to the curse of ambiguous wishes. The genie twists assumptions, plays on words, and transforms every wish into a curse. 
@@ -51,11 +49,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 ### Use. Metrics. 
 If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc5OTExNzc4LC0xNjE1NzY2NDMsMTI4Nj
-kzNzA1NCwtMTYxMjkzMzczNCwxMzA5ODkwMDg4LC0xNjYwNDY1
-NjMsOTM3MjQ5MzAyLDEzMTUwOTc0NTUsOTMxODAzOTQ1LC05Nj
-YzNTI3MTgsMTA1MjM4MzI4Miw2MTY0Nzk0NzcsNjY2NTMyNTE0
-LDgzNzA3NzIzMCwxMzc3ODQ5NTM0LDE3OTMzNDIxNzQsODEzND
-g1ODIyLC02MTgyMzc3NjcsMTc5NjczNzY5NiwtMTkwOTk0MDc0
-Nl19
+eyJoaXN0b3J5IjpbMTc0NzUyODg4NSwtMTYxNTc2NjQzLDEyOD
+Y5MzcwNTQsLTE2MTI5MzM3MzQsMTMwOTg5MDA4OCwtMTY2MDQ2
+NTYzLDkzNzI0OTMwMiwxMzE1MDk3NDU1LDkzMTgwMzk0NSwtOT
+Y2MzUyNzE4LDEwNTIzODMyODIsNjE2NDc5NDc3LDY2NjUzMjUx
+NCw4MzcwNzcyMzAsMTM3Nzg0OTUzNCwxNzkzMzQyMTc0LDgxMz
+Q4NTgyMiwtNjE4MjM3NzY3LDE3OTY3Mzc2OTYsLTE5MDk5NDA3
+NDZdfQ==
 -->
