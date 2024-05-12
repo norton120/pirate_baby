@@ -22,7 +22,7 @@ That is because real products cannot come with an escape hatch. The AI Engineeri
 
 I once worked with an ecom platform that was being _slaughtered_ by Amazon over shipping timelines. The problem wasn't our actual delivery times (most orders were delivered in 1-2 days), but the logistics of displaying delivery dates while relying on slow and unreliable vendor feeds. We could have slapped an "Estimates are unreliable, and you may get your stuff whenever" disclamer on the page - but that was not the product experience we set out to deliver. We could have also built out a labyrinth of branching logic that would have been a brittle bear to maintain. 
 
-Instead we standardized on free two-day delivery. Simple automated shipping covered the vast majority of orders, and expedited shipping (which we paid for) took care of slow outliers that turned up during fulfillment. Clear, reliable delivery timelines had a dramatic impact on conversion that greatly outweighed the occasional cost of ex
+Instead we standardized on free two-day delivery. Simple automated shipping covered the vast majority of orders, and expedited shipping (which we paid for) took care of slow outliers that turned up during fulfillment. Clear, reliable delivery timelines had a dramatic impact on conversion that greatly outweighed the occasional cost of expedited shipping. And we shipped e
 
 In Generative Engineering, just as 
 simply handing off the output of your first solution to the user and wrapping it with a disclaimer is not Software Engineering, it is order taking. Viable products are accountable, even when their individual components are not. 
@@ -46,11 +46,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 ### Use. Metrics. 
 If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ3NTI0ODgzLDEzMDk4OTAwODgsLTE2Nj
-A0NjU2Myw5MzcyNDkzMDIsMTMxNTA5NzQ1NSw5MzE4MDM5NDUs
-LTk2NjM1MjcxOCwxMDUyMzgzMjgyLDYxNjQ3OTQ3Nyw2NjY1Mz
-I1MTQsODM3MDc3MjMwLDEzNzc4NDk1MzQsMTc5MzM0MjE3NCw4
-MTM0ODU4MjIsLTYxODIzNzc2NywxNzk2NzM3Njk2LC0xOTA5OT
-QwNzQ2LDE1ODI5NjY0NDMsNDUyNDM1NDI2LC0xNTIzODk5MTU3
-XX0=
+eyJoaXN0b3J5IjpbLTMyNTEwOTEyMywxMzA5ODkwMDg4LC0xNj
+YwNDY1NjMsOTM3MjQ5MzAyLDEzMTUwOTc0NTUsOTMxODAzOTQ1
+LC05NjYzNTI3MTgsMTA1MjM4MzI4Miw2MTY0Nzk0NzcsNjY2NT
+MyNTE0LDgzNzA3NzIzMCwxMzc3ODQ5NTM0LDE3OTMzNDIxNzQs
+ODEzNDg1ODIyLC02MTgyMzc3NjcsMTc5NjczNzY5NiwtMTkwOT
+k0MDc0NiwxNTgyOTY2NDQzLDQ1MjQzNTQyNiwtMTUyMzg5OTE1
+N119
 -->
