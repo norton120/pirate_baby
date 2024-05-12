@@ -24,7 +24,7 @@ I once worked with an ecom platform that was being _slaughtered_ by Amazon over 
 
 Instead we standardized on free two-day delivery for anything we couldn't reliably calculate via API calls. Simple automated shipping covered the vast majority of these orders, and expedited shipping (which we paid for) took care of slow outliers that turned up during fulfillment. Clear, reliable delivery timelines had a dramatic impact on conversion that greatly outweighed the occasional cost of expedited shipping. We delivered the whole of the feature we promised, not a watered-down version plastered with escape hatches. 
 
-As expectations for Generative Engineering become more grounded in consumer reality, the limitations of a product's parts will not excuse the failings of the sum. That means thinking outside the prompt, beyond the RAG strategy. It means doing hard things, or making cha
+As expectations for Generative Engineering become more grounded in consumer reality, the limitations of a product's parts will not excuse the failings of the sum. That means thinking outside the prompt, beyond the RAG strategy. It may require doing a lot of hard Data Engineering, or Software Engineering, or Product Development - or all three. For 
 
 
 ### Stop playing
@@ -46,7 +46,7 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 ### Use. Metrics. 
 If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MDg4ODcwMiwxMjg2OTM3MDU0LC0xNj
+eyJoaXN0b3J5IjpbLTE2MTU3NjY0MywxMjg2OTM3MDU0LC0xNj
 EyOTMzNzM0LDEzMDk4OTAwODgsLTE2NjA0NjU2Myw5MzcyNDkz
 MDIsMTMxNTA5NzQ1NSw5MzE4MDM5NDUsLTk2NjM1MjcxOCwxMD
 UyMzgzMjgyLDYxNjQ3OTQ3Nyw2NjY1MzI1MTQsODM3MDc3MjMw
