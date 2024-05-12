@@ -4,7 +4,7 @@ tags: ["ai","ml","ops"]
 date: 2024-4-26
 draft: true
 ---
-_grounding your ML product lifecycle in commerical reality_
+_grounding your ML product lifecycle in commercial reality_
 
 If you subscribe to the Gartner predictive model for AI impact and adoption (a.k.a the "AI Hype Cycle") we are still far from peak AI expectations.
 ![Gartner AI Hype Cycle 2023](https://emt.gartnerweb.com/ngw/globalassets/en/newsroom/images/graphs/swe-hc-image.png)
@@ -53,11 +53,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzND
-AzMzE3Miw5MDE5MjU3NzMsLTE2NzkzMDA4NDksLTQ5NDEzODAz
-MiwtMTUyNTg1NDE3MSwxMzQ4Mjg0MjM4LDM0ODEzNDUzNSwtNz
-UzMTg0NjcsLTY2OTk1ODA2NCwtMTYxNTc2NjQzLDEyODY5Mzcw
-NTQsLTE2MTI5MzM3MzQsMTMwOTg5MDA4OCwtMTY2MDQ2NTYzLD
-kzNzI0OTMwMiwxMzE1MDk3NDU1LDkzMTgwMzk0NSwtOTY2MzUy
-NzE4XX0=
+eyJoaXN0b3J5IjpbLTIwNTYzNTk4MjksMTU0Mzg2NjY1NSw5MD
+Q3MTQ5OTcsLTMzNDAzMzE3Miw5MDE5MjU3NzMsLTE2NzkzMDA4
+NDksLTQ5NDEzODAzMiwtMTUyNTg1NDE3MSwxMzQ4Mjg0MjM4LD
+M0ODEzNDUzNSwtNzUzMTg0NjcsLTY2OTk1ODA2NCwtMTYxNTc2
+NjQzLDEyODY5MzcwNTQsLTE2MTI5MzM3MzQsMTMwOTg5MDA4OC
+wtMTY2MDQ2NTYzLDkzNzI0OTMwMiwxMzE1MDk3NDU1LDkzMTgw
+Mzk0NV19
 -->
