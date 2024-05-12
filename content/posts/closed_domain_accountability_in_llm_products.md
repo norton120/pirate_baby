@@ -22,7 +22,9 @@ That is because real products cannot come with an escape hatch. The AI Engineeri
 
 I once worked with an ecom platform that was being _slaughtered_ by Amazon over shipping timelines. The problem wasn't our actual delivery times (most orders were delivered in 1-2 days), but the logistics of displaying delivery dates while relying on slow and unreliable vendor feeds. We could have slapped an "Estimates are unreliable, and you may get your stuff whenever" disclamer on the page - but that was not the product experience we set out to deliver. We could have also built out a labyrinth of branching logic that would have been a brittle bear to maintain. 
 
-Instead, we standardized on free two-day delivery. For most orders that meant we did nothing; for the few orders that 
+Instead, we standardized on free two-day delivery. For most orders that meant we did nothing; for the few orders with a longer timeline after processing, we expedited the shipping method on the house. 
+
+The limititi
 
 simply handing off the output of your first solution to the user and wrapping it with a disclaimer is not Software Engineering, it is order taking. Viable products are accountable, even when their individual components are not. 
 
@@ -45,11 +47,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 ### Use. Metrics. 
 If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzYzMzIwMzAsMTMwOTg5MDA4OCwtMT
-Y2MDQ2NTYzLDkzNzI0OTMwMiwxMzE1MDk3NDU1LDkzMTgwMzk0
-NSwtOTY2MzUyNzE4LDEwNTIzODMyODIsNjE2NDc5NDc3LDY2Nj
-UzMjUxNCw4MzcwNzcyMzAsMTM3Nzg0OTUzNCwxNzkzMzQyMTc0
-LDgxMzQ4NTgyMiwtNjE4MjM3NzY3LDE3OTY3Mzc2OTYsLTE5MD
-k5NDA3NDYsMTU4Mjk2NjQ0Myw0NTI0MzU0MjYsLTE1MjM4OTkx
-NTddfQ==
+eyJoaXN0b3J5IjpbMjY0MDg5ODUxLDEzMDk4OTAwODgsLTE2Nj
+A0NjU2Myw5MzcyNDkzMDIsMTMxNTA5NzQ1NSw5MzE4MDM5NDUs
+LTk2NjM1MjcxOCwxMDUyMzgzMjgyLDYxNjQ3OTQ3Nyw2NjY1Mz
+I1MTQsODM3MDc3MjMwLDEzNzc4NDk1MzQsMTc5MzM0MjE3NCw4
+MTM0ODU4MjIsLTYxODIzNzc2NywxNzk2NzM3Njk2LC0xOTA5OT
+QwNzQ2LDE1ODI5NjY0NDMsNDUyNDM1NDI2LC0xNTIzODk5MTU3
+XX0=
 -->
