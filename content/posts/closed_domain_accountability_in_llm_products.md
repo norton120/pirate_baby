@@ -20,7 +20,7 @@ Here is a banner you won't see:
 ![Amazon does not need an out clause](images/unreliable_software.png)
 That is because real products cannot come with an escape hatch. The AI Engineering team is responsible for making the consumer experience right and reliable, full stop. This doesn't mean _the LLM_ needs to get everything right every time - quite the contrary. Engineers must orchestrate the holistic interaction of software, inference, and user to arrive at a reliable and trustworthy experience. 
 
-I once worked with an ecom platform that was being _slaughtered_ by Amazon over shipping timelines. The problem wasn't our actual delivery times (most orders were delivered in 1-2 days), but the logistics of displaying delivery dates while relying on slow and unreliable vendor feeds. We could have slapped an "Estimates are unreliable, and you may get your stuff whenever" disclamer on the page - but that was not the product experience we set out to deliver. We could have also built out a laborith of 
+I once worked with an ecom platform that was being _slaughtered_ by Amazon over shipping timelines. The problem wasn't our actual delivery times (most orders were delivered in 1-2 days), but the logistics of displaying delivery dates while relying on slow and unreliable vendor feeds. We could have slapped an "Estimates are unreliable, and you may get your stuff whenever" disclamer on the page - but that was not the product experience we set out to deliver. We could have also built out a labyrinth of branching logic that would have been a brittle bear to maintain. Instead, we 
 
 1. Lead with the best guess arrival date estimate, based on all available information (accurate or not)
 2. Determine the _actual_ timeline after the order was placed
@@ -48,11 +48,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 ### Use. Metrics. 
 If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY5MzcxMjkyLC0xNjYwNDY1NjMsOTM3Mj
-Q5MzAyLDEzMTUwOTc0NTUsOTMxODAzOTQ1LC05NjYzNTI3MTgs
-MTA1MjM4MzI4Miw2MTY0Nzk0NzcsNjY2NTMyNTE0LDgzNzA3Nz
-IzMCwxMzc3ODQ5NTM0LDE3OTMzNDIxNzQsODEzNDg1ODIyLC02
-MTgyMzc3NjcsMTc5NjczNzY5NiwtMTkwOTk0MDc0NiwxNTgyOT
-Y2NDQzLDQ1MjQzNTQyNiwtMTUyMzg5OTE1Nyw4NTk2ODcyNTNd
-fQ==
+eyJoaXN0b3J5IjpbLTEwODk5MDA2NDMsLTE2NjA0NjU2Myw5Mz
+cyNDkzMDIsMTMxNTA5NzQ1NSw5MzE4MDM5NDUsLTk2NjM1Mjcx
+OCwxMDUyMzgzMjgyLDYxNjQ3OTQ3Nyw2NjY1MzI1MTQsODM3MD
+c3MjMwLDEzNzc4NDk1MzQsMTc5MzM0MjE3NCw4MTM0ODU4MjIs
+LTYxODIzNzc2NywxNzk2NzM3Njk2LC0xOTA5OTQwNzQ2LDE1OD
+I5NjY0NDMsNDUyNDM1NDI2LC0xNTIzODk5MTU3LDg1OTY4NzI1
+M119
 -->
