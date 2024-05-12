@@ -24,7 +24,7 @@ I once worked with an ecom platform that was being _slaughtered_ by Amazon over 
 
 Instead we standardized on free two-day delivery for anything we couldn't reliably calculate via API calls. Simple automated shipping covered the vast majority of these orders, and expedited shipping (which we paid for) took care of slow outliers that turned up during fulfillment. Clear, reliable delivery timelines had a dramatic impact on conversion that greatly outweighed the occasional cost of expedited shipping. We delivered the whole of the feature we promised, not a watered-down version plastered with escape hatches. 
 
-As expectations for Generative Engineering become more grounded in consumer reality, the limitations of a product's parts will not excuse the failings of the sum. This means thinking 
+As expectations for Generative Engineering become more grounded in consumer reality, the limitations of a product's parts will not excuse the failings of the sum. 
 
 
 ### Stop playing
@@ -46,11 +46,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 ### Use. Metrics. 
 If there is one critical difference between open-ended 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTI5MzM3MzQsMTMwOTg5MDA4OCwtMT
-Y2MDQ2NTYzLDkzNzI0OTMwMiwxMzE1MDk3NDU1LDkzMTgwMzk0
-NSwtOTY2MzUyNzE4LDEwNTIzODMyODIsNjE2NDc5NDc3LDY2Nj
-UzMjUxNCw4MzcwNzcyMzAsMTM3Nzg0OTUzNCwxNzkzMzQyMTc0
-LDgxMzQ4NTgyMiwtNjE4MjM3NzY3LDE3OTY3Mzc2OTYsLTE5MD
-k5NDA3NDYsMTU4Mjk2NjQ0Myw0NTI0MzU0MjYsLTE1MjM4OTkx
-NTddfQ==
+eyJoaXN0b3J5IjpbMTI4NjkzNzA1NCwtMTYxMjkzMzczNCwxMz
+A5ODkwMDg4LC0xNjYwNDY1NjMsOTM3MjQ5MzAyLDEzMTUwOTc0
+NTUsOTMxODAzOTQ1LC05NjYzNTI3MTgsMTA1MjM4MzI4Miw2MT
+Y0Nzk0NzcsNjY2NTMyNTE0LDgzNzA3NzIzMCwxMzc3ODQ5NTM0
+LDE3OTMzNDIxNzQsODEzNDg1ODIyLC02MTgyMzc3NjcsMTc5Nj
+czNzY5NiwtMTkwOTk0MDc0NiwxNTgyOTY2NDQzLDQ1MjQzNTQy
+Nl19
 -->
