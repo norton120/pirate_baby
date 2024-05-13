@@ -24,7 +24,7 @@ That is because real products cannot come with an escape hatch. The AI Product a
 
 Unreliable components in systems are not exclusive to Generatve AI, or remotely new to the Software world. I once worked with an ecom platform that was being _slaughtered_ by Amazon over shipping timelines. The problem wasn't delivery times (most orders were delivered in 1-2 days), but the logistics of displaying delivery dates while relying on slow and unreliable vendor feeds. A cop-out would have been to slap an "Estimates are unreliable, and you may get your stuff whenever" disclamer on the page - but that was not the product experience we set out to deliver. Alternatively, the team could have spent months constructing a labyrinth of brittle branching logic across hundreds of vendors and warehouses. 
 
-Instead, free two-day delivery was applied for all items  couldn't reliably calculate via API calls. Simple automated shipping covered the vast majority of these orders, and expedited shipping (which we paid for) took care of slow outliers that turned up during fulfillment. Clear, reliable delivery timelines had a dramatic impact on conversion that greatly outweighed the occasional cost of expedited shipping. We delivered the whole of the feature we promised, not a watered-down version plastered with escape hatches. 
+Instead, free two-day delivery was the default for any item without an available timeline. Simple automated shipping covered the vast majority of these orders, and expedited shipping took care of slow outliers that turned up during fulfillment. Clear, reliable delivery timelines had a dramatic impact on conversion that greatly outweighed the occasional cost of expedited shipping. We delivered the whole of the feature we promised, not a watered-down version plastered with escape hatches. 
 
 As expectations for Generative Engineering become more grounded in consumer reality, the limitations of a product's parts will not excuse the failings of the sum. That means thinking outside the prompt and beyond your RAG strategy, doing a lot of hard Data Engineering, or Software Engineering, or Product Development - or all of the above - to move past the disclaimers and deliver what you promise.
 
@@ -61,11 +61,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ2MzY0NDgxLC00MjkyNDEwODksLTE2MD
-k2NzExMywtNjk4NjEzNTIwLC01MDkzOTE3NjksMjA4NjEzODU5
-NywzMDk5NjQ3NzgsLTIwNTYzNTk4MjksMTU0Mzg2NjY1NSw5MD
-Q3MTQ5OTcsLTMzNDAzMzE3Miw5MDE5MjU3NzMsLTE2NzkzMDA4
-NDksLTQ5NDEzODAzMiwtMTUyNTg1NDE3MSwxMzQ4Mjg0MjM4LD
-M0ODEzNDUzNSwtNzUzMTg0NjcsLTY2OTk1ODA2NCwtMTYxNTc2
-NjQzXX0=
+eyJoaXN0b3J5IjpbLTE2Mzk2ODg2NTEsLTQyOTI0MTA4OSwtMT
+YwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4
+NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOSwxNTQzODY2NjU1LD
+kwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTkyNTc3MywtMTY3OTMw
+MDg0OSwtNDk0MTM4MDMyLC0xNTI1ODU0MTcxLDEzNDgyODQyMz
+gsMzQ4MTM0NTM1LC03NTMxODQ2NywtNjY5OTU4MDY0LC0xNjE1
+NzY2NDNdfQ==
 -->
