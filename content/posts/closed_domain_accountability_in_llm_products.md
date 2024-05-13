@@ -8,8 +8,10 @@ _grounding your ML development lifecycle in commercial reality_
 
 If you subscribe to the Gartner predictive model for AI impact and adoption (a.k.a the "AI Hype Cycle") we are still far from peak (inflated) AI expectations.
 ![Gartner AI Hype Cycle 2023](https://emt.gartnerweb.com/ngw/globalassets/en/newsroom/images/graphs/swe-hc-image.png)
-Casual observation supports the Gartner timeline; every week it seems a new Generative AI breakthrough sends techno-pundits and content creators into a frenzy. This week, the breakthrough is multimodal OpenAI GPT-4o: the long-awaited technological leap forward which will no doubt _fianally_ render the human race obsolete :rolling-eyes:. 
-This disconnect between highly experimental, largely acedemic exploratory pursuits and consumer-ready, reliable products is one that the Generative AI bubble has greatly exaccerbated. Both funding and  
+Casual observation supports the Gartner timeline; every week it seems a new Generative AI breakthrough sends techno-pundits and content creators into a frenzy. This week, the breakthrough is multimodal OpenAI GPT-4o: the long-awaited technological leap forward which will no doubt _fianally_ render the human race obsolete 🙄.
+The "hype" of the hype cycle is really a manifestation of 
+
+ disconnect between highly experimental, largely acedemic exploratory pursuits and consumer-ready, reliable products is one that the Generative AI bubble has greatly exaccerbated. Both funding and  
 
 
 
@@ -63,11 +65,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMzc3MTkzOCwtMTYwOTY3MTEzLC02OT
-g2MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3
-OCwtMjA1NjM1OTgyOSwxNTQzODY2NjU1LDkwNDcxNDk5NywtMz
-M0MDMzMTcyLDkwMTkyNTc3MywtMTY3OTMwMDg0OSwtNDk0MTM4
-MDMyLC0xNTI1ODU0MTcxLDEzNDgyODQyMzgsMzQ4MTM0NTM1LC
-03NTMxODQ2NywtNjY5OTU4MDY0LC0xNjE1NzY2NDMsMTI4Njkz
-NzA1NF19
+eyJoaXN0b3J5IjpbNDE5OTQ5NTkxLC0xNjA5NjcxMTMsLTY5OD
+YxMzUyMCwtNTA5MzkxNzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4
+LC0yMDU2MzU5ODI5LDE1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMz
+QwMzMxNzIsOTAxOTI1NzczLC0xNjc5MzAwODQ5LC00OTQxMzgw
+MzIsLTE1MjU4NTQxNzEsMTM0ODI4NDIzOCwzNDgxMzQ1MzUsLT
+c1MzE4NDY3LC02Njk5NTgwNjQsLTE2MTU3NjY0MywxMjg2OTM3
+MDU0XX0=
 -->
