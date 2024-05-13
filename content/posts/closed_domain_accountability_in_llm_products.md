@@ -20,9 +20,9 @@ Maybe you are an Executive growing impatient with the lack of investment return 
 ### Sunset your disclaimers
 Here is a banner you won't see:
 ![Amazon does not need an out clause](images/unreliable_software.png)
-That is because real products cannot come with an escape hatch. The AI Product and Engineering teams are responsible for a consumer experience that is right and reliable, full stop. This doesn't mean _the LLM_ needs to get everything right every time - quite the contrary. Engineers must orchestrate the holistic interaction of software, inference, and user to arrive at a reliable and trustworthy experience. 
+That is because real products cannot come with an escape hatch. The AI Product and Engineering teams are responsible for a consumer experience that is right and reliable, full stop. This doesn't mean _the LLM_ needs to get everything right every time - quite the contrary. Engineers must orchestrate the holistic interaction of software, inference, and user, in allignment with the vision of product, in order to arrive at a reliable and trustworthy experience. 
 
-I once worked with an ecom platform that was being _slaughtered_ by Amazon over shipping timelines. The problem wasn't our actual delivery times (most orders were delivered in 1-2 days), but the logistics of displaying delivery dates while relying on slow and unreliable vendor feeds. We could have slapped an "Estimates are unreliable, and you may get your stuff whenever" disclamer on the page - but that was not the product experience we set out to deliver. We could have also built out a labyrinth of branching logic that would have been a brittle bear to maintain. 
+Unreliable components in systems are not exclusive to Generatve AI, or remotely new to the Software world. I once worked with an ecom platform that was being _slaughtered_ by Amazon over shipping timelines. The problem wasn't our actual delivery times (most orders were delivered in 1-2 days), but the logistics of displaying delivery dates while relying on slow and unreliable vendor feeds. We could have slapped an "Estimates are unreliable, and you may get your stuff whenever" disclamer on the page - but that was not the product experience we set out to deliver. We could have also built out a labyrinth of branching logic that would have been a brittle bear to maintain. 
 
 Instead we standardized on free two-day delivery for anything we couldn't reliably calculate via API calls. Simple automated shipping covered the vast majority of these orders, and expedited shipping (which we paid for) took care of slow outliers that turned up during fulfillment. Clear, reliable delivery timelines had a dramatic impact on conversion that greatly outweighed the occasional cost of expedited shipping. We delivered the whole of the feature we promised, not a watered-down version plastered with escape hatches. 
 
@@ -61,11 +61,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODc1NzI4MTcsLTQyOTI0MTA4OSwtMT
-YwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4
-NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOSwxNTQzODY2NjU1LD
-kwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTkyNTc3MywtMTY3OTMw
-MDg0OSwtNDk0MTM4MDMyLC0xNTI1ODU0MTcxLDEzNDgyODQyMz
-gsMzQ4MTM0NTM1LC03NTMxODQ2NywtNjY5OTU4MDY0LC0xNjE1
-NzY2NDNdfQ==
+eyJoaXN0b3J5IjpbMTgyODMzMTY1MSwtNDI5MjQxMDg5LC0xNj
+A5NjcxMTMsLTY5ODYxMzUyMCwtNTA5MzkxNzY5LDIwODYxMzg1
+OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LDE1NDM4NjY2NTUsOT
+A0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1NzczLC0xNjc5MzAw
+ODQ5LC00OTQxMzgwMzIsLTE1MjU4NTQxNzEsMTM0ODI4NDIzOC
+wzNDgxMzQ1MzUsLTc1MzE4NDY3LC02Njk5NTgwNjQsLTE2MTU3
+NjY0M119
 -->
