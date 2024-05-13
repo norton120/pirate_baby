@@ -8,7 +8,7 @@ _grounding your ML development lifecycle in commercial reality_
 
 If you subscribe to the Gartner predictive model for AI impact and adoption (a.k.a the "AI Hype Cycle") we are still far from peak (inflated) AI expectations.
 ![Gartner AI Hype Cycle 2023](https://emt.gartnerweb.com/ngw/globalassets/en/newsroom/images/graphs/swe-hc-image.png)
-Casual observation seems to support this. Each new Linkedin demo 
+This timeline is supported byCasual observation supports. Each new Linkedin demo su
 
 
 The endless stream of incredible Linkedin LLM product demos seem to support this model. But another narrative is also taking shape; one of false claims and frustrated users, automation promises unfulfilled, nightmare customer experiences and AI-powered products gone rogue. What I hear on calls and consults is executives with waining patience. There is still an overwhelming excitement around the potential application of large (and small) language models, but the reckless abandon with which AI initiatives were undertaken in 2023 seems to be sobering up. This impending reality check in the AI space is probably not your friend if you play investment shell games for a living; but for those of us that create value by _actually shipping stuff that works_, this is a welcome change in the tide. Rather than a curb of inertia in AI development, we should expect a graduation in the standards and and consumer tolerances for applications leveraging AI.
@@ -61,11 +61,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODYxMzUyMCwtNTA5MzkxNzY5LDIwOD
-YxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LDE1NDM4NjY2
-NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1NzczLC0xNj
-c5MzAwODQ5LC00OTQxMzgwMzIsLTE1MjU4NTQxNzEsMTM0ODI4
-NDIzOCwzNDgxMzQ1MzUsLTc1MzE4NDY3LC02Njk5NTgwNjQsLT
-E2MTU3NjY0MywxMjg2OTM3MDU0LC0xNjEyOTMzNzM0LDEzMDk4
-OTAwODhdfQ==
+eyJoaXN0b3J5IjpbLTEyMjc4OTA5ODcsLTY5ODYxMzUyMCwtNT
+A5MzkxNzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5
+ODI5LDE1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOT
+AxOTI1NzczLC0xNjc5MzAwODQ5LC00OTQxMzgwMzIsLTE1MjU4
+NTQxNzEsMTM0ODI4NDIzOCwzNDgxMzQ1MzUsLTc1MzE4NDY3LC
+02Njk5NTgwNjQsLTE2MTU3NjY0MywxMjg2OTM3MDU0LC0xNjEy
+OTMzNzM0XX0=
 -->
