@@ -14,10 +14,13 @@ The "hype" of this hype cycle is really a manifestation of missaligned understan
 
 We should expect a graduation in the standards and consumer tolerances for applications leveraging AI, a judgement of performance instead of potential. In short, AI products need to start behaving like _products_, and not science fair projects.  
 
-Maybe you are an Executive growing impatient with the lack of investment return on your Machine Learning initiatives. Maybe you are an AI Founder watching your runway burn like the wick on a cartoon bomb as your users fail to convert (or worse, churn), or an Engineer anxious to secure your chair before the music stops. If you are involved in a Gen AI initiative, there are meaningful steps you can take to    
+Maybe you are an Executive growing impatient with the lack of investment return on your Machine Learning initiatives. Maybe you are an AI Founder watching your runway burn like the wick on a cartoon bomb as your users fail to convert (or worse, churn), or an Engineer anxious to secure your chair before the music stops. If you are involved in a Gen AI initiative, there are meaningful steps that will set you on the road to success. 
+
+### Where the Hell is Product? 
+If I have to choose only one facepalm
 
 
-### Sunset your disclaimers
+### Sunset Your Disclaimers
 Here is a banner you won't see:
 ![Amazon does not need an out clause](images/unreliable_software.png)
 That is because real products cannot come with an escape hatch. The AI Product and Engineering teams are responsible for a consumer experience that is right and reliable, full stop. This doesn't mean _the LLM_ needs to get everything right every time - quite the contrary. Engineers must orchestrate the holistic interaction of software, inference, and user, in allignment with the vision of product, in order to arrive at a reliable and trustworthy experience. 
@@ -58,7 +61,7 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MzIzMDA0MywtNDI5MjQxMDg5LC0xNj
+eyJoaXN0b3J5IjpbMjAyNDY4NDIwMSwtNDI5MjQxMDg5LC0xNj
 A5NjcxMTMsLTY5ODYxMzUyMCwtNTA5MzkxNzY5LDIwODYxMzg1
 OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LDE1NDM4NjY2NTUsOT
 A0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1NzczLC0xNjc5MzAw
