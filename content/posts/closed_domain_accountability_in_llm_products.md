@@ -9,7 +9,7 @@ _grounding your ML development lifecycle in commercial reality_
 If you subscribe to the Gartner predictive model for AI impact and adoption (a.k.a the "AI Hype Cycle") we are still far from peak (inflated) AI expectations.
 ![Gartner AI Hype Cycle 2023](https://emt.gartnerweb.com/ngw/globalassets/en/newsroom/images/graphs/swe-hc-image.png)
 Casual observation supports the Gartner timeline; every week it seems a new Generative AI breakthrough sends techno-pundits and content creators into a frenzy. This week, the breakthrough is multimodal OpenAI GPT-4o: the long-awaited technological leap forward which will no doubt _fianally_ render the human race obsolete 🙄.
-The "hype" of this hype cycle is really a manifestation of missaligned understanding.  Most Generative AI products are firmly in the "let's see if this could even work" phase of develpment (properly referred to as experimentation investment). It is a gambler's bet - we _think_ a thing can be done, and if we turn out to be correct there is potential for a huge return. This is very different from the last decade of technology application, one of "we know this absolutely works and is just a matter of implementation." The difference is critical. If an exec allocated capital and headcount for an e-commerce initiatve, there is no question about the fundimentals of e-commerce For the many business and technology leaders that approached AI strategy in 2023 expecting the latter, finding the former has been a rude awakening.
+The "hype" of this hype cycle is really a manifestation of missaligned understanding.  Most Generative AI products are firmly in the "let's see if this could even work" phase of develpment (properly referred to as experimentation investment). It is a gambler's bet - we _think_ a thing can be done, and if we turn out to be correct there is potential for a huge return. This is very different from the last decade of technology application, one of "we know this absolutely works and is just a matter of implementation." The difference is critical. If an exec allocated capital and headcount for an e-commerce initiatve in 2023, there was no question about the viable fundimentals of e-commerce; sure you could get the marketing wrong, or the UX, or the database design - you could fumble the _implementation_. But you never had to question if _ecommerce  For the many business and technology leaders that approached AI strategy in 2023 expecting the latter, finding the former has been a rude awakening.
 
 
 Rather than a curb of inertia in AI development, we should expect a graduation in the standards and and consumer tolerances for applications leveraging AI.
@@ -62,11 +62,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODgwMzU0NTIsLTE2MDk2NzExMywtNj
-k4NjEzNTIwLC01MDkzOTE3NjksMjA4NjEzODU5NywzMDk5NjQ3
-NzgsLTIwNTYzNTk4MjksMTU0Mzg2NjY1NSw5MDQ3MTQ5OTcsLT
-MzNDAzMzE3Miw5MDE5MjU3NzMsLTE2NzkzMDA4NDksLTQ5NDEz
-ODAzMiwtMTUyNTg1NDE3MSwxMzQ4Mjg0MjM4LDM0ODEzNDUzNS
-wtNzUzMTg0NjcsLTY2OTk1ODA2NCwtMTYxNTc2NjQzLDEyODY5
-MzcwNTRdfQ==
+eyJoaXN0b3J5IjpbMTkxNjE5NDI2NSwtMTYwOTY3MTEzLC02OT
+g2MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3
+OCwtMjA1NjM1OTgyOSwxNTQzODY2NjU1LDkwNDcxNDk5NywtMz
+M0MDMzMTcyLDkwMTkyNTc3MywtMTY3OTMwMDg0OSwtNDk0MTM4
+MDMyLC0xNTI1ODU0MTcxLDEzNDgyODQyMzgsMzQ4MTM0NTM1LC
+03NTMxODQ2NywtNjY5OTU4MDY0LC0xNjE1NzY2NDMsMTI4Njkz
+NzA1NF19
 -->
