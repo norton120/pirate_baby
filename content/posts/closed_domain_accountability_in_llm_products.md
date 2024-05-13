@@ -9,7 +9,7 @@ _grounding your ML development lifecycle in commercial reality_
 If you subscribe to the Gartner predictive model for AI impact and adoption (a.k.a the "AI Hype Cycle") we are still far from peak (inflated) AI expectations.
 ![Gartner AI Hype Cycle 2023](https://emt.gartnerweb.com/ngw/globalassets/en/newsroom/images/graphs/swe-hc-image.png)
 Casual observation supports the Gartner timeline; every week it seems a new Generative AI breakthrough sends techno-pundits and content creators into a frenzy. This week, the breakthrough is multimodal OpenAI GPT-4o: the long-awaited technological leap forward which will no doubt _fianally_ render the human race obsolete 🙄.
-The "hype" of the hype cycle is really a manifestation of missaligned understanding.  Most Generative AI products are firmly in the "let's see if this could even work" phase of develpment (properly referred to as experimentation investment). It is a gambler's bet - we _think_ this can be done, and if it works out there will be a huge return. The product presentation, however, is firmly in the "this absolutely works and it is now just a matter of implementation." This is where most tech 
+The "hype" of the hype cycle is really a manifestation of missaligned understanding.  Most Generative AI products are firmly in the "let's see if this could even work" phase of develpment (properly referred to as experimentation investment). It is a gambler's bet - we _think_ this can be done, and if it works out there will be a huge return. This is very different from the public expection around tech that has developed over the last decade, one of "this absolutely work 
 
  disconnect between highly experimental, largely acedemic exploratory pursuits and consumer-ready, reliable products is one that the Generative AI bubble has greatly exaccerbated. Both funding and  
 
@@ -65,7 +65,7 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NDc3Njc5NiwtMTYwOTY3MTEzLC02OT
+eyJoaXN0b3J5IjpbMTA2NzkwMDkwMSwtMTYwOTY3MTEzLC02OT
 g2MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3
 OCwtMjA1NjM1OTgyOSwxNTQzODY2NjU1LDkwNDcxNDk5NywtMz
 M0MDMzMTcyLDkwMTkyNTc3MywtMTY3OTMwMDg0OSwtNDk0MTM4
