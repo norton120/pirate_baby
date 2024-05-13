@@ -6,8 +6,10 @@ draft: true
 ---
 _grounding your ML development lifecycle in commercial reality_
 
-If you subscribe to the Gartner predictive model for AI impact and adoption (a.k.a the "AI Hype Cycle") we are still far from peak AI expectations.
+If you subscribe to the Gartner predictive model for AI impact and adoption (a.k.a the "AI Hype Cycle") we are still far from peak (inflated) AI expectations.
 ![Gartner AI Hype Cycle 2023](https://emt.gartnerweb.com/ngw/globalassets/en/newsroom/images/graphs/swe-hc-image.png)
+Casual observation seems to support this. With every day comes a ne
+
 
 The endless stream of incredible Linkedin LLM product demos seem to support this model. But another narrative is also taking shape; one of false claims and frustrated users, automation promises unfulfilled, nightmare customer experiences and AI-powered products gone rogue. What I hear on calls and consults is executives with waining patience. There is still an overwhelming excitement around the potential application of large (and small) language models, but the reckless abandon with which AI initiatives were undertaken in 2023 seems to be sobering up. This impending reality check in the AI space is probably not your friend if you play investment shell games for a living; but for those of us that create value by _actually shipping stuff that works_, this is a welcome change in the tide. Rather than a curb of inertia in AI development, we should expect a graduation in the standards and and consumer tolerances for applications leveraging AI.
 
@@ -59,11 +61,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MzIzMzQwNiwtNTA5MzkxNzY5LDIwOD
-YxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LDE1NDM4NjY2
-NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1NzczLC0xNj
-c5MzAwODQ5LC00OTQxMzgwMzIsLTE1MjU4NTQxNzEsMTM0ODI4
-NDIzOCwzNDgxMzQ1MzUsLTc1MzE4NDY3LC02Njk5NTgwNjQsLT
-E2MTU3NjY0MywxMjg2OTM3MDU0LC0xNjEyOTMzNzM0LDEzMDk4
-OTAwODhdfQ==
+eyJoaXN0b3J5IjpbLTExMjA4OTgxNDQsLTUwOTM5MTc2OSwyMD
+g2MTM4NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOSwxNTQzODY2
+NjU1LDkwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTkyNTc3MywtMT
+Y3OTMwMDg0OSwtNDk0MTM4MDMyLC0xNTI1ODU0MTcxLDEzNDgy
+ODQyMzgsMzQ4MTM0NTM1LC03NTMxODQ2NywtNjY5OTU4MDY0LC
+0xNjE1NzY2NDMsMTI4NjkzNzA1NCwtMTYxMjkzMzczNCwxMzA5
+ODkwMDg4XX0=
 -->
