@@ -9,7 +9,7 @@ _grounding your ML development lifecycle in commercial reality_
 If you subscribe to the Gartner predictive model for AI impact and adoption (a.k.a the "AI Hype Cycle") we are still far from peak (inflated) AI expectations.
 ![Gartner AI Hype Cycle 2023](https://emt.gartnerweb.com/ngw/globalassets/en/newsroom/images/graphs/swe-hc-image.png)
 Casual observation supports the Gartner timeline; every week it seems a new Generative AI breakthrough sends techno-pundits and content creators into a frenzy. This week, the breakthrough is multimodal OpenAI GPT-4o: the long-awaited technological leap forward which will no doubt _fianally_ render the human race obsolete 🙄.
-The "hype" of this hype cycle is really a manifestation of missaligned understanding.  Most Generative AI products are firmly in the "let's see if this could even work" phase of develpment (properly referred to as experimentation investment). It is a gambler's bet - we _think_ a thing can be done, and if we turn out to be correct there is potential for a huge return. This is very different from the last decade of technology application, one of "we know this absolutely works and is just a matter of implementation." The difference is critical. If an Executive allocated capital and headcount for an e-commerce initiatve in 2023, there was no question about the viable fundimentals of e-commerce; sure, you can get the marketing wrong, or the UX, or the database design - you can fumble the _implementation_ of an e-commerce solution. But you never have to question if _e-commerce even works_. With Generative AI, however, that question remains front and center for every new and individual use case. Many business and technology leaders approached AI strategy in 2023 expecting a familiar process and development cycle, instead finding themselves frustrated by products that never seem to graduate beyond demos. Half-baked chatbots and glitchy, disclamer- 
+The "hype" of this hype cycle is really a manifestation of missaligned understanding.  Most Generative AI products are firmly in the "let's see if this could even work" phase of develpment (properly referred to as experimentation investment). It is a gambler's bet - we _think_ a thing can be done, and if we turn out to be correct there is potential for a huge return. This is very different from the last decade of technology application, one of "we know this absolutely works and is just a matter of implementation." The difference is critical. If an Executive allocated capital and headcount for an e-commerce initiatve in 2023, there was no question about the viable fundimentals of e-commerce; sure, you can get the marketing wrong, or the UX, or the database design - you can fumble the _implementation_ of an e-commerce solution. But you never have to question if _e-commerce even works_. With Generative AI, however, that question remains front and center for every new and individual use case. Many business and technology leaders approached AI strategy in 2023 expecting a familiar process and development cycle, instead finding themselves frustrated by products that never seem to graduate beyond demos. Half-baked chatbots and glitchy, disclamer-laden AI novelty products litter the Gen AI space. As stated wonderfully by  
 
 
 Rather than a curb of inertia in AI development, we should expect a graduation in the standards and and consumer tolerances for applications leveraging AI.
@@ -62,11 +62,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMDcwMjU4LC00MjkyNDEwODksLTE2MD
-k2NzExMywtNjk4NjEzNTIwLC01MDkzOTE3NjksMjA4NjEzODU5
-NywzMDk5NjQ3NzgsLTIwNTYzNTk4MjksMTU0Mzg2NjY1NSw5MD
-Q3MTQ5OTcsLTMzNDAzMzE3Miw5MDE5MjU3NzMsLTE2NzkzMDA4
-NDksLTQ5NDEzODAzMiwtMTUyNTg1NDE3MSwxMzQ4Mjg0MjM4LD
-M0ODEzNDUzNSwtNzUzMTg0NjcsLTY2OTk1ODA2NCwtMTYxNTc2
-NjQzXX0=
+eyJoaXN0b3J5IjpbLTcwNDY0OTUzNSwtNDI5MjQxMDg5LC0xNj
+A5NjcxMTMsLTY5ODYxMzUyMCwtNTA5MzkxNzY5LDIwODYxMzg1
+OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LDE1NDM4NjY2NTUsOT
+A0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1NzczLC0xNjc5MzAw
+ODQ5LC00OTQxMzgwMzIsLTE1MjU4NTQxNzEsMTM0ODI4NDIzOC
+wzNDgxMzQ1MzUsLTc1MzE4NDY3LC02Njk5NTgwNjQsLTE2MTU3
+NjY0M119
 -->
