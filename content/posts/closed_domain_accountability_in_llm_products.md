@@ -9,7 +9,7 @@ _grounding your ML development lifecycle in commercial reality_
 If you subscribe to the Gartner predictive model for AI impact and adoption (a.k.a the "AI Hype Cycle") we are still far from peak (inflated) AI expectations.
 ![Gartner AI Hype Cycle 2023](https://emt.gartnerweb.com/ngw/globalassets/en/newsroom/images/graphs/swe-hc-image.png)
 Casual observation supports the Gartner timeline; every week it seems a new Generative AI breakthrough sends techno-pundits and content creators into a frenzy. This week, the breakthrough is multimodal OpenAI GPT-4o: the long-awaited technological leap forward which will no doubt fianally render the human race obsolete no later than Q3. 
-Humor aside, this disconnect between highly experimental, largely acedemic exploratory pursuits and consumer-ready, reliable products is one that the Generative AI bubble has exaccerbated. The last year has been an extremely exciting time in Computer Science; a theoretical paper written in LaTex is published on a Monday, a proof-of-concept is scratched out in a Jupyter Notebook by Wednesday, and 
+Humor aside, this disconnect between highly experimental, largely acedemic exploratory pursuits and consumer-ready, reliable products is one that the Generative AI bubble has exaccerbated. The last year has been an extremely exciting time in Computer Science; a theoretical paper written in LaTex is published on a Monday, a proof-of-concept  scratched out in a Jupyter Notebook by Wednesday, and a new VC funded startup is registered as a Delaware C-Corp by Friday. 
 
 The endless stream of incredible Linkedin LLM product demos seem to support this model. But another narrative is also taking shape; one of false claims and frustrated users, automation promises unfulfilled, nightmare customer experiences and AI-powered products gone rogue. What I hear on calls and consults is executives with waining patience. There is still an overwhelming excitement around the potential application of large (and small) language models, but the reckless abandon with which AI initiatives were undertaken in 2023 seems to be sobering up. This impending reality check in the AI space is probably not your friend if you play investment shell games for a living; but for those of us that create value by _actually shipping stuff that works_, this is a welcome change in the tide. Rather than a curb of inertia in AI development, we should expect a graduation in the standards and and consumer tolerances for applications leveraging AI.
 
@@ -61,7 +61,7 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzU5MTE0OSwtMTYwOTY3MTEzLC02OT
+eyJoaXN0b3J5IjpbMTM2NjU0NjE1MiwtMTYwOTY3MTEzLC02OT
 g2MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3
 OCwtMjA1NjM1OTgyOSwxNTQzODY2NjU1LDkwNDcxNDk5NywtMz
 M0MDMzMTcyLDkwMTkyNTc3MywtMTY3OTMwMDg0OSwtNDk0MTM4
