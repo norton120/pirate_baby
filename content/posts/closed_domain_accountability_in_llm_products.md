@@ -9,7 +9,7 @@ _grounding your ML development lifecycle in commercial reality_
 If you subscribe to the Gartner predictive model for AI impact and adoption (a.k.a the "AI Hype Cycle") we are still far from peak (inflated) AI expectations.
 ![Gartner AI Hype Cycle 2023](https://emt.gartnerweb.com/ngw/globalassets/en/newsroom/images/graphs/swe-hc-image.png)
 Casual observation supports the Gartner timeline; every week it seems a new Generative AI breakthrough sends techno-pundits and content creators into a frenzy. This week, the breakthrough is multimodal OpenAI GPT-4o: the long-awaited technological leap forward which will no doubt _fianally_ render the human race obsolete 🙄.
-The "hype" of the hype cycle is really a manifestation of 
+The "hype" of the hype cycle is really a manifestation of missaligned understanding.  Most Generative AI products are firmly in the "let's see if this can even work" phase of 
 
  disconnect between highly experimental, largely acedemic exploratory pursuits and consumer-ready, reliable products is one that the Generative AI bubble has greatly exaccerbated. Both funding and  
 
@@ -65,11 +65,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE5OTQ5NTkxLC0xNjA5NjcxMTMsLTY5OD
-YxMzUyMCwtNTA5MzkxNzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4
-LC0yMDU2MzU5ODI5LDE1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMz
-QwMzMxNzIsOTAxOTI1NzczLC0xNjc5MzAwODQ5LC00OTQxMzgw
-MzIsLTE1MjU4NTQxNzEsMTM0ODI4NDIzOCwzNDgxMzQ1MzUsLT
-c1MzE4NDY3LC02Njk5NTgwNjQsLTE2MTU3NjY0MywxMjg2OTM3
-MDU0XX0=
+eyJoaXN0b3J5IjpbLTEyODYyMDQ4MzEsLTE2MDk2NzExMywtNj
+k4NjEzNTIwLC01MDkzOTE3NjksMjA4NjEzODU5NywzMDk5NjQ3
+NzgsLTIwNTYzNTk4MjksMTU0Mzg2NjY1NSw5MDQ3MTQ5OTcsLT
+MzNDAzMzE3Miw5MDE5MjU3NzMsLTE2NzkzMDA4NDksLTQ5NDEz
+ODAzMiwtMTUyNTg1NDE3MSwxMzQ4Mjg0MjM4LDM0ODEzNDUzNS
+wtNzUzMTg0NjcsLTY2OTk1ODA2NCwtMTYxNTc2NjQzLDEyODY5
+MzcwNTRdfQ==
 -->
