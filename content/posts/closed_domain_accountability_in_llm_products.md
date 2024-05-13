@@ -1,10 +1,10 @@
 ---
-title: Closed Domain Accountability In LLM Products
+title: Restoring the 'Product' in AI Products
 tags: ["ai","ml","ops"]
 date: 2024-4-26
 draft: true
 ---
-_grounding your ML product lifecycle in commercial reality_
+_grounding your ML development lifecycle in commercial reality_
 
 If you subscribe to the Gartner predictive model for AI impact and adoption (a.k.a the "AI Hype Cycle") we are still far from peak AI expectations.
 ![Gartner AI Hype Cycle 2023](https://emt.gartnerweb.com/ngw/globalassets/en/newsroom/images/graphs/swe-hc-image.png)
@@ -59,11 +59,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTM5MTc2OSwyMDg2MTM4NTk3LDMwOT
-k2NDc3OCwtMjA1NjM1OTgyOSwxNTQzODY2NjU1LDkwNDcxNDk5
-NywtMzM0MDMzMTcyLDkwMTkyNTc3MywtMTY3OTMwMDg0OSwtND
-k0MTM4MDMyLC0xNTI1ODU0MTcxLDEzNDgyODQyMzgsMzQ4MTM0
-NTM1LC03NTMxODQ2NywtNjY5OTU4MDY0LC0xNjE1NzY2NDMsMT
-I4NjkzNzA1NCwtMTYxMjkzMzczNCwxMzA5ODkwMDg4LC0xNjYw
-NDY1NjNdfQ==
+eyJoaXN0b3J5IjpbLTk2MzIzMzQwNiwtNTA5MzkxNzY5LDIwOD
+YxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LDE1NDM4NjY2
+NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1NzczLC0xNj
+c5MzAwODQ5LC00OTQxMzgwMzIsLTE1MjU4NTQxNzEsMTM0ODI4
+NDIzOCwzNDgxMzQ1MzUsLTc1MzE4NDY3LC02Njk5NTgwNjQsLT
+E2MTU3NjY0MywxMjg2OTM3MDU0LC0xNjEyOTMzNzM0LDEzMDk4
+OTAwODhdfQ==
 -->
