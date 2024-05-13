@@ -8,7 +8,8 @@ _grounding your ML development lifecycle in commercial reality_
 
 If you subscribe to the Gartner predictive model for AI impact and adoption (a.k.a the "AI Hype Cycle") we are still far from peak (inflated) AI expectations.
 ![Gartner AI Hype Cycle 2023](https://emt.gartnerweb.com/ngw/globalassets/en/newsroom/images/graphs/swe-hc-image.png)
-Casual observation supports the Gartner timeline; every week it seems a new Generative AI breakthrough sends techno-pundits and content creators into a frenzy. This week, the breakthrough is multimodal OpenAI GPT-4o: the long-awaited technological leap forward which will no doubt fianally render the human race obsolete (by Q3 at the latest). This disconnect between highly experimental, largely acedemic exploratory pursuits and consumer-ready, reliable products is one that the Generative AI bubble has greatly exaccerbated. Both funding and  
+Casual observation supports the Gartner timeline; every week it seems a new Generative AI breakthrough sends techno-pundits and content creators into a frenzy. This week, the breakthrough is multimodal OpenAI GPT-4o: the long-awaited technological leap forward which will no doubt _fianally_ render the human race obsolete :rolling-eyes:. 
+This disconnect between highly experimental, largely acedemic exploratory pursuits and consumer-ready, reliable products is one that the Generative AI bubble has greatly exaccerbated. Both funding and  
 
 
 
@@ -62,11 +63,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODc2MzgzMjksLTE2MDk2NzExMywtNj
-k4NjEzNTIwLC01MDkzOTE3NjksMjA4NjEzODU5NywzMDk5NjQ3
-NzgsLTIwNTYzNTk4MjksMTU0Mzg2NjY1NSw5MDQ3MTQ5OTcsLT
-MzNDAzMzE3Miw5MDE5MjU3NzMsLTE2NzkzMDA4NDksLTQ5NDEz
-ODAzMiwtMTUyNTg1NDE3MSwxMzQ4Mjg0MjM4LDM0ODEzNDUzNS
-wtNzUzMTg0NjcsLTY2OTk1ODA2NCwtMTYxNTc2NjQzLDEyODY5
-MzcwNTRdfQ==
+eyJoaXN0b3J5IjpbMTMxMzc3MTkzOCwtMTYwOTY3MTEzLC02OT
+g2MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3
+OCwtMjA1NjM1OTgyOSwxNTQzODY2NjU1LDkwNDcxNDk5NywtMz
+M0MDMzMTcyLDkwMTkyNTc3MywtMTY3OTMwMDg0OSwtNDk0MTM4
+MDMyLC0xNTI1ODU0MTcxLDEzNDgyODQyMzgsMzQ4MTM0NTM1LC
+03NTMxODQ2NywtNjY5OTU4MDY0LC0xNjE1NzY2NDMsMTI4Njkz
+NzA1NF19
 -->
