@@ -14,7 +14,7 @@ The "hype" of this hype cycle is really a manifestation of missaligned understan
 
 We should expect a graduation in the standards and consumer tolerances for applications leveraging AI, a judgement of performance instead of potential. In short, AI products need to start behaving like _products_, and not science fair projects.  
 
-
+Maybe you are an Engineer that realizes the 
 So how do we make the transition from squishy intangibles and moving delivery targets to ship _products_ and _features_ that are an unquestionable success?
 
 ### Sunset your disclaimers
@@ -61,7 +61,7 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MDU4MjE2MywtNDI5MjQxMDg5LC0xNj
+eyJoaXN0b3J5IjpbMTE2NTc4NTY0NywtNDI5MjQxMDg5LC0xNj
 A5NjcxMTMsLTY5ODYxMzUyMCwtNTA5MzkxNzY5LDIwODYxMzg1
 OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LDE1NDM4NjY2NTUsOT
 A0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1NzczLC0xNjc5MzAw
