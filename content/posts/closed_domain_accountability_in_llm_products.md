@@ -9,6 +9,7 @@ _grounding your ML development lifecycle in commercial reality_
 If you subscribe to the Gartner predictive model for AI impact and adoption (a.k.a the "AI Hype Cycle") we are still far from peak (inflated) AI expectations.
 ![Gartner AI Hype Cycle 2023](https://emt.gartnerweb.com/ngw/globalassets/en/newsroom/images/graphs/swe-hc-image.png)
 Casual observation supports the Gartner timeline; every week it seems a new Generative AI breakthrough sends techno-pundits and content creators into a frenzy. This week, the breakthrough is multimodal OpenAI GPT-4o: the long-awaited technological leap forward which will no doubt fianally render the human race obsolete no later than Q3. 
+Humor aside, the disconnect between a highly experimental, acedemic and exploratory pursuit  nature of the 
 
 The endless stream of incredible Linkedin LLM product demos seem to support this model. But another narrative is also taking shape; one of false claims and frustrated users, automation promises unfulfilled, nightmare customer experiences and AI-powered products gone rogue. What I hear on calls and consults is executives with waining patience. There is still an overwhelming excitement around the potential application of large (and small) language models, but the reckless abandon with which AI initiatives were undertaken in 2023 seems to be sobering up. This impending reality check in the AI space is probably not your friend if you play investment shell games for a living; but for those of us that create value by _actually shipping stuff that works_, this is a welcome change in the tide. Rather than a curb of inertia in AI development, we should expect a graduation in the standards and and consumer tolerances for applications leveraging AI.
 
@@ -60,11 +61,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5OTY0Mzg2OSwtMTYwOTY3MTEzLC02OT
-g2MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3
-OCwtMjA1NjM1OTgyOSwxNTQzODY2NjU1LDkwNDcxNDk5NywtMz
-M0MDMzMTcyLDkwMTkyNTc3MywtMTY3OTMwMDg0OSwtNDk0MTM4
-MDMyLC0xNTI1ODU0MTcxLDEzNDgyODQyMzgsMzQ4MTM0NTM1LC
-03NTMxODQ2NywtNjY5OTU4MDY0LC0xNjE1NzY2NDMsMTI4Njkz
-NzA1NF19
+eyJoaXN0b3J5IjpbNzYxOTA0MTcsLTE2MDk2NzExMywtNjk4Nj
+EzNTIwLC01MDkzOTE3NjksMjA4NjEzODU5NywzMDk5NjQ3Nzgs
+LTIwNTYzNTk4MjksMTU0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzND
+AzMzE3Miw5MDE5MjU3NzMsLTE2NzkzMDA4NDksLTQ5NDEzODAz
+MiwtMTUyNTg1NDE3MSwxMzQ4Mjg0MjM4LDM0ODEzNDUzNSwtNz
+UzMTg0NjcsLTY2OTk1ODA2NCwtMTYxNTc2NjQzLDEyODY5Mzcw
+NTRdfQ==
 -->
