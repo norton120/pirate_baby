@@ -12,9 +12,7 @@ Casual observation supports the Gartner timeline; every week it seems a new Gene
 The "hype" of this hype cycle is really a manifestation of missaligned understanding.  Most Generative AI products are firmly in the "let's see if this could even work" phase of develpment (properly referred to as experimentation investment). It is a gambler's bet - we _think_ a thing can be done, and if we turn out to be correct there is potential for a huge return. This is very different from the last decade of technology application, one of "we know this absolutely works and is just a matter of implementation." The difference is critical. If an Executive allocated capital and headcount for an e-commerce initiatve in 2023, there was no question about the viable fundimentals of e-commerce; sure, you can get the marketing wrong, or the UX, or the database design - you can fumble the _implementation_ of an e-commerce solution. But you never have to question if _e-commerce even works_. With Generative AI, however, that question remains front and center for every new and individual use case. Many business and technology leaders approached AI strategy in 2023 expecting a familiar process and development cycle, instead finding themselves frustrated by products that never seem to graduate beyond demos. Half-baked chatbots and glitchy, disclamer-laden AI novelty products litter the Gen AI space. As stated wonderfully by Samir Kumar of Turing Capital in a recent [TechCrunch interview](https://techcrunch.com/2024/04/15/investors-are-growing-increasingly-wary-of-ai/): 
 > “We’ll soon be evaluating whether generative AI delivers the promised efficiency gains at scale and drives top-line growth through AI-integrated products and services... If these anticipated milestones aren’t met and we remain primarily in an experimental phase, revenues from ‘experimental run rates’ might not transition into sustainable annual recurring revenue.” 
 
-Rather than a curb of inertia in AI development, we should expect a graduation in the standards and and consumer tolerances for applications leveraging AI.
-
-What does this mean in practice? For one, get ready for AI-powered products to be judged by performance instead of potential.  
+We should expect a graduation in the standards and consumer tolerances for applications leveraging AI, a judgement of performance instead of potential. In shor 
 
 So how do we make the transition from squishy intangibles and moving delivery targets to ship _products_ and _features_ that are an unquestionable success?
 
@@ -62,7 +60,7 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTkxNDQ3OTIsLTQyOTI0MTA4OSwtMT
+eyJoaXN0b3J5IjpbLTEyMTk3NTAyNTUsLTQyOTI0MTA4OSwtMT
 YwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4
 NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOSwxNTQzODY2NjU1LD
 kwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTkyNTc3MywtMTY3OTMw
