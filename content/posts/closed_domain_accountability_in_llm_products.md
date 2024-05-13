@@ -14,7 +14,7 @@ The "hype" of this hype cycle is really a manifestation of missaligned understan
 
 We should expect a graduation in the standards and consumer tolerances for applications leveraging AI, a judgement of performance instead of potential. In short, AI products need to start behaving like _products_, and not science fair projects.  
 
-Maybe you are an Executive growing impatient with the lack of investment return on your Machine Learning initiatives. Maybe you are an AI Founder watching your runway burn like the wick on a cartoon bomb as your users fail to convert (or worse, churn), or an Engineer anxious to secure your chair before the music stops. 
+Maybe you are an Executive growing impatient with the lack of investment return on your Machine Learning initiatives. Maybe you are an AI Founder watching your runway burn like the wick on a cartoon bomb as your users fail to convert (or worse, churn), or an Engineer anxious to secure your chair before the music stops. Whoever you are, there are c
 
 
 ### Sunset your disclaimers
@@ -24,10 +24,7 @@ That is because real products cannot come with an escape hatch. The AI Product a
 
 Unreliable components in systems are not exclusive to Generatve AI, or remotely new to the Software world. I once worked with an ecom platform that was being _slaughtered_ by Amazon over shipping timelines. The problem wasn't delivery times (most orders were delivered in 1-2 days), but the logistics of displaying delivery dates while relying on slow and unreliable vendor feeds. A cop-out would have been to slap an "Estimates are unreliable, and you may get your stuff whenever" disclamer on the page - but that was not the product experience we set out to deliver. Alternatively, the team could have spent months constructing a labyrinth of brittle branching logic across hundreds of vendors and warehouses. 
 
-Instead, free two-day delivery was the default for any item without an available timeline. Simple automated shipping covered the vast majority of these orders, and expedited shipping took care of slow outliers that turned up during fulfillment. Clear, reliable delivery timelines had a dramatic impact on conversion that greatly outweighed the occasional cost of expedited shipping. We delivered the whole of the feature we promised, not a watered-down version plastered with escape hatches. 
-
-As expectations for Generative Engineering become more grounded in consumer reality, the limitations of a product's parts will not excuse the failings of the sum. That means thinking outside the prompt and beyond your RAG strategy, doing a lot of hard Data Engineering, or Software Engineering, or Product Development - or all of the above - to move past the disclaimers and deliver what you promise.
-
+Instead, free two-day delivery was the default for any item without an available timeline. Simple automated shipping covered the vast majority of these orders, and expedited shipping took care of slow outliers that turned up during fulfillment. Clear, reliable delivery timelines had a dramatic impact on conversion that greatly outweighed the occasional cost of expedited shipping. this was the feature as promised, not a watered-down version plastered with escape hatch disclaimers. 
 
 ### Stop playing
 Nothing makes my skin crawl like stepping into a Machine Learning stack where one of the repositories is named "Playground." I know that is an unfortunately common nomenclature for experimentation suites, but words matter - and in this case illustrate my issue with production Data Science. 
@@ -61,7 +58,7 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzk2ODg2NTEsLTQyOTI0MTA4OSwtMT
+eyJoaXN0b3J5IjpbLTE4OTEyNDYwOTIsLTQyOTI0MTA4OSwtMT
 YwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4
 NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOSwxNTQzODY2NjU1LD
 kwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTkyNTc3MywtMTY3OTMw
