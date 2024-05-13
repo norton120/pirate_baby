@@ -14,7 +14,7 @@ The "hype" of this hype cycle is really a manifestation of missaligned understan
 
 We should expect a graduation in the standards and consumer tolerances for applications leveraging AI, a judgement of performance instead of potential. In short, AI products need to start behaving like _products_, and not science fair projects.  
 
-Maybe you are an Executive growing impatient with the lack of investment return on your Machine Learning initiatives. Maybe you are an AI Founder watching your runway burn like the wick on a cartoon bomb as your users fail to convert (or worse, churn), or an Engineer anxious to secure your chair before the music stops. Whoever you are, taking steps to  
+Maybe you are an Executive growing impatient with the lack of investment return on your Machine Learning initiatives. Maybe you are an AI Founder watching your runway burn like the wick on a cartoon bomb as your users fail to convert (or worse, churn), or an Engineer anxious to secure your chair before the music stops. If you are involved in a Gen AI product initiative and want to ship things that matter  
 
 
 ### Sunset your disclaimers
@@ -58,11 +58,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUyMTAzMDQ5LC00MjkyNDEwODksLTE2MD
-k2NzExMywtNjk4NjEzNTIwLC01MDkzOTE3NjksMjA4NjEzODU5
-NywzMDk5NjQ3NzgsLTIwNTYzNTk4MjksMTU0Mzg2NjY1NSw5MD
-Q3MTQ5OTcsLTMzNDAzMzE3Miw5MDE5MjU3NzMsLTE2NzkzMDA4
-NDksLTQ5NDEzODAzMiwtMTUyNTg1NDE3MSwxMzQ4Mjg0MjM4LD
-M0ODEzNDUzNSwtNzUzMTg0NjcsLTY2OTk1ODA2NCwtMTYxNTc2
-NjQzXX0=
+eyJoaXN0b3J5IjpbLTE1NTc2NDUwMDMsLTQyOTI0MTA4OSwtMT
+YwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4
+NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOSwxNTQzODY2NjU1LD
+kwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTkyNTc3MywtMTY3OTMw
+MDg0OSwtNDk0MTM4MDMyLC0xNTI1ODU0MTcxLDEzNDgyODQyMz
+gsMzQ4MTM0NTM1LC03NTMxODQ2NywtNjY5OTU4MDY0LC0xNjE1
+NzY2NDNdfQ==
 -->
