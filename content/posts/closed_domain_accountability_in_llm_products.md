@@ -17,7 +17,7 @@ We should expect a graduation in the standards and consumer tolerances for appli
 Maybe you are an Executive growing impatient with the lack of investment return on your Machine Learning initiatives. Maybe you are an AI Founder watching your runway burn like the wick on a cartoon bomb as your users fail to convert (or worse, churn), or an Engineer anxious to secure your chair before the music stops. If you are involved in a Gen AI initiative, there are meaningful steps that will set you on the road to success. 
 
 ### Where the Hell is Product? 
-If I have to choose only one facepalm
+If I have to choose only element of the Gen AI craze to facepalm over, this is it. 
 
 
 ### Sunset Your Disclaimers
@@ -61,11 +61,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDY4NDIwMSwtNDI5MjQxMDg5LC0xNj
-A5NjcxMTMsLTY5ODYxMzUyMCwtNTA5MzkxNzY5LDIwODYxMzg1
-OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LDE1NDM4NjY2NTUsOT
-A0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1NzczLC0xNjc5MzAw
-ODQ5LC00OTQxMzgwMzIsLTE1MjU4NTQxNzEsMTM0ODI4NDIzOC
-wzNDgxMzQ1MzUsLTc1MzE4NDY3LC02Njk5NTgwNjQsLTE2MTU3
-NjY0M119
+eyJoaXN0b3J5IjpbLTE5ODAxOTM2NjgsLTQyOTI0MTA4OSwtMT
+YwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4
+NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOSwxNTQzODY2NjU1LD
+kwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTkyNTc3MywtMTY3OTMw
+MDg0OSwtNDk0MTM4MDMyLC0xNTI1ODU0MTcxLDEzNDgyODQyMz
+gsMzQ4MTM0NTM1LC03NTMxODQ2NywtNjY5OTU4MDY0LC0xNjE1
+NzY2NDNdfQ==
 -->
