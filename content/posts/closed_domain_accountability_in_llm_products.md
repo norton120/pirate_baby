@@ -22,7 +22,7 @@ If I was allowed to facepalm my response to only one single pattern in the GenAI
 
 Somewhere along the way we decided that AI/ML is the exclusive domain of Data Scientists, that it is the "smart people magic" black box that no normal person could ever understand. In fairness, few Data Scientists I've known do much to help the situation. A Product Owner asks the team "can the LLM remember things?" and is given an overly technical primer on vector-based RAG; what they needed was applicable understanding of the features they have to work with. 
 
-But I have also yet to work with a Product or UX team that showed any meaningful interest in owning the natural language user experience, r 
+But I have also yet to work with a Product team that showed any meaningful interest in owning the entirety of the product (not excluding the features and behavior of generative agents), or any of the natural language user experience (NLUX).   
 
 
 ### Sunset Your Disclaimers
@@ -66,11 +66,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk2NDE2NDg1LC0xOTgwMTkzNjY4LC00Mj
-kyNDEwODksLTE2MDk2NzExMywtNjk4NjEzNTIwLC01MDkzOTE3
-NjksMjA4NjEzODU5NywzMDk5NjQ3NzgsLTIwNTYzNTk4MjksMT
-U0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzNDAzMzE3Miw5MDE5MjU3
-NzMsLTE2NzkzMDA4NDksLTQ5NDEzODAzMiwtMTUyNTg1NDE3MS
-wxMzQ4Mjg0MjM4LDM0ODEzNDUzNSwtNzUzMTg0NjcsLTY2OTk1
-ODA2NF19
+eyJoaXN0b3J5IjpbLTE5MjMwOTgwMjIsLTE5ODAxOTM2NjgsLT
+QyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5
+MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOS
+wxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTky
+NTc3MywtMTY3OTMwMDg0OSwtNDk0MTM4MDMyLC0xNTI1ODU0MT
+cxLDEzNDgyODQyMzgsMzQ4MTM0NTM1LC03NTMxODQ2NywtNjY5
+OTU4MDY0XX0=
 -->
