@@ -33,7 +33,7 @@ Here is a banner you won't see:
 ![Amazon does not need an out clause](images/unreliable_software.png)
 That is because real products cannot come with an escape hatch. The AI Product and Engineering teams are responsible for a consumer experience that is right and reliable, full stop. This doesn't mean _the LLM_ needs to get everything right every time - quite the contrary. Engineers must orchestrate the holistic interaction of software, inference, and user, in alignment with the vision of product, in order to arrive at a reliable and trustworthy experience. 
 
-Unreliable components in systems are not exclusive to GenAI, or remotely new to the Software world. A few years ago I worked on an e-commerce platform that was struggling with conversion due to shipping timelines. The problem wasn't the actual deliveries (most orders were delivered in 1-2 days), but the logistics of displaying delivery dates while relying on slow and unreliable vendor feeds. A cop-out would have been to slap an "Estimates are unreliable, and you may get your stuff whenever" disclaimer on the page - but that was not the product experience we set out to deliver. Alternatively, the team could have spent months constructing a labyrinth of brittle branching logic across hundreds of vendors and warehouses, which would have been a nightmare to maintain. 
+Unreliable components in systems are not exclusive to GenAI, or remotely new to the Software world in general. A few years ago I worked on an e-commerce platform that was struggling with conversion due to shipping timelines. The problem wasn't the actual deliveries (most orders were delivered in 1-2 days), but the logistics of displaying delivery dates while relying on slow and unreliable vendor feeds. A cop-out would have been to slap an "Estimates are unreliable, and you may get your stuff whenever" disclaimer on the page - but that was not the product experience we set out to deliver. Alternatively, the team could have spent months constructing a labyrinth of brittle branching logic across hundreds of vendors and warehouses, which would have been a nightmare to maintain. 
 
 Instead, free two-day delivery became the default for any item without an available timeline. Simple automated shipping covered the vast majority of orders, and expedited shipping took care of the few slow outliers that turned up during fulfillment. Clear, reliable delivery timelines resulted in a dramatic uptick in conversion, greatly outweighing the occasional cost of expedited shipping. This was the feature as promised, not a watered-down version plastered with disclaimers and excuses. 
 
@@ -55,7 +55,7 @@ The most fundamental product question seems to have been forgotten by many durin
 
 Ironically, the nature of many AI products - especially Natural Language interfaces - makes them remarkably easy to validate. Whereas testing engagement with a new online billing platform or recommendations engine pretty much requires you to build the thing first, GenAI products are typically emulating humans. So... _you can start by using a human_. In an act of [doing things that do not scale](https://paulgraham.com/ds.html), first running a human-powered prototype is a brilliantly simple way to determine if the product in question will actually add value and gain traction. [Product and UX designs](#where-the-hell-is-ux-and-product?) translate seamlessly into human scripts and interaction guides. If you are a startup, you can load up on espresso and power it yourself. If you are part of a larger corporate initiative, augmented customer service providers are easy to find. Emulate the limitations and expectations of the platform you are about to build, and find out if _anyone actually wants this thing_ enough to justify the cost of building it. 
 
-One of my favorite productivity tools added an AI-powered filter builder about a month ago. Instead of typing the filter code `(tomorrow | next+week)`, I can now type `show me events that are scheduled for tomorrow or next week`.  Then the assistant chugs for about 10 seconds, and replaces my natural language text with `(tomorrow | next+week)`.  It's a cute novelty, but the filter already had great filter hints - this is slower and requires more typing than the product they already offered. I've never used it since, and I would be amazed to learn that general adoption is any different. Take advantage of how amazingly easy it is to validate GenAI demand before you build (or as soon as possible if you are already building) and you'll be that much closer to a viable product. 
+One of my favorite productivity tools added an AI-powered filter builder about a month ago. Instead of typing the filter code `(tomorrow | next+week)`, I can now type `show me events that are scheduled for tomorrow or next week`.  Then the assistant chugs for about 10 seconds, and replaces my natural language text with `(tomorrow | next+week)`.  It's a cute novelty, but the filter already had great filter hints - this is slower and requires more typing than the product they already offered. I've never used it since, and I would be amazed to learn that general adoption is any different. Take advantage of how unusu easy it is to validate GenAI demand before you build (or as soon as possible if you are already building) and you'll be that much closer to a viable product. 
 
 ### Ground Truth is a Magic Lamp
 If you are granted three wishes by a genie, leave no room in them for interpretation. Ambiguity is how you end up turned into a tortoise ("I want to live for centuries!") or the Mona Lisa ("I want to be famous!"). And when constructing your ground truth datasets, leave even less ambiguity. 
@@ -64,11 +64,11 @@ Language models will astound you with how creatively they can screw up and still
 
 Ground truths are the fundimental bedrock of a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTU5OTc4MTEsNzczNTg4NTAxLC01MT
-M0NDM2MDMsLTI4Mzk2NzEwOSw5OTkwNTE5MTUsLTE3ODMwNjYx
-NzIsLTE5ODAxOTM2NjgsLTQyOTI0MTA4OSwtMTYwOTY3MTEzLC
-02OTg2MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4NTk3LDMwOTk2
-NDc3OCwtMjA1NjM1OTgyOSwxNTQzODY2NjU1LDkwNDcxNDk5Ny
-wtMzM0MDMzMTcyLDkwMTkyNTc3MywtMTY3OTMwMDg0OSwtNDk0
-MTM4MDMyXX0=
+eyJoaXN0b3J5IjpbLTQ3MTg0NTE3NCw3NzM1ODg1MDEsLTUxMz
+Q0MzYwMywtMjgzOTY3MTA5LDk5OTA1MTkxNSwtMTc4MzA2NjE3
+MiwtMTk4MDE5MzY2OCwtNDI5MjQxMDg5LC0xNjA5NjcxMTMsLT
+Y5ODYxMzUyMCwtNTA5MzkxNzY5LDIwODYxMzg1OTcsMzA5OTY0
+Nzc4LC0yMDU2MzU5ODI5LDE1NDM4NjY2NTUsOTA0NzE0OTk3LC
+0zMzQwMzMxNzIsOTAxOTI1NzczLC0xNjc5MzAwODQ5LC00OTQx
+MzgwMzJdfQ==
 -->
