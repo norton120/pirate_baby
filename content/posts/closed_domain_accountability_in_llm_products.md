@@ -62,13 +62,13 @@ If you are granted three wishes by a genie, leave no room in them for interpreta
 
 Language models will astound you with how creatively they can screw up and still follow the rules. They may perfectly extract every book title from 1000 reviews, until you provide a new ground truth written entirely in lowercase. They may halucinate if you change "the user" to "a user." They may decide any unknown sirname should be replaced with "Stalone." 
 
-Ground truths are the fundimental bedrock of a 
+Comprehensive ground truth coverage is how you iterate 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzg5NTE0NjcsLTQzOTgyMjc2Niw3Nz
-M1ODg1MDEsLTUxMzQ0MzYwMywtMjgzOTY3MTA5LDk5OTA1MTkx
-NSwtMTc4MzA2NjE3MiwtMTk4MDE5MzY2OCwtNDI5MjQxMDg5LC
-0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5MzkxNzY5LDIwODYx
-Mzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LDE1NDM4NjY2NT
-UsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1NzczLC0xNjc5
-MzAwODQ5XX0=
+eyJoaXN0b3J5IjpbLTU2Nzg2OTQ0MSwtMTgzODk1MTQ2NywtND
+M5ODIyNzY2LDc3MzU4ODUwMSwtNTEzNDQzNjAzLC0yODM5Njcx
+MDksOTk5MDUxOTE1LC0xNzgzMDY2MTcyLC0xOTgwMTkzNjY4LC
+00MjkyNDEwODksLTE2MDk2NzExMywtNjk4NjEzNTIwLC01MDkz
+OTE3NjksMjA4NjEzODU5NywzMDk5NjQ3NzgsLTIwNTYzNTk4Mj
+ksMTU0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzNDAzMzE3Miw5MDE5
+MjU3NzNdfQ==
 -->
