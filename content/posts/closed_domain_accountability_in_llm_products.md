@@ -24,7 +24,7 @@ Somewhere along the way we decided that AI/ML is the exclusive domain of Data Sc
 
 However, I have also yet to know a Product team that has shown the slightest interest in owning feature and behavioral design of generative agents, or a UX team that spearheaded a plan for natural language user experience (NLUX). Unlike wireframes and brand kits, UX for Natural Language is a whole new domain for most UX Designers. There has been a tremendous focus on the _technical_ aspects of GenAI in the last 18 months, but what about every other discipline in the application ecosystem?  
 
-If we are going to transition GenAI products from exploratory investments into commercial successes, we need to see a comprehensive skills shift across disciplines. It is no longer acceptable that Creative and Product teams labor page layout speaks to the brand, but then pay no attention to what the thing that is actually speaking for the brand, with **words**, is saying. 
+If we are going to transition GenAI products from exploratory investments into commercial successes, we need to see a comprehensive skills shift across disciplines. It is no longer acceptable that Creative and Product teams pour  page layout speaks to the brand, but then pay no attention to what the thing that is actually speaking for the brand, with **words**, is saying. 
 
 A set of wireframes illustrates the customer journey across screens and clicks; NLUX designs should illustrate how the conversation between a user and the product must unfold. Happy paths, sad paths, external events, tone, language structure, level of engagement - these are all things Product and UX can flesh out in detail with stakeholders, long before a line of code is written. Of course not everything in the design will be possible or practical - that's where the iterative nature of Software Engineering comes into play. Having a clear, universally understood vision for the product enables AI Engineers to plan and address novel challenges head-on, instead of scrambling on their heels in front of frustrated stakeholders. 
 
@@ -68,11 +68,11 @@ This can be a difficult thing for teams (and stakeholders) to wrap their heads a
 
 Success in GenAI is about how many different ways the user can _not_ do the right thing and still achieve the desired result, how tolerant the system can be of deviation. Relentlessly curate and expand ground truth datasets, they are the foundation of a commerically viable GenAI product. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTAxOTYzNCwtMTgzODk1MTQ2NywtND
-M5ODIyNzY2LDc3MzU4ODUwMSwtNTEzNDQzNjAzLC0yODM5Njcx
-MDksOTk5MDUxOTE1LC0xNzgzMDY2MTcyLC0xOTgwMTkzNjY4LC
-00MjkyNDEwODksLTE2MDk2NzExMywtNjk4NjEzNTIwLC01MDkz
-OTE3NjksMjA4NjEzODU5NywzMDk5NjQ3NzgsLTIwNTYzNTk4Mj
-ksMTU0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzNDAzMzE3Miw5MDE5
-MjU3NzNdfQ==
+eyJoaXN0b3J5IjpbLTIwMjkwNzgzOTQsLTE4Mzg5NTE0NjcsLT
+QzOTgyMjc2Niw3NzM1ODg1MDEsLTUxMzQ0MzYwMywtMjgzOTY3
+MTA5LDk5OTA1MTkxNSwtMTc4MzA2NjE3MiwtMTk4MDE5MzY2OC
+wtNDI5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5
+MzkxNzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5OD
+I5LDE1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAx
+OTI1NzczXX0=
 -->
