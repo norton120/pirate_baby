@@ -15,7 +15,7 @@ The "hype" in this hype cycle is really a manifestation of misaligned understand
 We should expect a graduation in the standards and consumer tolerances for applications leveraging AI, a judgement based on performance instead of potential. In short, AI products need to start behaving like _products_, and not school science fair projects.  
 
 ## Correcting the Course
-Maybe you are an Executive growing impatient with the lack of investment return on your Machine Learning initiatives. Maybe you are an AI Founder watching your runway burn down like the wick of a cartoon bomb, as your users fail to convert (or worse yet, churn). Maybe you are an AI or ML Engineer anxious to secure your place before the GenAI music stops. Whoever you are, the playbook for delivering successful GenAI products is not all that diffe
+Maybe you are an Executive growing impatient with the lack of investment return on your Machine Learning initiatives. Maybe you are an AI Founder watching your runway burn down like the wick of a cartoon bomb, as your users fail to convert (or worse yet, churn). Maybe you are an AI or ML Engineer anxious to secure your place before the GenAI music stops. Whoever you are, the playbook for delivering successful GenAI products is 
 
 ### Where the Hell is Product? 
 If I have to choose only element of the Gen AI craze to facepalm over, this is it. 
@@ -62,7 +62,7 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MjM4MTgxLC0xOTgwMTkzNjY4LC00Mj
+eyJoaXN0b3J5IjpbMTQxNzE2ODgyLC0xOTgwMTkzNjY4LC00Mj
 kyNDEwODksLTE2MDk2NzExMywtNjk4NjEzNTIwLC01MDkzOTE3
 NjksMjA4NjEzODU5NywzMDk5NjQ3NzgsLTIwNTYzNTk4MjksMT
 U0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzNDAzMzE3Miw5MDE5MjU3
