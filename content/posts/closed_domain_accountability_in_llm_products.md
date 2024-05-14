@@ -53,7 +53,7 @@ Individual experimentation failures eventually lead to product success; each sys
 ### Is there Demand?
 The most fundamental product question seems to have been forgotten by many during the AI gold rush of '23: do people actually want the thing you are building? What proof do you have? Examples of useless, unwanted AI products being shoehorned into our lives are already everywhere. There are pointless novelty chatbots now built into every social media platform. Integrated text completions are getting increasingly aggressive about mangling our messages. Most new AI customer service assistants seem remarkably adept at rephrasing "as an AI assistant I am unable to help you" - and not much else. 
 
-Ironically, the nature of many AI products - especially natural language products - makes them remarkably easy to validate. Whereas testing engagement with an online billing platform or a new recommendations engine pretty much requires you to build the thing first, GenAI products are typically emulating humans. So... _just use a human first_. In an act of [doing things that do not scale](https://paulgraham.com/ds.html), 
+Ironically, the nature of many AI products - especially natural language products - makes them remarkably easy to validate. Whereas testing engagement with an online billing platform or a new recommendations engine pretty much requires you to build the thing first, GenAI products are typically emulating humans. So... _just use a human first_. In an act of [doing things that do not scale](https://paulgraham.com/ds.html), a human si 
 
 ### Treat Ground Truth Like an Evil Genie
 Ambiguous wishes are the downfall of fairy tail magic lamps; a man wishes for wealth, and the genie transforms him into a rich miser on his death bed. Your ground truth datasets are as equally sensitive to ambiguity. 
@@ -62,7 +62,7 @@ Ground truth datasets for your product should be largely the domain of the Produ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMTkzNTM5Nyw5OTkwNTE5MTUsLTE3OD
+eyJoaXN0b3J5IjpbLTg5NTkyNTI0NSw5OTkwNTE5MTUsLTE3OD
 MwNjYxNzIsLTE5ODAxOTM2NjgsLTQyOTI0MTA4OSwtMTYwOTY3
 MTEzLC02OTg2MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4NTk3LD
 MwOTk2NDc3OCwtMjA1NjM1OTgyOSwxNTQzODY2NjU1LDkwNDcx
