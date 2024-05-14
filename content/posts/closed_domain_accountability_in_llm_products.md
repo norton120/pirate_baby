@@ -53,7 +53,7 @@ Individual experimentation failures eventually lead to product success; each sys
 ### Is there Demand?
 The most fundamental product question seems to have been forgotten by many during the AI gold rush of '23: do people actually want the thing you are building? What proof do you have? Examples of useless, unwanted AI products being shoehorned into our lives are already everywhere. Pointless novelty chatbots on every social media platform. Integrated text completions that are increasingly aggressive about mangling your messages. Customer service assistants adapt at endlessly rephrasing "as an AI assistant I am unable to help you" and not much else. 
 
-Ironically, bots are one of the easier
+Ironically, val 
 
 ### Treat Ground Truth Like an Evil Genie
 Ambiguous wishes are the downfall of fairy tail magic lamps; a man wishes for wealth, and the genie transforms him into a rich miser on his death bed. Your ground truth datasets are as equally sensitive to ambiguity. 
@@ -62,7 +62,7 @@ Ground truth datasets for your product should be largely the domain of the Produ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTQ5NjM3NCwtMTk4MDE5MzY2OCwtND
+eyJoaXN0b3J5IjpbMTA5MzE4NTM4OCwtMTk4MDE5MzY2OCwtND
 I5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5Mzkx
 NzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LD
 E1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1
