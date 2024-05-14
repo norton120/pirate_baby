@@ -62,12 +62,10 @@ If you are granted three wishes by a genie, leave no room in them for interpreta
 
 Language models will astound you with how creatively they can screw up and still follow the rules. They may perfectly extract every book title from 1000 reviews, until you provide a new ground truth written entirely in lowercase. They may halucinate if you change "the user" to "a user." They may decide any unknown sirname should be replaced with "Stalone." 
 
-Comprehensive ground truth coverage is how you iterate and avoid regressions. While synthetic datasets can be useful, in my experience nothing compares to diverse human testing with an ever-expanding ground truth collection. The case above with "the user" and "a user" is a real-world example; I believed that I had authored and then synthesized ground truth data in a wide variety of tones and patterns, but it took just one message from a team member with a different writing style to expose a failing case. 
-
-Reliability is the result of methodically eliminating failing cases. To make this happen, 
+Comprehensive ground truth coverage is how you iterate and avoid regressions. While synthetic datasets can be useful, in my experience nothing compares to diverse human testing with an ever-expanding ground truth collection. The case above with "the user" and "a user" is a real-world example; I believed that I had authored and then synthesized ground truth data in a wide variety of tones and patterns, but it took just one message from a team member with a different writing style to expose a failing case. Reliability is the cornerstone of a commerically viable product, and is the result of methodically eliminating failing cases. Reliability is also the cornerstone of a commerically viable product. So 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MjUzNzQ1NiwtMTgzODk1MTQ2NywtND
+eyJoaXN0b3J5IjpbMTgyODIwNDgzMywtMTgzODk1MTQ2NywtND
 M5ODIyNzY2LDc3MzU4ODUwMSwtNTEzNDQzNjAzLC0yODM5Njcx
 MDksOTk5MDUxOTE1LC0xNzgzMDY2MTcyLC0xOTgwMTkzNjY4LC
 00MjkyNDEwODksLTE2MDk2NzExMywtNjk4NjEzNTIwLC01MDkz
