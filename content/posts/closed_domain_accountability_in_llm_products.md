@@ -58,16 +58,16 @@ Ironically, the nature of many AI products - especially Natural Language interfa
 One of my favorite productivity tools added an AI-powered filter builder about a month ago. Instead of typing the filter code `(tomorrow | next+week)`, I can now type `show me events that are scheduled for tomorrow or next week`.  Then the assistant chugs for about 10 seconds, and replaces my natural language text with `(tomorrow | next+week)`.  It's a cute novelty, but the filter already had great filter hints - this is slower and requires more typing than the product they already offered. I've never used it since, and I would be amazed to learn that general adoption is any different. Take advantage of how amazingly easy it is to validate GenAI demand before you build (or as soon as possible if you are already building) and you'll be that much closer to a viable product. 
 
 ### Ground Truth is a Magic Lamp
-If you are granted three wishes by a genie, leave no room for interpretation. Ambiguity is how you end up turned into a tortoise ("I want to live for centuries!") or the Mona Lisa ("I want to be famous!"). When constructing your ground truth datasets, leave even less ambiguity. 
+If you are granted three wishes by a genie, leave no room in them for interpretation. Ambiguity is how you end up turned into a tortoise ("I want to live for centuries!") or the Mona Lisa ("I want to be famous!"). And when constructing your ground truth datasets, leave even less ambiguity. 
 
 Language models will astound you with how creatively they can screw up and still follow the rules. They may 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4Mzk2NzEwOSw5OTkwNTE5MTUsLTE3OD
-MwNjYxNzIsLTE5ODAxOTM2NjgsLTQyOTI0MTA4OSwtMTYwOTY3
-MTEzLC02OTg2MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4NTk3LD
-MwOTk2NDc3OCwtMjA1NjM1OTgyOSwxNTQzODY2NjU1LDkwNDcx
-NDk5NywtMzM0MDMzMTcyLDkwMTkyNTc3MywtMTY3OTMwMDg0OS
-wtNDk0MTM4MDMyLC0xNTI1ODU0MTcxLDEzNDgyODQyMzgsMzQ4
-MTM0NTM1XX0=
+eyJoaXN0b3J5IjpbLTUxMzQ0MzYwMywtMjgzOTY3MTA5LDk5OT
+A1MTkxNSwtMTc4MzA2NjE3MiwtMTk4MDE5MzY2OCwtNDI5MjQx
+MDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5MzkxNzY5LD
+IwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LDE1NDM4
+NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1NzczLC
+0xNjc5MzAwODQ5LC00OTQxMzgwMzIsLTE1MjU4NTQxNzEsMTM0
+ODI4NDIzOF19
 -->
