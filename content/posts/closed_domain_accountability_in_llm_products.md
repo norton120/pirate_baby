@@ -62,19 +62,15 @@ If you are granted three wishes by a genie, leave no room in them for interpreta
 
 Language models will astound you with how creatively they can screw up and still follow the rules. They may perfectly extract every book title from 1000 reviews, until you provide a new ground truth written entirely in lowercase. They may halucinate if you change "the user" to "a user." They may decide any unknown sirname should be replaced with "Stalone." 
 
-Comprehensive ground truth coverage is how you iterate and avoid regressions. While synthetic datasets can be useful, in my experience nothing compares to diverse human testing with an ever-expanding ground truth collection. The case above with "the user" and "a user" is a real-world example; I believed that I had authored and then synthesized ground truth data in a wide variety of tones and patterns, but it took just one submission from a team member with a slightly different writing style to expose a failing case. Reliability is the cornerstone of any commerically viable product, one that results from methodically eliminating these failing cases. Each new failing case must be captured as ground truth and celebrated as a tiny victory - because it represents one more known permuation that can be definitively solved. 
+Comprehensive ground truth coverage is how you iterate and avoid regressions. While synthetic datasets can be useful, in my experience nothing compares to diverse human testing with an ever-expanding ground truth collection. The case above with "the user" and "a user" is a real-world example; I believed that I had authored and then synthesized ground truth data in a wide variety of tones and patterns, but it took just one submission from a team member with a slightly different writing style to expose a failing case. Reliability is the cornerstone of any commerically viable product, one that results from methodically eliminating these failing cases. Each new failing case must be captured as ground truth and celebrated as a tiny victory - because it represents one more known permuation that can be definitively solved. The larger the list of failing cases identified, accounted for and corrected, the closer the product is to commerically viability.
 
-This can be a difficult thing for teams (and stakeholders) to wrap their heads around at first; the larger the list of failing cases identified, accounted for and corrected, the closer the product is to commerically viability. This process is hard, nessesary work, and presents a unique danger; if engineers and stakeholders mistake an initial happy path demo for a finished product, then each new case is incorrectly  as a bug   
-
-
-
-Happy path demos are the stuff of experimentation and novelty. Success in GenAI is about how many different ways the user can _not_ do the right thing and still achieve the desired result, how tolerant the  
+This can be a difficult thing for teams (and stakeholders) to wrap their heads around at first; this process is hard, nessesary work,  if engineers and stakeholders mistake an initial happy path demo for a finished product, then each new case is incorrectly viewed as a bug. Success in GenAI is about how many different ways the user can _not_ do the right thing and still achieve the desired result, and how tolerant the system is of  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzIxODAxODcsLTE4Mzg5NTE0NjcsLT
-QzOTgyMjc2Niw3NzM1ODg1MDEsLTUxMzQ0MzYwMywtMjgzOTY3
-MTA5LDk5OTA1MTkxNSwtMTc4MzA2NjE3MiwtMTk4MDE5MzY2OC
-wtNDI5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5
-MzkxNzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5OD
-I5LDE1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAx
-OTI1NzczXX0=
+eyJoaXN0b3J5IjpbMTg3MTMzNTAsLTE4Mzg5NTE0NjcsLTQzOT
+gyMjc2Niw3NzM1ODg1MDEsLTUxMzQ0MzYwMywtMjgzOTY3MTA5
+LDk5OTA1MTkxNSwtMTc4MzA2NjE3MiwtMTk4MDE5MzY2OCwtND
+I5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5Mzkx
+NzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LD
+E1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1
+NzczXX0=
 -->
