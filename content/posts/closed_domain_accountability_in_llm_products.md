@@ -18,7 +18,7 @@ We should expect a graduation in the standards and consumer tolerances for appli
 Maybe you are an Executive growing impatient with the lack of investment return on your Machine Learning initiatives. Maybe you are an AI Founder watching your runway burn down like the wick of a cartoon bomb, as your users fail to convert (or worse yet, churn). Maybe you are an AI or ML Engineer anxious to secure your place before the GenAI music stops. Whoever you are, delivering successful products that incorporate any type of Machine Learning is not all that different from delivering any other Software. Let's dive into where they do differ, and how that might be corrected. 
 
 ### Where the Hell is UX and Product? 
-If I was allowed to facepalm my response to only one single pattern in the GenAI craze, this would be it. Somewhere along the way we decided that AI/ML is the exclusive domain of Data Scientists, that it is the "smart people magic" black box that no normal person could ever understand. Admittedly, few Data Scientists I've known have done much to help the situation. When a Product Owner asks "can the LLM remember things?" They need 
+If I was allowed to facepalm my response to only one single pattern in the GenAI craze, this would be it. Somewhere along the way we decided that AI/ML is the exclusive domain of Data Scientists, that it is the "smart people magic" black box that no normal person could ever understand. Admittedly, few Data Scientists I've known have done much to help the situation. When a Product Owner asks "can the LLM remember things?" They need an answer that explains the features and constraints they need to work within (i.e. "We can store information in a database and then add that information back to simulate rememb
 
 ### Sunset Your Disclaimers
 Here is a banner you won't see:
@@ -61,7 +61,7 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxODE0MjM5NCwtMTk4MDE5MzY2OCwtND
+eyJoaXN0b3J5IjpbMTI3NTcxMjQ3OCwtMTk4MDE5MzY2OCwtND
 I5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5Mzkx
 NzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LD
 E1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1
