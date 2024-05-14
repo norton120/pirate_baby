@@ -55,7 +55,7 @@ The most fundamental product question seems to have been forgotten by many durin
 
 Ironically, the nature of many AI products - especially Natural Language interfaces - makes them remarkably easy to validate. Whereas testing engagement with a new online billing platform or recommendations engine pretty much requires you to build the thing first, GenAI products are typically emulating humans. So... _you can start by using a human_. In an act of [doing things that do not scale](https://paulgraham.com/ds.html), first running a human-powered prototype is a brilliantly simple way to determine if the product in question will actually add value and gain traction. [Product and UX designs](#where-the-hell-is-ux-and-product?) translate seamlessly into human scripts and interaction guides. If you are a startup, you can load up on espresso and power it yourself. If you are part of a larger corporate initiative, augmented customer service providers are easy to find. Emulate the limitations and expectations of the platform you are about to build, and find out if _anyone actually wants this thing_ enough to justify the cost of building it. 
 
-One of my favorite productivity tools added an AI-powered filter builder about a month ago. Instead of typing the filter code `(tomorrow | next+week)`, I can now type `show me events that are scheduled for tomorrow or next week`.  Then the assistant chugs for about 10 seconds, and replaces my natural language text with `(tomorrow | next+week)`.  It's a cute novelty, but the filter already had typing hints - this is slower and requires more typing than the product they already offered. 
+One of my favorite productivity tools added an AI-powered filter builder about a month ago. Instead of typing the filter code `(tomorrow | next+week)`, I can now type `show me events that are scheduled for tomorrow or next week`.  Then the assistant chugs for about 10 seconds, and replaces my natural language text with `(tomorrow | next+week)`.  It's a cute novelty, but the filter already had great filter hints - this is slower and requires more typing than the product they already offered. I've never used it since. 
 
 ### Treat Ground Truth Like an Evil Genie
 Ambiguous wishes are the downfall of fairy tail magic lamps; a man wishes for wealth, and the genie transforms him into a rich miser on his death bed. Your ground truth datasets are as equally sensitive to ambiguity. 
@@ -64,7 +64,7 @@ Ground truth datasets for your product should be largely the domain of the Produ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTk2Mzk5OSw5OTkwNTE5MTUsLTE3OD
+eyJoaXN0b3J5IjpbLTQwNzE1NTc3MCw5OTkwNTE5MTUsLTE3OD
 MwNjYxNzIsLTE5ODAxOTM2NjgsLTQyOTI0MTA4OSwtMTYwOTY3
 MTEzLC02OTg2MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4NTk3LD
 MwOTk2NDc3OCwtMjA1NjM1OTgyOSwxNTQzODY2NjU1LDkwNDcx
