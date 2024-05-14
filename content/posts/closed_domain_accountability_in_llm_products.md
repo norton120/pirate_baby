@@ -9,10 +9,10 @@ _grounding your ML development lifecycle in commercial reality_
 If you subscribe to the Gartner predictive model for AI impact and adoption (a.k.a the "AI Hype Cycle") we are still far from peak (inflated) AI expectations.
 ![Gartner AI Hype Cycle 2023](https://emt.gartnerweb.com/ngw/globalassets/en/newsroom/images/graphs/swe-hc-image.png)
 Casual observation supports the Gartner timeline; every week it seems a new Generative AI breakthrough sends techno-pundits and content creators into a frenzy. This week, the breakthrough is multimodal OpenAI GPT-4o: the long-awaited technological leap forward which will no doubt _fianally_ render the human race obsolete 🙄.
-The "hype" in this hype cycle is really a manifestation of misaligned understanding.  Most Generative AI products are firmly in the "let's see if this could even work" phase of development (properly referred to as _experimentation investment_). It is a gambler's bet - we _think_ a thing can be done, and if we turn out to be correct there is potential for a huge return. This is very different from the last decade of technology application, one where "we know this tech absolutely works for this application, and is just a matter of implementation." The difference between the two is critical. If an Executive allocated capital and headcount for an e-commerce initiative in 2023, there was no question about the viable fundamentals of e-commerce; sure, you can get the marketing wrong, or the UX, or the database design - you can fumble the _implementation_ of an e-commerce solution. But you never have to question if _e-commerce even works in the first place_. With Generative AI, however, that question remains front and center for every new and individualized use case. Many business and technology leaders approached AI strategy in 2023 expecting a familiar process and development cycle, instead finding themselves frustrated by products that never seem to graduate beyond demos; the half-baked chatbots and glitchy, disclaimer-laden AI novelty products litter the Gen AI space are a testament to this. As stated wonderfully by Samir Kumar of Turing Capital in a recent [TechCrunch interview](https://techcrunch.com/2024/04/15/investors-are-growing-increasingly-wary-of-ai/): 
+The "hype" in this hype cycle is really a manifestation of misaligned understanding.  Most Generative AI products are firmly in the "let's see if this could even work" phase of development (properly referred to as _experimentation investment_). It is a gambler's bet - we _think_ a thing can be done, and if we turn out to be correct there is potential for a huge return. This is very different from the last decade of technology application, one where "we know this tech absolutely works for this application, and is just a matter of implementation." The difference between the two is critical. If an Executive allocated capital and headcount for an e-commerce initiative in 2023, there was no question about the viable fundamentals of e-commerce; sure, you can get the marketing wrong, or the UX, or the database design - you can fumble the _implementation_ of an e-commerce solution. But you never have to question if _e-commerce even works in the first place_. With Generative AI, however, that question remains front and center for every new and individualized use case. Many business and technology leaders approached AI strategy in 2023 expecting a familiar process and development cycle, instead finding themselves frustrated by products that never seem to graduate beyond demos. The half-baked chatbots and glitchy, disclaimer-laden AI novelty products litter the Gen AI space as a testament to this disconnect. As stated wonderfully by Samir Kumar of Turing Capital in a recent [TechCrunch interview](https://techcrunch.com/2024/04/15/investors-are-growing-increasingly-wary-of-ai/): 
 > “We’ll soon be evaluating whether generative AI delivers the promised efficiency gains at scale and drives top-line growth through AI-integrated products and services... If these anticipated milestones aren’t met and we remain primarily in an experimental phase, revenues from ‘experimental run rates’ might not transition into sustainable annual recurring revenue.” 
 
-We should expect a graduation in the standards and consumer tolerances for applications leveraging AI, a judgement based on performance instead of potential. In short, AI products need to start behaving like _products_, and not school science fair projects.  
+In other words, as the novelty wears off the money will We should expect a graduation in the standards and consumer tolerances for applications leveraging AI, a judgement based on performance instead of potential. In short, AI products need to start behaving like _products_, and not school science fair projects.  
 
 ## Correcting the Course
 Maybe you are an Executive growing impatient with the lack of investment return on your Machine Learning initiatives. Maybe you are an AI Founder watching your runway burn down like the wick of a cartoon bomb, as your users fail to convert (or worse yet, churn). Maybe you are an AI or ML Engineer anxious to secure your place before the GenAI music stops. Whoever you are, delivering successful products that incorporate any type of Machine Learning is not all that different from delivering any other Software. Let's dive into where they do differ, and how that might be corrected. 
@@ -64,11 +64,11 @@ Language models will astound you with how creatively they can screw up and still
 
 Ground truths are the fundimental bedrock of a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMDAwNzYwMCw3NzM1ODg1MDEsLTUxMz
-Q0MzYwMywtMjgzOTY3MTA5LDk5OTA1MTkxNSwtMTc4MzA2NjE3
-MiwtMTk4MDE5MzY2OCwtNDI5MjQxMDg5LC0xNjA5NjcxMTMsLT
-Y5ODYxMzUyMCwtNTA5MzkxNzY5LDIwODYxMzg1OTcsMzA5OTY0
-Nzc4LC0yMDU2MzU5ODI5LDE1NDM4NjY2NTUsOTA0NzE0OTk3LC
-0zMzQwMzMxNzIsOTAxOTI1NzczLC0xNjc5MzAwODQ5LC00OTQx
-MzgwMzJdfQ==
+eyJoaXN0b3J5IjpbLTIxNDM2OTUxMjEsNzczNTg4NTAxLC01MT
+M0NDM2MDMsLTI4Mzk2NzEwOSw5OTkwNTE5MTUsLTE3ODMwNjYx
+NzIsLTE5ODAxOTM2NjgsLTQyOTI0MTA4OSwtMTYwOTY3MTEzLC
+02OTg2MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4NTk3LDMwOTk2
+NDc3OCwtMjA1NjM1OTgyOSwxNTQzODY2NjU1LDkwNDcxNDk5Ny
+wtMzM0MDMzMTcyLDkwMTkyNTc3MywtMTY3OTMwMDg0OSwtNDk0
+MTM4MDMyXX0=
 -->
