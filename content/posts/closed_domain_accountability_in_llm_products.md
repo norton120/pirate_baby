@@ -58,19 +58,21 @@ Ironically, the nature of many AI products - especially Natural Language interfa
 One of my favorite productivity tools added an AI-powered filter builder about a month ago. Instead of typing the filter code `(tomorrow | next+week)`, I can now type `show me events that are scheduled for tomorrow or next week`.  Then the assistant chugs for about 10 seconds, and replaces my natural language text with `(tomorrow | next+week)`.  It's a cute novelty, but the filter already had great filter hints - this is slower and requires more typing than the product they already offered. I've never used it since, and I would be amazed to learn that general adoption is any different. Take advantage of how unusually easy it is to validate GenAI demand before you build (or as soon as possible if you are already building) and you'll be that much closer to a viable product. 
 
 ### Ground Truth is a Magic Lamp
-If you are granted three wishes by a genie, leave no room in them for interpretation. Ambiguity is how you end up turned into a tortoise ("I want to live for centuries!") or the Mona Lisa ("I want to be famous!"). If you are constructing ground truth datasets for GenAI development, leave even less ambiguity. 
+If you are granted three wishes by a genie, leave no room for interpretation. Ambiguity is how you end up turned into a tortoise ("I want to live for centuries!") or the Mona Lisa ("I want to be famous!"). If you are constructing ground truth datasets for GenAI development, leave even less ambiguity. 
 
 Language models will astound you with how creatively they can screw up and still follow the rules. They may perfectly extract every book title from 1000 reviews, until you provide a new ground truth written entirely in lowercase. They may halucinate if you change "the user" to "a user." They may decide any unknown sirname should be replaced with "Stalone." 
 
-Comprehensive ground truth coverage is how you iterate and avoid regressions. While synthetic datasets can be useful, in my experience nothing compares to diverse human testing with an ever-expanding ground truth collection. The case above with "the user" and "a user" is a real-world example; I believed that I had authored and then synthesized ground truth data in a wide variety of tones and patterns, but it took just one submission from a team member with a slightly different writing style to expose a failing case. Reliability is the cornerstone of any commerically viable product, one that results from methodically eliminating these failing cases. Each new failing case must be captured as ground truth and celebrated as a tiny victory - because it represents one more known permuation that can be definitively solved. The larger the list of failing cases identified, accounted for and corrected, the closer the product is to commerical viability.
+Comprehensive ground truth coverage is how you iterate and avoid regressions. While synthetic datasets can be useful, in my experience nothing compares to diverse human-authored  with an ever-expanding ground truth collection. The case above with "the user" and "a user" is a real-world example; I believed that I had authored and then synthesized ground truth data in a wide variety of tones and patterns, but it took just one submission from a team member with a slightly different writing style to expose a failing case. Reliability is the cornerstone of any commerically viable product, one that results from methodically eliminating these failing cases. Each new failing case must be captured as ground truth and celebrated as a tiny victory - because it represents one more known permuation that can be definitively solved. The larger the list of failing cases identified, accounted for and corrected, the closer the product is to commerical viability.
 
-This can be a difficult thing for teams (and stakeholders) to wrap their heads around at first; this process is hard, nessesary work, and it differs greatly from classical Software Engineering. Herein lies a very specific danger in the GenAI development cycle: if Engineers and Stakeholders mistake an initial happy path demo for a finished product, then each new case is liable to be incorrectly viewed as a bug instead of progress. Success in GenAI is about how many different ways the user can _not_ do the right thing and still achieve the desired result, how tolerant the system can be of deviation. Relentlessly curate and expand ground truth datasets, they are the foundation of a commerically viable g 
+This can be a difficult thing for teams (and stakeholders) to wrap their heads around at first; this process is hard, nessesary work, and it differs greatly from classical Software Engineering. Herein lies a very specific danger in the GenAI development cycle: if Engineers and Stakeholders mistake an initial happy path demo for a finished product, then each new case is liable to be incorrectly viewed as a bug instead of progress. Success in GenAI is about how many different ways the user can _not_ do the right thing and still achieve the desired result, how tolerant the system can be of deviation. Relentlessly curate and expand ground truth datasets, they are the foundation of a commerically viable GenAI product. 
+
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MTQ0MjExLC0xODM4OTUxNDY3LC00Mz
-k4MjI3NjYsNzczNTg4NTAxLC01MTM0NDM2MDMsLTI4Mzk2NzEw
-OSw5OTkwNTE5MTUsLTE3ODMwNjYxNzIsLTE5ODAxOTM2NjgsLT
-QyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5
-MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOS
-wxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTky
-NTc3M119
+eyJoaXN0b3J5IjpbLTEwMzYxNTU1NzcsLTE4Mzg5NTE0NjcsLT
+QzOTgyMjc2Niw3NzM1ODg1MDEsLTUxMzQ0MzYwMywtMjgzOTY3
+MTA5LDk5OTA1MTkxNSwtMTc4MzA2NjE3MiwtMTk4MDE5MzY2OC
+wtNDI5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5
+MzkxNzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5OD
+I5LDE1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAx
+OTI1NzczXX0=
 -->
