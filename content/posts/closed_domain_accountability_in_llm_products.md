@@ -51,7 +51,7 @@ Experiments report metrics - how many test cases remain in this experiment, how 
 Individual experimentation failures eventually lead to product success; each systematic failure furthers the process of elimination, closing distance to either finding success or proving exhaustively that the hypothesis is false. Playground failures are actual failures, as each random trial is effectively isolated and contributes no reportable progress towards a definitive result.
 
 ### Is there Demand?
-The most fundamental product question seems to have been forgotten by many during the AI gold rush of '23: do people actually want the thing you are building? What proof do you have? Examples of useless, unwanted AI products being shoehorned into our lives are already everywhere. Pointless social media chatbots. Generated text completions that are increasingly aggressive in mangling your outgoing messages. Customer service assistants that are exremely adapt at rephrasing "as an AI assistant 
+The most fundamental product question seems to have been forgotten by many during the AI gold rush of '23: do people actually want the thing you are building? What proof do you have? Examples of useless, unwanted AI products being shoehorned into our lives are already everywhere. Pointless novelty chatbots on every social media platform. Integrated text completions that are increasingly aggressive about mangling your outgoing messages. Customer service assistants adapt at endlessly rephrasing "as an AI assistant I am unable to help you" and not much else. 
 
 
 ### Treat Ground Truth Like an Evil Genie
@@ -61,11 +61,11 @@ Ground truth datasets for your product should be largely the domain of the Produ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzMyMzc2NTUsLTE5ODAxOTM2NjgsLT
-QyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5
-MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOS
-wxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTky
-NTc3MywtMTY3OTMwMDg0OSwtNDk0MTM4MDMyLC0xNTI1ODU0MT
-cxLDEzNDgyODQyMzgsMzQ4MTM0NTM1LC03NTMxODQ2NywtNjY5
-OTU4MDY0XX0=
+eyJoaXN0b3J5IjpbMTkxODI5OTc0NywtMTk4MDE5MzY2OCwtND
+I5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5Mzkx
+NzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LD
+E1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1
+NzczLC0xNjc5MzAwODQ5LC00OTQxMzgwMzIsLTE1MjU4NTQxNz
+EsMTM0ODI4NDIzOCwzNDgxMzQ1MzUsLTc1MzE4NDY3LC02Njk5
+NTgwNjRdfQ==
 -->
