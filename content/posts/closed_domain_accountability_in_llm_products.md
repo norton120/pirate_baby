@@ -60,17 +60,14 @@ One of my favorite productivity tools added an AI-powered filter builder about a
 ### Ground Truth is a Magic Lamp
 If you are granted three wishes by a genie, leave no room for interpretation. Ambiguity is how you end up turned into a tortoise ("I want to live for centuries!") or the Mona Lisa ("I want to be famous!"). When constructing your ground truth datasets, leave even less ambiguity. 
 
-Language models will _as
-
-Ground truth datasets for your product should be largely the domain of the Product Owner, and should reflect an iteratively tightening understanding of what success looks like. 
-
+Language models will astound you with how creatively they can screw up and still follow the rules. They may 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2ODAwMjkwLDk5OTA1MTkxNSwtMTc4Mz
-A2NjE3MiwtMTk4MDE5MzY2OCwtNDI5MjQxMDg5LC0xNjA5Njcx
-MTMsLTY5ODYxMzUyMCwtNTA5MzkxNzY5LDIwODYxMzg1OTcsMz
-A5OTY0Nzc4LC0yMDU2MzU5ODI5LDE1NDM4NjY2NTUsOTA0NzE0
-OTk3LC0zMzQwMzMxNzIsOTAxOTI1NzczLC0xNjc5MzAwODQ5LC
-00OTQxMzgwMzIsLTE1MjU4NTQxNzEsMTM0ODI4NDIzOCwzNDgx
-MzQ1MzVdfQ==
+eyJoaXN0b3J5IjpbLTI4Mzk2NzEwOSw5OTkwNTE5MTUsLTE3OD
+MwNjYxNzIsLTE5ODAxOTM2NjgsLTQyOTI0MTA4OSwtMTYwOTY3
+MTEzLC02OTg2MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4NTk3LD
+MwOTk2NDc3OCwtMjA1NjM1OTgyOSwxNTQzODY2NjU1LDkwNDcx
+NDk5NywtMzM0MDMzMTcyLDkwMTkyNTc3MywtMTY3OTMwMDg0OS
+wtNDk0MTM4MDMyLC0xNTI1ODU0MTcxLDEzNDgyODQyMzgsMzQ4
+MTM0NTM1XX0=
 -->
