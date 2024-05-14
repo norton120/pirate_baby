@@ -26,7 +26,7 @@ But I have also yet to know a Product team that has shown interest in owning the
 
 If we are going to transition GenAI products from exploratory investments into commercial successes, we need to see a skills shift across the entire application team. It is no longer acceptable that Creative and Product labor ad nauseam with concern for what a page layout says about the brand, but pay no attention to what the thing that is actually speaking for the brand, with **words**, is saying. 
 
-Just like a set of wireframes illustrates the visual experience of the customer journey on a screen, NLUX designs should illustrate how the conversation between a user and the product should unfold. Happy paths, sad paths, external events. Tone, language structure, level of engagement - these are all things Product and UX can flesh out with stakeholders long before a line of code is written. Of course, not everything in the design will be possible or practical - that's where the iterative nature of Software Engineering comes into play. But designing 
+A set of wireframes illustrates the customer journey across screens and clicks; NLUX designs should illustrate how the conversation between a user and the product must unfold. Happy paths, sad paths, external events, tone, language structure, level of engagement - these are all things Product and UX can flesh out in detail with stakeholders, long before a line of code is written. Of course not everything in the design will be possible or practical - that's where the iterative nature of Software Engineering comes into play. By designing the exp
 
 ### Sunset Your Disclaimers
 Here is a banner you won't see:
@@ -69,7 +69,7 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNjYyMjM1NCwtMTk4MDE5MzY2OCwtND
+eyJoaXN0b3J5IjpbMTM3MTU3NzYwNiwtMTk4MDE5MzY2OCwtND
 I5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5Mzkx
 NzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LD
 E1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1
