@@ -64,12 +64,12 @@ Language models will astound you with how creatively they can screw up and still
 
 Comprehensive ground truth coverage is how you iterate and avoid regressions. While synthetic datasets can be useful, in my experience nothing compares to diverse human testing with an ever-expanding ground truth collection. The case above with "the user" and "a user" is a real-world example; I believed that I had authored and then synthesized ground truth data in a wide variety of tones and patterns, but it took just one submission from a team member with a slightly different writing style to expose a failing case. Reliability is the cornerstone of any commerically viable product, one that results from methodically eliminating these failing cases. Each new failing case must be captured as ground truth and celebrated as a tiny victory - because it represents one more known permuation that can be definitively solved. 
 
-This can be a difficult thing for teams (and stakeholders) to wrap their heads around; the larger the list of failing cases you have accounted and corrected for, the closer you are to a viable product. Identifying, capturing, and mitigating new failing cases can be hard work. If you or your stakeholders h (unrealistic) expectations that every case would function perfectly 
+This can be a difficult thing for teams (and stakeholders) to wrap their heads around; the larger the list of failing cases you have accounted and corrected for, the closer you are to a viable product. Identifying, capturing, and mitigating new failing cases can be hard work. If you or your stakeholders held the (incorrect) belief that  
 
 
 Happy path demos are the stuff of experimentation and novelty. Success in GenAI is about how many different ways the user can _not_ do the right thing and still achieve the desired result, how tolerant the  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTA0MzA0MTUsLTE4Mzg5NTE0NjcsLT
+eyJoaXN0b3J5IjpbLTE1NDE2NDY2MTEsLTE4Mzg5NTE0NjcsLT
 QzOTgyMjc2Niw3NzM1ODg1MDEsLTUxMzQ0MzYwMywtMjgzOTY3
 MTA5LDk5OTA1MTkxNSwtMTc4MzA2NjE3MiwtMTk4MDE5MzY2OC
 wtNDI5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5
