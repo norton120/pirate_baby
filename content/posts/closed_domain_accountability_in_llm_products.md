@@ -37,7 +37,7 @@ Unreliable components in systems are not exclusive to GenAI, or remotely new to 
 
 Instead, free two-day delivery became the default for any item without an available timeline. Simple automated shipping covered the vast majority of orders, and expedited shipping took care of the few slow outliers that turned up during fulfillment. Clear, reliable delivery timelines resulted in a dramatic uptick in conversion, greatly outweighing the occasional cost of expedited shipping. This was the feature as promised, not a watered-down version plastered with disclaimers and excuses. 
 
-If you want your GenAI product to be commeri
+If you want your GenAI product to be commercially viable, you can't expect users to bear the brunt of responsibility in a transaction. Get rid of the disclaimers and ship a product that lives up to what it promises.
 
 ### Stop playing
 Nothing makes my skin crawl like stepping into a Machine Learning stack where one of the repositories is named "Playground." I know that is an unfortunately common nomenclature for experimentation suites, but words matter - and in this case illustrate my issue with production Data Science. 
@@ -71,11 +71,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTQ3NzM1MCwtMTk4MDE5MzY2OCwtND
-I5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5Mzkx
-NzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LD
-E1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1
-NzczLC0xNjc5MzAwODQ5LC00OTQxMzgwMzIsLTE1MjU4NTQxNz
-EsMTM0ODI4NDIzOCwzNDgxMzQ1MzUsLTc1MzE4NDY3LC02Njk5
-NTgwNjRdfQ==
+eyJoaXN0b3J5IjpbLTEyNzUzNjI4NDQsLTE5ODAxOTM2NjgsLT
+QyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5
+MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOS
+wxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTky
+NTc3MywtMTY3OTMwMDg0OSwtNDk0MTM4MDMyLC0xNTI1ODU0MT
+cxLDEzNDgyODQyMzgsMzQ4MTM0NTM1LC03NTMxODQ2NywtNjY5
+OTU4MDY0XX0=
 -->
