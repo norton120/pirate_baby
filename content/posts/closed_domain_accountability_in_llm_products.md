@@ -64,15 +64,13 @@ Language models will astound you with how creatively they can screw up and still
 
 Comprehensive ground truth coverage is how you iterate and avoid regressions. While synthetic datasets can be useful, in my experience nothing compares to diverse human testing with an ever-expanding ground truth collection. The case above with "the user" and "a user" is a real-world example; I believed that I had authored and then synthesized ground truth data in a wide variety of tones and patterns, but it took just one submission from a team member with a slightly different writing style to expose a failing case. Reliability is the cornerstone of any commerically viable product, one that results from methodically eliminating these failing cases. Each new failing case must be captured as ground truth and celebrated as a tiny victory - because it represents one more known permuation that can be definitively solved. 
 
-This can be a difficult thing for teams (and stakeholders) to wrap their heads around at first; the larger the list of failing cases you have identified, accounted and corrected for, the closer you are to a commerically viable product. This process is hard, nessesary work, and the process presents a unique danger; if you (or your stakeholders) mistook your initial happy path demo for a finished product, then each discovered case will be perceived as "another bug", a setback and not a step forwar 
+This can be a difficult thing for teams (and stakeholders) to wrap their heads around at first; the larger the list of failing cases identified, accounted for and corrected, the closer the product is to commerically viable product. This process is hard, nessesary work, and the process presents a unique danger; if Engineers or  stakeholders mistook an initial happy path demo for a finished product, then each discovered case will be perceived as "another bug", a setback and not a step forward.  
 
-
- and if you or your stakeholders mistook a successful happy path demo for a completed product then every discovered case will be percieved as a new "bug" rather than the 
 
 
 Happy path demos are the stuff of experimentation and novelty. Success in GenAI is about how many different ways the user can _not_ do the right thing and still achieve the desired result, how tolerant the  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NzgwMDY0MiwtMTgzODk1MTQ2NywtND
+eyJoaXN0b3J5IjpbLTgwNDk2MjAxNCwtMTgzODk1MTQ2NywtND
 M5ODIyNzY2LDc3MzU4ODUwMSwtNTEzNDQzNjAzLC0yODM5Njcx
 MDksOTk5MDUxOTE1LC0xNzgzMDY2MTcyLC0xOTgwMTkzNjY4LC
 00MjkyNDEwODksLTE2MDk2NzExMywtNjk4NjEzNTIwLC01MDkz
