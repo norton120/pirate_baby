@@ -48,7 +48,7 @@ Commercial Product Engineering teams are not Academia, and the software we write
  
 Experiments report metrics - how many test cases remain in this experiment, how the experiment scores are trending, and if the hypothesis under test is a statistical improvement. Playgrounds generate updates like "I am still working on X" and "Y seems a little better now." 
 
-Individual experimentation failures eventually lead to product success; each systematic failure furthers the process of elimination, closing distance to either finding success or proving exhaustively that the hypothesis is false. Playground failures, on the other hand, are actual failures, as each random trial is effectively isolated. 
+Individual experimentation failures eventually lead to product success; each systematic failure furthers the process of elimination, closing distance to either finding success or proving exhaustively that the hypothesis is false. Playground failures are actual failures, as each random trial is effectively isolated and no reportable progress .
 
 ### Remember Product Ownership?
 
@@ -65,11 +65,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU0Nzc4ODQwLC0xOTgwMTkzNjY4LC00Mj
-kyNDEwODksLTE2MDk2NzExMywtNjk4NjEzNTIwLC01MDkzOTE3
-NjksMjA4NjEzODU5NywzMDk5NjQ3NzgsLTIwNTYzNTk4MjksMT
-U0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzNDAzMzE3Miw5MDE5MjU3
-NzMsLTE2NzkzMDA4NDksLTQ5NDEzODAzMiwtMTUyNTg1NDE3MS
-wxMzQ4Mjg0MjM4LDM0ODEzNDUzNSwtNzUzMTg0NjcsLTY2OTk1
-ODA2NF19
+eyJoaXN0b3J5IjpbLTIwNjQwNTQ3MTgsLTE5ODAxOTM2NjgsLT
+QyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5
+MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOS
+wxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTky
+NTc3MywtMTY3OTMwMDg0OSwtNDk0MTM4MDMyLC0xNTI1ODU0MT
+cxLDEzNDgyODQyMzgsMzQ4MTM0NTM1LC03NTMxODQ2NywtNjY5
+OTU4MDY0XX0=
 -->
