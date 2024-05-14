@@ -15,7 +15,7 @@ The "hype" in this hype cycle is really a manifestation of misaligned understand
 In other words, consumers are no longer willing to pay for an AI flea circus. We should expect a graduation in the standards and consumer tolerances for applications leveraging AI, and judgement based on performance instead of potential. AI products need to start behaving like _products_ that add tangible value, and not "neat" school science fair projects.  
 
 ## Correcting the Course
-Maybe you are an Executive growing impatient with the lack of investment return on your Machine Learning initiatives. Maybe you are an AI Founder watching your runway burn down like the wick of a cartoon bomb as your users fail to convert (or worse yet, churn). Maybe you are an AI or ML Engineer anxious to secure your place before the GenAI music stops. Whoever you are, delivering successful products that incorporate any type of Machine Learning is not all that different from delivering Software in general. The key is understanding how they have differed during the boom, and how that might be corrected. 
+Maybe you are an Executive growing impatient with the lack of investment return on your Machine Learning initiatives. Maybe you are an AI Founder watching your runway burn down like the wick of a cartoon bomb as your users fail to convert (or worse yet, churn). Maybe you are an AI or ML Engineer anxious to secure your place before the GenAI music stops. Whoever you are, delivering successful products that incorporate any type of Machine Learning is not all that different from delivering Software in general. The key is understanding how they have differed during the boom, and what a more . 
 
 ### Where the Hell is UX and Product? 
 If I was allowed to facepalm my response to only one single pattern in the GenAI craze, this would be it. A stakeholder asks "what will the bot do if the user asks for a refund?" and every head in the room turns to the AI Engineer. Product doesn't know - they own a detailed journey map right up to the big black box titled "Bot Stuff." UX doesn't know - they can talk at length about font choices and button shading, but shrug when asked what type of tone the virtual assistant will take when interacting directly with the user. No matter how the AI Engineer answers, the room will most certainly melt down as conflicting, unaddressed expectations surface; one stakeholder imagines curt, robotic text responses, while another stakeholder expects a jovial, human-like experience. Is there any wonder why a product without product ownership seems lost, or why one without cohesive user experience design seems disjointed? 
@@ -64,16 +64,15 @@ Language models will astound you with how creatively they can screw up and still
 
 Comprehensive ground truth coverage is how you iterate and avoid regressions. While synthetic datasets can be useful, in my experience nothing compares to diverse human-authored cases with an ever-expanding ground truth collection. The case above with "the user" and "a user" is a real-world example; I believed that I had authored and then synthesized ground truth data in a wide variety of tones and patterns, but it took just one submission from a team member with a slightly different writing style to expose a failing case. Reliability is the cornerstone of any commerically viable product, one that results from methodically eliminating these failing cases. Each new failing case must be captured as ground truth and celebrated as a tiny victory - because every case captured represents one more known permuation that can be definitively solved. The larger the list of failing cases identified, accounted for and corrected, the closer the product is to commerical viability.
 
-This can be a difficult thing for teams (and stakeholders) to wrap their heads around at first; the process is hard, nessesary work, and it differs greatly from classical Software Engineering. That difference, if not understood, can be disasterous: If Engineers and Stakeholders confuse an initial "happy path" demo with a finished product, then identifying failing cases will be negatively viewed as "finding bugs".  Each new case, a step closer to success, will be perceived as further evidence of failure. A team that cannot correct t
-Success in GenAI is about how many different ways the user can _not_ do the right thing and still achieve the desired result, how tolerant the system can be of deviation. Relentlessly curate and expand ground truth datasets, they are the foundation of a commerically viable GenAI product. 
+This can be a difficult thing for teams (and stakeholders) to wrap their heads around at first; the process is hard, nessesary work, and it differs greatly from classical Software Engineering. That difference, if not understood, can be disasterous: If Engineers and Stakeholders confuse an initial "happy path" demo with a finished product, then identifying failing cases will be negatively viewed as "finding bugs".  Each new case, a step closer to success, will be perceived as further evidence of failure.
 
- 
+Success in GenAI is about how many different ways the user can _not_ do the right thing and still achieve the desired result, how tolerant the system can be of deviation. Relentlessly curate and expand ground truth datasets, they are the foundation of a commerically viable GenAI product. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDg5OTA0MzMsLTE4Mzg5NTE0NjcsLT
-QzOTgyMjc2Niw3NzM1ODg1MDEsLTUxMzQ0MzYwMywtMjgzOTY3
-MTA5LDk5OTA1MTkxNSwtMTc4MzA2NjE3MiwtMTk4MDE5MzY2OC
-wtNDI5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5
-MzkxNzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5OD
-I5LDE1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAx
-OTI1NzczXX0=
+eyJoaXN0b3J5IjpbMTExNzQ1OTg0NywtMTgzODk1MTQ2NywtND
+M5ODIyNzY2LDc3MzU4ODUwMSwtNTEzNDQzNjAzLC0yODM5Njcx
+MDksOTk5MDUxOTE1LC0xNzgzMDY2MTcyLC0xOTgwMTkzNjY4LC
+00MjkyNDEwODksLTE2MDk2NzExMywtNjk4NjEzNTIwLC01MDkz
+OTE3NjksMjA4NjEzODU5NywzMDk5NjQ3NzgsLTIwNTYzNTk4Mj
+ksMTU0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzNDAzMzE3Miw5MDE5
+MjU3NzNdfQ==
 -->
