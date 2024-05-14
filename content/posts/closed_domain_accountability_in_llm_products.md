@@ -64,9 +64,9 @@ Language models will astound you with how creatively they can screw up and still
 
 Comprehensive ground truth coverage is how you iterate and avoid regressions. While synthetic datasets can be useful, in my experience nothing compares to diverse human testing with an ever-expanding ground truth collection. The case above with "the user" and "a user" is a real-world example; I believed that I had authored and then synthesized ground truth data in a wide variety of tones and patterns, but it took just one submission from a team member with a slightly different writing style to expose a failing case. Reliability is the cornerstone of any commerically viable product, one that results from methodically eliminating these failing cases. So it is critical that each new failing case captured as ground truth is celebrated as a tiny victory, one more known permuation that can be solved definitively.
  
-Happy path demos are the stuff of experimentation, "look how good things can go if everything goes as planned!" 
+Happy path demos are the stuff of experimentation, a "look how good things can go if everything goes as planned!" novelty with no viability as a real product. Success in GenAI is about how many different ways the user can _not_ do the right thing and still derive value from the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNDYwNjYwOSwtMTgzODk1MTQ2NywtND
+eyJoaXN0b3J5IjpbMTY3NzM3ODEyOSwtMTgzODk1MTQ2NywtND
 M5ODIyNzY2LDc3MzU4ODUwMSwtNTEzNDQzNjAzLC0yODM5Njcx
 MDksOTk5MDUxOTE1LC0xNzgzMDY2MTcyLC0xOTgwMTkzNjY4LC
 00MjkyNDEwODksLTE2MDk2NzExMywtNjk4NjEzNTIwLC01MDkz
