@@ -55,7 +55,7 @@ The most fundamental product question seems to have been forgotten by many durin
 
 Ironically, the nature of many AI products - especially natural language products - makes them remarkably easy to validate. Whereas testing engagement with an online billing platform or a new recommendations engine pretty much requires you to build the thing first, GenAI products are typically emulating humans. So... _first, use a human_. In an act of [doing things that do not scale](https://paulgraham.com/ds.html), starting with a human-powered prototype is a brilliantly simple way to determine if the product will actually add value and gain traction. [Product and UX designs](#where-the-hell-is-ux-and-product?) translate seamlessly into human scripts and interaction guides. If you are a startup, power it yourself. If you are part of a larger corporate initiative, contract augmented customer service (there are plenty of ready providers). Emulate the same limitations and expectations. Find out if _anyone actually wants this thing_, enough to justify the cost of building it. 
 
-I recently stopped using a 
+I recently stopped using an AI code assistant that deleted dozens of untracked files from a working repo. If 
 
 
 ### Treat Ground Truth Like an Evil Genie
@@ -65,7 +65,7 @@ Ground truth datasets for your product should be largely the domain of the Produ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDkzNzM4NzUsOTk5MDUxOTE1LC0xNz
+eyJoaXN0b3J5IjpbLTExMTA1MDc5NDcsOTk5MDUxOTE1LC0xNz
 gzMDY2MTcyLC0xOTgwMTkzNjY4LC00MjkyNDEwODksLTE2MDk2
 NzExMywtNjk4NjEzNTIwLC01MDkzOTE3NjksMjA4NjEzODU5Ny
 wzMDk5NjQ3NzgsLTIwNTYzNTk4MjksMTU0Mzg2NjY1NSw5MDQ3
