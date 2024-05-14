@@ -51,7 +51,7 @@ Experiments report metrics - how many test cases remain in this experiment, how 
 Individual experimentation failures eventually lead to product success; each systematic failure furthers the process of elimination, closing distance to either finding success or proving exhaustively that the hypothesis is false. Playground failures are actual failures, as each random trial is effectively isolated and contributes no reportable progress towards a definitive result.
 
 ### Is there Demand?
-The most fundamental product question seems to have been forgotten by many during the AI gold rush of '23: do people actually want the thing you are building? What proof do you have? Examples of unwanted AI products being shoehorned into our lives are already everywhere. Take the 
+The most fundamental product question seems to have been forgotten by many during the AI gold rush of '23: do people actually want the thing you are building? What proof do you have? Examples of unwanted AI products being shoehorned into our lives are already everywhere, and as initiatives scramble to justify their existence we can expect the 
 
 
 ### Treat Ground Truth Like an Evil Genie
@@ -61,7 +61,7 @@ Ground truth datasets for your product should be largely the domain of the Produ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjgyMzA4NjMsLTE5ODAxOTM2NjgsLT
+eyJoaXN0b3J5IjpbLTE4MDgzNDc5MDUsLTE5ODAxOTM2NjgsLT
 QyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5
 MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOS
 wxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTky
