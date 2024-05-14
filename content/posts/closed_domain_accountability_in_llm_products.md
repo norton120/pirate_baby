@@ -22,9 +22,9 @@ If I was allowed to facepalm my response to only one single pattern in the GenAI
 
 Somewhere along the way we decided that AI/ML is the exclusive domain of Data Scientists and ML Engineers, that AI is a "smart people magic" black box that no normal person could ever understand. In fairness, few Data Scientists I know have done much to help the situation. If a Product Owner asks "can the LLM remember things?" they are given an overly technical primer on vector-based RAG, when what they needed was to understand the features at their disposal and the constraints they must work within. 
 
-However, I have also yet to know a Product team that has shown the slightest interest in owning feature and behavioral design of generative agents, or a UX team that spearheaded a plan for natural language user experience (NLUX). Unlike wireframes and brand kits, UX for Natural Language is a whole new domain for most UX Designers. There has been a tremendous focus on the _technical implementation_ of GenAI in the last 18 months, but what about all  
+However, I have also yet to know a Product team that has shown the slightest interest in owning feature and behavioral design of generative agents, or a UX team that spearheaded a plan for natural language user experience (NLUX). Unlike wireframes and brand kits, UX for Natural Language is a whole new domain for most UX Designers. There has been a tremendous focus on the _technical_ aspects of GenAI in the last 18 months, but what about every other discipline in the application ecosystem?  
 
-If we are going to transition GenAI products from exploratory investments into commercial successes, we need to see a skills shift across the entire application team. It is no longer acceptable that Creative and Product teams labor ad nauseam perfecting how page layout speaks to the brand, but then pay no attention to what the thing that is actually speaking for the brand, with **words**, is saying. 
+If we are going to transition GenAI products from exploratory investments into commercial successes, we need to see a comprehensive skills shift across disciplines. It is no longer acceptable that Creative and Product teams labor page layout speaks to the brand, but then pay no attention to what the thing that is actually speaking for the brand, with **words**, is saying. 
 
 A set of wireframes illustrates the customer journey across screens and clicks; NLUX designs should illustrate how the conversation between a user and the product must unfold. Happy paths, sad paths, external events, tone, language structure, level of engagement - these are all things Product and UX can flesh out in detail with stakeholders, long before a line of code is written. Of course not everything in the design will be possible or practical - that's where the iterative nature of Software Engineering comes into play. Having a clear, universally understood vision for the product enables AI Engineers to plan and address novel challenges head-on, instead of scrambling on their heels in front of frustrated stakeholders. 
 
@@ -68,11 +68,11 @@ This can be a difficult thing for teams (and stakeholders) to wrap their heads a
 
 Success in GenAI is about how many different ways the user can _not_ do the right thing and still achieve the desired result, how tolerant the system can be of deviation. Relentlessly curate and expand ground truth datasets, they are the foundation of a commerically viable GenAI product. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4MjQ2NDgwLC0xODM4OTUxNDY3LC00Mz
-k4MjI3NjYsNzczNTg4NTAxLC01MTM0NDM2MDMsLTI4Mzk2NzEw
-OSw5OTkwNTE5MTUsLTE3ODMwNjYxNzIsLTE5ODAxOTM2NjgsLT
-QyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5
-MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOS
-wxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTky
-NTc3M119
+eyJoaXN0b3J5IjpbMTYwOTAxOTYzNCwtMTgzODk1MTQ2NywtND
+M5ODIyNzY2LDc3MzU4ODUwMSwtNTEzNDQzNjAzLC0yODM5Njcx
+MDksOTk5MDUxOTE1LC0xNzgzMDY2MTcyLC0xOTgwMTkzNjY4LC
+00MjkyNDEwODksLTE2MDk2NzExMywtNjk4NjEzNTIwLC01MDkz
+OTE3NjksMjA4NjEzODU5NywzMDk5NjQ3NzgsLTIwNTYzNTk4Mj
+ksMTU0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzNDAzMzE3Miw5MDE5
+MjU3NzNdfQ==
 -->
