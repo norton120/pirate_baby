@@ -20,7 +20,9 @@ Maybe you are an Executive growing impatient with the lack of investment return 
 ### Where the Hell is UX and Product? 
 If I was allowed to facepalm my response to only one single pattern in the GenAI craze, this would be it. A stakeholder asks "what will the bot do if the user asks for a refund?" and every head in the room turns to the AI Engineer. Product doesn't know - they have a detailed user journey map that leads right up to the big black box titled "Bot Stuff." UX doesn't know - they can talk at length about font choices and button shading, but have no idea what type of tone the virtual assistant will take when interacting directly with the user. 
 
-Somewhere along the way we decided that AI/ML is the exclusive domain of Data Scientists, that it is the "smart people magic" black box that no normal person could ever understand. In fairness, few Data Scientists I've known do much to help the situation. A Product Owner asks the team "can the LLM remember things?" and is given an overly technical primer on vector-based RAG; what they needed was applicable understanding of the features they have to work with. Most obtusely technical answers are 
+Somewhere along the way we decided that AI/ML is the exclusive domain of Data Scientists, that it is the "smart people magic" black box that no normal person could ever understand. In fairness, few Data Scientists I've known do much to help the situation. A Product Owner asks the team "can the LLM remember things?" and is given an overly technical primer on vector-based RAG; what they needed was applicable understanding of the features they have to work with. 
+
+But the Product and UX teams I have worked with on ML and G
 
 
 ### Sunset Your Disclaimers
@@ -64,11 +66,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4Nzk2NCwtMTk4MDE5MzY2OCwtNDI5Mj
-QxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5MzkxNzY5
-LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LDE1ND
-M4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1Nzcz
-LC0xNjc5MzAwODQ5LC00OTQxMzgwMzIsLTE1MjU4NTQxNzEsMT
-M0ODI4NDIzOCwzNDgxMzQ1MzUsLTc1MzE4NDY3LC02Njk5NTgw
-NjRdfQ==
+eyJoaXN0b3J5IjpbLTIwOTAyNDA4OTgsLTE5ODAxOTM2NjgsLT
+QyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5
+MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOS
+wxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTky
+NTc3MywtMTY3OTMwMDg0OSwtNDk0MTM4MDMyLC0xNTI1ODU0MT
+cxLDEzNDgyODQyMzgsMzQ4MTM0NTM1LC03NTMxODQ2NywtNjY5
+OTU4MDY0XX0=
 -->
