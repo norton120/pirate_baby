@@ -22,7 +22,7 @@ If I was allowed to facepalm my response to only one single pattern in the GenAI
 
 Somewhere along the way we decided that AI/ML is the exclusive domain of Data Scientists, that it is the "smart people magic" black box that no normal person could ever understand. In fairness, few Data Scientists I've known do much to help the situation. A Product Owner asks the team "can the LLM remember things?" and is given an overly technical primer on vector-based RAG; what they needed was applicable understanding of the features they have at their disposal, and the constraints they must work within. 
 
-But I have also yet to know a Product team that has shown interest in owning the product features and behavior design of generative agents, or a UX team that spearheaded a plan for natural language user experience (NLUX). Some of this is just the 
+But I have also yet to know a Product team that has shown interest in owning the product features and behavior design of generative agents, or a UX team that spearheaded a plan for natural language user experience (NLUX). Some of this gap is just a reflection of how recently the technology has become mainstream; UX Designers know exactly how to build a Figma 
 
 team will labor exhaustively over what a page layout says about a brand, but pay no attention to what the thing that is actually speaking for the brand, with **words**, is saying.
 
@@ -70,7 +70,7 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzE2MDM0MjIsLTE5ODAxOTM2NjgsLT
+eyJoaXN0b3J5IjpbLTE4NzkwMzM3NDYsLTE5ODAxOTM2NjgsLT
 QyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5
 MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOS
 wxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTky
