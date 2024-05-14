@@ -18,7 +18,7 @@ We should expect a graduation in the standards and consumer tolerances for appli
 Maybe you are an Executive growing impatient with the lack of investment return on your Machine Learning initiatives. Maybe you are an AI Founder watching your runway burn down like the wick of a cartoon bomb, as your users fail to convert (or worse yet, churn). Maybe you are an AI or ML Engineer anxious to secure your place before the GenAI music stops. Whoever you are, delivering successful products that incorporate any type of Machine Learning is not all that different from delivering any other Software. Let's dive into where they do differ, and how that might be corrected. 
 
 ### Where the Hell is UX and Product? 
-If I have to choose only element of the GenAI craze to facepalm over, this is it. Pictur
+If I am allowed to facepalm in response to only one single pattern in the GenAI craze, this would be it. 
 
 
 ### Sunset Your Disclaimers
@@ -62,7 +62,7 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI5MzY4MDYxLC0xOTgwMTkzNjY4LC00Mj
+eyJoaXN0b3J5IjpbMzA5NTY2NTY3LC0xOTgwMTkzNjY4LC00Mj
 kyNDEwODksLTE2MDk2NzExMywtNjk4NjEzNTIwLC01MDkzOTE3
 NjksMjA4NjEzODU5NywzMDk5NjQ3NzgsLTIwNTYzNTk4MjksMT
 U0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzNDAzMzE3Miw5MDE5MjU3
