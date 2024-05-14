@@ -62,11 +62,12 @@ If you are granted three wishes by a genie, leave no room in them for interpreta
 
 Language models will astound you with how creatively they can screw up and still follow the rules. They may perfectly extract every book title from 1000 reviews, until you provide a new ground truth written entirely in lowercase. They may halucinate if you change "the user" to "a user." They may decide any unknown sirname should be replaced with "Stalone." 
 
-Comprehensive ground truth coverage is how you iterate and avoid regressions. While synthetic datasets can be useful, in my experience nothing compares to diverse human testing with an ever-expanding ground truth collection. The case above with "the user" and "a user" is a real-world example; I believed that I had ge ground truth data in a wide variety of tones and patterns, and generating synthetic data that I believed did the same, it took one message from a team member with a different writing style to expose the failing case. 
+Comprehensive ground truth coverage is how you iterate and avoid regressions. While synthetic datasets can be useful, in my experience nothing compares to diverse human testing with an ever-expanding ground truth collection. The case above with "the user" and "a user" is a real-world example; I believed that I had authored and then synthesized ground truth data in a wide variety of tones and patterns, but it took just one message from a team member with a different writing style to expose a failing case. 
 
+Reliability
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0MDIzNDIwLC0xODM4OTUxNDY3LC00Mz
+eyJoaXN0b3J5IjpbNDE4OTg1NzcxLC0xODM4OTUxNDY3LC00Mz
 k4MjI3NjYsNzczNTg4NTAxLC01MTM0NDM2MDMsLTI4Mzk2NzEw
 OSw5OTkwNTE5MTUsLTE3ODMwNjYxNzIsLTE5ODAxOTM2NjgsLT
 QyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5
