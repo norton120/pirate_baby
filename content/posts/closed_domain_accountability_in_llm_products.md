@@ -22,7 +22,7 @@ If I was allowed to facepalm my response to only one single pattern in the GenAI
 
 Somewhere along the way we decided that AI/ML is the exclusive domain of Data Scientists, that it is the "smart people magic" black box that no normal person could ever understand. In fairness, few Data Scientists I've known do much to help the situation. A Product Owner asks the team "can the LLM remember things?" and is given an overly technical primer on vector-based RAG; what they needed was applicable understanding of the features they have at their disposal, and the constraints they must work within. 
 
-But I have also yet to know a Product team that has shown interest in owning the product features and behavior design of generative agents, or a UX team that spearheaded a plan for natural language user experience (NLUX). Some of this gap is just a reflection of how recently the technology has become mainstream; UX Designers know how to build Figma wires, but UX for Natural Language is a whole new domain.  
+But I have also yet to know a Product team that has shown interest in owning the product features and behavior design of generative agents, or a UX team that spearheaded a plan for natural language user experience (NLUX). Some of this gap is just a reflection of how recently the technology has become mainstream; UX Designers Figma wires, but UX for Natural Language is a whole new domain. However, if we are going to transition GenAI products into commercial successes, we need to see a shift in 
 
 team will labor exhaustively over what a page layout says about a brand, but pay no attention to what the thing that is actually speaking for the brand, with **words**, is saying.
 
@@ -70,11 +70,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0OTY4OTU2MywtMTk4MDE5MzY2OCwtND
-I5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5Mzkx
-NzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LD
-E1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1
-NzczLC0xNjc5MzAwODQ5LC00OTQxMzgwMzIsLTE1MjU4NTQxNz
-EsMTM0ODI4NDIzOCwzNDgxMzQ1MzUsLTc1MzE4NDY3LC02Njk5
-NTgwNjRdfQ==
+eyJoaXN0b3J5IjpbNzM2NjA5NjAxLC0xOTgwMTkzNjY4LC00Mj
+kyNDEwODksLTE2MDk2NzExMywtNjk4NjEzNTIwLC01MDkzOTE3
+NjksMjA4NjEzODU5NywzMDk5NjQ3NzgsLTIwNTYzNTk4MjksMT
+U0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzNDAzMzE3Miw5MDE5MjU3
+NzMsLTE2NzkzMDA4NDksLTQ5NDEzODAzMiwtMTUyNTg1NDE3MS
+wxMzQ4Mjg0MjM4LDM0ODEzNDUzNSwtNzUzMTg0NjcsLTY2OTk1
+ODA2NF19
 -->
