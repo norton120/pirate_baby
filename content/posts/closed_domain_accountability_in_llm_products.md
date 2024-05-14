@@ -64,13 +64,13 @@ Language models will astound you with how creatively they can screw up and still
 
 Comprehensive ground truth coverage is how you iterate and avoid regressions. While synthetic datasets can be useful, in my experience nothing compares to diverse human testing with an ever-expanding ground truth collection. The case above with "the user" and "a user" is a real-world example; I believed that I had authored and then synthesized ground truth data in a wide variety of tones and patterns, but it took just one submission from a team member with a slightly different writing style to expose a failing case. Reliability is the cornerstone of any commerically viable product, one that results from methodically eliminating these failing cases. So it is critical that each new failing case captured as ground truth is celebrated as a tiny victory, one more known permuation that can be solved definitively.
  
-Happy path demos are the stuff of experimentation, a "look how good things can go if everything goes as planned!" novelty with no viability as a real product. Success in GenAI is about how many different ways the user can _not_ do the right thing and still derive value from the 
+Happy path demos are the stuff of experimentation and novelty. Success in GenAI is about how many different ways the user can _not_ do the right thing and still achieve the desired result, how tolerant the  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NzM3ODEyOSwtMTgzODk1MTQ2NywtND
-M5ODIyNzY2LDc3MzU4ODUwMSwtNTEzNDQzNjAzLC0yODM5Njcx
-MDksOTk5MDUxOTE1LC0xNzgzMDY2MTcyLC0xOTgwMTkzNjY4LC
-00MjkyNDEwODksLTE2MDk2NzExMywtNjk4NjEzNTIwLC01MDkz
-OTE3NjksMjA4NjEzODU5NywzMDk5NjQ3NzgsLTIwNTYzNTk4Mj
-ksMTU0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzNDAzMzE3Miw5MDE5
-MjU3NzNdfQ==
+eyJoaXN0b3J5IjpbMzgyNjI1MjI5LC0xODM4OTUxNDY3LC00Mz
+k4MjI3NjYsNzczNTg4NTAxLC01MTM0NDM2MDMsLTI4Mzk2NzEw
+OSw5OTkwNTE5MTUsLTE3ODMwNjYxNzIsLTE5ODAxOTM2NjgsLT
+QyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5
+MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOS
+wxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTky
+NTc3M119
 -->
