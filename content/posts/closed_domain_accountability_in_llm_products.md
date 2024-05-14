@@ -62,13 +62,13 @@ If you are granted three wishes by a genie, leave no room in them for interpreta
 
 Language models will astound you with how creatively they can screw up and still follow the rules. They may perfectly extract every book title from 1000 reviews, until you provide a new ground truth written entirely in lowercase. They may halucinate if you change "the user" to "a user." They may decide any unknown sirname should be replaced with "Stalone." 
 
-Comprehensive ground truth coverage is how you iterate and avoid regressions. While synthetic datasets can be useful, in my experience nothing compares to diverse pressure testing with an ever-expanding ground truth collection. The example above with "the user" and "a user" is a real-world case of overfitting to my writing style; even when forcing what I believed to be an unatural variety of 
+Comprehensive ground truth coverage is how you iterate and avoid regressions. While synthetic datasets can be useful, in my experience nothing compares to diverse pressure testing with an ever-expanding ground truth collection. The example above with "the user" and "a user" is a real-world case of overfitting to my writing style; even when forcing what I believed to be an unatural variety of tones and patterns, and generating synthetic data that I believed did the same, it took one failed case from a team member with a different style to expose the f
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MzU0MTc2NCwtMTgzODk1MTQ2NywtND
-M5ODIyNzY2LDc3MzU4ODUwMSwtNTEzNDQzNjAzLC0yODM5Njcx
-MDksOTk5MDUxOTE1LC0xNzgzMDY2MTcyLC0xOTgwMTkzNjY4LC
-00MjkyNDEwODksLTE2MDk2NzExMywtNjk4NjEzNTIwLC01MDkz
-OTE3NjksMjA4NjEzODU5NywzMDk5NjQ3NzgsLTIwNTYzNTk4Mj
-ksMTU0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzNDAzMzE3Miw5MDE5
-MjU3NzNdfQ==
+eyJoaXN0b3J5IjpbLTE5NzM2NTQxMDMsLTE4Mzg5NTE0NjcsLT
+QzOTgyMjc2Niw3NzM1ODg1MDEsLTUxMzQ0MzYwMywtMjgzOTY3
+MTA5LDk5OTA1MTkxNSwtMTc4MzA2NjE3MiwtMTk4MDE5MzY2OC
+wtNDI5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5
+MzkxNzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5OD
+I5LDE1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAx
+OTI1NzczXX0=
 -->
