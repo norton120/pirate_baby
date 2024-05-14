@@ -50,9 +50,8 @@ Experiments report metrics - how many test cases remain in this experiment, how 
 
 Individual experimentation failures eventually lead to product success; each systematic failure furthers the process of elimination, closing distance to either finding success or proving exhaustively that the hypothesis is false. Playground failures are actual failures, as each random trial is effectively isolated and contributes no reportable progress towards a definitive result.
 
-### Is Your Product Actually Valuable?
-One of the smartest product discovery meetings I have even been part of was earlier this year. When 
-
+### Is there Demand?
+T
 
 ### Treat Ground Truth Like an Evil Genie
 Ambiguous wishes are the downfall of fairy tail magic lamps; a man wishes for wealth, and the genie transforms him into a rich miser on his death bed. Your ground truth datasets are as equally sensitive to ambiguity. 
@@ -61,7 +60,7 @@ Ground truth datasets for your product should be largely the domain of the Produ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMzgyMzg1LC0xOTgwMTkzNjY4LC00Mj
+eyJoaXN0b3J5IjpbLTI5ODE1MzI2LC0xOTgwMTkzNjY4LC00Mj
 kyNDEwODksLTE2MDk2NzExMywtNjk4NjEzNTIwLC01MDkzOTE3
 NjksMjA4NjEzODU5NywzMDk5NjQ3NzgsLTIwNTYzNTk4MjksMT
 U0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzNDAzMzE3Miw5MDE5MjU3
