@@ -35,7 +35,9 @@ That is because real products cannot come with an escape hatch. The AI Product a
 
 Unreliable components in systems are not exclusive to GenAI, or remotely new to the Software world. A few years ago I worked on an e-commerce platform that was struggling with conversion due to shipping timelines. The problem wasn't the actual deliveries (most orders were delivered in 1-2 days), but the logistics of displaying delivery dates while relying on slow and unreliable vendor feeds. A cop-out would have been to slap an "Estimates are unreliable, and you may get your stuff whenever" disclaimer on the page - but that was not the product experience we set out to deliver. Alternatively, the team could have spent months constructing a labyrinth of brittle branching logic across hundreds of vendors and warehouses, which would have been a nightmare to maintain. 
 
-Instead, free two-day delivery became the default for any item without an available timeline. Simple automated shipping covered the vast majority of orders, and expedited shipping took care of the feslow outliers that turned up during fulfillment. Clear, reliable delivery timelines had a dramatic impact on conversion that greatly outweighed the occasional cost of expedited shipping. this was the feature as promised, not a watered-down version plastered with escape hatch disclaimers. 
+Instead, free two-day delivery became the default for any item without an available timeline. Simple automated shipping covered the vast majority of orders, and expedited shipping took care of the few slow outliers that turned up during fulfillment. Clear, reliable delivery timelines resulted in a dramatic uptick in conversion, greatly outweighing the occasional cost of expedited shipping. This was the feature as promised, not a watered-down version plastered with disclaimers and excuses. 
+
+If you want your GenAI product to be commeri
 
 ### Stop playing
 Nothing makes my skin crawl like stepping into a Machine Learning stack where one of the repositories is named "Playground." I know that is an unfortunately common nomenclature for experimentation suites, but words matter - and in this case illustrate my issue with production Data Science. 
@@ -69,11 +71,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE5NTI4ODEzLC0xOTgwMTkzNjY4LC00Mj
-kyNDEwODksLTE2MDk2NzExMywtNjk4NjEzNTIwLC01MDkzOTE3
-NjksMjA4NjEzODU5NywzMDk5NjQ3NzgsLTIwNTYzNTk4MjksMT
-U0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzNDAzMzE3Miw5MDE5MjU3
-NzMsLTE2NzkzMDA4NDksLTQ5NDEzODAzMiwtMTUyNTg1NDE3MS
-wxMzQ4Mjg0MjM4LDM0ODEzNDUzNSwtNzUzMTg0NjcsLTY2OTk1
-ODA2NF19
+eyJoaXN0b3J5IjpbLTYwNTQ3NzM1MCwtMTk4MDE5MzY2OCwtND
+I5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5Mzkx
+NzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LD
+E1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1
+NzczLC0xNjc5MzAwODQ5LC00OTQxMzgwMzIsLTE1MjU4NTQxNz
+EsMTM0ODI4NDIzOCwzNDgxMzQ1MzUsLTc1MzE4NDY3LC02Njk5
+NTgwNjRdfQ==
 -->
