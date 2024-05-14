@@ -20,9 +20,8 @@ Maybe you are an Executive growing impatient with the lack of investment return 
 ### Where the Hell is UX and Product? 
 If I was allowed to facepalm my response to only one single pattern in the GenAI craze, this would be it. A stakeholder asks "what will the bot do if the user asks for a refund?" and every head in the room turns to the AI Engineer. Product doesn't know - they have a detailed user journey map that leads right up to the big black box titled "Bot Stuff." UX doesn't know - they can talk at length about font choices and button shading, but have no idea what type of tone the virtual assistant will take when interacting directly with the user. 
 
-Somewhere along the way we decided that AI/ML is the exclusive domain of Data Scientists, that it is the "smart people magic" black box that no normal person could ever understand. Admittedly, few Data Scientists I've known have done much to help the situation; a Product Owner asks "can the LLM remember things?" and are 
+Somewhere along the way we decided that AI/ML is the exclusive domain of Data Scientists, that it is the "smart people magic" black box that no normal person could ever understand. In fairness, few Data Scientists I've known do much to help the situation; a Product Owner asks the team "can the LLM remember things?" and is given an overly technical primer on vector-based RAG, that is 
 
-And so, 
 
 ### Sunset Your Disclaimers
 Here is a banner you won't see:
@@ -65,7 +64,7 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTk3OTY3NjQsLTE5ODAxOTM2NjgsLT
+eyJoaXN0b3J5IjpbLTEwMzAwNzkxMjMsLTE5ODAxOTM2NjgsLT
 QyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5
 MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOS
 wxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTky
