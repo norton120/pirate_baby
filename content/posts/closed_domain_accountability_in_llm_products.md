@@ -53,7 +53,7 @@ Individual experimentation failures eventually lead to product success; each sys
 ### Is there Demand?
 The most fundamental product question seems to have been forgotten by many during the AI gold rush of '23: do people actually want the thing you are building? What proof do you have? Examples of useless, unwanted AI products being shoehorned into our lives are already everywhere. There are pointless novelty chatbots now built into every social media platform. Integrated text completions are getting increasingly aggressive about mangling our messages. Most new AI customer service assistants seem remarkably adept at rephrasing "as an AI assistant I am unable to help you" - and not much else. 
 
-Ironically, the nature of many AI products - especially natural language products - makes them remarkably easy to validate. Whereas testing engagement with an online billing platform or a new recommendations engine pretty much requires you to build the thing first, GenAI products are typically emulating humans. So... _first, use a human_. In an act of [doing things that do not scale](https://paulgraham.com/ds.html), starting with a human-powered prototype is a brilliantly simple way to determine if the product will actually add value and gain traction. [Product and UX designs](# translate seamlessly into human scripts and interaction guides. The cost overhead is 
+Ironically, the nature of many AI products - especially natural language products - makes them remarkably easy to validate. Whereas testing engagement with an online billing platform or a new recommendations engine pretty much requires you to build the thing first, GenAI products are typically emulating humans. So... _first, use a human_. In an act of [doing things that do not scale](https://paulgraham.com/ds.html), starting with a human-powered prototype is a brilliantly simple way to determine if the product will actually add value and gain traction. [Product and UX designs](#where-the-hell-is-ux-and-product?) translate seamlessly into human scripts and interaction guides. If you are a startup, answer  
 
 
 ### Treat Ground Truth Like an Evil Genie
@@ -63,11 +63,11 @@ Ground truth datasets for your product should be largely the domain of the Produ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDc3MDI4LDk5OTA1MTkxNSwtMTc4Mz
-A2NjE3MiwtMTk4MDE5MzY2OCwtNDI5MjQxMDg5LC0xNjA5Njcx
-MTMsLTY5ODYxMzUyMCwtNTA5MzkxNzY5LDIwODYxMzg1OTcsMz
-A5OTY0Nzc4LC0yMDU2MzU5ODI5LDE1NDM4NjY2NTUsOTA0NzE0
-OTk3LC0zMzQwMzMxNzIsOTAxOTI1NzczLC0xNjc5MzAwODQ5LC
-00OTQxMzgwMzIsLTE1MjU4NTQxNzEsMTM0ODI4NDIzOCwzNDgx
-MzQ1MzVdfQ==
+eyJoaXN0b3J5IjpbLTc2MzI4MDc1NCw5OTkwNTE5MTUsLTE3OD
+MwNjYxNzIsLTE5ODAxOTM2NjgsLTQyOTI0MTA4OSwtMTYwOTY3
+MTEzLC02OTg2MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4NTk3LD
+MwOTk2NDc3OCwtMjA1NjM1OTgyOSwxNTQzODY2NjU1LDkwNDcx
+NDk5NywtMzM0MDMzMTcyLDkwMTkyNTc3MywtMTY3OTMwMDg0OS
+wtNDk0MTM4MDMyLC0xNTI1ODU0MTcxLDEzNDgyODQyMzgsMzQ4
+MTM0NTM1XX0=
 -->
