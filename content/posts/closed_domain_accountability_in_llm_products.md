@@ -20,9 +20,9 @@ Maybe you are an Executive growing impatient with the lack of investment return 
 ### Where the Hell is UX and Product? 
 If I was allowed to facepalm my response to only one single pattern in the GenAI craze, this would be it. A stakeholder asks "what will the bot do if the user asks for a refund?" and every head in the room turns to the AI Engineer. Product doesn't know - they own a detailed journey map right up to the big black box titled "Bot Stuff." UX doesn't know - they can talk at length about font choices and button shading, but shrug when asked what tone the virtual assistant will take when interacting with the user. No matter how the AI Engineer answers that question, the room will most certainly melt down as conflicting, unaddressed expectations surface; one stakeholder imagines curt, robotic text responses, while another stakeholder expects a jovial, human-like experience. Is there any wonder why a product without product ownership seems lost, or why a user experience design without design seems disjointed? 
 
-Somewhere along the way we decided that AI/ML is the exclusive domain of Data Scientists and ML Engineers, that AI is a "smart people magic" black box that no normal person could ever understand. In fairness, few Data Scientists I know have done much to help the situation. If a Product Owner asks "can the LLM remember things?" they are given an overly technical primer on vector-based RAG, when what they needed was to understand the features they have at their disposal and the constraints they must work within. 
+Somewhere along the way we decided that AI/ML is the exclusive domain of Data Scientists and ML Engineers, that AI is a "smart people magic" black box that no normal person could ever understand. In fairness, few Data Scientists I know have done much to help the situation. If a Product Owner asks "can the LLM remember things?" they are given an overly technical primer on vector-based RAG, when what they needed was to understand the features at their disposal and the constraints they must work within. 
 
-However, I have also yet to know a Product team that has shown the slightest interest in owning feature and behavioral design of generative agents, or a UX team that spearheaded a plan for natural language user experience (NLUX) unprompted. Some of this gap is just a reflection of how recently the technology has become mainstream; UX Designers know how to build wireframes, but UX for Natural Language is a whole new domain that they couldn't have learned in school (at least yet). 
+However, I have also yet to know a Product team that has shown the slightest interest in owning feature and behavioral design of generative agents, or a UX team that spearheaded a plan for natural language user experience (NLUX). While f; UX Designers know how to build wireframes, but UX for Natural Language is a whole new domain that they couldn't have learned in school (at least yet). 
 
 If we are going to transition GenAI products from exploratory investments into commercial successes, we need to see a skills shift across the entire application team. It is no longer acceptable that Creative and Product teams labor ad nauseam perfecting how page layout speaks to the brand, but then pay no attention to what the thing that is actually speaking for the brand, with **words**, is saying. 
 
@@ -68,11 +68,11 @@ This can be a difficult thing for teams (and stakeholders) to wrap their heads a
 
 Success in GenAI is about how many different ways the user can _not_ do the right thing and still achieve the desired result, how tolerant the system can be of deviation. Relentlessly curate and expand ground truth datasets, they are the foundation of a commerically viable GenAI product. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzc5MDI4NDgsLTE4Mzg5NTE0NjcsLT
-QzOTgyMjc2Niw3NzM1ODg1MDEsLTUxMzQ0MzYwMywtMjgzOTY3
-MTA5LDk5OTA1MTkxNSwtMTc4MzA2NjE3MiwtMTk4MDE5MzY2OC
-wtNDI5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5
-MzkxNzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5OD
-I5LDE1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAx
-OTI1NzczXX0=
+eyJoaXN0b3J5IjpbMTk2OTIzOTU2MCwtMTgzODk1MTQ2NywtND
+M5ODIyNzY2LDc3MzU4ODUwMSwtNTEzNDQzNjAzLC0yODM5Njcx
+MDksOTk5MDUxOTE1LC0xNzgzMDY2MTcyLC0xOTgwMTkzNjY4LC
+00MjkyNDEwODksLTE2MDk2NzExMywtNjk4NjEzNTIwLC01MDkz
+OTE3NjksMjA4NjEzODU5NywzMDk5NjQ3NzgsLTIwNTYzNTk4Mj
+ksMTU0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzNDAzMzE3Miw5MDE5
+MjU3NzNdfQ==
 -->
