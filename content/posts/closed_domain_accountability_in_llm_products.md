@@ -20,9 +20,9 @@ Maybe you are an Executive growing impatient with the lack of investment return 
 ### Where the Hell is UX and Product? 
 If I was allowed to facepalm my response to only one single pattern in the GenAI craze, this would be it. A stakeholder asks "what will the bot do if the user asks for a refund?" and every head in the room turns to the AI Engineer. Product doesn't know - they own a detailed journey map right up to the big black box titled "Bot Stuff." UX doesn't know - they can talk at length about font choices and button shading, but shrug when asked what type of tone the virtual assistant will take when interacting directly with the user. No matter how the AI Engineer answers, the room will most certainly melt down as conflicting, unaddressed expectations surface; one stakeholder imagines curt, robotic text responses, while another stakeholder expects a jovial, human-like experience. Is there any wonder why a product without product ownership seems lost, or why one without cohesive user experience design seems disjointed? 
 
-Somewhere along the way we decided that AI/ML is the exclusive domain of Data Scientists and ML Engineers, that AI is the "smart people magic" black box that no normal person could ever understand. In fairness, few Data Scientists I've known do much to help the situation. A Product Owner asks the team "can the LLM remember things?" and is given an overly technical primer on vector-based RAG; what they needed was applicable understanding of the features they have at their disposal, and the constraints they must work within. 
+Somewhere along the way we decided that AI/ML is the exclusive domain of Data Scientists and ML Engineers, that AI is the "smart people magic" black box that no normal person could ever understand. In fairness, few Data Scientists I know have done much to help the situation. A Product Owner asks "can the LLM remember things?" and is given an overly technical primer on vector-based RAG; what they needed was applicable understanding of the features they have at their disposal and the constraints they must work within. 
 
-But I have also yet to know a Product team that has shown interest in owning the product features and behavior design of generative agents, or a UX team that spearheaded a plan for natural language user experience (NLUX). Some of this gap is just a reflection of how recently the technology has become mainstream; UX Designers know how to build wireframes, but UX for Natural Language is a whole new domain. 
+However, I have also yet to know a Product team that has shown the slightest interest in owning feature and behavioral design of generative agents, or a UX team that spearheaded a plan for natural language user experience (NLUX) unprompted. Some of this gap is just a reflection of how recently the technology has become mainstream; UX Designers know how to build wireframes, but UX for Natural Language is a whole new domain. 
 
 If we are going to transition GenAI products from exploratory investments into commercial successes, we need to see a skills shift across the entire application team. It is no longer acceptable that Creative and Product labor ad nauseam with concern for what a page layout says about the brand, but pay no attention to what the thing that is actually speaking for the brand, with **words**, is saying. 
 
@@ -64,11 +64,11 @@ Language models will astound you with how creatively they can screw up and still
 
 Ground truths are the fundimental bedrock of a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAxNzUxNjE1LDc3MzU4ODUwMSwtNTEzND
-QzNjAzLC0yODM5NjcxMDksOTk5MDUxOTE1LC0xNzgzMDY2MTcy
-LC0xOTgwMTkzNjY4LC00MjkyNDEwODksLTE2MDk2NzExMywtNj
-k4NjEzNTIwLC01MDkzOTE3NjksMjA4NjEzODU5NywzMDk5NjQ3
-NzgsLTIwNTYzNTk4MjksMTU0Mzg2NjY1NSw5MDQ3MTQ5OTcsLT
-MzNDAzMzE3Miw5MDE5MjU3NzMsLTE2NzkzMDA4NDksLTQ5NDEz
-ODAzMl19
+eyJoaXN0b3J5IjpbMTYzNTY3NDg1Nyw3NzM1ODg1MDEsLTUxMz
+Q0MzYwMywtMjgzOTY3MTA5LDk5OTA1MTkxNSwtMTc4MzA2NjE3
+MiwtMTk4MDE5MzY2OCwtNDI5MjQxMDg5LC0xNjA5NjcxMTMsLT
+Y5ODYxMzUyMCwtNTA5MzkxNzY5LDIwODYxMzg1OTcsMzA5OTY0
+Nzc4LC0yMDU2MzU5ODI5LDE1NDM4NjY2NTUsOTA0NzE0OTk3LC
+0zMzQwMzMxNzIsOTAxOTI1NzczLC0xNjc5MzAwODQ5LC00OTQx
+MzgwMzJdfQ==
 -->
