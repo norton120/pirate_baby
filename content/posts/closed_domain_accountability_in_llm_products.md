@@ -26,7 +26,7 @@ But I have also yet to know a Product team that has shown interest in owning the
 
 If we are going to transition GenAI products from exploratory investments into commercial successes, we need to see a skills shift from more than just the Engineering team. It is no longer acceptable that creative and product labor exhaustively over what a page layout says about a brand, but pay no attention to what the thing that is actually speaking for the brand, with **words**, is saying. 
 
-Just like a set of wireframes illustrates the visual experience of the customer journey on a screen, NLUX designs should illustrate how the conversation between a user and the product should unfold. Happy paths, sad paths, external events. Tone, language structure, level of enage
+Just like a set of wireframes illustrates the visual experience of the customer journey on a screen, NLUX designs should illustrate how the conversation between a user and the product should unfold. Happy paths, sad paths, external events. Tone, language structure, level of engagement - these are all things Product and UX can flesh out with stakeholders long before a line of code is written. Of course, not everything in the design will be possible or practical - that's where the iterative nature of Software Engineering 
 
 ### Sunset Your Disclaimers
 Here is a banner you won't see:
@@ -69,7 +69,7 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjc5MzUyMCwtMTk4MDE5MzY2OCwtND
+eyJoaXN0b3J5IjpbLTY3NzE3MDczNywtMTk4MDE5MzY2OCwtND
 I5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5Mzkx
 NzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LD
 E1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1
