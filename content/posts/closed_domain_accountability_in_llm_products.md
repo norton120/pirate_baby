@@ -22,7 +22,9 @@ If I was allowed to facepalm my response to only one single pattern in the GenAI
 
 Somewhere along the way we decided that AI/ML is the exclusive domain of Data Scientists, that it is the "smart people magic" black box that no normal person could ever understand. In fairness, few Data Scientists I've known do much to help the situation. A Product Owner asks the team "can the LLM remember things?" and is given an overly technical primer on vector-based RAG; what they needed was applicable understanding of the features they have to work with. 
 
-But I have also yet to know a Product team that showed interest in owning the product features and behavior design of generative agents, or a UX team showing interest in the natural language user experience (NLUX) . This team will labor exhaustively over what a page layout says about a brand, but pay no attention to what the 
+But I have also yet to know a Product team that showed interest in owning the product features and behavior design of generative agents, or a UX team showing interest in the natural language user experience (NLUX) . This team will labor exhaustively over what a page layout says about a brand, but pay no attention to what the thing that is actually speaking for the brand, with **words**, is saying.
+
+  
 
 
 ### Sunset Your Disclaimers
@@ -66,11 +68,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4NTk0NzEsLTE5ODAxOTM2NjgsLTQyOT
-I0MTA4OSwtMTYwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5MTc2
-OSwyMDg2MTM4NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOSwxNT
-QzODY2NjU1LDkwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTkyNTc3
-MywtMTY3OTMwMDg0OSwtNDk0MTM4MDMyLC0xNTI1ODU0MTcxLD
-EzNDgyODQyMzgsMzQ4MTM0NTM1LC03NTMxODQ2NywtNjY5OTU4
-MDY0XX0=
+eyJoaXN0b3J5IjpbLTIwMDk4ODU0MTgsLTE5ODAxOTM2NjgsLT
+QyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5
+MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOS
+wxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTky
+NTc3MywtMTY3OTMwMDg0OSwtNDk0MTM4MDMyLC0xNTI1ODU0MT
+cxLDEzNDgyODQyMzgsMzQ4MTM0NTM1LC03NTMxODQ2NywtNjY5
+OTU4MDY0XX0=
 -->
