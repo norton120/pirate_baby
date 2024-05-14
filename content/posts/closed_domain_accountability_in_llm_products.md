@@ -26,7 +26,7 @@ But I have also yet to know a Product team that has shown interest in owning the
 
 If we are going to transition GenAI products from exploratory investments into commercial successes, we need to see a skills shift from more than just the Engineering team. It is no longer acceptable that creative and product labor exhaustively over what a page layout says about a brand, but pay no attention to what the thing that is actually speaking for the brand, with **words**, is saying. 
 
-Just like a set of wireframes illustrates the visual experience of the customer journey on a screen, NLUX conversations should answer all the questions of how a bot o
+Just like a set of wireframes illustrates the visual experience of the customer journey on a screen, NLUX designs should illustrate how the conversation between a user and the product should unfold. Happy paths, sad paths, external events. Tone, language structure, level of enage
 
 ### Sunset Your Disclaimers
 Here is a banner you won't see:
@@ -69,11 +69,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTQ0NzYzODksLTE5ODAxOTM2NjgsLT
-QyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5
-MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOS
-wxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTky
-NTc3MywtMTY3OTMwMDg0OSwtNDk0MTM4MDMyLC0xNTI1ODU0MT
-cxLDEzNDgyODQyMzgsMzQ4MTM0NTM1LC03NTMxODQ2NywtNjY5
-OTU4MDY0XX0=
+eyJoaXN0b3J5IjpbMTAwMjc5MzUyMCwtMTk4MDE5MzY2OCwtND
+I5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5Mzkx
+NzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LD
+E1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1
+NzczLC0xNjc5MzAwODQ5LC00OTQxMzgwMzIsLTE1MjU4NTQxNz
+EsMTM0ODI4NDIzOCwzNDgxMzQ1MzUsLTc1MzE4NDY3LC02Njk5
+NTgwNjRdfQ==
 -->
