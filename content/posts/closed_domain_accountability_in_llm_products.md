@@ -60,14 +60,14 @@ One of my favorite productivity tools added an AI-powered filter builder about a
 ### Ground Truth is a Magic Lamp
 If you are granted three wishes by a genie, leave no room in them for interpretation. Ambiguity is how you end up turned into a tortoise ("I want to live for centuries!") or the Mona Lisa ("I want to be famous!"). And when constructing your ground truth datasets, leave even less ambiguity. 
 
-Language models will astound you with how creatively they can screw up and still follow the rules. They may perfectly extract every book title, until you provide a new ground truth entirely in lowercase. They may halucinate if you change "the user" to "a user." They may 
+Language models will astound you with how creatively they can screw up and still follow the rules. They may perfectly extract every book title, until you provide a new ground truth entirely in lowercase. They may halucinate if you change "the user" to "a user." They may decide any unknown sirname should be replaced with "Stalone." 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MTY2NjQ2NCwtNTEzNDQzNjAzLC0yOD
-M5NjcxMDksOTk5MDUxOTE1LC0xNzgzMDY2MTcyLC0xOTgwMTkz
-NjY4LC00MjkyNDEwODksLTE2MDk2NzExMywtNjk4NjEzNTIwLC
-01MDkzOTE3NjksMjA4NjEzODU5NywzMDk5NjQ3NzgsLTIwNTYz
-NTk4MjksMTU0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzNDAzMzE3Mi
-w5MDE5MjU3NzMsLTE2NzkzMDA4NDksLTQ5NDEzODAzMiwtMTUy
-NTg1NDE3MV19
+eyJoaXN0b3J5IjpbNzczNTg4NTAxLC01MTM0NDM2MDMsLTI4Mz
+k2NzEwOSw5OTkwNTE5MTUsLTE3ODMwNjYxNzIsLTE5ODAxOTM2
+NjgsLTQyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2MTM1MjAsLT
+UwOTM5MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OCwtMjA1NjM1
+OTgyOSwxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0MDMzMTcyLD
+kwMTkyNTc3MywtMTY3OTMwMDg0OSwtNDk0MTM4MDMyLC0xNTI1
+ODU0MTcxXX0=
 -->
