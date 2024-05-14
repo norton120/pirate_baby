@@ -24,9 +24,9 @@ Somewhere along the way we decided that AI/ML is the exclusive domain of Data Sc
 
 However, I have also yet to know a Product team that has shown the slightest interest in owning feature and behavioral design of generative agents, or a UX team that spearheaded a plan for natural language user experience (NLUX) unprompted. Some of this gap is just a reflection of how recently the technology has become mainstream; UX Designers know how to build wireframes, but UX for Natural Language is a whole new domain that they couldn't have learned in school (at least yet). 
 
-If we are going to transition GenAI products from exploratory investments into commercial successes, we need to see a skills shift across the entire application team. It is no longer acceptable that Creative and Product teams labor ad nauseam perfecting how the page layout speaks to the brand, but pay no attention to what the thing that is actually speaking for the brand, with **words**, is saying. 
+If we are going to transition GenAI products from exploratory investments into commercial successes, we need to see a skills shift across the entire application team. It is no longer acceptable that Creative and Product teams labor ad nauseam perfecting how page layout speaks to the brand, but then pay no attention to what the thing that is actually speaking for the brand, with **words**, is saying. 
 
-A set of wireframes illustrates the customer journey across screens and clicks; NLUX designs should illustrate how the conversation between a user and the product must unfold. Happy paths, sad paths, external events, tone, language structure, level of engagement - these are all things Product and UX can flesh out in detail with stakeholders, long before a line of code is written. Of course not everything in the design will be possible or practical - that's where the iterative nature of Software Engineering comes into play. But having a clear, understood vision for the product enables AI Engineers to plan and address novel challenges head-on, instead of scrambling on their heels in front of frustrated stakeholders.
+A set of wireframes illustrates the customer journey across screens and clicks; NLUX designs should illustrate how the conversation between a user and the product must unfold. Happy paths, sad paths, external events, tone, language structure, level of engagement - these are all things Product and UX can flesh out in detail with stakeholders, long before a line of code is written. Of course not everything in the design will be possible or practical - that's where the iterative nature of Software Engineering comes into play. Having a clear, universally understood vision for the product enables AI Engineers to plan and address novel challenges head-on, instead of scrambling on their heels in front of frustrated stakeholders. 
 
 ### Sunset Disclaimers
 Here is a banner you won't see:
@@ -64,11 +64,11 @@ Language models will astound you with how creatively they can screw up and still
 
 Ground truths are the fundimental bedrock of a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI0MTk3MzQ0LDc3MzU4ODUwMSwtNTEzND
-QzNjAzLC0yODM5NjcxMDksOTk5MDUxOTE1LC0xNzgzMDY2MTcy
-LC0xOTgwMTkzNjY4LC00MjkyNDEwODksLTE2MDk2NzExMywtNj
-k4NjEzNTIwLC01MDkzOTE3NjksMjA4NjEzODU5NywzMDk5NjQ3
-NzgsLTIwNTYzNTk4MjksMTU0Mzg2NjY1NSw5MDQ3MTQ5OTcsLT
-MzNDAzMzE3Miw5MDE5MjU3NzMsLTE2NzkzMDA4NDksLTQ5NDEz
-ODAzMl19
+eyJoaXN0b3J5IjpbLTE1OTU5OTc4MTEsNzczNTg4NTAxLC01MT
+M0NDM2MDMsLTI4Mzk2NzEwOSw5OTkwNTE5MTUsLTE3ODMwNjYx
+NzIsLTE5ODAxOTM2NjgsLTQyOTI0MTA4OSwtMTYwOTY3MTEzLC
+02OTg2MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4NTk3LDMwOTk2
+NDc3OCwtMjA1NjM1OTgyOSwxNTQzODY2NjU1LDkwNDcxNDk5Ny
+wtMzM0MDMzMTcyLDkwMTkyNTc3MywtMTY3OTMwMDg0OSwtNDk0
+MTM4MDMyXX0=
 -->
