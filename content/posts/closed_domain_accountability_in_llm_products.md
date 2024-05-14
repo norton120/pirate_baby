@@ -53,7 +53,7 @@ Individual experimentation failures eventually lead to product success; each sys
 ### Is there Demand?
 The most fundamental product question seems to have been forgotten by many during the AI gold rush of '23: do people actually want the thing you are building? What proof do you have? Examples of useless, unwanted AI products being shoehorned into our lives are already everywhere. There are pointless novelty chatbots now built into every social media platform. Integrated text completions are getting increasingly aggressive about mangling our messages. Most new AI customer service assistants seem remarkably adept at rephrasing "as an AI assistant I am unable to help you" - and not much else. 
 
-Ironically, the nature of many AI products - especially natural language products - makes them remarkably easy to validate. Whereas testing engagement with an online billing platform or a new recommendations engine pretty much requires you to build the thing first, GenAI products are typically emulating humans. So... _just use a human_. Launch your assista
+Ironically, the nature of many AI products - especially natural language products - makes them remarkably easy to validate. Whereas testing engagement with an online billing platform or a new recommendations engine pretty much requires you to build the thing first, GenAI products are typically emulating humans. So... _just use a human_. In an act of [doing things that do not scale](https://paulgraham.com/ds.html), most 
 
 ### Treat Ground Truth Like an Evil Genie
 Ambiguous wishes are the downfall of fairy tail magic lamps; a man wishes for wealth, and the genie transforms him into a rich miser on his death bed. Your ground truth datasets are as equally sensitive to ambiguity. 
@@ -62,7 +62,7 @@ Ground truth datasets for your product should be largely the domain of the Produ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MzMwNzg2NywtMTc4MzA2NjE3MiwtMT
+eyJoaXN0b3J5IjpbMjA5MTA5OTg5NiwtMTc4MzA2NjE3MiwtMT
 k4MDE5MzY2OCwtNDI5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYx
 MzUyMCwtNTA5MzkxNzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC
 0yMDU2MzU5ODI5LDE1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQw
