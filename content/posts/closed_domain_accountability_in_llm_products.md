@@ -28,7 +28,7 @@ If we are going to transition GenAI products from exploratory investments into c
 
 A set of wireframes illustrates the customer journey across screens and clicks; NLUX designs should illustrate how the conversation between a user and the product must unfold. Happy paths, sad paths, external events, tone, language structure, level of engagement - these are all things Product and UX can flesh out in detail with stakeholders, long before a line of code is written. Of course not everything in the design will be possible or practical - that's where the iterative nature of Software Engineering comes into play. But having a clear, understood vision for the product enables AI Engineers to plan and address novel challenges head-on, instead of scrambling on their heels in front of frustrated stakeholders.
 
-### Sunset Your Disclaimers
+### Sunset Disclaimers
 Here is a banner you won't see:
 ![Amazon does not need an out clause](images/unreliable_software.png)
 That is because real products cannot come with an escape hatch. The AI Product and Engineering teams are responsible for a consumer experience that is right and reliable, full stop. This doesn't mean _the LLM_ needs to get everything right every time - quite the contrary. Engineers must orchestrate the holistic interaction of software, inference, and user, in alignment with the vision of product, in order to arrive at a reliable and trustworthy experience. 
@@ -48,24 +48,16 @@ Commercial Product Engineering teams are not Academia, and the software we write
  
 Experiments report metrics - how many test cases remain in this experiment, how the experiment scores are trending, and if the hypothesis under test is a statistical improvement. Playgrounds generate updates like "I am still working on X" and "Y seems a little better now." 
 
-Individual experimentation failures eventually lead to product success; each systematic failure furthers the process of elimination, closing distance to either finding success or proving exhaustively that the hypothesis is false. Playground failures are actual failures, as each random trial is effectively isolated and no reportable progress .
-
-### Remember Product Ownership?
-
-
+Individual experimentation failures eventually lead to product success; each systematic failure furthers the process of elimination, closing distance to either finding success or proving exhaustively that the hypothesis is false. Playground failures are actual failures, as each random trial is effectively isolated and contributes no reportable progress towards a definitive result.
 
 ### Treat Ground Truth Like an Evil Genie
 Ambiguous wishes are the downfall of fairy tail magic lamps; a man wishes for wealth, and the genie transforms him into a rich miser on his death bed. Your ground truth datasets are as equally sensitive to ambiguity. 
 
 Ground truth datasets for your product should be largely the domain of the Product Owner, and should reflect an iteratively tightening understanding of what success looks like. 
 
-### Ruthlessly Define Success
-A few times here I have referenced the definition of success. That definition needs to be, uh.. defined. By Product. Be able to answer any question of "can it do" or "what does it do when" without looking at the AI Engineering team. If your AI Engineering team are the only people that can answer "can it do," that means you left the product design up to them. That is stupid, don't do that. 
-Create NLUX scripts - just like websites have wireframes, AI-powered products need language "wireframes" from someone who has thought the experience through without worrying about implementation. Those scripts become test cases, and those test cases produce measures of success that are tangiable and not "I'm working on it"
-
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQwNTQ3MTgsLTE5ODAxOTM2NjgsLT
+eyJoaXN0b3J5IjpbLTIwMDczMjY3NDksLTE5ODAxOTM2NjgsLT
 QyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5
 MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOS
 wxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTky
