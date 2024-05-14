@@ -22,9 +22,9 @@ If I was allowed to facepalm my response to only one single pattern in the GenAI
 
 Somewhere along the way we decided that AI/ML is the exclusive domain of Data Scientists and ML Engineers, that AI is the "smart people magic" black box that no normal person could ever understand. In fairness, few Data Scientists I know have done much to help the situation. A Product Owner asks "can the LLM remember things?" and is given an overly technical primer on vector-based RAG; what they needed was applicable understanding of the features they have at their disposal and the constraints they must work within. 
 
-However, I have also yet to know a Product team that has shown the slightest interest in owning feature and behavioral design of generative agents, or a UX team that spearheaded a plan for natural language user experience (NLUX) unprompted. Some of this gap is just a reflection of how recently the technology has become mainstream; UX Designers know how to build wireframes, but UX for Natural Language is a whole new domain. 
+However, I have also yet to know a Product team that has shown the slightest interest in owning feature and behavioral design of generative agents, or a UX team that spearheaded a plan for natural language user experience (NLUX) unprompted. Some of this gap is just a reflection of how recently the technology has become mainstream; UX Designers know how to build wireframes, but UX for Natural Language is a whole new domain that they couldn't have learned in school (at least yet). 
 
-If we are going to transition GenAI products from exploratory investments into commercial successes, we need to see a skills shift across the entire application team. It is no longer acceptable that Creative and Product labor ad nauseam with concern for what a page layout says about the brand, but pay no attention to what the thing that is actually speaking for the brand, with **words**, is saying. 
+If we are going to transition GenAI products from exploratory investments into commercial successes, we need to see a skills shift across the entire application team. It is no longer acceptable that Creative and Product teams labor ad nauseam perfecting how the page layout speaks to the brand, but pay no attention to what the thing that is actually speaking for the brand, with **words**, is saying. 
 
 A set of wireframes illustrates the customer journey across screens and clicks; NLUX designs should illustrate how the conversation between a user and the product must unfold. Happy paths, sad paths, external events, tone, language structure, level of engagement - these are all things Product and UX can flesh out in detail with stakeholders, long before a line of code is written. Of course not everything in the design will be possible or practical - that's where the iterative nature of Software Engineering comes into play. But having a clear, understood vision for the product enables AI Engineers to plan and address novel challenges head-on, instead of scrambling on their heels in front of frustrated stakeholders.
 
@@ -64,11 +64,11 @@ Language models will astound you with how creatively they can screw up and still
 
 Ground truths are the fundimental bedrock of a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTY3NDg1Nyw3NzM1ODg1MDEsLTUxMz
-Q0MzYwMywtMjgzOTY3MTA5LDk5OTA1MTkxNSwtMTc4MzA2NjE3
-MiwtMTk4MDE5MzY2OCwtNDI5MjQxMDg5LC0xNjA5NjcxMTMsLT
-Y5ODYxMzUyMCwtNTA5MzkxNzY5LDIwODYxMzg1OTcsMzA5OTY0
-Nzc4LC0yMDU2MzU5ODI5LDE1NDM4NjY2NTUsOTA0NzE0OTk3LC
-0zMzQwMzMxNzIsOTAxOTI1NzczLC0xNjc5MzAwODQ5LC00OTQx
-MzgwMzJdfQ==
+eyJoaXN0b3J5IjpbMzI0MTk3MzQ0LDc3MzU4ODUwMSwtNTEzND
+QzNjAzLC0yODM5NjcxMDksOTk5MDUxOTE1LC0xNzgzMDY2MTcy
+LC0xOTgwMTkzNjY4LC00MjkyNDEwODksLTE2MDk2NzExMywtNj
+k4NjEzNTIwLC01MDkzOTE3NjksMjA4NjEzODU5NywzMDk5NjQ3
+NzgsLTIwNTYzNTk4MjksMTU0Mzg2NjY1NSw5MDQ3MTQ5OTcsLT
+MzNDAzMzE3Miw5MDE5MjU3NzMsLTE2NzkzMDA4NDksLTQ5NDEz
+ODAzMl19
 -->
