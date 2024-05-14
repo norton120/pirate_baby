@@ -58,13 +58,14 @@ Ironically, the nature of many AI products - especially Natural Language interfa
 One of my favorite productivity tools added an AI-powered filter builder about a month ago. Instead of typing the filter code `(tomorrow | next+week)`, I can now type `show me events that are scheduled for tomorrow or next week`.  Then the assistant chugs for about 10 seconds, and replaces my natural language text with `(tomorrow | next+week)`.  It's a cute novelty, but the filter already had great filter hints - this is slower and requires more typing than the product they already offered. I've never used it since, and I would be amazed to learn that general adoption is any different. Take advantage of how amazingly easy it is to validate GenAI demand before you build (or as soon as possible if you are already building) and you'll be that much closer to a viable product. 
 
 ### Ground Truth is a Magic Lamp
-The genie always wins because of one thing: ambiguous wishes. 
+Leaving your wishes up to interpretation by a g
+
 
 Ground truth datasets for your product should be largely the domain of the Product Owner, and should reflect an iteratively tightening understanding of what success looks like. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzNTE0NTUzLDk5OTA1MTkxNSwtMTc4Mz
+eyJoaXN0b3J5IjpbNzMxNDEwMjMzLDk5OTA1MTkxNSwtMTc4Mz
 A2NjE3MiwtMTk4MDE5MzY2OCwtNDI5MjQxMDg5LC0xNjA5Njcx
 MTMsLTY5ODYxMzUyMCwtNTA5MzkxNzY5LDIwODYxMzg1OTcsMz
 A5OTY0Nzc4LC0yMDU2MzU5ODI5LDE1NDM4NjY2NTUsOTA0NzE0
