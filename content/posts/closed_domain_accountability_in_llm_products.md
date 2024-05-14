@@ -14,7 +14,7 @@ The "hype" in this hype cycle is really a manifestation of misaligned understand
 
 We should expect a graduation in the standards and consumer tolerances for applications leveraging AI, a judgement based on performance instead of potential. In short, AI products need to start behaving like _products_, and not school science fair projects.  
 
-Maybe you are an Executive growing impatient with the lack of investment return on your Machine Learning initiatives. Maybe you are an AI Founder watching your runway burn like the wick on a cartoon bomb as your users fail to convert (or worse, churn), or an Engineer anxious to secure your career chair before the GenAI music stops. Lucky for us, this transition is nothing new. The same smart moves that helped If you are involved in a Generative AI initiative, there are meaningful steps that will set you on the road to success. 
+Maybe you are an Executive growing impatient with the lack of investment return on your Machine Learning initiatives. Maybe you are an AI Founder watching your runway burn like the wick on a cartoon bomb as your users fail to convert (or worse, churn), or an Engineer anxious to secure your career chair before the GenAI music stops. The answer is th
 
 ### Where the Hell is Product? 
 If I have to choose only element of the Gen AI craze to facepalm over, this is it. 
@@ -61,11 +61,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTM5NTE1NzcsLTE5ODAxOTM2NjgsLT
-QyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5
-MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOS
-wxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTky
-NTc3MywtMTY3OTMwMDg0OSwtNDk0MTM4MDMyLC0xNTI1ODU0MT
-cxLDEzNDgyODQyMzgsMzQ4MTM0NTM1LC03NTMxODQ2NywtNjY5
-OTU4MDY0XX0=
+eyJoaXN0b3J5IjpbMTQ1MTA1OTY1OCwtMTk4MDE5MzY2OCwtND
+I5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5Mzkx
+NzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LD
+E1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1
+NzczLC0xNjc5MzAwODQ5LC00OTQxMzgwMzIsLTE1MjU4NTQxNz
+EsMTM0ODI4NDIzOCwzNDgxMzQ1MzUsLTc1MzE4NDY3LC02Njk5
+NTgwNjRdfQ==
 -->
