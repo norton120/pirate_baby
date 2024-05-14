@@ -48,6 +48,7 @@ Commercial Product Engineering teams are not Academia, and the software we write
  
 Experiments report metrics - how many test cases remain in this experiment, how the experiment scores are trending, and if the hypothesis under test is a statistical improvement. Playgrounds generate updates like "I am still working on X" and "Y seems a little better now." 
 
+Individual experimentation failures eventually lead to product success; with each sy
 <replace>
 in software engineering we know things will work and we just need to implement them. In Data Science experiments, we don't know if our thing will work. 
 asier to grasp when you consider that the immediate goal of each experiment is not feature success, but _hypothesis elimination_ that will ultimately lead to feature success. What does that mean? We experiment because we do not know what will actually work
@@ -70,7 +71,7 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0Njg1NzAwOSwtMTk4MDE5MzY2OCwtND
+eyJoaXN0b3J5IjpbMTQzNDIzNTg3MSwtMTk4MDE5MzY2OCwtND
 I5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5Mzkx
 NzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LD
 E1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1
