@@ -22,7 +22,7 @@ If I was allowed to facepalm my response to only one single pattern in the GenAI
 
 Somewhere along the way we decided that AI/ML is the exclusive domain of Data Scientists and ML Engineers, that AI is a "smart people magic" black box that no normal person could ever understand. In fairness, few Data Scientists I know have done much to help the situation. If a Product Owner asks "can the LLM remember things?" they are given an overly technical primer on vector-based RAG, when what they needed was to understand the features at their disposal and the constraints they must work within. 
 
-However, I have also yet to know a Product team that has shown the slightest interest in owning feature and behavioral design of generative agents, or a UX team that spearheaded a plan for natural language user experience (NLUX). Unlike wireframes and brand kits, UX for Natural Language is a whole new domain for most UX Designers. 
+However, I have also yet to know a Product team that has shown the slightest interest in owning feature and behavioral design of generative agents, or a UX team that spearheaded a plan for natural language user experience (NLUX). Unlike wireframes and brand kits, UX for Natural Language is a whole new domain for most UX Designers. There has been a tremendous focus on the _technical implementation_ of GenAI in the last 18 months, but what about all  
 
 If we are going to transition GenAI products from exploratory investments into commercial successes, we need to see a skills shift across the entire application team. It is no longer acceptable that Creative and Product teams labor ad nauseam perfecting how page layout speaks to the brand, but then pay no attention to what the thing that is actually speaking for the brand, with **words**, is saying. 
 
@@ -68,11 +68,11 @@ This can be a difficult thing for teams (and stakeholders) to wrap their heads a
 
 Success in GenAI is about how many different ways the user can _not_ do the right thing and still achieve the desired result, how tolerant the system can be of deviation. Relentlessly curate and expand ground truth datasets, they are the foundation of a commerically viable GenAI product. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEzOTY2OTIsLTE4Mzg5NTE0NjcsLTQzOT
-gyMjc2Niw3NzM1ODg1MDEsLTUxMzQ0MzYwMywtMjgzOTY3MTA5
-LDk5OTA1MTkxNSwtMTc4MzA2NjE3MiwtMTk4MDE5MzY2OCwtND
-I5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5Mzkx
-NzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LD
-E1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1
-NzczXX0=
+eyJoaXN0b3J5IjpbODQ4MjQ2NDgwLC0xODM4OTUxNDY3LC00Mz
+k4MjI3NjYsNzczNTg4NTAxLC01MTM0NDM2MDMsLTI4Mzk2NzEw
+OSw5OTkwNTE5MTUsLTE3ODMwNjYxNzIsLTE5ODAxOTM2NjgsLT
+QyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5
+MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOS
+wxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTky
+NTc3M119
 -->
