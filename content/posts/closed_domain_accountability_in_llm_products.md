@@ -50,7 +50,8 @@ Experiments report metrics - how many test cases remain in this experiment, how 
 
 Individual experimentation failures eventually lead to product success; each systematic failure furthers the process of elimination, closing distance to either finding success or proving exhaustively that the hypothesis is false. Playground failures are actual failures, as each random trial is effectively isolated and contributes no reportable progress towards a definitive result.
 
-### Is Your Product Act
+### Is Your Product Actually Valuable?
+One of the smartest product discovery meetings I have even been part of was earlier this year. The pro
 
 
 ### Treat Ground Truth Like an Evil Genie
@@ -60,7 +61,7 @@ Ground truth datasets for your product should be largely the domain of the Produ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NTgwMDMxOCwtMTk4MDE5MzY2OCwtND
+eyJoaXN0b3J5IjpbLTQwNTE3MjU5OSwtMTk4MDE5MzY2OCwtND
 I5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5Mzkx
 NzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LD
 E1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1
