@@ -55,7 +55,7 @@ The most fundamental product question seems to have been forgotten by many durin
 
 Ironically, the nature of many AI products - especially Natural Language interfaces - makes them remarkably easy to validate. Whereas testing engagement with a new online billing platform or recommendations engine pretty much requires you to build the thing first, GenAI products are typically emulating humans. So... _you can start by using a human_. In an act of [doing things that do not scale](https://paulgraham.com/ds.html), first running a human-powered prototype is a brilliantly simple way to determine if the product in question will actually add value and gain traction. [Product and UX designs](#where-the-hell-is-ux-and-product?) translate seamlessly into human scripts and interaction guides. If you are a startup, you can load up on espresso and power it yourself. If you are part of a larger corporate initiative, augmented customer service providers are easy to find. Emulate the limitations and expectations of the platform you are about to build, and find out if _anyone actually wants this thing_ enough to justify the cost of building it. 
 
-One of my favorite productivity tools added an AI-powered filter builder about a month ago. Instead of typing the filter code `(tomorrow | next+week)`, I can now type `show me events that are scheduled for tomorrow or next week`.  Then the assistant chugs for about 10 seconds, and replaces my natural language text with `(tomorrow | next+week)`.  It's a cute novelty, but the filter already had great filter hints - this is slower and requires more typing than the product they already offered. I've never used it since, and I would be amazed to learn that general adoption is any different. Take advantage of how unusu easy it is to validate GenAI demand before you build (or as soon as possible if you are already building) and you'll be that much closer to a viable product. 
+One of my favorite productivity tools added an AI-powered filter builder about a month ago. Instead of typing the filter code `(tomorrow | next+week)`, I can now type `show me events that are scheduled for tomorrow or next week`.  Then the assistant chugs for about 10 seconds, and replaces my natural language text with `(tomorrow | next+week)`.  It's a cute novelty, but the filter already had great filter hints - this is slower and requires more typing than the product they already offered. I've never used it since, and I would be amazed to learn that general adoption is any different. Take advantage of how unusually easy it is to validate GenAI demand before you build (or as soon as possible if you are already building) and you'll be that much closer to a viable product. 
 
 ### Ground Truth is a Magic Lamp
 If you are granted three wishes by a genie, leave no room in them for interpretation. Ambiguity is how you end up turned into a tortoise ("I want to live for centuries!") or the Mona Lisa ("I want to be famous!"). And when constructing your ground truth datasets, leave even less ambiguity. 
@@ -64,7 +64,7 @@ Language models will astound you with how creatively they can screw up and still
 
 Ground truths are the fundimental bedrock of a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTg0NTE3NCw3NzM1ODg1MDEsLTUxMz
+eyJoaXN0b3J5IjpbLTQzOTgyMjc2Niw3NzM1ODg1MDEsLTUxMz
 Q0MzYwMywtMjgzOTY3MTA5LDk5OTA1MTkxNSwtMTc4MzA2NjE3
 MiwtMTk4MDE5MzY2OCwtNDI5MjQxMDg5LC0xNjA5NjcxMTMsLT
 Y5ODYxMzUyMCwtNTA5MzkxNzY5LDIwODYxMzg1OTcsMzA5OTY0
