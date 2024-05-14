@@ -58,17 +58,17 @@ Ironically, the nature of many AI products - especially Natural Language interfa
 One of my favorite productivity tools added an AI-powered filter builder about a month ago. Instead of typing the filter code `(tomorrow | next+week)`, I can now type `show me events that are scheduled for tomorrow or next week`.  Then the assistant chugs for about 10 seconds, and replaces my natural language text with `(tomorrow | next+week)`.  It's a cute novelty, but the filter already had great filter hints - this is slower and requires more typing than the product they already offered. I've never used it since, and I would be amazed to learn that general adoption is any different. Take advantage of how unusually easy it is to validate GenAI demand before you build (or as soon as possible if you are already building) and you'll be that much closer to a viable product. 
 
 ### Ground Truth is a Magic Lamp
-If you are granted three wishes by a genie, leave no room in them for interpretation. Ambiguity is how you end up turned into a tortoise ("I want to live for centuries!") or the Mona Lisa ("I want to be famous!"). And when constructing your ground truth datasets, leave even less ambiguity. 
+If you are granted three wishes by a genie, leave no room in them for interpretation. Ambiguity is how you end up turned into a tortoise ("I want to live for centuries!") or the Mona Lisa ("I want to be famous!"). If you are constructing ground truth datasets for GenAI development, leave even less ambiguity. 
 
-Language models will astound you with how creatively they can screw up and still follow the rules. They may perfectly extract every book title, until you provide a new ground truth entirely in lowercase. They may halucinate if you change "the user" to "a user." They may decide any unknown sirname should be replaced with "Stalone." 
+Language models will astound you with how creatively they can screw up and still follow the rules. They may perfectly extract every book title from 1000 reviews, until you provide a new ground truth written entirely in lowercase. They may halucinate if you change "the user" to "a user." They may decide any unknown sirname should be replaced with "Stalone." 
 
 Ground truths are the fundimental bedrock of a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzOTgyMjc2Niw3NzM1ODg1MDEsLTUxMz
-Q0MzYwMywtMjgzOTY3MTA5LDk5OTA1MTkxNSwtMTc4MzA2NjE3
-MiwtMTk4MDE5MzY2OCwtNDI5MjQxMDg5LC0xNjA5NjcxMTMsLT
-Y5ODYxMzUyMCwtNTA5MzkxNzY5LDIwODYxMzg1OTcsMzA5OTY0
-Nzc4LC0yMDU2MzU5ODI5LDE1NDM4NjY2NTUsOTA0NzE0OTk3LC
-0zMzQwMzMxNzIsOTAxOTI1NzczLC0xNjc5MzAwODQ5LC00OTQx
-MzgwMzJdfQ==
+eyJoaXN0b3J5IjpbLTE4Mzg5NTE0NjcsLTQzOTgyMjc2Niw3Nz
+M1ODg1MDEsLTUxMzQ0MzYwMywtMjgzOTY3MTA5LDk5OTA1MTkx
+NSwtMTc4MzA2NjE3MiwtMTk4MDE5MzY2OCwtNDI5MjQxMDg5LC
+0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5MzkxNzY5LDIwODYx
+Mzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LDE1NDM4NjY2NT
+UsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1NzczLC0xNjc5
+MzAwODQ5XX0=
 -->
