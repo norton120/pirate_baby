@@ -18,7 +18,7 @@ We should expect a graduation in the standards and consumer tolerances for appli
 Maybe you are an Executive growing impatient with the lack of investment return on your Machine Learning initiatives. Maybe you are an AI Founder watching your runway burn down like the wick of a cartoon bomb, as your users fail to convert (or worse yet, churn). Maybe you are an AI or ML Engineer anxious to secure your place before the GenAI music stops. Whoever you are, delivering successful products that incorporate any type of Machine Learning is not all that different from delivering any other Software. Let's dive into where they do differ, and how that might be corrected. 
 
 ### Where the Hell is UX and Product? 
-If I was allowed to facepalm my response to only one single pattern in the GenAI craze, this would be it. A stakeholder asks "what will the bot do if the user asks for a refund?" and every head in the room turns to the AI Engineer. Product doesn't know - they have a detailed user journey map that leads right up to the big black box titled "Bot Stuff." UX doesn't know - they can talk at length about font choices and button shading, but have no idea what type of tone the virtual assistant will take when interacting directly with the user. No matter how the AI Engineer answers, the room will most certainly melt down as conflicting, unaddressed expectations surface; one stakeholder imagines robotIs there any wonder why a product without product ownership seems lost, or why one without cohesive user experience design seems disjointed? 
+If I was allowed to facepalm my response to only one single pattern in the GenAI craze, this would be it. A stakeholder asks "what will the bot do if the user asks for a refund?" and every head in the room turns to the AI Engineer. Product doesn't know - they have a detailed user journey map that leads right up to the big black box titled "Bot Stuff." UX doesn't know - they can talk at length about font choices and button shading, but have no idea what type of tone the virtual assistant will take when interacting directly with the user. No matter how the AI Engineer answers, the room will most certainly melt down as conflicting, unaddressed expectations surface; one stakeholder imagines curt, robotic text responses, while another stakeholder expects a jovial, human-like experience. Is there any wonder why a product without product ownership seems lost, or why one without cohesive user experience design seems disjointed? 
 
 Somewhere along the way we decided that AI/ML is the exclusive domain of Data Scientists, that it is the "smart people magic" black box that no normal person could ever understand. In fairness, few Data Scientists I've known do much to help the situation. A Product Owner asks the team "can the LLM remember things?" and is given an overly technical primer on vector-based RAG; what they needed was applicable understanding of the features they have at their disposal, and the constraints they must work within. 
 
@@ -69,11 +69,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NTE5ODkwOCwtMTk4MDE5MzY2OCwtND
-I5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5Mzkx
-NzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LD
-E1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1
-NzczLC0xNjc5MzAwODQ5LC00OTQxMzgwMzIsLTE1MjU4NTQxNz
-EsMTM0ODI4NDIzOCwzNDgxMzQ1MzUsLTc1MzE4NDY3LC02Njk5
-NTgwNjRdfQ==
+eyJoaXN0b3J5IjpbNzIzNDUwMjY2LC0xOTgwMTkzNjY4LC00Mj
+kyNDEwODksLTE2MDk2NzExMywtNjk4NjEzNTIwLC01MDkzOTE3
+NjksMjA4NjEzODU5NywzMDk5NjQ3NzgsLTIwNTYzNTk4MjksMT
+U0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzNDAzMzE3Miw5MDE5MjU3
+NzMsLTE2NzkzMDA4NDksLTQ5NDEzODAzMiwtMTUyNTg1NDE3MS
+wxMzQ4Mjg0MjM4LDM0ODEzNDUzNSwtNzUzMTg0NjcsLTY2OTk1
+ODA2NF19
 -->
