@@ -53,6 +53,8 @@ Individual experimentation failures eventually lead to product success; each sys
 ### Is there Demand?
 The most fundamental product question seems to have been forgotten by many during the AI gold rush of '23: do people actually want the thing you are building? What proof do you have? Examples of unwanted AI products shoehorned into our lives are already everywhere. 
 
+Ta
+
 
 ### Treat Ground Truth Like an Evil Genie
 Ambiguous wishes are the downfall of fairy tail magic lamps; a man wishes for wealth, and the genie transforms him into a rich miser on his death bed. Your ground truth datasets are as equally sensitive to ambiguity. 
@@ -61,11 +63,11 @@ Ground truth datasets for your product should be largely the domain of the Produ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4Mzc4NTYsLTE5ODAxOTM2NjgsLTQyOT
-I0MTA4OSwtMTYwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5MTc2
-OSwyMDg2MTM4NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOSwxNT
-QzODY2NjU1LDkwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTkyNTc3
-MywtMTY3OTMwMDg0OSwtNDk0MTM4MDMyLC0xNTI1ODU0MTcxLD
-EzNDgyODQyMzgsMzQ4MTM0NTM1LC03NTMxODQ2NywtNjY5OTU4
-MDY0XX0=
+eyJoaXN0b3J5IjpbLTU3Njg3NjY1NSwtMTk4MDE5MzY2OCwtND
+I5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5Mzkx
+NzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LD
+E1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1
+NzczLC0xNjc5MzAwODQ5LC00OTQxMzgwMzIsLTE1MjU4NTQxNz
+EsMTM0ODI4NDIzOCwzNDgxMzQ1MzUsLTc1MzE4NDY3LC02Njk5
+NTgwNjRdfQ==
 -->
