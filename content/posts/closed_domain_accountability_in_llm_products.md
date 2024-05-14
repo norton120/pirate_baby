@@ -26,12 +26,12 @@ But I have also yet to know a Product team that has shown interest in owning the
 
 If we are going to transition GenAI products from exploratory investments into commercial successes, we need to see a skills shift across the entire application team. It is no longer acceptable that Creative and Product labor ad nauseam with concern for what a page layout says about the brand, but pay no attention to what the thing that is actually speaking for the brand, with **words**, is saying. 
 
-A set of wireframes illustrates the customer journey across screens and clicks; NLUX designs should illustrate how the conversation between a user and the product must unfold. Happy paths, sad paths, external events, tone, language structure, level of engagement - these are all things Product and UX can flesh out in detail with stakeholders, long before a line of code is written. Of course not everything in the design will be possible or practical - that's where the iterative nature of Software Engineering comes into play. But having a clear, understood vision for the product enables AI Engineers to map out 
+A set of wireframes illustrates the customer journey across screens and clicks; NLUX designs should illustrate how the conversation between a user and the product must unfold. Happy paths, sad paths, external events, tone, language structure, level of engagement - these are all things Product and UX can flesh out in detail with stakeholders, long before a line of code is written. Of course not everything in the design will be possible or practical - that's where the iterative nature of Software Engineering comes into play. But having a clear, understood vision for the product enables AI Engineers to plan and address novel challenges head-on, instead of scrambling on their heels in front of frustrated stakeholders.
 
 ### Sunset Your Disclaimers
 Here is a banner you won't see:
 ![Amazon does not need an out clause](images/unreliable_software.png)
-That is because real products cannot come with an escape hatch. The AI Product and Engineering teams are responsible for a consumer experience that is right and reliable, full stop. This doesn't mean _the LLM_ needs to get everything right every time - quite the contrary. Engineers must orchestrate the holistic interaction of software, inference, and user, in allignment with the vision of product, in order to arrive at a reliable and trustworthy experience. 
+That is because real products cannot come with an escape hatch. The AI Product and Engineering teams are responsible for a consumer experience that is right and reliable, full stop. This doesn't mean _the LLM_ needs to get everything right every time - quite the contrary. Engineers must orchestrate the holistic interaction of software, inference, and user, in alignment with the vision of product, in order to arrive at a reliable and trustworthy experience. 
 
 Unreliable components in systems are not exclusive to Generatve AI, or remotely new to the Software world. I once worked with an ecom platform that was being _slaughtered_ by Amazon over shipping timelines. The problem wasn't delivery times (most orders were delivered in 1-2 days), but the logistics of displaying delivery dates while relying on slow and unreliable vendor feeds. A cop-out would have been to slap an "Estimates are unreliable, and you may get your stuff whenever" disclamer on the page - but that was not the product experience we set out to deliver. Alternatively, the team could have spent months constructing a labyrinth of brittle branching logic across hundreds of vendors and warehouses. 
 
@@ -69,11 +69,11 @@ Create NLUX scripts - just like websites have wireframes, AI-powered products ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2ODAzMjQwNCwtMTk4MDE5MzY2OCwtND
-I5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5Mzkx
-NzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LD
-E1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQwMzMxNzIsOTAxOTI1
-NzczLC0xNjc5MzAwODQ5LC00OTQxMzgwMzIsLTE1MjU4NTQxNz
-EsMTM0ODI4NDIzOCwzNDgxMzQ1MzUsLTc1MzE4NDY3LC02Njk5
-NTgwNjRdfQ==
+eyJoaXN0b3J5IjpbNzA0MzM4MTA1LC0xOTgwMTkzNjY4LC00Mj
+kyNDEwODksLTE2MDk2NzExMywtNjk4NjEzNTIwLC01MDkzOTE3
+NjksMjA4NjEzODU5NywzMDk5NjQ3NzgsLTIwNTYzNTk4MjksMT
+U0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzNDAzMzE3Miw5MDE5MjU3
+NzMsLTE2NzkzMDA4NDksLTQ5NDEzODAzMiwtMTUyNTg1NDE3MS
+wxMzQ4Mjg0MjM4LDM0ODEzNDUzNSwtNzUzMTg0NjcsLTY2OTk1
+ODA2NF19
 -->
