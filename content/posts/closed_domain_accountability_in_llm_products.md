@@ -50,9 +50,10 @@ If you want your GenAI product to be commercially viable, you can't expect users
 
 ### Stop Playing
 <figure>
-<img src="static/images/"/>
+<img src="images/power-lai-E0BmfKjeQrw-unsplash.jpg"/>
 <figcaption>
-Photo by <Power Lai <a href="https://unsplash.com/@welipower?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Photo by [Power Lai](https://unsplash.com/@welipower?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/multicolored-playground-slide-during-daytime-E0BmfKjeQrw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/multicolored-playground-slide-during-daytime-E0BmfKjeQrw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)</figcaption>
+Photo by <a href="https://unsplash.com/@welipower?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Power Lai</a> on <a href="https://unsplash.com/photos/multicolored-playground-slide-during-daytime-E0BmfKjeQrw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+</figcaption>
 </figure>
 Nothing makes my skin crawl like stepping into a Machine Learning stack where one of the repositories is named "Playground." I know that is an unfortunately common nomenclature for experimentation suites, but words matter - and in this case illustrate my issue with Data Science held over from the zero-rate era. 
 
@@ -78,11 +79,11 @@ This can be a difficult thing for teams (and stakeholders) to wrap their heads a
 ## Is This A Good Thing?
 I tend to think so. The possibilites of GenAI (and a broader interest in all of Machine Learning in general) is more exciting than ever; there are real, tangiable ways this technology can and will improve human life. Meaningful advances come from signal, not noise, and a return to product fundimentals is the best way to dial in focus on products that actually matter. I look forward to fewer happy path demos and more real, viable products we can rely on every day. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MDI1NjU2NiwtMjcyMjMxMjMsNDU5MD
-QzMjI3LDIyMzc4Mjk4OSwtMTgzODk1MTQ2NywtNDM5ODIyNzY2
-LDc3MzU4ODUwMSwtNTEzNDQzNjAzLC0yODM5NjcxMDksOTk5MD
-UxOTE1LC0xNzgzMDY2MTcyLC0xOTgwMTkzNjY4LC00MjkyNDEw
-ODksLTE2MDk2NzExMywtNjk4NjEzNTIwLC01MDkzOTE3NjksMj
-A4NjEzODU5NywzMDk5NjQ3NzgsLTIwNTYzNTk4MjksMTU0Mzg2
-NjY1NV19
+eyJoaXN0b3J5IjpbLTE5ODQwODIwNTEsLTI3MjIzMTIzLDQ1OT
+A0MzIyNywyMjM3ODI5ODksLTE4Mzg5NTE0NjcsLTQzOTgyMjc2
+Niw3NzM1ODg1MDEsLTUxMzQ0MzYwMywtMjgzOTY3MTA5LDk5OT
+A1MTkxNSwtMTc4MzA2NjE3MiwtMTk4MDE5MzY2OCwtNDI5MjQx
+MDg5LC0xNjA5NjcxMTMsLTY5ODYxMzUyMCwtNTA5MzkxNzY5LD
+IwODYxMzg1OTcsMzA5OTY0Nzc4LC0yMDU2MzU5ODI5LDE1NDM4
+NjY2NTVdfQ==
 -->
