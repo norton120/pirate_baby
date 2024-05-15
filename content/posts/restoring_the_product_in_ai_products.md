@@ -29,7 +29,7 @@ If I was allowed to facepalm my response to only one single pattern in the GenAI
 
 Somewhere along the way we decided that AI/ML is the exclusive domain of Data Scientists and ML Engineers, that AI is "smart people magic," a black box that no normal person could ever understand. In fairness, few Data Scientists I know have done much to help the situation. If a Product Owner asks "can the LLM remember things?" they are given an overly technical primer on vector-based RAG, when what they need is an understanding of the features at their disposal and the constraints they must work within. 
 
-However, I have also yet to see a Product team show the slightest interest in owning feature and behavioral design of generative agents, or a UX team that spearheaded a plan for natural language user experience (NLUX). Unlike wireframes and brand kits, UX for Natural Language is a whole new domain for most UX Designers. There has been a tremendous focus on the _technical_ aspects of GenAI in the last 18 months, but what about every other discipline in the application ecosystem?  
+However, I have also yet to see a Product team show the slightest interest in owning the feature and behavioral design of generative agents, or a UX team spearhead a plan for natural language user experience (NLUX). Unlike wireframes and brand kits, UX for Natural Language is a whole new domain for most UX Designers. There has been a tremendous focus on the _technical_ aspects of GenAI in the last 18 months, but what about every other discipline in the application ecosystem?  
 
 If we are going to transition GenAI products from exploratory investments into commercial successes, we need to see a comprehensive skills shift across disciplines. It is no longer acceptable that Creative and Product teams exhaustively  craft a homepage layout that speaks to the brand, but then pay no attention to the product that is speaking for the brand with **_actual words_**. 
 
@@ -86,8 +86,8 @@ This can be a difficult thing for teams (and stakeholders) to wrap their heads a
 ## Is This A Good Thing?
 I tend to think so. The possibilites of GenAI (and a broader interest in all of Machine Learning in general) is more exciting than ever; there are real, tangiable ways this technology can and will improve human life. Meaningful advances come from signal, not noise, and a return to product fundimentals is the best way to dial in focus on products that actually matter. I look forward to fewer happy path demos and more real, viable products we can rely on every day. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDA2MzY2MSwtMTY2MTcxNDY3MiwxNT
-k1NDcyMzM5LC0zODc2NTk2NDIsMTI5Nzc0MTc4NCwtMTg2NjU4
-MTAzNiwtODI0MDExNTc2LDEwNDc5NTQzMTUsLTkxMzc4MjcwNS
-wtMTkyMzcwMDg5Nl19
+eyJoaXN0b3J5IjpbLTEyODUyNDY5NjQsLTE2NjE3MTQ2NzIsMT
+U5NTQ3MjMzOSwtMzg3NjU5NjQyLDEyOTc3NDE3ODQsLTE4NjY1
+ODEwMzYsLTgyNDAxMTU3NiwxMDQ3OTU0MzE1LC05MTM3ODI3MD
+UsLTE5MjM3MDA4OTZdfQ==
 -->
