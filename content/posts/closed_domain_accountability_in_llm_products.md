@@ -69,14 +69,14 @@ Comprehensive ground truth coverage is how you iterate and avoid regressions. Wh
 
 This can be a difficult thing for teams (and stakeholders) to wrap their heads around at first; the process is hard, nessesary work, and it differs greatly from classical Software Engineering. That difference, if not understood, can be disasterous: If Engineers and Stakeholders confuse an initial "happy path" demo with a finished product, then identifying failing cases will be negatively viewed as "finding bugs".  Each new case, in actuality a step closer to success, will be perceived as further evidence of failure. Don't go down this path. Success in GenAI is about how many different ways the user can _not_ do the right thing and still achieve the desired result, how tolerant the system can be of deviation. Relentlessly curate and expand ground truth datasets, they are the foundation of a commerically viable GenAI product. 
 
-## Is All This Viability A Good Thing?
-I think so. 
+## Is This A Good Thing?
+I tend to think so. The possibilites of GenAI (and a broader interest in all of Machine Learning) is exciting and presents remarkable potential 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDY2MDMxMDYsMjIzNzgyOTg5LC0xOD
-M4OTUxNDY3LC00Mzk4MjI3NjYsNzczNTg4NTAxLC01MTM0NDM2
-MDMsLTI4Mzk2NzEwOSw5OTkwNTE5MTUsLTE3ODMwNjYxNzIsLT
-E5ODAxOTM2NjgsLTQyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2
-MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OC
-wtMjA1NjM1OTgyOSwxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0
-MDMzMTcyXX0=
+eyJoaXN0b3J5IjpbLTIwMTkwNTY0MiwyMjM3ODI5ODksLTE4Mz
+g5NTE0NjcsLTQzOTgyMjc2Niw3NzM1ODg1MDEsLTUxMzQ0MzYw
+MywtMjgzOTY3MTA5LDk5OTA1MTkxNSwtMTc4MzA2NjE3MiwtMT
+k4MDE5MzY2OCwtNDI5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYx
+MzUyMCwtNTA5MzkxNzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC
+0yMDU2MzU5ODI5LDE1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQw
+MzMxNzJdfQ==
 -->
