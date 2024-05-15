@@ -1,7 +1,6 @@
 ---
 title: "Caffeine"
-subtitle: "stealing from our future selves"
-date: 2024-1-3
+date: 2024-01-03
 draft: false
 ---
 There is a well-warn platitude that "debt is stealing from your future self." The logic follows that instead of (or worse, in addition to) spending the resources you currently have, debt is the act of spending against resources you _will have_ down the road. Debt functions on highly optimistic principals, namely that future you will be so very well off that not only will that version of yourself have enough means to cover your then-current expenses, but also surplus to cover the now-current expenses present-day you is unwilling or unable to afford. 
@@ -15,8 +14,8 @@ Debt can be a strategic tool in moments when it is legitimately viable that futu
 
 *<sub>yes, technically caffeine acts as a mild stimulant in addition to the aforementioned fatigue-blocking properties. While not totally inconsequential, there are plenty of other mild stimulants that draw comparatively little interest: we don't see the world consuming 1.2 tons of ginseng or yerba mate a year, and there's a reason for that.</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODE3MjE0ODAsNzUzMjg0ODMxLC0yOD
-QwODI3MzksLTEyMjIxMjk4NywxMjc4NjE3MzgyLDIwOTgzMTcw
-NTcsLTIwMzM1MTAyMCwtMTYxNDAzOTI5NywtMzYxNjM1MDUxLC
-0zNTEyOTMzNTBdfQ==
+eyJoaXN0b3J5IjpbLTEwNzQyNjk0NTAsLTE3ODE3MjE0ODAsNz
+UzMjg0ODMxLC0yODQwODI3MzksLTEyMjIxMjk4NywxMjc4NjE3
+MzgyLDIwOTgzMTcwNTcsLTIwMzM1MTAyMCwtMTYxNDAzOTI5Ny
+wtMzYxNjM1MDUxLC0zNTEyOTMzNTBdfQ==
 -->
