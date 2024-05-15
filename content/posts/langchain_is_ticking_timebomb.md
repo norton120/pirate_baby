@@ -1,7 +1,7 @@
 ---
 title: "Langchain is a Ticking Timebomb"
 subtitle: "predictions in AI"
-date: 2024-1-9
+date: 2024-01-09
 tags: ['AI']
 draft: false
 ---
@@ -57,7 +57,7 @@ I read this as "_we are going to break things all the time and we'd rather just 
 ### I have hope
 A month after we made the decision to abandon LangChain, much has changed. `V.0.1.0` was released, promising a stable entrypoint and, eh, interesting ([non-semantic](https://blog.langchain.dev/langchain-v0-1-0/#:~:text=Any%20breaking%20changes%20to%20the%20public%20API%20will%20result%20in%20a%20minor%20version%20bump%20%28the%20second%20digit%29)) versioning (but hey at least they set rules?). LangChain is moving to a sensible [stand-alone packages](https://github.com/langchain-ai/langchain/tree/master/libs/partners?ref=blog.langchain.dev) model for integrations. It would be amazing if we see the project mature into either a stable, reliable library, or evolve into a true llm-application framework. And I'll be the first person to condemn our bespoke code to reside in git history and wire up a Lang*-based chain, when (and if) that day comes. But I am confident that the LangChain of right-at-this-moment will be the very center of unreliable, painfully  brittle code bases that organizations are desperate to get away from this time next year.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjM5MzYwMDMsLTE5NjQwMjE2MDYsLT
-k4MzY2MjIxMiwtOTM4NDgwMjg3LC0xNTU3NTgyMjcsMTIxMzQz
-NjYzOCwxMzgyMzYzMzRdfQ==
+eyJoaXN0b3J5IjpbNDQzMTQ3Njc2LC0xMzIzOTM2MDAzLC0xOT
+Y0MDIxNjA2LC05ODM2NjIyMTIsLTkzODQ4MDI4NywtMTU1NzU4
+MjI3LDEyMTM0MzY2MzgsMTM4MjM2MzM0XX0=
 -->
