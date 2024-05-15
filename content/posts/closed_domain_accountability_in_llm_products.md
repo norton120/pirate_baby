@@ -70,11 +70,11 @@ Language models will astound you with how creatively they can screw up while sti
 
 Comprehensive ground truth coverage is how you iterate and avoid regressions. While synthetic datasets can be useful, in my experience nothing compares to diverse human-authored cases. The case above with "the user" and "a user" is a real-world example; I believed that I had created ground truth data in a wide variety of tones and patterns, but it took just one submission from a different team member (with a slightly different writing style) to expose a failing case. Reliability is the cornerstone of any commerically viable product, one that results from methodically eliminating these failing cases. Each new failing case must be captured as ground truth and celebrated as a tiny victory - because every case captured represents one more known permuation that can be definitively solved. The larger the list of failing cases identified, accounted for and corrected, the closer the product is to commerical viability.
 
-This can be a difficult thing for teams (and stakeholders) to wrap their heads around at first; the process is hard, nessesary work, and it differs greatly from classical Software Engineering. That difference, if not understood, can be disasterous: If Engineers and Stakeholders confuse an initial "happy path" demo with a finished product, then identifying failing cases will be negatively viewed as "finding bugs".  Each new case, in actuaa step closer to success, will be perceived as further evidence of failure.
+This can be a difficult thing for teams (and stakeholders) to wrap their heads around at first; the process is hard, nessesary work, and it differs greatly from classical Software Engineering. That difference, if not understood, can be disasterous: If Engineers and Stakeholders confuse an initial "happy path" demo with a finished product, then identifying failing cases will be negatively viewed as "finding bugs".  Each new case, in actuality a step closer to success, will be perceived as further evidence of failure. Don't go down this path. Success in GenAI is about how many different ways the user can _not_ do the right thing and still achieve the desired result, how tolerant the system can be of deviation. Relentlessly curate and expand ground truth datasets, they are the foundation of a commerically viable GenAI product. 
 
-Success in GenAI is about how many different ways the user can _not_ do the right thing and still achieve the desired result, how tolerant the system can be of deviation. Relentlessly curate and expand ground truth datasets, they are the foundation of a commerically viable GenAI product. 
+## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNDg3NzQxNywyMjM3ODI5ODksLTE4Mz
+eyJoaXN0b3J5IjpbLTQ0ODkzMDQzNiwyMjM3ODI5ODksLTE4Mz
 g5NTE0NjcsLTQzOTgyMjc2Niw3NzM1ODg1MDEsLTUxMzQ0MzYw
 MywtMjgzOTY3MTA5LDk5OTA1MTkxNSwtMTc4MzA2NjE3MiwtMT
 k4MDE5MzY2OCwtNDI5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYx
