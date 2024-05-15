@@ -27,6 +27,7 @@ However, I have also yet to know a Product team that has shown the slightest int
 If we are going to transition GenAI products from exploratory investments into commercial successes, we need to see a comprehensive skills shift across disciplines. It is no longer acceptable that Creative and Product teams exhaustively  craft a homepage layout that speaks to the brand, but then pay no attention to the product that is speaking for the brand with **_actual words_**. 
 
 A set of wireframes illustrates the customer journey across screens and clicks; NLUX designs should illustrate how the conversation between a user and the product must unfold. Happy paths, sad paths, external events, tone, language structure, level of engagement - these are all things Product and UX can flesh out in detail with stakeholders, long before a line of code is written. Of course not everything in the design will be possible or practical - that's where the iterative nature of Software Engineering comes into play. Having a clear, universally understood vision for the product enables AI Engineers to plan and address novel challenges head-on, instead of scrambling on their heels in front of frustrated stakeholders. 
+
 ### Is there Demand?
 The most fundamental product question seems to have been forgotten by many during the AI gold rush of '23: do people actually want the thing you are building? What proof do you have? Examples abound of useless, unwanted AI products shoehorned into the lives of consumers. There are pointless novelty chatbots baked into every social media platform. Integrated text completions are getting increasingly aggressive about mangling our messages. Most new AI customer service assistants seem remarkably adept at rephrasing "as an AI assistant I am unable to help you" - and not much else. 
 
@@ -48,6 +49,7 @@ Instead, free two-day delivery became the default for any item without an availa
 If you want your GenAI product to be commercially viable, you can't expect users to bear the brunt of responsibility in a transaction. Get rid of the disclaimers and ship a product that lives up to what it promises.
 
 ### Stop Playing
+![playground](https://images.unsplash.com/photo-1575783970733-1aaedde1db74?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 Nothing makes my skin crawl like stepping into a Machine Learning stack where one of the repositories is named "Playground." I know that is an unfortunately common nomenclature for experimentation suites, but words matter - and in this case illustrate my issue with Data Science held over from the zero-rate era. 
 
 Commercial Product Engineering teams are not Academia, and the software we write is not intended to promote our personal learning or exploration. Put simply, this is not a place to play. _Experimentation_, the distant cousin to the playground, is an important part of AI/ML development. In Experimentation, the scientific method is applied to stated hypotheses in order to discover new solutions for stated objectives. This experimentation must be systematic and governed by a commercially viable outcome; success is clearly defined and experiments produce metrics reflecting progress toward that success. 
@@ -72,11 +74,11 @@ This can be a difficult thing for teams (and stakeholders) to wrap their heads a
 ## Is This A Good Thing?
 I tend to think so. The possibilites of GenAI (and a broader interest in all of Machine Learning in general) is more exciting than ever; there are real, tangiable ways this technology can and will improve human life. Meaningful advances come from signal, not noise, and a return to product fundimentals is the best way to dial in focus on products that actually matter. I look forward to fewer happy path demos and more real, viable products we can rely on every day. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU5MDQzMjI3LDIyMzc4Mjk4OSwtMTgzOD
-k1MTQ2NywtNDM5ODIyNzY2LDc3MzU4ODUwMSwtNTEzNDQzNjAz
-LC0yODM5NjcxMDksOTk5MDUxOTE1LC0xNzgzMDY2MTcyLC0xOT
-gwMTkzNjY4LC00MjkyNDEwODksLTE2MDk2NzExMywtNjk4NjEz
-NTIwLC01MDkzOTE3NjksMjA4NjEzODU5NywzMDk5NjQ3NzgsLT
-IwNTYzNTk4MjksMTU0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzNDAz
-MzE3Ml19
+eyJoaXN0b3J5IjpbNDc1MTM2NDY5LDQ1OTA0MzIyNywyMjM3OD
+I5ODksLTE4Mzg5NTE0NjcsLTQzOTgyMjc2Niw3NzM1ODg1MDEs
+LTUxMzQ0MzYwMywtMjgzOTY3MTA5LDk5OTA1MTkxNSwtMTc4Mz
+A2NjE3MiwtMTk4MDE5MzY2OCwtNDI5MjQxMDg5LC0xNjA5Njcx
+MTMsLTY5ODYxMzUyMCwtNTA5MzkxNzY5LDIwODYxMzg1OTcsMz
+A5OTY0Nzc4LC0yMDU2MzU5ODI5LDE1NDM4NjY2NTUsOTA0NzE0
+OTk3XX0=
 -->
