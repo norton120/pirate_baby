@@ -18,7 +18,7 @@ In other words, consumers are no longer willing to pay for an AI flea circus. We
 Maybe you are an Executive growing impatient with the lack of investment return on your Machine Learning initiatives. Maybe you are an AI Founder watching your runway burn down like the wick of a cartoon bomb as your users fail to convert (or worse yet, churn). Maybe you are an AI or ML Engineer anxious to secure your place before the GenAI music stops. Whoever you are, delivering successful products that incorporate any type of Machine Learning is not all that different from delivering Software in general. The key is understanding how approaches have differed during the GenAI boom, and how they may need to evolve today. 
 
 ### Where the Hell is UX and Product? 
-![Ignoring the elephant in the room, Copilot](/images/ignoring_the_elephant_in_the_room.png)
+![Ignoring the elephant in the room, Copilot](/images/ignoring_elephant_in_the_room.png)
 
 If I was allowed to facepalm my response to only one single pattern in the GenAI craze, this would be it. A stakeholder asks "what will the bot do if the user asks for a refund?" and every head in the room turns to the AI Engineer. Product doesn't know - they own a detailed journey map right up to the big black box titled "Bot Stuff." UX doesn't know - they can talk at length about font choices and button shading, but shrug when asked what tone the virtual assistant will take when interacting with the user. No matter how the AI Engineer answers that question, the room will most certainly melt down as conflicting, unaddressed expectations surface; one stakeholder imagines curt, robotic text responses, while another stakeholder expects a jovial, human-like experience. Is there any wonder why a product without product ownership seems lost, or why a user experience design without design seems disjointed? 
 
@@ -81,6 +81,6 @@ This can be a difficult thing for teams (and stakeholders) to wrap their heads a
 ## Is This A Good Thing?
 I tend to think so. The possibilites of GenAI (and a broader interest in all of Machine Learning in general) is more exciting than ever; there are real, tangiable ways this technology can and will improve human life. Meaningful advances come from signal, not noise, and a return to product fundimentals is the best way to dial in focus on products that actually matter. I look forward to fewer happy path demos and more real, viable products we can rely on every day. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NzM5MTg3OCwtODI0MDExNTc2LDEwND
-c5NTQzMTUsLTkxMzc4MjcwNSwtMTkyMzcwMDg5Nl19
+eyJoaXN0b3J5IjpbLTE4NjY1ODEwMzYsLTgyNDAxMTU3NiwxMD
+Q3OTU0MzE1LC05MTM3ODI3MDUsLTE5MjM3MDA4OTZdfQ==
 -->
