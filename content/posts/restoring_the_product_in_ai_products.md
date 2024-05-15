@@ -9,6 +9,7 @@ _grounding your ML development lifecycle in commercial reality_
 If you subscribe to the Gartner predictive model for AI impact and adoption (a.k.a the "AI Hype Cycle") we are still far from peak (inflated) AI expectations.
 ![Gartner AI Hype Cycle 2023](https://emt.gartnerweb.com/ngw/globalassets/en/newsroom/images/graphs/swe-hc-image.png)
 Casual observation supports the Gartner timeline; every week it seems a new Generative AI breakthrough sends techno-pundits and content creators into a frenzy. This week, the breakthrough is multimodal OpenAI GPT-4o: the long-awaited technological leap forward which will no doubt _fianally_ render the human race obsolete 🙄.
+
 The "hype" in this hype cycle is really a manifestation of misaligned understanding.  Most Generative AI products are firmly in the "let's see if this could even work" phase of development (properly referred to as _experimentation investment_). It is a gambler's bet - we _think_ a thing can be done, and if we turn out to be correct there is potential for a huge return. This is very different from the last decade of technology application, one where "we know this tech absolutely works for this application, and is just a matter of implementation." The difference between the two is important. If an Executive allocated capital and headcount for an e-commerce initiative in 2023, there was no question about the viable fundamentals of e-commerce; sure, you can get the marketing wrong, or the UX, or the database design - you can fumble the _implementation_ of an e-commerce solution. But you never have to question if _e-commerce even works in the first place_. With Generative AI, however, that question remains front and center for every new and individualized use case. Many business and technology leaders approached AI strategy in 2023 expecting a familiar process and development cycle, instead finding themselves frustrated by products that never seem to graduate beyond demos. The half-baked chatbots and glitchy, disclaimer-laden AI novelty products litter the Gen AI space as a testament to this disconnect. As stated wonderfully by Samir Kumar of Turing Capital in a recent [TechCrunch interview](https://techcrunch.com/2024/04/15/investors-are-growing-increasingly-wary-of-ai/): 
 > “We’ll soon be evaluating whether generative AI delivers the promised efficiency gains at scale and drives top-line growth through AI-integrated products and services... If these anticipated milestones aren’t met and we remain primarily in an experimental phase, revenues from ‘experimental run rates’ might not transition into sustainable annual recurring revenue.” 
 
@@ -81,7 +82,7 @@ This can be a difficult thing for teams (and stakeholders) to wrap their heads a
 ## Is This A Good Thing?
 I tend to think so. The possibilites of GenAI (and a broader interest in all of Machine Learning in general) is more exciting than ever; there are real, tangiable ways this technology can and will improve human life. Meaningful advances come from signal, not noise, and a return to product fundimentals is the best way to dial in focus on products that actually matter. I look forward to fewer happy path demos and more real, viable products we can rely on every day. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5Nzc0MTc4NCwtMTg2NjU4MTAzNiwtOD
-I0MDExNTc2LDEwNDc5NTQzMTUsLTkxMzc4MjcwNSwtMTkyMzcw
-MDg5Nl19
+eyJoaXN0b3J5IjpbLTM4NzY1OTY0MiwxMjk3NzQxNzg0LC0xOD
+Y2NTgxMDM2LC04MjQwMTE1NzYsMTA0Nzk1NDMxNSwtOTEzNzgy
+NzA1LC0xOTIzNzAwODk2XX0=
 -->
