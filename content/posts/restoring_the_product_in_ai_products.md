@@ -43,7 +43,7 @@ One of my favorite productivity tools added an AI-powered filter builder about a
 
 ### Sunset Disclaimers
 Here is a banner you won't see:
-![Amazon does not need an out clause](images/unreliable_software.png)
+![Amazon does not need an out clause](/images/unreliable_software.png)
 That is because real products cannot come with an escape hatch. The AI Product and Engineering teams are responsible for a consumer experience that is right and reliable, full stop. This doesn't mean _the LLM_ needs to get everything right every time - quite the contrary. Engineers must orchestrate the holistic interaction of software, inference, and user, in alignment with the vision of product, in order to arrive at a reliable and trustworthy experience. 
 
 Unreliable components in systems are not exclusive to GenAI, or remotely new to the Software world in general. A few years ago I worked on an e-commerce platform that was struggling with conversion due to shipping timelines. The problem wasn't the actual deliveries (most orders were delivered in 1-2 days), but the logistics of displaying delivery dates while relying on slow and unreliable vendor feeds. A cop-out would have been to slap an "Estimates are unreliable, and you may get your stuff whenever" disclaimer on the page - but that was not the product experience we set out to deliver. Alternatively, the team could have spent months constructing a labyrinth of brittle branching logic across hundreds of vendors and warehouses, which would have been a nightmare to maintain. 
@@ -83,5 +83,6 @@ This can be a difficult thing for teams (and stakeholders) to wrap their heads a
 ## Is This A Good Thing?
 I tend to think so. The possibilites of GenAI (and a broader interest in all of Machine Learning in general) is more exciting than ever; there are real, tangiable ways this technology can and will improve human life. Meaningful advances come from signal, not noise, and a return to product fundimentals is the best way to dial in focus on products that actually matter. I look forward to fewer happy path demos and more real, viable products we can rely on every day. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzc4MjcwNSwtMTkyMzcwMDg5Nl19
+eyJoaXN0b3J5IjpbMTU0Mjk2NzY4LC05MTM3ODI3MDUsLTE5Mj
+M3MDA4OTZdfQ==
 -->
