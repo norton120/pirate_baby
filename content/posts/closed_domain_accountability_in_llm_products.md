@@ -50,6 +50,8 @@ Experiments report metrics - how many test cases remain in this experiment, how 
 
 Individual experimentation failures eventually lead to product success; each systematic failure furthers the process of elimination, closing distance to either finding success or proving exhaustively that the hypothesis is false. Playground failures are actual failures, as each random trial is effectively isolated and contributes no reportable progress towards a definitive result.
 
+Playtime is over. Design, plan, and execute experiments to build a commerically viable product.
+
 ### Is there Demand?
 The most fundamental product question seems to have been forgotten by many during the AI gold rush of '23: do people actually want the thing you are building? What proof do you have? Examples of useless, unwanted AI products being shoehorned into our lives are already everywhere. There are pointless novelty chatbots now built into every social media platform. Integrated text completions are getting increasingly aggressive about mangling our messages. Most new AI customer service assistants seem remarkably adept at rephrasing "as an AI assistant I am unable to help you" - and not much else. 
 
@@ -68,11 +70,11 @@ This can be a difficult thing for teams (and stakeholders) to wrap their heads a
 
 Success in GenAI is about how many different ways the user can _not_ do the right thing and still achieve the desired result, how tolerant the system can be of deviation. Relentlessly curate and expand ground truth datasets, they are the foundation of a commerically viable GenAI product. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTg0NjY2OTcsMjIzNzgyOTg5LC0xOD
-M4OTUxNDY3LC00Mzk4MjI3NjYsNzczNTg4NTAxLC01MTM0NDM2
-MDMsLTI4Mzk2NzEwOSw5OTkwNTE5MTUsLTE3ODMwNjYxNzIsLT
-E5ODAxOTM2NjgsLTQyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2
-MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OC
-wtMjA1NjM1OTgyOSwxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0
-MDMzMTcyXX0=
+eyJoaXN0b3J5IjpbLTI4Njg4MDgsMjIzNzgyOTg5LC0xODM4OT
+UxNDY3LC00Mzk4MjI3NjYsNzczNTg4NTAxLC01MTM0NDM2MDMs
+LTI4Mzk2NzEwOSw5OTkwNTE5MTUsLTE3ODMwNjYxNzIsLTE5OD
+AxOTM2NjgsLTQyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2MTM1
+MjAsLTUwOTM5MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OCwtMj
+A1NjM1OTgyOSwxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0MDMz
+MTcyXX0=
 -->
