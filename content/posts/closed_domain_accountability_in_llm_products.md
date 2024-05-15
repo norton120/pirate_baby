@@ -70,13 +70,13 @@ Comprehensive ground truth coverage is how you iterate and avoid regressions. Wh
 This can be a difficult thing for teams (and stakeholders) to wrap their heads around at first; the process is hard, nessesary work, and it differs greatly from classical Software Engineering. That difference, if not understood, can be disasterous: If Engineers and Stakeholders confuse an initial "happy path" demo with a finished product, then identifying failing cases will be negatively viewed as "finding bugs".  Each new case, in actuality a step closer to success, will be perceived as further evidence of failure. Don't go down this path. Success in GenAI is about how many different ways the user can _not_ do the right thing and still achieve the desired result, how tolerant the system can be of deviation. Relentlessly curate and expand ground truth datasets, they are the foundation of a commerically viable GenAI product. 
 
 ## Is This A Good Thing?
-I tend to think so. The possibilites of GenAI (and a broader interest in all of Machine Learning in general) is more exciting than ever; there are real, tangiable ways this technology can and will improve human life. Meaningful advances come from signal, not noise, and a return to product fundimentals is the best way to dial in focus on products that actually matter. I look forward to fewer hap
+I tend to think so. The possibilites of GenAI (and a broader interest in all of Machine Learning in general) is more exciting than ever; there are real, tangiable ways this technology can and will improve human life. Meaningful advances come from signal, not noise, and a return to product fundimentals is the best way to dial in focus on products that actually matter. I look forward to fewer happy path demos and more real, viable products we can rely on every day. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODExODYzMjYsMjIzNzgyOTg5LC0xOD
-M4OTUxNDY3LC00Mzk4MjI3NjYsNzczNTg4NTAxLC01MTM0NDM2
-MDMsLTI4Mzk2NzEwOSw5OTkwNTE5MTUsLTE3ODMwNjYxNzIsLT
-E5ODAxOTM2NjgsLTQyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2
-MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OC
-wtMjA1NjM1OTgyOSwxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0
-MDMzMTcyXX0=
+eyJoaXN0b3J5IjpbNDU5MDQzMjI3LDIyMzc4Mjk4OSwtMTgzOD
+k1MTQ2NywtNDM5ODIyNzY2LDc3MzU4ODUwMSwtNTEzNDQzNjAz
+LC0yODM5NjcxMDksOTk5MDUxOTE1LC0xNzgzMDY2MTcyLC0xOT
+gwMTkzNjY4LC00MjkyNDEwODksLTE2MDk2NzExMywtNjk4NjEz
+NTIwLC01MDkzOTE3NjksMjA4NjEzODU5NywzMDk5NjQ3NzgsLT
+IwNTYzNTk4MjksMTU0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzNDAz
+MzE3Ml19
 -->
