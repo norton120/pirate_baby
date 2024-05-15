@@ -1,5 +1,5 @@
 ---
-title: "C&C"
+title: "Hire Us"
 menus: 'main'
 layout: "single"
 comments: false
@@ -9,7 +9,7 @@ url: "/work-with-pirate-baby"
 summary: hiring Pirate Baby for consulting or contract engagements
 ---
 
-# Consulting and Contract Work
+# Hire Pirate Baby
 
 There is no substitute for hard-won experience, no shortcut for seat time. If you need Engineers within a track record of success in Artificial Intelligence, Machine Learning and Data Engineeringd, you need _Pirate Baby_.
 
@@ -28,9 +28,7 @@ It is bigger than just AWS/GCP/Azure now. Megaclouds are still your core service
 Development environments should be Software Engineering force multipliers, catered to the needs of your team. At _Pirate Baby_; we have over a decade of experience building, refining, and containerizing development processes to eliminate trie, measuably shrink cycle times, and make onboarding delays a thing of the past.erati We will fit the tools to empower your people, not the other way around.
 
 ## Commitment to the Bleeding Edge
-The Gen w e or oether
-
-e t teligee pa ereand a e osererativ space is evolving at a breakneck pace. Experts must "live at the tip of the spear" by actively contributing to ongoing Open Source Software and academic projects, or risk falling behind. At _Pirate Baby_ we are seriously committed to laying the path forward for Generative AI Software; this means devoting as much as 50% of our cycles to the OSS and academic projects that are defining the GenAI landscape.
+The GenAI space is evolving at a breakneck pace. Experts must "live at the tip of the spear" by actively contributing to ongoing Open Source Software and academic projects, or risk falling behind. At _Pirate Baby_ we are seriously committed to laying the path forward for Generative AI Software; this means devoting as much as 50% of our cycles to the OSS and academic projects that are defining the GenAI landscape.
 
 ## Maximizing ROI with Pirate Baby
 Whenever working with external resources it is critical that you maximize your return. Here are some important ways you can do that.on ma in pore otcaeprcoriing i tat a are ioly ce o laing  at ora  ati  ors  deoin as us  yo he n cac o a are f the e ls. n  w rat heee worki wt etena eor tis ra t o imi our etr ere are so porta wy o adtt.
