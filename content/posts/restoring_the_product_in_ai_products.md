@@ -31,7 +31,7 @@ If we are going to transition GenAI products from exploratory investments into c
 A set of wireframes illustrates the customer journey across screens and clicks; NLUX designs should illustrate how the conversation between a user and the product must unfold. Happy paths, sad paths, external events, tone, language structure, level of engagement - these are all things Product and UX can flesh out in detail with stakeholders, long before a line of code is written. Of course not everything in the design will be possible or practical - that's where the iterative nature of Software Engineering comes into play. Having a clear, universally understood vision for the product enables AI Engineers to plan and address novel challenges head-on, instead of scrambling on their heels in front of frustrated stakeholders. 
 
 ### Is there Demand?
-![selling ketchup popsicles to a woman in white gloves, CoPilot](/images/popsicle.png)
+![selling winter coats on the beach, CoPilot](/images/winter_coats.png)
 
 The most fundamental product question seems to have been forgotten by many during the AI gold rush of '23: do people actually want the thing you are building? What proof do you have? Examples abound of useless, unwanted AI products shoehorned into the lives of consumers. There are pointless novelty chatbots baked into every social media platform. Integrated text completions are getting increasingly aggressive about mangling our messages. Most new AI customer service assistants seem remarkably adept at rephrasing "as an AI assistant I am unable to help you" - and not much else. 
 
@@ -53,12 +53,8 @@ Instead, free two-day delivery became the default for any item without an availa
 If you want your GenAI product to be commercially viable, you can't expect users to bear the brunt of responsibility in a transaction. Get rid of the disclaimers and ship a product that lives up to what it promises.
 
 ### Stop Playing
-<figure>
-<img src="images/power-lai-E0BmfKjeQrw-unsplash.jpg"/>
-<figcaption>
-Photo by <a href="https://unsplash.com/@welipower?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Power Lai</a> on <a href="https://unsplash.com/photos/multicolored-playground-slide-during-daytime-E0BmfKjeQrw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-</figcaption>
-</figure>
+![scientists on a playground, Copilot](/images/scientists_on_playground.png)
+
 Nothing makes my skin crawl like stepping into a Machine Learning stack where one of the repositories is named "Playground." I know that is an unfortunately common nomenclature for experimentation suites, but words matter - and in this case illustrate my issue with Data Science held over from the zero-rate era. 
 
 Commercial Product Engineering teams are not Academia, and the software we write is not intended to promote our personal learning or exploration. Put simply, this is not a place to play. _Experimentation_, the distant cousin to the playground, is an important part of AI/ML development. In Experimentation, the scientific method is applied to stated hypotheses in order to discover new solutions for stated objectives. This experimentation must be systematic and governed by a commercially viable outcome; success is clearly defined and experiments produce metrics reflecting progress toward that success. 
@@ -72,6 +68,7 @@ Individual experimentation failures eventually lead to product success; each sys
 Playtime is over. Design, plan, and execute experiments to build a commerically viable product.
 
 ### Ground Truth is a Magic Lamp
+
 If you are granted three wishes by a genie, leave no room for interpretation. Ambiguity is how you end up turned into a tortoise ("I want to live for centuries!") or the Mona Lisa ("I want to be famous!"). As you are constructing the ground truth datasets for a GenAI product, leave even less ambiguity in your design. 
 
 Language models will astound you with how creatively they can screw up while still following the rules. They may perfectly extract every book title from 1000 reviews, and then fail the first time they see a sentance with no uppercase letters. They may halucinate if you change "the user" to "a user." They may decide all unknown sirnames should be "Stalone." 
@@ -83,6 +80,6 @@ This can be a difficult thing for teams (and stakeholders) to wrap their heads a
 ## Is This A Good Thing?
 I tend to think so. The possibilites of GenAI (and a broader interest in all of Machine Learning in general) is more exciting than ever; there are real, tangiable ways this technology can and will improve human life. Meaningful advances come from signal, not noise, and a return to product fundimentals is the best way to dial in focus on products that actually matter. I look forward to fewer happy path demos and more real, viable products we can rely on every day. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0Nzk1NDMxNSwtOTEzNzgyNzA1LC0xOT
-IzNzAwODk2XX0=
+eyJoaXN0b3J5IjpbMTYyMjQ0MDY5OCwxMDQ3OTU0MzE1LC05MT
+M3ODI3MDUsLTE5MjM3MDA4OTZdfQ==
 -->
