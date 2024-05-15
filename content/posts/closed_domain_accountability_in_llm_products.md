@@ -44,7 +44,7 @@ Nothing makes my skin crawl like stepping into a Machine Learning stack where on
 
 Commercial Product Engineering teams are not Academia, and the software we write is not intended to promote our personal learning or exploration. Put simply, this is not a place to play. _Experimentation_, the distant cousin to the playground, is an important part of AI/ML development. In Experimentation, the scientific method is applied to stated hypotheses in order to discover new solutions for stated objectives. This experimentation must be systematic and governed by a commercially viable outcome; success is clearly defined and experiments produce metrics reflecting progress toward that success. 
 
-"_Playgrounds_," generally live up to their namesake: Data Scientists haphazardly adjust model parameters, test-drive whatever novel methodologies are in vogue at the moment, and traverse endlessly down experimental rabbit holes totally unrelated to the initial objective. 
+"_Playgrounds_" generally live up to their namesake: Data Scientists haphazardly adjust model parameters, test-drive whatever novel methodologies are in vogue at the moment, and traverse endlessly down experimental rabbit holes totally unrelated to the initial objective. 
  
 Experiments report metrics - how many test cases remain in this experiment, how the experiment scores are trending, and if the hypothesis under test is a statistical improvement. Playgrounds generate updates like "I am still working on X" and "Y seems a little better now." 
 
@@ -68,11 +68,11 @@ This can be a difficult thing for teams (and stakeholders) to wrap their heads a
 
 Success in GenAI is about how many different ways the user can _not_ do the right thing and still achieve the desired result, how tolerant the system can be of deviation. Relentlessly curate and expand ground truth datasets, they are the foundation of a commerically viable GenAI product. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzNzgyOTg5LC0xODM4OTUxNDY3LC00Mz
-k4MjI3NjYsNzczNTg4NTAxLC01MTM0NDM2MDMsLTI4Mzk2NzEw
-OSw5OTkwNTE5MTUsLTE3ODMwNjYxNzIsLTE5ODAxOTM2NjgsLT
-QyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2MTM1MjAsLTUwOTM5
-MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OCwtMjA1NjM1OTgyOS
-wxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0MDMzMTcyLDkwMTky
-NTc3M119
+eyJoaXN0b3J5IjpbLTE2NTg0NjY2OTcsMjIzNzgyOTg5LC0xOD
+M4OTUxNDY3LC00Mzk4MjI3NjYsNzczNTg4NTAxLC01MTM0NDM2
+MDMsLTI4Mzk2NzEwOSw5OTkwNTE5MTUsLTE3ODMwNjYxNzIsLT
+E5ODAxOTM2NjgsLTQyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2
+MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OC
+wtMjA1NjM1OTgyOSwxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0
+MDMzMTcyXX0=
 -->
