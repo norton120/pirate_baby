@@ -18,6 +18,8 @@ In other words, consumers are no longer willing to pay for an AI flea circus. We
 Maybe you are an Executive growing impatient with the lack of investment return on your Machine Learning initiatives. Maybe you are an AI Founder watching your runway burn down like the wick of a cartoon bomb as your users fail to convert (or worse yet, churn). Maybe you are an AI or ML Engineer anxious to secure your place before the GenAI music stops. Whoever you are, delivering successful products that incorporate any type of Machine Learning is not all that different from delivering Software in general. The key is understanding how approaches have differed during the GenAI boom, and how they may need to evolve today. 
 
 ### Where the Hell is UX and Product? 
+![Ignoring the elephant in the room, Copilot](/images/ignoring_the_elephant_in_the_room.png)
+
 If I was allowed to facepalm my response to only one single pattern in the GenAI craze, this would be it. A stakeholder asks "what will the bot do if the user asks for a refund?" and every head in the room turns to the AI Engineer. Product doesn't know - they own a detailed journey map right up to the big black box titled "Bot Stuff." UX doesn't know - they can talk at length about font choices and button shading, but shrug when asked what tone the virtual assistant will take when interacting with the user. No matter how the AI Engineer answers that question, the room will most certainly melt down as conflicting, unaddressed expectations surface; one stakeholder imagines curt, robotic text responses, while another stakeholder expects a jovial, human-like experience. Is there any wonder why a product without product ownership seems lost, or why a user experience design without design seems disjointed? 
 
 Somewhere along the way we decided that AI/ML is the exclusive domain of Data Scientists and ML Engineers, that AI is a "smart people magic" black box that no normal person could ever understand. In fairness, few Data Scientists I know have done much to help the situation. If a Product Owner asks "can the LLM remember things?" they are given an overly technical primer on vector-based RAG, when what they needed was to understand the features at their disposal and the constraints they must work within. 
@@ -29,7 +31,8 @@ If we are going to transition GenAI products from exploratory investments into c
 A set of wireframes illustrates the customer journey across screens and clicks; NLUX designs should illustrate how the conversation between a user and the product must unfold. Happy paths, sad paths, external events, tone, language structure, level of engagement - these are all things Product and UX can flesh out in detail with stakeholders, long before a line of code is written. Of course not everything in the design will be possible or practical - that's where the iterative nature of Software Engineering comes into play. Having a clear, universally understood vision for the product enables AI Engineers to plan and address novel challenges head-on, instead of scrambling on their heels in front of frustrated stakeholders. 
 
 ### Is there Demand?
-![selling ketchup pops]
+![selling ketchup popsicles to a woman in white gloves, CoPilot](/images/popsicle.jpeg)
+
 The most fundamental product question seems to have been forgotten by many during the AI gold rush of '23: do people actually want the thing you are building? What proof do you have? Examples abound of useless, unwanted AI products shoehorned into the lives of consumers. There are pointless novelty chatbots baked into every social media platform. Integrated text completions are getting increasingly aggressive about mangling our messages. Most new AI customer service assistants seem remarkably adept at rephrasing "as an AI assistant I am unable to help you" - and not much else. 
 
 Ironically, the nature of many AI products - especially natural language interfaces - makes them straightforward to validate. Whereas testing engagement with a new online billing platform or recommendations engine pretty much requires you to build the thing first, GenAI products are emulating humans can start by using a human. 
@@ -80,5 +83,5 @@ This can be a difficult thing for teams (and stakeholders) to wrap their heads a
 ## Is This A Good Thing?
 I tend to think so. The possibilites of GenAI (and a broader interest in all of Machine Learning in general) is more exciting than ever; there are real, tangiable ways this technology can and will improve human life. Meaningful advances come from signal, not noise, and a return to product fundimentals is the best way to dial in focus on products that actually matter. I look forward to fewer happy path demos and more real, viable products we can rely on every day. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDQ0NTA1NywtMTkyMzcwMDg5Nl19
+eyJoaXN0b3J5IjpbLTkxMzc4MjcwNSwtMTkyMzcwMDg5Nl19
 -->
