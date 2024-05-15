@@ -25,7 +25,7 @@ Maybe you are an Executive growing impatient with the lack of investment return 
 ### Where the Hell is UX and Product? 
 ![Ignoring the elephant in the room, Copilot](/images/ignoring_elephant_in_the_room.png)
 
-If I was allowed to facepalm my response to only one single pattern in the GenAI craze, this would be it. A stakeholder asks "what will the bot do if the user asks for a refund?" and every head in the room turns to the AI Engineer. Product doesn't know - they own a detailed journey map right up to the big black box titled "Bot Stuff." UX doesn't know - they can talk at length about font choices and button shading, but shrug when asked what tone the virtual assistant will take when interacting with the user. No matter how the AI Engineer answers that question, the room will most certainly melt down as conflicting, unaddressed expectations surface; one stakeholder imagines curt, robotic text responses, while another stakeholder expects a jovial, human-like experience. Is there any wonder why a product without product ownership seems lost, or why a user experience design without design seems disjointed? 
+If I was allowed to facepalm my response to only one single pattern in the GenAI craze, this would be it. A stakeholder asks "what will the bot do if the user asks for a refund?" and every head in the room turns to the AI Engineer. Product doesn't know. They own a beautifully detailed user journey map, right up to the big black box titled "Bot Stuff." UX also doesn't know - they can talk at length about font choices and button shading, but shrug when asked what tone the virtual assistant will take when interacting with the user. No matter how the AI Engineer answers that question, the room will most certainly melt down as conflicting, unaddressed expectations surface; one stakeholder imagines curt, robotic text responses, while another stakeholder expects a jovial, human-like experience. Is there any wonder why a product without product ownership seems lost, or why a user experience design without design seems disjointed? 
 
 Somewhere along the way we decided that AI/ML is the exclusive domain of Data Scientists and ML Engineers, that AI is a "smart people magic" black box that no normal person could ever understand. In fairness, few Data Scientists I know have done much to help the situation. If a Product Owner asks "can the LLM remember things?" they are given an overly technical primer on vector-based RAG, when what they needed was to understand the features at their disposal and the constraints they must work within. 
 
@@ -86,8 +86,8 @@ This can be a difficult thing for teams (and stakeholders) to wrap their heads a
 ## Is This A Good Thing?
 I tend to think so. The possibilites of GenAI (and a broader interest in all of Machine Learning in general) is more exciting than ever; there are real, tangiable ways this technology can and will improve human life. Meaningful advances come from signal, not noise, and a return to product fundimentals is the best way to dial in focus on products that actually matter. I look forward to fewer happy path demos and more real, viable products we can rely on every day. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjE3MTQ2NzIsMTU5NTQ3MjMzOSwtMz
-g3NjU5NjQyLDEyOTc3NDE3ODQsLTE4NjY1ODEwMzYsLTgyNDAx
-MTU3NiwxMDQ3OTU0MzE1LC05MTM3ODI3MDUsLTE5MjM3MDA4OT
-ZdfQ==
+eyJoaXN0b3J5IjpbMTgzODc0MjQzNywtMTY2MTcxNDY3MiwxNT
+k1NDcyMzM5LC0zODc2NTk2NDIsMTI5Nzc0MTc4NCwtMTg2NjU4
+MTAzNiwtODI0MDExNTc2LDEwNDc5NTQzMTUsLTkxMzc4MjcwNS
+wtMTkyMzcwMDg5Nl19
 -->
