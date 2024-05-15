@@ -32,7 +32,7 @@ The most fundamental product question seems to have been forgotten by many durin
 
 Ironically, the nature of many AI products - especially natural language interfaces - makes them straightforward to validate. Whereas testing engagement with a new online billing platform or recommendations engine pretty much requires you to build the thing first, GenAI products are emulating humans can start by using a human. 
 
-In an act of [doing things that do not scale](https://paulgraham.com/ds.html), first running a human-powered prototype is a brilliantly simple way to determine if the product in question will actually add value and gain traction. [Product and UX designs](#where-the-hell-is-ux-and-product?) translate seamlessly into human scripts and interaction guides. If you are a startup founder then this is as simple as . If you are part of a larger corporate initiative, augmented customer service providers are easy to find. Emulate the limitations and expectations of the platform you are about to build, and find out if _anyone actually wants this thing_ enough to justify the cost of building it. 
+In an act of [doing things that do not scale](https://paulgraham.com/ds.html), first running a human-powered prototype is a brilliantly simple way to determine if the product in question will actually add value and gain traction. [Product and UX designs](#where-the-hell-is-ux-and-product?) translate seamlessly into human scripts and interaction guides. If you are a startup founder then this is as simple as chugging a few espressos and firing up a chat window. A larger corporate initiative will need augmented customer service providers, which are easy to find. Emulate the limitations and expectations of the platform you are about to build, and find out if _anyone actually wants this thing_. 
 
 One of my favorite productivity tools added an AI-powered filter builder about a month ago. Instead of typing the filter code `(tomorrow | next+week)`, I can now type `show me events that are scheduled for tomorrow or next week`.  Then the assistant chugs for about 10 seconds, and replaces my natural language text with `(tomorrow | next+week)`.  It's a cute novelty, but the filter already had great filter hints - this is slower and requires more typing than the product they already offered. I've never used it since, and I would be amazed to learn that general adoption is any different. Take advantage of how unusually easy it is to validate GenAI demand before you build (or as soon as possible if you are already building) and you'll be that much closer to a viable product. 
 
@@ -74,11 +74,11 @@ This can be a difficult thing for teams (and stakeholders) to wrap their heads a
 
 Success in GenAI is about how many different ways the user can _not_ do the right thing and still achieve the desired result, how tolerant the system can be of deviation. Relentlessly curate and expand ground truth datasets, they are the foundation of a commerically viable GenAI product. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTM0NTU1MjYsMjIzNzgyOTg5LC0xOD
-M4OTUxNDY3LC00Mzk4MjI3NjYsNzczNTg4NTAxLC01MTM0NDM2
-MDMsLTI4Mzk2NzEwOSw5OTkwNTE5MTUsLTE3ODMwNjYxNzIsLT
-E5ODAxOTM2NjgsLTQyOTI0MTA4OSwtMTYwOTY3MTEzLC02OTg2
-MTM1MjAsLTUwOTM5MTc2OSwyMDg2MTM4NTk3LDMwOTk2NDc3OC
-wtMjA1NjM1OTgyOSwxNTQzODY2NjU1LDkwNDcxNDk5NywtMzM0
-MDMzMTcyXX0=
+eyJoaXN0b3J5IjpbMjA2NzkwODI4LDIyMzc4Mjk4OSwtMTgzOD
+k1MTQ2NywtNDM5ODIyNzY2LDc3MzU4ODUwMSwtNTEzNDQzNjAz
+LC0yODM5NjcxMDksOTk5MDUxOTE1LC0xNzgzMDY2MTcyLC0xOT
+gwMTkzNjY4LC00MjkyNDEwODksLTE2MDk2NzExMywtNjk4NjEz
+NTIwLC01MDkzOTE3NjksMjA4NjEzODU5NywzMDk5NjQ3NzgsLT
+IwNTYzNTk4MjksMTU0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzNDAz
+MzE3Ml19
 -->
