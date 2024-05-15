@@ -1,6 +1,6 @@
 ---
 title: "Restoring the 'Product' in AI Products"
-date: 2024-5-14
+date: 2024-05-14
 tags: ["ai","ml","ops"]
 draft: false
 ---
@@ -81,7 +81,7 @@ This can be a difficult thing for teams (and stakeholders) to wrap their heads a
 ## Is This A Good Thing?
 I tend to think so. The possibilites of GenAI (and a broader interest in all of Machine Learning in general) is more exciting than ever; there are real, tangiable ways this technology can and will improve human life. Meaningful advances come from signal, not noise, and a return to product fundimentals is the best way to dial in focus on products that actually matter. I look forward to fewer happy path demos and more real, viable products we can rely on every day. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzNTc1MDAwLC0xODY2NTgxMDM2LC04Mj
-QwMTE1NzYsMTA0Nzk1NDMxNSwtOTEzNzgyNzA1LC0xOTIzNzAw
-ODk2XX0=
+eyJoaXN0b3J5IjpbMTI5Nzc0MTc4NCwtMTg2NjU4MTAzNiwtOD
+I0MDExNTc2LDEwNDc5NTQzMTUsLTkxMzc4MjcwNSwtMTkyMzcw
+MDg5Nl19
 -->
