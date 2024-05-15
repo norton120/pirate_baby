@@ -34,7 +34,7 @@ Ironically, the nature of many AI products - especially natural language interfa
 
 In an act of [doing things that do not scale](https://paulgraham.com/ds.html), first running a human-powered prototype is a brilliantly simple way to determine if the product in question will actually add value and gain traction. [Product and UX designs](#where-the-hell-is-ux-and-product?) translate seamlessly into human scripts and interaction guides. If you are a startup founder then this is as simple as chugging a few espressos and firing up a chat window. A larger corporate initiative will need augmented customer service providers, which are easy to find. Emulate the limitations and expectations of the platform you are about to build, and find out if _anyone actually wants this thing_. 
 
-One of my favorite productivity tools added an AI-powered filter builder about a month ago. Instead of typing the filter code `(tomorrow | next+week)`, I can now type `show me events that are scheduled for tomorrow or next week`.  Then the assistant chugs for about 10 seconds, and replaces my natural language text with `(tomorrow | next+week)`.  It's a cute novelty, but the filter already had great filter hints - this is slower and requires more typing than the product they already offered. I've never used it since, and I would be amazed to learn that general adoption is any different. Take advantage of how unusually easy it is to validate GenAI demand before you build (or as soon as possible if you are already building) and you'll be that much closer to a viable product. 
+One of my favorite productivity tools added an AI-powered filter builder about a month ago. Instead of typing the filter code `(tomorrow | next+week)`, I can now type `show me events that are scheduled for tomorrow or next week`.  Then the assistant chugs for about 10 seconds, and replaces my natural language text with `(tomorrow | next+week)`.  It's a cute novelty, but the filter already had great typing hints - this new feature is slower and requires more typing than the product they already had. I have not used the AI feature since, and I would be amazed to learn that general adoption has been any different. Take advantage of how unusually easy it is to validate GenAI demand before you build (or as soon as possible if you are already building) and you'll be that much closer to a viable product. 
 
 ### Sunset Disclaimers
 Here is a banner you won't see:
@@ -64,7 +64,7 @@ Playtime is over. Design, plan, and execute experiments to build a commerically 
 
 
 ### Ground Truth is a Magic Lamp
-If you are granted three wishes by a genie, leave no room for interpretation. Ambiguity is how you end up turned into a tortoise ("I want to live for centuries!") or the Mona Lisa ("I want to be famous!"). If you are constructing ground truth datasets for GenAI development, leave even less ambiguity. 
+If you are granted three wishes by a genie, leave no room for interpretation. Ambiguity is how you end up turned into a tortoise ("I want to live for centuries!") or the Mona Lisa ("I want to be famous!"). As you are constructing the ground truth datasets for GenAI development, leave even less ambiguity. 
 
 Language models will astound you with how creatively they can screw up and still follow the rules. They may perfectly extract every book title from 1000 reviews, until you provide a new ground truth written entirely in lowercase. They may halucinate if you change "the user" to "a user." They may decide any unknown sirname should be replaced with "Stalone." 
 
@@ -74,11 +74,11 @@ This can be a difficult thing for teams (and stakeholders) to wrap their heads a
 
 Success in GenAI is about how many different ways the user can _not_ do the right thing and still achieve the desired result, how tolerant the system can be of deviation. Relentlessly curate and expand ground truth datasets, they are the foundation of a commerically viable GenAI product. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NzkwODI4LDIyMzc4Mjk4OSwtMTgzOD
-k1MTQ2NywtNDM5ODIyNzY2LDc3MzU4ODUwMSwtNTEzNDQzNjAz
-LC0yODM5NjcxMDksOTk5MDUxOTE1LC0xNzgzMDY2MTcyLC0xOT
-gwMTkzNjY4LC00MjkyNDEwODksLTE2MDk2NzExMywtNjk4NjEz
-NTIwLC01MDkzOTE3NjksMjA4NjEzODU5NywzMDk5NjQ3NzgsLT
-IwNTYzNTk4MjksMTU0Mzg2NjY1NSw5MDQ3MTQ5OTcsLTMzNDAz
-MzE3Ml19
+eyJoaXN0b3J5IjpbLTM1MzQyMTYzNiwyMjM3ODI5ODksLTE4Mz
+g5NTE0NjcsLTQzOTgyMjc2Niw3NzM1ODg1MDEsLTUxMzQ0MzYw
+MywtMjgzOTY3MTA5LDk5OTA1MTkxNSwtMTc4MzA2NjE3MiwtMT
+k4MDE5MzY2OCwtNDI5MjQxMDg5LC0xNjA5NjcxMTMsLTY5ODYx
+MzUyMCwtNTA5MzkxNzY5LDIwODYxMzg1OTcsMzA5OTY0Nzc4LC
+0yMDU2MzU5ODI5LDE1NDM4NjY2NTUsOTA0NzE0OTk3LC0zMzQw
+MzMxNzJdfQ==
 -->
