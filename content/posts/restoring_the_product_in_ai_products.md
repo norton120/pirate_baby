@@ -68,7 +68,7 @@ Individual experimentation failures eventually lead to product success; each sys
 Playtime is over. Design, plan, and execute experiments to build a commerically viable product.
 
 ### Ground Truth is a Magic Lamp
-
+![data genie, Copilot](/images/data_genie.png)
 If you are granted three wishes by a genie, leave no room for interpretation. Ambiguity is how you end up turned into a tortoise ("I want to live for centuries!") or the Mona Lisa ("I want to be famous!"). As you are constructing the ground truth datasets for a GenAI product, leave even less ambiguity in your design. 
 
 Language models will astound you with how creatively they can screw up while still following the rules. They may perfectly extract every book title from 1000 reviews, and then fail the first time they see a sentance with no uppercase letters. They may halucinate if you change "the user" to "a user." They may decide all unknown sirnames should be "Stalone." 
@@ -80,6 +80,6 @@ This can be a difficult thing for teams (and stakeholders) to wrap their heads a
 ## Is This A Good Thing?
 I tend to think so. The possibilites of GenAI (and a broader interest in all of Machine Learning in general) is more exciting than ever; there are real, tangiable ways this technology can and will improve human life. Meaningful advances come from signal, not noise, and a return to product fundimentals is the best way to dial in focus on products that actually matter. I look forward to fewer happy path demos and more real, viable products we can rely on every day. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMjQ0MDY5OCwxMDQ3OTU0MzE1LC05MT
+eyJoaXN0b3J5IjpbMTAzMzQ3NDEwMiwxMDQ3OTU0MzE1LC05MT
 M3ODI3MDUsLTE5MjM3MDA4OTZdfQ==
 -->
