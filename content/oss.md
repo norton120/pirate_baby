@@ -16,8 +16,10 @@ Open Source Software is at the core of modern software development, and keeping 
 ### Projects we maintain and/or contribute to:
 
 {{< github-api url="https://api.github.com/repos/langstory/langstory" >}}
+{{< github-api url="https://api.github.com/repos/yoaquim/zemi">}}
 {{< github-api url="https://api.github.com/repos/cpacker/Memgpt" >}}
 {{< github-api url="https://api.github.com/repos/norton120/kimball_dbt" >}}
+{{< github-api url="https://api.github.com/repos/arghmeleg/import_schema" >}}
 {{< github-api url="https://api.github.com/repos/health-union/dbt-xdb" >}}
 {{< github-api url="https://api.github.com/repos/health-union/snowshu" >}}
 {{< github-api url="https://api.github.com/repos/IntegriChain1/s3parq" >}}
@@ -25,8 +27,10 @@ Open Source Software is at the core of modern software development, and keeping 
 {{< github-api url="https://api.github.com/repos/langfuse/langfuse-python" >}}
 {{< github-api url="https://api.github.com/repos/palmetto/palm-cli" >}}
 {{< github-api url="https://api.github.com/repos/norton120/palm-git" >}}
+{{< github-api url="https://api.github.com/repos/arghmeleg/csserpent" >}}
 {{< github-api url="https://api.github.com/repos/norton120/dbt-azuredatawarehouse" >}}
 {{< github-api url="https://api.github.com/repos/norton120/knowledge_worker_valuator" >}}
+{{< github-api url="https://api.github.com/repos/arghmeleg/pdf_pal" >}}
 {{< github-api url="https://api.github.com/repos/norton120/detect_autoplay" >}}
 
 <style>
