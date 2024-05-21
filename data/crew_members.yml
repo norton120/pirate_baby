@@ -1,0 +1,40 @@
+crew:
+  - name: 'Ethan Knox'
+    image: /images/epirate.png
+    title: Founder, Pirate Baby
+    skills:
+      - Data Engineering
+      - AI/ML Ops
+      - DevOps
+      - Containerization
+      - Cloud Infra
+    linkedin: ethan-knox
+    github: norton120
+    resume: ethan_knox.pdf
+    website_url: https://pirate.baby
+  - name: 'Yoaquim Cintron'
+    image: /images/yoaquim.png
+    title: Founder, BetaBit
+    skills:
+      - DevOps
+      - Front End Development
+      - Server Side Development
+      - Team Management
+      - Cloud Infra
+  - name: Chris Woodson
+    title: VP of Data Engineering
+    skills:
+      - Data Engineering
+      - Data Science
+      - AI/ML Ops
+      - DevOps
+      - Containerization
+      - Cloud Infra
+  - name: Steve DeGele
+    title: Staff Engineer, Health Union
+    skills:
+      - DevOps
+      - Front End Development
+      - Server Side Development
+      - Team Management
+      - Cloud Infra

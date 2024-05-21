@@ -1,0 +1,35 @@
+<ul class="github-api">
+  {{ $url := .Get "url" }}
+  {{ $p := getJSON $url }}
+
+    <li>
+      <div class="github-avatar">
+        <img src="{{$p.owner.avatar_url}}" alt="Avatar of {{$p.owner.login}}" title="Avatar of {{$p.owner.login}}">
+      </div>
+      <div class="github-name">
+        <strong>
+          <a href="{{ $p.html_url }}" target="_blank">{{ $p.name | humanize }}</a>
+        </strong>
+      </div>
+        {{/*  {{ $p.full_name }}  */}}
+      <div class="github-description">
+        <p>{{ $p.description }}</p>
+      </div>
+      <div class="github-metadata">
+        <small>
+          {{ partial "ico" "star" }} {{$p.stargazers_count}} {{ partial "ico" "git-fork" }}: {{$p.forks_count}}
+          {{ if eq $p.language "Python" }}
+            {{ partial "ico" "brand-python"}} Python
+          {{ else if eq $p.language "Javascript" }}
+            {{ partial "ico" "brand-javascript"}} Javascript
+          {{ else if eq $p.language "Typescript" }}
+            {{ partial "ico" "brand-typescript"}} Typescript
+          {{ else }}
+            {{$p.language}}
+          {{ end}}
+        </small>
+      </div>
+    </li>
+    {{/*  {{ $p }}  */}}
+ </ul>
+

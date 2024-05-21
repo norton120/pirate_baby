@@ -20,10 +20,10 @@ disqusShortname = 'https-pirate-baby'
   comments = true
   env = 'production'
   hideSummary = true
-  description = 'Thoughts from Ethan Knox'
+  description = 'Data Engineering and Machine Learning Consulting'
   defaultTheme = 'auto'
   ShowReadingTime = true
-  displayFullLangName = true
+  displayFullLangName = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
@@ -31,8 +31,8 @@ disqusShortname = 'https-pirate-baby'
   ShowAllPagesInArchive = true
   ShowPageNums = true
   ShowToc = false
-  github = 'norton120'
-  linkedin = 'ethan-knox'
+  ShareButtons = ["linkedin","x","facebook","ycombinator","reddit"]
+  ShowShareButtons = true
 
 [params.homeInfoParams]
   Title = '_Ship Mercilessly_ :pirate_flag:'
@@ -45,11 +45,11 @@ disqusShortname = 'https-pirate-baby'
 
 [[params.SocialIcons]]
   name = 'linkedin'
-  url = 'https://www.linkedin.com/in/ethan-knox'
+  url = 'https://www.linkedin.com/company/pirate-baby'
 
 [[params.SocialIcons]]
   name = 'github'
-  url = 'https://github.com/norton120'
+  url = 'https://github.com/pirate-baby'
 
 [[params.SocialIcons]]
   name = 'medium'
