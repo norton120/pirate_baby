@@ -1,7 +1,7 @@
 crew:
   - name: 'Ethan Knox'
     image: /images/epirate.png
-    title: Founder, Pirate Baby
+    title: Founder, the Pirate Baby
     skills:
       - Data Engineering
       - AI/ML Ops
@@ -13,8 +13,12 @@ crew:
     resume: ethan_knox.pdf
     website_url: https://pirate.baby
   - name: 'Yoaquim Cintron'
-    image: /images/yoaquim.png
+    image: /images/yoaquim_cintron.png
     title: Founder, BetaBit
+    linkedin: yoaquim
+    github: yoaquim
+    website_url: https://betabit.consulting
+    resume: yoaquim_cintron.pdf
     skills:
       - DevOps
       - Front End Development
@@ -22,19 +26,38 @@ crew:
       - Team Management
       - Cloud Infra
   - name: Chris Woodson
-    title: VP of Data Engineering
+    title: VP of AI Engineering
+    image: /images/chris_woodson.png
+    linkedin: chriswoodson
+    github: jedibrillo
+    website: https://www.linkedin.com/in/chriswoodson/
     skills:
-      - Data Engineering
+      - AI & Machine Learning Engineering
       - Data Science
       - AI/ML Ops
-      - DevOps
-      - Containerization
-      - Cloud Infra
+      - Data Engineering
   - name: Steve DeGele
-    title: Staff Engineer, Health Union
+    title: |
+      Staff Software Architect,
+      Health Union
+    image: /images/steve_degele.png
+    website_url: https://codercycle.org
+    github: codercycle
+    linkedin: steve-degele
     skills:
       - DevOps
-      - Front End Development
-      - Server Side Development
-      - Team Management
-      - Cloud Infra
+      - Enterprise Architecture
+      - Web Dev
+      - Elixir
+      - Rust
+  - name: Dylan Renzulli
+    title: |
+      Staff Manager Analytics,
+      Health Union
+    image: /images/dylan_renzulli.png
+    website_url: https://www.linkedin.com/in/dylanrenzulli/
+    linkedin: dylanrenzulli
+    skills:
+      - Business Intelligence
+      - Data Modeling
+      - Analytics Engineering
