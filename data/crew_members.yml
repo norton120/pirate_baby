@@ -61,3 +61,33 @@ crew:
       - Business Intelligence
       - Data Modeling
       - Analytics Engineering
+  - name: Chloe Picolla
+    title: |
+      Senior Product Owner,
+      American Eagle
+    image: /images/chloe_picolla.png
+    linkedin: chloepiccola
+    skills:
+      - Product Management
+      - Agile
+      - Product Development
+      - User Experience
+  - name: Emlilia Kuziemska
+    title: Senior Product Manager
+    image: /images/emilia_kuziemska.png
+    linkedin: emiliakuziemska
+    skills:
+      - Product Management
+      - Agile
+      - Product Development
+      - User Experience
+  - name: Jake Beresford
+    title: Data & MLOps Engineer
+    image: /images/jake_beresford.png
+    linkedin: jakeberesford
+    github: jakeberesford
+    skills:
+      - LLM Training
+      - Data Pipelines
+      - OSS Development
+      - Software Engineering

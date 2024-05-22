@@ -23,10 +23,18 @@ Our crew consists of experts from all corners of the software spectrum, from web
                 {{ end }}
             </div>
             <div class="crewMemberLinks">
+                {{- if $crew_member.linkedin -}}
                 <a title="linkedin" href="https://www.linkedin.com/in/{{ $crew_member.linkedin }}/" target="_blank">{{ partial "ico" "brand-linkedin" }}</a>
+                {{- end -}}
+                {{- if $crew_member.github -}}
                 <a title="github" href="https://www.github.com/{{ $crew_member.github }}/" target="_blank">{{ partial "ico" "brand-github" }}</a>
+                {{- end -}}
+                {{- if $crew_member.website_url -}}
                 <a title="website" href="{{ $crew_member.website_url }}/" target="_blank">{{ partial "ico" "world-www" }}</a>
+                {{- end -}}
+                {{- if $crew_member.resume -}}
                 <a title="resume" href="/resumes/{{ $crew_member.resume }}/" target="_blank">{{ partial "ico" "script" }}</a>
+                {{- end -}}
             </div>
         </div>
 {{ end }}
