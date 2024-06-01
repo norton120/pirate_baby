@@ -27,4 +27,6 @@ _This_ is the biggest challenge in the current AI landscape. Not context windows
 
 We need to see a directional shift toward product sanity in the GenAI space. The growing trash mound of readily hateable GenAI products will poison the well of possibility, distracting from really exciting and powerful use cases once the stink of unwanted AI has set in. Unwanted products are worse than just cash bonfires; they sully the technology and create roadblocks for real advancements in the future. Please, sanity check what you build.
 
-{{< video autoplay="true" loop="true" src="/images/suck_cut.mp4" >}}
+<video autoplay="true" loop="true" muted="true" >
+    <source src="/images/suck_cut.mp4" type="video/mp4" />
+</video>
