@@ -13,11 +13,11 @@ summary: why a f*@king sailboat?!?
 > _"Insanity is doing the same thing over and over again, but expecting different results." - Rita Mae Brown_
 
 Once you are bitten by the startup bug, there is no such thing as failure. Every setback and letdown is just prelude to your eventual success, color for the origin story of the unicorn you have yet to found. 
-Static was my eighth startup, and my 
+Static was my eighth startup in 15 years, and my third time founding 
 
 
  A dangerous sort of sunk cost fallacy, in that failure actually presents as success 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkyNjE5MzcxLDE4NjA2NzI2MDddfQ==
+eyJoaXN0b3J5IjpbOTIxMzUyNjM2LDE4NjA2NzI2MDddfQ==
 -->
