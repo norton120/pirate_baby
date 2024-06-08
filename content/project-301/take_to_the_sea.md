@@ -12,7 +12,7 @@ summary: why a f*@king sailboat?!?
 
 > _"Insanity is doing the same thing over and over again, but expecting different results." - Rita Mae Brown_
 
-Once you get bitten by the startup bug, there is no such thing as failure. Every setback, every letdown is just prelude; because all 
+Once you get bitten by the startup bug, there is no such thing as failure. Every setback, every letdown is just prelude, and serve to reignite
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NzIyODY2LDE4NjA2NzI2MDddfQ==
+eyJoaXN0b3J5IjpbMjI0NjU2MzY4LDE4NjA2NzI2MDddfQ==
 -->
