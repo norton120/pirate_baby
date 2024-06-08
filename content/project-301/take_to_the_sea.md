@@ -12,8 +12,8 @@ summary: why a f*@king sailboat?!?
 
 > _"Insanity is doing the same thing over and over again, but expecting different results." - Rita Mae Brown_
 
-Once you get bitten by the startup bug, there is no such thing as failure. Every setback and letdown is just prelude to your eventual success, color for the origin story of the unicorn you have yet to found. It is a dangerous sort of sunk cost fallacy 
+Once you get bitten by the startup bug, there is no such thing as failure. Every setback and letdown is just prelude to your eventual success, color for the origin story of the unicorn you have yet to found. It is a dangerous sort of sunk cost fallacy in that each failure looks 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMDAwODM2NiwxODYwNjcyNjA3XX0=
+eyJoaXN0b3J5IjpbLTkyNjMxNjYwOSwxODYwNjcyNjA3XX0=
 -->
