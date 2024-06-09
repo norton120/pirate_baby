@@ -1,6 +1,7 @@
 ---
 title: Take to the Sea
 date: 2024-05-07
+draft: true
 summary: why a f*@king sailboat?!?
 ---
 
@@ -48,7 +49,7 @@ There is term in the financial sector, HENRY, which is an acronym for "High Earn
 ## Forming a Plan
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTgxODQzNTEsMTU3NTA0ODAwOCw4Nz
-E0MDA1MiwxMjQ3NDU1MDU3LDIwMDc2MjkxODMsLTEzNjE2MTIz
-MDQsMTg2MDY3MjYwN119
+eyJoaXN0b3J5IjpbNzUxNzkyMTU2LC0xOTE4MTg0MzUxLDE1Nz
+UwNDgwMDgsODcxNDAwNTIsMTI0NzQ1NTA1NywyMDA3NjI5MTgz
+LC0xMzYxNjEyMzA0LDE4NjA2NzI2MDddfQ==
 -->
