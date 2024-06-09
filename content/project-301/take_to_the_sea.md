@@ -27,10 +27,25 @@ Over the next four months I abandoned any pretense of a functional life. The Gen
 
 By late march it was clear something was wrong. Startups can work or not work for many reasons, and this wasn't working. One morning in early April the team agreed to have a frank conversation with the founders; the upside of this venture was rapidly dwindling, and critical components were fraying apart. Turned out, we never got the chance; later that same day I got the call that things were going in a different direction, and the AI crew was no longer part of the equation. 
 
-## An Honest Assessment
-I was too exhausted to be anything but relieved. After years of sweating bullets under the lights of the high-stakes table, the universe had sent a pit boss to make me cash out. I slept for two days, and when I finally came to I realized my home was unrecognizable to me; dirty, disorganized, and devoid of anything life-like. The places where  
+## An Examined Life
+I was too exhausted to be anything but relieved. After years of sweating bullets under the lights of the high-stakes table, the universe had sent a pit boss to make me cash out my chips. I slept for two days, and when I finally came to I realized my home was unrecognizable to me; dirty, disorganized, and devoid of meaningful life signs. I looked at my phone and the first few "hey are you looking for your next gig?" pings had already cropped up on LinkedIn; I responded by deleting the app. I took Bash for a very long walk. I let my eyes focus on objects further away than a computer screen. And for the first time in a very long time, I thought about where I was instead of where I was headed.
+
+>_"...you get to an age where what you might be gives way to what you have been. You weren't Einstein. You weren't anything. That's a bad moment." - Chuck Barris_
+
+I looked back at my notes over the years, and I had asked myself the same question many times: what _would_ I do with my life once I had gained financial independence? Why did I need that life-changing exit? Over more than a decade my answers were surprisingly consistent:
+
+1. sleep enough, run and meditate every day
+2. have meaningful time for family, friends, and a hobby (usually motorcycles, as I was an avid rider before my time was consumed by startup life)
+3. cook most meals myself (my undergrad was in restaurants)
+4. work on a software project I care about (the specific software changed over the years, but "work on X" was always on the list)
+5. build a successful company where everyone could have these same things
+6. live somewhere warm during the northeastern winters 
+
+None of the lists ever included private jets or beach houses. Most items were easily attainable by the average barista, but had eluded me for over a decade. Why? 
+
+There is term in the financial sector, HENRY, which is an acronym for "High Earner, Not Rich Yet." The HENRY lifestyle is particularly common in Software Engineering and the Startup world, where income fluctuates violently and volatility is the norm. The paychecks may be huge, but they also disappear at the drop of a hat making wealth accumulation (ie "getting rich") extremely difficult. HENRYs find themselves trapped inside a golden cage: working insane hours for that high-paying job, so they can pay down the student loans they needed to get high-paying jobs and cover their massive takeout bills (because they are working too late at that high-paying job to cook anything). Supporting a crushing mortgage for a house that a younger version of themselves thought would compensate for the life they weren't living, thanks to all those hours at the high-paying job. Making car payments that pair nicely with the crushing mortgage payments. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgyMDY3NzA5LDg3MTQwMDUyLDEyNDc0NT
-UwNTcsMjAwNzYyOTE4MywtMTM2MTYxMjMwNCwxODYwNjcyNjA3
-XX0=
+eyJoaXN0b3J5IjpbLTEyMjc2MTIwNjEsODcxNDAwNTIsMTI0Nz
+Q1NTA1NywyMDA3NjI5MTgzLC0xMzYxNjEyMzA0LDE4NjA2NzI2
+MDddfQ==
 -->
