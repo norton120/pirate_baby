@@ -25,7 +25,7 @@ He was right. I looked horrible, and I felt worse. My girlfriend was moving out.
 
 Over the next four months I abandoned any pretense of a functional life. The GenAI space evolved at a blistering rate and we scrambled to evolve in step. Sleep was replaced by short bouts of unconsciousness. Food was something I clumsily re-ordered on Uber eats while a test was running and then wolfed down over a keyboard. My usually pristine condo (I am a Patrick Bateman-level neat freak) began to resemble a flat from _Trainspotting_. But we were making great progress and that was all that mattered - the path to the big payoff. 
 
-By late march it was clear something was wrong. Startups can work or not work for many reasons, and this wasn't working. One morning in early April the team agreed to have a frank conversation with the founders; the upside of this venture was rapidly dwindling, and critical components were fraying apart. Turned out, we never got the chance; later that same day I got the call that things were going in a different direction, and the AI crew was no longer part of the equation. 
+By late march it was clear something was wrong. Startups can work or not work for many reasons, and this wasn't working. One morning in early April the team agreed to have a frank conversation with the founders; the upside of this venture was rapidly dwindling, and critical components were fraying apart. Turned out, we never got the chance; later that same day I got the call informing me that things were going in a different direction, and the AI group was no longer part of the equation. 
 
 ## An Examined Life
 I was too exhausted to be anything but relieved. After years of sweating bullets under the lights of the high-stakes table, the universe had sent a pit boss to make me cash out my chips. I slept for two days, and when I finally came to I realized my home was unrecognizable to me; dirty, disorganized, and devoid of meaningful life signs. I looked at my phone and the first few "hey are you looking for your next gig?" pings had already cropped up on LinkedIn; I responded by deleting the app. I took Bash for a very long walk. I let my eyes focus on objects further away than a computer screen. And for the first time in a very long time, I thought about where I was instead of where I was headed.
@@ -48,7 +48,7 @@ There is term in the financial sector, HENRY, which is an acronym for "High Earn
 ## Forming a Plan
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NTA0ODAwOCw4NzE0MDA1MiwxMjQ3ND
-U1MDU3LDIwMDc2MjkxODMsLTEzNjE2MTIzMDQsMTg2MDY3MjYw
-N119
+eyJoaXN0b3J5IjpbLTE5MTgxODQzNTEsMTU3NTA0ODAwOCw4Nz
+E0MDA1MiwxMjQ3NDU1MDU3LDIwMDc2MjkxODMsLTEzNjE2MTIz
+MDQsMTg2MDY3MjYwN119
 -->
