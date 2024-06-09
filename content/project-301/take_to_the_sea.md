@@ -43,9 +43,12 @@ I looked back at my notes over the years, and I had asked myself the same questi
 
 None of the lists ever included private jets or beach houses. Most items were easily attainable by the average barista, but had eluded me for over a decade. Why? 
 
-There is term in the financial sector, HENRY, which is an acronym for "High Earner, Not Rich Yet." The HENRY lifestyle is particularly common in Software Engineering and the Startup world, where income fluctuates violently and volatility is the norm. The paychecks may be huge, but they also disappear at the drop of a hat making wealth accumulation (ie "getting rich") extremely difficult. HENRYs find themselves trapped inside a golden cage: working insane hours for that high-paying job, so they can pay down the student loans they needed to get high-paying jobs and cover their massive takeout bills (because they are working too late at that high-paying job to cook anything). Supporting a crushing mortgage for a house that a younger version of themselves thought would compensate for the life they weren't living, thanks to all those hours at the high-paying job. Making car payments that pair nicely with the crushing mortgage payments. 
+There is term in the financial sector, HENRY, which is an acronym for "High Earner, Not Rich Yet." The HENRY lifestyle is particularly common in Software Engineering and the Startup world, where income fluctuates violently and volatility is the norm. The paychecks may be huge, but they also disappear at the drop of a hat making wealth accumulation (ie "getting rich") extremely difficult for HENRYs. HENRYs find themselves trapped inside a golden cage: working insane hours for that high-paying job, so they can pay down the student loans from the degree they needed to get high-paying jobs, as well as cover their massive takeout bills (because they are working too late at that high-paying job to cook anything, ever). Supporting a crushing mortgage for a house that a younger version of themselves thought would compensate for the life they weren't living, thanks again to all those hours at the high-paying job. Making car payments that pair nicely with the crushing mortgage payments. Of course your milage may vary, and there are a number of factors that greatly influence how true this is for a given HENRY - most significantly, the contributions of a significant other (financially or otherwise). In my case significant others have typically contributed more bills. 
+
+## Forming a Plan
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjc2MTIwNjEsODcxNDAwNTIsMTI0Nz
-Q1NTA1NywyMDA3NjI5MTgzLC0xMzYxNjEyMzA0LDE4NjA2NzI2
-MDddfQ==
+eyJoaXN0b3J5IjpbMTU3NTA0ODAwOCw4NzE0MDA1MiwxMjQ3ND
+U1MDU3LDIwMDc2MjkxODMsLTEzNjE2MTIzMDQsMTg2MDY3MjYw
+N119
 -->
