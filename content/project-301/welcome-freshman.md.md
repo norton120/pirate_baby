@@ -16,7 +16,7 @@ Early summer is the busy season for the boating industry here, and coordinating 
 
 Moving aboard the boat is still a week away, but the ripples of this shift have already begun. Sitting on the porch of my motel room Tuesday afternoon, I spent several hours planning work for a brand new contract - a contract I am very excited to be working on and that I realistically couldn't have afforded to take in the past. I had a long call with the crew of an open source project I've jumped into, a great crew of really talented and smart people. I took a nap. 
 
-However, the great big ripple this week has been all the socialization. When I started down this road I heard from countless sources that boat people are a warm and welcoming community, but I had no idea how that would manifest. So
+However, the great big ripple this week has been all the socialization. When I started down this road I heard from countless sources that boat people are a warm and welcoming community, but I had no idea how that would manifest in practice. So here is that actually decodes to: strangers in line at the coffee shop, or 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTY4NTEyODMsOTI2MTY1OTQ2XX0=
+eyJoaXN0b3J5IjpbMjA5NzcyNjU5MCw5MjYxNjU5NDZdfQ==
 -->
