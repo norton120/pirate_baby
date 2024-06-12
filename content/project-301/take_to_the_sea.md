@@ -16,11 +16,12 @@ summary: why a sailboat
 When most people think about tech startups, they imagine a privileged lot of grossly overpaid, foosball-playing elites with a fleeting grasp of normal life. While there has been some truth to this (especially during the zero-rate madness of 2020 when junior engineers were hired for the sole purpose of keeping them from the competition), perception in this case is greatly distorted from reality. 
 
 Modern tech startups are home to an economic phenomenon known as the HENRY, which is an acronym for “High Earner, Not Rich Yet.” HENRYs are the legacy of the original dot com startups. The formula, “get in early for equity, go hard, exit huge” made overnight millionaires out of smart people that were willing to take a risk; forgo job security and health insurance, work 100 hour weeks for 2-3 years, and then cash in your stock as a newly minted member of the 1%. 
-The startup world of today is a cargo cult
+The startup world of today is a cargo cult version of that one. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MjE2MzAxNywxMzE1NzM4MjMyLDc1MT
-c5MjE1NiwtMTkxODE4NDM1MSw4NzE0MDA1MiwxMjQ3NDU1MDU3
-LDIwMDc2MjkxODMsLTEzNjE2MTIzMDQsMTg2MDY3MjYwN119
+eyJoaXN0b3J5IjpbLTEyMTU5NTI1OTksMTMxNTczODIzMiw3NT
+E3OTIxNTYsLTE5MTgxODQzNTEsODcxNDAwNTIsMTI0NzQ1NTA1
+NywyMDA3NjI5MTgzLC0xMzYxNjEyMzA0LDE4NjA2NzI2MDddfQ
+==
 -->
