@@ -17,11 +17,11 @@ When most people think about tech startups, they imagine a privileged lot of gro
 
 Modern tech startups are home to an economic phenomenon known as the HENRY, which is an acronym for “High Earner, Not Rich Yet.” HENRYs are the legacy of the original dot com startups. The formula, “get in early for equity, go hard, exit huge” made overnight millionaires out of smart people that were willing to take a risk; forgo job security and health insurance, work 100 hour weeks for 2-3 years, and then cash in your stock as a newly minted member of the 1%. 
 
-The startup world of today is a cargo cult of the dot com startup. Capital arrangements have evolved into a convoluded shell game where equity upsides are belong to investors 
+The startup world of today is a cargo cult version of the dot com startup. Capital arrangements have evolved into a convoluded shell game, where the upsides of equity belong to investors and the risks belong to the 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1OTk4ODc3NCw4NTAzMTY4NTUsLTEyMT
-U5NTI1OTksMTMxNTczODIzMiw3NTE3OTIxNTYsLTE5MTgxODQz
-NTEsODcxNDAwNTIsMTI0NzQ1NTA1NywyMDA3NjI5MTgzLC0xMz
-YxNjEyMzA0LDE4NjA2NzI2MDddfQ==
+eyJoaXN0b3J5IjpbNTY4OTYwODQzLDg1MDMxNjg1NSwtMTIxNT
+k1MjU5OSwxMzE1NzM4MjMyLDc1MTc5MjE1NiwtMTkxODE4NDM1
+MSw4NzE0MDA1MiwxMjQ3NDU1MDU3LDIwMDc2MjkxODMsLTEzNj
+E2MTIzMDQsMTg2MDY3MjYwN119
 -->
