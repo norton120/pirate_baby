@@ -14,7 +14,7 @@ My dog Bash and I left Philly at 3AM Monday in the '86 Mercedes I bought off a f
 
 Early summer is the busy season for the boating industry here, and coordinating schedules between my surveyor, the seller, and the boatyard immediately became an issue. The potential close date moved from Tuesday (the next day), to Friday, then all the way to the following Monday. And so Bash and I settled into our less-temporary-than-planned home at the Dockside Inn. 
 
-Moving aboard the boat is still a week away, but the ripples of this shift have already begun. Sitting on the porch of my motel room Tuesday afternoon I started planning work for a new contract - a contract I am very excited to be working on, and that I realistically couldn't have afforded to take before. 
+Moving aboard the boat is still a week away, but the ripples of this shift have already begun. Sitting on the porch of my motel room Tuesday afternoon I started planning work for a new contract - a contract I am very excited to be working on, and that I realistically couldn't have afforded to take before. I zoomed with the crew of another early startup that I am working with 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NTA5MTEwLDkyNjE2NTk0Nl19
+eyJoaXN0b3J5IjpbLTEyODE1ODMxMjAsOTI2MTY1OTQ2XX0=
 -->
