@@ -1,7 +1,7 @@
 ---
 title: "Prompt Engineering"
-date: 2024-01-05
-tags: ['ai','ml','de']
+date: 2024-01-05ags: ['ai','ml','de']
+datt: ailde
 draft: false
 ---
 The world never ceases to be filled with new things, and that is exciting. New things are great, but as they come with a learning curve - not the least of which is the language surrounding them. Like when the first coffee shop opened in the little town where I went to college in the late 90s, and we learned to order “express-o” (which was named that, logically, because it was like coffee but _faster_).
@@ -91,7 +91,7 @@ There are likely people all over the globe that have never considered an interes
 I guess it is all relative; to some developers, SQL is database incantation, or JavaScript is a world of broken promises (pun intended). I personally believe that wood framing, electrical work, and plumbing are logical skills that can be learned, shared, and practiced, whereas any task involving drywall or spackle requires a pact with the devil to produce a half-way decent looking outcome.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NzU3MTY3MSwtMTIwNzM2MDcwMywtNz
-I5NjIyMTUyLDYxNDEwNzUwNSw1OTMyODE1NTgsMTA5OTk2NDYw
-Nl19
+eyJoaXN0b3J5IjpbLTIwNTYyNTQ4MzUsLTQ4NzU3MTY3MSwtMT
+IwNzM2MDcwMywtNzI5NjIyMTUyLDYxNDEwNzUwNSw1OTMyODE1
+NTgsMTA5OTk2NDYwNl19
 -->
