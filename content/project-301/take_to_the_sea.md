@@ -15,9 +15,10 @@ summary: why a sailboat
 
 When most people think about tech startups, they imagine a privileged lot of grossly overpaid, foosball-playing elites with a fleeting grasp of normal life. While there has been some truth to this (especially during the zero-rate madness of 2020 when junior engineers were hired for the sole purpose of keeping them from the competition), perception in this case is greatly distorted from reality. 
 
-Modern tech startups are home to an economic phenomenon known as the HENRY, which is an acronym for “High Earner, Not Rich Yet.” HENRYs are 
+Modern tech startups are home to an economic phenomenon known as the HENRY, which is an acronym for “High Earner, Not Rich Yet.” HENRYs are the legacy product of the original dot com  from twenty years ago, when the tech startup model
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg3NTk5Njk3LDEzMTU3MzgyMzIsNzUxNz
-kyMTU2LC0xOTE4MTg0MzUxLDg3MTQwMDUyLDEyNDc0NTUwNTcs
-MjAwNzYyOTE4MywtMTM2MTYxMjMwNCwxODYwNjcyNjA3XX0=
+eyJoaXN0b3J5IjpbLTEwMjc0OTc5NTIsMTMxNTczODIzMiw3NT
+E3OTIxNTYsLTE5MTgxODQzNTEsODcxNDAwNTIsMTI0NzQ1NTA1
+NywyMDA3NjI5MTgzLC0xMzYxNjEyMzA0LDE4NjA2NzI2MDddfQ
+==
 -->
