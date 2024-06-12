@@ -13,10 +13,9 @@ summary: why a sailboat
 
 > _"Insanity is doing the same thing over and over again, but expecting different results." - Rita Mae Brown_
 
-When most people think about tech startups, they imagine a privileged lot of grossly overpaid, foosball-playing elites with a fleeting grasp of real life. While there is some truth to this ( during the zero-rate madness of 2020 when junior engineers were hired for the sole purpose of keeping them from the competition 
+When most people think about tech startups, they imagine a privileged lot of grossly overpaid, foosball-playing elites with a fleeting grasp of normal life. While there has some truth to this (especially during the zero-rate madness of 2020 when junior engineers were hired for the sole purpose of keeping them from the competition), perception in this case is a bit distorted from reality. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjU5NzI1MzAsMTMxNTczODIzMiw3NT
-E3OTIxNTYsLTE5MTgxODQzNTEsODcxNDAwNTIsMTI0NzQ1NTA1
-NywyMDA3NjI5MTgzLC0xMzYxNjEyMzA0LDE4NjA2NzI2MDddfQ
-==
+eyJoaXN0b3J5IjpbNDAxNzk5ODcxLDEzMTU3MzgyMzIsNzUxNz
+kyMTU2LC0xOTE4MTg0MzUxLDg3MTQwMDUyLDEyNDc0NTUwNTcs
+MjAwNzYyOTE4MywtMTM2MTYxMjMwNCwxODYwNjcyNjA3XX0=
 -->
