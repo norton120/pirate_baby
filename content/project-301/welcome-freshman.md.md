@@ -16,7 +16,7 @@ Early summer is the busy season for the boating industry here, and coordinating 
 
 Moving aboard the boat is still a week away, but the ripples of this shift have already begun. Sitting on the porch of my motel room Tuesday afternoon, I spent several hours planning work for a brand new contract - a contract I am very excited to be working on and that I realistically couldn't have afforded to take in the past. I had a long call with the crew of an open source project I've jumped into, a great crew of really talented and smart people. I took a nap. 
 
-But the largest ripple, the one that seemingly came from nowhere, was all the socialization. You hear from 
+But the great big ripple has been all the socialization. When I started planning out th
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNjgwMzc1OCw5MjYxNjU5NDZdfQ==
+eyJoaXN0b3J5IjpbNDYwNzM5Mzk3LDkyNjE2NTk0Nl19
 -->
