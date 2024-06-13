@@ -1,5 +1,6 @@
 ---
 title: "Prompt Engineering"
+date: 2024-01-05
 tags: ['ai','ml','de']
 datt: ailde
 draft: false
@@ -91,7 +92,7 @@ There are likely people all over the globe that have never considered an interes
 I guess it is all relative; to some developers, SQL is database incantation, or JavaScript is a world of broken promises (pun intended). I personally believe that wood framing, electrical work, and plumbing are logical skills that can be learned, shared, and practiced, whereas any task involving drywall or spackle requires a pact with the devil to produce a half-way decent looking outcome.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMTk4OTAzNSwtMjA1NjI1NDgzNSwtND
-g3NTcxNjcxLC03Mjk2MjIxNTIsNjE0MTA3NTA1LDU5MzI4MTU1
-OCwxMDk5OTY0NjA2XX0=
+eyJoaXN0b3J5IjpbLTYzNTMwMzI5NywtMjMxOTg5MDM1LC0yMD
+U2MjU0ODM1LC00ODc1NzE2NzEsLTcyOTYyMjE1Miw2MTQxMDc1
+MDUsNTkzMjgxNTU4LDEwOTk5NjQ2MDZdfQ==
 -->
