@@ -1,6 +1,5 @@
 ---
-draft: true
-date: 2024-05-13
+date: 2024-05-14
 title: Welcome Freshman
 summary: Adjusting to the boat-and-consult world
 
@@ -49,6 +48,6 @@ This wouldn't work in normal adult life, but it is pretty much the rhythm of all
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTUwNDEzMiwtMTY3ODQ3NzgwNiw5Mj
+eyJoaXN0b3J5IjpbMTg1NDA3MDcxMiwtMTY3ODQ3NzgwNiw5Mj
 YxNjU5NDZdfQ==
 -->
