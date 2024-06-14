@@ -7,7 +7,7 @@ summary: Adjusting to the boat-and-consult world
 
 Deltaville Virginia is a boat town, the likes of how Melville described 19th century Nantucket in Moby Dick. It is a place where sail and sea culture permeates every aspect of life; you sleep at the Dockside Inn, eat at the Galley bar, and get coffee from the Cafe By The Bay. The ratio of rigging stores to grocery stores is at least six to one. So it's no surprise that when I started looking for my boat two months ago I found myself here. I count forty marinas in twelve square miles (and that is likely a fraction of the real number, given how poorly marked marinas tend to be). To date my boat shopping has taken me to only six of them... I am hoping six is enough. 
 
-<figure>
+<figure style="width:80%; margin:auto;">
 <img src="/images/cafe_by_the_bay.png" alt="this espresso sponsored by West Marine"/>
 <figcaption><i>Even the coffee sleeves are nautical here</i></figcaption>
 </figure>
@@ -48,6 +48,6 @@ This wouldn't work in normal adult life, but it is pretty much the rhythm of all
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDA3MDcxMiwtMTY3ODQ3NzgwNiw5Mj
-YxNjU5NDZdfQ==
+eyJoaXN0b3J5IjpbLTEzNTk3MzIxODYsLTE2Nzg0Nzc4MDYsOT
+I2MTY1OTQ2XX0=
 -->
