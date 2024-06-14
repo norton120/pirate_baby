@@ -14,14 +14,14 @@ Deltaville Virginia is a boat town, the likes of how Melville described 19th cen
 
 Her name is _Grace_. She is a 1969 Ericson Mark I. Until now I have followed the golden rule of boat shopping - don't fall in love. Emotion will make you take on a project you can't afford or adopt problems you can't solve, so keep it cold, calculated, and be prepared to walk away at the first sign of trouble. I did this just fine with the '78 Sabre, when the survey turned up a decaying bulkhead. I didn't blink when my offer on the '57 Rhodes Bounty fell through, or lose sleep over the parade of Cheoy Lees and Tayanas that were under contract seemingly the moment they came on the market. But _Grace_, she is a problem; I am already dangerously smitten. 
 <figure>
-<img src="images/grace.png" alt="Grace"/>
+<img src="/images/grace.png" alt="Grace"/>
 <figcaption><i>Hopefully a lot more about Grace in the future 🤞</i></figcaption>
 </figure>
 
 My dog Bash and I left Philly at 3AM Monday in the '86 Mercedes I bought off a friend for two thousand dollars (with fresh new-to-me used tires, thanks to the series of blowouts we had on the last trip to Deltaville two weeks before). Along the way I realized that the headlights were dimming due to a stuck antenna motor gobbling power, a problem solved by yanking a few low-priority fuses (who needs reverse lights, really?). This trip down, the trunk and back seats of the Benz were packed tight with all my personal effects - not unlike a nineteen-year-old me limping off to college in my '84 Chrysler New Yorker. Then and now, I drove with one eye on the road and one on the gauge cluster,  scanning the engine temp and oil pressure like a hawk. 
 
 <figure>
-<img src="images/bash_in_benz.png" alt="Bash riding in style"/>
+<img src="/images/bash_in_benz.png" alt="Bash riding in style"/>
 <figcaption><i>Bash digging the red leather interior</i></figcaption>
 <figure>
 
@@ -30,7 +30,7 @@ The purpose of this trip was to make the final walkthrough of _Grace_ with the s
 Early summer is the busy season for the boating industry in Deltaville, and coordinating schedules between my surveyor, the seller, and the boatyard immediately became an issue. The potential close date moved from the following Tuesday, to Friday, and finally all the way to the following Monday. With a week to kill before we could move forward, Bash and I settled into our less-temporary-than-planned home at the Dockside Inn. 
 
 <figure>
-<img src="images/dockside.png" alt="the dockside inn"/>
+<img src="/images/dockside.png" alt="the dockside inn"/>
 </figure>
 
 Moving aboard the boat may be a week away, but ripples of change have already begun. It started Monday when I accepted a contract, despite it paying an academic rate, because I am interested in the project. On Tuesday I sat on the front porch for an hour watching Bash run figure-eights in the grass, without a single Slack interruption. Wednesday morning I woke up, took a shower, and finished an entire espresso before opening my laptop or even looking at my phone. If you are a normal person these probably don't sound like huge accomplishments, and If you live startup life this probably sounds like pure fantasy. To me, this is progress.
@@ -48,6 +48,6 @@ This wouldn't work in normal adult life, but it is pretty much the rhythm of all
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTk3MzIxODYsLTE2Nzg0Nzc4MDYsOT
-I2MTY1OTQ2XX0=
+eyJoaXN0b3J5IjpbNjU5NTg1Mzc1LC0xNjc4NDc3ODA2LDkyNj
+E2NTk0Nl19
 -->
