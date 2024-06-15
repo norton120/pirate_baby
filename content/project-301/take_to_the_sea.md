@@ -13,12 +13,12 @@ summary: why a lboat
 
 > _"Insanity is doing the same thing over and over again, but expecting different results." - Rita Mae Brown_
 
-More. For most of our lives, the answer 
+For most of our lives, the answer has been _more_. More 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNjk3NDY0NCw3MzI5MzI0NDUsLTEwMz
-M2NzcyNzUsNDY5MDc5OTg5LDczOTMwNjU0MSwtMTEyNDA5NzM5
-MCw4NTAzMTY4NTUsLTEyMTU5NTI1OTksMTMxNTczODIzMiw3NT
-E3OTIxNTYsLTE5MTgxODQzNTEsODcxNDAwNTIsMTI0NzQ1NTA1
-NywyMDA3NjI5MTgzLC0xMzYxNjEyMzA0LDE4NjA2NzI2MDddfQ
-==
+eyJoaXN0b3J5IjpbLTIwMzc2NTgwNjEsNzMyOTMyNDQ1LC0xMD
+MzNjc3Mjc1LDQ2OTA3OTk4OSw3MzkzMDY1NDEsLTExMjQwOTcz
+OTAsODUwMzE2ODU1LC0xMjE1OTUyNTk5LDEzMTU3MzgyMzIsNz
+UxNzkyMTU2LC0xOTE4MTg0MzUxLDg3MTQwMDUyLDEyNDc0NTUw
+NTcsMjAwNzYyOTE4MywtMTM2MTYxMjMwNCwxODYwNjcyNjA3XX
+0=
 -->
