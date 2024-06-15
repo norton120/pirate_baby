@@ -13,12 +13,12 @@ summary: why a lboat
 
 > _"Insanity is doing the same thing over and over again, but expecting different results." - Rita Mae Brown_
 
-Humans are amazing pattern matchers. Maybe our greatest superpower as a species is the ability to shortcut
+Humans are amazing pattern matchers. Maybe our greatest superpower as a species is the ability to shortcut decisions by recognizing trends 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxNjA0MTgyLDQ2OTA3OTk4OSw3MzkzMD
-Y1NDEsLTExMjQwOTczOTAsODUwMzE2ODU1LC0xMjE1OTUyNTk5
-LDEzMTU3MzgyMzIsNzUxNzkyMTU2LC0xOTE4MTg0MzUxLDg3MT
-QwMDUyLDEyNDc0NTUwNTcsMjAwNzYyOTE4MywtMTM2MTYxMjMw
-NCwxODYwNjcyNjA3XX0=
+eyJoaXN0b3J5IjpbLTEwMzM2NzcyNzUsNDY5MDc5OTg5LDczOT
+MwNjU0MSwtMTEyNDA5NzM5MCw4NTAzMTY4NTUsLTEyMTU5NTI1
+OTksMTMxNTczODIzMiw3NTE3OTIxNTYsLTE5MTgxODQzNTEsOD
+cxNDAwNTIsMTI0NzQ1NTA1NywyMDA3NjI5MTgzLC0xMzYxNjEy
+MzA0LDE4NjA2NzI2MDddfQ==
 -->
