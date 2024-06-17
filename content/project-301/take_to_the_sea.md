@@ -23,17 +23,23 @@ I founded **Static** with a friend in 2021 as a SaaS data platform for hard-to-m
 
 I was exhausted. Years of unchecked startup ambition had left my life an empty husk, all existence beyond the keyboard hollowed out to feed the _more_. My once-vibrant social life had been reduced to a few friends I barely ever saw. My hobbies were forgotten - my closet was filled with unused motorcycle gear, camping equipment, boxes of raspberry pis for projects I hadn't touched in years. My now-ex girlfriend had moved out in the fall. My finances were bled dry from trying to keep **Static** alive. A quick scan through my camera reel showed hundreds of pictures of Bash, my dog, sitting places - because that was the only evidence left outside of code commits that I was even alive. 
 
-When does persistence become stupidity? If all the evidence is contrary to the cultural mantra, it is time to revisit what we believe to be true. _More_, in this case, hasn't worked, isn't working, and won't get me there. 
+When does persistence become stupidity? _More_ hadn't worked, and it wasn't going to work. It was time to find another path. 	
 
-### True North
-The first step was to clarify what I wanted life to look like without taking anything for granted. Why was I chasing a startup in the first place? It was never about getting rich. Kevin Leininger, a serial startup founder and mentor, once told me "If you want to get rich, for the love of God don't found a startup. Get an MBA, work for Goldman Sachs." He is of course absolutely right - startups are a gamble, and the roulette wheel is not a viable financial strategy. For me, like most founders, it is the culture - collaborating with people that don't suck and who are as excited about the work as I am, who are positive and adventurous and willing to take risks. These are the type of people I want to surround myself with, and a startup has always been the vehicle with which to do so. 
+## True North
+- what I decided was important
+
+## The Plan
+- 2024-25 plan: rennovate, rent out the place, set up Pirate Baby, get a boat, learn to sail, head south
+	
+Why was I chasing startups in the first place? It was never about getting rich. Kevin Leininger, a serial startup founder and mentor, once told me "If you want to get rich, for the love of God don't found a startup. Get an MBA, work for Goldman Sachs." He is of course absolutely right - startups are a gamble, and the roulette wheel is not a viable financial strategy. For me, like most founders, it is the culture - collaborating with people that don't suck and who are as excited about the work as I am, who are positive and adventurous and willing to take risks. These are the type of people I want to surround myself with, and a startup has always been the vehicle with which to do so. 
 In addition to the culture, there is the financial independence created by a successful startup exit. Financial independence, in this context, isn't "rich" - it's the ability to survive comfortably without an immediate paycheck. 
- 
+  
+	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NTE5NjkwMywtOTA2NDYwMDQsNzMyOT
-MyNDQ1LC0xMDMzNjc3Mjc1LDQ2OTA3OTk4OSw3MzkzMDY1NDEs
-LTExMjQwOTczOTAsODUwMzE2ODU1LC0xMjE1OTUyNTk5LDEzMT
-U3MzgyMzIsNzUxNzkyMTU2LC0xOTE4MTg0MzUxLDg3MTQwMDUy
-LDEyNDc0NTUwNTcsMjAwNzYyOTE4MywtMTM2MTYxMjMwNCwxOD
-YwNjcyNjA3XX0=
+eyJoaXN0b3J5IjpbLTEwNTA5MDE1NDEsLTkwNjQ2MDA0LDczMj
+kzMjQ0NSwtMTAzMzY3NzI3NSw0NjkwNzk5ODksNzM5MzA2NTQx
+LC0xMTI0MDk3MzkwLDg1MDMxNjg1NSwtMTIxNTk1MjU5OSwxMz
+E1NzM4MjMyLDc1MTc5MjE1NiwtMTkxODE4NDM1MSw4NzE0MDA1
+MiwxMjQ3NDU1MDU3LDIwMDc2MjkxODMsLTEzNjE2MTIzMDQsMT
+g2MDY3MjYwN119
 -->
