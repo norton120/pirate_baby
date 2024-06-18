@@ -5,9 +5,9 @@ summary: The first of the two happiest days in every boat owner's life
 
 ---
 
-<figure style="width:80%; margin:auto; text:center;">
+<figure style="width:80%; margin:auto; text-align:center;">
 <img src="/images/Earl.webp" alt="Earl sailing"/>
-<figcaption>From the listing - Earl was wearing the same outfit the day of the sea trial</figcaption>
+<figcaption style="margin:auto; text-align:center">From the listing - Earl was wearing the same outfit the day of the sea trial</figcaption>
 </figure>
 
 Quantitative data never really tells the whole story. As a row on a spreadsheet, _Grace_ certainly isn't much to look at; built in 1969, she is a very long-in-the-tooth 55 years old. She is petite for a live-aboard, barely 35 feet long with a comparatively narrow 9'8" beam. Her amenities are stark: she has no internet, no hot water, A/C, solar, inverter, or even a 110v house battery charger. Up top she has no windlass, sheet clutches, or auto helm - all pretty standard equipment for the most basic cruiser today. Compared to dozens of other boats on the market in a similar price point, she checks very few boxes. 
@@ -16,18 +16,18 @@ Thankfully marinas are not spreadsheets and a column of data cannot articulate h
 
 Her cockpit is enormous for a 35 foot boat. At 5'9" I can easily sleep under the stars at the helm and still fit Bash below my feet. The main and jib sheets, traveler, furling line, and 4 aft winches come together to make a remarkably simple cockpit. An experienced sailor would surely prefer a more convenient (and complex) outfit, but for me simple is a pretty big deal. 
 
-<figure style="width:80%; margin:auto; text:center;">
-<img src="/images/grace_1.jpeg" alt="The cockpit"/>
-<img src="/images/grace_out4.jpeg" alt="The cockpit"/>
+<figure style="width:80%; margin:auto; text-align:center;">
+<img class="figmany2" src="/images/grace_1.jpeg" alt="The cockpit"/>
+<img class="figmany2" src="/images/grace_out4.jpeg" alt="The cockpit"/>
 <figcaption>Grace showing well</figcaption>
 </figure>
 
 Ericson designers must have been early pioneers in quantum physics, because they somehow fit a 50ft cabin inside a 35ft hull. The measuring tape claims _Grace_ has the most narrow beam of any boat I've looked at to date, but my eyes and sense of claustrofobia beg to differ. She feels positively enormous compared to the inside of the Rhodes Bounty 42. Her layout is imperfect (as they always are) but the footprint is exactly what I want; aft bulkheads outline a right-sized galley and a stray 2nd Icebox (where my programming rig will live). The salon feels a little cramped at the moment with the horseshoe settee, large table, _and_ starboard settee all wedged in. Honey-stained mahogany covers every surface, from the bulkheads to the furnishings to the planking decorating the exposed hull below. Every inch of her is simple and honest, the quintessential "good bones" searched for by every sailor with grand designs in mind. 
 <figure style="width:80%; margin:auto; text:center;">
-<img src="/images/grace_galley.webp" alt="The galley"/>
-<img src="/images/grace_icebox.jpeg" alt="The Icebox"/>
-<img src="/images/grace_settee.jpeg" alt="The Salon"/>
-<img src="/images/grace_settee2.webp" alt="The Salon"/>
+<img class="figmany3" src="/images/grace_galley.webp" alt="The galley"/>
+<img class="figmany3" src="/images/grace_icebox.jpeg" alt="The Icebox"/>
+<img class="figmany3" src="/images/grace_settee.jpeg" alt="The Salon"/>
+<img class="figmany3" src="/images/grace_settee2.webp" alt="The Salon"/>
 <figcaption>Below deck</figcaption>
 </figure>
 
@@ -35,9 +35,9 @@ Today was _Grace_ an my second encounter, survey day. I had the pleasure of meet
 
 I watched the yard haul _Grace_ out, more disturbed than a father watching a drunk relative attempt to lift his newborn with chopsticks. Her lines below the waterline were just as beautiful, that keel a sharp edged knife made for slicing ocean. 
 <figure style="width:80%; margin:auto; text:center;">
-<img src="/images/grace_out.jpeg" alt="The haulout"/>
-<img src="/images/grace_out2.jpeg" alt="The haulout"/>
-<img src="/images/grace_out5.jpeg" alt="The haulout"/>
+<img class="figmany3" src="/images/grace_out.jpeg" alt="The haulout"/>
+<img class="figmany3" src="/images/grace_out2.jpeg" alt="The haulout"/>
+<img class="figmany3" src="/images/grace_out5.jpeg" alt="The haulout"/>
 <figcaption>Hauling Out</figcaption>
 </figure>
 
@@ -53,6 +53,19 @@ Luckily, Jim's overall assessment was "average condition" - good enough for the 
 She is not without her flaws; she has larger soft deck spots that will need to be addressed in the refit, a stuffing box that is weeping more than I'd like. That little deadly electrical problem.
 
 But they are my problem, our problems now. Me and _Grace_, my boat. 
+
+<style>
+@media screen and (min-width: 500px) {
+.figmany3 {
+  display: inline-block;
+  max-width: 30%;
+ }}
+.figmany2 {
+  display: inline-block;
+  max-width: 48%;
+ }}
+ 
+ </style>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2MDAxODk1XX0=
+eyJoaXN0b3J5IjpbLTExMzU3MTY4MTZdfQ==
 -->
