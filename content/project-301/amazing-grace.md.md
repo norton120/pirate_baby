@@ -17,17 +17,29 @@ Thankfully marinas are not spreadsheets and a column of data cannot articulate h
 Her cockpit is enormous for a 35 foot boat. At 5'9" I can easily sleep under the stars at the helm and still fit Bash below my feet. The main and jib sheets, traveler, furling line, and 4 aft winches come together to make a remarkably simple cockpit. An experienced sailor would surely prefer a more convenient (and complex) outfit, but for me simple is a pretty big deal. 
 
 <figure style="width:80%; margin:auto; text-align:center;">
+<a href="/images/grace_1.jpeg" target="_BLANK">
 <img class="figmany2" src="/images/grace_1.jpeg" alt="The cockpit"/>
+</a>
+<a href="/images/grace_out4.jpeg" target="_BLANK">
 <img class="figmany2" src="/images/grace_out4.png" alt="The cockpit"/>
+</a>
 <figcaption style="margin:auto; width:100%; text-align:center">Grace showing well</figcaption>
 </figure>
 
 Ericson designers must have been early pioneers in quantum physics, because they somehow fit a 50ft cabin inside a 35ft hull. The measuring tape claims _Grace_ has the most narrow beam of any boat I've looked at to date, but my eyes and sense of claustrofobia beg to differ. She feels positively enormous compared to the inside of the Rhodes Bounty 42. Her layout is imperfect (as they always are) but the footprint is exactly what I want; aft bulkheads outline a right-sized galley and a stray 2nd Icebox (where my programming rig will live). The salon feels a little cramped at the moment with the horseshoe settee, large table, _and_ starboard settee all wedged in. Honey-stained mahogany covers every surface, from the bulkheads to the furnishings to the planking decorating the exposed hull below. Every inch of her is simple and honest, the quintessential "good bones" searched for by every sailor with grand designs in mind. 
 <figure style="width:80%; margin:auto; text:center;">
+<a href="/images/grace_galley.webp" target="_BLANK">
 <img class="figmany3" src="/images/grace_galley.webp" alt="The galley"/>
+</a>
+<a href="/images/grace_icebox.jpeg" target="_BLANK">
 <img class="figmany3" src="/images/grace_icebox.jpeg" alt="The Icebox"/>
+</a>
+ <a href="/images/grace_settee.jpeg" target="_BLANK">
 <img class="figmany3" src="/images/grace_settee.jpeg" alt="The Salon"/>
+</a>
+<a href="/images/grace_settee2.jpeg" target="_BLANK">
 <img class="figmany3" src="/images/grace_settee2.webp" alt="The Salon"/>
+</a>
 <figcaption style="margin:auto; text-align:center">Below deck</figcaption>
 </figure>
 
@@ -61,6 +73,9 @@ She is not without her flaws; she has larger soft deck spots that will need to b
 But they are my problem, our problems now. Me and _Grace_, my boat. 
 
 <style>
+figure a {
+    text-decoration: none;
+}
 @media screen and (min-width: 500px) {
 .figmany3 {
   display: inline-block;
@@ -73,5 +88,5 @@ But they are my problem, our problems now. Me and _Grace_, my boat.
  
  </style>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNzUyMTY3MF19
+eyJoaXN0b3J5IjpbMTc3NzA4NzgxN119
 -->
