@@ -35,9 +35,15 @@ Today was _Grace_ an my second encounter, survey day. I had the pleasure of meet
 
 I watched the yard haul _Grace_ out, more disturbed than a father watching a drunk relative attempt to lift his newborn with chopsticks. Her lines below the waterline were just as beautiful, that keel a sharp edged knife made for slicing ocean. 
 <figure style="width:80%; margin:auto; text:center;">
-<img class="figmany3" src="/images/grace_out.jpeg" alt="The haulout"/>
+<a href="/images/grace_out.jpeg" target="_BLANK">
+	<img class="figmany3" src="/images/grace_out.jpeg" alt="The haulout"/>
+</a>
+<a href="/images/grace_out2.jpeg" target="_BLANK">
 <img class="figmany3" src="/images/grace_out2.jpeg" alt="The haulout"/>
-<img class="figmany3" src="/images/grace_out5.jpeg" alt="The haulout"/>
+</a>
+<a href="/images/grace_out5.png" target="_BLANK">
+<img class="figmany3" src="/images/grace_out5.png" alt="The haulout"/>
+</a>
 <figcaption style="margin:auto; text-align:center">Hauling Out</figcaption>
 </figure>
 
@@ -67,5 +73,5 @@ But they are my problem, our problems now. Me and _Grace_, my boat.
  
  </style>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI0NDE2NzQxXX0=
+eyJoaXN0b3J5IjpbMjIwNzA5MDM3XX0=
 -->
