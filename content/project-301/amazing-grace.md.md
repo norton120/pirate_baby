@@ -19,7 +19,7 @@ Her cockpit is enormous for a 35 foot boat. At 5'9" I can easily sleep under the
 <figure style="width:80%; margin:auto; text-align:center;">
 <img class="figmany2" src="/images/grace_1.jpeg" alt="The cockpit"/>
 <img class="figmany2" src="/images/grace_out4.png" alt="The cockpit"/>
-<figcaption>Grace showing well</figcaption>
+<figcaption style="margin:auto; text-align:center">Grace showing well</figcaption>
 </figure>
 
 Ericson designers must have been early pioneers in quantum physics, because they somehow fit a 50ft cabin inside a 35ft hull. The measuring tape claims _Grace_ has the most narrow beam of any boat I've looked at to date, but my eyes and sense of claustrofobia beg to differ. She feels positively enormous compared to the inside of the Rhodes Bounty 42. Her layout is imperfect (as they always are) but the footprint is exactly what I want; aft bulkheads outline a right-sized galley and a stray 2nd Icebox (where my programming rig will live). The salon feels a little cramped at the moment with the horseshoe settee, large table, _and_ starboard settee all wedged in. Honey-stained mahogany covers every surface, from the bulkheads to the furnishings to the planking decorating the exposed hull below. Every inch of her is simple and honest, the quintessential "good bones" searched for by every sailor with grand designs in mind. 
@@ -28,7 +28,7 @@ Ericson designers must have been early pioneers in quantum physics, because they
 <img class="figmany3" src="/images/grace_icebox.jpeg" alt="The Icebox"/>
 <img class="figmany3" src="/images/grace_settee.jpeg" alt="The Salon"/>
 <img class="figmany3" src="/images/grace_settee2.webp" alt="The Salon"/>
-<figcaption>Below deck</figcaption>
+<figcaption style="margin:auto; text-align:center">Below deck</figcaption>
 </figure>
 
 Today was _Grace_ an my second encounter, survey day. I had the pleasure of meeting her current family - namely her owner, Earl. He  welcomed Jim (my surveyor) and I onboard, answering Jim's litany of questions as he poked and prodded the boat. Little things surfaced, as they always do: a faulty toilet valve, expired fire extinguishers, and a ground cell issue with the shore power (deadly, sure, but easily fixed with a $100 galvanic isolator). Between notes and questions, Jim stopped repeatedly to comment on what a beautiful, well maintained vessel she was. Earl always said thank you, no matter how many times he did so. 
@@ -38,7 +38,7 @@ I watched the yard haul _Grace_ out, more disturbed than a father watching a dru
 <img class="figmany3" src="/images/grace_out.jpeg" alt="The haulout"/>
 <img class="figmany3" src="/images/grace_out2.jpeg" alt="The haulout"/>
 <img class="figmany3" src="/images/grace_out5.jpeg" alt="The haulout"/>
-<figcaption>Hauling Out</figcaption>
+<figcaption style="margin:auto; text-align:center">Hauling Out</figcaption>
 </figure>
 
 Back in the water, we cast off and headed out into the bay, Earl at the helm, Scott and Morgan (my broker) on the foredeck and Jim still checking and testing and investigating. The day was beautiful, near perfect sailing, and Earl leaned back and said "Ethan, we should swing around and grab some beers and just make this a proper sailing day instead of this survey BS." I tended to agree. 
@@ -67,5 +67,5 @@ But they are my problem, our problems now. Me and _Grace_, my boat.
  
  </style>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTUyMzE3M119
+eyJoaXN0b3J5IjpbNzI0NDE2NzQxXX0=
 -->
