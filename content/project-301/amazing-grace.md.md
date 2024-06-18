@@ -18,7 +18,7 @@ Her cockpit is enormous for a 35 foot boat. At 5'9" I can easily sleep under the
 
 <figure style="width:80%; margin:auto; text-align:center;">
 <img class="figmany2" src="/images/grace_1.jpeg" alt="The cockpit"/>
-<img class="figmany2" src="/images/grace_out4.jpeg" alt="The cockpit"/>
+<img class="figmany2" src="/images/grace_out4.png" alt="The cockpit"/>
 <figcaption>Grace showing well</figcaption>
 </figure>
 
@@ -67,5 +67,5 @@ But they are my problem, our problems now. Me and _Grace_, my boat.
  
  </style>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzU3MTY4MTZdfQ==
+eyJoaXN0b3J5IjpbLTY3NTUyMzE3M119
 -->
