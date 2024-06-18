@@ -74,7 +74,7 @@ But they are my problem, our problems now. Me and _Grace_, my boat.
 
 <style>
 figure a {
-    text-decoration: none;
+    text-decoration: none!important;
 }
 @media screen and (min-width: 500px) {
 .figmany3 {
@@ -88,5 +88,5 @@ figure a {
  
  </style>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NzA4NzgxN119
+eyJoaXN0b3J5IjpbLTQyNjk1MjM3Nl19
 -->
