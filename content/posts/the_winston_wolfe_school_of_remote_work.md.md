@@ -1,11 +1,11 @@
 ---
 title: "The Winston Wolfe school of remote work"
-date: 202301-05
-tags: ['ai','ml','de']
-datt: ailde
+date: 2024-09-05
+tags: [“remote-work”]
 draft: true
 ---
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzYxNDE2MDYsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbMjE4ODQyMjAzLC0yMDg4NzQ2NjEyXX0=
 -->
