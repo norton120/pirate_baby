@@ -1,9 +1,10 @@
 ---
-title: "Replatforming"
-date: 2023-12-30
-tags: ['de']
+title: "The Hindsight Guide to Replatforming"
+date: 2024-10-01
+tags: ['de','ml']
 draft: true
 ---
+I 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTM0MDM1NF19
+eyJoaXN0b3J5IjpbMzgyMzAwOTk3XX0=
 -->
