@@ -82,13 +82,13 @@ This is another false relationship used to justify a desired path. "We want to r
 ### Alternatives to Replatforming
 
 #### Refactoring
-This is very often the last thing engineers want to hear, and also very often the 
+This is very often the last thing engineers want to hear, and also very often the right answer. Code that is brittle and untested can be rewritten to be resiliant and trustworthy. 
 
 
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjMwODU0NjEsLTIyNzY4MTA0MCwtMT
-UzMjIzMjkwMiwtMTY2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0
-MTMwMDk3LDcwODk0MTk0OF19
+eyJoaXN0b3J5IjpbMTYyOTQzNDA3NiwtMjI3NjgxMDQwLC0xNT
+MyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQx
+MzAwOTcsNzA4OTQxOTQ4XX0=
 -->
