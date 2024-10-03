@@ -34,7 +34,12 @@ There are many unspoken motivators for a replatform, and these are the ones to b
 	- old == bad
 	- "everybody knows x is faster than y"
 - boredom and career stagnation
+- fear of obsolescence
+	- "if we work in Cobolt how will I ever get a job after this?"
+
+### Logical Falacies of Replatforming
+There are some 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODI0MDI2MywtMzcwNzgwMTA3LC0xNj
-A0MTMwMDk3LDcwODk0MTk0OF19
+eyJoaXN0b3J5IjpbODI3MDE1NzQ2LC0zNzA3ODAxMDcsLTE2MD
+QxMzAwOTcsNzA4OTQxOTQ4XX0=
 -->
