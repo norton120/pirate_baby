@@ -57,8 +57,9 @@ But the difference between new and old is often more about the effort to get the
 
 ### When Replatforming Should Be Refactoring
 
-### 
+### When Replatforming is the Right Answer
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2MDI4ODIwLC0xNjY0NzI2Nzg0LC0zNz
-A3ODAxMDcsLTE2MDQxMzAwOTcsNzA4OTQxOTQ4XX0=
+eyJoaXN0b3J5IjpbOTE1NDk5ODksLTE2NjQ3MjY3ODQsLTM3MD
+c4MDEwNywtMTYwNDEzMDA5Nyw3MDg5NDE5NDhdfQ==
 -->
