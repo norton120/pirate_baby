@@ -94,9 +94,12 @@ Almost every engineer I know that says "I'm a programmer the language doesn't ma
 When a language or framework falls out of favor, the risk is two-fold. Engineers no longer want to invest in learning and mastering the platform, which in turn reduces the size of the talent pool available to hire. As it becomes harder (and therefore more expensive) to hire people to work on your application, and the people you have are less interested in working on it (and more likely to leave for a more attractive stack), the prudent solution might be to replatform to something more ubiquitous. 
 
 #### When the Team Dictates
-In a large organization with nearly homogenious software tooling, a single rogue apploc
+In a large organization with nearly homogenious software tooling, a single rogue application written in a different language or framework can be a disproportional expense to the business. In this case it may make more sense to port the application to be in line with the rest of the org, rather than burden your teams to learn an additional stack. 
+
+#### When You NEED to be Cool
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NzI3MjIzMCwtMjI3NjgxMDQwLC0xNT
+eyJoaXN0b3J5IjpbLTUwNDMxMzQzMSwtMjI3NjgxMDQwLC0xNT
 MyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQx
 MzAwOTcsNzA4OTQxOTQ4XX0=
 -->
