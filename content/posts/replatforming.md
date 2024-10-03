@@ -46,11 +46,11 @@ Most roadmap decks include an architecture diagram that looks something like thi
 We often use motors to represent our "workhorse" business applications because that mirrors an industrial model we can understand. And yes, our applications do _run_ on physical hardware - servers and disk drives and devices - that wear out over time. But it is a false analog to imply that the _software_ has worn out - that simply is not how software works. Shakespere's _Romeo and Juliet_ has been read likely billions of times by billions of people over the last 400 years, and yet the prose is as impactful as the day it was written. Many printed copies of the text may have worn to dust, but that has no impact on the play itself so long as it continues to be replicated. You application software is not something that wears down with use, and it does not need to be replaced like a hot water heater with a finite shelf life.
 
 #### You Can't Get There From Here
-All programming languages eventually compile down to the same instructions, just like all human languages eventually compile down to the same understanding of the world. The idea that you can only accomplish 
+All programming languages eventually compile down to the same instructions, just like all human languages eventually compile down to the same understanding of the world. The argument that you can only accomplish a certain task in a certain programming language is false, and the extrapolation of that - i.e. "we need to change to 
 
 #### Old is Inferior, New Superior
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MzE4NzA0MSwtMzcwNzgwMTA3LC0xNj
-A0MTMwMDk3LDcwODk0MTk0OF19
+eyJoaXN0b3J5IjpbLTEzMjg5OTYzNjAsLTM3MDc4MDEwNywtMT
+YwNDEzMDA5Nyw3MDg5NDE5NDhdfQ==
 -->
