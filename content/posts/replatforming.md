@@ -50,9 +50,9 @@ All programming languages eventually compile down to the same instructions, just
 This is not to say that one language cannot be remarkably more suited for a challenge than another; it is likely much more effective to write a collection of famous French love poetry in French than, say, Manderin Chineese. But to say it is impossible is simply not true. 
 
 #### Newer is Better
-There was a point where it could almost be argued
+There was a point, not too long ago, where this could almost be argued to be a true statement in the software world. The turn of the century saw a
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1MTg4NDQ4LC0zNzA3ODAxMDcsLTE2MD
+eyJoaXN0b3J5IjpbNzM5ODc4MDk2LC0zNzA3ODAxMDcsLTE2MD
 QxMzAwOTcsNzA4OTQxOTQ4XX0=
 -->
