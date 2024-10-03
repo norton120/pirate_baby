@@ -85,13 +85,13 @@ This is another false relationship used to justify a desired path. "We want to r
 This is very often the last thing engineers want to hear, and also very often the right answer. Code that is brittle and untested can be rewritten to be resiliant and trustworthy. Code that is slow can be redesigned to be fast. True hard-limits of the framework can be isolated and outsourced to other services, quality can be systematically improved. The catch to this is that the business needs to recognize and account for the refactoring cost, which is often easier said than done. It is often oddly easier to get buy-in for a 12 month replatform project that will cost $3M than a 6 month refactor that costs $500k, even when the result of the latter is much more likely to meet the needs of the business; it is that consumerist logic that we would rather pay much more for a new thing that might work than pay much less to clean up our existing thing and get what we really want.
 
 #### Reskilling
-Almost every engineer I know that says "I'm a programmer the language doesn't matter" will then fight tooth-and-nail to use the language and framework they prefer (myself included). This is in part because everyone likes being an expert and nobody likes being a novice, and shifting away from your strongest toolset forces you to go through the learning and expertise process again. However most good engineers want to continually learn and expand their skills, and becoming an expert in a legacy language or framework can potentially offer just that experience. The caviat to this is that, once again, the business needs to account 
+Almost every engineer I know that says "I'm a programmer the language doesn't matter" will then fight tooth-and-nail to use the language and framework they prefer (myself included). This is in part because everyone likes being an expert and nobody likes being a novice, and shifting away from your strongest toolset forces you to go through the learning and development process again. However most good engineers also want to continually expand their skills, and becoming an expert in a legacy language or framework can potentially offer just that experience. The caviat to this is that, once again, the business needs to account for the cost of resolving this skills gap with time and training. Th
 
 
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NjM0Njg5MSwtMjI3NjgxMDQwLC0xNT
-MyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQx
-MzAwOTcsNzA4OTQxOTQ4XX0=
+eyJoaXN0b3J5IjpbMjkzMjM1NDc2LC0yMjc2ODEwNDAsLTE1Mz
+IyMzI5MDIsLTE2NjQ3MjY3ODQsLTM3MDc4MDEwNywtMTYwNDEz
+MDA5Nyw3MDg5NDE5NDhdfQ==
 -->
