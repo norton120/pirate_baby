@@ -216,9 +216,11 @@ Replatforming just so you can use the hippest new framework may be foolish and i
 I was privy to one replatform that was not about performance, or profitability, or any technical drive for improvement, but about human interest. The organization had been through several years of M&A that resulted in a mishmash of applications, managed by five disperate technical teams across the globe. The CTO and owner wanted to bring the disjoined company and teams together, and he did so with a massive replatforming effort that spanned nearly two years. The end result was a singular application that was "owned" by everyone in the organization, but also a new culture that was far more cohesive. In this case, the cost of the replatform was also the price of healthy cultural growth.
 
 ## So, Did We Replatform?
-Reflection amongst myself and the client team helped us steer clear of a ground-up replatform. Instead we devised an iterative release of production features, coupled with small, surgical refactorings. Initially that means only a single operation will be executed in our new framework - an operation that will be trivial to implement in the new framework, but has been very complex and unreliable in the legacy platform. Once that feature is successful, we will address individual operations lacking in performance, test coverage and observability with small, precision refactorings. These may result in our porting some other operations to the new framework, where the end result will be cleaner, more performant, more maintainable code. 
+Reflection amongst myself and the client team helped us steer clear of a ground-up replatform. Instead we devised an iterative release of production features, coupled with small, surgical refactorings. Initially that means only a single operation will be executed in our new framework - an operation that will be trivial to implement in the new framework, but has been very complex and unreliable in the legacy platform. Once that feature is successfully released, we will address individual operations lacking in performance, test coverage and observability with targeted refactoring. This may result in our porting additional other operations to the new framework where the end result will be cleaner, more performant, more maintainable code - but the replatforming is a side effect of the feature release cycle, not the other way around. 
+
+If your team is considering a re
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzA3NDE1MzMsMTk5NDU3MDYwNSw4NT
+eyJoaXN0b3J5IjpbLTE0NjM0Mjg2OTQsMTk5NDU3MDYwNSw4NT
 gwNTkwMDcsODkzODIzMjIsMTE4MjY1NzU1NywtMjI3NjgxMDQw
 LC0xNTMyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLT
 E2MDQxMzAwOTcsNzA4OTQxOTQ4XX0=
