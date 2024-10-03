@@ -45,7 +45,7 @@ The world of software engineering evolves at a breakneck pace, and as engineers 
 Closely related to this is the group think specifically around software performance. Engineers can easily fall into the trap of comparing arbitrary (and most often meaningless in practical terms) language and framework performance specifications, most notably around speed. They compare esotaric performance benchmarks the same way muscle car owners lined up in a car show spar with horsepower stats. This can lead to very emotional, competitive decision-making where replatforming is concerned, and leave your company with the substantial bill for a 1200hp racecar that sits in gridlock traffic every day.
 
 #### Boredom
-Engineers are stimulated by solving complex problems. The job is often exceptionally mentally taxing, and it requires the dopamine hit of learing and accomplishiment of success to balance out that strain. An engineering team with significant longevity 
+Engineers are stimulated by solving complex problems. The job is often exceptionally mentally taxing, and it requires the dopamine hit of learing and accomplishiment of success to balance out that strain. A tenyeared engineering team is i
 
 #### Career Stagnation and Fear of Obsolescence
 - boredom and career stagnation
@@ -87,7 +87,7 @@ This is another false relationship used to justify a desired path. "We want to r
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk2NDUwNzA1LC0yMjc2ODEwNDAsLTE1Mz
-IyMzI5MDIsLTE2NjQ3MjY3ODQsLTM3MDc4MDEwNywtMTYwNDEz
-MDA5Nyw3MDg5NDE5NDhdfQ==
+eyJoaXN0b3J5IjpbLTc5NTc4NTYxNSwtMjI3NjgxMDQwLC0xNT
+MyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQx
+MzAwOTcsNzA4OTQxOTQ4XX0=
 -->
