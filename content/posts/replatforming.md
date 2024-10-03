@@ -82,13 +82,16 @@ This is another false relationship used to justify a desired path. "We want to r
 ### Alternatives to Replatforming
 
 #### Refactoring
-This is very often the last thing engineers want to hear, and also very often the right answer. Code that is brittle and untested can be rewritten to be resiliant and trustworthy. Code that is slow can be redesigned to be fast. True hard-limits of the framework can be isolated and outsourced to other services, quality can be systematically improved. The catch to this is that the business needs to recognize and account for the refactoring cost, which is often easier said than done. It is often oddly easier to get buy-in for a 12 month replatform project that will cost $3M than a 6 month refactor that costs $500k, even when the result of the latter is much more likely to meet the needs of the business; it is that consumerist logic that we would rather pay much more for a new thing that might work than pay much less to clean up our existing thing.
+This is very often the last thing engineers want to hear, and also very often the right answer. Code that is brittle and untested can be rewritten to be resiliant and trustworthy. Code that is slow can be redesigned to be fast. True hard-limits of the framework can be isolated and outsourced to other services, quality can be systematically improved. The catch to this is that the business needs to recognize and account for the refactoring cost, which is often easier said than done. It is often oddly easier to get buy-in for a 12 month replatform project that will cost $3M than a 6 month refactor that costs $500k, even when the result of the latter is much more likely to meet the needs of the business; it is that consumerist logic that we would rather pay much more for a new thing that might work than pay much less to clean up our existing thing and get what we really want.
+
+#### Reskilling
+Almost every engineer I know that says "I'm a programmer the language doesn't matter" will then fight tooth-and-nail to use the language and f
 
 
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzI4ODU4MCwtMjI3NjgxMDQwLC0xNT
-MyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQx
-MzAwOTcsNzA4OTQxOTQ4XX0=
+eyJoaXN0b3J5IjpbLTEzNTE4NjU4OTMsLTIyNzY4MTA0MCwtMT
+UzMjIzMjkwMiwtMTY2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0
+MTMwMDk3LDcwODk0MTk0OF19
 -->
