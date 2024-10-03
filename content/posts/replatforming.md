@@ -55,13 +55,13 @@ Iterative improvement is a core to software development. We learn from experienc
 But the difference between new and old is often more about the effort to get there than the end product. It is not that older software is inherintly less secure than newer software, just that it is likely easier to get to the same level of security when starting from scrach. Legacy software already exists, and the amount of effort required by that software's creators is irrelivent. Maybe the older framework takes 200% more coding effort to perform at the same speed as the newest framework, but 175% of that work is _already done_. The 25% of effort invested today is still far less than the 100% of effort required to replatform. And there is no future-proofing here; the newest framework will soon be dethroned by another novel framework, and your replatformed application will require that same 25% effort to keep up - such is the perpetual cycle of software development. While good incremental improvement to a long-lived codebase can result in a remarkably hardened and resiliant application, one that reflects years (even decades) of accumulated learning and adaptation, leaping from trend to trend is an excellent way to perpetually re-invent a software wheel.
 
 ### Replatform Red Flags
-Whether you are an engineering leader considering an application replatform or 
+Whether you are considering a strategy that centers around an application replatform, or you yourself are proposing such a replatform, there are  
 ### When Replatforming Should Be Refactoring
 
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDEwNDI2MDgsLTE1MzIyMzI5MDIsLT
+eyJoaXN0b3J5IjpbLTE5MDYzMzcxNTgsLTE1MzIyMzI5MDIsLT
 E2NjQ3MjY3ODQsLTM3MDc4MDEwNywtMTYwNDEzMDA5Nyw3MDg5
 NDE5NDhdfQ==
 -->
