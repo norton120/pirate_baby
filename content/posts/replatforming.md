@@ -31,7 +31,7 @@ Replatforms often coencide with a change in engineering leadership. Just as a ne
 #### Preferences Among Engineers
 It is not surprising that if you are fluent in Spanish, you might try to get everyone to speak Spanish. This is often the simple motivation behind a replatform. "I know Ruby on Rails, so why don't we just re-write the app in RoR?"
 
-There is a particularly sneaky strategy that is derived from this motivation. A new engineer who is not a huge fan of the exisiting language or framework brings up their perferred platform, qualifying the suggestion with "but hey, I'm a computer scientist and the language isn't important I'll write in whatever makes sense." Shortly after they start a new codebase using their preferred language and framework, and start implementing new features in this codebase as an "auxillary service" adding functionality that can be loosely distinct from the existing application. "I'm just going to do auth/caching/whatever in this one, but hey the real service is still 
+There is a particularly sneaky strategy to replatforming that is derived from this motivation. An engineer who is not a huge fan of the exisiting language or framework brings up their perferred platform, qualifying the suggestion with "but hey, I'm a computer scientist and the language isn't important I'll write in whatever makes sense." Shortly after they start a new codebase using their preferred language and framework, and start implementing new features in this codebase as an "auxillary service" adding functionality that can be loosely distinct from the existing application. "I'm just going to do auth/caching/whatever in this one, but hey the real service is still 'your platform'." Finally, the engineer begins duplicating existing functionality, and every meeting becomes "why don't we impliment that in <new platform name
 
 - language preference among engineers
 - distant mountain syndrome
@@ -79,7 +79,7 @@ This is another false relationship used to justify a desired path. "We want to r
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTczNTAyMDkxLC0yMjc2ODEwNDAsLTE1Mz
-IyMzI5MDIsLTE2NjQ3MjY3ODQsLTM3MDc4MDEwNywtMTYwNDEz
-MDA5Nyw3MDg5NDE5NDhdfQ==
+eyJoaXN0b3J5IjpbMTEzNDA3MjU1NSwtMjI3NjgxMDQwLC0xNT
+MyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQx
+MzAwOTcsNzA4OTQxOTQ4XX0=
 -->
