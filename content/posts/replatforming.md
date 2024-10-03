@@ -34,6 +34,7 @@ It is not surprising that if you are fluent in Spanish, you might try to get eve
 There is a particularly sneaky strategy to replatforming that is derived from this motivation, and which I've witnessed first-hand several times. An engineer who is not a huge fan of the exisiting language or framework brings up their perferred platform, qualifying the suggestion with "but hey, I'm a computer scientist and the language isn't important, I'll write in whatever makes sense to everyone." Shortly after, they create a new codebase using their preferred language and framework, and begin implementing new features in this codebase as an "auxillary service" to the existing application. "I'm just going to do auth/caching/whatever in this one, but hey the real service is still 'your platform'." Finally, the engineer begins duplicating existing functionality, and in every meeting they lead with "Why don't we impliment that in the new platform instead?" Beyond the dishonesty and generally slimey nature of this technique, it has the added effect of committing the organization to an expensive, time-consuming replatform without the knowledge of leadership. 
 
 #### The Distant Mountain
+All problems look much easier from far away, just as a distant mountain looks tiny compared to the hill you are currently climbing. Existing platforms have already handled a
 
 - distant mountain syndrome
 - politics
@@ -80,7 +81,7 @@ This is another false relationship used to justify a desired path. "We want to r
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDg0ODU4MDcsLTIyNzY4MTA0MCwtMT
+eyJoaXN0b3J5IjpbLTE4OTc3MjczMzksLTIyNzY4MTA0MCwtMT
 UzMjIzMjkwMiwtMTY2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0
 MTMwMDk3LDcwODk0MTk0OF19
 -->
