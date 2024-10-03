@@ -106,9 +106,9 @@ Facebook famously reached the limits of GIT version controlling and replatformed
 Replatforming just so you can use the hippest new framework may be foolish and impulsive. But there are are also a lot of investors out there that are, by definition, foolish and impulsive, and the hippest new framework _may_ be exactly what they need to see to feel good about taking the lead in your next round. Technology isn't always about technology. Edison didn't build the electric chair to run on AC because it was the right technology choice, he did it to paint his competitor (Nikoli Tesla) as selling a dangerous product. If you need to appear bleeding edge as part of your overall business strategy, nothing says that better than a bleeding-edge refactor.
 
 #### When You _Really_ Want To, And Are Willing To Pay The Price
-I was privy to one refactor that was not about performance, or profitability, or any technical drive for improvement, but about human interest. The organization had been through several years of M&A and had a mishmash of a dozen (fully functional) applications, managed by as many disperate technical teams. The CTO and owner wanted to bring the disjoined co
+I was privy to one refactor that was not about performance, or profitability, or any technical drive for improvement, but about human interest. The organization had been through several years of M&A and had a mishmash of a dozen (fully functional) applications, managed by as many disperate technical teams. The CTO and owner wanted to bring the disjoined company and teams together, and he did so with a massive replatforming effort that spanned nearly two years. The end result was a singular application that was "owned" by everyone in the organization, but it was also a new culture that was far more cohesive. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTEzMjIxNTMsMTE4MjY1NzU1NywtMj
-I3NjgxMDQwLC0xNTMyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3
-ODAxMDcsLTE2MDQxMzAwOTcsNzA4OTQxOTQ4XX0=
+eyJoaXN0b3J5IjpbMTQzNzkyMzkzMywxMTgyNjU3NTU3LC0yMj
+c2ODEwNDAsLTE1MzIyMzI5MDIsLTE2NjQ3MjY3ODQsLTM3MDc4
+MDEwNywtMTYwNDEzMDA5Nyw3MDg5NDE5NDhdfQ==
 -->
