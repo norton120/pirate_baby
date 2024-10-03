@@ -216,9 +216,10 @@ Replatforming just so you can use the hippest new framework may be foolish and i
 I was privy to one replatform that was not about performance, or profitability, or any technical drive for improvement, but about human interest. The organization had been through several years of M&A that resulted in a mishmash of applications, managed by five disperate technical teams across the globe. The CTO and owner wanted to bring the disjoined company and teams together, and he did so with a massive replatforming effort that spanned nearly two years. The end result was a singular application that was "owned" by everyone in the organization, but also a new culture that was far more cohesive. In this case, the cost of the replatform was also the price of healthy cultural growth.
 
 
+For the client POC, we moved ahead with a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDU3MDYwNSw4OTM4MjMyMiwxMTgyNj
-U3NTU3LC0yMjc2ODEwNDAsLTE1MzIyMzI5MDIsLTE2NjQ3MjY3
-ODQsLTM3MDc4MDEwNywtMTYwNDEzMDA5Nyw3MDg5NDE5NDhdfQ
-==
+eyJoaXN0b3J5IjpbLTk3MDMwODEsMTk5NDU3MDYwNSw4OTM4Mj
+MyMiwxMTgyNjU3NTU3LC0yMjc2ODEwNDAsLTE1MzIyMzI5MDIs
+LTE2NjQ3MjY3ODQsLTM3MDc4MDEwNywtMTYwNDEzMDA5Nyw3MD
+g5NDE5NDhdfQ==
 -->
