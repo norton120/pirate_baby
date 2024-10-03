@@ -37,9 +37,10 @@ There is a particularly sneaky strategy to replatforming that is derived from th
 Everything looks much easier from far away, just as a distant mountain appears tiny when compared to the hill you are currently climbing. Existing platforms have likely handled all the easy challenges long ago, leaving the day-to-day efforts of engineers grounded in the remaining, most difficult problems. It is tempting to believe that "changing mountains" will make everything easier - and for a while it absolutely will. Instead of adding new value by solving hard problems, engineers get to re-solve the easy problems in a different language or a new framework. Of course by the time the replatformed application has reached the same level of complexity and handled the same business cases as the legacy application, the problems will be just as hard, and the business will have gotten no value from the efforts.
 
 #### Politics
-This is a surprisingly common motivator for replatforms, especially in larger organizations. It goes something like this: 
+This is a surprisingly common motivator for replatforms, especially in larger organizations. If a team or an individual owns a certain ecosystem, say the company's Azure or AWS
 
-* Ted on team X owns 
+* Ted on team X owns everything in Azure, and he is notoriously difficult to work with
+* Lucy on team Y proposes a 
 
 - politics
 	- system A is owned by team B, and I want to own this so I'll create system C that is owned by me
@@ -85,7 +86,7 @@ This is another false relationship used to justify a desired path. "We want to r
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NTIzNzUyNSwtMjI3NjgxMDQwLC0xNT
+eyJoaXN0b3J5IjpbMTkyNjE1MzY5MywtMjI3NjgxMDQwLC0xNT
 MyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQx
 MzAwOTcsNzA4OTQxOTQ4XX0=
 -->
