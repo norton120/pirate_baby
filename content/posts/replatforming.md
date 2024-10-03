@@ -58,14 +58,16 @@ But the difference between new and old is often more about the effort to get the
 Whether you are considering a strategy that centers around an application replatform, or you yourself are proposing such a replatform, the following can be warning signs of a project that may be ill-conceived (or at least ill-advised).
 
 #### The Word "Modern"
-such as "updating to modern technology" or 
+Such as "updating to modern technology" or "moving to a modern framework." Modern has become an excecutive-deck-safe way of saying "new and shiny" and should be concerning if not immediately followed up with meaninful reasons for why new/modern is desirable.
+
+#### 
  
 ### When Replatforming Should Be Refactoring
 
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2NTAyNTQzLC0xNTMyMjMyOTAyLC0xNj
-Y0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQxMzAwOTcsNzA4OTQx
-OTQ4XX0=
+eyJoaXN0b3J5IjpbLTMwNTU4NDI5OSwtMTUzMjIzMjkwMiwtMT
+Y2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0MTMwMDk3LDcwODk0
+MTk0OF19
 -->
