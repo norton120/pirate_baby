@@ -82,13 +82,13 @@ This is another false relationship used to justify a desired path. "We want to r
 ### Alternatives to Replatforming
 
 #### Refactoring
-This is very often the last thing engineers want to hear, and also very often the right answer. Code that is brittle and untested can be rewritten to be resiliant and trustworthy. Code that is slow can be redesigned to be fast. True hard-limits of the framework can be isolated and outsourced to other services, quality can be systematically improved. The catch to this is that the business needs to recognize and account for the refactoring cost, which is often easier said than done. It is often oddly easier to get buy-in for a 12 month replatform project that will cost $3M than a 
+This is very often the last thing engineers want to hear, and also very often the right answer. Code that is brittle and untested can be rewritten to be resiliant and trustworthy. Code that is slow can be redesigned to be fast. True hard-limits of the framework can be isolated and outsourced to other services, quality can be systematically improved. The catch to this is that the business needs to recognize and account for the refactoring cost, which is often easier said than done. It is often oddly easier to get buy-in for a 12 month replatform project that will cost $3M than a 6 month refactor that costs $500k, even when the result of the latter is much more likely to meet the needs of the business; it is that consumerist logic that we would rather pay much more for a new thing that might work than pay much less to clean up our existing thing.
 
 
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIxNTUyNDE0LC0yMjc2ODEwNDAsLTE1Mz
-IyMzI5MDIsLTE2NjQ3MjY3ODQsLTM3MDc4MDEwNywtMTYwNDEz
-MDA5Nyw3MDg5NDE5NDhdfQ==
+eyJoaXN0b3J5IjpbLTExMzI4ODU4MCwtMjI3NjgxMDQwLC0xNT
+MyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQx
+MzAwOTcsNzA4OTQxOTQ4XX0=
 -->
