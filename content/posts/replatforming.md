@@ -96,10 +96,16 @@ When a language or framework falls out of favor, the risk is two-fold. Engineers
 #### When the Team Dictates
 In a large organization with nearly homogenious software tooling, a single rogue application written in a different language or framework can be a disproportional expense to the business. In this case it may make more sense to port the application to be in line with the rest of the org, rather than burden your teams to learn an additional stack. 
 
+#### When Concrete Limitations Are Reached
+There are situations where a given framework has firm limitations imposed to allow  for conventions, and yo
+
+#### Extremes
+
+
 #### When You NEED to be Cool
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNDMxMzQzMSwtMjI3NjgxMDQwLC0xNT
-MyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQx
-MzAwOTcsNzA4OTQxOTQ4XX0=
+eyJoaXN0b3J5IjpbLTE0NjIyMDA3NzYsLTIyNzY4MTA0MCwtMT
+UzMjIzMjkwMiwtMTY2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0
+MTMwMDk3LDcwODk0MTk0OF19
 -->
