@@ -103,9 +103,9 @@ There are situations where a given framework has firm limitations imposed to all
 Facebook famously reached the limits of GIT version controlling and replatformed to Mercurial. Google has developed proprietary storage and distributed search technologies that support operations of Google-scale, and are certainly not their original technologies. There are situations where performance at extreme scale _does_ matter, and in those cases language and architecture choices are critical. It is important not to confuse these extremes with a painfully slow website that could be fixed with a $500 bump in cloud compute or some refactoring of a careless while-loop, both of which are much cheaper than a replatform. 
 
 #### When You NEED to be Cool
-
+Replatforming just so you can use the hippest new framework may be foolish and impulsive. But there are are also a lot of investors out there that are, by definition, foolish and impulsive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4Mzc3MDczLDExODI2NTc1NTcsLTIyNz
-Y4MTA0MCwtMTUzMjIzMjkwMiwtMTY2NDcyNjc4NCwtMzcwNzgw
-MTA3LC0xNjA0MTMwMDk3LDcwODk0MTk0OF19
+eyJoaXN0b3J5IjpbLTEzMzE2MzMyNDYsMTE4MjY1NzU1NywtMj
+I3NjgxMDQwLC0xNTMyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3
+ODAxMDcsLTE2MDQxMzAwOTcsNzA4OTQxOTQ4XX0=
 -->
