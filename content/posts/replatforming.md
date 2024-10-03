@@ -56,9 +56,7 @@ Replatforms often coincide with a change in engineering leadership. Just as a ne
 
 It is not surprising that if you are fluent in Spanish, you might try to get everyone to speak Spanish. This is often the simple motivation behind a replatform. "I know Ruby on Rails, so why don't we just re-write the app in RoR?"
 
-  
-
-There is a particularly sneaky strategy to replatforming that is derived from this motivation, and which I've witnessed first-hand several times. An engineer who is not a huge fan of the existing language or framework brings up their preferred platform, qualifying the suggestion with "but hey, I'm a computer scientist and the language isn't important, I'll write in whatever makes sense to everyone." Shortly after, they create a new codebase using their preferred language and framework, and begin implementing new features in this codebase as an "auxiliary service" to the existing application. "I'm just going to do auth/caching/whatever in this one, but hey the real service is still 'your platform'." Finally, the engineer begins duplicating existing functionality, and in every meeting they lead with "Why don't we implement that in the new platform instead?" Beyond the dishonesty and generally gross nature of this technique, it has the added effect of committing the organization to an expensive, time-consuming replatform without the knowledge of leadership.
+There is a particularly sneaky strategy to replatforming that is derived from this motivation, and which I've witnessed first-hand several times. An engineer who is not a huge fan of the existing language or framework brings up their preferred platform, qualifying the suggestion with "but hey, I'm a computer scientist and the language isn't important, I'll write in whatever makes sense to everyone." Shortly after, they create a new codebase using their preferred language and framework, and begin implementing new features in this codebase as an "auxiliary service" to the existing application. "I'm just going to do auth/caching/whatever in this one, but hey the real service is still the 'old' platform." Finally, the engineer begins duplicating existing functionality, and in every meeting they lead with "Why don't we implement that in the new platform instead?" Beyond the dishonesty and generally gross nature of this technique, it has the added effect of committing the organization to an expensive, time-consuming replatform without the knowledge of leadership. I mention it because it is a disturbingly common pattern that should be 
 
   
 
@@ -212,8 +210,9 @@ Reflection amongst myself and the client team helped us steer clear of a ground-
 
 If your team is considering an application replatform, I suggest that time spent considering the motivations, consequences, and alternatives is time well spent.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU0MzQyNjQsLTE3ODExNjkxNzksMTk5ND
-U3MDYwNSw4NTgwNTkwMDcsODkzODIzMjIsMTE4MjY1NzU1Nywt
-MjI3NjgxMDQwLC0xNTMyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNz
-A3ODAxMDcsLTE2MDQxMzAwOTcsNzA4OTQxOTQ4XX0=
+eyJoaXN0b3J5IjpbLTM1NTMxMjk4Myw5NTQzNDI2NCwtMTc4MT
+E2OTE3OSwxOTk0NTcwNjA1LDg1ODA1OTAwNyw4OTM4MjMyMiwx
+MTgyNjU3NTU3LC0yMjc2ODEwNDAsLTE1MzIyMzI5MDIsLTE2Nj
+Q3MjY3ODQsLTM3MDc4MDEwNywtMTYwNDEzMDA5Nyw3MDg5NDE5
+NDhdfQ==
 -->
