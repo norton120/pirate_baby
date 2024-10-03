@@ -38,8 +38,11 @@ There are many unspoken motivators for a replatform, and these are the ones to b
 	- "if we work in Cobolt how will I ever get a job after this?"
 
 ### Logical Falacies of Replatforming
-Some common justifications for a software replatform are blatently incorrect, and rely on either a lack of, or intentional disreguard for subject matter understanding to persist.
+Some common justifications for a software replatform are blatently incorrect, and rely on either a lack of or intentional disreguard for subject matter understanding to persist.
+
+#### Software is Content, Not Depreciated Assets
+Most roadmap decks include 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzI1NTkyODAsLTM3MDc4MDEwNywtMT
-YwNDEzMDA5Nyw3MDg5NDE5NDhdfQ==
+eyJoaXN0b3J5IjpbNTk4ODA2MTA3LC0zNzA3ODAxMDcsLTE2MD
+QxMzAwOTcsNzA4OTQxOTQ4XX0=
 -->
