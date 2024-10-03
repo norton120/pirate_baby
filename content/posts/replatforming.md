@@ -100,12 +100,12 @@ In a large organization with nearly homogenious software tooling, a single rogue
 There are situations where a given framework has firm limitations imposed to allow  for conventions, and those conventions no longer meet your needs. Low-code platforms, for example, may begin to choke when complex authentication or multi-zone, multi-regional redundancies are required. In these cases it is not impossible to expand the existing framework to meet your needs, but fighting against the baked-in conventions makes the cost much greater than the return.
 
 #### Extremes
-Facebook famously reached the limits of GIT version controlling and was forced to 
+Facebook famously reached the limits of GIT version controlling and replatformed to Mercurial. Google has developed proprietary 
 
 #### When You NEED to be Cool
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTk0ODU5OTIsLTIyNzY4MTA0MCwtMT
+eyJoaXN0b3J5IjpbLTE1NjgwMTYzODUsLTIyNzY4MTA0MCwtMT
 UzMjIzMjkwMiwtMTY2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0
 MTMwMDk3LDcwODk0MTk0OF19
 -->
