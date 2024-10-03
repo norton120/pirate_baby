@@ -31,10 +31,10 @@ Replatforms often coencide with a change in engineering leadership. Just as a ne
 #### Preferences Among Engineers
 It is not surprising that if you are fluent in Spanish, you might try to get everyone to speak Spanish. This is often the simple motivation behind a replatform. "I know Ruby on Rails, so why don't we just re-write the app in RoR?"
 
-There is a particularly sneaky strategy to replatforming that is derived from this motivation, and which I've witnessed first-hand several times. An engineer who is not a huge fan of the exisiting language or framework brings up their perferred platform, qualifying the suggestion with "but hey, I'm a computer scientist and the language isn't important, I'll write in whatever makes sense to everyone." Shortly after, they create a new codebase using their preferred language and framework, and begin implementing new features in this codebase as an "auxillary service" to the existing application. "I'm just going to do auth/caching/whatever in this one, but hey the real service is still 'your platform'." Finally, the engineer begins duplicating existing functionality, and in every meeting they lead with "Why don't we impliment that in the new platform instead?" Beyond the dishonesty and generally slimey nature of this technique, it has the added effect of committing the organiation
+There is a particularly sneaky strategy to replatforming that is derived from this motivation, and which I've witnessed first-hand several times. An engineer who is not a huge fan of the exisiting language or framework brings up their perferred platform, qualifying the suggestion with "but hey, I'm a computer scientist and the language isn't important, I'll write in whatever makes sense to everyone." Shortly after, they create a new codebase using their preferred language and framework, and begin implementing new features in this codebase as an "auxillary service" to the existing application. "I'm just going to do auth/caching/whatever in this one, but hey the real service is still 'your platform'." Finally, the engineer begins duplicating existing functionality, and in every meeting they lead with "Why don't we impliment that in the new platform instead?" Beyond the dishonesty and generally slimey nature of this technique, it has the added effect of committing the organization to an expensive, time-consuming replatform without the knowledge of leadership. 
 
+#### The Distant Mountain
 
-- language preference among engineers
 - distant mountain syndrome
 - politics
 	- system A is owned by team B, and I want to own this so I'll create system C that is owned by me
@@ -80,7 +80,7 @@ This is another false relationship used to justify a desired path. "We want to r
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzI0Nzc2MzUsLTIyNzY4MTA0MCwtMT
+eyJoaXN0b3J5IjpbLTIwMDg0ODU4MDcsLTIyNzY4MTA0MCwtMT
 UzMjIzMjkwMiwtMTY2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0
 MTMwMDk3LDcwODk0MTk0OF19
 -->
