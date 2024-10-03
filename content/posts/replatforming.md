@@ -40,7 +40,9 @@ Everything looks much easier from far away, just as a distant mountain appears t
 This is a surprisingly common motivator for replatforms, especially in larger organizations. A team owning a platform or ecosystem may be difficult to work with, and other engineers may attempt to replatform rather than deal with them. or a shift to a novel platform may be seen as an opportunity for a leader to grab power within the organization. 
 
 #### Novelty, Group Think, FOMO & Shiny Object Syndrome
-The world of software engineering evolves at a breakneck pace, and as engineers we are expected to stay close to that bleeding edge. The industry is not kind to those that allow their skills to stagnate. Over time, most engineers learn to balance an awareness and appreciation for new languages, frameworks, patterns etc with the compound interest created by stable software, incrementally improved. However the dreaded "shiny object syndrome" is never too far behind; that excitement created by new software that can  a codebase in a perpetual state of identity crisis. 
+The world of software engineering evolves at a breakneck pace, and as engineers we are expected to stay close to that bleeding edge. The industry is not kind to those that allow their skills to stagnate. Over time, most engineers learn to balance an awareness and appreciation for new languages, frameworks, patterns etc with the compound interest created by stable software, incrementally improved. However the dreaded "shiny object syndrome" is never too far behind; that excitement created by new software that can leave a codebase in a perpetual state of identity crisis. 
+
+Closely related to this is the group think specifically around software performance. Engineers can easily fall into the trap of car-sho
 
 - novelty, group think, FOMO & shiny object syndrome
 	- old == bad
@@ -84,7 +86,7 @@ This is another false relationship used to justify a desired path. "We want to r
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzEzNjgwMzYsLTIyNzY4MTA0MCwtMT
-UzMjIzMjkwMiwtMTY2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0
-MTMwMDk3LDcwODk0MTk0OF19
+eyJoaXN0b3J5IjpbLTE2MTI3MjU0OCwtMjI3NjgxMDQwLC0xNT
+MyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQx
+MzAwOTcsNzA4OTQxOTQ4XX0=
 -->
