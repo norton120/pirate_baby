@@ -23,8 +23,10 @@ There are common themes that typically lead to the conclusion that a replatform 
 - hiring challenges with the legacy framework or language
 
 ### Why Do We Replatform - under the skin
-There are many reasons 
+There are many unspoken motivators for a replatform, and these are the ones to be most aware of and challange the most boldly. 
+
+- signify a new reigning king (this is my software,
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDIxMDY5MzQsLTM3MDc4MDEwNywtMT
-YwNDEzMDA5Nyw3MDg5NDE5NDhdfQ==
+eyJoaXN0b3J5IjpbMjA3NTczNTk0LC0zNzA3ODAxMDcsLTE2MD
+QxMzAwOTcsNzA4OTQxOTQ4XX0=
 -->
