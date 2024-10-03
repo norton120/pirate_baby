@@ -51,8 +51,8 @@ This is not to say that one language cannot be remarkably more suited for a chal
 
 #### Newer is Better
 Iterative improvement is a core to software development. We learn from experience, and as such software tooling generally exists somewhere along an upward trend line of faster, more reliable, more secure, and easier to work with. It is easy to assume, then, that newer software will always be all these things over it's predecessor. 
-But the difference between new and old is 
+But the difference between new and old is often more about the effort to get there than the end product. It is not that older software is inherintly less secure than newer software, just that it is likely easier to get to the same level of security when starting from scrach. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjYwMjQyOTAsLTE2NjQ3MjY3ODQsLT
-M3MDc4MDEwNywtMTYwNDEzMDA5Nyw3MDg5NDE5NDhdfQ==
+eyJoaXN0b3J5IjpbNTgwMzM5NTQyLC0xNjY0NzI2Nzg0LC0zNz
+A3ODAxMDcsLTE2MDQxMzAwOTcsNzA4OTQxOTQ4XX0=
 -->
