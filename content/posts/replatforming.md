@@ -10,21 +10,19 @@ Replatforms are resource-intense, time consuming projects that can make or break
 
 ### What counts as a replatform?
 
-The exact boundaries of what would constitute a replatform are a bit fuzzy, and the distinction between a replatform, refactoring, and the natural evolution of features within a code base can be hard to define. In theory, a replatform is the decision to tear down or replace existing software with something entirely new. This new element could be a change in software framework, a total shift in architecture, or translation into an entirely different programming language (or all three at once!). In the physical world, replatforming would be analogous to bulldozing a derelict building and constructing a new one where the original building had stood. Just like in the real world, developers often play semantics to navigate politically; where the home builder in our real-world example might leave a few feet of the original foundation intact in order to file remodel permits and avoid new construction fees, a software engineering team may leave trivial processes running on the legacy system to avoid a potentially negative _replatform_ label. For purposes here we will use _replatform_ to mean any project where the bulk of an application's business logic is migrated to a new framework, architecture, and/or programming language. Contrasting _replatforms_ are _refactors_, where the existing application is re-written (in part or in full) in the same language, framework, and architecture, without changing the externally perceivable functionality of the application. It is worth noting that a refactored application may be modified as a side effect of a refactor - pages may load faster, function more reliably, or cost less to operate - but these improvements are fallout from a refactor's primary concern of making the _codebase_ better.
+The exact boundaries of what would constitute a replatform are a bit fuzzy, and the distinction between a replatform, refactoring, and the natural evolution of features within a code base can be hard to define. In theory, a replatform is the decision to tear down or replace existing software with something entirely new. This new element could be a change in software framework, a total shift in architecture, or translation into an entirely different programming language (or all three at once!). In the physical world, replatforming would be analogous to bulldozing a derelict building and constructing a new one where the original building had stood. Just like in the real world, developers often play semantics to navigate politically; where the home builder in our real-world example might leave a few feet of the original foundation intact in order to file remodel permits and avoid new construction fees, a software engineering team may leave trivial processes running on the legacy system to avoid a potentially negative _replatform_ label. 
 
-  
+<img src="/images/old_house.png" alt="an old house about to be demolished in a city that has outgrown it"/>
+
+For purposes here we will use _replatform_ to mean any project where the bulk of an application's business logic is migrated to a new framework, architecture, and/or programming language. Contrasting _replatforms_ are _refactors_, where the existing application is re-written (in part or in full) in the same language, framework, and architecture, without changing the externally perceivable functionality of the application. It is worth noting that a refactored application may be modified as a side effect of a refactor - pages may load faster, function more reliably, or cost less to operate - but these improvements are fallout from a refactor's primary concern of making the _codebase_ better.
 
 ### Replatforming is Expensive
 
 All software has a cost. What makes the cost of a replatform so much more painful than feature investment is that there is often no perceivable difference to the business after the cost is incurred. The legacy software did X and Y, and after a $2Million replatform project, the software still does X and Y. That $2 Million got you to the _potential_ for new feature Z, which was hypothetically difficult or impossible while still on the legacy platform. A common mitigation strategy is to pork barrel a replatform in with highly desired features, making the cost that much more palatable. "We will need to rebuild the app if we want feature Z" links the considerable time and cost of the replatform to feature Z, not the replatform itself.
 
-  
-
 ### Why Do We Replatform - on the surface
 
 There are common themes that typically lead to the conclusion that a replatform is in order. You can expect to find variations of these in a roadmap deck that is calling for replatforming investment:
-
-  
 
 * The legacy application is slow, unreliable, expensive, and old
 
@@ -37,8 +35,6 @@ There are common themes that typically lead to the conclusion that a replatform 
 * There are performance issues we cannot overcome with the legacy application
 
 * We want to ship a new feature and need to replatform to do that
-
-  
 
 These are the reasons we _do_ talk about when discussing the massive time and resources investment that is a replatform. But what are the hidden motivators?
 
@@ -216,8 +212,8 @@ Reflection amongst myself and the client team helped us steer clear of a ground-
 
 If your team is considering an application replatform, I suggest that time spent considering the motivations, consequences, and alternatives is time well spent.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MDI5NTM3OSwtMTc4MTE2OTE3OSwxOT
-k0NTcwNjA1LDg1ODA1OTAwNyw4OTM4MjMyMiwxMTgyNjU3NTU3
-LC0yMjc2ODEwNDAsLTE1MzIyMzI5MDIsLTE2NjQ3MjY3ODQsLT
-M3MDc4MDEwNywtMTYwNDEzMDA5Nyw3MDg5NDE5NDhdfQ==
+eyJoaXN0b3J5IjpbOTU0MzQyNjQsLTE3ODExNjkxNzksMTk5ND
+U3MDYwNSw4NTgwNTkwMDcsODkzODIzMjIsMTE4MjY1NzU1Nywt
+MjI3NjgxMDQwLC0xNTMyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNz
+A3ODAxMDcsLTE2MDQxMzAwOTcsNzA4OTQxOTQ4XX0=
 -->
