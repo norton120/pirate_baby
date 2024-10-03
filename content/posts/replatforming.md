@@ -24,7 +24,7 @@ There are common themes that typically lead to the conclusion that a replatform 
 * There are performance issues we cannot overcome with the legacy application
 * We want to ship a new feature and need to replatform to do that
 
-These are the reasons we _do_ talk about when discussing the massive time and resources investment that is a refactor. But what are the hidden motivators? 
+These are the reasons we _do_ talk about when discussing the massive time and resources investment that is a replatform. But what are the hidden motivators? 
 
 ### Why Do We Replatform - under the skin
 There are many unspoken motivators for a replatform, and these are the ones to be most aware of and challange the most boldly. 
@@ -107,14 +107,14 @@ There are situations where a given framework has firm limitations imposed to all
 Facebook famously reached the limits of GIT version controlling and replatformed to Mercurial. Google has developed proprietary storage and distributed search technologies that support operations of Google-scale, and are certainly not their original technologies. There are situations where performance at extreme scale _does_ matter, and in those cases language and architecture choices are critical. It is important not to confuse these extremes with a painfully slow website that could be fixed with a $500 bump in cloud compute or some refactoring of a careless while-loop, both of which are much cheaper than a replatform. 
 
 #### When You NEED to be Cool
-Replatforming just so you can use the hippest new framework may be foolish and impulsive. But there are are also a lot of investors out there that are, by definition, foolish and impulsive, and the hippest new framework _may_ be exactly what they need to see to feel good about taking the lead in your next round. Technology isn't always about technology. Edison didn't build the electric chair to run on AC because it was the right technology choice, he did it to paint his competitor (Nikoli Tesla) as selling a dangerous product. If you need to appear bleeding edge as part of your overall business strategy, nothing says that better than a bleeding-edge refactor.
+Replatforming just so you can use the hippest new framework may be foolish and impulsive. But there are are also a lot of investors out there that are, by definition, foolish and impulsive, and the hippest new framework _may_ be exactly what they need to see to feel good about taking the lead in your next round. Technology isn't always about technology. Edison didn't build the electric chair to run on AC because it was the right technology choice, he did it to paint his competitor (Nikoli Tesla) as selling a dangerous product. If you need to appear bleeding edge as part of your overall business strategy, nothing says that better than a bleeding-edge replatform.
 
 #### When You _Really_ Want To, And Are Willing To Pay The Price
-I was privy to one refactor that was not about performance, or profitability, or any technical drive for improvement, but about human interest. The organization had been through several years of M&A that resulted in a mishmash of applications, managed by five disperate technical teams across the globe. The CTO and owner wanted to bring the disjoined company and teams together, and he did so with a massive replatforming effort that spanned nearly two years. The end result was a singular application that was "owned" by everyone in the organization, but also a new culture that was far more cohesive. In this case, the cost of the replatform was also the price of healthy cultural growth. 
+I was privy to one replatform that was not about performance, or profitability, or any technical drive for improvement, but about human interest. The organization had been through several years of M&A that resulted in a mishmash of applications, managed by five disperate technical teams across the globe. The CTO and owner wanted to bring the disjoined company and teams together, and he did so with a massive replatforming effort that spanned nearly two years. The end result was a singular application that was "owned" by everyone in the organization, but also a new culture that was far more cohesive. In this case, the cost of the replatform was also the price of healthy cultural growth. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNDMzODA5OCwxMTgyNjU3NTU3LC0yMj
-c2ODEwNDAsLTE1MzIyMzI5MDIsLTE2NjQ3MjY3ODQsLTM3MDc4
-MDEwNywtMTYwNDEzMDA5Nyw3MDg5NDE5NDhdfQ==
+eyJoaXN0b3J5IjpbODkzODIzMjIsMTE4MjY1NzU1NywtMjI3Nj
+gxMDQwLC0xNTMyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3ODAx
+MDcsLTE2MDQxMzAwOTcsNzA4OTQxOTQ4XX0=
 -->
