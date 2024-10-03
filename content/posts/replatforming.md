@@ -56,37 +56,25 @@ Replatforms often coincide with a change in engineering leadership. Just as a ne
 
 It is not surprising that if you are fluent in Spanish, you might try to get everyone to speak Spanish. This is often the simple motivation behind a replatform. "I know Ruby on Rails, so why don't we just re-write the app in RoR?"
 
-There is a particularly sneaky strategy to replatforming that is derived from this motivation, and which I've witnessed first-hand several times. An engineer who is not a huge fan of the existing language or framework brings up their preferred platform, qualifying the suggestion with "but hey, I'm a computer scientist and the language isn't important, I'll write in whatever makes sense to everyone." Shortly after, they create a new codebase using their preferred language and framework, and begin implementing new features in this codebase as an "auxiliary service" to the existing application. "I'm just going to do auth/caching/whatever in this one, but hey the real service is still the 'old' platform." Finally, the engineer begins duplicating existing functionality, and in every meeting they lead with "Why don't we implement that in the new platform instead?" Beyond the dishonesty and generally gross nature of this technique, it has the added effect of committing the organization to an expensive, time-consuming replatform without the knowledge of leadership. I mention it because it is a disturbingly common pattern that should be 
-
-  
+There is a particularly sneaky strategy to replatforming that is derived from this motivation, and which I've witnessed first-hand several times. An engineer who is not a huge fan of the existing language or framework brings up their preferred platform, qualifying the suggestion with "but hey, I'm a computer scientist and the language isn't important, I'll write in whatever makes sense to everyone." Shortly after, they create a new codebase using their preferred language and framework, and begin implementing new features in this codebase as an "auxiliary service" to the existing application. "I'm just going to do auth/caching/whatever in this one, but hey the real service is still the 'old' platform." Finally, the engineer begins duplicating existing functionality, and in every meeting they lead with "Why don't we implement that in the new platform instead?" Beyond the dishonesty and generally gross nature of this technique, it has the added effect of committing the organization to an expensive, time-consuming replatform without the knowledge of leadership. I mention it because it is a disturbingly common pattern that should be avoided at all costs.
 
 #### The Distant Mountain
 
 Everything looks much easier from far away, just as a distant mountain appears tiny when compared to the hill you are currently climbing. Existing platforms have likely handled all the easy challenges long ago, leaving the day-to-day efforts of engineers grounded in the remaining, most difficult problems. It is tempting to believe that "changing mountains" will make everything easier - and for a while it absolutely will. Instead of adding new value by solving hard problems, engineers get to re-solve the easy problems in a different language or a new framework. Of course by the time the replatformed application has reached the same level of complexity and handled the same business cases as the legacy application, the problems will be just as hard, and the business will have gotten no value from the efforts.
 
-  
-
 #### Politics
 
 This is a surprisingly common motivator for replatforms, especially in larger organizations. A team owning a platform or ecosystem may be difficult to work with, and other engineers may attempt to replatform rather than deal with them. or a shift to a novel platform may be seen as an opportunity for a leader to grab power within the organization.
-
-  
 
 #### Novelty, Group-Think, FOMO & Shiny Object Syndrome
 
 The world of software engineering evolves at a breakneck pace, and as engineers we are expected to stay close to that bleeding edge. The industry is not kind to those that allow their skills to stagnate. Over time, most engineers learn to balance an awareness and appreciation for new languages, frameworks, patterns etc with the compound interest created by stable software, incrementally improved. However the dreaded "shiny object syndrome" is never too far behind; that excitement created by new software that can leave a codebase in a perpetual state of identity crisis.
 
-  
-
 Closely related to this is the group-think specifically around software performance. Engineers can easily fall into the trap of comparing arbitrary (and most often meaningless in practical terms) language and framework performance specifications, most notably around speed. They compare esoteric performance benchmarks the same way muscle car owners lined up in a car show spar with horsepower stats. This can lead to very emotional, competitive decision-making where replatforming is concerned, and leave your company with the substantial bill for a 1200hp racecar that sits in gridlock traffic every day.
-
-  
 
 #### Boredom
 
 Engineers are stimulated by solving complex problems. The job is often exceptionally mentally taxing, and it requires the dopamine hit of learning and accomplishment of success to balance out that strain. A veteran engineering team is an invaluable asset - they know your application code inside and out, are aware of the history and the limitations, and are exceptionally tuned to the needs of the business. But they are likely also a bit envious of colleagues that are learning new things, experimenting with new languages, and expanding both their skills and the range of possible accomplishments. A replatform is often a chance for well-settled engineers to get outside their comfort zones without heading to another organization.
-
-  
 
 #### Career Stagnation and Fear of Obsolescence
 
@@ -97,8 +85,6 @@ Closely linked to boredom is the fear of stagnating. Hiring managers often (unfa
 ### Logical Fallacies of Replatforming
 
 Some common justifications for a software replatform are blatantly incorrect, and rely on either a lack of or intentional disregard for subject matter understanding to persist.
-
-  
 
 #### Software is Content, Not a Depreciating Asset
 
@@ -210,9 +196,9 @@ Reflection amongst myself and the client team helped us steer clear of a ground-
 
 If your team is considering an application replatform, I suggest that time spent considering the motivations, consequences, and alternatives is time well spent.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NTMxMjk4Myw5NTQzNDI2NCwtMTc4MT
-E2OTE3OSwxOTk0NTcwNjA1LDg1ODA1OTAwNyw4OTM4MjMyMiwx
-MTgyNjU3NTU3LC0yMjc2ODEwNDAsLTE1MzIyMzI5MDIsLTE2Nj
-Q3MjY3ODQsLTM3MDc4MDEwNywtMTYwNDEzMDA5Nyw3MDg5NDE5
-NDhdfQ==
+eyJoaXN0b3J5IjpbOTI3ODA4OTgxLDk1NDM0MjY0LC0xNzgxMT
+Y5MTc5LDE5OTQ1NzA2MDUsODU4MDU5MDA3LDg5MzgyMzIyLDEx
+ODI2NTc1NTcsLTIyNzY4MTA0MCwtMTUzMjIzMjkwMiwtMTY2ND
+cyNjc4NCwtMzcwNzgwMTA3LC0xNjA0MTMwMDk3LDcwODk0MTk0
+OF19
 -->
