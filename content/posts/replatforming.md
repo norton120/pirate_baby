@@ -48,7 +48,7 @@ Closely related to this is the group think specifically around software performa
 Engineers are stimulated by solving complex problems. The job is often exceptionally mentally taxing, and it requires the dopamine hit of learing and accomplishiment of success to balance out that strain. A tenyeared engineering team is an invaluable asset - they know your application code inside and out, are aware of the history and the limitations, are exceptionally tuned to the needs of the business. But they are likely also a bit envious of colleages that are learning new things, experimenting with new languages, and expanding both their skills and the range of possible accomplishments. A replatform is often a chance for well-settled engineers to get outside their comfort zones without heading to another organization. 
 
 #### Career Stagnation and Fear of Obsolescence
-Closely linked to boredom is the fear of stagnating. Hiring managers often (unfairly in many cases) associate less-fashionable frameworks and programming languages with less desirable candidates. There is also the imperical factor of market share; as the footprint of a framework or language shrinks within the software world, the demand for engineers with that pointed skill set decreases. In a world where the worldwide average tenure for a software engineer is less than 18 months, it is understandable that  
+Closely linked to boredom is the fear of stagnating. Hiring managers often (unfairly in many cases) associate less-fashionable frameworks and programming languages with less desirable candidates. There is also the imperical factor of market share; as the footprint of a framework or language shrinks within the software world, the demand for engineers with that pointed skill set decreases. In a world where the worldwide average tenure for a software engineer is less than 18 months, it is understandable that engineers may vie for a replatform that will make them more marketable in the future.  
 
 ### Logical Falacies of Replatforming
 Some common justifications for a software replatform are blatently incorrect, and rely on either a lack of or intentional disreguard for subject matter understanding to persist.
@@ -79,13 +79,16 @@ Reliability is vary rarely a symptom of a specific software language or framewor
 #### Features as Implied Outcomes of Replatforming
 This is another false relationship used to justify a desired path. "We want to replatform the app to _Python/FastAPI_ so we can integrate OpenAI agents into the dashboard." From a technical perspective, the OpenAI API does not care what language you are using to make requests. The difference in techincal lift to connect a _Perl_ application or one built on _Rocket_ from one written in _Python_ is trivial, and yet when pressed the answer is usually that "Machine Learning stuff is all written in Python" which is an oddly common view. It is true that the hiring pool of data professionals with ML experience and Python chops is much greater than that of _Rust_ or _Perl_, but that is a very different argument and one that should be addressed on its own merit.  
 
-### When Replatforming Should Be Refactoring
+### Alternatives to Replatforming
+
+#### Refactoring
+This is very often the last thing engineers want to hear, and also very often the 
 
 
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MTI2MzQ1NSwtMjI3NjgxMDQwLC0xNT
-MyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQx
-MzAwOTcsNzA4OTQxOTQ4XX0=
+eyJoaXN0b3J5IjpbLTEwNjMwODU0NjEsLTIyNzY4MTA0MCwtMT
+UzMjIzMjkwMiwtMTY2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0
+MTMwMDk3LDcwODk0MTk0OF19
 -->
