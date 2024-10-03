@@ -26,9 +26,10 @@ There are common themes that typically lead to the conclusion that a replatform 
 There are many unspoken motivators for a replatform, and these are the ones to be most aware of and challange the most boldly. 
 
 #### Reign of the New King
-Replatforms often coencide with a change in engineering leadership. Just as a new POTUS will hand-pick their cabinet and implement policies that reflect their views, a new Director of Engineering or CTO will often populate the engineering team with "their people" - engineering managers and developers from their existing circles. Once they have assembled a familiar team, they will often replatform applications to an equally familiar programming language and framework. This also creates a historical divide
+Replatforms often coencide with a change in engineering leadership. Just as a new POTUS will hand-pick their cabinet and implement policies that reflect their views, a new Director of Engineering or CTO will often populate the engineering team with "their people" - engineering managers and developers from their existing circles. Once they have assembled a familiar team, they will often replatform applications to an equally familiar programming language and framework. This also creates a historical divide between the new platform and the "old software" - legacy code with faceless owners that can be much more easily blamed and discredited.
 
-
+#### Language Preferences Among Engineers
+It is no
 - language preference among engineers
 - distant mountain syndrome
 - politics
@@ -75,7 +76,7 @@ This is another false relationship used to justify a desired path. "We want to r
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NTQzNjE2NywtMTUzMjIzMjkwMiwtMT
+eyJoaXN0b3J5IjpbMTIwNTY3MzQ3MSwtMTUzMjIzMjkwMiwtMT
 Y2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0MTMwMDk3LDcwODk0
 MTk0OF19
 -->
