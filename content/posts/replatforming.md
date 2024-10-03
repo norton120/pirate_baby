@@ -31,7 +31,7 @@ Replatforms often coencide with a change in engineering leadership. Just as a ne
 #### Preferences Among Engineers
 It is not surprising that if you are fluent in Spanish, you might try to get everyone to speak Spanish. This is often the simple motivation behind a replatform. "I know Ruby on Rails, so why don't we just re-write the app in RoR?"
 
-There is a particularly sneaky replatform strategy I've seen several times now that is derived from this motivation; not to 
+There is a particularly sneaky replatform strategy I've seen several times now that is derived from this motivation, and truthfully I have only experienced from TypeScript afficiantos (I am not saying this is a TypeScript only behavior, but I've yet to see someone leverage this approach with a different language)
 
 - language preference among engineers
 - distant mountain syndrome
@@ -79,7 +79,7 @@ This is another false relationship used to justify a desired path. "We want to r
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM1NzQ0ODcxLC0xNTMyMjMyOTAyLC0xNj
-Y0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQxMzAwOTcsNzA4OTQx
-OTQ4XX0=
+eyJoaXN0b3J5IjpbMTQ4MDc1NDYyMiwtMTUzMjIzMjkwMiwtMT
+Y2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0MTMwMDk3LDcwODk0
+MTk0OF19
 -->
