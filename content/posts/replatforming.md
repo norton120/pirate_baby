@@ -153,7 +153,7 @@ Facebook famously reached the limits of GIT version controlling and replatformed
 
 #### When You NEED to be Cool
 
-Replatforming just so you can use the hippest new framework may be foolish and impulsive. But there are also a lot of investors out there that are, by definition, foolish and impulsive, and the hippest new framework _may_ be exactly what they need to see to feel good about taking the lead in your next round. Technology isn't always about technology. Edison didn't build the electric chair to run on AC because it was the right technology choice, he did it to paint his competitor (Nikoli Tesla) as selling a dangerous product. If you need to appear bleeding edge as part of your overall business strategy, nothing says that better than a bleeding-edge replatform.
+Replatforming just so you can use the hippest new framework may be foolish and impulsive. But there are also a lot of investors out there that are, by definition, foolish and impulsive, and the hippest new framework _may_ be exactly what they need to see to feel good about taking the lead in your next round. Technology isn't always about technology. Edison didn't build the electric chair to run on AC because it was the right technology choice, he did it to paint his competitor (Nikola Tesla) as selling a dangerous product. If you need to appear bleeding edge as part of your overall business strategy, nothing says that better than a bleeding-edge replatform.
 
 #### When You _Really_ Want To, And Are Willing To Pay The Price
 
@@ -165,10 +165,10 @@ Reflection amongst myself and the client team helped us steer clear of a ground-
 
 If your team is considering an application replatform, I suggest that time spent considering the motivations, consequences, and alternatives is time well spent.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NzA1NjczMSwtMzg3MDU2NzMxLC0xOD
-gxMzM5OTY5LDkyNzgwODk4MSw5NTQzNDI2NCwtMTc4MTE2OTE3
-OSwxOTk0NTcwNjA1LDg1ODA1OTAwNyw4OTM4MjMyMiwxMTgyNj
-U3NTU3LC0yMjc2ODEwNDAsLTE1MzIyMzI5MDIsLTE2NjQ3MjY3
-ODQsLTM3MDc4MDEwNywtMTYwNDEzMDA5Nyw3MDg5NDE5NDhdfQ
-==
+eyJoaXN0b3J5IjpbMzgwNTQ2NDYxLC0zODcwNTY3MzEsLTM4Nz
+A1NjczMSwtMTg4MTMzOTk2OSw5Mjc4MDg5ODEsOTU0MzQyNjQs
+LTE3ODExNjkxNzksMTk5NDU3MDYwNSw4NTgwNTkwMDcsODkzOD
+IzMjIsMTE4MjY1NzU1NywtMjI3NjgxMDQwLC0xNTMyMjMyOTAy
+LC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQxMzAwOTcsNz
+A4OTQxOTQ4XX0=
 -->
