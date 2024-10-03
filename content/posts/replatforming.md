@@ -105,10 +105,10 @@ Facebook famously reached the limits of GIT version controlling and replatformed
 #### When You NEED to be Cool
 Replatforming just so you can use the hippest new framework may be foolish and impulsive. But there are are also a lot of investors out there that are, by definition, foolish and impulsive, and the hippest new framework _may_ be exactly what they need to see to feel good about taking the lead in your next round. Technology isn't always about technology. Edison didn't build the electric chair to run on AC because it was the right technology choice, he did it to paint his competitor (Nikoli Tesla) as selling a dangerous product. If you need to appear bleeding edge as part of your overall business strategy, nothing says that better than a bleeding-edge refactor.
 
-#### When You _Really_ Want To, and That's OK
-I was part of one replatform that was, by all measures, a mom-and-pop shop decision. The org was beholden to nobodoy
+#### When You _Really_ Want To, And Are Willing To Pay The Price
+I was privy to one refactor that was not about performance, or profitability, or any technical drive for im
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMDc3NDkwNywxMTgyNjU3NTU3LC0yMj
-c2ODEwNDAsLTE1MzIyMzI5MDIsLTE2NjQ3MjY3ODQsLTM3MDc4
-MDEwNywtMTYwNDEzMDA5Nyw3MDg5NDE5NDhdfQ==
+eyJoaXN0b3J5IjpbNTYyMjgxNjM1LDExODI2NTc1NTcsLTIyNz
+Y4MTA0MCwtMTUzMjIzMjkwMiwtMTY2NDcyNjc4NCwtMzcwNzgw
+MTA3LC0xNjA0MTMwMDk3LDcwODk0MTk0OF19
 -->
