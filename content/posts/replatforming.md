@@ -63,15 +63,15 @@ Such as "updating to modern technology" or "moving to a modern framework." Moder
 #### Poor Quality Issues Dressed Up as Framework/Language Issues
 Reliability is vary rarely a symptom of a specific software language or framework, and much more often a reflection of poorly written software. Neither are lack of test coverage, memory leaking/crashing processes, painfully slow performance, or difficult to read spaghetti code likely to be the inevitable result of the legacy platform language, framework or architecture, any more than a poorly written legal document is the result of the langauge it is drafted in or the paper it is printed on.  Pointing out flaws in implementation is a straw man argument against a platform; these issues may be corrected as a collateral benefit from a replatform, but a replatform is rarely the cheapest, fastest, easiest, or only way to resolve them.
 
-#### Features as the Outcome of Replatforming
-This is another false causation used to justify a desired path. "We want to replatform the app to Python/FastAPI so we can integrate OpenAI agents into the dashboard." From a very technical perspective, the OpenAI API does not care what language you are using to make requests. The techincal lift to connect a Perl application on one built on Rust Rocket might be slightly more complicated without an official SDK,   
+#### Features as Implied Outcomes of Replatforming
+This is another false relationship used to justify a desired path. "We want to replatform the app to Python/FastAPI so we can integrate OpenAI agents into the dashboard." From a technical perspective, the OpenAI API does not care what language you are using to make requests. The techincal lift to connect with a Perl application or one built on Rust Rocket is trivially more complicated than one
 
 ### When Replatforming Should Be Refactoring
 
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNDE1NzYzNSwtMTUzMjIzMjkwMiwtMT
-Y2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0MTMwMDk3LDcwODk0
-MTk0OF19
+eyJoaXN0b3J5IjpbLTE5MTE2OTE1OTksLTE1MzIyMzI5MDIsLT
+E2NjQ3MjY3ODQsLTM3MDc4MDEwNywtMTYwNDEzMDA5Nyw3MDg5
+NDE5NDhdfQ==
 -->
