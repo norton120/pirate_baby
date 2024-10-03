@@ -43,8 +43,8 @@ Some common justifications for a software replatform are blatently incorrect, an
 #### Software is Content, Not Depreciating Assets
 Most roadmap decks include an architecture diagram that looks something like this: 
 <image>
-We often use motors to represent our "workhorse" business applications because that mirrors an industrial model we can understand. And yes, our applications do _run_ on physical hardware - servers and disk drives and devices - that wear out over time. But it is a false analog to imply that the _software_ has worn out - that simply is not how software works. Shakespere's _Romeo and Juliet_ has been read likely billions of times by billions of people over the last 400 years, and yet the prose is as impactful as the day it was written. Many printopies of the text may be worn to dust, but the text is 
+We often use motors to represent our "workhorse" business applications because that mirrors an industrial model we can understand. And yes, our applications do _run_ on physical hardware - servers and disk drives and devices - that wear out over time. But it is a false analog to imply that the _software_ has worn out - that simply is not how software works. Shakespere's _Romeo and Juliet_ has been read likely billions of times by billions of people over the last 400 years, and yet the prose is as impactful as the day it was written. Many printed copies of the text may have worn to dust, but that has no impact on the play itself so long as it continues to be replicated. You application software is not something that wears down with use, and it does not need to be replaced like a hot water heater with a finite shelf l
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTg1NDAwNTIsLTM3MDc4MDEwNywtMT
+eyJoaXN0b3J5IjpbLTExOTI2MDY5ODgsLTM3MDc4MDEwNywtMT
 YwNDEzMDA5Nyw3MDg5NDE5NDhdfQ==
 -->
