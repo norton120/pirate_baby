@@ -60,14 +60,15 @@ Whether you are considering a strategy that centers around an application replat
 #### The Word "Modern"
 Such as "updating to modern technology" or "moving to a modern framework." Modern has become an excecutive-deck-safe way of saying "new and shiny" and should be concerning if not immediately followed up with meaninful reasons for why new/modern is desirable.
 
-#### 
+#### Poor Quality Software Issues Dressed Up as Framework/Language Issues
+
  
 ### When Replatforming Should Be Refactoring
 
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTU4NDI5OSwtMTUzMjIzMjkwMiwtMT
-Y2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0MTMwMDk3LDcwODk0
-MTk0OF19
+eyJoaXN0b3J5IjpbLTIxMDM5MDI5ODMsLTE1MzIyMzI5MDIsLT
+E2NjQ3MjY3ODQsLTM3MDc4MDEwNywtMTYwNDEzMDA5Nyw3MDg5
+NDE5NDhdfQ==
 -->
