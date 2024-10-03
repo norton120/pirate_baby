@@ -64,14 +64,14 @@ Such as "updating to modern technology" or "moving to a modern framework." Moder
 Reliability is vary rarely a symptom of a specific software language or framework, and much more often a reflection of poorly written software. Neither are lack of test coverage, memory leaking/crashing processes, painfully slow performance, or difficult to read spaghetti code likely to be the inevitable result of the legacy platform language, framework or architecture, any more than a poorly written legal document is the result of the langauge it is drafted in or the paper it is printed on.  Pointing out flaws in implementation is a straw man argument against a platform; these issues may be corrected as a collateral benefit from a replatform, but a replatform is rarely the cheapest, fastest, easiest, or only way to resolve them.
 
 #### Features as the Outcome of Replatforming
-This is another false causation used to justify a desired path.  
+This is another false causation used to justify a desired path. "We want to replatform the app to Python so we can integrate OpenAI agents into the dashboard." From a te 
 
 ### When Replatforming Should Be Refactoring
 
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4ODg2NzQwLC0xNTMyMjMyOTAyLC0xNj
+eyJoaXN0b3J5IjpbNDM3Mjk4MzI4LC0xNTMyMjMyOTAyLC0xNj
 Y0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQxMzAwOTcsNzA4OTQx
 OTQ4XX0=
 -->
