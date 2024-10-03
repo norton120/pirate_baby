@@ -90,21 +90,15 @@ Some common justifications for a software replatform are blatantly incorrect, an
 
 Most roadmap decks include an architecture diagram that looks something like this:
 
-<image>
+<img src="/images/apps_are_engines.png" alt="diagram where the application is at the center and pictured in an engine icon">
 
 We often use motors to represent our "workhorse" business applications because that mirrors an industrial model we can understand. And yes, our applications do _run_ on physical hardware - servers and disk drives and devices - that wear out over time. But it is a false analog to imply that the _software_ has worn out - that simply is not how software works. Software is instructions to a computer, stored as text, and text is content - like song lyrics or a novel. Shakespere's _Romeo and Juliet_ has been read likely billions of times by billions of people over the last 400 years, and yet the prose is as impactful today as the day it was written. While many of the printed copies may have worn to dust, this has had no impact on the play itself so long as it continues to be replicated. Your application software is not something that wears down with use, and it does not need to be regularly replaced like a hot water heater or a lawnmower with a finite usable life.
-
-  
 
 #### You Can't Get There From Here
 
 All programming languages eventually compile down to the same machine instructions, just like all human languages eventually compile down to the same inner-cognitive understanding of the world. The argument that you can only accomplish a certain task in a certain programming language is false, and the extrapolation of that argument - i.e. "we need to change languages/frameworks before we can implement this feature" is by extension false.
 
-  
-
 That is not to say that one language cannot be remarkably more suited for a challenge than another; it is likely much more effective to write a collection of famous French love poetry in the French language than, say, Mandarin Chinese. But to say such a thing is impossible, that is simply not true.
-
-  
 
 #### Newer is Better
 
@@ -112,48 +106,31 @@ Iterative improvement is a core to software development. We learn from experienc
 
 But the difference between new and old is often more about the effort to get there than the end product. It is not that older software is inherently less secure than newer software, just that it is likely easier to get to the same level of security when starting from scratch. Legacy software already exists, and the amount of effort required by that software's creators is irrelevant. Maybe the older framework takes 200% more coding effort to perform at the same speed as the newest framework, but 175% of that work is _already done_. The 25% of effort invested today is still far less than the 100% of effort required to replatform. And there is no future-proofing here; the newest framework will soon be dethroned by another novel framework, and your replatformed application will require that same 25% effort to keep up - such is the perpetual cycle of software development. While good incremental improvement to a long-lived codebase can result in a remarkably hardened and resilient application, one that reflects years (even decades) of accumulated learning and adaptation, leaping from trend to trend is an excellent way to perpetually re-invent a software wheel.
 
-  
-
 ### Replatform Red Flags
 
 Whether you are considering a strategy that centers around an application replatform, or you yourself are proposing such a replatform, the following can be warning signs of a project that may be ill-conceived (or at least ill-advised).
-
-  
 
 #### The Word "Modern"
 
 Such as "updating to modern technology" or "moving to a modern framework." Modern has become an executive-deck-safe way of saying "new and shiny" and should be concerning if not immediately followed up with meaningful reasons for why new/modern is desirable.
 
-  
-
 #### Poor Quality Issues Dressed Up as Framework/Language Issues
 
 Reliability is very rarely a symptom of a specific software language or framework, and much more often a reflection of poorly written software. Neither are lack of test coverage, memory leaking/crashing processes, painfully slow performance, or difficult to read spaghetti code likely to be the inevitable result of the legacy platform language, framework or architecture, any more than a poorly written legal document is the result of the language it is drafted in or the paper it is printed on. Pointing out flaws in implementation is a straw man argument against a platform; these issues may be corrected as a collateral benefit from a replatform, but a replatform is rarely the cheapest, fastest, easiest, or only way to resolve them.
-
-  
 
 #### Features as Implied Outcomes of Replatforming
 
 This is another false relationship used to justify a desired path. "We want to replatform the app to _Python/FastAPI_ so we can integrate OpenAI agents into the dashboard." From a technical perspective, the OpenAI API does not care what language you are using to make requests. The difference in technical lift to connect a _Perl_ application or one built on _Rocket_ from one written in _Python_ is trivial, and yet when pressed the answer is usually that "Machine Learning stuff is all written in Python" which is an oddly common view. It is true that the hiring pool of data professionals with ML experience and Python chops is much greater than that of _Rust_ or _Perl_, but that is a very different argument and one that should be addressed on its own merit.
 
-  
-
 ### Alternatives to Replatforming
-
-  
 
 #### Refactoring
 
 This is very often the last thing engineers want to hear, and also very often the right answer. Code that is brittle and untested can be rewritten to be resilient and trustworthy. Code that is slow can be redesigned to be fast. True hard-limits of the framework can be isolated and outsourced to other services, quality can be systematically improved. The catch to this is that the business needs to recognize and account for the refactoring cost, which is often easier said than done. It is often oddly easier to get buy-in for a 12 month replatform project that will cost $3M than a 6 month refactor that costs $500k, even when the result of the latter is much more likely to meet the needs of the business; it is that consumerist logic that we would rather pay much more for a new thing that might work than pay much less to clean up our existing thing and get what we really want.
 
-  
-
 #### Reskilling
 
 Almost every engineer I know that says "I'm a programmer, the language doesn't matter" will then fight tooth-and-nail to use the language and framework they prefer (myself included). This is in part because everyone likes being an expert and nobody likes being a novice, and shifting away from your strongest toolset forces you to go through the learning and development process again. However most good engineers also want to continually expand their skills, and becoming an expert in a legacy language or framework can potentially offer just that experience. If your organization has just acquired an application written in COBOL or Lisp, the most cost-effective and rewarding solution might be to upskill your team to support the software. The caveat to this is that, once again, the business needs to account for the cost of resolving this skills gap with time and training. This can be as difficult a sell to leadership as refactoring; there is often a false assumption that developers alone should bear the burden of upskilling, which is how replatforms can come to be presented as the only alternative.
-
-  
-  
 
 ### When Replatforming is the Right Answer
 
@@ -196,9 +173,9 @@ Reflection amongst myself and the client team helped us steer clear of a ground-
 
 If your team is considering an application replatform, I suggest that time spent considering the motivations, consequences, and alternatives is time well spent.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI3ODA4OTgxLDk1NDM0MjY0LC0xNzgxMT
-Y5MTc5LDE5OTQ1NzA2MDUsODU4MDU5MDA3LDg5MzgyMzIyLDEx
-ODI2NTc1NTcsLTIyNzY4MTA0MCwtMTUzMjIzMjkwMiwtMTY2ND
-cyNjc4NCwtMzcwNzgwMTA3LC0xNjA0MTMwMDk3LDcwODk0MTk0
-OF19
+eyJoaXN0b3J5IjpbLTYzNjgyMzkzMiw5Mjc4MDg5ODEsOTU0Mz
+QyNjQsLTE3ODExNjkxNzksMTk5NDU3MDYwNSw4NTgwNTkwMDcs
+ODkzODIzMjIsMTE4MjY1NzU1NywtMjI3NjgxMDQwLC0xNTMyMj
+MyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQxMzAw
+OTcsNzA4OTQxOTQ4XX0=
 -->
