@@ -97,15 +97,15 @@ When a language or framework falls out of favor, the risk is two-fold. Engineers
 In a large organization with nearly homogenious software tooling, a single rogue application written in a different language or framework can be a disproportional expense to the business. In this case it may make more sense to port the application to be in line with the rest of the org, rather than burden your teams to learn an additional stack. 
 
 #### When Concrete Limitations Are Reached
-There are situations where a given framework has firm limitations imposed to allow  for conventions, and those conventions no longer meet your needs. Low-code platforms, for example, may begin to choke when complex authentication or multi-zone, multi-regional redundancies are required. In these cases it is not impossible to expand the existing framework to meet your needs, but fighting against the baked-in conventions makes the cost 
+There are situations where a given framework has firm limitations imposed to allow  for conventions, and those conventions no longer meet your needs. Low-code platforms, for example, may begin to choke when complex authentication or multi-zone, multi-regional redundancies are required. In these cases it is not impossible to expand the existing framework to meet your needs, but fighting against the baked-in conventions makes the cost much greater than the return.
 
 #### Extremes
-
+Facebook famously reached the limits of GIT version controlling and was forced to 
 
 #### When You NEED to be Cool
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NTMyNTgwMiwtMjI3NjgxMDQwLC0xNT
-MyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQx
-MzAwOTcsNzA4OTQxOTQ4XX0=
+eyJoaXN0b3J5IjpbLTExNTk0ODU5OTIsLTIyNzY4MTA0MCwtMT
+UzMjIzMjkwMiwtMTY2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0
+MTMwMDk3LDcwODk0MTk0OF19
 -->
