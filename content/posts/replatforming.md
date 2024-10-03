@@ -13,12 +13,16 @@ The exact boundries of what would constitute a replatform are a bit fuzzy, and t
 All software has a cost. What makes the cost of a replatform so much more painful than feature investment is that there is often no perceivable difference to the business after the cost is incurred. The legacy software did X and Y, and after a $2Million replatform project, the software still does X and Y. That $2 Million got you to the _potential_ for new feature Z, which was hypothetically difficult or impossible while still on the legacy platform. A common mitigation strategy is to pork barrel a replatform in with highly desired features, making the cost that much more palatable. "We will need to rebuild the app if we want feature Z" links the considerable time and cost of the replatform to feature Z, not the replatform itself. 
 
 ### Why Do We Replatform - on the surface
-There are common themes that typically lead to the conclusion that a replatform is in order. You can expect to find many (or all) of these in
+There are common themes that typically lead to the conclusion that a replatform is in order. You can expect to find many (or all) of these in a roadmap deck that is calling for replatforming investment: 
+
+- legacy application is unreliable, slow, expensive, 
 - fresh clean start
 - language or framework has fallen out of style
 - limitations of the language or framework
 - performance
+- hiring challenges with the legacy framework or language
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0NTgwMDk5LC0zNzA3ODAxMDcsLTE2MD
-QxMzAwOTcsNzA4OTQxOTQ4XX0=
+eyJoaXN0b3J5IjpbLTQxMjE3Mjg5NCwtMzcwNzgwMTA3LC0xNj
+A0MTMwMDk3LDcwODk0MTk0OF19
 -->
