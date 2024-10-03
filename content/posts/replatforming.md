@@ -50,9 +50,9 @@ All programming languages eventually compile down to the same instructions, just
 This is not to say that one language cannot be remarkably more suited for a challenge than another; it is likely much more effective to write a collection of famous French love poetry in French than, say, Manderin Chineese. But to say it is impossible is simply not true. 
 
 #### Newer is Better
-Iterative improvement is a core to software development. We learn from experience, and software tooling generally exists somewhere along an upward trend line of faster, more reliable, more secure, and easier to work with - and it is easy to assume that newer software (further up that trend line) is  
+Iterative improvement is a core to software development. We learn from experience, and software tooling generally exists somewhere along an upward trend line of faster, more reliable, more secure, and easier to work with. It is easy to assume, then, that newer software will always be all these things. But this isn't neccesarily   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzgzODg5NjIsLTE2NjQ3MjY3ODQsLT
-M3MDc4MDEwNywtMTYwNDEzMDA5Nyw3MDg5NDE5NDhdfQ==
+eyJoaXN0b3J5IjpbMjAzMDYwOTUzOCwtMTY2NDcyNjc4NCwtMz
+cwNzgwMTA3LC0xNjA0MTMwMDk3LDcwODk0MTk0OF19
 -->
