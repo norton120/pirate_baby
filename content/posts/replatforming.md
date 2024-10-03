@@ -61,14 +61,14 @@ Whether you are considering a strategy that centers around an application replat
 Such as "updating to modern technology" or "moving to a modern framework." Modern has become an excecutive-deck-safe way of saying "new and shiny" and should be concerning if not immediately followed up with meaninful reasons for why new/modern is desirable.
 
 #### Poor Quality Issues Dressed Up as Framework/Language Issues
-Reliability is vary rarely a symptom of a specific software language or framework, and much more often a reflection of poorly written software. 
+Reliability is vary rarely a symptom of a specific software language or framework, and much more often a reflection of poorly written software. Neither are lack of test coverage, memory le Pointing out flaws in the existing implementation is a straw man argument
  
 ### When Replatforming Should Be Refactoring
 
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIzMjI5OTcyLC0xNTMyMjMyOTAyLC0xNj
-Y0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQxMzAwOTcsNzA4OTQx
-OTQ4XX0=
+eyJoaXN0b3J5IjpbLTY1NjE3ODUwNCwtMTUzMjIzMjkwMiwtMT
+Y2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0MTMwMDk3LDcwODk0
+MTk0OF19
 -->
