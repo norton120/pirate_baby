@@ -37,10 +37,11 @@ There is a particularly sneaky strategy to replatforming that is derived from th
 Everything looks much easier from far away, just as a distant mountain appears tiny when compared to the hill you are currently climbing. Existing platforms have likely handled all the easy challenges long ago, leaving the day-to-day efforts of engineers grounded in the remaining, most difficult problems. It is tempting to believe that "changing mountains" will make everything easier - and for a while it absolutely will. Instead of adding new value by solving hard problems, engineers get to re-solve the easy problems in a different language or a new framework. Of course by the time the replatformed application has reached the same level of complexity and handled the same business cases as the legacy application, the problems will be just as hard, and the business will have gotten no value from the efforts.
 
 #### Politics
-This is a surprisingly common motivator for replatforms, especially in larger organizations. A team owning a platform or ecosystem may be difficult to work with, and other engineers may attempt to replatform rather than deal with them. or a shift to a novel platform may be seen as an opportunity for a leader to grab power.  
+This is a surprisingly common motivator for replatforms, especially in larger organizations. A team owning a platform or ecosystem may be difficult to work with, and other engineers may attempt to replatform rather than deal with them. or a shift to a novel platform may be seen as an opportunity for a leader to grab power within the organization. 
 
-- politics
-	- system A is owned by team B, and I want to own this so I'll create system C that is owned by me
+#### Novelty, Group Think, FOMO & Shiny Object Syndrome
+No engineer wants to be left behind
+
 - novelty, group think, FOMO & shiny object syndrome
 	- old == bad
 	- "everybody knows x is faster than y"
@@ -83,7 +84,7 @@ This is another false relationship used to justify a desired path. "We want to r
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc3MDc1NjA0LC0yMjc2ODEwNDAsLTE1Mz
+eyJoaXN0b3J5IjpbNzA3MjYwODUxLC0yMjc2ODEwNDAsLTE1Mz
 IyMzI5MDIsLTE2NjQ3MjY3ODQsLTM3MDc4MDEwNywtMTYwNDEz
 MDA5Nyw3MDg5NDE5NDhdfQ==
 -->
