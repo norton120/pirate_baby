@@ -91,9 +91,9 @@ Almost every engineer I know that says "I'm a programmer the language doesn't ma
 ### When Replatforming is the Right Answer
 
 #### When the Talent Pool Dictates
-When a language or framework falls out of favor, the risk is two-fold. Engineers no longer want to invest 
+When a language or framework falls out of favor, the risk is two-fold. Engineers no longer want to invest in learning and mastering the platform, which in turn reduces the size of the talent pool available to hire. As an engineering leadership this may be logical justification to shift tools
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDE3ODU2MDcsLTIyNzY4MTA0MCwtMT
-UzMjIzMjkwMiwtMTY2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0
-MTMwMDk3LDcwODk0MTk0OF19
+eyJoaXN0b3J5IjpbLTIzNjcwMTE0MSwtMjI3NjgxMDQwLC0xNT
+MyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQx
+MzAwOTcsNzA4OTQxOTQ4XX0=
 -->
