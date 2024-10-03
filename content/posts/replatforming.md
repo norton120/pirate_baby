@@ -26,7 +26,7 @@ There are common themes that typically lead to the conclusion that a replatform 
 There are many unspoken motivators for a replatform, and these are the ones to be most aware of and challange the most boldly. 
 
 #### Reign of the New King
-
+Replatforms often coencide with a change in engineering leadership. Just as a new POTUS will fill their cabinet with their trusted people and implement policies that reflect t
 - signify the reign of a new king
 - language preference among engineers
 - distant mountain syndrome
@@ -74,7 +74,7 @@ This is another false relationship used to justify a desired path. "We want to r
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTI0MzcwMywtMTUzMjIzMjkwMiwtMT
-Y2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0MTMwMDk3LDcwODk0
-MTk0OF19
+eyJoaXN0b3J5IjpbOTQyNzQzMTA5LC0xNTMyMjMyOTAyLC0xNj
+Y0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQxMzAwOTcsNzA4OTQx
+OTQ4XX0=
 -->
