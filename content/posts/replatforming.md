@@ -13,11 +13,12 @@ The exact boundries of what would constitute a replatform are a bit fuzzy, and t
 All software has a cost. What makes the cost of a replatform so much more painful is that there is often no perceivable difference to the business after the cost is incurred. The legacy software did X and Y, and after a $2Million replatform project, the software still does X and Y. That $2 Million got you to the _potential_ for new feature Z, which was hypothetically difficult or impossible while still on the legacy platform. 
 
 ### Why Do We Replatform - on the surface
-First let's look at the reasons for a replatform that will 
+First let's look at the reasons for a replatform that we 
 - fresh clean start
 - language or framework has fallen out of style
-- limitations of the 
+- limitations of the language or framework
+- performance
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTYwOTM2MSwtMzcwNzgwMTA3LC0xNj
+eyJoaXN0b3J5IjpbMTExMTA2ODQwMSwtMzcwNzgwMTA3LC0xNj
 A0MTMwMDk3LDcwODk0MTk0OF19
 -->
