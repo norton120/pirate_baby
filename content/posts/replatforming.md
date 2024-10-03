@@ -42,7 +42,7 @@ This is a surprisingly common motivator for replatforms, especially in larger or
 #### Novelty, Group Think, FOMO & Shiny Object Syndrome
 The world of software engineering evolves at a breakneck pace, and as engineers we are expected to stay close to that bleeding edge. The industry is not kind to those that allow their skills to stagnate. Over time, most engineers learn to balance an awareness and appreciation for new languages, frameworks, patterns etc with the compound interest created by stable software, incrementally improved. However the dreaded "shiny object syndrome" is never too far behind; that excitement created by new software that can leave a codebase in a perpetual state of identity crisis. 
 
-Closely related to this is the group think specifically around software performance. Engineers can easily fall into the trap of comparing arbitrary (and most often meaningless in practical terms) language and framework performance specifications, most notably around speed. They compare esotaric performance benchmarks the same way muscle car owners lined up in a car show spar with horsepower sta
+Closely related to this is the group think specifically around software performance. Engineers can easily fall into the trap of comparing arbitrary (and most often meaningless in practical terms) language and framework performance specifications, most notably around speed. They compare esotaric performance benchmarks the same way muscle car owners lined up in a car show spar with horsepower stats. This can motivate very emotional decisions in replatformi
 
 - novelty, group think, FOMO & shiny object syndrome
 	- old == bad
@@ -86,7 +86,7 @@ This is another false relationship used to justify a desired path. "We want to r
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDQzMjY0LC0yMjc2ODEwNDAsLTE1Mz
-IyMzI5MDIsLTE2NjQ3MjY3ODQsLTM3MDc4MDEwNywtMTYwNDEz
-MDA5Nyw3MDg5NDE5NDhdfQ==
+eyJoaXN0b3J5IjpbMTI1ODMyMDQ2NSwtMjI3NjgxMDQwLC0xNT
+MyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQx
+MzAwOTcsNzA4OTQxOTQ4XX0=
 -->
