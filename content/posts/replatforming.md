@@ -15,14 +15,16 @@ All software has a cost. What makes the cost of a replatform so much more painfu
 ### Why Do We Replatform - on the surface
 There are common themes that typically lead to the conclusion that a replatform is in order. You can expect to find many (or all) of these in a roadmap deck that is calling for replatforming investment: 
 
-- legacy application is unreliable, slow, expensive, 
+- legacy application is unreliable, slow, expensive, old
 - fresh clean start
 - language or framework has fallen out of style
 - limitations of the language or framework
 - performance
 - hiring challenges with the legacy framework or language
 
+### Why Do We Replatform - under the skin
+There are many reasons 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjE3Mjg5NCwtMzcwNzgwMTA3LC0xNj
-A0MTMwMDk3LDcwODk0MTk0OF19
+eyJoaXN0b3J5IjpbLTE0MDIxMDY5MzQsLTM3MDc4MDEwNywtMT
+YwNDEzMDA5Nyw3MDg5NDE5NDhdfQ==
 -->
