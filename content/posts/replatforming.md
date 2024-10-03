@@ -2,7 +2,7 @@
 title: "The Hindsight Guide to Replatforming"
 date: 2024-10-01
 tags: ['de','ml']
-draft: true
+draft: false
 ---
 I was sketching out architectural recommendations for a client project that, after a successful POC, was ready for the prime-time of production software. I stopped to ask myself _why_ the new arch diagram I was creating looked vastly different from the architecture of the existing concept software; even when my answers seemed solid (they included specific measures of reliability, speed, scale, and security), I could not shake the feeling that this felt familiar in a bad way. I counted the number of replatforms I have either been directly responsible for (i.e. several Modern Data Stack conversions) or indirectly impacted by (Data Warehouse reconciliations between the "old" and "new" systems) over the last fifteen years. I came up with thirteen replatforms. Of those thirteen, only four eventually yielded positive product or engineering outcomes; that is a **roughly 70% failure rate** among replatforms I have personally witnessed. It is no wonder that anything resembling a re-write, re-architecture, or re-thinking gives me immediate pause.
 
@@ -164,9 +164,9 @@ Reflection amongst myself and the client team helped us steer clear of a ground-
 
 If your team is considering an application replatform, I suggest that time spent considering the motivations, consequences, and alternatives is time well spent.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MTU4NzU3MCw5Mjc4MDg5ODEsOTU0Mz
-QyNjQsLTE3ODExNjkxNzksMTk5NDU3MDYwNSw4NTgwNTkwMDcs
-ODkzODIzMjIsMTE4MjY1NzU1NywtMjI3NjgxMDQwLC0xNTMyMj
-MyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQxMzAw
-OTcsNzA4OTQxOTQ4XX0=
+eyJoaXN0b3J5IjpbLTE4ODEzMzk5NjksOTI3ODA4OTgxLDk1ND
+M0MjY0LC0xNzgxMTY5MTc5LDE5OTQ1NzA2MDUsODU4MDU5MDA3
+LDg5MzgyMzIyLDExODI2NTc1NTcsLTIyNzY4MTA0MCwtMTUzMj
+IzMjkwMiwtMTY2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0MTMw
+MDk3LDcwODk0MTk0OF19
 -->
