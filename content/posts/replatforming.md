@@ -29,7 +29,10 @@ There are many unspoken motivators for a replatform, and these are the ones to b
 Replatforms often coencide with a change in engineering leadership. Just as a new POTUS will hand-pick their cabinet and implement policies that reflect their views, a new Director of Engineering or CTO will often populate the engineering team with "their people" - engineering managers and developers from their existing circles. Once they have assembled a familiar team, they will often replatform applications to an equally familiar programming language and framework. This also creates a historical divide between the new platform and the "old software" - legacy code with faceless owners that can be much more easily blamed and discredited.
 
 #### Language Preferences Among Engineers
-It is no
+It is not surprising that if you are fluent in Spanish, you might try to get everyone to speak Spanish. This is often the simple motivation behind a replatform; "I know Ruby on Rails, so why don't we just re-write the app in RoR?"
+
+There is a particularly sneaky replatf
+
 - language preference among engineers
 - distant mountain syndrome
 - politics
@@ -76,7 +79,7 @@ This is another false relationship used to justify a desired path. "We want to r
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTY3MzQ3MSwtMTUzMjIzMjkwMiwtMT
-Y2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0MTMwMDk3LDcwODk0
-MTk0OF19
+eyJoaXN0b3J5IjpbOTU3NDQ3Mzc0LC0xNTMyMjMyOTAyLC0xNj
+Y0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQxMzAwOTcsNzA4OTQx
+OTQ4XX0=
 -->
