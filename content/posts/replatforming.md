@@ -25,8 +25,12 @@ There are common themes that typically lead to the conclusion that a replatform 
 ### Why Do We Replatform - under the skin
 There are many unspoken motivators for a replatform, and these are the ones to be most aware of and challange the most boldly. 
 
-- signify a new reigning king (this is my software,
+- signify the reign of a new king
+- language preference among engineers
+- distant mountain syndrome
+- politics
+	- system A is owned by team B, and I want to own 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NTczNTk0LC0zNzA3ODAxMDcsLTE2MD
+eyJoaXN0b3J5IjpbODMzNTAzMzk0LC0zNzA3ODAxMDcsLTE2MD
 QxMzAwOTcsNzA4OTQxOTQ4XX0=
 -->
