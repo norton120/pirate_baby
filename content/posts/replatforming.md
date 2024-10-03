@@ -216,9 +216,9 @@ Replatforming just so you can use the hippest new framework may be foolish and i
 I was privy to one replatform that was not about performance, or profitability, or any technical drive for improvement, but about human interest. The organization had been through several years of M&A that resulted in a mishmash of applications, managed by five disperate technical teams across the globe. The CTO and owner wanted to bring the disjoined company and teams together, and he did so with a massive replatforming effort that spanned nearly two years. The end result was a singular application that was "owned" by everyone in the organization, but also a new culture that was far more cohesive. In this case, the cost of the replatform was also the price of healthy cultural growth.
 
 ## So, Did We Replatform?
-Reflection amongst myself and the client team helped us come to what I now am confident was the right decision. Our "production replatform" became an iterative release of production features coupled with refactorings. Initially, that means only a single function will be executed in a refactored framework - one that is trivial to implement in 
+Reflection amongst myself and the client team helped us come to what I now am confident was the right decision. Our "production replatform" became an iterative release of production features coupled with refactorings. Initially, that means only a single function will be executed in our refactored framework - an opertion that is trivial to implement in the new framework, but very complex and difficult in the legacy platform. From there we will port over individual methods
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MDA4ODIxNCwxOTk0NTcwNjA1LDg1OD
+eyJoaXN0b3J5IjpbMTk3MTA0OTI1NywxOTk0NTcwNjA1LDg1OD
 A1OTAwNyw4OTM4MjMyMiwxMTgyNjU3NTU3LC0yMjc2ODEwNDAs
 LTE1MzIyMzI5MDIsLTE2NjQ3MjY3ODQsLTM3MDc4MDEwNywtMT
 YwNDEzMDA5Nyw3MDg5NDE5NDhdfQ==
