@@ -48,7 +48,7 @@ Closely related to this is the group think specifically around software performa
 Engineers are stimulated by solving complex problems. The job is often exceptionally mentally taxing, and it requires the dopamine hit of learing and accomplishiment of success to balance out that strain. A tenyeared engineering team is an invaluable asset - they know your application code inside and out, are aware of the history and the limitations, are exceptionally tuned to the needs of the business. But they are likely also a bit envious of colleages that are learning new things, experimenting with new languages, and expanding both their skills and the range of possible accomplishments. A replatform is often a chance for well-settled engineers to get outside their comfort zones without heading to another organization. 
 
 #### Career Stagnation and Fear of Obsolescence
-Closely linked to boredom is the fear of stagnating. Hiring managers often (unfairly in many cases) associate less-fashionable frameworks and programming languages with less desirable candidates. There is also the imperical factor of market share
+Closely linked to boredom is the fear of stagnating. Hiring managers often (unfairly in many cases) associate less-fashionable frameworks and programming languages with less desirable candidates. There is also the imperical factor of market share; as the footprint of a framework or language shrinks within the software world, the demand for engineers with that pointed skill set decreases - and the marketability of engineers goes with 
 
 ### Logical Falacies of Replatforming
 Some common justifications for a software replatform are blatently incorrect, and rely on either a lack of or intentional disreguard for subject matter understanding to persist.
@@ -85,7 +85,7 @@ This is another false relationship used to justify a desired path. "We want to r
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MjYyNDA4LC0yMjc2ODEwNDAsLTE1Mz
-IyMzI5MDIsLTE2NjQ3MjY3ODQsLTM3MDc4MDEwNywtMTYwNDEz
-MDA5Nyw3MDg5NDE5NDhdfQ==
+eyJoaXN0b3J5IjpbLTQ2MDgxOTQ4NiwtMjI3NjgxMDQwLC0xNT
+MyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQx
+MzAwOTcsNzA4OTQxOTQ4XX0=
 -->
