@@ -34,12 +34,12 @@ It is not surprising that if you are fluent in Spanish, you might try to get eve
 There is a particularly sneaky strategy to replatforming that is derived from this motivation, and which I've witnessed first-hand several times. An engineer who is not a huge fan of the exisiting language or framework brings up their perferred platform, qualifying the suggestion with "but hey, I'm a computer scientist and the language isn't important, I'll write in whatever makes sense to everyone." Shortly after, they create a new codebase using their preferred language and framework, and begin implementing new features in this codebase as an "auxillary service" to the existing application. "I'm just going to do auth/caching/whatever in this one, but hey the real service is still 'your platform'." Finally, the engineer begins duplicating existing functionality, and in every meeting they lead with "Why don't we impliment that in the new platform instead?" Beyond the dishonesty and generally slimey nature of this technique, it has the added effect of committing the organization to an expensive, time-consuming replatform without the knowledge of leadership. 
 
 #### The Distant Mountain
-Everything looks much easier from far away, just as a distant mountain appears tiny when compared to the hill you are currently climbing. Existing platforms have likely handled all the easy challenges long ago, leaving the day-to-day efforts of engineers grounded in the remaining, most difficult problems. It is tempting to believe that "changing mountains" will make everything easier - and for a while it absolutely will. Instead of adding new value by solving hard problems, engineers get to re-solve the easy problems in a different language or a new framework. Of course by the time the replatformed appl
+Everything looks much easier from far away, just as a distant mountain appears tiny when compared to the hill you are currently climbing. Existing platforms have likely handled all the easy challenges long ago, leaving the day-to-day efforts of engineers grounded in the remaining, most difficult problems. It is tempting to believe that "changing mountains" will make everything easier - and for a while it absolutely will. Instead of adding new value by solving hard problems, engineers get to re-solve the easy problems in a different language or a new framework. Of course by the time the replatformed application has reached the same level of complexity and handled the same business cases as the legacy application, the problems will be just as hard, and the business will have gotten no value from the efforts.
 
-- distant mountain syndrome
+
 - politics
 	- system A is owned by team B, and I want to own this so I'll create system C that is owned by me
-- novelty, group think & shiny object syndrome
+- novelty, group think,  & shiny object syndrome
 	- old == bad
 	- "everybody knows x is faster than y"
 - boredom and career stagnation
@@ -81,7 +81,7 @@ This is another false relationship used to justify a desired path. "We want to r
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NDAzNDExMiwtMjI3NjgxMDQwLC0xNT
+eyJoaXN0b3J5IjpbMTE5OTgzMTk2NiwtMjI3NjgxMDQwLC0xNT
 MyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQx
 MzAwOTcsNzA4OTQxOTQ4XX0=
 -->
