@@ -40,7 +40,7 @@ Everything looks much easier from far away, just as a distant mountain appears t
 This is a surprisingly common motivator for replatforms, especially in larger organizations. A team owning a platform or ecosystem may be difficult to work with, and other engineers may attempt to replatform rather than deal with them. or a shift to a novel platform may be seen as an opportunity for a leader to grab power within the organization. 
 
 #### Novelty, Group Think, FOMO & Shiny Object Syndrome
-No engineer wants to be left behind
+The world of software engineering evolves at a breakneck pace, and as engineers we are expected to stay close to that bleeding edge. The industry is not kind to those that allow their skills to stagnate. Over time, most engineers learn to balance an awareness and appreciation for new languages
 
 - novelty, group think, FOMO & shiny object syndrome
 	- old == bad
@@ -84,7 +84,7 @@ This is another false relationship used to justify a desired path. "We want to r
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA3MjYwODUxLC0yMjc2ODEwNDAsLTE1Mz
-IyMzI5MDIsLTE2NjQ3MjY3ODQsLTM3MDc4MDEwNywtMTYwNDEz
-MDA5Nyw3MDg5NDE5NDhdfQ==
+eyJoaXN0b3J5IjpbLTE2NzM5MzM2NTcsLTIyNzY4MTA0MCwtMT
+UzMjIzMjkwMiwtMTY2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0
+MTMwMDk3LDcwODk0MTk0OF19
 -->
