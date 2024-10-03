@@ -90,8 +90,10 @@ Almost every engineer I know that says "I'm a programmer the language doesn't ma
 
 ### When Replatforming is the Right Answer
 
+#### When the Talent Pool Dictates
+When a language or framework falls out of favor, the risk is two-fold. Engineers no longer want to invest 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjEyNTY0LC0yMjc2ODEwNDAsLTE1Mz
-IyMzI5MDIsLTE2NjQ3MjY3ODQsLTM3MDc4MDEwNywtMTYwNDEz
-MDA5Nyw3MDg5NDE5NDhdfQ==
+eyJoaXN0b3J5IjpbLTEwMDE3ODU2MDcsLTIyNzY4MTA0MCwtMT
+UzMjIzMjkwMiwtMTY2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0
+MTMwMDk3LDcwODk0MTk0OF19
 -->
