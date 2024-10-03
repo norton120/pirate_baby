@@ -47,11 +47,12 @@ We often use motors to represent our "workhorse" business applications because t
 
 #### You Can't Get There From Here
 All programming languages eventually compile down to the same instructions, just like all human languages eventually compile down to the same understanding of the world. The argument that you can only accomplish a certain task in a certain programming language is false, and the extrapolation of that argument - i.e. "we need to change languages/frameworks before we can implement that feature" is by extension false. 
-This is not to say that one language cannot be remarkably more suited for a challenge than another; it is likely much more effective to write a volume of 
+This is not to say that one language cannot be remarkably more suited for a challenge than another; it is likely much more effective to write a collection of famous French love poetry in French than, say, Manderin Chineese. But to say it is impossible is simply not true. 
 
-#### Old is Inferior, New Superior
+#### Newer is Better
+There was a point where it could almost be argued
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODY1OTE4MDAsLTM3MDc4MDEwNywtMT
-YwNDEzMDA5Nyw3MDg5NDE5NDhdfQ==
+eyJoaXN0b3J5IjpbODg1MTg4NDQ4LC0zNzA3ODAxMDcsLTE2MD
+QxMzAwOTcsNzA4OTQxOTQ4XX0=
 -->
