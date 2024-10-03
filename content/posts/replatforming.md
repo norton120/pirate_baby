@@ -20,7 +20,8 @@ There are common themes that typically lead to the conclusion that a replatform 
 * The legacy programming language or framework we are using is dated and hard to hire for
 * We can't do the things we want to do with the legacy language/framework
 * There are performance issues we cannot overcome with the legacy application
-* 
+* We want to ship a new feature and need to replatform to do that
+If these are the reasons we _do_ talk a 
 
 ### Why Do We Replatform - under the skin
 There are many unspoken motivators for a replatform, and these are the ones to be most aware of and challange the most boldly. 
@@ -110,7 +111,7 @@ I was privy to one refactor that was not about performance, or profitability, or
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQxMDQ0Mzk5LDExODI2NTc1NTcsLTIyNz
-Y4MTA0MCwtMTUzMjIzMjkwMiwtMTY2NDcyNjc4NCwtMzcwNzgw
-MTA3LC0xNjA0MTMwMDk3LDcwODk0MTk0OF19
+eyJoaXN0b3J5IjpbMjAxNDU3MzEyOCwxMTgyNjU3NTU3LC0yMj
+c2ODEwNDAsLTE1MzIyMzI5MDIsLTE2NjQ3MjY3ODQsLTM3MDc4
+MDEwNywtMTYwNDEzMDA5Nyw3MDg5NDE5NDhdfQ==
 -->
