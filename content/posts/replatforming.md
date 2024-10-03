@@ -64,14 +64,14 @@ Such as "updating to modern technology" or "moving to a modern framework." Moder
 Reliability is vary rarely a symptom of a specific software language or framework, and much more often a reflection of poorly written software. Neither are lack of test coverage, memory leaking/crashing processes, painfully slow performance, or difficult to read spaghetti code likely to be the inevitable result of the legacy platform language, framework or architecture, any more than a poorly written legal document is the result of the langauge it is drafted in or the paper it is printed on.  Pointing out flaws in implementation is a straw man argument against a platform; these issues may be corrected as a collateral benefit from a replatform, but a replatform is rarely the cheapest, fastest, easiest, or only way to resolve them.
 
 #### Features as Implied Outcomes of Replatforming
-This is another false relationship used to justify a desired path. "We want to replatform the app to _Python/FastAPI_ so we can integrate OpenAI agents into the dashboard." From a technical perspective, the OpenAI API does not care what language you are using to make requests. The difference in techincal lift to connect a _Perl_ application or one built on _Rocket_ from one written in _Python_ is trivial, and yet when pressed the answer is usually tha
+This is another false relationship used to justify a desired path. "We want to replatform the app to _Python/FastAPI_ so we can integrate OpenAI agents into the dashboard." From a technical perspective, the OpenAI API does not care what language you are using to make requests. The difference in techincal lift to connect a _Perl_ application or one built on _Rocket_ from one written in _Python_ is trivial, and yet when pressed the answer is usually that "Machine Learning stuff is all written in Python" which is an oddly common view. It is true that the hiring pool of data professionals with ML experience and Python chops is much greater than that of Rus 
 
 ### When Replatforming Should Be Refactoring
 
 ### When Replatforming is the Right Answer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTY1NTYyNTMsLTE1MzIyMzI5MDIsLT
-E2NjQ3MjY3ODQsLTM3MDc4MDEwNywtMTYwNDEzMDA5Nyw3MDg5
-NDE5NDhdfQ==
+eyJoaXN0b3J5IjpbMTMyMzg3NDEwOSwtMTUzMjIzMjkwMiwtMT
+Y2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0MTMwMDk3LDcwODk0
+MTk0OF19
 -->
