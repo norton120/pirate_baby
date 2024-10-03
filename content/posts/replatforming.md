@@ -40,9 +40,11 @@ There are many unspoken motivators for a replatform, and these are the ones to b
 ### Logical Falacies of Replatforming
 Some common justifications for a software replatform are blatently incorrect, and rely on either a lack of or intentional disreguard for subject matter understanding to persist.
 
-#### Software is Content, Not Depreciated Assets
-Most roadmap decks include 
+#### Software is Content, Not Depreciating Assets
+Most roadmap decks include an architecture diagram that looks something like this: 
+<image>
+We often use motors to represent our "workhorse" business applications because that mirrors the industrial 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk4ODA2MTA3LC0zNzA3ODAxMDcsLTE2MD
-QxMzAwOTcsNzA4OTQxOTQ4XX0=
+eyJoaXN0b3J5IjpbMTc1Mjc4ODk2OCwtMzcwNzgwMTA3LC0xNj
+A0MTMwMDk3LDcwODk0MTk0OF19
 -->
