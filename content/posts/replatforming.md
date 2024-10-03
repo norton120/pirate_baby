@@ -29,8 +29,12 @@ There are many unspoken motivators for a replatform, and these are the ones to b
 - language preference among engineers
 - distant mountain syndrome
 - politics
-	- system A is owned by team B, and I want to own 
+	- system A is owned by team B, and I want to own this so I'll create system C that is owned by me
+- novelty, group think & shiny object syndrome
+	- old == bad
+	- "everybody knows x is faster than y"
+- boredom and career stagnation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMzNTAzMzk0LC0zNzA3ODAxMDcsLTE2MD
-QxMzAwOTcsNzA4OTQxOTQ4XX0=
+eyJoaXN0b3J5IjpbMTEzODI0MDI2MywtMzcwNzgwMTA3LC0xNj
+A0MTMwMDk3LDcwODk0MTk0OF19
 -->
