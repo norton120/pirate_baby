@@ -38,8 +38,8 @@ There are many unspoken motivators for a replatform, and these are the ones to b
 	- "if we work in Cobolt how will I ever get a job after this?"
 
 ### Logical Falacies of Replatforming
-There are some 
+There are a couple justifications for a software 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI3MDE1NzQ2LC0zNzA3ODAxMDcsLTE2MD
-QxMzAwOTcsNzA4OTQxOTQ4XX0=
+eyJoaXN0b3J5IjpbLTkyMTgwNzQ3OSwtMzcwNzgwMTA3LC0xNj
+A0MTMwMDk3LDcwODk0MTk0OF19
 -->
