@@ -134,31 +134,21 @@ Almost every engineer I know that says "I'm a programmer, the language doesn't m
 
 ### When Replatforming is the Right Answer
 
-  
-
 #### When the Talent Pool Dictates
 
 When a language or framework falls out of favor, the risk is two-fold. Engineers no longer want to invest in learning and mastering the platform, which in turn reduces the size of the talent pool available to hire. As it becomes harder (and therefore more expensive) to hire people to work on your application, and the people you have are less interested in working on it (and more likely to leave for a more attractive stack), the prudent solution might be to replatform to something more ubiquitous.
-
-  
 
 #### When the Team Dictates
 
 In a large organization with nearly homogeneous software tooling, a single rogue application written in a different language or framework can be a disproportional expense to the business. In this case it may make more sense to port the application to be in line with the rest of the org, rather than burden your teams to learn an additional stack.
 
-  
-
 #### When Concrete Limitations Are Reached
 
 There are situations where a given framework has firm limitations imposed to allow for conventions, and those conventions no longer meet your needs. Low-code platforms, for example, may begin to choke when complex authentication or multi-zone, multi-regional redundancies are required. In these cases it is not impossible to expand the existing framework to meet your needs, but fighting against the baked-in conventions makes the cost much greater than the return.
 
-  
-
 #### Extremes
 
 Facebook famously reached the limits of GIT version controlling and replatformed to Mercurial. Google has developed proprietary storage and distributed search technologies that support operations of Google-scale, and are certainly not their original technologies. There are situations where performance at extreme scale _does_ matter, and in those cases language and architecture choices are critical. It is important not to confuse these extremes with a painfully slow website that could be fixed with a $500 bump in cloud compute or some refactoring of a careless while-loop, both of which are much cheaper than a replatform.
-
-  
 
 #### When You NEED to be Cool
 
@@ -169,11 +159,12 @@ Replatforming just so you can use the hippest new framework may be foolish and i
 I was privy to one replatform that was not about performance, or profitability, or any technical drive for improvement, but about human interest. The organization had been through several years of M&A that resulted in a mishmash of applications, managed by five disperate technical teams across the globe. The CTO and owner wanted to bring the disjoined company and teams together, and he did so with a massive replatforming effort that spanned nearly two years. The end result was a singular application that was "owned" by everyone in the organization, but also a new culture that was far more cohesive. In this case, the cost of the replatform was also the price of healthy cultural growth.
 
 ## So, Did We Replatform?
+
 Reflection amongst myself and the client team helped us steer clear of a ground-up replatform. Instead we devised an iterative release of production features, coupled with small, surgical refactorings. Initially that means only a single operation will be executed in our new framework - an operation that will be trivial to implement in the new framework, but has been very complex and unreliable in the legacy platform. Once that feature is successfully released, we will address individual operations lacking in performance, test coverage and observability with targeted refactoring. This may result in our porting additional other operations to the new framework where the end result will be cleaner, more performant, more maintainable code - but the replatforming is a side effect of the feature release cycle, not the other way around. 
 
 If your team is considering an application replatform, I suggest that time spent considering the motivations, consequences, and alternatives is time well spent.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNjgyMzkzMiw5Mjc4MDg5ODEsOTU0Mz
+eyJoaXN0b3J5IjpbMTk4MTU4NzU3MCw5Mjc4MDg5ODEsOTU0Mz
 QyNjQsLTE3ODExNjkxNzksMTk5NDU3MDYwNSw4NTgwNTkwMDcs
 ODkzODIzMjIsMTE4MjY1NzU1NywtMjI3NjgxMDQwLC0xNTMyMj
 MyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQxMzAw
