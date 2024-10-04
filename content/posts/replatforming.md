@@ -143,7 +143,7 @@ In a large organization with nearly homogeneous software tooling, a single rogue
 
 #### When Concrete Limitations Are Reached
 
-There are situations where a given framework has firm limitations imposed to allow for conventions, and those conventions no longer meet your needs. Low-code platforms, for example, may begin to choke when complex authentication or multi-zone, multi-regional redundancies are required. On-prem architectures have a multitude of challenges that cloud computing In these cases it is not impossible to expand the existing framework to meet your needs, but fighting against the baked-in conventions makes the cost much greater than the return.
+There are situations where a given framework has firm limitations imposed to allow for conventions, and those conventions no longer meet your needs. Low-code platforms, for example, may begin to choke when complex authentication or multi-zone, multi-regional redundancies are required. On-prem architecture suffers from a multitude of limitations that are viritually non-existant in cloud computing. In these cases it i not impossible to expand the existing framework or architecture to meet your needs, but fighting against the baked-in conventions makes the cost much greater than the return.
 
 #### Extremes
 
@@ -163,7 +163,7 @@ Reflection amongst myself and the client team helped us steer clear of a ground-
 
 If your team is considering an application replatform, I suggest that time spent considering the motivations, consequences, and alternatives is time well spent.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA1NzczNTkwLC0yOTcxMDYwMjIsLTIwMD
+eyJoaXN0b3J5IjpbMzA1OTQ5NzgzLC0yOTcxMDYwMjIsLTIwMD
 AxODAzMDIsLTkxNjUwMDE3NCwzODA1NDY0NjEsLTM4NzA1Njcz
 MSwtMzg3MDU2NzMxLC0xODgxMzM5OTY5LDkyNzgwODk4MSw5NT
 QzNDI2NCwtMTc4MTE2OTE3OSwxOTk0NTcwNjA1LDg1ODA1OTAw
