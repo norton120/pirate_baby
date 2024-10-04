@@ -13,7 +13,7 @@ Replatforms are resource-intense, time consuming projects that can make or break
 
 ### What counts as a replatform?
 
-The exact boundaries of what would constitute a replatform are a bit fuzzy, and the distinction between a replatform, refactoring, and the natural evolution of features within a code base can be hard to define. In theory, a replatform is the decision to tear down or replace existing software with something entirely new. This new element could be a change in software framework, a total shift in architecture, or translation into an entirely different programming language (or all three at once!). In the physical world, replatforming would be analogous to bulldozing a derelict building and constructing a new one where the original building had stood. Just like in the real world, developers often play semantics to navigate politically; where the home builder in our real-world example might leave a few feet of the original foundation intact in order to file remodel permits and avoid new construction fees, a software engineering team may leave trivial processes running on the legacy system to avoid a potentially negative _replatform_ label. 
+The exact boundaries of what would constitute a replatform are a bit fuzzy, and the distinction between a replatform, refactoring, and the natural evolution of features within a code base can be hard to define. In theory, a replatform is the decision to tear down or replace existing software with something entirely new. This new element could be a change in software framework, a total shift in architecture, or translation into an entirely different programming language (or all three at once!). In the physical world, replatforming would be analogous to bulldozing a derelict building and constructing a new one where the original building had stood. Just like in the real world, developers often play semantics to navigate politically; where the home builder in our real-world example might leave a few feet of the original foundation intact in order to file remodel permits and avoid new construction fees, a software engineering team may leave trivial processes running on the legacy system to avoid a potentially negative _replatform_ label.
 
 <img src="/images/old_house.png" alt="an old house about to be demolished in a city that has outgrown it"/>
 
@@ -41,19 +41,13 @@ There are common themes that typically lead to the conclusion that a replatform 
 
 These are the reasons we _do_ talk about when discussing the massive time and resources investment that is a replatform. But what are the hidden motivators?
 
-  
-
 ### Why Do We Replatform - under the skin
 
 There are many unspoken motivators for a replatform, and these are the ones to be most aware of and challenge the most boldly.
 
-  
-
 #### Reign of the New King
 
 Replatforms often coincide with a change in engineering leadership. Just as a new POTUS will hand-pick their cabinet and implement policies that reflect their views, a new Director of Engineering or CTO will often populate the engineering team with "their people" - engineering managers and developers from their existing circles. Once they have assembled a familiar team, they will often replatform applications to an equally familiar programming language and framework. This also creates a historical divide between the new platform and the "old software" - legacy code with faceless owners that can be much more easily blamed and discredited.
-
-  
 
 #### Preferences Among Engineers
 
@@ -63,7 +57,7 @@ There is a particularly sneaky strategy to replatforming that is derived from th
 
 #### The Distant Mountain
 
-<img src="/images/tiny_mountain.png" alt="image of a mountain in the distance and a person pinching the view between their fingers" />
+<img src="/images/distant_mountain.png" alt="image of a mountain in the distance and a person pinching the view between their fingers" />
 
 Everything looks much easier from far away, just as a distant mountain appears tiny when compared to the hill you are currently climbing. Existing platforms have likely handled all the easy challenges long ago, leaving the day-to-day efforts of engineers grounded in the remaining, most difficult problems. It is tempting to believe that "changing mountains" will make everything easier - and for a while it absolutely will. Instead of adding new value by solving hard problems, engineers get to re-solve the easy problems in a different language or a new framework. Of course by the time the replatformed application has reached the same level of complexity and handled the same business cases as the legacy application, the problems will be just as hard, and the business will have gotten no value from the efforts.
 
@@ -85,7 +79,7 @@ Engineers are stimulated by solving complex problems. The job is often exception
 
 Closely linked to boredom is the fear of stagnating. Hiring managers often (unfairly in many cases) associate less-fashionable frameworks and programming languages with less desirable candidates. There is also the empirical factor of market share; as the footprint of a framework or language shrinks within the software world, the demand for engineers with that pointed skill set decreases. In a world where the worldwide average tenure for a software engineer is less than 18 months, it is understandable that engineers may vie for a replatform that will make them more marketable in the future.
 
-  
+
 
 ### Logical Fallacies of Replatforming
 
@@ -165,7 +159,7 @@ I was privy to one replatform that was not about performance, or profitability, 
 
 ## So, Did We Replatform?
 
-Reflection amongst myself and the client team helped us steer clear of a ground-up replatform. Instead we devised an iterative release of production features, coupled with small, surgical refactorings. Initially that means only a single operation will be executed in our new framework - an operation that will be trivial to implement in the new framework, but has been very complex and unreliable in the legacy platform. Once that feature is successfully released, we will address individual operations lacking in performance, test coverage and observability with targeted refactoring. This may result in our porting additional other operations to the new framework where the end result will be cleaner, more performant, more maintainable code - but the replatforming is a side effect of the feature release cycle, not the other way around. 
+Reflection amongst myself and the client team helped us steer clear of a ground-up replatform. Instead we devised an iterative release of production features, coupled with small, surgical refactorings. Initially that means only a single operation will be executed in our new framework - an operation that will be trivial to implement in the new framework, but has been very complex and unreliable in the legacy platform. Once that feature is successfully released, we will address individual operations lacking in performance, test coverage and observability with targeted refactoring. This may result in our porting additional other operations to the new framework where the end result will be cleaner, more performant, more maintainable code - but the replatforming is a side effect of the feature release cycle, not the other way around.
 
 If your team is considering an application replatform, I suggest that time spent considering the motivations, consequences, and alternatives is time well spent.
 <!--stackedit_data:
