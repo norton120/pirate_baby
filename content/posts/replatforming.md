@@ -63,7 +63,7 @@ There is a particularly sneaky strategy to replatforming that is derived from th
 
 #### The Distant Mountain
 
-<img src="/images/tiny_mountain.png" alt="image of a mountain in the distance and a person pinching the view between their fingers"/>
+<img src="/images/tiny_mountain.png" alt="image of a mountain in the distance and a person pinching the view between their fingers" />
 
 Everything looks much easier from far away, just as a distant mountain appears tiny when compared to the hill you are currently climbing. Existing platforms have likely handled all the easy challenges long ago, leaving the day-to-day efforts of engineers grounded in the remaining, most difficult problems. It is tempting to believe that "changing mountains" will make everything easier - and for a while it absolutely will. Instead of adding new value by solving hard problems, engineers get to re-solve the easy problems in a different language or a new framework. Of course by the time the replatformed application has reached the same level of complexity and handled the same business cases as the legacy application, the problems will be just as hard, and the business will have gotten no value from the efforts.
 
@@ -169,10 +169,11 @@ Reflection amongst myself and the client team helped us steer clear of a ground-
 
 If your team is considering an application replatform, I suggest that time spent considering the motivations, consequences, and alternatives is time well spent.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDAxODAzMDIsLTkxNjUwMDE3NCwzOD
-A1NDY0NjEsLTM4NzA1NjczMSwtMzg3MDU2NzMxLC0xODgxMzM5
-OTY5LDkyNzgwODk4MSw5NTQzNDI2NCwtMTc4MTE2OTE3OSwxOT
-k0NTcwNjA1LDg1ODA1OTAwNyw4OTM4MjMyMiwxMTgyNjU3NTU3
-LC0yMjc2ODEwNDAsLTE1MzIyMzI5MDIsLTE2NjQ3MjY3ODQsLT
-M3MDc4MDEwNywtMTYwNDEzMDA5Nyw3MDg5NDE5NDhdfQ==
+eyJoaXN0b3J5IjpbLTI5NzEwNjAyMiwtMjAwMDE4MDMwMiwtOT
+E2NTAwMTc0LDM4MDU0NjQ2MSwtMzg3MDU2NzMxLC0zODcwNTY3
+MzEsLTE4ODEzMzk5NjksOTI3ODA4OTgxLDk1NDM0MjY0LC0xNz
+gxMTY5MTc5LDE5OTQ1NzA2MDUsODU4MDU5MDA3LDg5MzgyMzIy
+LDExODI2NTc1NTcsLTIyNzY4MTA0MCwtMTUzMjIzMjkwMiwtMT
+Y2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0MTMwMDk3LDcwODk0
+MTk0OF19
 -->
