@@ -4,7 +4,9 @@ date: 2024-10-01
 tags: ['de','ml']
 draft: false
 ---
+
 <img src="/images/evolving_powerplant.png" alt="image of an internal combustion engine next to a hypothetical fusion powerplant" />
+
 I was sketching out architectural recommendations for a client project that, after a successful POC, was ready for the prime-time of production software. I stopped to ask myself _why_ the new arch diagram I was creating looked vastly different from the architecture of the existing concept software; even when my answers seemed solid (they included specific measures of reliability, speed, scale, and security), I could not shake the feeling that this felt familiar in a bad way. I counted the number of replatforms I have either been directly responsible for (i.e. several Modern Data Stack conversions) or indirectly impacted by (Data Warehouse reconciliations between the "old" and "new" systems) over the last fifteen years. I came up with thirteen replatforms. Of those thirteen, only four eventually yielded positive product or engineering outcomes; that is a **roughly 70% failure rate** among replatforms I have personally witnessed. It is no wonder that anything resembling a re-write, re-architecture, or re-thinking gives me immediate pause.
 
 Replatforms are resource-intense, time consuming projects that can make or break executive careers, mark the hockey stick inflection point for an organizations' growth, or leave permanent scars in the relationship between business and technology. They usually begin with excitement and hope, but far too often end with frustration and resentment. It is worth looking deeper to truly understand what is going on in a replatform, and what can potentially go wrong.
@@ -167,10 +169,10 @@ Reflection amongst myself and the client team helped us steer clear of a ground-
 
 If your team is considering an application replatform, I suggest that time spent considering the motivations, consequences, and alternatives is time well spent.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNjUwMDE3NCwzODA1NDY0NjEsLTM4Nz
-A1NjczMSwtMzg3MDU2NzMxLC0xODgxMzM5OTY5LDkyNzgwODk4
-MSw5NTQzNDI2NCwtMTc4MTE2OTE3OSwxOTk0NTcwNjA1LDg1OD
-A1OTAwNyw4OTM4MjMyMiwxMTgyNjU3NTU3LC0yMjc2ODEwNDAs
-LTE1MzIyMzI5MDIsLTE2NjQ3MjY3ODQsLTM3MDc4MDEwNywtMT
-YwNDEzMDA5Nyw3MDg5NDE5NDhdfQ==
+eyJoaXN0b3J5IjpbLTIwMDAxODAzMDIsLTkxNjUwMDE3NCwzOD
+A1NDY0NjEsLTM4NzA1NjczMSwtMzg3MDU2NzMxLC0xODgxMzM5
+OTY5LDkyNzgwODk4MSw5NTQzNDI2NCwtMTc4MTE2OTE3OSwxOT
+k0NTcwNjA1LDg1ODA1OTAwNyw4OTM4MjMyMiwxMTgyNjU3NTU3
+LC0yMjc2ODEwNDAsLTE1MzIyMzI5MDIsLTE2NjQ3MjY3ODQsLT
+M3MDc4MDEwNywtMTYwNDEzMDA5Nyw3MDg5NDE5NDhdfQ==
 -->
