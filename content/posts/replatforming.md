@@ -4,6 +4,7 @@ date: 2024-10-01
 tags: ['de','ml']
 draft: false
 ---
+<img src="/images/evolving_powerplant.png" alt="image of an internal combustion engine next to a hypothetical fusion powerpla
 I was sketching out architectural recommendations for a client project that, after a successful POC, was ready for the prime-time of production software. I stopped to ask myself _why_ the new arch diagram I was creating looked vastly different from the architecture of the existing concept software; even when my answers seemed solid (they included specific measures of reliability, speed, scale, and security), I could not shake the feeling that this felt familiar in a bad way. I counted the number of replatforms I have either been directly responsible for (i.e. several Modern Data Stack conversions) or indirectly impacted by (Data Warehouse reconciliations between the "old" and "new" systems) over the last fifteen years. I came up with thirteen replatforms. Of those thirteen, only four eventually yielded positive product or engineering outcomes; that is a **roughly 70% failure rate** among replatforms I have personally witnessed. It is no wonder that anything resembling a re-write, re-architecture, or re-thinking gives me immediate pause.
 
 Replatforms are resource-intense, time consuming projects that can make or break executive careers, mark the hockey stick inflection point for an organizations' growth, or leave permanent scars in the relationship between business and technology. They usually begin with excitement and hope, but far too often end with frustration and resentment. It is worth looking deeper to truly understand what is going on in a replatform, and what can potentially go wrong.
@@ -59,6 +60,7 @@ It is not surprising that if you are fluent in Spanish, you might try to get eve
 There is a particularly sneaky strategy to replatforming that is derived from this motivation, and which I've witnessed first-hand several times. An engineer who is not a huge fan of the existing language or framework brings up their preferred platform, qualifying the suggestion with "but hey, I'm a computer scientist and the language isn't important, I'll write in whatever makes sense to everyone." Shortly after, they create a new codebase using their preferred language and framework, and begin implementing new features in this codebase as an "auxiliary service" to the existing application. "I'm just going to do auth/caching/whatever in this one, but hey the real service is still the 'old' platform." Finally, the engineer begins duplicating existing functionality, and in every meeting they lead with "Why don't we implement that in the new platform instead?" Beyond the dishonesty and generally gross nature of this technique, it has the added effect of committing the organization to an expensive, time-consuming replatform without the knowledge of leadership. I mention it because it is a disturbingly common pattern that should be avoided at all costs.
 
 #### The Distant Mountain
+
 <img src="/images/tiny_mountain.png" alt="image of a mountain in the distance and a person pinching the view between their fingers"/>
 
 Everything looks much easier from far away, just as a distant mountain appears tiny when compared to the hill you are currently climbing. Existing platforms have likely handled all the easy challenges long ago, leaving the day-to-day efforts of engineers grounded in the remaining, most difficult problems. It is tempting to believe that "changing mountains" will make everything easier - and for a while it absolutely will. Instead of adding new value by solving hard problems, engineers get to re-solve the easy problems in a different language or a new framework. Of course by the time the replatformed application has reached the same level of complexity and handled the same business cases as the legacy application, the problems will be just as hard, and the business will have gotten no value from the efforts.
@@ -165,10 +167,10 @@ Reflection amongst myself and the client team helped us steer clear of a ground-
 
 If your team is considering an application replatform, I suggest that time spent considering the motivations, consequences, and alternatives is time well spent.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgwNTQ2NDYxLC0zODcwNTY3MzEsLTM4Nz
-A1NjczMSwtMTg4MTMzOTk2OSw5Mjc4MDg5ODEsOTU0MzQyNjQs
-LTE3ODExNjkxNzksMTk5NDU3MDYwNSw4NTgwNTkwMDcsODkzOD
-IzMjIsMTE4MjY1NzU1NywtMjI3NjgxMDQwLC0xNTMyMjMyOTAy
-LC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQxMzAwOTcsNz
-A4OTQxOTQ4XX0=
+eyJoaXN0b3J5IjpbLTExNTkyOTcxNTcsMzgwNTQ2NDYxLC0zOD
+cwNTY3MzEsLTM4NzA1NjczMSwtMTg4MTMzOTk2OSw5Mjc4MDg5
+ODEsOTU0MzQyNjQsLTE3ODExNjkxNzksMTk5NDU3MDYwNSw4NT
+gwNTkwMDcsODkzODIzMjIsMTE4MjY1NzU1NywtMjI3NjgxMDQw
+LC0xNTMyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLT
+E2MDQxMzAwOTcsNzA4OTQxOTQ4XX0=
 -->
