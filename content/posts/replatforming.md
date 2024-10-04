@@ -143,7 +143,7 @@ In a large organization with nearly homogeneous software tooling, a single rogue
 
 #### When Concrete Limitations Are Reached
 
-There are situations where a given framework has firm limitations imposed to allow for conventions, and those conventions no longer meet your needs. Low-code platforms, for example, may begin to choke when complex authentication or multi-zone, multi-regional redundancies are required. On-prem architecture suffers from a multitude of limitations that are viritually non-existant in cloud computing. In these cases it may not _impossible_ to expand the existing framework or architecture to meet your needs, but fighting against the baked-in conventions, system limitations, and expense profiles can make the cost of not replatforming much greater than the return.
+There are situations where a given framework has firm limitations imposed to allow for conventions, and those conventions no longer meet your needs. Low-code platforms, for example, may begin to choke when complex authentication or multi-zone, multi-regional redundancies are required. On-prem architecture suffers from a multitude of limitations that are virtually non-existent in cloud computing. In these cases it may not _impossible_ to expand the existing framework or architecture to meet your needs, but fighting against the baked-in conventions, system limitations, and expense profiles can make the cost of not replatforming much greater than the return.
 
 #### Extremes
 
@@ -163,11 +163,11 @@ Reflection amongst myself and the client team helped us steer clear of a ground-
 
 If your team is considering an application replatform, I suggest that time spent considering the motivations, consequences, and alternatives is time well spent.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjM5NDgwNzMsLTI5NzEwNjAyMiwtMj
-AwMDE4MDMwMiwtOTE2NTAwMTc0LDM4MDU0NjQ2MSwtMzg3MDU2
-NzMxLC0zODcwNTY3MzEsLTE4ODEzMzk5NjksOTI3ODA4OTgxLD
-k1NDM0MjY0LC0xNzgxMTY5MTc5LDE5OTQ1NzA2MDUsODU4MDU5
-MDA3LDg5MzgyMzIyLDExODI2NTc1NTcsLTIyNzY4MTA0MCwtMT
-UzMjIzMjkwMiwtMTY2NDcyNjc4NCwtMzcwNzgwMTA3LC0xNjA0
-MTMwMDk3XX0=
+eyJoaXN0b3J5IjpbMTYyMzc2MjcxNCwtMjk3MTA2MDIyLC0yMD
+AwMTgwMzAyLC05MTY1MDAxNzQsMzgwNTQ2NDYxLC0zODcwNTY3
+MzEsLTM4NzA1NjczMSwtMTg4MTMzOTk2OSw5Mjc4MDg5ODEsOT
+U0MzQyNjQsLTE3ODExNjkxNzksMTk5NDU3MDYwNSw4NTgwNTkw
+MDcsODkzODIzMjIsMTE4MjY1NzU1NywtMjI3NjgxMDQwLC0xNT
+MyMjMyOTAyLC0xNjY0NzI2Nzg0LC0zNzA3ODAxMDcsLTE2MDQx
+MzAwOTddfQ==
 -->
