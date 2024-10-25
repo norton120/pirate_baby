@@ -50,14 +50,14 @@ class Interface(BaseModel):
  ```
  This coupling begets more coupling, as an exclusive white list of types can be too tempting for a junior developer to resist peeking under the hood and hard-wiring dependencies on an adapter’s internals. 
 
-Maybe that is the magic of Pydant
+And maybe the next evolution is to statically type
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU1NzM1NDMwLC0xNzY0NzU0MzAyLDE5MT
-czNjQyNzQsLTc0NTk5NzM4NiwtNjQ2NTcwNDgzLDE5MTExNTg5
-MzcsLTQ3MTk4NTY0Myw0MzczNDMwNjEsLTM5OTcyNDQzMywtMT
-E1Njg3NDA3MCwtMTM0ODg4NTIwNCwtMjE3NTY3NjU0LDE3MzI5
-NzAwNTQsMjAxNjYxMjI1NCwyMDE2NjEyMjU0LDU3NjY0Nzg5MC
-wtNjkzNjA3NjEwLDEwOTA1NTAyMzhdfQ==
+eyJoaXN0b3J5IjpbLTU2MDY2MTgxNSwtMTc2NDc1NDMwMiwxOT
+E3MzY0Mjc0LC03NDU5OTczODYsLTY0NjU3MDQ4MywxOTExMTU4
+OTM3LC00NzE5ODU2NDMsNDM3MzQzMDYxLC0zOTk3MjQ0MzMsLT
+ExNTY4NzQwNzAsLTEzNDg4ODUyMDQsLTIxNzU2NzY1NCwxNzMy
+OTcwMDU0LDIwMTY2MTIyNTQsMjAxNjYxMjI1NCw1NzY2NDc4OT
+AsLTY5MzYwNzYxMCwxMDkwNTUwMjM4XX0=
 -->
