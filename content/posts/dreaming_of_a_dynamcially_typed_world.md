@@ -20,11 +20,11 @@ If you share formative years with Python (child of the 1980s-1990s) you probably
 * [Hanging with Mister Cooper](https://www.imdb.com/title/tt0103435/)
 * [Fresh Prince of Bel-Air](https://www.imdb.com/title/tt0098800/)
 * [Star Trek: Deep Space Nine](https://www.imdb.com/title/tt0106145/)
-* Family Matters
+* [Family Matters](https://www.imdb.com/title/tt0096579/)
 * [Different Strokes](https://www.imdb.com/title/tt0077003/) (syndicated)
-* [the Cosby Show 
+* [the Cosby Show](https://www.imdb.com/title/tt0086687/) 
 
-I remembered watching _Family Matters_ instead of _Full House_ because Carl Winslow was much cooler than Danny Tanner. I remembered that Mister Cooper was a less creepy mentor than the next door neighbor in _Boy Meets World_. I would still take an assignment on Deep Space Nine over any Federation ship. But earlier, I didn't occur to me how much of my TV family was black. My mind hadn't registered what they _were_, in part because that thinking was decidedly out of fashion at the time those memories were formed. Is the way I remembered those characters really all that different from cringing any time I see `if isinstance(x, y):`  in a codebase? The heyday of dynamcially typed OOP-forward languages like Python and Ruby coencided with societal pressure to "be colorblind" in a way that is hard to ignore.
+I remembered watching _Family Matters_ instead of _Full House_ because Carl Winslow was much cooler than Danny Tanner. I remembered that Mister Cooper was a less creepy mentor than the next door neighbor in _Boy Meets World_. And I wanted to live on _Deep Space Nine_ more than any Federation ship. But earlier, I didn't occur to me how much of my TV family was black. My mind hadn't registered what they _were_, in part because that thinking was decidedly out of fashion at the time those memories were formed. Is the way I remembered those characters really all that different from cringing any time I see `if isinstance(x, y):`  in a codebase? The heyday of dynamcially typed OOP-forward languages like Python and Ruby coencided with societal pressure to "be colorblind" in a way that is hard to ignore.
 
 Consider the era that gave rise to `TypeScript` and `Pydantic` - the 2010s. After a decade of dynamically typed code, many developers were tired of "magic soup" - applications filled with cryptic round-about logic and side effects that were impossible to debug, and class names that looked like the developer was training for BBC Countdown. These developers craved the structure, order, and simplicity of pattern matching, and with that came the return of typing and functional programming. 
 
@@ -74,7 +74,7 @@ def send_message(self, message:str):
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMDg0NzMwNiw1OTcxODc0MTIsLTE3Nj
+eyJoaXN0b3J5IjpbMTU1MDU1NDg4OSw1OTcxODc0MTIsLTE3Nj
 Q3NTQzMDIsMTkxNzM2NDI3NCwtNzQ1OTk3Mzg2LC02NDY1NzA0
 ODMsMTkxMTE1ODkzNywtNDcxOTg1NjQzLDQzNzM0MzA2MSwtMz
 k5NzI0NDMzLC0xMTU2ODc0MDcwLC0xMzQ4ODg1MjA0LC0yMTc1
