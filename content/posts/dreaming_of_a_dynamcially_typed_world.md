@@ -65,8 +65,9 @@ description: str
 adapter: DuckType # I intend to duck type this!
 
 def send_message(self, message:str): 
+    prepped_message = self.some_cool_pre_process(message)
     try: 
-	    self.adapter.send_message(message) 
+	    self.adapter.send_message(prepped_message) 
     except AttributeError as e:
         raise ValueError("adapter must implement 'send_message', not implemented in adapter %s", self.adapter) from e
 ```
@@ -77,10 +78,11 @@ def send_message(self, message:str):
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI3OTQ5NjM2LDU5NzE4NzQxMiwtMTc2ND
-c1NDMwMiwxOTE3MzY0Mjc0LC03NDU5OTczODYsLTY0NjU3MDQ4
-MywxOTExMTU4OTM3LC00NzE5ODU2NDMsNDM3MzQzMDYxLC0zOT
-k3MjQ0MzMsLTExNTY4NzQwNzAsLTEzNDg4ODUyMDQsLTIxNzU2
-NzY1NCwxNzMyOTcwMDU0LDIwMTY2MTIyNTQsMjAxNjYxMjI1NC
-w1NzY2NDc4OTAsLTY5MzYwNzYxMCwxMDkwNTUwMjM4XX0=
+eyJoaXN0b3J5IjpbLTk0MzQ2MzAyMiw2Mjc5NDk2MzYsNTk3MT
+g3NDEyLC0xNzY0NzU0MzAyLDE5MTczNjQyNzQsLTc0NTk5NzM4
+NiwtNjQ2NTcwNDgzLDE5MTExNTg5MzcsLTQ3MTk4NTY0Myw0Mz
+czNDMwNjEsLTM5OTcyNDQzMywtMTE1Njg3NDA3MCwtMTM0ODg4
+NTIwNCwtMjE3NTY3NjU0LDE3MzI5NzAwNTQsMjAxNjYxMjI1NC
+wyMDE2NjEyMjU0LDU3NjY0Nzg5MCwtNjkzNjA3NjEwLDEwOTA1
+NTAyMzhdfQ==
 -->
