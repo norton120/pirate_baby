@@ -29,14 +29,14 @@ I remembered watching _Family Matters_ instead of _Full House_ because Carl Wins
 Consider the era that gave rise to `TypeScript` and `Pydantic` - the 2010s. After a decade of dynamically typed code, many developers were tired of "magic soup" - applications filled with cryptic round-about logic and side effects that were impossible to debug. Class names that looked like the developer was training for Countdown on the BBC. They wanted structure, order, and simplicity of pattern matching, and with that came the return of typing and functional programming. 
 
 Both TypeScript and Pydantic start every method with a single question: "what are you?" The identity of the object is the base for all proceeding business logic. In this case it does not matter if the calling function invokes an `update()` method and the object has an `update()` method, if the object type is wrong this call will never get that far. This confirmation of type occurs at every functional exchange in TypeScript and as much of the typed Python codebase as inherits from `Pydantic.BaseModel`, effectively starting every transaction and sub-transaction with a declaration of identity. "As a `ProductUpdateRequest` object, I have an `update()` method I can execute for you." 
-You can form your own par
+Around this same time we saw the emergence of identity-forward thinking in academic circles, politics, and eventually everyday 
 
 
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTk5OTk1MjksLTEzNDg4ODUyMDQsLT
-IxNzU2NzY1NCwxNzMyOTcwMDU0LDIwMTY2MTIyNTQsMjAxNjYx
-MjI1NCw1NzY2NDc4OTAsLTY5MzYwNzYxMCwxMDkwNTUwMjM4XX
-0=
+eyJoaXN0b3J5IjpbMTUyMDc0MjAzMSwtMTM0ODg4NTIwNCwtMj
+E3NTY3NjU0LDE3MzI5NzAwNTQsMjAxNjYxMjI1NCwyMDE2NjEy
+MjU0LDU3NjY0Nzg5MCwtNjkzNjA3NjEwLDEwOTA1NTAyMzhdfQ
+==
 -->
