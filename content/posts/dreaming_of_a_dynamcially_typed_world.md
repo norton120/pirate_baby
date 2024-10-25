@@ -9,9 +9,9 @@ In 1967 computer scientist Melvin Conway made an observation that came to be kno
 
 > Organizations which design systems (in the broad sense used here) are constrained to produce designs which are copies of the communication structures of these organizations.
 
-Conway's Law is why you often find rigid, silo'ed tables modeled into the data architecture of rigid companies with silo'ed business departments, or scrambled and unplanned relationships across software entities at bootstrap startups; code reflects the human environment in which it develops.
+Conway's Law is why you often find rigid, silo'ed tables modeled into the data architecture of rigid companies with silo'ed business departments, or scrambled and unplanned relationships across software entities at bootstrap startups; code reflects the human environment in which it is developed.
 
-Recently a post by a young developer caught my attention; this developer noted (rather snarkily) the contradiction between Python type hints and, by extension, _Pydantic_ Python as an effectively strongly-typed version of the language, with the traditional _Pythonic_ mantra of duck typing. The frustration was warranted, and sometimes it takes fresh eyes unaware of the historical context to call out a bad situation. Best practices are not written in a vacuum by wise old neckbeards and then chiseled in a specification for all to obey; these practices are codified reflections of developer community behavior, in much the same way that _Webster's Dictionary_ reflects the evolution of English (and is not the root cause of that evolution). If the best practices of Python typing are becoming increasingly contradictory, it mirrors the increasingly contridictory nature in which the software development community approaches designing Python software - and this got me thinking.
+Recently a post by a young developer caught my attention; this developer noted (rather snarkily) the contradiction between Python type hints and, by extension, _Pydantic_ Python as an effectively strongly-typed version of the language, with the traditional _Pythonic_ mantra of duck typing. The frustration was warranted, and sometimes it takes fresh eyes unaware of the historical context to call out a bad situation. The  practices are not written in a vacuum by wise old neckbeards and then chiseled in a specification for all to obey; these practices are codified reflections of developer community behavior, in much the same way that _Webster's Dictionary_ reflects the evolution of English (and is not the root cause of that evolution). If the best practices of Python typing are becoming increasingly contradictory, it mirrors the increasingly contridictory nature in which the software development community approaches designing Python software - and this got me thinking.
 
 What if Conway's Law extrapolates beyond the walls of the office? What if, just as the DNA of an organization determines the ultimate shape of that organization's applications, the social archetype held by humanity's software developers determines the evolution of our programming languages? What if Python is changing in the same way that the people _writing_ Python are changing?
 
@@ -88,11 +88,11 @@ As for the sociology part, I am no expert in humanity. I am sure that my bias to
 
 <sub>1. Python as a language has been around since the late 1980s, however, Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that applies to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njk2MTU2ODcsLTU0MDI5MzE5NiwxMT
-g3NTE3ODE1LC0xMzEyNzE4OTk3LDYyNzk0OTYzNiw1OTcxODc0
-MTIsLTE3NjQ3NTQzMDIsMTkxNzM2NDI3NCwtNzQ1OTk3Mzg2LC
-02NDY1NzA0ODMsMTkxMTE1ODkzNywtNDcxOTg1NjQzLDQzNzM0
-MzA2MSwtMzk5NzI0NDMzLC0xMTU2ODc0MDcwLC0xMzQ4ODg1Mj
-A0LC0yMTc1Njc2NTQsMTczMjk3MDA1NCwyMDE2NjEyMjU0LDIw
-MTY2MTIyNTRdfQ==
+eyJoaXN0b3J5IjpbLTU1ODc0ODEzMCwtNTQwMjkzMTk2LDExOD
+c1MTc4MTUsLTEzMTI3MTg5OTcsNjI3OTQ5NjM2LDU5NzE4NzQx
+MiwtMTc2NDc1NDMwMiwxOTE3MzY0Mjc0LC03NDU5OTczODYsLT
+Y0NjU3MDQ4MywxOTExMTU4OTM3LC00NzE5ODU2NDMsNDM3MzQz
+MDYxLC0zOTk3MjQ0MzMsLTExNTY4NzQwNzAsLTEzNDg4ODUyMD
+QsLTIxNzU2NzY1NCwxNzMyOTcwMDU0LDIwMTY2MTIyNTQsMjAx
+NjYxMjI1NF19
 -->
