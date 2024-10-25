@@ -40,7 +40,9 @@ Around this same time we saw the emergence of identity-forward thinking in acade
      return arg
 ```
 
- “Accept either a string or a list of strings” is one of those times that duck typing sucks. The most straightforward way to get this done is to pattern match object identity, because both a `str` and any other iterable will qualify for iteration- they can both “do the job” but the string will do it incorrectly, and won’t know until it’s too late. On the other hand, unnecessary rigid typing creates the potential for a serious coupling issue. Consider an adapter interface: 
+ “Accept either a string or a list of strings” is one of those times that duck typing just sucks. The most straightforward way to get this done is to pattern match object identity, because both a `str` and any other iterable will qualify for iteration- they can both “do the job” but the string will do it incorrectly, and you won’t know until it is too late. 
+
+On the other hand, unnecessary rigid typing creates the potential for a serious coupling issue. Consider an adapter interface: 
 ```python
 class Interface(BaseModel):
     adapter: XAdapter
@@ -75,10 +77,10 @@ def send_message(self, message:str):
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUxMDI1MjMxLDU5NzE4NzQxMiwtMTc2ND
-c1NDMwMiwxOTE3MzY0Mjc0LC03NDU5OTczODYsLTY0NjU3MDQ4
-MywxOTExMTU4OTM3LC00NzE5ODU2NDMsNDM3MzQzMDYxLC0zOT
-k3MjQ0MzMsLTExNTY4NzQwNzAsLTEzNDg4ODUyMDQsLTIxNzU2
-NzY1NCwxNzMyOTcwMDU0LDIwMTY2MTIyNTQsMjAxNjYxMjI1NC
-w1NzY2NDc4OTAsLTY5MzYwNzYxMCwxMDkwNTUwMjM4XX0=
+eyJoaXN0b3J5IjpbLTQ0NzgyMzUyNCw1OTcxODc0MTIsLTE3Nj
+Q3NTQzMDIsMTkxNzM2NDI3NCwtNzQ1OTk3Mzg2LC02NDY1NzA0
+ODMsMTkxMTE1ODkzNywtNDcxOTg1NjQzLDQzNzM0MzA2MSwtMz
+k5NzI0NDMzLC0xMTU2ODc0MDcwLC0xMzQ4ODg1MjA0LC0yMTc1
+Njc2NTQsMTczMjk3MDA1NCwyMDE2NjEyMjU0LDIwMTY2MTIyNT
+QsNTc2NjQ3ODkwLC02OTM2MDc2MTAsMTA5MDU1MDIzOF19
 -->
