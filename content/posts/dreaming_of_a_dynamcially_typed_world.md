@@ -32,13 +32,14 @@ Both TypeScript and Pydantic start every method with a single question: "what ar
 Around this same time we saw the emergence of identity-forward thinking in academic circles, politics and business. Examples abound of the growing importance placed on identity during this time period; as it’s safe to assume that anyone reading this has reasonably vivid memories of the last 10 years, I will leave you to draw your own parallels.
 
  This is not an indictment of either the static or dynamic typing language paradigms. Both have strengths and weaknesses - for example, how many times have you written this little gem? 
- `
+ ```python
+ def standardize_args(arg:Union[
 
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTk3MTkyNiwtMzk5NzI0NDMzLC0xMT
-U2ODc0MDcwLC0xMzQ4ODg1MjA0LC0yMTc1Njc2NTQsMTczMjk3
-MDA1NCwyMDE2NjEyMjU0LDIwMTY2MTIyNTQsNTc2NjQ3ODkwLC
-02OTM2MDc2MTAsMTA5MDU1MDIzOF19
+eyJoaXN0b3J5IjpbODExMTE2MjQwLC0zOTk3MjQ0MzMsLTExNT
+Y4NzQwNzAsLTEzNDg4ODUyMDQsLTIxNzU2NzY1NCwxNzMyOTcw
+MDU0LDIwMTY2MTIyNTQsMjAxNjYxMjI1NCw1NzY2NDc4OTAsLT
+Y5MzYwNzYxMCwxMDkwNTUwMjM4XX0=
 -->
