@@ -39,12 +39,12 @@ Around this same time we saw the emergence of identity-forward thinking in acade
      return arg
 ```
 
- “Accept a string or a list of strings” is one of those times that duck typing sucks. The 
+ “Accept a string or a list of strings” is one of those times that duck typing sucks. The most straightforward way to get this done is to pattern match object identity, but 
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzU4NjI0NTAsLTM5OTcyNDQzMywtMT
-E1Njg3NDA3MCwtMTM0ODg4NTIwNCwtMjE3NTY3NjU0LDE3MzI5
-NzAwNTQsMjAxNjYxMjI1NCwyMDE2NjEyMjU0LDU3NjY0Nzg5MC
-wtNjkzNjA3NjEwLDEwOTA1NTAyMzhdfQ==
+eyJoaXN0b3J5IjpbNjU0NDg5OTM4LC0zOTk3MjQ0MzMsLTExNT
+Y4NzQwNzAsLTEzNDg4ODUyMDQsLTIxNzU2NzY1NCwxNzMyOTcw
+MDU0LDIwMTY2MTIyNTQsMjAxNjYxMjI1NCw1NzY2NDc4OTAsLT
+Y5MzYwNzYxMCwxMDkwNTUwMjM4XX0=
 -->
