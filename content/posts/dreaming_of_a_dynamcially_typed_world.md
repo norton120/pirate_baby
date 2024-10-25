@@ -24,7 +24,7 @@ If you share formative years with Python (child of the 1980s-1990s) you probably
 * Different Strokes
 * the Cosby Show 
 
-I remembered watching _Family Matters_ instead of _Full House_ because Carl Winslow was much cooler than Danny Tanner. I remembered that Mister Cooper was a less creepy mentor than the next door neighbor in _Boy Meets World_. And Captain Sisco is stil But I didn't remember that a lot of my TV family was black. My mind hadn't registered what they _were_, in part because that thinking was decidedly out of fashion at the time those memories were formed. Is the way I remembered those characters really all that different from cringing any time I see `if isinstance(x, y):`  in a codebase? The heyday of dynamcially typed OOP-forward languages like Python and Ruby coencided with societal pressure to "be colorblind" in a way that is hard to ignore.
+I remembered watching _Family Matters_ instead of _Full House_ because Carl Winslow was much cooler than Danny Tanner. I remembered that Mister Cooper was a less creepy mentor than the next door neighbor in _Boy Meets World_. I would still take an assignment on Deep Space Nine over any Federation ship. But earlier, I didn't occur to me how much of my TV family was black. My mind hadn't registered what they _were_, in part because that thinking was decidedly out of fashion at the time those memories were formed. Is the way I remembered those characters really all that different from cringing any time I see `if isinstance(x, y):`  in a codebase? The heyday of dynamcially typed OOP-forward languages like Python and Ruby coencided with societal pressure to "be colorblind" in a way that is hard to ignore.
 
 Consider the era that gave rise to `TypeScript` and `Pydantic` - the 2010s. After a decade of dynamically typed code, many developers were tired of "magic soup" - applications filled with cryptic round-about logic and side effects that were impossible to debug. Class names that looked like the developer was training for Countdown on the BBC. They wanted structure, order, and simplicity of pattern matching, and with that came the return of typing and functional programming. 
 
@@ -72,7 +72,7 @@ def send_message(self, message:str):
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDk1ODEwMzcsNTk3MTg3NDEyLC0xNz
+eyJoaXN0b3J5IjpbLTIwMjY3ODg2NzgsNTk3MTg3NDEyLC0xNz
 Y0NzU0MzAyLDE5MTczNjQyNzQsLTc0NTk5NzM4NiwtNjQ2NTcw
 NDgzLDE5MTExNTg5MzcsLTQ3MTk4NTY0Myw0MzczNDMwNjEsLT
 M5OTcyNDQzMywtMTE1Njg3NDA3MCwtMTM0ODg4NTIwNCwtMjE3
