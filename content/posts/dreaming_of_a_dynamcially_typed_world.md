@@ -40,77 +40,45 @@ If you share formative years with Python (a child of the 1980s-90s) you probably
 * [Family Matters](https://www.imdb.com/title/tt0096579/)
 
 * [Different Strokes](https://www.imdb.com/title/tt0077003/) (syndicated)
-
 * [the Cosby Show](https://www.imdb.com/title/tt0086687/)
-
-  
 
 I remembered watching _Family Matters_ instead of _Full House_ because Carl Winslow was much cooler than Danny Tanner. I remembered Mister Cooper was a relatable mentor, while the next-door neighbor in _Boy Meets World_ was creepy. But earlier in the conversation it hadn't occurred to me how much of my TV family was black. My mind hadn't registered what they _were_, because that thinking was decidedly out of fashion when those memories were formed. Is the way I remembered those characters - by their actions and interfaces - really all that different from cringing when I see `if isinstance(x, y):` in a Python codebase? The heyday of dynamically typed OOP languages like Python and Ruby coincided with societal pressure to "be colorblind" in a way that is hard to ignore.
 
-  
-
 Then consider the era that gave rise to TypeScript and Pydantic - the 2010s. After a decade of dynamically typed code, many developers were tired of "magic soup" - applications filled with cryptic round-about logic and side effects that were impossible to debug, and class names that looked like the author was in training for BBC Countdown. These developers craved the structure, order, and simplicity of pattern matching, and with that came the return of typing and functional programming.
-
-  
 
 TypeScript and Pydantic-based Python start every method with a single question: "What are you?" The identity of the object is the base for all proceeding business logic. It does not matter if the calling function invokes an `update()` method which the object can fulfill, if the type does not match the call will never execute. This confirmation of type occurs at every functional exchange in TypeScript and as much of the typed Python codebase as inherits from `Pydantic.BaseModel`, effectively starting every transaction and sub-transaction with a declaration of identity. "As a `ProductUpdateRequest` object, I have an `update()` method I can execute for you."
 
 Around this time, we saw the emergence of identity-forward thinking in academic circles, politics, and business, and a growing importance placed on identity that has carried into today. I think it is safe to assume that anyone reading this will have been around in the last ten or so years, and as such I will leave you to draw your parallels between the software and the burgeoning social norms regarding identity - you don't need my party stories for that.
 
-  
-
 This observation is not an indictment of the static or dynamic typing language paradigms, both have strengths and weaknesses. For example, how often have you written this little gem in duck-typed Python and felt dirty after?
 
 ```python
-
 def standardize_args(arg:Iterable):
-
-"""make arg safe to iterate on"""
-
-if isinstance(arg, str):
-
-return [arg]
-
-return arg
-
+	"""make arg safe to iterate on"""
+	if isinstance(arg, str):
+		return [arg]	
+	return arg
 ```
-
-  
-
 “Accept either a string or a list of strings” is one of those times that duck typing just sucks. The most straightforward way to get this done is to pattern match object identity because both a `str` and any other iterable will qualify for iteration- they can both “do the job” but the string will do it incorrectly, and you won’t know until it is too late.
-
-  
 
 Rigid typing, however, can create the potential for a serious coupling issue. Consider this adapter interface:
 
 ```python
-
 class Interface(BaseModel):
-
-adapter: XAdapter
-
+	adapter: XAdapter
 ```
-
 With each new adapter you want to support, typing will need to be updated. When the adapter evolves and now has variations or child classes, typing will again need to be updated. If you want to support other interfaces as adapters (assuming they already implement the required signatures)… you guessed it, typing needs to change. None of the _code_ ever changes in these examples, but the typing must be continuously updated.
 
 ```python
-
 class Interface(BaseModel):
-
-adapter: Union[XAdapter, Type[YAdapter], ZAdapter, LocalInterface, Type[ExternalInterface] # this goes on, and on, and on...
-
+	adapter: Union[XAdapter, Type[YAdapter], ZAdapter, LocalInterface,Type[ExternalInterface] # this goes on, and on, and on...
 ```
-
 Coupling like this begets more coupling, as a whitelist of types is just too tempting for a junior developer to resist. Why build agnostic interfaces when you can peek under the hood of specific adapters and hard-wire dependencies to their internals? This is a crack through which the spaghetti sneaks in.
-
-  
 
 The solution might be a future where we explicitly type either statically, _or_ dynamically, based on which is the best tool for the job. Pydantic already supports a form of duck typing with generic type classes `Iterable`, `Callable`, `Awaitable`, `Hashable`; these types care not what a thing _is_, only what it _does_ (sound familar?). Using `typing.Any` in Pydantic Python feels as code-smelly as duck typing with `isinstance()` - but what if correcting that feeling is as simple as aliasing `Any` with `DuckType`?
 
 ```python
-
 from typing import Any as DuckType
-
 from pydantic import BaseModel 
  
 class Interface(BaseModel):
@@ -134,11 +102,11 @@ As for the sociology part, I am no expert in humanity. I am sure that my bias to
 
 <sub>1. Python as a language has been around since the late 1980s, however, Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that applies to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzUwODYyMywtMTMxMjcxODk5Nyw2Mj
-c5NDk2MzYsNTk3MTg3NDEyLC0xNzY0NzU0MzAyLDE5MTczNjQy
-NzQsLTc0NTk5NzM4NiwtNjQ2NTcwNDgzLDE5MTExNTg5MzcsLT
-Q3MTk4NTY0Myw0MzczNDMwNjEsLTM5OTcyNDQzMywtMTE1Njg3
-NDA3MCwtMTM0ODg4NTIwNCwtMjE3NTY3NjU0LDE3MzI5NzAwNT
-QsMjAxNjYxMjI1NCwyMDE2NjEyMjU0LDU3NjY0Nzg5MCwtNjkz
-NjA3NjEwXX0=
+eyJoaXN0b3J5IjpbODYwNTk0MTU5LC0xMzEyNzE4OTk3LDYyNz
+k0OTYzNiw1OTcxODc0MTIsLTE3NjQ3NTQzMDIsMTkxNzM2NDI3
+NCwtNzQ1OTk3Mzg2LC02NDY1NzA0ODMsMTkxMTE1ODkzNywtND
+cxOTg1NjQzLDQzNzM0MzA2MSwtMzk5NzI0NDMzLC0xMTU2ODc0
+MDcwLC0xMzQ4ODg1MjA0LC0yMTc1Njc2NTQsMTczMjk3MDA1NC
+wyMDE2NjEyMjU0LDIwMTY2MTIyNTQsNTc2NjQ3ODkwLC02OTM2
+MDc2MTBdfQ==
 -->
