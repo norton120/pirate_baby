@@ -74,14 +74,14 @@ def send_message(self, message:str):
 ```
 `DuckTytpe` tells our PR reviewers (and future Us) to expect the duck typing, and call it out if that logic is missing. Maybe even in a way that the next wave of smarter linters can detect and declare "Where's the duck!?!"
 
-As for the sociology part, I am no expert in humanity. I am sure that my bias t
+As for the sociology part, I am no expert in humanity. I am sure that my bias towards colorblind thinking is hardcoded in a way that makes it hard (if not impossible) for me to see the moral appeal toward 
 
 
 
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzIxNDU0NDQsNjI3OTQ5NjM2LDU5Nz
+eyJoaXN0b3J5IjpbLTEwNzI1OTgyMzgsNjI3OTQ5NjM2LDU5Nz
 E4NzQxMiwtMTc2NDc1NDMwMiwxOTE3MzY0Mjc0LC03NDU5OTcz
 ODYsLTY0NjU3MDQ4MywxOTExMTU4OTM3LC00NzE5ODU2NDMsND
 M3MzQzMDYxLC0zOTk3MjQ0MzMsLTExNTY4NzQwNzAsLTEzNDg4
