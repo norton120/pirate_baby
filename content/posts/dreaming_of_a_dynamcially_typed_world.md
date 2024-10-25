@@ -53,9 +53,9 @@ class Interface(BaseModel):
 class Interface(BaseModel):
 	 adapter: Union[XAdapter, Type[YAdapter], ZAdapter, LocalInterface, Type[ExternalInterface] # this goes on, and on, and on...
 ```
-Coupling like this begets more coupling, as a whitelist of types is just too tempting for a junior developer to resist. Why build agnostic interfaces when you can  peeking under the hood and hard-wiring dependencies to a specific adapter’s internals. This is the crack through which the spaghetti sneaks in. 
+Coupling like this begets more coupling, as a whitelist of types is just too tempting for a junior developer to resist. Why build agnostic interfaces when you can peek under the hood of specific adapters and hard-wire depenencies to their internals? This is a crack through which the spaghetti sneaks in. 
 
-The solution might be a future where we explicitly type either statically, _or_ dynamically, based on which is the best tool for the job. Pydantic already supports a form of duck typing with generic type classes `Iterable`, `Callable`, `Awaitable`, `Hashable`;  these types care not what a thing _is_, only about what it _does_ (sound familar?). Using `typing.Any` in Pydantic Python feels as code-smelly as duck typing with `isinstance()`.  But what correcting that is as simple as aliasing `Any` with `DuckType` ?
+The solution might be a future where we explicitly type either statically, _or_ dynamically, based on which is the best tool for the job. Pydantic already supports a form of duck typing with generic type classes `Iterable`, `Callable`, `Awaitable`, `Hashable`;  these types care not what a thing _is_, only what it _does_ (sound familar?). Using `typing.Any` in Pydantic Python feels as code-smelly as duck typing with `isinstance()` -  but what if correcting that is as simple as aliasing `Any` with `DuckType` ?
 ```python
 from typing import Any as DuckType
 from pydantic import BaseModel
@@ -79,11 +79,11 @@ def send_message(self, message:str):
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODY5MzIxMzAsNjI3OTQ5NjM2LDU5Nz
-E4NzQxMiwtMTc2NDc1NDMwMiwxOTE3MzY0Mjc0LC03NDU5OTcz
-ODYsLTY0NjU3MDQ4MywxOTExMTU4OTM3LC00NzE5ODU2NDMsND
-M3MzQzMDYxLC0zOTk3MjQ0MzMsLTExNTY4NzQwNzAsLTEzNDg4
-ODUyMDQsLTIxNzU2NzY1NCwxNzMyOTcwMDU0LDIwMTY2MTIyNT
-QsMjAxNjYxMjI1NCw1NzY2NDc4OTAsLTY5MzYwNzYxMCwxMDkw
-NTUwMjM4XX0=
+eyJoaXN0b3J5IjpbMTM1NjUyNjI4NCw2Mjc5NDk2MzYsNTk3MT
+g3NDEyLC0xNzY0NzU0MzAyLDE5MTczNjQyNzQsLTc0NTk5NzM4
+NiwtNjQ2NTcwNDgzLDE5MTExNTg5MzcsLTQ3MTk4NTY0Myw0Mz
+czNDMwNjEsLTM5OTcyNDQzMywtMTE1Njg3NDA3MCwtMTM0ODg4
+NTIwNCwtMjE3NTY3NjU0LDE3MzI5NzAwNTQsMjAxNjYxMjI1NC
+wyMDE2NjEyMjU0LDU3NjY0Nzg5MCwtNjkzNjA3NjEwLDEwOTA1
+NTAyMzhdfQ==
 -->
