@@ -70,18 +70,17 @@ def send_message(self, message:str):
     except AttributeError as e:
         raise ValueError("adapter must implement 'send_message', not implemented in adapter %s", self.adapter) from e
 ```
-`Duck` tells future us and our PR reviewers to look for the duck typing. If it's missing that is an easy conversation to have. 
+`DuckTytpe` tells our PR reviewers (and future Us) to expect the duck typing, and call it out if that logic is missing. 
 
 
 
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzY0NjQwODYsNTk3MTg3NDEyLC0xNz
-Y0NzU0MzAyLDE5MTczNjQyNzQsLTc0NTk5NzM4NiwtNjQ2NTcw
-NDgzLDE5MTExNTg5MzcsLTQ3MTk4NTY0Myw0MzczNDMwNjEsLT
-M5OTcyNDQzMywtMTE1Njg3NDA3MCwtMTM0ODg4NTIwNCwtMjE3
-NTY3NjU0LDE3MzI5NzAwNTQsMjAxNjYxMjI1NCwyMDE2NjEyMj
-U0LDU3NjY0Nzg5MCwtNjkzNjA3NjEwLDEwOTA1NTAyMzhdfQ==
-
+eyJoaXN0b3J5IjpbNjI3OTQ5NjM2LDU5NzE4NzQxMiwtMTc2ND
+c1NDMwMiwxOTE3MzY0Mjc0LC03NDU5OTczODYsLTY0NjU3MDQ4
+MywxOTExMTU4OTM3LC00NzE5ODU2NDMsNDM3MzQzMDYxLC0zOT
+k3MjQ0MzMsLTExNTY4NzQwNzAsLTEzNDg4ODUyMDQsLTIxNzU2
+NzY1NCwxNzMyOTcwMDU0LDIwMTY2MTIyNTQsMjAxNjYxMjI1NC
+w1NzY2NDc4OTAsLTY5MzYwNzYxMCwxMDkwNTUwMjM4XX0=
 -->
