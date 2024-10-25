@@ -24,7 +24,7 @@ If you share formative years with Python (child of the 1980s-1990s) you probably
 * [Different Strokes](https://www.imdb.com/title/tt0077003/) (syndicated)
 * [the Cosby Show](https://www.imdb.com/title/tt0086687/) 
 
-I remembered watching _Family Matters_ instead of _Full House_ because Carl Winslow was much cooler than Danny Tanner. I remembered that Mister Cooper was a less creepy mentor than the next door neighbor in _Boy Meets World_. And I wanted to live on _Deep Space Nine_ more than any Federation ship. But earlier, I didn't occur to me how much of my TV family was black. My mind hadn't registered what they _were_, in part because that thinking was decidedly out of fashion at the time those memories were formed. Is the way I remembered those characters really all that different from cringing any time I see `if isinstance(x, y):`  in a codebase? The heyday of dynamcially typed OOP-forward languages like Python and Ruby coencided with societal pressure to "be colorblind" in a way that is hard to ignore.
+I remembered watching _Family Matters_ instead of _Full House_ because Carl Winslow was much cooler than Danny Tanner. I remembered that Mister Cooper was a less creepy mentor than the next door neighbor in _Boy Meets World_. But earlier, I didn't occur to me how much of my TV family was black. My mind hadn't registered what they _were_, in part because that thinking was decidedly out of fashion at the time those memories were formed. Is the way I remembered those characters really all that different from cringing any time I see `if isinstance(x, y):`  in a codebase? The heyday of dynamcially typed OOP languages like Python and Ruby coencided with societal pressure to "be colorblind" in a way that is hard to ignore.
 
 Consider the era that gave rise to `TypeScript` and `Pydantic` - the 2010s. After a decade of dynamically typed code, many developers were tired of "magic soup" - applications filled with cryptic round-about logic and side effects that were impossible to debug, and class names that looked like the developer was training for BBC Countdown. These developers craved the structure, order, and simplicity of pattern matching, and with that came the return of typing and functional programming. 
 
@@ -32,14 +32,15 @@ Both TypeScript and Pydantic-based Python start every method with a single quest
 Around this same time we saw the emergence of identity-forward thinking in academic circles, politics and business, and a growing importance placed on identity that has carried into today. I think it is safe to assume that anyone reading this will have been around in the last ten years, and so I will leave you to draw your own parallels between the software and the burgeoning social norms reguarding identity.
 
  This is not an indictment of either the static or dynamic typing language paradigms, both have strengths and weaknesses. For example, how many times have you written this little gem? 
- ```python
+```python
  def standardize_args(arg:Iterable):
+     """make arg safe to iterate on"""
      if isinstance(arg, str):
          return [arg]
      return arg
 ```
 
- “Accept a string or a list of strings” is one of those times that duck typing sucks. The most straightforward way to get this done is to pattern match object identity, because both a `str` and any other iterable will qualify for iteration- they can both “do the job” but the string will do it incorrectly, and won’t know until it’s too late. On the other hand, unnecessary rigid typing creates the potential for a serious coupling issue. Consider an adapter interface: 
+ “Accept either a string or a list of strings” is one of those times that duck typing sucks. The most straightforward way to get this done is to pattern match object identity, because both a `str` and any other iterable will qualify for iteration- they can both “do the job” but the string will do it incorrectly, and won’t know until it’s too late. On the other hand, unnecessary rigid typing creates the potential for a serious coupling issue. Consider an adapter interface: 
 ```python
 class Interface(BaseModel):
     adapter: XAdapter
@@ -74,10 +75,10 @@ def send_message(self, message:str):
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MDU1NDg4OSw1OTcxODc0MTIsLTE3Nj
-Q3NTQzMDIsMTkxNzM2NDI3NCwtNzQ1OTk3Mzg2LC02NDY1NzA0
-ODMsMTkxMTE1ODkzNywtNDcxOTg1NjQzLDQzNzM0MzA2MSwtMz
-k5NzI0NDMzLC0xMTU2ODc0MDcwLC0xMzQ4ODg1MjA0LC0yMTc1
-Njc2NTQsMTczMjk3MDA1NCwyMDE2NjEyMjU0LDIwMTY2MTIyNT
-QsNTc2NjQ3ODkwLC02OTM2MDc2MTAsMTA5MDU1MDIzOF19
+eyJoaXN0b3J5IjpbNzUxMDI1MjMxLDU5NzE4NzQxMiwtMTc2ND
+c1NDMwMiwxOTE3MzY0Mjc0LC03NDU5OTczODYsLTY0NjU3MDQ4
+MywxOTExMTU4OTM3LC00NzE5ODU2NDMsNDM3MzQzMDYxLC0zOT
+k3MjQ0MzMsLTExNTY4NzQwNzAsLTEzNDg4ODUyMDQsLTIxNzU2
+NzY1NCwxNzMyOTcwMDU0LDIwMTY2MTIyNTQsMjAxNjYxMjI1NC
+w1NzY2NDc4OTAsLTY5MzYwNzYxMCwxMDkwNTUwMjM4XX0=
 -->
