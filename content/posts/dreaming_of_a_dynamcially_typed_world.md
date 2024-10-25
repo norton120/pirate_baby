@@ -22,15 +22,15 @@ If you share your formative years with Python (child of the 1980s-1990s) you pro
 * Star Trek: Deep Space Nine
 * Family Matters
 * Different Strokes
-* the Cosby Show
+* the Cosby Show 
 
-I remembered watching _Family Matters_ instead of _Full House_ because Carl Winslow was much cooler than Danny Tanner. I remembered that Mister Cooper was a less creepy mento than the next door neighbor in _Boy Meets World_. But I didn't remember that a lot of my 
+I remembered watching _Family Matters_ instead of _Full House_ because Carl Winslow was much cooler than Danny Tanner. I remembered that Mister Cooper was a less creepy mentor than the next door neighbor in _Boy Meets World_. But I didn't remember that a lot of my TV family was black, partia 
  
 Is it all that surprising that the heyday of dynamcially typed OOP-forward languages like Python and Ruby coencided with societal pressure to "be colorblind" in our interactions with others? 
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTAzMjgzMDEsMjAxNjYxMjI1NCwyMD
+eyJoaXN0b3J5IjpbLTEzNjQxMzk3ODIsMjAxNjYxMjI1NCwyMD
 E2NjEyMjU0LDU3NjY0Nzg5MCwtNjkzNjA3NjEwLDEwOTA1NTAy
 MzhdfQ==
 -->
