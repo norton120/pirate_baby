@@ -1,5 +1,5 @@
 ---
-title: "Dreaming of a Dynamically Typed World"
+title: "The Identity Politics of Duck Typing"
 date: 2024-10-23
 tags: ['software', 'op-ed']
 draft: true
@@ -88,11 +88,11 @@ As for the sociology part, I am no expert in humanity. I am sure that my bias to
 
 <sub>1. Python as a language has been around since the late 1980s, however, Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that applies to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MDI5MzE5NiwxMTg3NTE3ODE1LC0xMz
-EyNzE4OTk3LDYyNzk0OTYzNiw1OTcxODc0MTIsLTE3NjQ3NTQz
-MDIsMTkxNzM2NDI3NCwtNzQ1OTk3Mzg2LC02NDY1NzA0ODMsMT
-kxMTE1ODkzNywtNDcxOTg1NjQzLDQzNzM0MzA2MSwtMzk5NzI0
-NDMzLC0xMTU2ODc0MDcwLC0xMzQ4ODg1MjA0LC0yMTc1Njc2NT
-QsMTczMjk3MDA1NCwyMDE2NjEyMjU0LDIwMTY2MTIyNTQsNTc2
-NjQ3ODkwXX0=
+eyJoaXN0b3J5IjpbLTE2Njk2MTU2ODcsLTU0MDI5MzE5NiwxMT
+g3NTE3ODE1LC0xMzEyNzE4OTk3LDYyNzk0OTYzNiw1OTcxODc0
+MTIsLTE3NjQ3NTQzMDIsMTkxNzM2NDI3NCwtNzQ1OTk3Mzg2LC
+02NDY1NzA0ODMsMTkxMTE1ODkzNywtNDcxOTg1NjQzLDQzNzM0
+MzA2MSwtMzk5NzI0NDMzLC0xMTU2ODc0MDcwLC0xMzQ4ODg1Mj
+A0LC0yMTc1Njc2NTQsMTczMjk3MDA1NCwyMDE2NjEyMjU0LDIw
+MTY2MTIyNTRdfQ==
 -->
