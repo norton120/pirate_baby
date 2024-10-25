@@ -1,9 +1,11 @@
 ---
 title: "Dreaming of a Dynamically Typed World"
 date: 2024-10-23
-tags: ['de','ml']
+tags: ['software', 'op-ed']
 draft: true
 ---
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMTk2ODE3Nl19
+eyJoaXN0b3J5IjpbMzUzOTAwNzI0XX0=
 -->
