@@ -32,7 +32,7 @@ Then consider the era that gave rise to TypeScript and Pydantic - the 2010s. Aft
 Both TypeScript and Pydantic-based Python start every method with a single question: "what are you?" The identity of the object is the base for all proceeding business logic. It does not matter if the calling function invokes an `update()` method which the object is able to fulfill, if the type does not match the call will never execute. This confirmation of type occurs at every functional exchange in TypeScript and as much of the typed Python codebase as inherits from `Pydantic.BaseModel`, effectively starting every transaction and sub-transaction with a declaration of identity. "As a `ProductUpdateRequest` object, I have an `update()` method I can execute for you." 
 Around this same time, we saw the emergence of identity-forward thinking in academic circles, politics and business, and a growing importance placed on identity that has carried into today. I think it is safe to assume that anyone reading this will have been around in the last ten or so years, and as such I will leave you to draw your own parallels between the software and the burgeoning social norms reguarding identity - you don't need my party stories for that.
 
- This observation is not an indictment of either the static or dynamic typing language paradigms, both have strengths and weaknesses. For example, how many times have you written this little gem? 
+ This observation is not an indictment of either the static or dynamic typing language paradigms, both have strengths and weaknesses. For example, how many times have you written this little gem in duck-typed Python and felt dirty after? 
 ```python
  def standardize_args(arg:Iterable):
      """make arg safe to iterate on"""
@@ -43,12 +43,12 @@ Around this same time, we saw the emergence of identity-forward thinking in acad
 
  “Accept either a string or a list of strings” is one of those times that duck typing just sucks. The most straightforward way to get this done is to pattern match object identity, because both a `str` and any other iterable will qualify for iteration- they can both “do the job” but the string will do it incorrectly, and you won’t know until it is too late. 
 
-On the other hand, unnecessary rigid typing creates the potential for a serious coupling issue. Consider an adapter interface: 
+Rigid typing, however, can create the potential for a serious coupling issue. Consider this adapter interface: 
 ```python
 class Interface(BaseModel):
     adapter: XAdapter
 ```
- For every new adapter you want to support, you need to update your typing. If the adapter evolves to have variations or child classes, you need to update your typing. If you want to support other interfaces as adapters (assuming they already implement the needed signatures)… you guessed it, typing needs to change. Keep in mind that none of the _code_ ever changes in these examples, but the typing must be continuously updated. 
+ For every new adapter you want to support, you will need to update your typing. If the adapter evolves to have variations or child classes, you need to update your typing. If you want to support other interfaces as adapters (assuming they already implement the needed signatures)… you guessed it, typing needs to change. Keep in mind that none of the _code_ ever changes in these examples, but the typing must be continuously updated. 
 ```python
 class Interface(BaseModel):
 	 adapter: Union[XAdapter, Type[YAdapter], ZAdapter, LocalInterface, Type[ExternalInterface] # this goes on, and on, and on...
@@ -79,7 +79,7 @@ def send_message(self, message:str):
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MjEzMzg5Niw2Mjc5NDk2MzYsNTk3MT
+eyJoaXN0b3J5IjpbMTgzNjgwMjE3Miw2Mjc5NDk2MzYsNTk3MT
 g3NDEyLC0xNzY0NzU0MzAyLDE5MTczNjQyNzQsLTc0NTk5NzM4
 NiwtNjQ2NTcwNDgzLDE5MTExNTg5MzcsLTQ3MTk4NTY0Myw0Mz
 czNDMwNjEsLTM5OTcyNDQzMywtMTE1Njg3NDA3MCwtMTM0ODg4
