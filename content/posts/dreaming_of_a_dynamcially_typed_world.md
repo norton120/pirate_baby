@@ -15,13 +15,13 @@ What if Conway's Law can be extrapolated beyond the walls of the office? What if
 
 Consider the appeal of dynamically typed languages and, by extension, the practice of duck typing, when Python 2.0 was released in the year 2000 <sup>1</sup>. 
 To many proponents at the time dynamic typing was the flexible answer to the rigid structure and beurocracy of design found in statically typed languages. Your code no longer needed to declare _what_ something was, and was no longer bound to that identity - it could start life as a `str` and evolve to a `list` or a `dict` or maybe even a `ProtcolConstructorElement` - it didn't matter. Duck typing is the extension of that lack of identity; it is unimportant what a thing _is_, and only important what a thing _does_. If an object needs a method `convert_to_pdf` to get a job done, and it has that method, then the object is qualified to do the job. If not, then deal with the error of an unqualified object - or look for a different possible method `to_pdf` supported by other, also qualified objects. The point of duck typing in dynamic programming was to deal with the object's ability, not the object's identity. 
-If you share your formative years with Python (child of the 1980s-1990s) you probably remember the phrase "be colorblind." This was the overwhelming message in education and popular culture at the time - that taking identity into consideration, even _seeing_ or _acknowledging_ that identity, was morally wrong; that an idividual must be judged soley by their words and, most importantly, actions, and nothing else. I can attest with at least anachdotal evidence of how that message shaped the way I view the world, by way of the most scientifically rigorous methods - recounting a casual conversation I had last week at a party. The topic  
+If you share your formative years with Python (child of the 1980s-1990s) you probably remember the phrase "be colorblind." This was the overwhelming message in education and popular culture at the time - that taking identity into consideration, even _seeing_ or _acknowledging_ that identity, was morally wrong; that an idividual must be judged soley by their words and, most importantly, actions, and nothing else. I can attest with at least anachdotal evidence of how that message shaped the way I view the world, by way of the most scientifically rigorous methods - recounting a casual conversation I had last week at a party. The conversation topic somehow landed on representation in media, and the  
  
 Is it all that surprising that the heyday of dynamcially typed OOP-forward languages like Python and Ruby coencided with societal pressure to "be colorblind" in our interactions with others? 
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTMwODEyMjQsMjAxNjYxMjI1NCwyMD
+eyJoaXN0b3J5IjpbLTE0ODE1MzMyNjIsMjAxNjYxMjI1NCwyMD
 E2NjEyMjU0LDU3NjY0Nzg5MCwtNjkzNjA3NjEwLDEwOTA1NTAy
 MzhdfQ==
 -->
