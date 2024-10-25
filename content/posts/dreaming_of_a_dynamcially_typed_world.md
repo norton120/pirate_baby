@@ -54,7 +54,7 @@ class Interface(BaseModel):
 ```
 Coupling like this begets more coupling, as a whitelist of types is all too tempting for a junior developer to resist peeking under the hood and hard-wiring dependencies to a specific adapter’s internals. This is the crack through which the spaghetti sneaks in. 
 
-The solution might be a future where we explicitly type either statically, _or_ dynamically, based on which is the best tool for the job. Pydantic already supports a form of duck typing with generic type classes `Iterable`, `Callable`  etc - which care less about what a thing _is_ and more about what it _does_ (sound familar?). Using `typing.Any` today feels as code-smelly as duck typing with `isinstance()`.  But what correcting that is as simple as aliasing `Any` with `DuckType` ?
+The solution might be a future where we explicitly type either statically, _or_ dynamically, based on which is the best tool for the job. Pydantic already supports a form of duck typing with generic type classes `Iterable`, `Callable`, `Awaitable`, `Hashable`;  these types care not what a thing _is_, only about what it _does_ (sound familar?). Using `typing.Any` in Pydantic Python feels as code-smelly as duck typing with `isinstance()`.  But what correcting that is as simple as aliasing `Any` with `DuckType` ?
 ```python
 from typing import Any as Duck
 from pydantic import BaseModel
@@ -77,11 +77,10 @@ def send_message(self, message:str):
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzM4MTAxNzYsNTk3MTg3NDEyLC0xNz
-Y0NzU0MzAyLDE5MTczNjQyNzQsLTc0NTk5NzM4NiwtNjQ2NTcw
-NDgzLDE5MTExNTg5MzcsLTQ3MTk4NTY0Myw0MzczNDMwNjEsLT
-M5OTcyNDQzMywtMTE1Njg3NDA3MCwtMTM0ODg4NTIwNCwtMjE3
-NTY3NjU0LDE3MzI5NzAwNTQsMjAxNjYxMjI1NCwyMDE2NjEyMj
-U0LDU3NjY0Nzg5MCwtNjkzNjA3NjEwLDEwOTA1NTAyMzhdfQ==
-
+eyJoaXN0b3J5IjpbMjU4Mzk3MjIsNTk3MTg3NDEyLC0xNzY0Nz
+U0MzAyLDE5MTczNjQyNzQsLTc0NTk5NzM4NiwtNjQ2NTcwNDgz
+LDE5MTExNTg5MzcsLTQ3MTk4NTY0Myw0MzczNDMwNjEsLTM5OT
+cyNDQzMywtMTE1Njg3NDA3MCwtMTM0ODg4NTIwNCwtMjE3NTY3
+NjU0LDE3MzI5NzAwNTQsMjAxNjYxMjI1NCwyMDE2NjEyMjU0LD
+U3NjY0Nzg5MCwtNjkzNjA3NjEwLDEwOTA1NTAyMzhdfQ==
 -->
