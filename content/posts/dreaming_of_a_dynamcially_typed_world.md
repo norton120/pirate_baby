@@ -46,7 +46,7 @@ def standardize_args(arg:Iterable):
 ```
 “Accept either a string or a list of strings” is one of those times that duck typing just sucks. The most straightforward way to get this done is to pattern match object identity because both a `str` and any other iterable will qualify for iteration- they can both “do the job” but the string will do it incorrectly, and you won’t know until it is too late.
 
-Rigid typing, however, can create the potential for a serious coupling issue. Consider this adapter interface:
+Rigid typing, however, can create the potential for serious coupling. Consider this adapter interface:
 
 ```python
 class Interface(BaseModel):
@@ -56,7 +56,11 @@ With each new adapter you want to support, typing will need to be updated. When 
 
 ```python
 class Interface(BaseModel):
-	adapter: Union[XAdapter, Type[YAdapter], ZAdapter, LocalInterface,Type[ExternalInterface] # this goes on, and on, and on...
+	adapter: (Union[XAdapter, 
+			  Type[YAdapter], 
+			  ZAdapter, 
+			  LocalInterface,
+			  Type[ExternalInterface]) # this goes on, and on, and on...
 ```
 Coupling like this begets more coupling, as a whitelist of types is just too tempting for a junior developer to resist. Why build agnostic interfaces when you can peek under the hood of specific adapters and hard-wire dependencies to their internals? This is a crack through which the spaghetti sneaks in.
 
@@ -87,11 +91,11 @@ As for the sociology part, I am no expert in humanity. I am sure that my bias to
 
 <sub>1. Python as a language has been around since the late 1980s, however, Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that applies to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg3Mjk4NDI5LC01NDAyOTMxOTYsMTE4Nz
-UxNzgxNSwtMTMxMjcxODk5Nyw2Mjc5NDk2MzYsNTk3MTg3NDEy
-LC0xNzY0NzU0MzAyLDE5MTczNjQyNzQsLTc0NTk5NzM4NiwtNj
-Q2NTcwNDgzLDE5MTExNTg5MzcsLTQ3MTk4NTY0Myw0MzczNDMw
-NjEsLTM5OTcyNDQzMywtMTE1Njg3NDA3MCwtMTM0ODg4NTIwNC
-wtMjE3NTY3NjU0LDE3MzI5NzAwNTQsMjAxNjYxMjI1NCwyMDE2
-NjEyMjU0XX0=
+eyJoaXN0b3J5IjpbMTU3NDI5NTUxNCwtNTQwMjkzMTk2LDExOD
+c1MTc4MTUsLTEzMTI3MTg5OTcsNjI3OTQ5NjM2LDU5NzE4NzQx
+MiwtMTc2NDc1NDMwMiwxOTE3MzY0Mjc0LC03NDU5OTczODYsLT
+Y0NjU3MDQ4MywxOTExMTU4OTM3LC00NzE5ODU2NDMsNDM3MzQz
+MDYxLC0zOTk3MjQ0MzMsLTExNTY4NzQwNzAsLTEzNDg4ODUyMD
+QsLTIxNzU2NzY1NCwxNzMyOTcwMDU0LDIwMTY2MTIyNTQsMjAx
+NjYxMjI1NF19
 -->
