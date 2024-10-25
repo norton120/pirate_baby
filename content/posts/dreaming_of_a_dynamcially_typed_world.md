@@ -7,7 +7,9 @@ draft: true
 In 1967 computer scientist Melvin Conway made an observation that came to be known as _Conway's Law_.
 > Organizations which design systems (in the broad sense used here) are constrained to produce designs which are copies of the communication structures of these organizations.
 
-This is why you'll often find rigid, silo'ed tables modeled into the architecture of rigid companies with silo'ed departments, or scrambled and obviously unplanned relationships across entities in startup 
+Conway's Law is why you will often find rigid, silo'ed tables modeled into the data architecture of rigid companies with silo'ed business departments, or scrambled and obviously unplanned relationships across software entities at a startup; code reflects the human environment in which it develops.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzIzMDQyNjcsMTA5MDU1MDIzOF19
+eyJoaXN0b3J5IjpbLTczMTM1NTUwNywxMDkwNTUwMjM4XX0=
 -->
