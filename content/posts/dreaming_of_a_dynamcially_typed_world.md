@@ -50,10 +50,12 @@ class Interface(BaseModel):
  ```
  This coupling begets more coupling, as an exclusive white list of types can be too tempting for a junior developer to resist peeking under the hood and hard-wiring dependencies on an adapter’s internals. 
 
-And maybe the solution is to explicitly type statically or dynamically based on the best 
+And maybe the solution is to explicitly type statically or dynamically based on which is the correct tool for the job. 
+
+
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDc5NjEyLC0xNzY0NzU0MzAyLDE5MT
+eyJoaXN0b3J5IjpbNTk3MTg3NDEyLC0xNzY0NzU0MzAyLDE5MT
 czNjQyNzQsLTc0NTk5NzM4NiwtNjQ2NTcwNDgzLDE5MTExNTg5
 MzcsLTQ3MTk4NTY0Myw0MzczNDMwNjEsLTM5OTcyNDQzMywtMT
 E1Njg3NDA3MCwtMTM0ODg4NTIwNCwtMjE3NTY3NjU0LDE3MzI5
