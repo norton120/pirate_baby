@@ -31,7 +31,7 @@ Consider the era that gave rise to `TypeScript` and `Pydantic` - the 2010s. Afte
 Both TypeScript and Pydantic start every method with a single question: "what are you?" The identity of the object is the base for all proceeding business logic. In this case it does not matter if the calling function invokes an `update()` method and the object has an `update()` method, if the object type is wrong this call will never get that far. This confirmation of type occurs at every functional exchange in TypeScript and as much of the typed Python codebase as inherits from `Pydantic.BaseModel`, effectively starting every transaction and sub-transaction with a declaration of identity. "As a `ProductUpdateRequest` object, I have an `update()` method I can execute for you." 
 Around this same time we saw the emergence of identity-forward thinking in academic circles, politics and business. Examples abound of the growing importance placed on identity during this time period; as it’s safe to assume that anyone reading this has reasonably vivid memories of the last 10 years, I will leave you to draw your own parallels.
 
- This is not an indictment of either the static or dynamic typing language paradigms. Both have strengths and weaknesses - for example, how many times have you written this little gem? 
+ This is not an indictment of either the static or dynamic typing language paradigms, both have strengths and weaknesses. For example, how many times have you written this little gem? 
  ```python
  def standardize_args(arg:Iterable):
      if isinstance(arg, str):
@@ -43,8 +43,9 @@ Around this same time we saw the emergence of identity-forward thinking in acade
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTk4NTY0Myw0MzczNDMwNjEsLTM5OT
-cyNDQzMywtMTE1Njg3NDA3MCwtMTM0ODg4NTIwNCwtMjE3NTY3
-NjU0LDE3MzI5NzAwNTQsMjAxNjYxMjI1NCwyMDE2NjEyMjU0LD
-U3NjY0Nzg5MCwtNjkzNjA3NjEwLDEwOTA1NTAyMzhdfQ==
+eyJoaXN0b3J5IjpbMTUwOTU3MTMxNiwtNDcxOTg1NjQzLDQzNz
+M0MzA2MSwtMzk5NzI0NDMzLC0xMTU2ODc0MDcwLC0xMzQ4ODg1
+MjA0LC0yMTc1Njc2NTQsMTczMjk3MDA1NCwyMDE2NjEyMjU0LD
+IwMTY2MTIyNTQsNTc2NjQ3ODkwLC02OTM2MDc2MTAsMTA5MDU1
+MDIzOF19
 -->
