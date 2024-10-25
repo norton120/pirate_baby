@@ -27,9 +27,9 @@ If you share formative years with Python (a child of the 1980s-90s) you probably
 
 I remembered watching _Family Matters_ instead of _Full House_ because Carl Winslow was much cooler than Danny Tanner. I remembered that Mister Cooper was a relatable mentor, while the next door neighbor in _Boy Meets World_ was creepy. But earlier in the conversation it hadn't occured to me how much of my TV family was black. My mind hadn't registered what they _were_, in part because that thinking was decidedly out of fashion at the time those memories were formed. Is the way I remembered those characters - by their actions and interfaces - really all that different from cringing any time I see `if isinstance(x, y):`  in a Python codebase? The heyday of dynamcially typed OOP languages like Python and Ruby coencided with societal pressure to "be colorblind" in a way that is hard to ignore.
 
-Then consider the era that gave rise to `TypeScript` and `Pydantic` - the 2010s. After a decade of dynamically typed code, many developers were tired of "magic soup" - applications filled with cryptic round-about logic and side effects that were impossible to debug, and class names that looked like the developer was training for BBC Countdown. These developers craved the structure, order, and simplicity of pattern matching, and with that came the return of typing and functional programming. 
+Then consider the era that gave rise to TypeScript and Pydantic - the 2010s. After a decade of dynamically typed code, many developers were tired of "magic soup" - applications filled with cryptic round-about logic and side effects that were impossible to debug, and class names that looked like the author was in training for BBC Countdown. These developers craved the structure, order, and simplicity of pattern matching, and with that came the return of typing and functional programming. 
 
-Both TypeScript and Pydantic-based Python start every method with a single question: "what are you?" The identity of the object is the base for all proceeding business logic. In this case it does not matter if the calling function invokes an `update()` method and the object has an `update()` method, if the object type is wrong this call will never execute. This confirmation of type occurs at every functional exchange in TypeScript and as much of the typed Python codebase as inherits from `Pydantic.BaseModel`, effectively starting every transaction and sub-transaction with a declaration of identity. "As a `ProductUpdateRequest` object, I have an `update()` method I can execute for you." 
+Both TypeScript and Pydantic-based Python start every method with a single question: "what are you?" The identity of the object is the base for all proceeding business logic. It does not matter if the calling function invokes an `update()` method which the object is able to fulfill, if the type does  call will never execute. This confirmation of type occurs at every functional exchange in TypeScript and as much of the typed Python codebase as inherits from `Pydantic.BaseModel`, effectively starting every transaction and sub-transaction with a declaration of identity. "As a `ProductUpdateRequest` object, I have an `update()` method I can execute for you." 
 Around this same time we saw the emergence of identity-forward thinking in academic circles, politics and business, and a growing importance placed on identity that has carried into today. I think it is safe to assume that anyone reading this will have been around in the last ten years, and so I will leave you to draw your own parallels between the software and the burgeoning social norms reguarding identity.
 
  This is not an indictment of either the static or dynamic typing language paradigms, both have strengths and weaknesses. For example, how many times have you written this little gem? 
@@ -79,11 +79,11 @@ def send_message(self, message:str):
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MTIxNjI1NSw2Mjc5NDk2MzYsNTk3MT
-g3NDEyLC0xNzY0NzU0MzAyLDE5MTczNjQyNzQsLTc0NTk5NzM4
-NiwtNjQ2NTcwNDgzLDE5MTExNTg5MzcsLTQ3MTk4NTY0Myw0Mz
-czNDMwNjEsLTM5OTcyNDQzMywtMTE1Njg3NDA3MCwtMTM0ODg4
-NTIwNCwtMjE3NTY3NjU0LDE3MzI5NzAwNTQsMjAxNjYxMjI1NC
-wyMDE2NjEyMjU0LDU3NjY0Nzg5MCwtNjkzNjA3NjEwLDEwOTA1
-NTAyMzhdfQ==
+eyJoaXN0b3J5IjpbMjk2NTAxNzgwLDYyNzk0OTYzNiw1OTcxOD
+c0MTIsLTE3NjQ3NTQzMDIsMTkxNzM2NDI3NCwtNzQ1OTk3Mzg2
+LC02NDY1NzA0ODMsMTkxMTE1ODkzNywtNDcxOTg1NjQzLDQzNz
+M0MzA2MSwtMzk5NzI0NDMzLC0xMTU2ODc0MDcwLC0xMzQ4ODg1
+MjA0LC0yMTc1Njc2NTQsMTczMjk3MDA1NCwyMDE2NjEyMjU0LD
+IwMTY2MTIyNTQsNTc2NjQ3ODkwLC02OTM2MDc2MTAsMTA5MDU1
+MDIzOF19
 -->
