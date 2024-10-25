@@ -69,11 +69,12 @@ def send_message(self, message:str):
 ```
 `Duck` tells future us and our PR reviewers to look for the duck typing. If it's missing that is an easy conversation to have. 
 
-I am not a sociologist dor a psychologst. I am wise enough to know how many views of the social aspects I 
+
+
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTk3OTc3NSw1OTcxODc0MTIsLTE3Nj
+eyJoaXN0b3J5IjpbMTI4Mjg0MTk0Nyw1OTcxODc0MTIsLTE3Nj
 Q3NTQzMDIsMTkxNzM2NDI3NCwtNzQ1OTk3Mzg2LC02NDY1NzA0
 ODMsMTkxMTE1ODkzNywtNDcxOTg1NjQzLDQzNzM0MzA2MSwtMz
 k5NzI0NDMzLC0xMTU2ODc0MDcwLC0xMzQ4ODg1MjA0LC0yMTc1
