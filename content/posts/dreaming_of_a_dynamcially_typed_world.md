@@ -45,13 +45,14 @@ class Interface(BaseModel):
     adapter: XAdapter
 ```
 
- For every new adapter you want to support, you need to update your typing. If the adapter evolves to have variations, children etc., you need to update your typing. 
+ For every new adapter you want to support, you need to update your typing. If the adapter evolves to have variations, children etc., you need to update your typing. If
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NTk5NzM4NiwtNjQ2NTcwNDgzLDE5MT
-ExNTg5MzcsLTQ3MTk4NTY0Myw0MzczNDMwNjEsLTM5OTcyNDQz
-MywtMTE1Njg3NDA3MCwtMTM0ODg4NTIwNCwtMjE3NTY3NjU0LD
-E3MzI5NzAwNTQsMjAxNjYxMjI1NCwyMDE2NjEyMjU0LDU3NjY0
-Nzg5MCwtNjkzNjA3NjEwLDEwOTA1NTAyMzhdfQ==
+eyJoaXN0b3J5IjpbLTE5MzIwNTc2MzksLTc0NTk5NzM4NiwtNj
+Q2NTcwNDgzLDE5MTExNTg5MzcsLTQ3MTk4NTY0Myw0MzczNDMw
+NjEsLTM5OTcyNDQzMywtMTE1Njg3NDA3MCwtMTM0ODg4NTIwNC
+wtMjE3NTY3NjU0LDE3MzI5NzAwNTQsMjAxNjYxMjI1NCwyMDE2
+NjEyMjU0LDU3NjY0Nzg5MCwtNjkzNjA3NjEwLDEwOTA1NTAyMz
+hdfQ==
 -->
