@@ -16,7 +16,7 @@ Recently a post by a young developer caught my attention; this developer noted (
 What if Conway's Law extrapolates beyond the walls of the office? What if, just as the DNA of an organization determines the ultimate shape of that organization's applications, the social archetype held by humanity's software developers determines the evolution of our programming languages? What if Python is changing in the same way that the people _writing_ Python are changing?
 
 Consider the appeal of dynamically typed languages and, by extension, the practice of duck typing, when Python 2.0 was released in the year 2000 <sup>1</sup>.
-To the many proponents of dynamic languages at the time, dynamic typing was the flexible answer to the rigid structure and bureaucracy of design found in statically typed languages. Your code no longer needed to declare _what_ something was and be bound to that identity - it could start life as a `str` and evolve to a `list` or a `dict` or maybe even a `ProtcolConstructorElement` - it didn't matter. Duck typing extends that lack of identity; it is unimportant what the thing _is_, and only important what the thing _does_. If an object needs a method `convert_to_pdf` to get a job done, and it has that method, then that object is qualified to do the job. If not, then the software must deal with the error of an unqualified object - or look for a different possible method such as the `to_pdf` supported by other, also qualified objects. The point of duck typing in dynamic programming was to deal with the object's ability, not the object's identity - if it quacked, treat it like a duck.
+To the many proponents of dynamic languages at the time, dynamic typing was a flexible answer to the rigid structure and ide-bureaucracy found in statically typed languages. Your code no longer needed to declare _what_ something was and be bound to that identity - it could start life as a `str` and evolve to a `list` or a `dict` or maybe even a `ProtcolConstructorElement` - it didn't matter. Duck typing extends that lack of identity; it is unimportant what the thing _is_, and only important what the thing _does_. If an object needs a method `convert_to_pdf` to get a job done, and it implements that method, then that object is qualified to do the job. If not, then the software must deal with the error of an unqualified object - or look for a different possible method such as the `to_pdf` supported by other, also qualified objects. The point of duck typing in dynamic programming was to deal with the object's ability, not the object's identity - if it quacked, treat it like a duck.
 
 If you share formative years with Python (a child of the 1980s-90s) you probably remember the phrase "be colorblind." This was the overwhelming message in education and popular culture at the time, a message that considering an individual's external identity, even _seeing_ or _acknowledging_ that identity, was morally wrong; that an individual must be judged solely by their words and, most importantly, actions, and by nothing else. I can attest with at least anecdotal evidence of how that message shaped how I view the world, by way of the most scientifically rigorous method - recounting a casual conversation I had last week at a party. The conversation landed on representation in media, as one of the younger partygoers was postulating that the tail end of the TV sitcom era was particularly awful at only telling one story - the white one. No one, myself included, gave protest. But then the conversation shifted to reminiscing about some of the shows we watched religiously as kids, and among my list:
 
@@ -87,11 +87,11 @@ As for the sociology part, I am no expert in humanity. I am sure that my bias to
 
 <sub>1. Python as a language has been around since the late 1980s, however, Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that applies to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzI3MTI2MjAsLTU0MDI5MzE5NiwxMT
-g3NTE3ODE1LC0xMzEyNzE4OTk3LDYyNzk0OTYzNiw1OTcxODc0
-MTIsLTE3NjQ3NTQzMDIsMTkxNzM2NDI3NCwtNzQ1OTk3Mzg2LC
-02NDY1NzA0ODMsMTkxMTE1ODkzNywtNDcxOTg1NjQzLDQzNzM0
-MzA2MSwtMzk5NzI0NDMzLC0xMTU2ODc0MDcwLC0xMzQ4ODg1Mj
-A0LC0yMTc1Njc2NTQsMTczMjk3MDA1NCwyMDE2NjEyMjU0LDIw
-MTY2MTIyNTRdfQ==
+eyJoaXN0b3J5IjpbMzE3NDMzMjM0LC01NDAyOTMxOTYsMTE4Nz
+UxNzgxNSwtMTMxMjcxODk5Nyw2Mjc5NDk2MzYsNTk3MTg3NDEy
+LC0xNzY0NzU0MzAyLDE5MTczNjQyNzQsLTc0NTk5NzM4NiwtNj
+Q2NTcwNDgzLDE5MTExNTg5MzcsLTQ3MTk4NTY0Myw0MzczNDMw
+NjEsLTM5OTcyNDQzMywtMTE1Njg3NDA3MCwtMTM0ODg4NTIwNC
+wtMjE3NTY3NjU0LDE3MzI5NzAwNTQsMjAxNjYxMjI1NCwyMDE2
+NjEyMjU0XX0=
 -->
