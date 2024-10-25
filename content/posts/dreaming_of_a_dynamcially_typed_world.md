@@ -45,14 +45,14 @@ class Interface(BaseModel):
     adapter: XAdapter
 ```
 
- For every new adapter you want to support, you need to update your typing. If the adapter evolves to have variations, children etc., you need to update your typing. If you want to support other interfaces as adapters, which also already implements all the needed methods and attributes… you guessed it, typing needs to change. Keep in mind that none of the implementation code 
+ For every new adapter you want to support, you need to update your typing. If the adapter evolves to have variations, children etc., you need to update your typing. If you want to support other interfaces as adapters, which also already implements all the needed methods and attributes… you guessed it, typing needs to change. Keep in mind that none of the code in the adapters or interfaces have changed, but the typing
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjg4MDI0LC03NDU5OTczODYsLTY0Nj
-U3MDQ4MywxOTExMTU4OTM3LC00NzE5ODU2NDMsNDM3MzQzMDYx
-LC0zOTk3MjQ0MzMsLTExNTY4NzQwNzAsLTEzNDg4ODUyMDQsLT
-IxNzU2NzY1NCwxNzMyOTcwMDU0LDIwMTY2MTIyNTQsMjAxNjYx
-MjI1NCw1NzY2NDc4OTAsLTY5MzYwNzYxMCwxMDkwNTUwMjM4XX
-0=
+eyJoaXN0b3J5IjpbLTExMDY4NTgwOTYsLTc0NTk5NzM4NiwtNj
+Q2NTcwNDgzLDE5MTExNTg5MzcsLTQ3MTk4NTY0Myw0MzczNDMw
+NjEsLTM5OTcyNDQzMywtMTE1Njg3NDA3MCwtMTM0ODg4NTIwNC
+wtMjE3NTY3NjU0LDE3MzI5NzAwNTQsMjAxNjYxMjI1NCwyMDE2
+NjEyMjU0LDU3NjY0Nzg5MCwtNjkzNjA3NjEwLDEwOTA1NTAyMz
+hdfQ==
 -->
