@@ -28,12 +28,14 @@ I remembered watching _Family Matters_ instead of _Full House_ because Carl Wins
 
 Consider the era that gave rise to `TypeScript` and `Pydantic` - the 2010s. After a decade of dynamically typed code, many developers were tired of "magic soup" - applications filled with cryptic round-about logic and side effects that were impossible to debug. Class names that looked like the developer was training for Countdown on the BBC. They wanted structure, order, and simplicity of pattern matching, and with that came the return of typing and functional programming. 
 
-Both TypeScript and Pydantic start every method with a single question: "what are you?" The identity of the object is the base for all proceeding business logic. In this case it does not matter if the objec
+Both TypeScript and Pydantic start every method with a single question: "what are you?" The identity of the object is the base for all proceeding business logic. In this case it does not matter if the calling function invokes the object's `update()` method and this object does in fact have an `update()` method, if the type is not as declared it will never get that far. 
+
+
 
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2Nzg1OTIxMSwxNzMyOTcwMDU0LDIwMT
-Y2MTIyNTQsMjAxNjYxMjI1NCw1NzY2NDc4OTAsLTY5MzYwNzYx
-MCwxMDkwNTUwMjM4XX0=
+eyJoaXN0b3J5IjpbLTExMDk5NTE5MjIsMTczMjk3MDA1NCwyMD
+E2NjEyMjU0LDIwMTY2MTIyNTQsNTc2NjQ3ODkwLC02OTM2MDc2
+MTAsMTA5MDU1MDIzOF19
 -->
