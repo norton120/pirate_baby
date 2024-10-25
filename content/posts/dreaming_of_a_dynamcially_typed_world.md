@@ -40,13 +40,14 @@ Around this same time we saw the emergence of identity-forward thinking in acade
 ```
 
  “Accept a string or a list of strings” is one of those times that duck typing sucks. The most straightforward way to get this done is to pattern match object identity, because both a `str` and any other iterable will qualify for iteration- they can both “do the job” but the string will do it incorrectly, and won’t know until it’s too late. On the other hand, unnecessary rigid typing creates the potential for a serious coupling issue. Consider an adapter interface: 
- 
+```python
+class Interface
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NjU3MDQ4MywxOTExMTU4OTM3LC00Nz
-E5ODU2NDMsNDM3MzQzMDYxLC0zOTk3MjQ0MzMsLTExNTY4NzQw
-NzAsLTEzNDg4ODUyMDQsLTIxNzU2NzY1NCwxNzMyOTcwMDU0LD
-IwMTY2MTIyNTQsMjAxNjYxMjI1NCw1NzY2NDc4OTAsLTY5MzYw
-NzYxMCwxMDkwNTUwMjM4XX0=
+eyJoaXN0b3J5IjpbLTE4MTQ5NzY1NDQsLTY0NjU3MDQ4MywxOT
+ExMTU4OTM3LC00NzE5ODU2NDMsNDM3MzQzMDYxLC0zOTk3MjQ0
+MzMsLTExNTY4NzQwNzAsLTEzNDg4ODUyMDQsLTIxNzU2NzY1NC
+wxNzMyOTcwMDU0LDIwMTY2MTIyNTQsMjAxNjYxMjI1NCw1NzY2
+NDc4OTAsLTY5MzYwNzYxMCwxMDkwNTUwMjM4XX0=
 -->
