@@ -47,12 +47,12 @@ On the other hand, unnecessary rigid typing creates the potential for a serious 
 class Interface(BaseModel):
     adapter: XAdapter
 ```
- For every new adapter you want to support, you need to update your typing. If the adapter evolves to have variations or child classes, you need to update your typing. If you want to support other interfaces as adapters (assuming they already implement the needed signatures)… you guessed it, typing needs to change. Keep in mind that none of the _code_ ever changes in these examples, but the typing must be continuously update. 
+ For every new adapter you want to support, you need to update your typing. If the adapter evolves to have variations or child classes, you need to update your typing. If you want to support other interfaces as adapters (assuming they already implement the needed signatures)… you guessed it, typing needs to change. Keep in mind that none of the _code_ ever changes in these examples, but the typing must be continuously updated. 
 ```python
 class Interface(BaseModel):
 	 adapter: Union[XAdapter, Type[YAdapter], ZAdapter, LocalInterface, Type[ExternalInterface] # this goes on, and on, and on...
 ```
- This coupling begets more coupling, as an exclusive white list of types can be too tempting for a junior developer to resist peeking under the hood and hard-wiring dependencies on an adapter’s internals. 
+Coupling like this begets more coupling, as a whitelist of types is all too tempting for a junior developer to resist peeking under the hood and hard-wiring dependencies to a specific adapter’s internals. This is also a
 
 The solution could be a future where we explicitly type statically or dynamically based on which is the correct tool for the job. Pydantic already supports a form of duck typing with type classes `Iterable`, `Callable`  etc - which care less about what a thing _is_ and more about what it _does_ (sound familar?). Using `typing.Any` today feels as code-smelly as duck typing with `isinstance()`.  But what correcting that is as simple as aliasing `Any` with `DuckType` ?
 ```python
@@ -77,11 +77,10 @@ def send_message(self, message:str):
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODk3OTgzMjgsNTk3MTg3NDEyLC0xNz
-Y0NzU0MzAyLDE5MTczNjQyNzQsLTc0NTk5NzM4NiwtNjQ2NTcw
-NDgzLDE5MTExNTg5MzcsLTQ3MTk4NTY0Myw0MzczNDMwNjEsLT
-M5OTcyNDQzMywtMTE1Njg3NDA3MCwtMTM0ODg4NTIwNCwtMjE3
-NTY3NjU0LDE3MzI5NzAwNTQsMjAxNjYxMjI1NCwyMDE2NjEyMj
-U0LDU3NjY0Nzg5MCwtNjkzNjA3NjEwLDEwOTA1NTAyMzhdfQ==
-
+eyJoaXN0b3J5IjpbODEzOTgwMzEsNTk3MTg3NDEyLC0xNzY0Nz
+U0MzAyLDE5MTczNjQyNzQsLTc0NTk5NzM4NiwtNjQ2NTcwNDgz
+LDE5MTExNTg5MzcsLTQ3MTk4NTY0Myw0MzczNDMwNjEsLTM5OT
+cyNDQzMywtMTE1Njg3NDA3MCwtMTM0ODg4NTIwNCwtMjE3NTY3
+NjU0LDE3MzI5NzAwNTQsMjAxNjYxMjI1NCwyMDE2NjEyMjU0LD
+U3NjY0Nzg5MCwtNjkzNjA3NjEwLDEwOTA1NTAyMzhdfQ==
 -->
