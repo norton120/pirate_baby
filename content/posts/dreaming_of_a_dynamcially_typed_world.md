@@ -33,13 +33,15 @@ Around this same time we saw the emergence of identity-forward thinking in acade
 
  This is not an indictment of either the static or dynamic typing language paradigms. Both have strengths and weaknesses - for example, how many times have you written this little gem? 
  ```python
- def standardize_args(arg:Union[
+ def standardize_args(arg:Union[list, str]):
+     if isinstance(arg, str):
+         return [arg]
 
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODExMTE2MjQwLC0zOTk3MjQ0MzMsLTExNT
-Y4NzQwNzAsLTEzNDg4ODUyMDQsLTIxNzU2NzY1NCwxNzMyOTcw
-MDU0LDIwMTY2MTIyNTQsMjAxNjYxMjI1NCw1NzY2NDc4OTAsLT
-Y5MzYwNzYxMCwxMDkwNTUwMjM4XX0=
+eyJoaXN0b3J5IjpbLTc0NTU4NDExNSwtMzk5NzI0NDMzLC0xMT
+U2ODc0MDcwLC0xMzQ4ODg1MjA0LC0yMTc1Njc2NTQsMTczMjk3
+MDA1NCwyMDE2NjEyMjU0LDIwMTY2MTIyNTQsNTc2NjQ3ODkwLC
+02OTM2MDc2MTAsMTA5MDU1MDIzOF19
 -->
