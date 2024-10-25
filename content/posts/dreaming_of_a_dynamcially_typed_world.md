@@ -24,12 +24,13 @@ If you share your formative years with Python (child of the 1980s-1990s) you pro
 * Different Strokes
 * the Cosby Show 
 
-I remembered watching _Family Matters_ instead of _Full House_ because Carl Winslow was much cooler than Danny Tanner. I remembered that Mister Cooper was a less creepy mentor than the next door neighbor in _Boy Meets World_. But I didn't remember that a lot of my TV family was black. My mind hadn't registered what they _were_, in part because that thinking was decidedly out of fashion at the time those memories were formed. Is that type of mental classification
+I remembered watching _Family Matters_ instead of _Full House_ because Carl Winslow was much cooler than Danny Tanner. I remembered that Mister Cooper was a less creepy mentor than the next door neighbor in _Boy Meets World_. But I didn't remember that a lot of my TV family was black. My mind hadn't registered what they _were_, in part because that thinking was decidedly out of fashion at the time those memories were formed. Is the way I remembered those characters really all that different from cringing any time I see `if isinstance(x, y):`  in what is supposed to be d
+
  Is it all that surprising that the heyday of dynamcially typed OOP-forward languages like Python and Ruby coencided with societal pressure to "be colorblind" in our interactions with others? 
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjcxODgxMSwyMDE2NjEyMjU0LDIwMT
+eyJoaXN0b3J5IjpbLTU1NTM1NzAzNCwyMDE2NjEyMjU0LDIwMT
 Y2MTIyNTQsNTc2NjQ3ODkwLC02OTM2MDc2MTAsMTA5MDU1MDIz
 OF19
 -->
