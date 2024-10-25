@@ -59,20 +59,21 @@ from pydantic import BaseModel
 class Interface(BaseModel):
 name: str
 description: str
-adapter: Duck
+adapter: Duck # I intend to duck type this!
 
 def send_message(self, message:str): 
     try: 
 	    self.adapter.send_message(message) 
-
+    except AttributeError as e:
+        raise ValueError("adapter must implement 'send_message', not implemented in adapter %s", self.adapter) from e
+```
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzc5OTU4NzMsNTk3MTg3NDEyLC0xNz
-Y0NzU0MzAyLDE5MTczNjQyNzQsLTc0NTk5NzM4NiwtNjQ2NTcw
-NDgzLDE5MTExNTg5MzcsLTQ3MTk4NTY0Myw0MzczNDMwNjEsLT
-M5OTcyNDQzMywtMTE1Njg3NDA3MCwtMTM0ODg4NTIwNCwtMjE3
-NTY3NjU0LDE3MzI5NzAwNTQsMjAxNjYxMjI1NCwyMDE2NjEyMj
-U0LDU3NjY0Nzg5MCwtNjkzNjA3NjEwLDEwOTA1NTAyMzhdfQ==
-
+eyJoaXN0b3J5IjpbMTk2OTEzNzkwOCw1OTcxODc0MTIsLTE3Nj
+Q3NTQzMDIsMTkxNzM2NDI3NCwtNzQ1OTk3Mzg2LC02NDY1NzA0
+ODMsMTkxMTE1ODkzNywtNDcxOTg1NjQzLDQzNzM0MzA2MSwtMz
+k5NzI0NDMzLC0xMTU2ODc0MDcwLC0xMzQ4ODg1MjA0LC0yMTc1
+Njc2NTQsMTczMjk3MDA1NCwyMDE2NjEyMjU0LDIwMTY2MTIyNT
+QsNTc2NjQ3ODkwLC02OTM2MDc2MTAsMTA5MDU1MDIzOF19
 -->
