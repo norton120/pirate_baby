@@ -11,7 +11,7 @@ Conway's Law is why you will often find rigid, silo'ed tables modeled into the d
 
 Recently a post caught my attention, from a young developer noting the contridiction between Python type hints (and by extension _Pydantic_ as effectively strongly-typed Python) with the traditional _Pythonic_ mantra of duck typing. Sometimes it takes fresh eyes that are not aware of the historical context to call out a bad situation, and this is one of those times. Best practices are not defined in a specification, written in a vacuum by wise old neckbeards; these practices are the codified reflection of developer community behavior in the same way that _Webster's Dictionary_ reflects the evolition of English (and does not act to effect that evolution). If the best practices of Python typing are becoming increasingly contradictory, it mirrors the increasingly contridictory nature in which the software development community approaches designing Python software - and this got me thinking. 
 
-What if Conway's Law can be extrapolated beyond the walls of the office? What if, just as the DNA of an organization determine the ultimate shape of that organization's applications, the 
+What if Conway's Law can be extrapolated beyond the walls of the office? What if, just as the DNA of an organization determine the ultimate shape of that organization's applications, the human social architype held by developers will decide the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE1MzQ4ODg5LDEwOTA1NTAyMzhdfQ==
+eyJoaXN0b3J5IjpbLTIxMjczMzY5MzQsMTA5MDU1MDIzOF19
 -->
