@@ -53,16 +53,26 @@ class Interface(BaseModel):
 
 The solution could be a future where we explicitly type statically or dynamically based on which is the correct tool for the job. Pydantic already supports a form of duck typing with type classes `Iterable`, `Callable`  etc - which care less about what a thing _is_ and more about what it _does_ (sound familar?). Using `typing.Any` today feels as icky as `isinstance()` felt when duck typing - but what if it's as simple as aliasing `Any` with `DuckType` ?
 ```python
-from typing import Any 
-class 
+from typing import Any as Duck
+from pydantic import BaseModel
+
+class Interface(BaseModel):
+name: str
+description: str
+adapter: Duck
+
+def send_message(self, message:str): 
+    try: 
+	    self.adapter.send_message(message) 
 
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc4NTczMDg0LDU5NzE4NzQxMiwtMTc2ND
-c1NDMwMiwxOTE3MzY0Mjc0LC03NDU5OTczODYsLTY0NjU3MDQ4
-MywxOTExMTU4OTM3LC00NzE5ODU2NDMsNDM3MzQzMDYxLC0zOT
-k3MjQ0MzMsLTExNTY4NzQwNzAsLTEzNDg4ODUyMDQsLTIxNzU2
-NzY1NCwxNzMyOTcwMDU0LDIwMTY2MTIyNTQsMjAxNjYxMjI1NC
-w1NzY2NDc4OTAsLTY5MzYwNzYxMCwxMDkwNTUwMjM4XX0=
+eyJoaXN0b3J5IjpbLTE3Mzc5OTU4NzMsNTk3MTg3NDEyLC0xNz
+Y0NzU0MzAyLDE5MTczNjQyNzQsLTc0NTk5NzM4NiwtNjQ2NTcw
+NDgzLDE5MTExNTg5MzcsLTQ3MTk4NTY0Myw0MzczNDMwNjEsLT
+M5OTcyNDQzMywtMTE1Njg3NDA3MCwtMTM0ODg4NTIwNCwtMjE3
+NTY3NjU0LDE3MzI5NzAwNTQsMjAxNjYxMjI1NCwyMDE2NjEyMj
+U0LDU3NjY0Nzg5MCwtNjkzNjA3NjEwLDEwOTA1NTAyMzhdfQ==
+
 -->
