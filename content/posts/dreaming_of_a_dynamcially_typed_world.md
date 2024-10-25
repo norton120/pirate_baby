@@ -39,11 +39,12 @@ Around this same time we saw the emergence of identity-forward thinking in acade
      return arg
 ```
 
+ “Accept a string or a list of strings” is one of those times that duck typing sucks. The 
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzMxNDAzNywtMzk5NzI0NDMzLC0xMT
-U2ODc0MDcwLC0xMzQ4ODg1MjA0LC0yMTc1Njc2NTQsMTczMjk3
-MDA1NCwyMDE2NjEyMjU0LDIwMTY2MTIyNTQsNTc2NjQ3ODkwLC
-02OTM2MDc2MTAsMTA5MDU1MDIzOF19
+eyJoaXN0b3J5IjpbLTEyNzU4NjI0NTAsLTM5OTcyNDQzMywtMT
+E1Njg3NDA3MCwtMTM0ODg4NTIwNCwtMjE3NTY3NjU0LDE3MzI5
+NzAwNTQsMjAxNjYxMjI1NCwyMDE2NjEyMjU0LDU3NjY0Nzg5MC
+wtNjkzNjA3NjEwLDEwOTA1NTAyMzhdfQ==
 -->
