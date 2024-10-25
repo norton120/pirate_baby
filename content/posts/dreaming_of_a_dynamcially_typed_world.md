@@ -31,9 +31,9 @@ I remembered watching _Family Matters_ instead of _Full House_ because Carl Wins
 
 Then consider the era that gave rise to TypeScript and Pydantic - the 2010s. After a decade of dynamically typed code, many developers were tired of "magic soup" - applications filled with cryptic round-about logic, side effects that were impossible to debug, and class names that looked like the author was in training for BBC Countdown. These developers craved the structure, order, and simplicity of pattern matching, and with that came the return of typing and functional programming.
 
-TypeScript and Pydantic-based Python start every method with a single question: "What are you?" The identity of the object is the base for all proceeding business logic. It does not matter if the calling function invokes an `update()` method which the object can fulfill, if the type does not match the call will never execute. This confirmation of type occurs at every functional exchange in TypeScript and as much of the typed Python codebase as inherits from `Pydantic.BaseModel`, effectively starting every transaction and sub-transaction with a declaration of identity. "As a `ProductUpdateRequest` object, I have an `update()` method I can execute for you."
+TypeScript and Pydantic-based Python start every method with a single question: "What are you?" The identity of the object is the base for all proceeding business logic. It does not matter if the calling function invokes an `update()` method which the object can fulfill, if the type does not match, the call will never execute. This confirmation of type occurs at every functional exchange in TypeScript and as much of the typed Python codebase as inherits from `Pydantic.BaseModel`, effectively starting every transaction and sub-transaction with a declaration of identity. "As a `ProductUpdateRequest` object, I have an `update()` method I can execute for you."
 
-Around this time, we saw the emergence of identity-forward thinking in academic circles, politics, and business, and a growing importance placed on identity that has carried into today. I think it is safe to assume that anyone reading this will have been around in the last ten or so years, and as such I will leave you to draw your parallels between the software and the burgeoning social norms regarding identity - you don't need my party stories for that.
+Around this time, we saw the emergence of identity-forward thinking in academic circles, politics, and business, and a growing importance placed on identity that has carried into society today. I think it is safe to assume that anyone reading this will have been around in the last ten or so years, and as such I will leave you to draw your parallels between the software and the burgeoning social norms regarding identity - you don't need my party stories for that.
 
 This observation is not an indictment of the static or dynamic typing language paradigms, both have strengths and weaknesses. For example, how often have you written this little gem in duck-typed Python and felt dirty after?
 
@@ -87,11 +87,11 @@ As for the sociology part, I am no expert in humanity. I am sure that my bias to
 
 <sub>1. Python as a language has been around since the late 1980s, however, Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that applies to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTcwOTk3OSwtNTQwMjkzMTk2LDExOD
-c1MTc4MTUsLTEzMTI3MTg5OTcsNjI3OTQ5NjM2LDU5NzE4NzQx
-MiwtMTc2NDc1NDMwMiwxOTE3MzY0Mjc0LC03NDU5OTczODYsLT
-Y0NjU3MDQ4MywxOTExMTU4OTM3LC00NzE5ODU2NDMsNDM3MzQz
-MDYxLC0zOTk3MjQ0MzMsLTExNTY4NzQwNzAsLTEzNDg4ODUyMD
-QsLTIxNzU2NzY1NCwxNzMyOTcwMDU0LDIwMTY2MTIyNTQsMjAx
-NjYxMjI1NF19
+eyJoaXN0b3J5IjpbNjg3Mjk4NDI5LC01NDAyOTMxOTYsMTE4Nz
+UxNzgxNSwtMTMxMjcxODk5Nyw2Mjc5NDk2MzYsNTk3MTg3NDEy
+LC0xNzY0NzU0MzAyLDE5MTczNjQyNzQsLTc0NTk5NzM4NiwtNj
+Q2NTcwNDgzLDE5MTExNTg5MzcsLTQ3MTk4NTY0Myw0MzczNDMw
+NjEsLTM5OTcyNDQzMywtMTE1Njg3NDA3MCwtMTM0ODg4NTIwNC
+wtMjE3NTY3NjU0LDE3MzI5NzAwNTQsMjAxNjYxMjI1NCwyMDE2
+NjEyMjU0XX0=
 -->
