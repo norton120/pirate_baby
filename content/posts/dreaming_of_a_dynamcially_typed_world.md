@@ -13,7 +13,7 @@ Recently a post caught my attention, from a young developer noting the contridic
 
 What if Conway's Law can be extrapolated beyond the walls of the office? What if, just as the DNA of an organization determine the ultimate shape of that organization's applications, the human social architype held by humanity's software developers will decide the evolution of our programming languages? What if Python is changing in the same way that the people _writing_ Python are changing? 
 
-Consider the appeal of a dynamically typed language and, by extension, the practice of duck typing
+Consider the appeal of dynamically typed languages and, by extension, the practice of duck typing, when Python 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMyMDQ4MjA5LDEwOTA1NTAyMzhdfQ==
+eyJoaXN0b3J5IjpbLTEyMTI5MzQ0OSwxMDkwNTUwMjM4XX0=
 -->
