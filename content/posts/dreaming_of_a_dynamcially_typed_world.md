@@ -47,6 +47,8 @@ class Interface(BaseModel):
 
  For every new adapter you want to support, you need to update your typing. If the adapter evolves to have variations, children etc., you need to update your typing. If you want to support other interfaces as adapters, which also already implements all the needed methods and attributes… you guessed it, typing needs to change. Keep in mind that none of the code in the adapters or interfaces have changed, but the typing still needs to continuously update. 
  ```python
+ class Interface(BaseModel):
+	 adapter: Union[XAdapter, Type[YAdapter], ZAdapter, LocalInterface, Type[ExternalInterface] # this goes on, and on, and on...
  ```
  This coupling begets more coupling, as an exclusive white list of types can be too tempting for a junior developer to resist peeking under the hood and hard-wiring dependencies on an adapter’s internals. 
 
@@ -55,10 +57,11 @@ And maybe the solution is to explicitly type statically or dynamically based on 
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk3MTg3NDEyLC0xNzY0NzU0MzAyLDE5MT
-czNjQyNzQsLTc0NTk5NzM4NiwtNjQ2NTcwNDgzLDE5MTExNTg5
-MzcsLTQ3MTk4NTY0Myw0MzczNDMwNjEsLTM5OTcyNDQzMywtMT
-E1Njg3NDA3MCwtMTM0ODg4NTIwNCwtMjE3NTY3NjU0LDE3MzI5
-NzAwNTQsMjAxNjYxMjI1NCwyMDE2NjEyMjU0LDU3NjY0Nzg5MC
-wtNjkzNjA3NjEwLDEwOTA1NTAyMzhdfQ==
+eyJoaXN0b3J5IjpbLTE1OTM1NzI1NjksNTk3MTg3NDEyLC0xNz
+Y0NzU0MzAyLDE5MTczNjQyNzQsLTc0NTk5NzM4NiwtNjQ2NTcw
+NDgzLDE5MTExNTg5MzcsLTQ3MTk4NTY0Myw0MzczNDMwNjEsLT
+M5OTcyNDQzMywtMTE1Njg3NDA3MCwtMTM0ODg4NTIwNCwtMjE3
+NTY3NjU0LDE3MzI5NzAwNTQsMjAxNjYxMjI1NCwyMDE2NjEyMj
+U0LDU3NjY0Nzg5MCwtNjkzNjA3NjEwLDEwOTA1NTAyMzhdfQ==
+
 -->
