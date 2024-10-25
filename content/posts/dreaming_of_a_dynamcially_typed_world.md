@@ -48,14 +48,14 @@ class Interface(BaseModel):
  For every new adapter you want to support, you need to update your typing. If the adapter evolves to have variations, children etc., you need to update your typing. If you want to support other interfaces as adapters, which also already implements all the needed methods and attributes… you guessed it, typing needs to change. Keep in mind that none of the code in the adapters or interfaces have changed, but the typing still needs to continuously update. 
  ```python
  ```
- This coupling begets more coupling, as an exclusive white list of types can be too tempting for a junior developer to resist looking 
+ This coupling begets more coupling, as an exclusive white list of types can be too tempting for a junior developer to resist peeking under the hood and 
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjQ3NTQzMDIsMTkxNzM2NDI3NCwtNz
-Q1OTk3Mzg2LC02NDY1NzA0ODMsMTkxMTE1ODkzNywtNDcxOTg1
-NjQzLDQzNzM0MzA2MSwtMzk5NzI0NDMzLC0xMTU2ODc0MDcwLC
-0xMzQ4ODg1MjA0LC0yMTc1Njc2NTQsMTczMjk3MDA1NCwyMDE2
-NjEyMjU0LDIwMTY2MTIyNTQsNTc2NjQ3ODkwLC02OTM2MDc2MT
-AsMTA5MDU1MDIzOF19
+eyJoaXN0b3J5IjpbLTEwNTkzMTY3NDgsLTE3NjQ3NTQzMDIsMT
+kxNzM2NDI3NCwtNzQ1OTk3Mzg2LC02NDY1NzA0ODMsMTkxMTE1
+ODkzNywtNDcxOTg1NjQzLDQzNzM0MzA2MSwtMzk5NzI0NDMzLC
+0xMTU2ODc0MDcwLC0xMzQ4ODg1MjA0LC0yMTc1Njc2NTQsMTcz
+Mjk3MDA1NCwyMDE2NjEyMjU0LDIwMTY2MTIyNTQsNTc2NjQ3OD
+kwLC02OTM2MDc2MTAsMTA5MDU1MDIzOF19
 -->
