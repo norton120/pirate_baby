@@ -27,7 +27,7 @@ If you share formative years with Python (a child of the 1980s-90s) you probably
 * [Different Strokes](https://www.imdb.com/title/tt0077003/) (syndicated)
 * [the Cosby Show](https://www.imdb.com/title/tt0086687/)
 
-I remembered watching _Family Matters_ instead of _Full House_ because Carl Winslow was much cooler than Danny Tanner. I remembered Mister Cooper was a relatable mentor, while the next-door neighbor in _Boy Meets World_ was creepy. But earlier in the conversation it hadn't occurred to me how much of my TV family was black. My mind hadn't registered what they _were_, because that thinking was decidedly out of fashion when those memories were formed. Is the way I remembered those characters - by their actions and interfaces - really all that different from cringing when I see `if isinstance(x, y):` in a Python codebase? The heyday of dynamically typed OOP languages like Python and Ruby coincided with societal pressure to "be colorblind" in a way that is hard to ignore.
+I remembered watching _Family Matters_ instead of _Full House_ because Carl Winslow was much cooler than Danny Tanner. I remembered Mister Cooper was a relatable mentor, while the next-door neighbor in _Boy Meets World_ was creepy. But earlier in the conversation it hadn't occurred to me how much of my adolescent TV family was black. My mind hadn't registered what they _were_, because that thinking was decidedly out of fashion at the time those memories were formed. Is the way I remembered those characters - by their actions and interfaces - really all that different from cringing when I see `if isinstance(x, y):` in a Python codebase? The heyday of dynamically typed OOP languages like Python and Ruby coincided with societal pressure to "be colorblind" in a way that is hard to ignore.
 
 Then consider the era that gave rise to TypeScript and Pydantic - the 2010s. After a decade of dynamically typed code, many developers were tired of "magic soup" - applications filled with cryptic round-about logic, side effects that were impossible to debug, and class names that looked like the author was in training for BBC Countdown. These developers craved the structure, order, and simplicity of pattern matching, and with that came the return of typing and functional programming.
 
@@ -87,7 +87,7 @@ As for the sociology part, I am no expert in humanity. I am sure that my bias to
 
 <sub>1. Python as a language has been around since the late 1980s, however, Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that applies to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNzEwODMyNiwtNTQwMjkzMTk2LDExOD
+eyJoaXN0b3J5IjpbMjAzNTcwOTk3OSwtNTQwMjkzMTk2LDExOD
 c1MTc4MTUsLTEzMTI3MTg5OTcsNjI3OTQ5NjM2LDU5NzE4NzQx
 MiwtMTc2NDc1NDMwMiwxOTE3MzY0Mjc0LC03NDU5OTczODYsLT
 Y0NjU3MDQ4MywxOTExMTU4OTM3LC00NzE5ODU2NDMsNDM3MzQz
