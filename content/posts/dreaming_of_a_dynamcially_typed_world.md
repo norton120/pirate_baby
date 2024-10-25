@@ -55,7 +55,7 @@ class Interface(BaseModel):
 ```
 Coupling like this begets more coupling, as a whitelist of types is just too tempting for a junior developer to resist. Why build agnostic interfaces when you can peek under the hood of specific adapters and hard-wire depenencies to their internals? This is a crack through which the spaghetti sneaks in. 
 
-The solution might be a future where we explicitly type either statically, _or_ dynamically, based on which is the best tool for the job. Pydantic already supports a form of duck typing with generic type classes `Iterable`, `Callable`, `Awaitable`, `Hashable`;  these types care not what a thing _is_, only what it _does_ (sound familar?). Using `typing.Any` in Pydantic Python feels as code-smelly as duck typing with `isinstance()` -  but what if correcting that is as simple as aliasing `Any` with `DuckType` ?
+The solution might be a future where we explicitly type either statically, _or_ dynamically, based on which is the best tool for the job. Pydantic already supports a form of duck typing with generic type classes `Iterable`, `Callable`, `Awaitable`, `Hashable`;  these types care not what a thing _is_, only what it _does_ (sound familar?). Using `typing.Any` in Pydantic Python feels as code-smelly as duck typing with `isinstance()` -  but what if correcting that feeling is as simple as aliasing `Any` with `DuckType` ?
 ```python
 from typing import Any as DuckType
 from pydantic import BaseModel
@@ -72,14 +72,16 @@ def send_message(self, message:str):
     except AttributeError as e:
         raise ValueError("adapter must implement 'send_message', not implemented in adapter %s", self.adapter) from e
 ```
-`DuckTytpe` tells our PR reviewers (and future Us) to expect the duck typing, and call it out if that logic is missing. 
+`DuckTytpe` tells our PR reviewers (and future Us) to expect the duck typing, and call it out if that logic is missing. Maybe even in a way that the next wave of smarter linters can detect and declare "Where's the duck!?!"
+
+As for the sociology part, I am no
 
 
 
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NjUyNjI4NCw2Mjc5NDk2MzYsNTk3MT
+eyJoaXN0b3J5IjpbLTkwMjE4MjYzMCw2Mjc5NDk2MzYsNTk3MT
 g3NDEyLC0xNzY0NzU0MzAyLDE5MTczNjQyNzQsLTc0NTk5NzM4
 NiwtNjQ2NTcwNDgzLDE5MTExNTg5MzcsLTQ3MTk4NTY0Myw0Mz
 czNDMwNjEsLTM5OTcyNDQzMywtMTE1Njg3NDA3MCwtMTM0ODg4
