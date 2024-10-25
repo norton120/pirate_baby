@@ -15,11 +15,11 @@ What if Conway's Law can be extrapolated beyond the walls of the office? What if
 
 Consider the appeal of dynamically typed languages and, by extension, the practice of duck typing, when Python 2.0 was released in the year 2000 <sup>1</sup>. 
 To many proponents at the time dynamic typing was the flexible answer to the rigid structure and beurocracy of design found in statically typed languages. Your code no longer needed to declare _what_ something was, and was no longer bound to that identity - it could start life as a `str` and evolve to a `list` or a `dict` or maybe even a `ProtcolConstructorElement` - it didn't matter. Duck typing is the extension of that lack of identity; it is unimportant what a thing _is_, and only important what a thing _does_. If an object needs a method `convert_to_pdf` to get a job done, and it has that method, then the object is qualified to do the job. If not, then deal with the error of an unqualified object - or look for a different possible method `to_pdf` supported by other, also qualified objects. The point of duck typing in dynamic programming was to deal with the object's ability, not the object's identity. 
-Compare this strategy to 
+If your formative years mirror Python (so a child of the 1980s-1990s) you probably remember the phrase "be colorblind." This was the overwhelming message in education and  
 
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMDI0MzAzNSwtNjkzNjA3NjEwLDEwOT
-A1NTAyMzhdfQ==
+eyJoaXN0b3J5IjpbNTc2NjQ3ODkwLC02OTM2MDc2MTAsMTA5MD
+U1MDIzOF19
 -->
