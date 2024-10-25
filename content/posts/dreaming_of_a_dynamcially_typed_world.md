@@ -13,10 +13,12 @@ Recently a post caught my attention, from a young developer noting the contridic
 
 What if Conway's Law can be extrapolated beyond the walls of the office? What if, just as the DNA of an organization determine the ultimate shape of that organization's applications, the human social architype held by humanity's software developers will decide the evolution of our programming languages? What if Python is changing in the same way that the people _writing_ Python are changing? 
 
-Consider the appeal of dynamically typed languages and, by extension, the practice of duck typing, when Python 2.0 was released in the year 2000 <sup>1</sup>. Developers were tired of rigid structure of statically tlanguages that required you to declare argument and return types up front. For many this was seen as a barrier to entry, one more complex 
+Consider the appeal of dynamically typed languages and, by extension, the practice of duck typing, when Python 2.0 was released in the year 2000 <sup>1</sup>. 
+Dynamic typing was seen as the language paradigm that would tear down a barrier wall
+Developers were tired of rigid structure of statically typed languages that required you to declare argument and return types. For many this was seen as a barrier to entry, one more complex 
 
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxOTUzMTQ2LDEwOTA1NTAyMzhdfQ==
+eyJoaXN0b3J5IjpbLTEwNTA2Nzg4NTQsMTA5MDU1MDIzOF19
 -->
