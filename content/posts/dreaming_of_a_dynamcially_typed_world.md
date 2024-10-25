@@ -26,11 +26,11 @@ If you share your formative years with Python (child of the 1980s-1990s) you pro
 
 I remembered watching _Family Matters_ instead of _Full House_ because Carl Winslow was much cooler than Danny Tanner. I remembered that Mister Cooper was a less creepy mentor than the next door neighbor in _Boy Meets World_. But I didn't remember that a lot of my TV family was black. My mind hadn't registered what they _were_, in part because that thinking was decidedly out of fashion at the time those memories were formed. Is the way I remembered those characters really all that different from cringing any time I see `if isinstance(x, y):`  in a codebase? The heyday of dynamcially typed OOP-forward languages like Python and Ruby coencided with societal pressure to "be colorblind" in a way that is hard to ignore.
 
-Consider the era that gave rise to `TypeScript` and `Pydantic` - the 2010s. After a decade of dynamically typed code, develop had given rise to a world of "magic soup" - applications filled with cryptic round-about logic and side effects that were impossible to debug. Class names that looked like the developer was training for Countdown on the BBC. 
+Consider the era that gave rise to `TypeScript` and `Pydantic` - the 2010s. After a decade of dynamically typed code, many developers were tired of "magic soup" - applications filled with cryptic round-about logic and side effects that were impossible to debug. Class names that looked like the developer was training for Countdown on the BBC. They wanted structure, order, and simplicity of pattern matching, and with that came the returtn
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MDc0MTYxMiwxNzMyOTcwMDU0LDIwMT
-Y2MTIyNTQsMjAxNjYxMjI1NCw1NzY2NDc4OTAsLTY5MzYwNzYx
-MCwxMDkwNTUwMjM4XX0=
+eyJoaXN0b3J5IjpbLTE3ODcxODYwODIsMTczMjk3MDA1NCwyMD
+E2NjEyMjU0LDIwMTY2MTIyNTQsNTc2NjQ3ODkwLC02OTM2MDc2
+MTAsMTA5MDU1MDIzOF19
 -->
