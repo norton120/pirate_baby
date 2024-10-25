@@ -30,7 +30,7 @@ If you share formative years with Python (a child of the 1980s-90s) you probably
 
 I remembered watching _Family Matters_ instead of _Full House_ because Carl Winslow was much cooler than Danny Tanner. I remembered Mister Cooper was a relatable mentor, while the next-door neighbor in _Boy Meets World_ was creepy. But earlier in the conversation it hadn't occurred to me how much of my TV family was black. My mind hadn't registered what they _were_, because that thinking was decidedly out of fashion when those memories were formed. Is the way I remembered those characters - by their actions and interfaces - really all that different from cringing when I see `if isinstance(x, y):` in a Python codebase? The heyday of dynamically typed OOP languages like Python and Ruby coincided with societal pressure to "be colorblind" in a way that is hard to ignore.
 
-Then consider the era that gave rise to TypeScript and Pydantic - the 2010s. After a decade of dynamically typed code, many developers were tired of "magic soup" - applications filled with cryptic round-about logic and side effects that were impossible to debug, and class names that looked like the author was in training for BBC Countdown. These developers craved the structure, order, and simplicity of pattern matching, and with that came the return of typing and functional programming.
+Then consider the era that gave rise to TypeScript and Pydantic - the 2010s. After a decade of dynamically typed code, many developers were tired of "magic soup" - applications filled with cryptic round-about logic, side effects that were impossible to debug, and class names that looked like the author was in training for BBC Countdown. These developers craved the structure, order, and simplicity of pattern matching, and with that came the return of typing and functional programming.
 
 TypeScript and Pydantic-based Python start every method with a single question: "What are you?" The identity of the object is the base for all proceeding business logic. It does not matter if the calling function invokes an `update()` method which the object can fulfill, if the type does not match the call will never execute. This confirmation of type occurs at every functional exchange in TypeScript and as much of the typed Python codebase as inherits from `Pydantic.BaseModel`, effectively starting every transaction and sub-transaction with a declaration of identity. "As a `ProductUpdateRequest` object, I have an `update()` method I can execute for you."
 
@@ -88,11 +88,11 @@ As for the sociology part, I am no expert in humanity. I am sure that my bias to
 
 <sub>1. Python as a language has been around since the late 1980s, however, Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that applies to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NzUxNzgxNSwtMTMxMjcxODk5Nyw2Mj
-c5NDk2MzYsNTk3MTg3NDEyLC0xNzY0NzU0MzAyLDE5MTczNjQy
-NzQsLTc0NTk5NzM4NiwtNjQ2NTcwNDgzLDE5MTExNTg5MzcsLT
-Q3MTk4NTY0Myw0MzczNDMwNjEsLTM5OTcyNDQzMywtMTE1Njg3
-NDA3MCwtMTM0ODg4NTIwNCwtMjE3NTY3NjU0LDE3MzI5NzAwNT
-QsMjAxNjYxMjI1NCwyMDE2NjEyMjU0LDU3NjY0Nzg5MCwtNjkz
-NjA3NjEwXX0=
+eyJoaXN0b3J5IjpbLTU0MDI5MzE5NiwxMTg3NTE3ODE1LC0xMz
+EyNzE4OTk3LDYyNzk0OTYzNiw1OTcxODc0MTIsLTE3NjQ3NTQz
+MDIsMTkxNzM2NDI3NCwtNzQ1OTk3Mzg2LC02NDY1NzA0ODMsMT
+kxMTE1ODkzNywtNDcxOTg1NjQzLDQzNzM0MzA2MSwtMzk5NzI0
+NDMzLC0xMTU2ODc0MDcwLC0xMzQ4ODg1MjA0LC0yMTc1Njc2NT
+QsMTczMjk3MDA1NCwyMDE2NjEyMjU0LDIwMTY2MTIyNTQsNTc2
+NjQ3ODkwXX0=
 -->
