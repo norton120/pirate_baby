@@ -9,7 +9,7 @@ In 1967 computer scientist Melvin Conway made an observation that came to be kno
 
 Conway's Law is why you will often find rigid, silo'ed tables modeled into the data architecture of rigid companies with silo'ed business departments, or scrambled and obviously unplanned relationships across software entities at bootstrap startups; code reflects the human environment in which it develops.
 
-Recently a post caught my attention, from a young developer noting the contridiction between Python type hints (and by extension _Pydantic_ as effectively strongly-typed Python) with the traditional _Pythonic_ mantra of duck typing. Sometimes it takes fresh eyes that are not aware of the historical context to call out a bad situation, and this is one of those times. Best practices are not defined in a specification or   Python are becoming increasingly contradictory, seeming to assume that this conflict has been with the language for 
+Recently a post caught my attention, from a young developer noting the contridiction between Python type hints (and by extension _Pydantic_ as effectively strongly-typed Python) with the traditional _Pythonic_ mantra of duck typing. Sometimes it takes fresh eyes that are not aware of the historical context to call out a bad situation, and this is one of those times. Best practices are not defined in a specification, written in a vacuum by wise old neckbeards; they are a reflection th  Python are becoming increasingly contradictory, seeming to assume that this conflict has been with the language for 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDA3MTEyLDEwOTA1NTAyMzhdfQ==
+eyJoaXN0b3J5IjpbLTE4MDUyNzEyMDIsMTA5MDU1MDIzOF19
 -->
