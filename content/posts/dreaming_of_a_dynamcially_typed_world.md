@@ -4,6 +4,8 @@ date: 2024-10-23
 tags: ['software', 'op-ed']
 draft: true
 ---
+<figure>
+	<img src
 
 In 1967 computer scientist Melvin Conway made an observation that came to be known as _Conway's Law_.
 
@@ -91,11 +93,11 @@ As for the sociology part, I am no expert in humanity. My bias towards colorblin
 
 <sub>1. Python as a language has been around since the late 1980s, however, Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that applies to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2OTM5Njg4NSwtNTQwMjkzMTk2LDExOD
-c1MTc4MTUsLTEzMTI3MTg5OTcsNjI3OTQ5NjM2LDU5NzE4NzQx
-MiwtMTc2NDc1NDMwMiwxOTE3MzY0Mjc0LC03NDU5OTczODYsLT
-Y0NjU3MDQ4MywxOTExMTU4OTM3LC00NzE5ODU2NDMsNDM3MzQz
-MDYxLC0zOTk3MjQ0MzMsLTExNTY4NzQwNzAsLTEzNDg4ODUyMD
-QsLTIxNzU2NzY1NCwxNzMyOTcwMDU0LDIwMTY2MTIyNTQsMjAx
-NjYxMjI1NF19
+eyJoaXN0b3J5IjpbLTE2OTQwODU1MTAsMTI2OTM5Njg4NSwtNT
+QwMjkzMTk2LDExODc1MTc4MTUsLTEzMTI3MTg5OTcsNjI3OTQ5
+NjM2LDU5NzE4NzQxMiwtMTc2NDc1NDMwMiwxOTE3MzY0Mjc0LC
+03NDU5OTczODYsLTY0NjU3MDQ4MywxOTExMTU4OTM3LC00NzE5
+ODU2NDMsNDM3MzQzMDYxLC0zOTk3MjQ0MzMsLTExNTY4NzQwNz
+AsLTEzNDg4ODUyMDQsLTIxNzU2NzY1NCwxNzMyOTcwMDU0LDIw
+MTY2MTIyNTRdfQ==
 -->
