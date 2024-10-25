@@ -31,12 +31,13 @@ Consider the era that gave rise to `TypeScript` and `Pydantic` - the 2010s. Afte
 Both TypeScript and Pydantic start every method with a single question: "what are you?" The identity of the object is the base for all proceeding business logic. In this case it does not matter if the calling function invokes an `update()` method and the object has an `update()` method, if the object type is wrong this call will never get that far. This confirmation of type occurs at every functional exchange in TypeScript and as much of the typed Python codebase as inherits from `Pydantic.BaseModel`, effectively starting every transaction and sub-transaction with a declaration of identity. "As a `ProductUpdateRequest` object, I have an `update()` method I can execute for you." 
 Around this same time we saw the emergence of identity-forward thinking in academic circles, politics and business. Examples abound of the growing importance placed on identity during this time period; as it’s safe to assume that anyone reading this has reasonably vivid memories of the last 10 years, I will leave you to draw your own parallels.
 
- This is not an indictment of either the static or dynamic typing language paradigms. Both have strengths and weaknesses
+ This is not an indictment of either the static or dynamic typing language paradigms. Both have strengths and weaknesses - for example, how many times have you written this little gem? 
+ `
 
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MzAxODQyNSwtMzk5NzI0NDMzLC0xMT
+eyJoaXN0b3J5IjpbMTMxMTk3MTkyNiwtMzk5NzI0NDMzLC0xMT
 U2ODc0MDcwLC0xMzQ4ODg1MjA0LC0yMTc1Njc2NTQsMTczMjk3
 MDA1NCwyMDE2NjEyMjU0LDIwMTY2MTIyNTQsNTc2NjQ3ODkwLC
 02OTM2MDc2MTAsMTA5MDU1MDIzOF19
