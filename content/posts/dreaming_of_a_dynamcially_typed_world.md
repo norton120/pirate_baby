@@ -9,7 +9,7 @@ In 1967 computer scientist Melvin Conway made an observation that came to be kno
 
 Conway's Law is why you will often find rigid, silo'ed tables modeled into the data architecture of rigid companies with silo'ed business departments, or scrambled and obviously unplanned relationships across software entities at bootstrap startups; code reflects the human environment in which it develops.
 
-Recently a post by a young developer caught my attention; this developer noted (rather snarkingly) the contridiction between Python type hints and, by extension, _Pydantic_ Python as an effectively strongly-typed version of the language, with the traditional _Pythonic_ mantra of duck typing. The frustration was warranted, and sometimes it takes fresh eyes that are not aware of the historical context to call out a bad situation. Best practices are not defined in a specification, written in a vacuum by wise old neckbeards; these practices are the codified reflection of dev community behavior in the same way that _Webster's Dictionary_ reflects the evolition of English (and is not the root cause of that evolution). If the best practices of Python typing are becoming increasingly contradictory, it mirrors the increasingly contridictory nature in which the software development community approaches designing Python software - and this got me thinking. 
+Recently a post by a young developer caught my attention; this developer noted (rather snarkingly) the contridiction between Python type hints and, by extension, _Pydantic_ Python as an effectively strongly-typed version of the language, with the traditional _Pythonic_ mantra of duck typing. The frustration was warranted, and sometimes it takes fresh eyes that are not aware of the historical context to call out a bad situation. Best practices are not written in a vacuum by wise old neckbeards and then chistled in a specification for all to obey; these practices are codified reflections of the community behavior, in the same way that _Webster's Dictionary_ reflects the evolition of English (and is not the root cause of that evolution). If the best practices of Python typing are becoming increasingly contradictory, it mirrors the increasingly contridictory nature in which the software development community approaches designing Python software - and this got me thinking. 
 
 What if Conway's Law extrapolates beyond the walls of the office? What if, just as the DNA of an organization determines the ultimate shape of that organization's applications, the human social architype held by humanity's software developers determines the evolution of our programming languages? What if Python is changing in the same way that the people _writing_ Python are changing? 
 
@@ -78,11 +78,11 @@ def send_message(self, message:str):
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMwMzg2NjE4LDYyNzk0OTYzNiw1OTcxOD
-c0MTIsLTE3NjQ3NTQzMDIsMTkxNzM2NDI3NCwtNzQ1OTk3Mzg2
-LC02NDY1NzA0ODMsMTkxMTE1ODkzNywtNDcxOTg1NjQzLDQzNz
-M0MzA2MSwtMzk5NzI0NDMzLC0xMTU2ODc0MDcwLC0xMzQ4ODg1
-MjA0LC0yMTc1Njc2NTQsMTczMjk3MDA1NCwyMDE2NjEyMjU0LD
-IwMTY2MTIyNTQsNTc2NjQ3ODkwLC02OTM2MDc2MTAsMTA5MDU1
-MDIzOF19
+eyJoaXN0b3J5IjpbLTE5OTM3NTM5MDUsNjI3OTQ5NjM2LDU5Nz
+E4NzQxMiwtMTc2NDc1NDMwMiwxOTE3MzY0Mjc0LC03NDU5OTcz
+ODYsLTY0NjU3MDQ4MywxOTExMTU4OTM3LC00NzE5ODU2NDMsND
+M3MzQzMDYxLC0zOTk3MjQ0MzMsLTExNTY4NzQwNzAsLTEzNDg4
+ODUyMDQsLTIxNzU2NzY1NCwxNzMyOTcwMDU0LDIwMTY2MTIyNT
+QsMjAxNjYxMjI1NCw1NzY2NDc4OTAsLTY5MzYwNzYxMCwxMDkw
+NTUwMjM4XX0=
 -->
