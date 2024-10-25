@@ -9,36 +9,22 @@ In 1967 computer scientist Melvin Conway made an observation that came to be kno
 
 > Organizations which design systems (in the broad sense used here) are constrained to produce designs which are copies of the communication structures of these organizations.
 
-  
-
 Conway's Law is why you often find rigid, silo'ed tables modeled into the data architecture of rigid companies with silo'ed business departments, or scrambled and unplanned relationships across software entities at bootstrap startups; code reflects the human environment in which it develops.
-
-  
 
 Recently a post by a young developer caught my attention; this developer noted (rather snarkily) the contradiction between Python type hints and, by extension, _Pydantic_ Python as an effectively strongly-typed version of the language, with the traditional _Pythonic_ mantra of duck typing. The frustration was warranted, and sometimes it takes fresh eyes unaware of the historical context to call out a bad situation. Best practices are not written in a vacuum by wise old neckbeards and then chiseled in a specification for all to obey; these practices are codified reflections of developer community behavior, in much the same way that _Webster's Dictionary_ reflects the evolution of English (and is not the root cause of that evolution). If the best practices of Python typing are becoming increasingly contradictory, it mirrors the increasingly contridictory nature in which the software development community approaches designing Python software - and this got me thinking.
 
-  
-
 What if Conway's Law extrapolates beyond the walls of the office? What if, just as the DNA of an organization determines the ultimate shape of that organization's applications, the social archetype held by humanity's software developers determines the evolution of our programming languages? What if Python is changing in the same way that the people _writing_ Python are changing?
-
-  
 
 Consider the appeal of dynamically typed languages and, by extension, the practice of duck typing, when Python 2.0 was released in the year 2000 <sup>1</sup>.
 
 To the many proponents at the time, dynamic typing was the flexible answer to the rigid structure and bureaucracy of design found in statically typed languages. Your code no longer needed to declare _what_ something was and be bound to that identity - it could start life as a `str` and evolve to a `list` or a `dict` or maybe even a `ProtcolConstructorElement` - it didn't matter. Duck typing extends that lack of identity; it is unimportant what the thing _is_, and only important what the thing _does_. If an object needs a method `convert_to_pdf` to get a job done, and it has that method, then that object is qualified to do the job. If not, then the software must deal with the error of an unqualified object - or look for a different possible method such as the `to_pdf` supported by other, also qualified objects. The point of duck typing in dynamic programming was to deal with the object's ability, not the object's identity - if it quacked, treat it like a duck.
 
-  
-
 If you share formative years with Python (a child of the 1980s-90s) you probably remember the phrase "be colorblind." This was the overwhelming message in education and popular culture at the time, a message that considering an individual's external identity, even _seeing_ or _acknowledging_ that identity, was morally wrong; that an individual must be judged solely by their words and, most importantly, actions, and by nothing else. I can attest with at least anecdotal evidence of how that message shaped how I view the world, by way of the most scientifically rigorous method - recounting a casual conversation I had last week at a party. The conversation landed on representation in media, as one of the younger partygoers was postulating that the tail end of the TV sitcom era was particularly awful at only telling one story - the white one. No one, myself included, gave protest. But then the conversation shifted to reminiscing about some of the shows we watched religiously as kids, and among my list:
 
 * [Hanging with Mister Cooper](https://www.imdb.com/title/tt0103435/)
-
 * [Fresh Prince of Bel-Air](https://www.imdb.com/title/tt0098800/)
-
 * [Star Trek: Deep Space Nine](https://www.imdb.com/title/tt0106145/)
-
 * [Family Matters](https://www.imdb.com/title/tt0096579/)
-
 * [Different Strokes](https://www.imdb.com/title/tt0077003/) (syndicated)
 * [the Cosby Show](https://www.imdb.com/title/tt0086687/)
 
@@ -102,11 +88,11 @@ As for the sociology part, I am no expert in humanity. I am sure that my bias to
 
 <sub>1. Python as a language has been around since the late 1980s, however, Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that applies to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYwNTk0MTU5LC0xMzEyNzE4OTk3LDYyNz
-k0OTYzNiw1OTcxODc0MTIsLTE3NjQ3NTQzMDIsMTkxNzM2NDI3
-NCwtNzQ1OTk3Mzg2LC02NDY1NzA0ODMsMTkxMTE1ODkzNywtND
-cxOTg1NjQzLDQzNzM0MzA2MSwtMzk5NzI0NDMzLC0xMTU2ODc0
-MDcwLC0xMzQ4ODg1MjA0LC0yMTc1Njc2NTQsMTczMjk3MDA1NC
-wyMDE2NjEyMjU0LDIwMTY2MTIyNTQsNTc2NjQ3ODkwLC02OTM2
-MDc2MTBdfQ==
+eyJoaXN0b3J5IjpbMTE4NzUxNzgxNSwtMTMxMjcxODk5Nyw2Mj
+c5NDk2MzYsNTk3MTg3NDEyLC0xNzY0NzU0MzAyLDE5MTczNjQy
+NzQsLTc0NTk5NzM4NiwtNjQ2NTcwNDgzLDE5MTExNTg5MzcsLT
+Q3MTk4NTY0Myw0MzczNDMwNjEsLTM5OTcyNDQzMywtMTE1Njg3
+NDA3MCwtMTM0ODg4NTIwNCwtMjE3NTY3NjU0LDE3MzI5NzAwNT
+QsMjAxNjYxMjI1NCwyMDE2NjEyMjU0LDU3NjY0Nzg5MCwtNjkz
+NjA3NjEwXX0=
 -->
