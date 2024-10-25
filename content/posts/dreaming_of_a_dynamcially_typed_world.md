@@ -74,18 +74,18 @@ def send_message(self, message:str):
 ```
 `DuckTytpe` tells our PR reviewers (and future Us) to expect the duck typing, and call it out if that logic is missing. Maybe even in a way that the next wave of smarter linters can detect and declare "Where's the duck!?!"
 
-As for the sociology part, I am no
+As for the sociology part, I am no expert in humanity. I am sure that my bias t
 
 
 
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMjE4MjYzMCw2Mjc5NDk2MzYsNTk3MT
-g3NDEyLC0xNzY0NzU0MzAyLDE5MTczNjQyNzQsLTc0NTk5NzM4
-NiwtNjQ2NTcwNDgzLDE5MTExNTg5MzcsLTQ3MTk4NTY0Myw0Mz
-czNDMwNjEsLTM5OTcyNDQzMywtMTE1Njg3NDA3MCwtMTM0ODg4
-NTIwNCwtMjE3NTY3NjU0LDE3MzI5NzAwNTQsMjAxNjYxMjI1NC
-wyMDE2NjEyMjU0LDU3NjY0Nzg5MCwtNjkzNjA3NjEwLDEwOTA1
-NTAyMzhdfQ==
+eyJoaXN0b3J5IjpbLTE4NzIxNDU0NDQsNjI3OTQ5NjM2LDU5Nz
+E4NzQxMiwtMTc2NDc1NDMwMiwxOTE3MzY0Mjc0LC03NDU5OTcz
+ODYsLTY0NjU3MDQ4MywxOTExMTU4OTM3LC00NzE5ODU2NDMsND
+M3MzQzMDYxLC0zOTk3MjQ0MzMsLTExNTY4NzQwNzAsLTEzNDg4
+ODUyMDQsLTIxNzU2NzY1NCwxNzMyOTcwMDU0LDIwMTY2MTIyNT
+QsMjAxNjYxMjI1NCw1NzY2NDc4OTAsLTY5MzYwNzYxMCwxMDkw
+NTUwMjM4XX0=
 -->
