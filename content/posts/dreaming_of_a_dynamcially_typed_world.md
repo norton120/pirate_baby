@@ -9,7 +9,7 @@ In 1967 computer scientist Melvin Conway made an observation that came to be kno
 
 Conway's Law is why you will often find rigid, silo'ed tables modeled into the data architecture of rigid companies with silo'ed business departments, or scrambled and obviously unplanned relationships across software entities at bootstrap startups; code reflects the human environment in which it develops.
 
-Recently a post caught my attention, from a young developer noting the contridiction between 
+Recently a post caught my attention, from a young developer noting the contridiction between Python type hints and the OOP mantra of duck typing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MjMyMDE5OCwxMDkwNTUwMjM4XX0=
+eyJoaXN0b3J5IjpbMTk0ODQ5NTA3MiwxMDkwNTUwMjM4XX0=
 -->
