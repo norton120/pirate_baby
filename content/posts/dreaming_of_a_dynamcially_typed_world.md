@@ -43,10 +43,13 @@ Around this same time we saw the emergence of identity-forward thinking in acade
 ```python
 class Interface(BaseModel):
     adapter: XAdapter
+```
+
+ Adapters 
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMDQwNDY5NSwtNjQ2NTcwNDgzLDE5MT
+eyJoaXN0b3J5IjpbMTIxMTgxOTQzNSwtNjQ2NTcwNDgzLDE5MT
 ExNTg5MzcsLTQ3MTk4NTY0Myw0MzczNDMwNjEsLTM5OTcyNDQz
 MywtMTE1Njg3NDA3MCwtMTM0ODg4NTIwNCwtMjE3NTY3NjU0LD
 E3MzI5NzAwNTQsMjAxNjYxMjI1NCwyMDE2NjEyMjU0LDU3NjY0
