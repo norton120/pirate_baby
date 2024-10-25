@@ -5,7 +5,7 @@ tags: ['software', 'op-ed']
 draft: true
 ---
 
-
+_Conway's Law_ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzOTAwNzI0XX0=
+eyJoaXN0b3J5IjpbLTg0MDIxMjM3OV19
 -->
