@@ -51,15 +51,18 @@ class Interface(BaseModel):
 ```
  This coupling begets more coupling, as an exclusive white list of types can be too tempting for a junior developer to resist peeking under the hood and hard-wiring dependencies on an adapter’s internals. 
 
-The solution could be a future where we explicitly type statically or dynamically based on which is the correct tool for the job. Pydantic already supports a form of duck typing with  `Iterable`, `Callable`  etc - which care less about what a thing _is_ and more about what it _does_ (sound familar?). Using  
+The solution could be a future where we explicitly type statically or dynamically based on which is the correct tool for the job. Pydantic already supports a form of duck typing with type classes `Iterable`, `Callable`  etc - which care less about what a thing _is_ and more about what it _does_ (sound familar?). Using `typing.Any` today feels as icky as `isinstance()` felt when duck typing - but what if it's as simple as aliasing `Any` with `DuckType` ?
+```python
+from typing import Any 
+class 
 
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwOTgwMDU5NCw1OTcxODc0MTIsLTE3Nj
-Q3NTQzMDIsMTkxNzM2NDI3NCwtNzQ1OTk3Mzg2LC02NDY1NzA0
-ODMsMTkxMTE1ODkzNywtNDcxOTg1NjQzLDQzNzM0MzA2MSwtMz
-k5NzI0NDMzLC0xMTU2ODc0MDcwLC0xMzQ4ODg1MjA0LC0yMTc1
-Njc2NTQsMTczMjk3MDA1NCwyMDE2NjEyMjU0LDIwMTY2MTIyNT
-QsNTc2NjQ3ODkwLC02OTM2MDc2MTAsMTA5MDU1MDIzOF19
+eyJoaXN0b3J5IjpbNjc4NTczMDg0LDU5NzE4NzQxMiwtMTc2ND
+c1NDMwMiwxOTE3MzY0Mjc0LC03NDU5OTczODYsLTY0NjU3MDQ4
+MywxOTExMTU4OTM3LC00NzE5ODU2NDMsNDM3MzQzMDYxLC0zOT
+k3MjQ0MzMsLTExNTY4NzQwNzAsLTEzNDg4ODUyMDQsLTIxNzU2
+NzY1NCwxNzMyOTcwMDU0LDIwMTY2MTIyNTQsMjAxNjYxMjI1NC
+w1NzY2NDc4OTAsLTY5MzYwNzYxMCwxMDkwNTUwMjM4XX0=
 -->
