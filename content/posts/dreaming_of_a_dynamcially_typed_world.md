@@ -73,19 +73,20 @@ def send_message(self, message:str):
         raise ValueError("adapter must implement 'send_message', not implemented in adapter %s", self.adapter) from e
 ```
 `DuckTytpe` tells our PR reviewers (and future Us) to expect the duck typing, and call it out if that logic is missing. Maybe even in a way that the next wave of smarter linters can detect and declare "Where's the duck!?!"
+I lean pretty heavily towards Pydantic Python these days (and typed cou
 
-As for the sociology part, I am no expert in humanity. I am sure that my bias towards colorblind thinking is hardcoded from youth in a way that makes it hard (if not impossible) for me to see the moral appeal of identity typing, and I'll leave it at that. But back to my purpose in this exploration - noting the simlilarity in the way we _think_ and the way we _program_ - it is hard to deny that the similarity is 
+As for the sociology part, I am no expert in humanity. I am sure that my bias towards colorblind thinking is hardcoded from youth in a way that makes it hard (if not impossible) for me to see the moral appeal of identity typing, and I'll leave it at that. But back to my purpose in this exploration - noting the simlilarity in the way we _think_ and the way we _program_ - it is hard to deny that the similarity is, at the very least, and interesting one. 
 
 
 
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUwMTYwNzM5LDYyNzk0OTYzNiw1OTcxOD
-c0MTIsLTE3NjQ3NTQzMDIsMTkxNzM2NDI3NCwtNzQ1OTk3Mzg2
-LC02NDY1NzA0ODMsMTkxMTE1ODkzNywtNDcxOTg1NjQzLDQzNz
-M0MzA2MSwtMzk5NzI0NDMzLC0xMTU2ODc0MDcwLC0xMzQ4ODg1
-MjA0LC0yMTc1Njc2NTQsMTczMjk3MDA1NCwyMDE2NjEyMjU0LD
-IwMTY2MTIyNTQsNTc2NjQ3ODkwLC02OTM2MDc2MTAsMTA5MDU1
-MDIzOF19
+eyJoaXN0b3J5IjpbLTE4MDY4NjgzNDQsNjI3OTQ5NjM2LDU5Nz
+E4NzQxMiwtMTc2NDc1NDMwMiwxOTE3MzY0Mjc0LC03NDU5OTcz
+ODYsLTY0NjU3MDQ4MywxOTExMTU4OTM3LC00NzE5ODU2NDMsND
+M3MzQzMDYxLC0zOTk3MjQ0MzMsLTExNTY4NzQwNzAsLTEzNDg4
+ODUyMDQsLTIxNzU2NzY1NCwxNzMyOTcwMDU0LDIwMTY2MTIyNT
+QsMjAxNjYxMjI1NCw1NzY2NDc4OTAsLTY5MzYwNzYxMCwxMDkw
+NTUwMjM4XX0=
 -->
