@@ -87,11 +87,11 @@ class Interface(BaseModel):
 
 I lean pretty heavily towards Pydantic Python these days (and typed counterparts in other libraries like SQLAlchemy's `Mapped`), however, I believe it's important that we are careful not to throw the duck-typed baby out with the untyped bathwater.
 
-As for the sociology part, I am no expert in humanity. I am sure that my bias towards colorblind thinking is hardcoded from youth in a way that makes it hard (if not impossible) for me to see the moral appeal of identity typing, and I'll leave it at that. But back to my purpose in this exploration - noting the similarity in the way we _think_ and the way we _program_ - it is hard to deny that the similarity is, at the very least, an interesting one.
+As for the sociology part, I am no expert in humanity. My bias towards colorblind thinking is hardcoded from youth in a way that makes it difficult (if not impossible) for me to see the moral appeal of identity typing, and I'll leave it at that. But back to my purpose in this exploration - noting the similarity in the way we _think_ and the way we _program_ - it is hard to deny that the similarity is, at the very least, an interesting one.
 
 <sub>1. Python as a language has been around since the late 1980s, however, Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that applies to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMTc0MTU3OSwtNTQwMjkzMTk2LDExOD
+eyJoaXN0b3J5IjpbMTI2OTM5Njg4NSwtNTQwMjkzMTk2LDExOD
 c1MTc4MTUsLTEzMTI3MTg5OTcsNjI3OTQ5NjM2LDU5NzE4NzQx
 MiwtMTc2NDc1NDMwMiwxOTE3MzY0Mjc0LC03NDU5OTczODYsLT
 Y0NjU3MDQ4MywxOTExMTU4OTM3LC00NzE5ODU2NDMsNDM3MzQz
