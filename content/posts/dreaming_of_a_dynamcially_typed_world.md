@@ -17,8 +17,8 @@ Consider the appeal of dynamically typed languages and, by extension, the practi
 To the many proponents at the time, dynamic typing was the flexible answer to the rigid structure and beurocracy of design found in statically typed languages. Your code no longer needed to declare _what_ something was and be bound to that identity - it could start life as a `str` and evolve to a `list` or a `dict` or maybe even a `ProtcolConstructorElement` - it didn't matter. Duck typing extends that lack of identity; it is unimportant what the thing _is_, and only important what the thing _does_. If an object needs a method `convert_to_pdf` to get a job done, and it has that method, then the object is qualified to do the job. If not, then the software must deal with the error of an unqualified object - or look for a different possible method such as the `to_pdf` supported by other, also qualified objects. The point of duck typing in dynamic programming was to deal with the object's ability, not the object's identity - if it quacked, treat it like a duck. 
 If you share formative years with Python (child of the 1980s-1990s) you probably remember the phrase "be colorblind." This was the overwhelming message in education and popular culture at the time - that taking identity into consideration, even _seeing_ or _acknowledging_ that identity, was morally wrong; that an idividual must be judged soley by their words and, most importantly, actions, and nothing else. I can attest with at least anachdotal evidence of how that message shaped the way I view the world, by way of the most scientifically rigorous of methods - recounting a casual conversation I had last week at a party. The conversation topic circled around representation in media, as one of the younger partygoers was postulating that the late sitcom era of TV was particularly awful at only telling one story - the white one. No one, myself included, gave protest. But then the conversation shifted to reminiscing about some of the shows we watched religously as kids:
  
-* Hanging with Mister Cooper
-* Fresh Prince of Bel-Air
+* [Hanging with Mister Cooper](https://www.imdb.com/title/tt0103435/)
+* [Fresh Prince of Bel-Air](https://www.imdb.com/title/tt0098800/)
 * Star Trek: Deep Space Nine
 * Family Matters
 * Different Strokes
@@ -74,10 +74,10 @@ def send_message(self, message:str):
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4Mjg0MTk0Nyw1OTcxODc0MTIsLTE3Nj
-Q3NTQzMDIsMTkxNzM2NDI3NCwtNzQ1OTk3Mzg2LC02NDY1NzA0
-ODMsMTkxMTE1ODkzNywtNDcxOTg1NjQzLDQzNzM0MzA2MSwtMz
-k5NzI0NDMzLC0xMTU2ODc0MDcwLC0xMzQ4ODg1MjA0LC0yMTc1
-Njc2NTQsMTczMjk3MDA1NCwyMDE2NjEyMjU0LDIwMTY2MTIyNT
-QsNTc2NjQ3ODkwLC02OTM2MDc2MTAsMTA5MDU1MDIzOF19
+eyJoaXN0b3J5IjpbMTQ4MzExMjYsNTk3MTg3NDEyLC0xNzY0Nz
+U0MzAyLDE5MTczNjQyNzQsLTc0NTk5NzM4NiwtNjQ2NTcwNDgz
+LDE5MTExNTg5MzcsLTQ3MTk4NTY0Myw0MzczNDMwNjEsLTM5OT
+cyNDQzMywtMTE1Njg3NDA3MCwtMTM0ODg4NTIwNCwtMjE3NTY3
+NjU0LDE3MzI5NzAwNTQsMjAxNjYxMjI1NCwyMDE2NjEyMjU0LD
+U3NjY0Nzg5MCwtNjkzNjA3NjEwLDEwOTA1NTAyMzhdfQ==
 -->
