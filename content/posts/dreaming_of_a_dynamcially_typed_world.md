@@ -39,11 +39,11 @@ Around this same time we saw the emergence of identity-forward thinking in acade
      return arg
 ```
 
- “Accept a string or a list of strings” is one of those times that duck typing sucks. The most straightforward way to get this done is to pattern match object identity, because both a `str` and any other iterable will qualify for iteration- they can both “do the job” but the string will do it incorrectly, and won’t know until it’s too late. On the other hand, unnecessary rigid typing creates coupling
+ “Accept a string or a list of strings” is one of those times that duck typing sucks. The most straightforward way to get this done is to pattern match object identity, because both a `str` and any other iterable will qualify for iteration- they can both “do the job” but the string will do it incorrectly, and won’t know until it’s too late. On the other hand, unnecessary rigid typing creates the potential for a serious coupling issue. Consider a 
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTI0NjYwNzMsMTkxMTE1ODkzNywtND
+eyJoaXN0b3J5IjpbLTEyMzA3Mjg4NDcsMTkxMTE1ODkzNywtND
 cxOTg1NjQzLDQzNzM0MzA2MSwtMzk5NzI0NDMzLC0xMTU2ODc0
 MDcwLC0xMzQ4ODg1MjA0LC0yMTc1Njc2NTQsMTczMjk3MDA1NC
 wyMDE2NjEyMjU0LDIwMTY2MTIyNTQsNTc2NjQ3ODkwLC02OTM2
