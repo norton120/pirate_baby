@@ -45,11 +45,11 @@ class Interface(BaseModel):
     adapter: XAdapter
 ```
 
- For every new adapter you want to support
+ For every new adapter you want to support, you need to update your typing. If the adapter evolves
 
 <sub>1. Python as a language has been around since the late 1980s, however Python 2+ is really where it begins to reflect what most would consider "modern Python" in a way that is applicable to the conversation</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAwODA4OTU1LC02NDY1NzA0ODMsMTkxMT
+eyJoaXN0b3J5IjpbNTE4MDA0NDQxLC02NDY1NzA0ODMsMTkxMT
 E1ODkzNywtNDcxOTg1NjQzLDQzNzM0MzA2MSwtMzk5NzI0NDMz
 LC0xMTU2ODc0MDcwLC0xMzQ4ODg1MjA0LC0yMTc1Njc2NTQsMT
 czMjk3MDA1NCwyMDE2NjEyMjU0LDIwMTY2MTIyNTQsNTc2NjQ3
