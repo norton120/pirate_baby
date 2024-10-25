@@ -9,7 +9,9 @@ In 1967 computer scientist Melvin Conway made an observation that came to be kno
 
 Conway's Law is why you will often find rigid, silo'ed tables modeled into the data architecture of rigid companies with silo'ed business departments, or scrambled and obviously unplanned relationships across software entities at bootstrap startups; code reflects the human environment in which it develops.
 
-Recently a post caught my attention, from a young developer noting the contridiction between Python type hints (and by extension _Pydantic_ as effectively strongly-typed Python) with the traditional _Pythonic_ mantra of duck typing. Sometimes it takes fresh eyes that are not aware of the historical context to call out a bad situation, and this is one of those times. Best practices are not defined in a specification, written in a vacuum by wise old neckbeards; these practices are the codified reflection of developer community behavior in the same way that _Webster's Dictionary_ reflects the evolition of English (and does not act to effect that evolution). If the best practices of Python typing are becoming increasingly contradictory, it is a reflection of the contridictory nature in which the developer community approaches designing Python software - and this got me 
+Recently a post caught my attention, from a young developer noting the contridiction between Python type hints (and by extension _Pydantic_ as effectively strongly-typed Python) with the traditional _Pythonic_ mantra of duck typing. Sometimes it takes fresh eyes that are not aware of the historical context to call out a bad situation, and this is one of those times. Best practices are not defined in a specification, written in a vacuum by wise old neckbeards; these practices are the codified reflection of developer community behavior in the same way that _Webster's Dictionary_ reflects the evolition of English (and does not act to effect that evolution). If the best practices of Python typing are becoming increasingly contradictory, the contridictory nature in which the developer community approaches designing Python software - and this got me thinking. 
+
+What if Conway's Law can be extrapolated beyond the walls of the office? What if the same 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTY3MzY4NTMsMTA5MDU1MDIzOF19
+eyJoaXN0b3J5IjpbLTYwMTMxNzkzOSwxMDkwNTUwMjM4XX0=
 -->
