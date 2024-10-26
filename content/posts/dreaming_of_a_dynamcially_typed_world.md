@@ -1,8 +1,8 @@
 ---
-title: "The Identity Politics of Duck Typing"
+title: "Of Ducks, Types, and Identity"
 date: 2024-10-23
 tags: ['software', 'op-ed']
-draft: true
+draft: false
 ---
 <figure>
 	<img src="/images/duck_typing.png"/>
