@@ -5,7 +5,9 @@ tags: ['software', 'op-ed']
 draft: true
 ---
 <figure>
-	<img src
+	<img src="/images/duck_typing.png"/>
+	<figcaption>A Duck, Typing</figcaption>
+</figure>
 
 In 1967 computer scientist Melvin Conway made an observation that came to be known as _Conway's Law_.
 
@@ -43,7 +45,7 @@ This observation is not an indictment of the static or dynamic typing language p
 def standardize_args(arg:Iterable):
 	"""make arg safe to iterate on"""
 	if isinstance(arg, str):
-		return [arg]	
+		return [arg]
 	return arg
 ```
 “Accept either a string or a list of strings” is one of those times that duck typing just sucks. The most straightforward way to get this done is to pattern match object identity because both a `str` and any other iterable will qualify for iteration- they can both “do the job” but the string will do it incorrectly, and you won’t know until it is too late.
@@ -58,9 +60,9 @@ With each new adapter you want to support, typing will need to be updated. When 
 
 ```python
 class Interface(BaseModel):
-	adapter: (Union[XAdapter, 
-			  Type[YAdapter], 
-			  ZAdapter, 
+	adapter: (Union[XAdapter,
+			  Type[YAdapter],
+			  ZAdapter,
 			  LocalInterface,
 			  Type[ExternalInterface]) # this goes on, and on, and on...
 ```
@@ -70,8 +72,8 @@ The solution might be a future where we explicitly type either statically, _or_ 
 
 ```python
 from typing import Any as DuckType
-from pydantic import BaseModel 
- 
+from pydantic import BaseModel
+
 class Interface(BaseModel):
 	name: str
 	description: str
