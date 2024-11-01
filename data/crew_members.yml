@@ -91,3 +91,13 @@ crew:
       - Data Pipelines
       - OSS Development
       - Software Engineering
+  - name: Stephan Fitzpatrick
+    title: CEO & Founder, KnowSuchAgency
+    image: /images/stephan_fitzpatrick.png
+    linkedin: fitzpatrickstephan
+    github: knowsuchagency
+    skills:
+      - AI Development
+      - AI Ethics
+      - OSS Development
+      - Software Engineering
