@@ -149,7 +149,9 @@ By elevating these missing “bookends” of the TDD cycle in the agentic proces
 
 ## A day in the GDD life
 
-A GDD Engineer opens their laptop to start the day, cds into our infamous TPS report repo and opens a terminal. Let’s say the Python GDD equivalent of pytest is a (currently fictional) package named `py-gdd`.
+_what could GDD development look like?_
+
+A GDD Engineer opens their laptop to start the day, `cd`s into our infamous TPS report repo and opens a terminal. Let’s say the Python GDD equivalent of pytest is a (currently fictional) package named `py-gdd`.
 
 First, they need to pick some work from the backlog. Scanning over the tickets in Jira they decide on “TPS-122: account for underscores in the new TPS ID format.” They start work in the terminal with:
 
@@ -218,8 +220,8 @@ In this vision, an Engineer is still very heavily involved in the mechanical pro
 
 <sub>1. yes, this really is a clear form of _machine learning_,  but that term has been so painfully overloaded that I hesitate to associate any new idea with those words.</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNDE3NzcyMCwtMTIzMTI3MzgyNSwxNT
-I5MDgxOTA1LDEyMTM0NDg1ODUsLTEzNjAwMTI4NTgsMjQyMTQw
-NDUzLC02NDA5MjcxMzAsLTIxNDE3NDM1NjQsLTQyNTY3ODA4Ny
-wtMjAwNzE0MDQwOCwxNDU3OTM0NDE1XX0=
+eyJoaXN0b3J5IjpbLTE3MTc0MjgyNTYsLTEyMzEyNzM4MjUsMT
+UyOTA4MTkwNSwxMjEzNDQ4NTg1LC0xMzYwMDEyODU4LDI0MjE0
+MDQ1MywtNjQwOTI3MTMwLC0yMTQxNzQzNTY0LC00MjU2NzgwOD
+csLTIwMDcxNDA0MDgsMTQ1NzkzNDQxNV19
 -->
