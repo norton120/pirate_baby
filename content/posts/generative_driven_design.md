@@ -80,7 +80,7 @@ An agentic tool must complete this same task without architectural insight, or t
 
 The fundamental flaw in the Doctor-Patient  strategy is that it approaches the codebase as a single-layer corpus, serialized documentation from which to generate completions. In reality, software is non-linear and multidimensional - less like a research paper and more like our aforementioned mystery novel. No matter how large the context window or effective the embedding model, agentic tools disambiguated from the architectural design of a codebase will always devolve into bot rot.
 
-How can GenAI powered workflows be equipped with the context and agency required to automate the process of automation? The answer stems from two well-established concepts in software engineering.
+How can GenAI powered workflows be equipped with the context and agency required to automate the process of automation? The answer stems from ideas found two well-established concepts in software engineering.
 
 ### TDD
 
@@ -215,7 +215,7 @@ In this vision, an Engineer is still very heavily involved in the mechanical pro
 
 <sub>1. yes, this really is a clear form of _machine learning_,  but that term has been so painfully overloaded that I hesitate to associate any new idea with those words.</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQyMTQwNDUzLC02NDA5MjcxMzAsLTIxND
-E3NDM1NjQsLTQyNTY3ODA4NywtMjAwNzE0MDQwOCwxNDU3OTM0
-NDE1XX0=
+eyJoaXN0b3J5IjpbLTI4NTQ1MTgzMywyNDIxNDA0NTMsLTY0MD
+kyNzEzMCwtMjE0MTc0MzU2NCwtNDI1Njc4MDg3LC0yMDA3MTQw
+NDA4LDE0NTc5MzQ0MTVdfQ==
 -->
