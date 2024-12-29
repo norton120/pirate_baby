@@ -151,7 +151,7 @@ By elevating these missing “bookends” of the TDD cycle in the agentic proces
 
 _what could GDD development look like?_
 
-A GDD Engineer opens their laptop to start the day, `cd`s into our infamous TPS report repo and opens a terminal. Let’s say the Python GDD equivalent of pytest is a (currently fictional) package named `py-gdd`.
+A GDD Engineer opens their laptop to start the day, `cd`s into our infamous TPS report repo and opens a terminal. Let’s say the Python GDD equivalent of `pytest` is a (currently fictional) package named `py-gdd`.
 
 First, they need to pick some work from the backlog. Scanning over the tickets in Jira they decide on “TPS-122: account for underscores in the new TPS ID format.” They start work in the terminal with:
 
@@ -159,7 +159,7 @@ First, they need to pick some work from the backlog. Scanning over the tickets i
 >> git checkout -b feature/TPS-122/id-underscores && py-gdd begin TPS-122
 ```
 
-A terminal spinner appears while py-gdd processes. What is py-gdd doing?
+A terminal spinner appears while `py-gdd` processes. What is `py-gdd` doing?
 
 -   Reading the jira ticket content
 -   Reviewing current semantic architecture to select smart RAG context 
@@ -192,7 +192,7 @@ On confirmation, the terminal spinner appears again. Text appears in red:
 Problem in step 3 - I am unable to get all tests to pass after 2 attempts
 ```
 
-The Engineer looks at the test code and sees that the database test factory is hard-coded to the old ID type and cannot accept overrides - this explains why the py-gdd cannot get the updates to pass. The Engineer explains this via in-terminal chat to py-gdd, and a new sub-plan is created:
+The Engineer looks at the test code and sees that the database test factory is hard-coded to the old ID type and cannot accept overrides - this explains why the `py-gdd` process cannot get the updates to pass. The Engineer explains this via in-terminal chat to `py-gdd`, and a new sub-plan is created:
 
 1.  Roll back main plain step 1
 2. Modify database test factory to accept an override for TPS ID
@@ -220,8 +220,9 @@ In this vision, an Engineer is still very heavily involved in the mechanical pro
 
 <sub>1. yes, this really is a clear form of _machine learning_,  but that term has been so painfully overloaded that I hesitate to associate any new idea with those words.</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTc0MjgyNTYsLTEyMzEyNzM4MjUsMT
-UyOTA4MTkwNSwxMjEzNDQ4NTg1LC0xMzYwMDEyODU4LDI0MjE0
-MDQ1MywtNjQwOTI3MTMwLC0yMTQxNzQzNTY0LC00MjU2NzgwOD
-csLTIwMDcxNDA0MDgsMTQ1NzkzNDQxNV19
+eyJoaXN0b3J5IjpbLTE3MzQ0NTU0ODEsLTE3MTc0MjgyNTYsLT
+EyMzEyNzM4MjUsMTUyOTA4MTkwNSwxMjEzNDQ4NTg1LC0xMzYw
+MDEyODU4LDI0MjE0MDQ1MywtNjQwOTI3MTMwLC0yMTQxNzQzNT
+Y0LC00MjU2NzgwODcsLTIwMDcxNDA0MDgsMTQ1NzkzNDQxNV19
+
 -->
