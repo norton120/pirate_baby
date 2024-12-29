@@ -88,13 +88,13 @@ Test Driven Development is a cornerstone of modern software engineering process.
 -   A complete codebase consists of application code that performs desired processes, and test code that ensures the application code works as intended.
 -   Test code is written to define what “done” will look like, and application code is then written to satisfy that test code.
     
-TDD implicitly requires that application code be written in a way that is _highly testable_. Overly complex, nested business logic must be broken into units that can be directly accessed by test methods. Hooks need to be baked into object signatures, dependencies must be injected, all to facilitate the ability of test code to assure functionality in the application. And here is the first part of our answer: for agentic processes to be more successful at automating our codebase, we need to write code that is highly GenAI-able.
+TDD implicitly requires that application code be written in a way that is _highly testable_. Overly complex, nested business logic must be broken into units that can be directly accessed by test methods. Hooks need to be baked into object signatures, dependencies must be injected, all to facilitate the ability of test code to assure functionality in the application. Herein is the first part of our answer: **for agentic processes to be more successful at automating our codebase, we need to write code that is highly GenAI-able**.
 
-Another important element of TDD in this context is that testing must be an implicit part of the software we build. In TDD, there is no option to scratch out a pile of application code with no tests, then apply a third party bot to “test it.” This is the second part of our answer: Codebase automation must be an element of the software itself, not an external function of a ‘code bot’.
+Another important element of TDD in this context is that testing must be an implicit part of the software we build. In TDD, there is no option to scratch out a pile of application code with no tests, then apply a third party bot to “test it.” This is the second part of our answer: **Codebase automation must be an element of the software itself, not an external function of a ‘code bot’**.
 
 ### Refactoring
 
-The earlier Python TPS report example demonstrates a code refactor, one of the most important higher-level functions in healthy software evolution. Kent Beck describes the process of refactoring as “for each desired change, make the change easy (warning: this may be hard), then make the easy change.” This is how a codebase improves for human needs over time, reducing cognitive load and, as a result, cycle times. Refactoring is also exactly how a codebase is continually optimized for GenAI automation! Refactoring means removing duplication, decoupling and creating semantic “distance” between domains, and simplifying the logical flow of a program - all things that will have a huge positive impact on both RAG and generative processes. The final part of our answer is that codebase architecture (and subsequently, refactoring) must be a first class citizen as part of any codebase automation process.
+The earlier Python TPS report example demonstrates a code refactor, one of the most important higher-level functions in healthy software evolution. Kent Beck describes the process of refactoring as “for each desired change, make the change easy (warning: this may be hard), then make the easy change.” This is how a codebase improves for human needs over time, reducing cognitive load and, as a result, cycle times. Refactoring is also exactly how a codebase is continually optimized for GenAI automation! Refactoring means removing duplication, decoupling and creating semantic “distance” between domains, and simplifying the logical flow of a program - all things that will have a huge positive impact on both RAG and generative processes. The final part of our answer is that **codebase architecture (and subsequently, refactoring) must be a first class citizen as part of any codebase automation process**.
 
 ## Generative Driven Development
 
@@ -215,7 +215,7 @@ In this vision, an Engineer is still very heavily involved in the mechanical pro
 
 <sub>1. yes, this really is a clear form of _machine learning_,  but that term has been so painfully overloaded that I hesitate to associate any new idea with those words.</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1OTg3Nzg3OCwyNDIxNDA0NTMsLTY0MD
-kyNzEzMCwtMjE0MTc0MzU2NCwtNDI1Njc4MDg3LC0yMDA3MTQw
-NDA4LDE0NTc5MzQ0MTVdfQ==
+eyJoaXN0b3J5IjpbLTEzNjAwMTI4NTgsMjQyMTQwNDUzLC02ND
+A5MjcxMzAsLTIxNDE3NDM1NjQsLTQyNTY3ODA4NywtMjAwNzE0
+MDQwOCwxNDU3OTM0NDE1XX0=
 -->
