@@ -12,10 +12,8 @@ Nowhere has the proliferation of generative AI tooling been more aggressive than
 The grand aspiration of these AI tools is, in actuality, no different from the aspirations of all the software that has ever written by humans:  to automate human work. When you scheduled that daily CSV parsing script for your employer back in 2005, you were offloading a tiny bit of the labor owned by our species to some combination of silicon and electricity. Where generative AI tools differ is that they aim to automate the work of automation. Setting this goal as our north star enables more abstract thinking about the inherit challenges and possible solutions of generative AI software development.
 
 {{< box info >}}
-Our North Star: Automate the process of automation
+:star: Our North Star: Automate the process of automation
 {{< /box >}}
-
-  
 
 ## The Doctor-Patient strategy
 
@@ -24,24 +22,14 @@ Most contemporary tools approach our automation goal by building stand-alone “
 This strategy establishes the GenAI tool and the subject codebase as two distinct entities, with a unidirectional relationship between them. This relationship is similar to how a doctor operates on a patient, but never the other way around - hence the Doctor-Patient strategy.
 
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcDp2anibyh0x6w2WT2zKpMlewkfx-zeaLEPSLXbO7gVtchOvukJgZae10j5c6jpUkQ03kO2dBHxbKglp-uw9srOsZ9jOZYzw8bKE3twCs7c0HLCOdOZfo81ZGCi6QBUEi1EJJx9g?key=1Ec4WTZPrC6aBjphQTmHteq8)
-
-  
+![Doctor-Patent Strategy](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcDp2anibyh0x6w2WT2zKpMlewkfx-zeaLEPSLXbO7gVtchOvukJgZae10j5c6jpUkQ03kO2dBHxbKglp-uw9srOsZ9jOZYzw8bKE3twCs7c0HLCOdOZfo81ZGCi6QBUEi1EJJx9g?key=1Ec4WTZPrC6aBjphQTmHteq8)
 
 A few reasons come to mind that explain why this Doctor-Patient strategy has been the first (and seemingly only) approach towards automating software automation via GenAI:
-
--   Novel Integration: Software codebases have been around for decades, while using agentic platforms to modify codebases is an extremely recent concept. So it makes sense that the first tools would be designed to act on existing, independent codebases.
+-  **Novel Integration**: Software codebases have been around for decades, while using agentic platforms to modify codebases is an extremely recent concept. So it makes sense that the first tools would be designed to act on existing, independent codebases.
+-  **Monetization**: The Doctor-Patient strategy has a clear path to revenue. A seller has an GenAI agent platform/code bot, a buyer has a codebase, the seller’s platform operates on buyers’ codebase for a fee.  
+-  **Social Analog**: To a non-developer, the relationship in the Doctor-Patient strategy resembles one they already understand between users and Software Developers. A Developer knows how to code, a user asks for a feature, the developer changes the code to make the feature happen. In this strategy, an agent “knows how to code” and can be swapped directly into that mental model. 
+-  **False Extrapolation**: At a small enough scale, the Doctor-Patient model can produce impressive results. It is easy to make the incorrect assumption that simply adding resources will allow those same results to scale to an entire codebase.
     
-
--   Monetization: The Doctor-Patient strategy has a clear path to revenue. A seller has an GenAI agent platform/code bot, a buyer has a codebase, the seller’s platform operates on buyers’ codebase for a fee.
-    
--   Social Analog: To a non-developer, the relationship in the Doctor-Patient strategy resembles one they already understand between users and Software Developers. A Developer knows how to code, a user asks for a feature, the developer changes the code to make the feature happen. In this strategy, an agent “knows how to code” and can be swapped directly into that mental model.
-    
--   False Extrapolation: At a small enough scale, the Doctor-Patient model can produce impressive results. It is easy to make the incorrect assumption that simply adding resources will allow those same results to scale to an entire codebase.
-    
-
-  
-
 The independent and unidirectional relationship between agentic platform/tool and codebase that defines the Doctor-Patient strategy is also the greatest limiting factor of this strategy, and the severity of this limitation has begun to present itself as a dead end. Two years of agentic tool use in the software development space have surfaced antipatterns that are increasingly recognizable as “bot rot” - indications of poorly applied and problematic generated code.
 
   
@@ -396,5 +384,5 @@ The Engineer instructs py-gdd to create tickets for each concern. On to the next
 
 In this vision, an Engineer is still very heavily involved in the mechanical processes of GDD. But it is reasonable to assume that as a codebase grows and evolves to become increasingly GenAI-able due to GDD practice, less human interaction will become necessary. In the ultimate expression of Continuous Delivery, GDD could be primarily practiced via a perpetual “GDD server.” Work will be sourced from project management tools like Jira and GitHub Issues, error logs from Datadog and CloudWatch needing investigation, and most importantly generated by the GDD tooling itself. Hundreds of PRs could be opened, reviewed, and merged every day, with experienced human engineers guiding the architectural development of the project over time. In this way, GDD can become a realization of the goal to automate automation.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4OTIwNjQ3MV19
+eyJoaXN0b3J5IjpbLTEwOTMzNjM1MF19
 -->
