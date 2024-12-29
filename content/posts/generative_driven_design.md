@@ -94,7 +94,10 @@ Another important element of TDD in this context is that testing must be an impl
 
 ### Refactoring
 
-The earlier Python TPS report example demonstrates a code refactor, one of the most important higher-level functions in healthy software evolution. Kent Beck describes the process of refactoring as “for each desired change, make the change easy (warning: this may be hard), then make the easy change.” This is how a codebase improves for human needs over time, reducing cognitive load and, as a result, cycle times. Refactoring is also exactly how a codebase is continually optimized for GenAI automation! Refactoring means removing duplication, decoupling and creating semantic “distance” between domains, and simplifying the logical flow of a program - all things that will have a huge positive impact on both RAG and generative processes. The final part of our answer is that **codebase architecture (and subsequently, refactoring) must be a first class citizen as part of any codebase automation process**.
+The earlier Python TPS report example demonstrates a code refactor, one of the most important higher-level functions in healthy software evolution. Kent Beck describes the process of refactoring as
+>> “for each desired change, make the change easy (warning: this may be hard), then make the easy change.” ~ Kent Beck
+
+This is how a codebase improves for human needs over time, reducing cognitive load and, as a result, cycle times. Refactoring is also exactly how a codebase is continually optimized for GenAI automation! Refactoring means removing duplication, decoupling and creating semantic “distance” between domains, and simplifying the logical flow of a program - all things that will have a huge positive impact on both RAG and generative processes. The final part of our answer is that **codebase architecture (and subsequently, refactoring) must be a first class citizen as part of any codebase automation process**.
 
 ## Generative Driven Development
 
@@ -215,7 +218,7 @@ In this vision, an Engineer is still very heavily involved in the mechanical pro
 
 <sub>1. yes, this really is a clear form of _machine learning_,  but that term has been so painfully overloaded that I hesitate to associate any new idea with those words.</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjAwMTI4NTgsMjQyMTQwNDUzLC02ND
-A5MjcxMzAsLTIxNDE3NDM1NjQsLTQyNTY3ODA4NywtMjAwNzE0
-MDQwOCwxNDU3OTM0NDE1XX0=
+eyJoaXN0b3J5IjpbMTIxMzQ0ODU4NSwtMTM2MDAxMjg1OCwyND
+IxNDA0NTMsLTY0MDkyNzEzMCwtMjE0MTc0MzU2NCwtNDI1Njc4
+MDg3LC0yMDA3MTQwNDA4LDE0NTc5MzQ0MTVdfQ==
 -->
