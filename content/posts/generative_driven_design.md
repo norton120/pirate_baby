@@ -212,7 +212,7 @@ concerns:
 ...
 ```
 
-The Engineer instructs py-gdd to create tickets for each concern. On to the next ticket!
+The Engineer instructs `py-gdd` to create tickets for each concern. On to the next ticket!
 
 ## The CI/CD of GDD
 
@@ -220,9 +220,9 @@ In this vision, an Engineer is still very heavily involved in the mechanical pro
 
 <sub>1. yes, this really is a clear form of _machine learning_,  but that term has been so painfully overloaded that I hesitate to associate any new idea with those words.</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzQ0NTU0ODEsLTE3MTc0MjgyNTYsLT
-EyMzEyNzM4MjUsMTUyOTA4MTkwNSwxMjEzNDQ4NTg1LC0xMzYw
-MDEyODU4LDI0MjE0MDQ1MywtNjQwOTI3MTMwLC0yMTQxNzQzNT
-Y0LC00MjU2NzgwODcsLTIwMDcxNDA0MDgsMTQ1NzkzNDQxNV19
+eyJoaXN0b3J5IjpbMTQxMTIwNTAzNywtMTcxNzQyODI1NiwtMT
+IzMTI3MzgyNSwxNTI5MDgxOTA1LDEyMTM0NDg1ODUsLTEzNjAw
+MTI4NTgsMjQyMTQwNDUzLC02NDA5MjcxMzAsLTIxNDE3NDM1Nj
+QsLTQyNTY3ODA4NywtMjAwNzE0MDQwOCwxNDU3OTM0NDE1XX0=
 
 -->
