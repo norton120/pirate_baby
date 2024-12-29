@@ -107,7 +107,7 @@ An alternative strategy to the unidirectional Doctor-Patient takes shape. This s
 
 GDD is an evolution that moves optimization for agentic self-improvement to the center stage, much in the same way as TDD promoted testing in the development process. In fact, TDD becomes a subset of GDD, in that highly GenAI-able code is both highly testable and, as part of GDD evolution, well tested.
 
-To dissect what a GDD workflow could look like, we can start with the aforementioned pillars:
+To dissect what a GDD workflow could look like, we can start with a closer look at those pillars:
 
 ### 1. Writing code that is highly GenAI-able
 
@@ -215,7 +215,7 @@ In this vision, an Engineer is still very heavily involved in the mechanical pro
 
 <sub>1. yes, this really is a clear form of _machine learning_,  but that term has been so painfully overloaded that I hesitate to associate any new idea with those words.</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3Njk0MTI3NiwtNjQwOTI3MTMwLC0yMT
-QxNzQzNTY0LC00MjU2NzgwODcsLTIwMDcxNDA0MDgsMTQ1Nzkz
-NDQxNV19
+eyJoaXN0b3J5IjpbMjQyMTQwNDUzLC02NDA5MjcxMzAsLTIxND
+E3NDM1NjQsLTQyNTY3ODA4NywtMjAwNzE0MDQwOCwxNDU3OTM0
+NDE1XX0=
 -->
