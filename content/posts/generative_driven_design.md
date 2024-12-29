@@ -139,7 +139,7 @@ GDD linting will look for patterns that make code less GenAI-able (see [Writing 
 
 ### 3. Architecture as a first-class citizen
 
-Consider the problem of bot rot through the lens of a TDD iteration. Traditional TDD operates in three steps: _red_, _green</span>, and <span style="color:grey;">refactor</span>.
+Consider the problem of bot rot through the lens of a TDD iteration. Traditional TDD operates in three steps: <span style="color:red;">red</span>, <span style="color:green;">green</span>, and <span style="color:grey;">refactor</span>.
 - **Red**: write a test for the new feature that fails (because you haven’t written the feature yet)
 - **Green**: write the feature as quickly as possible to make the test pass
 - **Refactor**: align the now-passing code with the project architecture by abstracting, renaming etc.
@@ -218,7 +218,7 @@ In this vision, an Engineer is still very heavily involved in the mechanical pro
 
 <sub>1. yes, this really is a clear form of _machine learning_,  but that term has been so painfully overloaded that I hesitate to associate any new idea with those words.</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxOTU1OTgxNiwtMTIzMTI3MzgyNSwxNT
+eyJoaXN0b3J5IjpbMTMyNDE3NzcyMCwtMTIzMTI3MzgyNSwxNT
 I5MDgxOTA1LDEyMTM0NDg1ODUsLTEzNjAwMTI4NTgsMjQyMTQw
 NDUzLC02NDA5MjcxMzAsLTIxNDE3NDM1NjQsLTQyNTY3ODA4Ny
 wtMjAwNzE0MDQwOCwxNDU3OTM0NDE1XX0=
