@@ -74,7 +74,7 @@ def parse_department_code(self, report_id:str) -> int:
 
 This abstraction DRYs out the codebase, reducing duplication and shrinking cognitive load. Not surprisingly, what makes code easier for humans to work with also makes it more “GenAI-able” by consolidating the context into an abstracted model. This reduces noise in RAG, improving the quality of resources available for the next generation.
 
-An agentic tool must complete the same task without architectural insight, or the agency required to implement the above refactor. Given the same task, a code bot will generate additional, duplicated parsing methods or, worse, generate a partial abstraction within one module and not propagate that abstraction. The pattern created is one of a poorer quality codebase, which in turn elicits poorer quality future generations from the tool. Frequency distortion from the repetitive code further damages the effectiveness of RAG. This bot rot spiral will continue until a human intervenes with a git reset.
+An agentic tool must complete this same task without architectural insight, or the agency required to implement the above refactor. Given the same task, a code bot will generate additional, duplicated parsing methods or, worse, generate a partial abstraction within one module and not propagate that abstraction. The pattern created is one of a poorer quality codebase, which in turn elicits poorer quality future generations from the tool. Frequency distortion from the repetitive code further damages the effectiveness of RAG. This bot rot spiral will continue until a human intervenes with a git reset.
 
 ## An inversion of thinking
 
@@ -215,7 +215,7 @@ In this vision, an Engineer is still very heavily involved in the mechanical pro
 
 <sub>1. yes, this really is a clear form of _machine learning_,  but that term has been so painfully overloaded that I hesitate to associate any new idea with those words.</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNzk1NzI3NSwtNjQwOTI3MTMwLC0yMT
+eyJoaXN0b3J5IjpbLTI3NjAyMDY2MCwtNjQwOTI3MTMwLC0yMT
 QxNzQzNTY0LC00MjU2NzgwODcsLTIwMDcxNDA0MDgsMTQ1Nzkz
 NDQxNV19
 -->
