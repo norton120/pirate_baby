@@ -170,7 +170,7 @@ A terminal spinner appears while `py-gdd` processes. What is `py-gdd` doing?
 
 “_I am going to parameterize all the tests that use TPS IDs with both dashes and underscores, I don’t think we need a stand-alone test for this then. And then I will abstract all the TPS ID parsing to a single TPS model._”
 
-Notice how this wasn’t an unreadable wall of code, unimportant context and comment noise?
+Notice how this wasn’t an unreadable wall of code + unimportant context + comment noise?
 
 The Engineer scans the plan, which consists of more granular steps:
 1. Updating 12 tests to parameterized dash and underscore TPS IDs
@@ -220,7 +220,7 @@ In this vision, an Engineer is still very heavily involved in the mechanical pro
 
 <sub>1. yes, this really is a clear form of _machine learning_,  but that term has been so painfully overloaded that I hesitate to associate any new idea with those words.</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMTIwNTAzNywtMTcxNzQyODI1NiwtMT
+eyJoaXN0b3J5IjpbLTE2NjgzNjE3MCwtMTcxNzQyODI1NiwtMT
 IzMTI3MzgyNSwxNTI5MDgxOTA1LDEyMTM0NDg1ODUsLTEzNjAw
 MTI4NTgsMjQyMTQwNDUzLC02NDA5MjcxMzAsLTIxNDE3NDM1Nj
 QsLTQyNTY3ODA4NywtMjAwNzE0MDQwOCwxNDU3OTM0NDE1XX0=
