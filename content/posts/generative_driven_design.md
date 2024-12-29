@@ -135,7 +135,7 @@ This semantic structure will enable our package to run stepped processes that ac
 
 Similar to the current crop of test frameworks, GDD tooling will abstract boilerplate generative functionality while offering a heavily customizable API for developers (and the agentic processes) to fine-tune. Like your test specs, generative specs could define architectural directives and external context - like the sunsetting of a service, or a team pivot to a new design pattern - and inform the agentic generations.
 
-GDD linting will look for patterns that make code less GenAI-able (see [Writing code that is highly GenAI-able]()) and correct them when possible, raise them to human attention when not.
+GDD linting will look for patterns that make code less GenAI-able (see [Writing code that is highly GenAI-able](https://pirate.baby/posts/generative_driven_design/#1-writing-code-that-is-highly-genai-able)) and correct them when possible, raise them to human attention when not.
 
 ### 3. Architecture as a first-class citizen
 
@@ -218,8 +218,8 @@ In this vision, an Engineer is still very heavily involved in the mechanical pro
 
 <sub>1. yes, this really is a clear form of _machine learning_,  but that term has been so painfully overloaded that I hesitate to associate any new idea with those words.</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzEyNzM4MjUsMTUyOTA4MTkwNSwxMj
-EzNDQ4NTg1LC0xMzYwMDEyODU4LDI0MjE0MDQ1MywtNjQwOTI3
-MTMwLC0yMTQxNzQzNTY0LC00MjU2NzgwODcsLTIwMDcxNDA0MD
-gsMTQ1NzkzNDQxNV19
+eyJoaXN0b3J5IjpbMTAxMTQ1MDk3MywtMTIzMTI3MzgyNSwxNT
+I5MDgxOTA1LDEyMTM0NDg1ODUsLTEzNjAwMTI4NTgsMjQyMTQw
+NDUzLC02NDA5MjcxMzAsLTIxNDE3NDM1NjQsLTQyNTY3ODA4Ny
+wtMjAwNzE0MDQwOCwxNDU3OTM0NDE1XX0=
 -->
