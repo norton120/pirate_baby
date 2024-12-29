@@ -73,36 +73,21 @@ return report.department_code
 
 This abstraction DRYs out the codebase, reducing duplication and shrinking cognitive load. Not surprisingly, what makes code easier for humans to work with also makes it more “generative-friendly;” consolidating the context into an abstracted model reduces noise in RAG, improving the quality resources of the next generation.
 
-  
-  
-
 An agentic tool must complete the same task without architectural insight, or the agency required to implement the above refactor. Given the same task, a code bot will generate additional, duplicated parsing methods or, worse, generate a partial abstraction within one module and not propagate that abstraction. The pattern created is one of a poorer quality codebase, which in turn elicits poorer quality future generations from the tool. Frequency distortion from the repetitive code further damages the effectiveness of RAG. This bot rot spiral will continue until a human intervenes with a git reset.
 
 ## An inversion of thinking
 
-  
-
 The fundamental flaw in the Doctor-Patient  strategy is that it approaches the codebase as a single-layer corpus, serialized documentation from which to generate completions. In reality, software is non-linear and multidimensional - less like a research paper and more like our aforementioned mystery novel. No matter how large the context window or effective the embedding model, agentic tools disambiguated from the architectural design of a codebase will always devolve into bot rot.
 
-  
-  
-
 How can GenAI powered workflows be equipped with the context and agency required to automate the process of automation? The answer stems from two well-established concepts in software engineering.
-
-  
 
 ### TDD
 
 Test Driven Development is a cornerstone of modern software engineering process. More than just a mandate to “write the tests first,” TDD is a mindset manifested into a process. For our purposes, the pillars of TDD look something like this:
-
 -   A complete codebase consists of application code that performs desired processes, and test code that ensures the application code works as intended.
-    
 -   Test code is written to define what “done” will look like, and application code is then written to satisfy that test code.
     
-
 TDD implicitly requires that application code be written in a way that is highly testable. Overly complex, nested business logic must be broken into units that can be directly accessed by test methods. Hooks need to be baked into object signatures, dependencies must be injected, all to facilitate the ability of test code to assure functionality in the application. And here is the first part of our answer: for agentic processes to be more successful at automating our codebase, we need to write code that is highly GenAI-able.
-
-  
 
 Another important element of TDD in this context is that testing must be an implicit part of the software we build. In TDD, there is no option to scratch out a pile of application code with no tests, then apply a third party bot to “test it.” This is the second part of our answer: Codebase automation must be an element of the software itself, not an external function of a ‘code bot’.
 
@@ -110,20 +95,11 @@ Another important element of TDD in this context is that testing must be an impl
 
 The earlier Python TPS report example demonstrates a code refactor, one of the most important higher-level functions in healthy software evolution. Kent Beck describes the process of refactoring as “for each desired change, make the change easy (warning: this may be hard), then make the easy change.” This is how a codebase improves for human needs over time, reducing cognitive load and, as a result, cycle times. Refactoring is also exactly how a codebase is continually optimized for GenAI automation! Refactoring means removing duplication, decoupling and creating semantic “distance” between domains, and simplifying the logical flow of a program - all things that will have a huge positive impact on both RAG and generative processes. The final part of our answer is that codebase architecture (and subsequently, refactoring) must be a first class citizen as part of any codebase automation process.
 
-  
-  
-  
-
 ## Generative Driven Development
 
 Given these borrowed pillars:
-
-  
-
--   For agentic processes to be more successful at automating our codebase, we need to write code that is highly GenAI-able.
-    
--   Codebase automation must be an element of the software itself, not an external function of a ‘code bot’.
-    
+-   **For agentic processes to be more successful at automating our codebase, we need to write code that is highly GenAI-able**.
+-   **Codebase automation must be an element of the software itself, not an external function of a ‘code bot’**.  
 -   Codebase architecture (and subsequently, refactoring) must be a first class citizen as part of any codebase automation process.
     
 
@@ -343,5 +319,5 @@ The Engineer instructs py-gdd to create tickets for each concern. On to the next
 
 In this vision, an Engineer is still very heavily involved in the mechanical processes of GDD. But it is reasonable to assume that as a codebase grows and evolves to become increasingly GenAI-able due to GDD practice, less human interaction will become necessary. In the ultimate expression of Continuous Delivery, GDD could be primarily practiced via a perpetual “GDD server.” Work will be sourced from project management tools like Jira and GitHub Issues, error logs from Datadog and CloudWatch needing investigation, and most importantly generated by the GDD tooling itself. Hundreds of PRs could be opened, reviewed, and merged every day, with experienced human engineers guiding the architectural development of the project over time. In this way, GDD can become a realization of the goal to automate automation.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODc5MzM1NDZdfQ==
+eyJoaXN0b3J5IjpbLTEzNTgwMjcyOThdfQ==
 -->
