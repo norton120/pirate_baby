@@ -116,12 +116,12 @@ To dissect what a GDD workflow could look like, we can start with a closer look 
 
 In a highly GenAI-able codebase, it is easy to build highly effective embeddings and assemble low-noise context, side effects and coupling are rare, and abstraction is clear and consistent. When it comes to understanding a codebase, the needs of a human developer and those of an agentic process have significant overlap. In fact, many elements of highly GenAI-able code will look familiar in practice to a human-focused code refactor. However, the driver behind these principles is to improve the ability of agentic processes to correctly generate code iterations. Some of these principles include:
 
-- _High cardinality in entity naming_: Variables, methods, classes must be as unique as possible to minimize RAG context collisions. 
-- _Appropriate semantic correlation in naming_: A `Dog` class will have a greater embedded similarity to the `Cat` class than a top-level `walk` function. Naming needs to form intentional, logical semantic relationships and avoid semantic collisions.
-- _Granular (highly chunkable) documentation_: Every callable, method and object in the codebase must ship with comprehensive, accurate heredocs to facilitate intelligent RAG and the best possible completions.
-- _Full pathing of resources_: Code should remove as much guesswork and assumed context as possible. In a Python project, this would mean fully qualified import paths (no relative imports) and avoiding unconventional aliases.
-- _Extremely predictable architectural patterns_: Consistent use of singular/plural case, past/present tense, and documented rules for module nesting enable generations based on demonstrated patterns (generating an import of SaleSchema based not on RAG but inferred by the presence of OrderSchema and ReturnSchema)
-- _DRY code_: duplicated business logic balloons both the context and generated token count, and will increase generated mistakes when a higher presence penalty is applied.
+- **High cardinality in entity naming**: Variables, methods, classes must be as unique as possible to minimize RAG context collisions. 
+- **Appropriate semantic correlation in naming**: A `Dog` class will have a greater embedded similarity to the `Cat` class than a top-level `walk` function. Naming needs to form intentional, logical semantic relationships and avoid semantic collisions.
+- **Granular (highly chunkable) documentation**: Every callable, method and object in the codebase must ship with comprehensive, accurate heredocs to facilitate intelligent RAG and the best possible completions.
+- **Full pathing of resources**: Code should remove as much guesswork and assumed context as possible. In a Python project, this would mean fully qualified import paths (no relative imports) and avoiding unconventional aliases.
+- **Extremely predictable architectural patterns**: Consistent use of singular/plural case, past/present tense, and documented rules for module nesting enable generations based on demonstrated patterns (generating an import of SaleSchema based not on RAG but inferred by the presence of OrderSchema and ReturnSchema)
+- **DRY code**: duplicated business logic balloons both the context and generated token count, and will increase generated mistakes when a higher presence penalty is applied.
 
 ### 2. Tooling as an aspect of the software
 
@@ -218,7 +218,8 @@ In this vision, an Engineer is still very heavily involved in the mechanical pro
 
 <sub>1. yes, this really is a clear form of _machine learning_,  but that term has been so painfully overloaded that I hesitate to associate any new idea with those words.</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzQ0ODU4NSwtMTM2MDAxMjg1OCwyND
-IxNDA0NTMsLTY0MDkyNzEzMCwtMjE0MTc0MzU2NCwtNDI1Njc4
-MDg3LC0yMDA3MTQwNDA4LDE0NTc5MzQ0MTVdfQ==
+eyJoaXN0b3J5IjpbMTMyNTcwNzUzLDEyMTM0NDg1ODUsLTEzNj
+AwMTI4NTgsMjQyMTQwNDUzLC02NDA5MjcxMzAsLTIxNDE3NDM1
+NjQsLTQyNTY3ODA4NywtMjAwNzE0MDQwOCwxNDU3OTM0NDE1XX
+0=
 -->
