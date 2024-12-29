@@ -129,7 +129,7 @@ Every commercially viable programming language has at least one accompanying tes
 
 Tests are an integral part of the software circuit, tightly coupled to the application code they cover. Tests require the ability to account for, and interact with, the macro architectural design of a project (sound familiar?) and must evolve in sync with the whole of the codebase.
 
-For effective GDD, we will need to see similar purpose-built packages that can support an evolved, generative-first development process. At the core will be a system for building and maintaining an intentional meta-catalog of semantic project architecture. This might be something that is parsed and evolved via the AST, or driven by a ULM-like data structure that both humans and code modify over time - similar to a `.pytest.ini` or `pom.xml` file in TDD.
+For effective GDD, we will need to see similar purpose-built packages that can support an evolved, generative-first development process. At the core will be a system for building and maintaining an intentional meta-catalog of semantic project architecture. This might be something that is parsed and evolved via the AST, or driven by a ULM-like data structure that both humans and code modify over time - similar to a `.pytest.ini` or plugin configs in a `pom.xml` file in TDD.
 
 This semantic structure will enable our package to run stepped processes that account for macro architecture, in a way that is both bespoke to and evolving with the project itself. Architectural rules for the application such as naming conventions, responsibilities of different classes, modules, services etc. will compile applicable semantics into agentic pipeline executions, and guide generations to meet them.
 
@@ -218,8 +218,8 @@ In this vision, an Engineer is still very heavily involved in the mechanical pro
 
 <sub>1. yes, this really is a clear form of _machine learning_,  but that term has been so painfully overloaded that I hesitate to associate any new idea with those words.</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyOTA4MTkwNSwxMjEzNDQ4NTg1LC0xMz
-YwMDEyODU4LDI0MjE0MDQ1MywtNjQwOTI3MTMwLC0yMTQxNzQz
-NTY0LC00MjU2NzgwODcsLTIwMDcxNDA0MDgsMTQ1NzkzNDQxNV
-19
+eyJoaXN0b3J5IjpbMTUyMTIxNzM1OSwxNTI5MDgxOTA1LDEyMT
+M0NDg1ODUsLTEzNjAwMTI4NTgsMjQyMTQwNDUzLC02NDA5Mjcx
+MzAsLTIxNDE3NDM1NjQsLTQyNTY3ODA4NywtMjAwNzE0MDQwOC
+wxNDU3OTM0NDE1XX0=
 -->
