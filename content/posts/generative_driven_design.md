@@ -47,15 +47,15 @@ In this example, an application processes TPS reports. Currently, the TPS ID val
 # src/ingestion/report_consumer.py
 …
 def parse_department_code(self, report_id:str) -> int:
-“””returns the parsed department code from the TPS report id”””
-dep_id = report_id.split(“-”)[-3]
-return get_dep_codes()[dep_id]
+    “””returns the parsed department code from the TPS report id”””
+    dep_id = report_id.split(“-”)[-3]
+    return get_dep_codes()[dep_id]
 …
 
 # src/reporter/tps.py
 …
 def get_reporting_date(report_id:str) -> datetime.datetime:
-“””converts the encoded date from the tps report id”””
+    “””converts the encoded date from the tps report id”””
 stamp = int(report_id.split(“ts=”)[1].split(“&”)[0])
 return datetime.fromtimestamp(stamp)
 ```
@@ -215,6 +215,7 @@ In this vision, an Engineer is still very heavily involved in the mechanical pro
 
 <sub>1. yes, this really is a clear form of _machine learning_,  but that term has been so painfully overloaded that I hesitate to associate any new idea with those words.</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDkyNzEzMCwtMjE0MTc0MzU2NCwtND
-I1Njc4MDg3LC0yMDA3MTQwNDA4LDE0NTc5MzQ0MTVdfQ==
+eyJoaXN0b3J5IjpbMjc4MTc4NTM0LC02NDA5MjcxMzAsLTIxND
+E3NDM1NjQsLTQyNTY3ODA4NywtMjAwNzE0MDQwOCwxNDU3OTM0
+NDE1XX0=
 -->
