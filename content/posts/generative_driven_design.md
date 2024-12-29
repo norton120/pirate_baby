@@ -113,40 +113,23 @@ To dissect what a GDD workflow could look like, we can start with the aforementi
 In a highly GenAI-able codebase, it is easy to build highly effective embeddings and assemble low-noise context, side effects and coupling are rare, and abstraction is clear and consistent. When it comes to understanding a codebase, the needs of a human developer and those of an agentic process have significant overlap. In fact, many elements of highly GenAI-able code will look familiar in practice to a human-focused code refactor. However, the driver behind these principles is to improve the ability of agentic processes to correctly generate code iterations. Some of these principles include:
 
 - _High cardinality in entity naming_: Variables, methods, classes must be as unique as possible to minimize RAG context collisions. 
-- _Appropriate semantic correlation in naming_: A `Dog` class will have a greater embedded similarity to the `Cat class than a top-level `walk` function. Naming needs to form intentional, logical semantic relationships and avoid semantic collisions.
-    
--   Granular (highly chunkable) documentation: Every callable, method and object in the codebase must ship with comprehensive, accurate heredocs to facilitate intelligent RAG and the best possible completions.
-    
--   Full pathing of resources: Code should remove as much guesswork and assumed context as possible. In a Python project, this would mean fully qualified import paths (no relative imports) and avoiding unconventional aliases.
-    
--   Extremely predictable architectural patterns: Consistent use of singular/plural case, past/present tense, and documented rules for module nesting enable generations based on demonstrated patterns (generating an import of SaleSchema based not on RAG but inferred by the presence of OrderSchema and ReturnSchema)
-    
--   DRY code: duplicated business logic balloons both the context and generated token count, and will increase generated mistakes when a higher presence penalty is applied.
-    
-
-  
+- _Appropriate semantic correlation in naming_: A `Dog` class will have a greater embedded similarity to the `Cat` class than a top-level `walk` function. Naming needs to form intentional, logical semantic relationships and avoid semantic collisions.
+- _Granular (highly chunkable) documentation_: Every callable, method and object in the codebase must ship with comprehensive, accurate heredocs to facilitate intelligent RAG and the best possible completions.
+- _Full pathing of resources_: Code should remove as much guesswork and assumed context as possible. In a Python project, this would mean fully qualified import paths (no relative imports) and avoiding unconventional aliases.
+- _Extremely predictable architectural patterns_: Consistent use of singular/plural case, past/present tense, and documented rules for module nesting enable generations based on demonstrated patterns (generating an import of SaleSchema based not on RAG but inferred by the presence of OrderSchema and ReturnSchema)
+- _DRY code_: duplicated business logic balloons both the context and generated token count, and will increase generated mistakes when a higher presence penalty is applied.
 
 ### 2. Tooling as an aspect of the software
 
-Every commercially viable programming language has at least one accompanying test framework; Python has pytest, Ruby has RSpec, Java has JUnit etc. In comparison, many other aspects of the SDLC evolved into stand-alone tools - like feature management done in Jira or Linear, or monitoring via Datadog. Why, then, are testing code part of the codebase, and testing tools part of development dependencies?
-
-  
+Every commercially viable programming language has at least one accompanying test framework; Python has `pytest`, Ruby has `RSpec`, Java has `JUnit` etc. In comparison, many other aspects of the SDLC evolved into stand-alone tools - like feature management done in Jira or Linear, or monitoring via Datadog. Why, then, are testing code part of the codebase, and testing tools part of development dependencies?
 
 Tests are an integral part of the software circuit, tightly coupled to the application code they cover. Tests require the ability to account for, and interact with, the macro architectural design of a project (sound familiar?) and must evolve in sync with the whole of the codebase.
 
-  
-
 For effective GDD, we will need to see similar purpose-built packages that can support an evolved, generative-first development process. At the core will be a system for building and maintaining an intentional meta-catalog of semantic project architecture. This might be something that is parsed and evolved via the AST, or driven by a ULM-like data structure that both humans and code modify over time - similar to a .pytest.ini or pom.xml file in TDD.
-
-  
 
 This semantic structure will enable our package to run stepped processes that account for macro architecture, in a way that is both bespoke to and evolving with the project itself. Architectural rules for the application such as naming conventions, responsibilities of different classes, modules, services etc. will compile applicable semantics into agentic pipeline executions, and guide generations to meet them.
 
-  
-
 Similar to the current crop of test frameworks, GDD tooling will abstract boilerplate generative functionality while offering a heavily customizable API for developers (and the agentic processes) to fine-tune. Like your test specs, generative specs could define architectural directives and external context - like the sunsetting of a service or move to a new design pattern - to inform the generations.
-
-  
 
 GDD linting will look for patterns that make code less GenAI-able (see [Writing code that is highly GenAI-able]()) and correct them when possible, raise them to human attention when not.
 
@@ -303,5 +286,5 @@ The Engineer instructs py-gdd to create tickets for each concern. On to the next
 
 In this vision, an Engineer is still very heavily involved in the mechanical processes of GDD. But it is reasonable to assume that as a codebase grows and evolves to become increasingly GenAI-able due to GDD practice, less human interaction will become necessary. In the ultimate expression of Continuous Delivery, GDD could be primarily practiced via a perpetual “GDD server.” Work will be sourced from project management tools like Jira and GitHub Issues, error logs from Datadog and CloudWatch needing investigation, and most importantly generated by the GDD tooling itself. Hundreds of PRs could be opened, reviewed, and merged every day, with experienced human engineers guiding the architectural development of the project over time. In this way, GDD can become a realization of the goal to automate automation.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NjA2MDBdfQ==
+eyJoaXN0b3J5IjpbNTI1MDgyODM2XX0=
 -->
