@@ -56,8 +56,8 @@ def parse_department_code(self, report_id:str) -> int:
 …
 def get_reporting_date(report_id:str) -> datetime.datetime:
     “””converts the encoded date from the tps report id”””
-stamp = int(report_id.split(“ts=”)[1].split(“&”)[0])
-return datetime.fromtimestamp(stamp)
+    stamp = int(report_id.split(“ts=”)[1].split(“&”)[0])
+    return datetime.fromtimestamp(stamp)
 ```
 
 A new feature requires parsing the same department code in a different part of the codebase, as well as parsing several new elements from the TPS ID in other locations. A skilled human developer would recognize that TPS ID parsing was becoming cluttered, and abstract all references to the TPS ID into a first-class object:
@@ -67,9 +67,9 @@ A new feature requires parsing the same department code in a different part of t
 from models.tps_report import TPSReport
 
 def parse_department_code(self, report_id:str) -> int:
-“””Deprecated: just access the code on the TPS object in the future”””
-report = TPSReport(report_id)
-return report.department_code
+    “””Deprecated: just access the code on the TPS object in the future”””
+    report = TPSReport(report_id)
+    return report.department_code
 ```
 
 This abstraction DRYs out the codebase, reducing duplication and shrinking cognitive load. Not surprisingly, what makes code easier for humans to work with also makes it more “generative-friendly;” consolidating the context into an abstracted model reduces noise in RAG, improving the quality resources of the next generation.
@@ -215,7 +215,7 @@ In this vision, an Engineer is still very heavily involved in the mechanical pro
 
 <sub>1. yes, this really is a clear form of _machine learning_,  but that term has been so painfully overloaded that I hesitate to associate any new idea with those words.</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc4MTc4NTM0LC02NDA5MjcxMzAsLTIxND
+eyJoaXN0b3J5IjpbLTI4NDM0MDc0LC02NDA5MjcxMzAsLTIxND
 E3NDM1NjQsLTQyNTY3ODA4NywtMjAwNzE0MDQwOCwxNDU3OTM0
 NDE1XX0=
 -->
