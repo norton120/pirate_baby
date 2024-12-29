@@ -133,7 +133,7 @@ For effective GDD, we will need to see similar purpose-built packages that can s
 
 This semantic structure will enable our package to run stepped processes that account for macro architecture, in a way that is both bespoke to and evolving with the project itself. Architectural rules for the application such as naming conventions, responsibilities of different classes, modules, services etc. will compile applicable semantics into agentic pipeline executions, and guide generations to meet them.
 
-Similar to the current crop of test frameworks, GDD tooling will abstract boilerplate generative functionality while offering a heavily customizable API for developers (and the agentic processes) to fine-tune. Like your test specs, generative specs could define architectural directives and external context - like the sunsetting of a service or move to a new design pattern - to inform the generations.
+Similar to the current crop of test frameworks, GDD tooling will abstract boilerplate generative functionality while offering a heavily customizable API for developers (and the agentic processes) to fine-tune. Like your test specs, generative specs could define architectural directives and external context - like the sunsetting of a service, or a team pivot to a new design pattern - and inform the agentic generations.
 
 GDD linting will look for patterns that make code less GenAI-able (see [Writing code that is highly GenAI-able]()) and correct them when possible, raise them to human attention when not.
 
@@ -218,8 +218,8 @@ In this vision, an Engineer is still very heavily involved in the mechanical pro
 
 <sub>1. yes, this really is a clear form of _machine learning_,  but that term has been so painfully overloaded that I hesitate to associate any new idea with those words.</sub>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMTIxNzM1OSwxNTI5MDgxOTA1LDEyMT
-M0NDg1ODUsLTEzNjAwMTI4NTgsMjQyMTQwNDUzLC02NDA5Mjcx
-MzAsLTIxNDE3NDM1NjQsLTQyNTY3ODA4NywtMjAwNzE0MDQwOC
-wxNDU3OTM0NDE1XX0=
+eyJoaXN0b3J5IjpbLTEyMzEyNzM4MjUsMTUyOTA4MTkwNSwxMj
+EzNDQ4NTg1LC0xMzYwMDEyODU4LDI0MjE0MDQ1MywtNjQwOTI3
+MTMwLC0yMTQxNzQzNTY0LC00MjU2NzgwODcsLTIwMDcxNDA0MD
+gsMTQ1NzkzNDQxNV19
 -->
