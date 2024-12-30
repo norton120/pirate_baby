@@ -15,22 +15,30 @@ summary: Is your code infected with bot rot?
 <h1>Brooks Law Model - Cycle Time Calculator</h1>
 
 <!-- Form for adding user requests -->
-<div id="input-form">
+<div id="input-form" class="input-container">
     <div class="input-group">
-        <label for="dateRequested">Date Requested:</label>
-        <input type="date" id="dateRequested" required>
-        <label for="dateCompleted">Date Completed:</label>
-        <input type="date" id="dateCompleted" required>
-        <label for="teamSize">Team Size:</label>
-        <input type="number" id="teamSize" min="1" required>
-        <button type="button" onclick="addRequest()">Add Request</button>
+        <div class="date-fields">
+            <div class="date-field">
+                <label for="dateRequested" class="inline-label">Date Requested:</label>
+                <input type="date" id="dateRequested" class="input-field" required>
+            </div>
+            <div class="date-field">
+                <label for="dateCompleted" class="inline-label">Date Completed:</label>
+                <input type="date" id="dateCompleted" class="input-field" required>
+            </div>
+        </div>
+        <label for="teamSize" class="inline-label">Team Size:</label>
+        <input type="number" id="teamSize" class="input-field" min="1" value="10" required>
+        <div class="prominent-button-wrapper">
+            <button type="button" class="prominent-button" onclick="addRequest()">Add Request</button>
+        </div>
     </div>
 </div>
 
 <!-- Project complexity selection -->
-<div id="project-complexity">
-    <label for="projectComplexity">Project Complexity:</label>
-    <select id="projectComplexity">
+<div id="project-complexity" class="input-container">
+    <label for="projectComplexity" class="inline-label">Project Complexity:</label>
+    <select id="projectComplexity" class="input-field">
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -45,9 +53,9 @@ summary: Is your code infected with bot rot?
 </div>
 
 <!-- File upload for CSV or Excel -->
-<div id="file-upload">
-    <label for="fileInput">Upload CSV or Excel file:</label>
-    <input type="file" id="fileInput" accept=".csv, .xlsx, .xls">
+<div id="file-upload" class="input-container">
+    <label for="fileInput" class="inline-label">Upload CSV or Excel file:</label>
+    <input type="file" id="fileInput" class="input-field" accept=".csv, .xlsx, .xls">
     <button type="button" onclick="uploadFile()">Upload</button>
     <a href="#" onclick="downloadStarterCSV()">Download Starter CSV</a>
 </div>
@@ -72,11 +80,21 @@ summary: Is your code infected with bot rot?
 <button onclick="submitData()">Submit</button>
 
 <!-- Container for displaying the chart -->
-<div>
+<div class="chart-container">
     <canvas id="cycleTimeChart"></canvas>
+    <div class="placeholder-text">No results</div>
 </div>
 
 <script>
+    // Apply theme based on preference
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark');
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
     // Function to render the chart
     let chart;
     const chartConfig = {
@@ -309,8 +327,96 @@ summary: Is your code infected with bot rot?
                 ...chartConfig,
                 data: chartData
             });
+
+            // Hide placeholder text
+            document.querySelector('.placeholder-text').style.display = 'none';
         } else {
             alert("Please add at least 5 user requests before submitting!");
         }
     }
 </script>
+
+<style>
+    .input-container {
+        padding: .5rem;
+        border-radius: .25rem;
+        margin-bottom: 20px;
+    }
+    .input-container:first-of-type {
+        border: thin solid #777777;
+    }
+    .input-field {
+        display: inline-block;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding: 8px;
+        width: calc(100% - 150px);
+        box-sizing: border-box;
+    }
+    .inline-label {
+        display: inline-block;
+        width: 140px;
+        text-align: right;
+        margin-right: 10px;
+    }
+    .dark .input-field {
+        background-color: #333;
+        color: #fff;
+        border: 1px solid #555;
+    }
+    .input-field:focus {
+        outline: none;
+        border-color: #007bff;
+    }
+    .prominent-button-wrapper {
+        width: 100%;
+        text-align: right;
+    }
+    .prominent-button {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+    .prominent-button:hover {
+        background-color: #0056b3;
+    }
+    .chart-container {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+    }
+    .placeholder-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #999;
+        font-size: 24px;
+        pointer-events: none;
+    }
+    .date-fields {
+        display: flex;
+        justify-content: space-between;
+    }
+    .date-field {
+        flex: 1;
+        margin-right: 10px;
+    }
+    .date-field:last-child {
+        margin-right: 0;
+    }
+    @media (max-width: 768px) {
+        .date-fields {
+            flex-direction: column;
+        }
+        .date-field {
+            margin-right: 0;
+        }
+    }
+</style>
