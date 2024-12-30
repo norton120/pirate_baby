@@ -9,138 +9,237 @@ url: "/bot-rot"
 summary: Is your code infected with bot rot?
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brooks Law Model - Cycle Times</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-</head>
-<body>
-    <h1>Brooks Law Model - Cycle Time Calculator</h1>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+<h1>Brooks Law Model - Cycle Time Calculator</h1>
 
-    <!-- Form for adding user requests -->
-    <div id="input-form">
-        <div class="input-group">
-            <label for="dateRequested">Date Requested:</label>
-            <input type="date" id="dateRequested" required>
-            <label for="dateCompleted">Date Completed:</label>
-            <input type="date" id="dateCompleted" required>
-            <label for="teamSize">Team Size:</label>
-            <input type="number" id="teamSize" min="1" required>
-            <button type="button" onclick="addRequest()">Add Request</button>
-        </div>
+<!-- Form for adding user requests -->
+<div id="input-form">
+    <div class="input-group">
+        <label for="dateRequested">Date Requested:</label>
+        <input type="date" id="dateRequested" required>
+        <label for="dateCompleted">Date Completed:</label>
+        <input type="date" id="dateCompleted" required>
+        <label for="teamSize">Team Size:</label>
+        <input type="number" id="teamSize" min="1" required>
+        <button type="button" onclick="addRequest()">Add Request</button>
     </div>
+</div>
 
-    <button onclick="submitData()">Submit</button>
+<!-- Project complexity selection -->
+<div id="project-complexity">
+    <label for="projectComplexity">Project Complexity:</label>
+    <select id="projectComplexity">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5" selected>5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+</div>
 
-    <!-- Container for displaying the chart -->
-    <div>
-        <canvas id="cycleTimeChart"></canvas>
-    </div>
+<!-- File upload for CSV or Excel -->
+<div id="file-upload">
+    <label for="fileInput">Upload CSV or Excel file:</label>
+    <input type="file" id="fileInput" accept=".csv, .xlsx, .xls">
+    <button type="button" onclick="uploadFile()">Upload</button>
+    <a href="#" onclick="downloadStarterCSV()">Download Starter CSV</a>
+</div>
 
-    <script>
-        // Function to render the chart
-        let chart;
-        const chartConfig = {
-            type: 'line',
-            data: {
-                labels: [], // dates or time
-                datasets: [
-                    {
-                        label: 'Actual Cycle Time (Days)',
-                        borderColor: 'rgb(255, 99, 132)',
-                        backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                        fill: false,
-                        data: []
-                    },
-                    {
-                        label: 'Expected Cycle Time (Days)',
-                        borderColor: 'rgb(75, 192, 192)',
-                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                        fill: false,
-                        data: []
-                    }
-                ]
-            },
-            options: {
-                responsive: true,
-                scales: {
-                    x: {
-                        type: 'linear', // x-axis with a numeric scale (days from start)
-                        position: 'bottom'
-                    }
+<!-- Display user requests -->
+<div id="user-requests">
+    <h2>User Requests</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Date Requested</th>
+                <th>Date Completed</th>
+                <th>Team Size</th>
+            </tr>
+        </thead>
+        <tbody id="user-requests-body">
+            <!-- Rows will be added here -->
+        </tbody>
+    </table>
+</div>
+
+<button onclick="submitData()">Submit</button>
+
+<!-- Container for displaying the chart -->
+<div>
+    <canvas id="cycleTimeChart"></canvas>
+</div>
+
+<script>
+    // Function to render the chart
+    let chart;
+    const chartConfig = {
+        type: 'line',
+        data: {
+            labels: [], // dates or time
+            datasets: [
+                {
+                    label: 'Actual Cycle Time (Days)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    fill: false,
+                    data: []
+                },
+                {
+                    label: 'Expected Cycle Time (Days)',
+                    borderColor: 'rgb(75, 192, 192)',
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    fill: false,
+                    data: []
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                x: {
+                    type: 'linear', // x-axis with a numeric scale (days from start)
+                    position: 'bottom'
                 }
             }
-        };
+        }
+    };
 
-        const ctx = document.getElementById('cycleTimeChart').getContext('2d');
+    const ctx = document.getElementById('cycleTimeChart').getContext('2d');
 
-        // Brooks Law Model (same as the one from your code)
-        class BrooksLawModel {
-            constructor(projectComplexity) {
-                this.projectComplexity = projectComplexity;
-                this.alpha = 0.5; // Scales initial disruption
-                this.beta = 1.5; // Scales onboarding duration
-                this.gamma = 10; // Fixed recovery contribution per hire
-            }
-
-            onboardingDuration(teamSize) {
-                return this.beta * this.projectComplexity * Math.log(teamSize);
-            }
-
-            cycleTime(time, teamSize, baselineCycleTime) {
-                const tauOnboard = this.onboardingDuration(teamSize);
-                const tInflection = 0.75 * tauOnboard;
-                const k = 1 / tauOnboard;
-
-                const deltaCtInitial = this.alpha * (teamSize + 1) * this.projectComplexity;
-                const fRise = deltaCtInitial * Math.exp(-time / tauOnboard);
-
-                const deltaCtRecovery = this.gamma;
-                const fRecovery = deltaCtRecovery / (1 + Math.exp(-k * (time - tInflection)));
-
-                return baselineCycleTime + fRise - fRecovery;
-            }
-
-            calculateCycleTimes(userRequests) {
-                if (!userRequests || userRequests.length === 0) return [];
-
-                const firstRequest = userRequests[0];
-                const firstRequestedDate = new Date(firstRequest.dateRequested);
-                const firstCompletedDate = new Date(firstRequest.dateCompleted);
-                const baselineCycleTime = (firstCompletedDate - firstRequestedDate) / (1000 * 60 * 60 * 24);
-                const initialTeamSize = firstRequest.teamSize;
-
-                return userRequests.map((request, index) => {
-                    const dateRequested = new Date(request.dateRequested);
-                    const dateCompleted = new Date(request.dateCompleted);
-                    const rawCycleTime = (dateCompleted - dateRequested) / (1000 * 60 * 60 * 24);
-
-                    let expectedCycleTime = null;
-                    if (index > 0) {
-                        const timeSinceFirstRequest = (dateRequested - firstRequestedDate) / (1000 * 60 * 60 * 24);
-                        expectedCycleTime = this.cycleTime(timeSinceFirstRequest, initialTeamSize, baselineCycleTime);
-                    }
-
-                    return {
-                        teamSize: request.teamSize,
-                        rawCycleTime,
-                        expectedCycleTime
-                    };
-                });
-            }
+    // Brooks Law Model (same as the one from your code)
+    class BrooksLawModel {
+        constructor(projectComplexity) {
+            this.projectComplexity = projectComplexity;
+            this.alpha = 0.5; // Scales initial disruption
+            this.beta = 1.5; // Scales onboarding duration
+            this.gamma = 10; // Fixed recovery contribution per hire
         }
 
-        let userRequests = [];
-        let model = new BrooksLawModel(5); // Example complexity 5
+        onboardingDuration(teamSize) {
+            return this.beta * this.projectComplexity * Math.log(teamSize);
+        }
 
-        // Function to add a request to the form
-        function addRequest() {
-            const dateRequested = document.getElementById('dateRequested').value;
-            const dateCompleted = document.getElementById('dateCompleted').value;
-            const teamSize = document.getElementById('teamSize').value;
+        cycleTime(time, teamSize, baselineCycleTime) {
+            const tauOnboard = this.onboardingDuration(teamSize);
+            const tInflection = 0.75 * tauOnboard;
+            const k = 1 / tauOnboard;
+
+            const deltaCtInitial = this.alpha * (teamSize + 1) * this.projectComplexity;
+            const fRise = deltaCtInitial * Math.exp(-time / tauOnboard);
+
+            const deltaCtRecovery = this.gamma;
+            const fRecovery = deltaCtRecovery / (1 + Math.exp(-k * (time - tInflection)));
+
+            return baselineCycleTime + fRise - fRecovery;
+        }
+
+        calculateCycleTimes(userRequests) {
+            if (!userRequests || userRequests.length === 0) return [];
+
+            const firstRequest = userRequests[0];
+            const firstRequestedDate = new Date(firstRequest.dateRequested);
+            const firstCompletedDate = new Date(firstRequest.dateCompleted);
+            const baselineCycleTime = (firstCompletedDate - firstRequestedDate) / (1000 * 60 * 60 * 24);
+            const initialTeamSize = firstRequest.teamSize;
+
+            return userRequests.map((request, index) => {
+                const dateRequested = new Date(request.dateRequested);
+                const dateCompleted = new Date(request.dateCompleted);
+                const rawCycleTime = (dateCompleted - dateRequested) / (1000 * 60 * 60 * 24);
+
+                let expectedCycleTime = null;
+                if (index > 0) {
+                    const timeSinceFirstRequest = (dateRequested - firstRequestedDate) / (1000 * 60 * 60 * 24);
+                    expectedCycleTime = this.cycleTime(timeSinceFirstRequest, initialTeamSize, baselineCycleTime);
+                }
+
+                return {
+                    teamSize: request.teamSize,
+                    rawCycleTime,
+                    expectedCycleTime
+                };
+            });
+        }
+    }
+
+    let userRequests = [];
+    let model;
+
+    // Function to add a request to the form
+    function addRequest() {
+        const dateRequested = document.getElementById('dateRequested').value;
+        const dateCompleted = document.getElementById('dateCompleted').value;
+        const teamSize = document.getElementById('teamSize').value;
+
+        if (dateRequested && dateCompleted && teamSize) {
+            userRequests.push({
+                dateRequested,
+                dateCompleted,
+                teamSize: Number(teamSize)
+            });
+
+            // Clear inputs
+            document.getElementById('dateRequested').value = '';
+            document.getElementById('dateCompleted').value = '';
+            document.getElementById('teamSize').value = '';
+
+            // Update user requests table
+            const tbody = document.getElementById('user-requests-body');
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>${dateRequested}</td>
+                <td>${dateCompleted}</td>
+                <td>${teamSize}</td>
+            `;
+            tbody.appendChild(row);
+        } else {
+            alert("Please fill all fields!");
+        }
+    }
+
+    // Function to handle file upload
+    function uploadFile() {
+        const fileInput = document.getElementById('fileInput');
+        const file = fileInput.files[0];
+
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function(event) {
+                const data = event.target.result;
+                if (file.name.endsWith('.csv')) {
+                    Papa.parse(data, {
+                        header: true,
+                        complete: function(results) {
+                            processFileData(results.data);
+                        }
+                    });
+                } else if (file.name.endsWith('.xlsx') || file.name.endsWith('.xls')) {
+                    const workbook = XLSX.read(data, { type: 'binary' });
+                    const sheetName = workbook.SheetNames[0];
+                    const sheet = workbook.Sheets[sheetName];
+                    const json = XLSX.utils.sheet_to_json(sheet);
+                    processFileData(json);
+                }
+            };
+            reader.readAsBinaryString(file);
+        } else {
+            alert("Please select a file to upload!");
+        }
+    }
+
+    // Function to process file data and add to user requests
+    function processFileData(data) {
+        data.forEach(item => {
+            const dateRequested = item['Date Requested'];
+            const dateCompleted = item['Date Completed'];
+            const teamSize = item['Team Size'];
 
             if (dateRequested && dateCompleted && teamSize) {
                 userRequests.push({
@@ -149,51 +248,69 @@ summary: Is your code infected with bot rot?
                     teamSize: Number(teamSize)
                 });
 
-                // Clear inputs
-                document.getElementById('dateRequested').value = '';
-                document.getElementById('dateCompleted').value = '';
-                document.getElementById('teamSize').value = '';
-            } else {
-                alert("Please fill all fields!");
+                // Update user requests table
+                const tbody = document.getElementById('user-requests-body');
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${dateRequested}</td>
+                    <td>${dateCompleted}</td>
+                    <td>${teamSize}</td>
+                `;
+                tbody.appendChild(row);
             }
-        }
+        });
+    }
 
-        // Function to submit data and plot the chart
-        function submitData() {
-            if (userRequests.length > 0) {
-                const cycleTimes = model.calculateCycleTimes(userRequests);
+    // Function to download starter CSV
+    function downloadStarterCSV() {
+        const csvContent = "data:text/csv;charset=utf-8,"
+            + "Date Requested,Date Completed,Team Size\n";
+        const encodedUri = encodeURI(csvContent);
+        const link = document.createElement("a");
+        link.setAttribute("href", encodedUri);
+        link.setAttribute("download", "starter.csv");
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
 
-                // Prepare chart data
-                const chartData = {
-                    labels: cycleTimes.map((_, i) => i), // Use index as x-axis
-                    datasets: [
-                        {
-                            label: 'Actual Cycle Time (Days)',
-                            data: cycleTimes.map(c => c.rawCycleTime),
-                            borderColor: 'rgb(255, 99, 132)',
-                            fill: false,
-                        },
-                        {
-                            label: 'Expected Cycle Time (Days)',
-                            data: cycleTimes.map(c => c.expectedCycleTime),
-                            borderColor: 'rgb(75, 192, 192)',
-                            fill: false,
-                        }
-                    ]
-                };
+    // Function to submit data and plot the chart
+    function submitData() {
+        const projectComplexity = document.getElementById('projectComplexity').value;
+        model = new BrooksLawModel(Number(projectComplexity));
 
-                // Update chart with data
-                if (chart) {
-                    chart.destroy();
-                }
-                chart = new Chart(ctx, {
-                    ...chartConfig,
-                    data: chartData
-                });
-            } else {
-                alert("No user requests to submit!");
+        if (userRequests.length >= 5) {
+            const cycleTimes = model.calculateCycleTimes(userRequests);
+
+            // Prepare chart data
+            const chartData = {
+                labels: cycleTimes.map((_, i) => i), // Use index as x-axis
+                datasets: [
+                    {
+                        label: 'Actual Cycle Time (Days)',
+                        data: cycleTimes.map(c => c.rawCycleTime),
+                        borderColor: 'rgb(255, 99, 132)',
+                        fill: false,
+                    },
+                    {
+                        label: 'Expected Cycle Time (Days)',
+                        data: cycleTimes.map(c => c.expectedCycleTime),
+                        borderColor: 'rgb(75, 192, 192)',
+                        fill: false,
+                    }
+                ]
+            };
+
+            // Update chart with data
+            if (chart) {
+                chart.destroy();
             }
+            chart = new Chart(ctx, {
+                ...chartConfig,
+                data: chartData
+            });
+        } else {
+            alert("Please add at least 5 user requests before submitting!");
         }
-    </script>
-</body>
-</html>
+    }
+</script>
