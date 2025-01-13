@@ -198,13 +198,14 @@ summary: Is your code infected with bot rot?
 </style>
 
 <script>
+
 class BrooksLawCalculator {
     constructor(onboardingMonths = 2) {
         this.onboardingMonths = onboardingMonths; // The duration for onboarding in months
     }
 
     // Calculate fully realized output based on the number of team members
-    getFullyRealizedOutput(teamSize) {
+    getFullyRealizedOutputPercentage(teamSize) {
         if (teamSize < 1) return 0;
         let totalOutput = 100 * teamSize; // Raw contribution per member
         let handicap = 5 * (teamSize * (teamSize - 1)) / 2; // 5% handicap per edge in the graph
@@ -221,6 +222,7 @@ class BrooksLawCalculator {
         let cycleTime = initialCycleTime; // cycle time in days
         let effectiveTeamSize = null;
         let month = 0;
+        let baselinePercent = null;
         const cycleTimes = []; // Array to store cycle times for plotting
 
         // Process the monthly data from monthlyData
@@ -236,23 +238,31 @@ class BrooksLawCalculator {
                 newTeamSize = effectiveTeamSize;
             }
             const onboardingNewMembers = Math.max(0, newTeamSize - effectiveTeamSize);
-            const currentFullyRealizedOutput = this.getFullyRealizedOutput(effectiveTeamSize);
-            const newMemberOutput = onboardingNewMembers > 0
-                ? this.getFullyRealizedOutput(onboardingNewMembers) * this.getOnboardingOutputProgress(month)
+            const currentFullyRealizedOutputPercentage = this.getFullyRealizedOutputPercentage(effectiveTeamSize);
+
+            if (baselinePercent == null) {
+                baselinePercent = currentFullyRealizedOutputPercentage;
+            }
+
+            const newMemberOutputPercentage = onboardingNewMembers > 0
+                ? this.getFullyRealizedOutputPercentage(onboardingNewMembers) * this.getOnboardingOutputProgress(month)
                 : 0;
 
             // Handicapping the team during onboarding of new members
             const handicap = onboardingNewMembers * 5; // Reduction per existing member
 
-            const totalOutput = currentFullyRealizedOutput + newMemberOutput;
-            const adjustedOutput = totalOutput * (1 - handicap / 100);
-            cycleTime = cycleTime / (adjustedOutput / 100); // Adjust the cycle time accordingly
+            const totalOutput = currentFullyRealizedOutputPercentage + newMemberOutputPercentage;
+            const adjustedOutput = totalOutput - handicap;
+
+            const ratio = (initialCycleTime / baselinePercent);
+            cycleTime = initialCycleTime - (ratio * adjustedOutput)
+            // cycleTime = cycleTime / (adjustedOutput / 100); // Adjust the cycle time accordingly
 
             // Apply 1% efficiency gain per month
             cycleTime *= 0.99;
 
             // Minimum cycle time is 1 day
-            cycleTime = Math.max(1, cycleTime);
+            //cycleTime = Math.max(1, cycleTime);
 
             // Record the cycle time for plotting
             cycleTimes.push({ month: monthYear, cycleTime: cycleTime });
@@ -365,7 +375,7 @@ function addRequest() {
     const dateCompleted = document.getElementById('dateCompleted').value;
     const note = document.getElementById('note').value;
 
-    if (dateRequested && dateCompleted && teamSize) {
+    if (dateRequested && dateCompleted && teamSizes) {
         const request = {
             dateRequested,
             dateCompleted,
@@ -479,7 +489,7 @@ function downloadStarterCSV() {
 function submitData() {
     const model = new BrooksLawCalculator();
     const expectedCycleTimes = model.calculateCycleTime(teamSizes);
-
+    console.log(expectedCycleTimes)
     if (softwareRequests.length >= 5) {
         const actualCycleTimeCalculator = new ActualCycleTimeCalculator();
         const actualCycleTimes = actualCycleTimeCalculator.calculateCycleTimes(softwareRequests);
@@ -582,6 +592,7 @@ function submitData() {
             const cell = document.createElement('td');
             cell.innerHTML = `<div>${month}-${year}</div><div contenteditable="true" id="teamSize-${monthYear}" class="editable-div" placeholder="5" oninput="updateTeamSizes('${month}-${year}', this.textContent)"></div>`;
             row.appendChild(cell);
+            updateTeamSizes(`${month}-${year}`, "")
         }
         container.appendChild(row);
     }
