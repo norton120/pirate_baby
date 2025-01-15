@@ -36,11 +36,17 @@ disqusShortname = 'https-pirate-baby'
 
 [params.homeInfoParams]
   Title = '_Ship Mercilessly_ :pirate_flag:'
-  Content = '''[:brain: **AI**](/tags/ai) :black_medium_small_square:
+  Content = '''
+  [:brain: **AI**](/tags/ai) :black_medium_small_square:
   [:chart_with_upwards_trend: **DE**](/tags/de) :black_medium_small_square:
   [:robot: **ML**](/tags/ml) :black_medium_small_square:
   [:building_construction: **Infra**](/tags/infra) :black_medium_small_square:
   [:computer: **Ops**](/tags/ops)
+
+  {{< box info >}}
+  The future of software is <b>[software that builds itself](/generative-driven-design)</b>.<br/>
+  Want to forge the code of tomorrow with us? <u>[find out more](/gdd-interest-form)</u>.
+  {{</box>}}
   '''
 
 [[params.SocialIcons]]
