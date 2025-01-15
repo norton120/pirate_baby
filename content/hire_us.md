@@ -11,13 +11,12 @@ summary: hiring Pirate Baby for consulting or contract engagements
 
 # Hire Pirate Baby
 
-There is no substitute for hard-won experience. If you need Engineers with proven track records, you need _The Pirate Baby_.
+Ready to get started? **We got this**.
 
-### Let's get started
 <div class="formBox">
 <form action="https://submit-form.com/jqZHaAArV">
   <input class="formInput" type="email" id="email" name="email" placeholder="Email" required=true />
-  <label for="message">Tell us about your project</label>
+  <label for="message">Tell us about your project, work, or what's on your mind</label>
   <textarea
     style="width:100%;"
     class="formInput"
