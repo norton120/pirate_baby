@@ -2,13 +2,15 @@ baseURL = 'https://pirate.baby/'
 languageCode = 'en-us'
 title = 'the Pirate Baby'
 theme = ['hugo-shortcode-roneo-collection', 'PaperMod']
-paginate = 5
 enableInlineShortcodes = true
 enableRobotsTXT = true
 enableEmoji = true
 pygmentsUseClasses = true
 googleAnalytics = 'G-QYLKP2XXPB'
 disqusShortname = 'https-pirate-baby'
+
+[pagination]
+  pagerSize = 5
 
 [taxonomies]
   tag = 'tags'
