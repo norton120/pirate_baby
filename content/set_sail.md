@@ -1,6 +1,6 @@
 ---
 title: "Set Sail"
-menus: 'main'
+menus: ''
 layout: "single"
 comments: false
 hideTitle: true
@@ -10,8 +10,8 @@ summary: Innovation does not live in a cubicle
 ---
 
 ## For Engineers, Silicon Valley is broken.
-Over the last decade, the startup software model has quietly decayed. There was a time when innovation was 
+The startup software model has quietly decayed over the last . There was a time when innovation was 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTQyMzM4ODgsMzMwODM5NjMzLC0xOT
-AyNzIxMTkwLC0xNDcyNzc5OTA0XX0=
+eyJoaXN0b3J5IjpbLTE4Mzg5OTg4MSwtMTcxNDIzMzg4OCwzMz
+A4Mzk2MzMsLTE5MDI3MjExOTAsLTE0NzI3Nzk5MDRdfQ==
 -->
