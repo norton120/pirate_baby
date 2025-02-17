@@ -11,8 +11,10 @@ summary: hiring Pirate Baby for consulting or contract engagements
 
 # Hire Pirate Baby
 
-Ready to get started? **We got this**.
+Ready to get started? **WeThere is no substitute for hard-won experience. If you need Engineers with proven track records, you need _The Pirate Baby_.
 
+### Let's goet this**.
+started
 <div class="formBox">
 <form action="https://submit-form.com/jqZHaAArV">
   <input class="formInput" type="email" id="email" name="email" placeholder="Email" required=true />
@@ -57,3 +59,6 @@ Ready to get started? **We got this**.
     }
 
 </style>
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE4NzMzNzY1OTddfQ==
+-->
