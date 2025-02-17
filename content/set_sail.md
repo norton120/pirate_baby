@@ -10,8 +10,8 @@ summary: Innovation does not live in a cubicle
 ---
 
 ## For Engineers, Silicon Valley is broken.
-There w
+Over the last decade, the startup software model has quietly decayed. There was a time when innovation was 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NDI3NjI0OSwzMzA4Mzk2MzMsLTE5MD
-I3MjExOTAsLTE0NzI3Nzk5MDRdfQ==
+eyJoaXN0b3J5IjpbLTE3MTQyMzM4ODgsMzMwODM5NjMzLC0xOT
+AyNzIxMTkwLC0xNDcyNzc5OTA0XX0=
 -->
