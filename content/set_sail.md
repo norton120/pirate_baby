@@ -6,8 +6,8 @@ comments: false
 hideTitle: true
 ShowReadingTime: false
 url: "/set-sail"
-summary: Why we 
+summary: How 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MTMwMjU2OCwtMTQ3Mjc3OTkwNF19
+eyJoaXN0b3J5IjpbNjgxNTMxMTIwLC0xNDcyNzc5OTA0XX0=
 -->
