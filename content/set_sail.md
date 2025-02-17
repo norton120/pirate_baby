@@ -6,8 +6,9 @@ comments: false
 hideTitle: true
 ShowReadingTime: false
 url: "/set-sail"
-summary: How 
+summary: The sea ma
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgxNTMxMTIwLC0xNDcyNzc5OTA0XX0=
+eyJoaXN0b3J5IjpbLTEyOTYwNzU1MzIsLTE0NzI3Nzk5MDRdfQ
+==
 -->
