@@ -10,8 +10,8 @@ summary: Innovation does not live in a cubicle
 ---
 
 ## For Engineers, Silicon Valley is broken.
-
+There w
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI2NzE5MDkwLDMzMDgzOTYzMywtMTkwMj
-cyMTE5MCwtMTQ3Mjc3OTkwNF19
+eyJoaXN0b3J5IjpbLTQ1NDI3NjI0OSwzMzA4Mzk2MzMsLTE5MD
+I3MjExOTAsLTE0NzI3Nzk5MDRdfQ==
 -->
