@@ -9,9 +9,9 @@ url: "/set-sail"
 summary: The sea makes for better software
 ---
 
-## For SoftwSilicon Valley is broken.
+## For Engineers, Silicon Valley is broken.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzOTI3NjY3OCwtMTkwMjcyMTE5MCwtMT
-Q3Mjc3OTkwNF19
+eyJoaXN0b3J5IjpbMzMwODM5NjMzLC0xOTAyNzIxMTkwLC0xND
+cyNzc5OTA0XX0=
 -->
