@@ -1,12 +1,13 @@
 <div class="image-helper">
     <div class="container">
-        <h1>HEIC to PNG Converter</h1>
+        <h1>Photo Transformer for Web</h1>
+        <p class="tool-description">Transform large, difficult-to-use and randomly named photos into web-ready images with meaningful names. Perfect for content creators who need batch processing without manual work.</p>
         <div class="upload-section">
             <form id="uploadForm" class="upload-form">
                 <div class="file-input-wrapper">
                     <input type="file" id="heicInput" accept=".heic,.jpg,.jpeg,.png" multiple>
                     <label for="heicInput" class="file-label">
-                        <span>Select Images (HEIC, JPG, or PNG)</span>
+                        <span>Select Photos to Transform</span>
                     </label>
                 </div>
                 <div class="api-key-wrapper">
@@ -16,17 +17,17 @@
                             <span class="toggle-text">Show</span>
                         </button>
                     </div>
-                    <label class="api-key-label">Enter your OpenAI API key to get AI-generated file names</label>
+                    <label class="api-key-label">Enter your OpenAI API key to generate meaningful file names automatically</label>
                 </div>
                 <div id="fileList" class="file-list"></div>
-                <button type="submit" id="convertBtn" class="convert-btn" disabled>Convert to PNG</button>
+                <button type="submit" id="convertBtn" class="convert-btn" disabled>Transform Photos</button>
             </form>
         </div>
         <div id="progressSection" class="progress-section" style="display: none;">
             <div class="progress-bar">
                 <div class="progress" id="progressBar"></div>
             </div>
-            <p id="progressText">Converting images...</p>
+            <p id="progressText">Transforming photos...</p>
         </div>
         <div id="resultsSection" class="results-section"></div>
     </div>
@@ -47,7 +48,13 @@
     h1 {
         text-align: center;
         color: #333;
+        margin-bottom: 1rem;
+    }
+    .tool-description {
+        text-align: center;
+        color: #555;
         margin-bottom: 2rem;
+        line-height: 1.5;
     }
     .upload-section {
         margin-bottom: 2rem;
@@ -302,7 +309,7 @@
                             content: [
                                 {
                                     type: "text",
-                                    text: "What is in this image? Respond with 2-3 words separated by underscores. For example: 'wooden_boardwalk_nature' or 'cat_sleeping_window'"
+                                    text: "What is in this image? Respond with 2-3 descriptive words separated by underscores that would make a meaningful filename. For example: 'wooden_boardwalk_nature' or 'cat_sleeping_window'"
                                 },
                                 {
                                     type: "image_url",
@@ -350,7 +357,7 @@
             for (let i = 0; i < selectedFiles.length; i++) {
                 const file = selectedFiles[i];
                 console.log(`Processing file ${i + 1}/${selectedFiles.length}: ${file.name}`);
-                progressText.textContent = `Converting ${file.name}...`;
+                progressText.textContent = `Transforming ${file.name}...`;
                 progressBar.style.width = `${(i / selectedFiles.length) * 100}%`;
 
                 try {
@@ -399,18 +406,18 @@
                     `;
                     resultsSection.appendChild(resultItem);
                 } catch (error) {
-                    console.error(`Error converting ${file.name}:`, error);
+                    console.error(`Error transforming ${file.name}:`, error);
                     const errorItem = document.createElement('div');
                     errorItem.className = 'result-item';
                     errorItem.innerHTML = `
-                        <p>Error converting ${file.name}</p>
+                        <p>Error transforming ${file.name}</p>
                         <p class="error-message">${error.message}</p>
                     `;
                     resultsSection.appendChild(errorItem);
                 }
             }
 
-            progressText.textContent = 'Conversion complete!';
+            progressText.textContent = 'Transformation complete!';
             convertBtn.disabled = false;
         });
 
