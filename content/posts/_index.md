@@ -1,6 +1,6 @@
 ---
 title: "Posts"
-menus: 'main'
+menus: main'
 url: "/posts/"
 summary: posts
 ---

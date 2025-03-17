@@ -1,0 +1,735 @@
+<div class="image-helper">
+    <div class="container">
+        <h1>Photo Transformer for Web</h1>
+        <p class="tool-description">Transform large, difficult-to-use and randomly named photos into web-ready images with meaningful names.
+            <ul>
+                <li>Upload individual photos or ZIP archives for batch processing.</li>
+                <li>Enter your OpenAI API key to generate meaningful file names automatically.</li>
+                <li>When processing multiple images, you'll receive a convenient ZIP file containing all transformed photos.</li>
+                <li>Useful for content creation, allowing you to process multiple images without manual work.</li>
+            </ul>
+        </p>
+            <div class="upload-section">
+            <form id="uploadForm" class="upload-form">
+                <div class="file-input-wrapper">
+                    <input type="file" id="heicInput" accept=".heic,.jpg,.jpeg,.png,.zip" multiple>
+                    <label for="heicInput" class="file-label">
+                        <span>Select Photos or ZIP Files to Transform</span>
+                    </label>
+                </div>
+                <div class="api-key-wrapper">
+                    <div class="api-key-input-group">
+                        <input type="password" id="openaiKey" placeholder="OpenAI API Key (optional)" class="api-key-input">
+                        <button type="button" id="toggleApiKey" class="toggle-api-key-btn">
+                            <span class="toggle-text">Show</span>
+                        </button>
+                    </div>
+                    <label class="api-key-label">Enter your OpenAI API key to generate meaningful file names automatically</label>
+                </div>
+                <div id="fileList" class="file-list"></div>
+                <button type="submit" id="convertBtn" class="convert-btn" disabled>Transform Photos</button>
+            </form>
+        </div>
+        <div id="progressSection" class="progress-section" style="display: none;">
+            <div class="progress-bar">
+                <div class="progress" id="progressBar"></div>
+            </div>
+            <p id="progressText">Transforming photos...</p>
+        </div>
+        <div id="resultsSection" class="results-section"></div>
+    </div>
+</div>
+
+<style>
+    .image-helper {
+        padding: 2rem;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .container {
+        background: #fff;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 1rem;
+    }
+    .tool-description {
+        text-align: center;
+        color: #555;
+        margin-bottom: 2rem;
+        line-height: 1.5;
+    }
+    .upload-section {
+        margin-bottom: 2rem;
+    }
+    .file-input-wrapper {
+        position: relative;
+        margin-bottom: 1rem;
+    }
+    input[type="file"] {
+        display: none;
+    }
+    .file-label {
+        display: block;
+        padding: 1rem;
+        background: #f0f0f0;
+        border: 2px dashed #ccc;
+        border-radius: 4px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .file-label:hover {
+        background: #e0e0e0;
+        border-color: #999;
+    }
+    .file-list {
+        margin: 1rem 0;
+        max-height: 200px;
+        overflow-y: auto;
+    }
+    .file-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem;
+        background: #f8f8f8;
+        margin-bottom: 0.5rem;
+        border-radius: 4px;
+    }
+    .file-item select {
+        margin: 0 1rem;
+        padding: 0.25rem;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+    }
+    .convert-btn {
+        width: 100%;
+        padding: 1rem;
+        background: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1rem;
+        transition: background 0.3s ease;
+    }
+    .convert-btn:disabled {
+        background: #ccc;
+        cursor: not-allowed;
+    }
+    .convert-btn:hover:not(:disabled) {
+        background: #0056b3;
+    }
+    .progress-section {
+        margin: 2rem 0;
+    }
+    .progress-bar {
+        width: 100%;
+        height: 20px;
+        background: #f0f0f0;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .progress {
+        width: 0%;
+        height: 100%;
+        background: #28a745;
+        transition: width 0.3s ease;
+    }
+    .results-section {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+    .result-item {
+        text-align: center;
+    }
+    .result-item img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 4px;
+    }
+    .download-btn {
+        display: block;
+        margin-top: 0.5rem;
+        padding: 0.5rem;
+        background: #28a745;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background 0.3s ease;
+    }
+    .download-btn:hover {
+        background: #218838;
+    }
+    .api-key-wrapper {
+        margin: 1rem 0;
+    }
+    .api-key-input-group {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+    }
+    .api-key-input {
+        width: 100%;
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1rem;
+    }
+    .toggle-api-key-btn {
+        padding: 0.5rem 1rem;
+        background: #6c757d;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 0.875rem;
+        transition: background 0.3s ease;
+        white-space: nowrap;
+    }
+    .toggle-api-key-btn:hover {
+        background: #5a6268;
+    }
+    .api-key-label {
+        display: block;
+        margin-top: 0.25rem;
+        font-size: 0.875rem;
+        color: #666;
+    }
+    .zip-item {
+        background: #e6f7ff;
+        border-left: 3px solid #1890ff;
+    }
+    .extracted-item {
+        padding-left: 1.5rem;
+        background: #f9f9f9;
+        border-left: 1px solid #ddd;
+    }
+    .extracted-name {
+        font-size: 0.9em;
+        color: #555;
+    }
+    .error-item {
+        background: #fff1f0;
+        border-left: 3px solid #ff4d4f;
+    }
+    .loading {
+        background: #fffbe6;
+        border-left: 3px solid #faad14;
+        text-align: center;
+    }
+    .summary-section {
+        grid-column: 1 / -1;
+        text-align: center;
+        padding: 1.5rem;
+        background: #f0f8ff;
+        border-radius: 8px;
+        margin-bottom: 2rem;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .summary-section h3 {
+        margin-top: 0;
+        color: #333;
+    }
+    .download-zip-btn {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        background: #1890ff;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 1.1rem;
+        margin-top: 1rem;
+        transition: background 0.3s ease;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .download-zip-btn:hover {
+        background: #0056b3;
+    }
+    .download-icon {
+        margin-right: 0.5rem;
+    }
+    .gallery-section {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+    .thumbnail {
+        text-align: center;
+    }
+    .thumbnail img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 4px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    .thumbnail-name {
+        display: block;
+        font-size: 0.8rem;
+        color: #666;
+        margin-top: 0.5rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .error-message {
+        color: #ff4d4f;
+        font-size: 0.9rem;
+    }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/heic2any@0.0.4/dist/heic2any.min.js"></script>
+<script type="module">
+    import OpenAI from 'https://esm.sh/openai@4.0.0';
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.getElementById('uploadForm');
+        const fileInput = document.getElementById('heicInput');
+        const openaiKeyInput = document.getElementById('openaiKey');
+        const fileList = document.getElementById('fileList');
+        const convertBtn = document.getElementById('convertBtn');
+        const progressSection = document.getElementById('progressSection');
+        const progressBar = document.getElementById('progressBar');
+        const progressText = document.getElementById('progressText');
+        const resultsSection = document.getElementById('resultsSection');
+        const toggleApiKeyBtn = document.getElementById('toggleApiKey');
+
+        let selectedFiles = [];
+        let openaiClient = null;
+
+        function initializeOpenAI(apiKey) {
+            openaiClient = new OpenAI({
+                apiKey: apiKey,
+                dangerouslyAllowBrowser: true
+            });
+        }
+
+        // Function to process a zip file and extract supported image files
+        async function processZipFile(zipFile) {
+            try {
+                const zipData = await JSZip.loadAsync(zipFile);
+                const extractedFiles = [];
+
+                // Process all files in the zip recursively
+                const processEntries = async (entries, path = '') => {
+                    for (const [filename, entry] of Object.entries(entries)) {
+                        const fullPath = path ? `${path}/${filename}` : filename;
+
+                        if (entry.dir) {
+                            // If it's a directory, process its contents recursively
+                            await processEntries(entry.files, fullPath);
+                        } else {
+                            // Check if it's a supported image file
+                            const fileExt = filename.split('.').pop().toLowerCase();
+                            if (['heic', 'jpg', 'jpeg', 'png'].includes(fileExt)) {
+                                // Get the file as a blob
+                                const blob = await entry.async('blob');
+                                // Create a File object with the original name
+                                const file = new File([blob], filename, { type: getFileType(fileExt) });
+                                extractedFiles.push(file);
+                            } else if (fileExt === 'zip') {
+                                // Handle nested zip files
+                                const blob = await entry.async('blob');
+                                const nestedZipFile = new File([blob], filename, { type: 'application/zip' });
+                                const nestedFiles = await processZipFile(nestedZipFile);
+                                extractedFiles.push(...nestedFiles);
+                            }
+                        }
+                    }
+                };
+
+                await processEntries(zipData.files);
+                return extractedFiles;
+            } catch (error) {
+                console.error('Error processing zip file:', error);
+                throw error;
+            }
+        }
+
+        // Helper function to get the MIME type for a file extension
+        function getFileType(extension) {
+            const types = {
+                'heic': 'image/heic',
+                'jpg': 'image/jpeg',
+                'jpeg': 'image/jpeg',
+                'png': 'image/png'
+            };
+            return types[extension] || 'application/octet-stream';
+        }
+
+        // Initialize OpenAI client when API key changes
+        openaiKeyInput.addEventListener('change', function() {
+            if (this.value.trim()) {
+                initializeOpenAI(this.value.trim());
+            } else {
+                openaiClient = null;
+            }
+        });
+
+        function resizeImage(file, targetPpi = 72, maxDimension = 1920) {
+            return new Promise((resolve, reject) => {
+                const reader = new FileReader();
+
+                reader.onload = function(event) {
+                    const img = new Image();
+                    img.onload = function() {
+                        const canvas = document.createElement('canvas');
+                        const ctx = canvas.getContext('2d');
+
+                        // Calculate PPI scaling
+                        const currentPpi = 96; // Default PPI for browsers
+                        const scaleFactor = targetPpi / currentPpi;
+                        let newWidth = img.width * scaleFactor;
+                        let newHeight = img.height * scaleFactor;
+
+                        // Apply maximum dimension constraint while maintaining aspect ratio
+                        if (newWidth > maxDimension || newHeight > maxDimension) {
+                            if (newWidth > newHeight) {
+                                newHeight = (maxDimension / newWidth) * newHeight;
+                                newWidth = maxDimension;
+                            } else {
+                                newWidth = (maxDimension / newHeight) * newWidth;
+                                newHeight = maxDimension;
+                            }
+                        }
+
+                        canvas.width = newWidth;
+                        canvas.height = newHeight;
+
+                        ctx.drawImage(img, 0, 0, newWidth, newHeight);
+
+                        const resizedImageData = canvas.toDataURL('image/png');
+                        resolve(resizedImageData);
+                    };
+                    img.onerror = reject;
+                    img.src = event.target.result;
+                };
+                reader.onerror = reject;
+                reader.readAsDataURL(file);
+            });
+        }
+
+        fileInput.addEventListener('change', async function(e) {
+            const files = Array.from(e.target.files);
+            fileList.innerHTML = '';
+            selectedFiles = [];
+
+            // Show loading message
+            const loadingItem = document.createElement('div');
+            loadingItem.className = 'file-item loading';
+            loadingItem.innerHTML = `<span>Processing files...</span>`;
+            fileList.appendChild(loadingItem);
+
+            // Process each file, extracting from zip files if necessary
+            for (const file of files) {
+                const fileExt = file.name.split('.').pop().toLowerCase();
+
+                if (fileExt === 'zip') {
+                    try {
+                        // Process zip file
+                        const extractedFiles = await processZipFile(file);
+                        if (extractedFiles.length > 0) {
+                            selectedFiles.push(...extractedFiles);
+
+                            // Add zip file entry with count of extracted images
+                            const zipItem = document.createElement('div');
+                            zipItem.className = 'file-item zip-item';
+                            zipItem.innerHTML = `
+                                <span>${file.name} (${extractedFiles.length} images)</span>
+                                <span>${(file.size / 1024 / 1024).toFixed(2)} MB</span>
+                            `;
+                            fileList.appendChild(zipItem);
+
+                            // Add extracted files with indentation
+                            extractedFiles.forEach(extractedFile => {
+                                const extractedItem = document.createElement('div');
+                                extractedItem.className = 'file-item extracted-item';
+                                extractedItem.innerHTML = `
+                                    <span class="extracted-name">└─ ${extractedFile.name}</span>
+                                    <span>${(extractedFile.size / 1024 / 1024).toFixed(2)} MB</span>
+                                `;
+                                fileList.appendChild(extractedItem);
+                            });
+                        } else {
+                            // No supported images found in zip
+                            const noImagesItem = document.createElement('div');
+                            noImagesItem.className = 'file-item error-item';
+                            noImagesItem.innerHTML = `
+                                <span>${file.name} (No supported images found)</span>
+                                <span>${(file.size / 1024 / 1024).toFixed(2)} MB</span>
+                            `;
+                            fileList.appendChild(noImagesItem);
+                        }
+                    } catch (error) {
+                        // Error processing zip
+                        const errorItem = document.createElement('div');
+                        errorItem.className = 'file-item error-item';
+                        errorItem.innerHTML = `
+                            <span>${file.name} (Error: ${error.message})</span>
+                            <span>${(file.size / 1024 / 1024).toFixed(2)} MB</span>
+                        `;
+                        fileList.appendChild(errorItem);
+                    }
+                } else if (['heic', 'jpg', 'jpeg', 'png'].includes(fileExt)) {
+                    // Regular image file
+                    selectedFiles.push(file);
+                    const fileItem = document.createElement('div');
+                    fileItem.className = 'file-item';
+                    fileItem.innerHTML = `
+                        <span>${file.name}</span>
+                        <span>${(file.size / 1024 / 1024).toFixed(2)} MB</span>
+                    `;
+                    fileList.appendChild(fileItem);
+                }
+            }
+
+            // Remove loading message
+            fileList.removeChild(loadingItem);
+
+            // Enable/disable convert button
+            convertBtn.disabled = selectedFiles.length === 0;
+        });
+
+        async function getImageDescription(imageUrl) {
+            try {
+                if (!openaiClient) {
+                    initializeOpenAI(openaiKeyInput.value.trim());
+                }
+
+                if (!openaiClient) {
+                    throw new Error('OpenAI client not initialized');
+                }
+
+                const response = await openaiClient.chat.completions.create({
+                    model: "gpt-4o-mini",
+                    messages: [
+                        {
+                            role: "user",
+                            content: [
+                                {
+                                    type: "text",
+                                    text: "What is in this image? Respond with 2-3 descriptive words separated by underscores that would make a meaningful filename. For example: 'wooden_boardwalk_nature' or 'cat_sleeping_window'"
+                                },
+                                {
+                                    type: "image_url",
+                                    image_url: {url: imageUrl}
+                                }
+                            ]
+                        }
+                    ],
+                    max_tokens: 300
+                });
+
+                if (!response.choices || !response.choices.length) {
+                    throw new Error('No response from OpenAI');
+                }
+
+                return response.choices[0].message.content.trim().toLowerCase();
+            } catch (error) {
+                console.error('Error getting image description:', error);
+                return null;
+            }
+        }
+
+        async function generateUniqueFileName(baseName, existingNames) {
+            let counter = 1;
+            let newName = baseName;
+
+            while (existingNames.includes(newName)) {
+                newName = `${baseName}_${counter}`;
+                counter++;
+            }
+
+            return newName;
+        }
+
+        // Function to create a ZIP file containing all processed images
+        async function createZipWithProcessedImages(processedImages) {
+            const zip = new JSZip();
+
+            // Add each processed image to the ZIP
+            for (const image of processedImages) {
+                const response = await fetch(image.url);
+                const blob = await response.blob();
+                zip.file(image.fileName, blob);
+            }
+
+            // Generate the ZIP file
+            const zipBlob = await zip.generateAsync({ type: 'blob' });
+            return URL.createObjectURL(zipBlob);
+        }
+
+        form.addEventListener('submit', async function(e) {
+            console.log('Form submission started');
+            e.preventDefault();
+            convertBtn.disabled = true;
+            progressSection.style.display = 'block';
+            resultsSection.innerHTML = '';
+
+            const existingFileNames = new Set();
+            const hasOpenAIKey = openaiKeyInput.value.trim() !== '';
+            const processedImages = [];
+            const isMultipleImages = selectedFiles.length > 1;
+
+            for (let i = 0; i < selectedFiles.length; i++) {
+                const file = selectedFiles[i];
+                console.log(`Processing file ${i + 1}/${selectedFiles.length}: ${file.name}`);
+                progressText.textContent = `Transforming ${file.name}...`;
+                progressBar.style.width = `${(i / selectedFiles.length) * 100}%`;
+
+                try {
+                    let imageData;
+                    const fileExt = file.name.split('.').pop().toLowerCase();
+                    console.log('Processing file type:', fileExt);
+
+                    if (fileExt === 'heic') {
+                        const blob = await heic2any({
+                            blob: file,
+                            toType: 'image/png',
+                            quality: 0.9
+                        });
+                        imageData = await resizeImage(blob);
+                    } else if (['jpg', 'jpeg', 'png'].includes(fileExt)) {
+                        imageData = await resizeImage(file);
+                    }
+
+                    // Convert base64 to blob for download
+                    const base64Data = imageData.split(',')[1]; // Remove the data:image/png;base64, prefix
+                    const response = await fetch(imageData);
+                    const blob = await response.blob();
+
+                    // Create download link with object URL
+                    const downloadUrl = URL.createObjectURL(blob);
+                    let fileName = file.name.replace(/\.[^/.]+$/, '') + '.png';
+
+                    // If OpenAI API key is provided, get AI-generated filename using base64
+                    if (hasOpenAIKey) {
+                        progressText.textContent = `Getting AI description for ${file.name}...`;
+                        let base64String = `data:image/png;base64,${base64Data}`;
+                        console.log('Base64 string:', base64String);
+                        const description = await getImageDescription(base64String);
+                        if (description) {
+                            const suggestedName = `${description}.png`;
+                            fileName = await generateUniqueFileName(suggestedName, Array.from(existingFileNames));
+                            existingFileNames.add(fileName);
+                        }
+                    }
+
+                    // Store processed image info for potential ZIP creation
+                    processedImages.push({
+                        url: downloadUrl,
+                        fileName: fileName,
+                        originalName: file.name
+                    });
+
+                    // Only add individual download buttons if not creating a ZIP
+                    if (!isMultipleImages) {
+                        const resultItem = document.createElement('div');
+                        resultItem.className = 'result-item';
+                        resultItem.innerHTML = `
+                            <img src="${downloadUrl}" alt="${fileName}">
+                            <a href="${downloadUrl}" download="${fileName}" class="download-btn">Download</a>
+                        `;
+                        resultsSection.appendChild(resultItem);
+                    }
+                } catch (error) {
+                    console.error(`Error transforming ${file.name}:`, error);
+                    const errorItem = document.createElement('div');
+                    errorItem.className = 'result-item';
+                    errorItem.innerHTML = `
+                        <p>Error transforming ${file.name}</p>
+                        <p class="error-message">${error.message}</p>
+                    `;
+                    resultsSection.appendChild(errorItem);
+                }
+            }
+
+            // If multiple images were processed, create a ZIP file
+            if (isMultipleImages && processedImages.length > 0) {
+                progressText.textContent = 'Creating ZIP file with all transformed images...';
+
+                try {
+                    // Create a ZIP file with all processed images
+                    const zipUrl = await createZipWithProcessedImages(processedImages);
+                    const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+                    const zipFileName = `transformed_images_${timestamp}.zip`;
+
+                    // Create a summary section
+                    const summarySection = document.createElement('div');
+                    summarySection.className = 'summary-section';
+                    summarySection.innerHTML = `
+                        <h3>Transformation Complete</h3>
+                        <p>${processedImages.length} images have been successfully transformed.</p>
+                        <a href="${zipUrl}" download="${zipFileName}" class="download-zip-btn">
+                            <span class="download-icon">📦</span>
+                            Download All Images as ZIP
+                        </a>
+                    `;
+                    resultsSection.appendChild(summarySection);
+
+                    // Also display thumbnails of the processed images
+                    const gallerySection = document.createElement('div');
+                    gallerySection.className = 'gallery-section';
+
+                    processedImages.forEach(image => {
+                        const thumbnail = document.createElement('div');
+                        thumbnail.className = 'thumbnail';
+                        thumbnail.innerHTML = `
+                            <img src="${image.url}" alt="${image.fileName}">
+                            <span class="thumbnail-name">${image.fileName}</span>
+                        `;
+                        gallerySection.appendChild(thumbnail);
+                    });
+
+                    resultsSection.appendChild(gallerySection);
+                } catch (error) {
+                    console.error('Error creating ZIP file:', error);
+                    const errorItem = document.createElement('div');
+                    errorItem.className = 'result-item error-item';
+                    errorItem.innerHTML = `
+                        <p>Error creating ZIP file</p>
+                        <p class="error-message">${error.message}</p>
+                        <p>You can still download individual images below.</p>
+                    `;
+                    resultsSection.appendChild(errorItem);
+
+                    // Display individual download buttons as fallback
+                    processedImages.forEach(image => {
+                        const resultItem = document.createElement('div');
+                        resultItem.className = 'result-item';
+                        resultItem.innerHTML = `
+                            <img src="${image.url}" alt="${image.fileName}">
+                            <a href="${image.url}" download="${image.fileName}" class="download-btn">Download</a>
+                        `;
+                        resultsSection.appendChild(resultItem);
+                    });
+                }
+            }
+
+            progressText.textContent = 'Transformation complete!';
+            progressBar.style.width = '100%';
+            convertBtn.disabled = false;
+        });
+
+        toggleApiKeyBtn.addEventListener('click', function() {
+            const input = document.getElementById('openaiKey');
+            const toggleText = this.querySelector('.toggle-text');
+            if (input.type === 'password') {
+                input.type = 'text';
+                toggleText.textContent = 'Hide';
+            } else {
+                input.type = 'password';
+                toggleText.textContent = 'Show';
+            }
+        });
+    });
+</script>
