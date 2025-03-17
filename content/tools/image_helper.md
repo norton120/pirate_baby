@@ -1,7 +1,5 @@
 ---
 title: "Photo Transformer for Web"
-menus: 'main'
-layout: "single"
 comments: false
 hideTitle: true
 ShowReadingTime: false
