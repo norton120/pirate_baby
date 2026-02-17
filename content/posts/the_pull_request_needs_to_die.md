@@ -42,7 +42,7 @@ The upheaval of a system always creates new opportunities for regression \- and 
 
 ### A Different Kind Of Bug
 
-The insidious nature of this moment in agentic coding is the way in which code horror now forms from within.The nightmare vibe spaghetti times of 2023 are thankfully over (there is no helping the poor langfuse-infested codebases from that time), but today’s evil is in many ways much more sinister. Horrific architectural time bombs burrow silently like tab-indented *Manchurian Candidates*. How do these differ?
+The insidious nature of this moment in agentic coding is the way in which code horror now forms from within.The nightmare vibe spaghetti times of 2023 are thankfully over (there is no helping the poor langchain-infested codebases from that time), but today’s evil is in many ways much more sinister. Horrific architectural time bombs burrow silently like tab-indented *Manchurian Candidates*. How do these differ?
 
 > 🧑‍💻”hey everything looks great, except it seems weird to me that you had to add a `Users` model to the ORM. This app is over a year old. How is it possible we do not have a `Users` model yet?”
 >
