@@ -47,13 +47,13 @@ The insidious nature of this moment in agentic coding is the way in which code h
 > 🧑‍💻”hey everything looks great, except it seems weird to me that you had to add a `Users` model to the ORM. This app is over a year old. How is it possible we do not have a `Users` model yet?”
 >
 > 🤖”you’re absolutely right\! The ORM model is called `User`, I shouldn’t have added another model that will be confusing and cause problems.”
-
+ ---
 > 🧑‍💻”how is this test passing when it is calling Redis?”
 >
 > 🤖”I mocked out all the Redis calls due to an unrelated network issue, our code is correct and all tests pass.”
 >
 > 🧑”but we don’t use Redis…”
-
+ ---
 > 🧑‍💻”Why did you update all the joins in our database module?”
 >
 > 🤖”to resolve issues with database session scope I simplified by eager joining the models”
