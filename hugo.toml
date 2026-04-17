@@ -22,7 +22,7 @@ disqusShortname = 'https-pirate-baby'
   comments = true
   env = 'production'
   hideSummary = true
-  description = 'Data Engineering and Machine Learning Consulting'
+  description = 'A tech blog by Ethan Knox — AI, Data Engineering, ML, and Infrastructure'
   defaultTheme = 'auto'
   ShowReadingTime = true
   displayFullLangName = false
@@ -45,19 +45,15 @@ disqusShortname = 'https-pirate-baby'
   [:building_construction: **Infra**](/tags/infra) :black_medium_small_square:
   [:computer: **Ops**](/tags/ops)
 
-  {{< box info >}}
-  The future of software is <b>[software that builds itself](/generative-driven-design)</b>.<br/>
-  Want to forge the code of tomorrow with us? <u>[find out more](/gdd-interest-form)</u>.
-  {{</box>}}
   '''
 
 [[params.SocialIcons]]
   name = 'linkedin'
-  url = 'https://www.linkedin.com/company/pirate-baby'
+  url = 'https://www.linkedin.com/in/ethan-knox/'
 
 [[params.SocialIcons]]
   name = 'github'
-  url = 'https://github.com/pirate-baby'
+  url = 'https://github.com/norton120'
 
 [[params.SocialIcons]]
   name = 'medium'
