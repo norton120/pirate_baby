@@ -71,9 +71,9 @@ I wrote about this a while back that [the Pull Request needs to die](https://pir
 
 
 
-*Say you have eight developers on a team today. You likely have six with Claude on mostly autonomous loops coding a ticket, pushing a PR, responding to comments, and then merging.*
+*Say you have ten developers on a team today. You likely have eight with Claude on mostly autonomous loops coding a ticket, pushing a PR, responding to comments, and then merging.*
 
-*You have two devs actually reading ALL the code that eight devs are generating (their own code as part of development, and then everyone else's code in the PR review process). You effectively have six people behaving as very expensive cron jobs, and two people burning the fuck out as human batteries, powering the workload of the whole team. The PR process encourages this, because the six cron jobs still look amazing based on the mismatched way the old flow measures contribution. :man_facepalming:.*
+*You have two devs actually reading ALL the code that ten devs are generating (their own code as part of development, and then everyone else's code in the PR review process). You effectively have eight people behaving as very expensive cron jobs, and two people burning the fuck out as human batteries, powering the workload of the whole team. The PR process encourages this, because the eight cron jobs still look amazing based on the mismatched way the old flow measures contribution. :man_facepalming:.*
 
 {{< /box >}}
 
