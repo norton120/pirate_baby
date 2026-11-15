@@ -1,0 +1,31 @@
+<style>
+  img.zoomable { cursor: zoom-in; }
+  #img-lightbox {
+    position: fixed; inset: 0; z-index: 9999;
+    display: none; align-items: center; justify-content: center;
+    background: rgba(0,0,0,.9); cursor: zoom-out;
+  }
+  #img-lightbox.open { display: flex; }
+  #img-lightbox img { max-width: 95vw; max-height: 95vh; object-fit: contain; }
+</style>
+<div id="img-lightbox"><img alt=""></div>
+<script>
+  (function () {
+    var box = document.getElementById('img-lightbox');
+    var big = box.querySelector('img');
+    function close() { box.classList.remove('open'); document.body.style.overflow = ''; }
+
+    document.querySelectorAll('img.zoomable').forEach(function (img) {
+      img.addEventListener('click', function (e) {
+        e.preventDefault();
+        big.src = img.currentSrc || img.src;
+        big.alt = img.alt;
+        box.classList.add('open');
+        document.body.style.overflow = 'hidden';
+      });
+    });
+
+    box.addEventListener('click', close);
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+  })();
+</script>
